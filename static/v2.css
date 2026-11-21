@@ -293,16 +293,16 @@ body.v2s main { max-width: none; padding: 0; margin: 0; }
 body.legacy .top-in, body.legacy .foot-in { max-width: var(--wrap); }
 
 /* Forsiden: quiz og dagens fugl i samme bredde */
-body.home main { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+body.home main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut) 72px; }
 body.home main .wrap { max-width: none; padding-left: 0; padding-right: 0; }
 body.home .quiz { max-width: none; }
-body.home .chips { margin-left: -24px; margin-right: -24px; }
-body.home .chips-in { padding-left: 24px; padding-right: 24px; }
+body.home .chips { margin-left: calc(-1 * var(--gut)); margin-right: calc(-1 * var(--gut)); }
+body.home .chips-in { padding-left: var(--gut); padding-right: var(--gut); }
 body.home .head .name { font-size: clamp(2.2rem, 6vw, 3.2rem); }
 body.home .kicker { margin: 0 0 4px; width: 100%; }
 body.home .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 body.home .pgrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-@media (max-width: 640px) { body.home main { padding: 0 16px; } body.home .chips { margin-left: -16px; margin-right: -16px; } body.home .chips-in { padding-left: 16px; padding-right: 16px; } body.home .pgrid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 640px) { body.home .pgrid { grid-template-columns: minmax(0, 1fr); } }
 body.home .quiz.collapsed > :not(.kicker):not(.quiz-result):not(.quiz-stats):not(.quiz-toggle):not(script) { display: none !important; }
 body.home .quiz.collapsed { padding-bottom: 4px; }
 body.home .quiz.collapsed .quiz-result { margin-top: 8px; }
@@ -322,3 +322,13 @@ body.home #reveal { margin-top: 48px; }
 .news-note { font-size: 0.82rem; margin-top: 10px !important; }
 .news-note a { color: inherit; }
 @media (max-width: 760px) { .news-in { grid-template-columns: minmax(0, 1fr); } }
+
+/* Samme bredde og margen som header og footer på alle ældre sider */
+body.legacy main { max-width: var(--wrap); margin: 0 auto; padding: 8px var(--gut) 80px; box-sizing: border-box; }
+body.home .facts { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) { body.home .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* Nyhedsbrev: mere luft og ingen tom linje */
+.news-in { padding-top: 64px; padding-bottom: 64px; align-items: start; }
+.news .signup-msg:empty { display: none; }
+.news-note { margin-top: 14px !important; }
+.foot-in { padding-top: 56px; padding-bottom: 64px; }
