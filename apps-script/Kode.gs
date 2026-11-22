@@ -34,7 +34,7 @@ function page_(title, text) {
     '<body style="margin:0;background:#f6f5f1;font-family:Arial,sans-serif;color:#1d211f"><div style="max-width:480px;margin:60px auto;padding:0 20px">' +
     '<p style="color:#2e6a4f;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px">' + NAME + '</p>' +
     '<h1 style="font-family:Georgia,serif">' + title + '</h1><p style="font-size:17px;line-height:1.5">' + text + '</p>' +
-    '<p><a href="' + SITE + '" style="display:inline-block;background:#2e6a4f;color:#fff;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:99px">Gå til Dagens Fugl</a></p></div></body></html>';
+    '<p><a href="' + SITE + '" target="_top" style="display:inline-block;background:#2e6a4f;color:#fff;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:99px">Gå til Dagens Fugl</a></p></div></body></html>';
   return HtmlService.createHtmlOutput(html).setTitle(title);
 }
 
