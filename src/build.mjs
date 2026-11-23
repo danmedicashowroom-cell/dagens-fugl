@@ -386,17 +386,39 @@ function speciesBody(d, { headingTag = 'h1', kicker = '' } = {}) {
 </article>`;
 }
 
+function akaNames(d) {
+  const a = d.tekst?.andre_navne;
+  return Array.isArray(a) ? a.filter(Boolean) : [];
+}
+
 function metaDescription(d) {
+  // Kendetegnet først, så Google viser noget konkret om fuglen; derefter hvad siden tilbyder, så langt der er plads.
   const name = displayName(d);
-  const bits = [];
-  if (PLUMAGE.slice(0, 3).some((g) => d.photos?.[g.key]?.length)) bits.push('billeder af han, hun og ungfugl');
-  if (d.gbif?.dkTotal >= 20) bits.push('hvornår den ses i Danmark');
-  if (d.gbif?.worldTotal) bits.push('kort over hvor den findes');
-  const base = `${name} (${d.names.accepted})`;
-  const tail = bits.length ? `: ${bits.join(', ')}.` : '.';
-  const first = d.tekst?.kendetegn || d.wiki?.extract || '';
-  const extra = first ? ` ${first.split(/(?<=\.)\s/)[0]}` : '';
-  return clip(base + tail + extra, 158);
+  const aka = akaNames(d);
+  const base = `${name} (${d.names.accepted})${aka.length ? `, også kaldt ${aka.join(' eller ')}` : ''}.`;
+  const first = (d.tekst?.kendetegn || (d.wiki?.lang === 'da' ? d.wiki.extract : '') || '').split(/(?<=\.)\s/)[0] || '';
+  const offers = [];
+  if (PLUMAGE.slice(0, 3).some((g) => d.photos?.[g.key]?.length)) offers.push('se billeder af han, hun og ungfugl');
+  if (d.sound?.src?.length) offers.push('hør stemmen');
+  if (d.gbif?.dkTotal >= 20) offers.push('se hvornår den er i Danmark');
+  else if (d.gbif?.worldTotal) offers.push('se hvor i verden den lever');
+  let text = first ? `${base} ${first}` : base;
+  const sentence = (xs) => { const t = xs.join(', '); return t.charAt(0).toUpperCase() + t.slice(1) + '.'; };
+  const picked = [];
+  for (const o of offers) {
+    if (`${text} ${sentence([...picked, o])}`.length > 158) break;
+    picked.push(o);
+  }
+  if (picked.length) text += ` ${sentence(picked)}`;
+  return clip(text, 158);
+}
+
+function speciesTitle(d) {
+  const aka = akaNames(d);
+  const name = displayName(d) + (aka.length ? ` (${aka[0]})` : '');
+  return d.region === 'dk'
+    ? `${name} – kendetegn, ${d.sound?.src?.length ? 'stemme og ' : ''}billeder`
+    : `${name} – fakta, billeder og udbredelse`;
 }
 
 function clip(text, max) {
@@ -408,7 +430,7 @@ function clip(text, max) {
 // ---------------- Sideskabelon ----------------
 let V2 = null;
 const v2 = () => V2 || (V2 = makeV2({ esc, url, abs, nf, SITE_NAME, MONTHS, MONTHS_SHORT, regionNames, displayName, size, srcset, credit,
-  relMonths, seasonText, rangeText, seasonNow, speciesJsonLd, metaDescription, mailto, CF_BEACON, SIGNUP_URL }));
+  relMonths, seasonText, rangeText, seasonNow, speciesJsonLd, metaDescription, speciesTitle, akaNames, mailto, CF_BEACON, SIGNUP_URL }));
 
 // Fælles sideskabelon (nyt design). Ældre sider beholder deres egne komponenter fra style.css.
 function page(opts) {

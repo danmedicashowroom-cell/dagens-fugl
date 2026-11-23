@@ -4,7 +4,7 @@
 
 export function makeV2(h) {
   const { esc, url, abs, nf, SITE_NAME, MONTHS, MONTHS_SHORT, regionNames, displayName, size, srcset, credit,
-    relMonths, seasonText, rangeText, seasonNow, speciesJsonLd, metaDescription, mailto, CF_BEACON, SIGNUP_URL } = h;
+    relMonths, seasonText, rangeText, seasonNow, speciesJsonLd, metaDescription, speciesTitle, akaNames, mailto, CF_BEACON, SIGNUP_URL } = h;
   const P = (p) => url(p);
   const VER = Date.now().toString(36); // nyt filnavn ved hver bygning, så browsere ikke bruger gammel CSS/JS
   const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
@@ -177,7 +177,9 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     const t = d.tekst;
     const parts = [['kendetegn', 'Kendetegn'], ['stemme', 'Stemme'], ['levested', 'Hvor lever den?'], ['foede', 'Hvad spiser den?'], ['i_danmark', 'I Danmark']];
     let inner;
-    if (t) inner = parts.filter(([k]) => t[k]).map(([k, hd]) => `<h3>${hd}</h3><p>${esc(t[k])}</p>`).join('') + `<p class="src">Tekst: ${esc(SITE_NAME)}.${d.wiki ? ` Læs mere på <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>.` : ''}</p>`;
+    const aka = akaNames(d);
+    const akaP = aka.length ? `<p class="aka">${esc(name)} kaldes også ${aka.map((a) => `<b>${esc(a)}</b>`).join(' eller ')}.</p>` : '';
+    if (t) inner = akaP + parts.filter(([k]) => t[k]).map(([k, hd]) => `<h3>${hd}</h3><p>${esc(t[k])}</p>`).join('') + `<p class="src">Tekst: ${esc(SITE_NAME)}.${d.wiki ? ` Læs mere på <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>.` : ''}</p>`;
     else if (d.wiki?.extract) inner = `<div${d.wiki.lang !== 'da' ? ' lang="en"' : ''}><p>${esc(d.wiki.extract).replace(/\n+/g, '</p><p>')}</p></div><p class="src">Tekst fra <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a>.</p>`;
     else return '';
     return `<section class="sec" id="om"><h2>Om fuglen</h2><div class="prose">${inner}</div></section>`;
@@ -320,7 +322,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     const ld = speciesJsonLd(d, abs(`fugle/${d.slug}/`));
     if (faqs.length) ld.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) });
     return page({
-      title: `${name} (${d.names.accepted}) – fjerdragt, hvor og hvornår | ${SITE_NAME}`,
+      title: `${speciesTitle(d)} | ${SITE_NAME}`,
       description: metaDescription(d),
       canonical: abs(`fugle/${d.slug}/`),
       image: d.photos?.hero?.large || d.photos?.hero?.medium,

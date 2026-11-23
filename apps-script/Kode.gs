@@ -99,6 +99,12 @@ function doGet(e) {
 /** Sendes hver morgen af en tidsudløser (se opsaetning). */
 function sendMorgenmail() {
   var data = JSON.parse(UrlFetchApp.fetch(SITE + '/mail.json?t=' + Date.now(), { muteHttpExceptions: false }).getContentText());
+  // Send aldrig gårsdagens fugl: er natbygningen forsinket, springes dagens udsendelse over.
+  var today = Utilities.formatDate(new Date(), 'Europe/Copenhagen', 'yyyy-MM-dd');
+  if (data.date !== today) {
+    console.warn('Sprunget over: mail.json har dato ' + data.date + ', men i dag er ' + today + '.');
+    return;
+  }
   var r = rows_();
   var sent = 0;
   for (var i = 1; i < r.v.length; i++) {
