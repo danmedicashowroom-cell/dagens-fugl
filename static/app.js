@@ -338,6 +338,61 @@
       var left = 24 * 60 - (Number(p[0]) * 60 + Number(p[1]));
       return Math.floor(left / 60) + ' t ' + (left % 60) + ' min';
     }
+    function iconMarks() { return steps.map(function (st, i) { return STEPICON[st.t] + mark(i); }).join(' '); }
+    var ORD = ['første', 'andet', 'tredje'];
+    // Billedkort til deling – samme udtryk som det mørke resultatkort
+    function makeCard(cb) {
+      var c = document.createElement('canvas');
+      if (!c.getContext || !c.toBlob) return;
+      var W = 1200, H = 630; c.width = W; c.height = H;
+      var x = c.getContext('2d');
+      var F = '"Inter", system-ui, -apple-system, "Segoe UI", sans-serif';
+      var draw = function () {
+        var n = day.guesses.length, green = '#5fd39a', fill = '#24996a', red = '#e0735c';
+        function rr(px, py, w, h, r) { x.beginPath(); x.moveTo(px + r, py); x.arcTo(px + w, py, px + w, py + h, r); x.arcTo(px + w, py + h, px, py + h, r); x.arcTo(px, py + h, px, py, r); x.arcTo(px, py, px + w, py, r); x.closePath(); }
+        x.fillStyle = '#0d0f0e'; x.fillRect(0, 0, W, H);
+        rr(40, 40, W - 80, H - 80, 36); x.fillStyle = '#151816'; x.fill(); x.lineWidth = 2; x.strokeStyle = '#262b28'; x.stroke();
+        var L = 100;
+        x.textBaseline = 'alphabetic';
+        x.fillStyle = '#f2f4f3'; x.font = '700 34px ' + F;
+        if ('letterSpacing' in x) x.letterSpacing = '2px';
+        x.fillText('DAGENS FUGL #' + qd.no, L, 128);
+        if ('letterSpacing' in x) x.letterSpacing = '0px';
+        // pille øverst til højre
+        var pill = day.won ? 'Gættet!' : 'Ikke gættet';
+        x.font = '600 28px ' + F; var pw = x.measureText(pill).width + 44;
+        rr(W - 100 - pw, 92, pw, 50, 25); x.fillStyle = day.won ? '#16382a' : '#3a2019'; x.fill();
+        x.fillStyle = day.won ? green : red; x.fillText(pill, W - 100 - pw + 22, 127);
+        // overskrift og undertekst
+        x.font = '700 84px ' + F; x.fillStyle = day.won ? green : '#f2f4f3';
+        x.fillText(day.won ? n + '. forsøg' : 'Ikke i dag', L, 250);
+        x.font = '400 34px ' + F; x.fillStyle = '#b9c0bc';
+        x.fillText(day.won ? 'Fandt dagens fugl på ' + (ORD[n - 1] || n + '.') + ' forsøg!' : 'Dagens fugl slap væk – kan du gøre det bedre?', L, 312);
+        // forsøgskasser
+        var S = 96, G = 22, top = 360;
+        steps.forEach(function (st, i) {
+          var g = day.guesses[i], px = L + i * (S + G);
+          rr(px, top, S, S, 20);
+          if (g === answer) { x.fillStyle = fill; x.fill(); }
+          else if (g === undefined) { x.fillStyle = '#242826'; x.fill(); }
+          else if (g === '-') { x.fillStyle = '#1b1e1c'; x.fill(); x.setLineDash([8, 7]); x.lineWidth = 3; x.strokeStyle = '#4a514d'; x.stroke(); x.setLineDash([]); }
+          else { x.fillStyle = '#2e1c17'; x.fill(); x.lineWidth = 3; x.strokeStyle = red; x.stroke(); }
+          var cx = px + S / 2, cy = top + S / 2;
+          x.lineCap = 'round'; x.lineJoin = 'round'; x.lineWidth = 7;
+          if (g === answer) { x.strokeStyle = '#ffffff'; x.beginPath(); x.moveTo(cx - 18, cy + 1); x.lineTo(cx - 5, cy + 14); x.lineTo(cx + 19, cy - 13); x.stroke(); }
+          else if (g === '-') { x.strokeStyle = '#7c847f'; x.beginPath(); x.moveTo(cx - 14, cy); x.lineTo(cx + 14, cy); x.stroke(); }
+          else if (g !== undefined) { x.strokeStyle = red; x.beginPath(); x.moveTo(cx - 14, cy - 14); x.lineTo(cx + 14, cy + 14); x.moveTo(cx + 14, cy - 14); x.lineTo(cx - 14, cy + 14); x.stroke(); }
+          else { x.fillStyle = '#9aa29e'; x.font = '600 38px ' + F; x.textAlign = 'center'; x.fillText(String(i + 1), cx, cy + 13); x.textAlign = 'left'; }
+        });
+        // bund
+        x.fillStyle = '#262b28'; x.fillRect(L, 500, W - 2 * L, 2);
+        x.font = '400 30px ' + F; x.fillStyle = '#b9c0bc'; x.fillText('Ny fugl hver dag', L, 556);
+        x.font = '700 36px ' + F; x.fillStyle = '#f2f4f3'; x.textAlign = 'right'; x.fillText('dagensfugl.dk', W - L, 558); x.textAlign = 'left';
+        c.toBlob(function (b) { if (b) cb(new File([b], 'dagens-fugl-' + qd.no + '.png', { type: 'image/png' })); }, 'image/png');
+      };
+      if (document.fonts && document.fonts.load) Promise.all([document.fonts.load('700 34px Inter'), document.fonts.load('400 34px Inter')]).then(draw, draw);
+      else draw();
+    }
     function renderResult() {
       if (!day.done) { resEl.hidden = true; return; }
       resEl.hidden = false; resEl.innerHTML = '';
@@ -362,10 +417,28 @@
       line.appendChild(row0); line.appendChild(sum);
       var row = document.createElement('div'); row.className = 'more';
       var share = document.createElement('button'); share.type = 'button'; share.className = 'button'; share.textContent = 'Del resultat';
+      var shareFile = null;
+      makeCard(function (f) { shareFile = f; });
       share.addEventListener('click', function () {
-        var txt = 'Dagens Fugl #' + qd.no + '\n' + marks() + '\n' + summary() + (day.won && n === 1 ? ' 🎉' : '') + '\n' + location.origin + BASE + '/';
+        var url = location.origin + BASE + '/';
+        var short = 'Dagens Fugl #' + qd.no + ' – ' + (day.won ? 'gættet i ' + n + '. forsøg' + (n === 1 ? ' 🎉' : '') : 'ikke gættet i dag');
+        var txt = 'Dagens Fugl #' + qd.no + ' 🪶\n' + (day.won ? 'Gættet i ' + n + '. forsøg' + (n === 1 ? ' 🎉' : '') : 'Ikke gættet i dag') + '\n' + iconMarks() + '\n' + url;
+        // 1) Delemenu med billedkort (mobil, Chrome/Edge)
+        if (shareFile && navigator.canShare && navigator.canShare({ files: [shareFile] })) {
+          navigator.share({ files: [shareFile], text: short + '\n' + url }).catch(function () {});
+          return;
+        }
+        // 2) Delemenu kun med tekst
         if (navigator.share) { navigator.share({ text: txt }).catch(function () {}); return; }
-        (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { share.textContent = 'Kopieret ✓'; }, function () { window.prompt('Kopiér dit resultat:', txt); });
+        // 3) Kopiér billede + tekst, ellers kun tekst
+        var done = function (msg) { share.textContent = msg; };
+        var copyText = function () {
+          (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { done('Kopieret ✓'); }, function () { window.prompt('Kopiér dit resultat:', txt); });
+        };
+        if (shareFile && window.ClipboardItem && navigator.clipboard && navigator.clipboard.write) {
+          navigator.clipboard.write([new ClipboardItem({ 'image/png': shareFile, 'text/plain': new Blob([txt], { type: 'text/plain' }) })])
+            .then(function () { done('Billede kopieret ✓'); }, copyText);
+        } else copyText();
       });
       var read = document.createElement('a'); read.className = 'button ghost'; read.href = '#reveal'; read.textContent = 'Læs om ' + qd.name.toLowerCase() + ' ↓';
       row.appendChild(share); row.appendChild(read);
