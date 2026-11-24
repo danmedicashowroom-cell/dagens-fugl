@@ -73,7 +73,7 @@ ${SIGNUP_URL ? `<section class="news" aria-labelledby="news-h"><div class="wrap 
 </div></section>` : ''}
 <footer class="foot"><div class="wrap foot-in">
   <div><strong>${esc(SITE_NAME)}</strong><p>En ny fugl at gætte og lære om hver dag. Billeder, lyde og data fra åbne kilder, krediteret på hver side. Uden reklamer.</p></div>
-  <div><h2>Fugle</h2><a href="${url('fugle/danske/')}">Danske fugle</a><a href="${url('fugle/udenlandske/')}">Udenlandske fugle</a><a href="${url('maaned/')}">Måned for måned</a></div>
+  <div><h2>Fugle</h2><a href="${url('fugle/danske/')}">Danske fugle</a><a href="${url('fugle/udenlandske/')}">Udenlandske fugle</a><a href="${url('maaned/')}">Måned for måned</a><a href="${url('sammenlign/')}">Fugle der ligner hinanden</a></div>
   <div><h2>Om siden</h2><a href="${url('kilder/')}">Kilder og licenser</a><a href="${url('privatliv/')}">Privatliv</a><a href="${esc(mailto('Feedback til Dagens Fugl'))}">Giv feedback</a></div>
 </div></footer>
 <dialog class="lightbox" aria-label="Billede i stor størrelse"><button type="button" class="lb-close" aria-label="Luk">×</button><img alt=""><p class="lb-caption"></p></dialog>
@@ -249,9 +249,13 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     const name = displayName(d);
     const forv = (d.tekst?.forveksling || []).map((f) => ({ o: byKey.get(f.art), t: f.kort || f.tekst })).filter((x) => x.o);
     const fam = family(d).filter((x) => x.key !== d.key && !forv.some((f) => f.o.key === x.key)).slice(0, 10);
-    if (!forv.length && !fam.length) return '';
+    const cmp = (d.cmp || []).filter((o, i, a) => a.indexOf(o) === i);
+    if (!forv.length && !fam.length && !cmp.length) return '';
     const famName = d.taxon?.familyDa || d.taxon?.family;
+    const cmpNames = cmp.map((o) => displayName(o).toLowerCase());
+    const cmpText = cmpNames.length > 1 ? `${cmpNames.slice(0, -1).join(', ')} og ${cmpNames[cmpNames.length - 1]}` : cmpNames[0];
     return `<section class="sec" id="lignende">
+  ${cmp.length ? `<p class="cmp-link"><a class="btn" href="${P('sammenlign/')}#${esc(d.slug)}">Hør og se forskellen på ${esc(name.toLowerCase())} og ${esc(cmpText)} →</a></p>` : ''}
   ${forv.length ? `<h2>Kan forveksles med</h2><ul class="rel">${forv.map(({ o, t }) => `<li><a href="${P(`fugle/${o.slug}/`)}">${o.photos?.hero ? `<img src="${esc(size(o.photos.hero, 'small'))}" alt="" loading="lazy" width="96" height="96">` : ''}<span><strong>${esc(displayName(o))}</strong><i>${esc(o.names.accepted)}</i>${t ? `<span>${esc(t)}</span>` : ''}</span></a></li>`).join('')}</ul>` : ''}
   ${fam.length ? `<${forv.length ? 'h3' : 'h2'}>${forv.length ? '' : 'Lignende arter: '}${famName ? `${forv.length ? 'Samme familie' : 'samme familie'}: ${esc(famName)}` : `samme slægt som ${esc(name.toLowerCase())}`}</${forv.length ? 'h3' : 'h2'}><ul class="chips-list">${fam.map((o) => `<li><a href="${P(`fugle/${o.slug}/`)}">${esc(displayName(o))}</a></li>`).join('')}</ul>` : ''}
 </section>`;

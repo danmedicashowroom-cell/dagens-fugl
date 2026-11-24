@@ -10,6 +10,7 @@ import {
   SITE_NAME, SITE_URL, BASE_PATH, TIMEZONE, SCHEDULE_START, SCHEDULE_SEED, ALLOW_NONCOMMERCIAL,
 } from './config.mjs';
 import { makeV2 } from './v2.mjs';
+import { loadPairs, sammenlignPage } from './sammenlign.mjs';
 
 // Hvem står bag siden (vises på privatlivssiden). Sættes som repository variables i GitHub.
 const OWNER_NAME = process.env.OWNER_NAME || '';
@@ -489,6 +490,9 @@ function main() {
     species.push(d);
   }
   const byKey = new Map(species.map((d) => [d.key, d]));
+  // Forvekslingspar til sammenligningssiden (data/sammenligninger.json)
+  const PAIRS = loadPairs(readJson, path.join(ROOT, 'data', 'sammenligninger.json'), byKey).map((p) => ({ ...p, A: byKey.get(p.a), B: byKey.get(p.b) }));
+  for (const p of PAIRS) for (const [d, o] of [[p.A, p.B], [p.B, p.A]]) (d.cmp ||= []).push(o);
   // Dagens fugl skal kunne gættes ud fra både lyd og billede
   const ready = new Set([...byKey.values()].filter((d) => d.sound?.src?.length && d.photos?.hero).map((d) => d.key));
   const schedKeys = list.map((s) => s.key).filter((k) => ready.has(k)); // rækkefølgen laves kun over arter med lyd og billede
@@ -885,12 +889,16 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
   // --- Mine fugle (vises i browseren ud fra det, man selv har markeret) ---
   write('mine/index.html', v2().minePage());
 
+  // --- Sammenlign fugle der ligner hinanden ---
+  if (PAIRS.length) write('sammenlign/index.html', sammenlignPage(PAIRS, { esc, url, abs, size, credit, displayName, page: v2().page, SITE_NAME, photoOf: (d) => homeDD(d).photos?.hero }));
+
   // --- sitemap og robots ---
   const urls = [
     { loc: abs(''), freq: 'daily', lastmod: today },
     { loc: abs('fugle/'), freq: 'weekly' },
     { loc: abs('arkiv/'), freq: 'daily', lastmod: today },
     { loc: abs('kilder/'), freq: 'yearly' },
+    ...(PAIRS.length ? [{ loc: abs('sammenlign/'), freq: 'monthly' }] : []),
     ...extraUrls,
     ...species.map((d) => ({ loc: abs(speciesUrl(d)), freq: 'monthly', lastmod: d.fetchedAt.slice(0, 10) })),
   ];
