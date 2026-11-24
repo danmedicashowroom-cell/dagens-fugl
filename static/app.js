@@ -261,7 +261,18 @@
 
     function stage() { return day.done ? MAX - 1 : Math.min(day.guesses.length, MAX - 1); }
     function streakNow() { return (s.lastWin === iso || s.lastWin === addDay(iso, -1)) ? s.streak : 0; }
-    function marks() { return day.guesses.map(function (g) { return g === answer ? '🟩' : g === '-' ? '⬜' : '🟥'; }).join(''); }
+    // 🟩 rigtigt · 🟥 forkert · ⬛ sprunget over · ⬜ ikke brugt
+    function mark(i) { var g = day.guesses[i]; return g === undefined ? '⬜' : g === answer ? '🟩' : g === '-' ? '⬛' : '🟥'; }
+    function marks() { return steps.map(function (st, i) { return mark(i); }).join(''); }
+    var STEPNAME = { lyd: 'Lyd', billede: 'Billede', fakta: 'Fakta' };
+    var STEPICON = { lyd: '🔊', billede: '📷', fakta: '💡' };
+    function summary() {
+      var n = day.guesses.length;
+      if (!day.won) return 'Ikke gættet – alle ' + MAX + ' forsøg brugt';
+      var t = steps[n - 1].t;
+      var how = t === 'lyd' ? ' – kun på lyden' : t === 'billede' ? ' – på billedet' : ' – på fakta';
+      return 'Gættet i ' + n + '. forsøg af ' + MAX + how;
+    }
 
     function renderSteps() {
       stepsEl.innerHTML = '';
@@ -333,11 +344,26 @@
       var n = day.guesses.length;
       var h = document.createElement('p'); h.className = 'big';
       h.textContent = day.won ? (n === 1 ? 'Wow – i første forsøg! ' : 'Rigtigt! ') + 'Dagens fugl er ' + qd.name.toLowerCase() + '.' : 'Ikke i dag – dagens fugl er ' + qd.name.toLowerCase() + '.';
-      var line = document.createElement('p'); line.className = 'quiz-squares'; line.textContent = marks();
+      var line = document.createElement('div'); line.className = 'quiz-tries';
+      var sum = document.createElement('p'); sum.className = 'quiz-tries-sum'; sum.textContent = summary() + '.';
+      var row0 = document.createElement('ol'); row0.className = 'quiz-tries-row';
+      steps.forEach(function (st, i) {
+        var g = day.guesses[i];
+        var li = document.createElement('li');
+        li.className = g === undefined ? 'unused' : g === answer ? 'ok' : g === '-' ? 'skip' : 'bad';
+        var state = g === undefined ? 'ikke brugt' : g === answer ? 'rigtigt' : g === '-' ? 'sprunget over' : 'forkert';
+        li.setAttribute('aria-label', 'Forsøg ' + (i + 1) + ', ' + STEPNAME[st.t] + ': ' + state);
+        var sq = document.createElement('span'); sq.className = 'sq'; sq.setAttribute('aria-hidden', 'true');
+        sq.textContent = g === answer ? '✓' : g === '-' ? '–' : g === undefined ? '' : '✕';
+        var lb = document.createElement('span'); lb.className = 'lbl'; lb.setAttribute('aria-hidden', 'true');
+        lb.textContent = STEPICON[st.t] + ' ' + STEPNAME[st.t];
+        li.appendChild(sq); li.appendChild(lb); row0.appendChild(li);
+      });
+      line.appendChild(row0); line.appendChild(sum);
       var row = document.createElement('div'); row.className = 'more';
       var share = document.createElement('button'); share.type = 'button'; share.className = 'button'; share.textContent = 'Del resultat';
       share.addEventListener('click', function () {
-        var txt = 'Dagens Fugl #' + qd.no + '\n' + marks() + ' ' + (day.won ? n : 'X') + '/' + MAX + '\n' + location.origin + BASE + '/';
+        var txt = 'Dagens Fugl #' + qd.no + '\n' + marks() + '\n' + summary() + (day.won && n === 1 ? ' 🎉' : '') + '\n' + location.origin + BASE + '/';
         if (navigator.share) { navigator.share({ text: txt }).catch(function () {}); return; }
         (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { share.textContent = 'Kopieret ✓'; }, function () { window.prompt('Kopiér dit resultat:', txt); });
       });

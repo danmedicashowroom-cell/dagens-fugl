@@ -332,3 +332,16 @@ body.home .facts { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .news .signup-msg:empty { display: none; }
 .news-note { margin-top: 14px !important; }
 .foot-in { padding-top: 56px; padding-bottom: 64px; }
+
+/* Resultat: tre forsøg med navn på ledetråden */
+.quiz-tries { margin: 14px 0 4px; }
+.quiz-tries-row { list-style: none; padding: 0; margin: 0; display: flex; gap: 18px; }
+.quiz-tries-row li { display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 0; }
+.quiz-tries-row .sq { width: 40px; height: 40px; border-radius: 8px; display: grid; place-items: center; font-weight: 700; font-size: 1.1rem; border: 2px solid var(--line); color: var(--muted); }
+.quiz-tries-row .ok .sq { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.quiz-tries-row .bad .sq { border-color: #b4553f; color: #b4553f; }
+.quiz-tries-row .skip .sq { border-style: dashed; }
+.quiz-tries-row .unused .sq { opacity: .45; }
+.quiz-tries-row .lbl { font-size: .8rem; color: var(--muted); white-space: nowrap; }
+.quiz-tries-row .unused .lbl { opacity: .6; }
+.quiz-tries-sum { margin: 12px 0 0; font-weight: 600; }
