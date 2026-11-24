@@ -361,6 +361,7 @@
       if (k === answer) finish(true);
       else if (day.guesses.length >= MAX) finish(false);
       qSave(s); render();
+      if (day.done) document.dispatchEvent(new CustomEvent('df:quizdone', { detail: { won: day.won } }));
     }
     skip.addEventListener('click', function () {
       if (day.done || day.guesses.length >= MAX - 1) return;

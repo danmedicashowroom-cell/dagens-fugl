@@ -216,6 +216,50 @@
     btn.setAttribute('aria-expanded', String(open));
   }
   btn.addEventListener('click', function () { open = !open; sync(); });
+  // Lige efter sidste gæt: fold sammen med det samme, hop op til resultatet og fejr en sejr
+  document.addEventListener('df:quizdone', function (e) {
+    open = false; sync();
+    var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    quiz.scrollIntoView({ block: 'start', behavior: calm ? 'auto' : 'smooth' });
+    if (e.detail && e.detail.won && !calm) confetti();
+  });
   new MutationObserver(sync).observe(reveal, { attributes: true, attributeFilter: ['data-locked'] });
   sync();
 })();
+
+// ---- Konfetti (ingen afhængigheder) ----
+function confetti() {
+  var cv = document.createElement('canvas');
+  cv.setAttribute('aria-hidden', 'true');
+  cv.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:100';
+  document.body.appendChild(cv);
+  var ctx = cv.getContext('2d'), dpr = window.devicePixelRatio || 1, W, H;
+  function size() { W = innerWidth; H = innerHeight; cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); }
+  size(); addEventListener('resize', size);
+  var acc = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#23573f';
+  var cols = [acc, acc, '#e0b04a', '#c9783f', '#9cc3a8', '#f2ede1'];
+  var ps = [];
+  for (var i = 0; i < 160; i++) {
+    var left = i % 2 === 0;
+    ps.push({
+      x: left ? -10 : W + 10, y: H * (0.55 + Math.random() * 0.3),
+      vx: (left ? 1 : -1) * (4 + Math.random() * 7), vy: -(9 + Math.random() * 9),
+      w: 6 + Math.random() * 6, h: 4 + Math.random() * 4,
+      r: Math.random() * 6.3, vr: (Math.random() - 0.5) * 0.3,
+      c: cols[i % cols.length], d: 0.985 + Math.random() * 0.01
+    });
+  }
+  var t0 = performance.now();
+  (function frame(t) {
+    var age = t - t0;
+    ctx.clearRect(0, 0, W, H);
+    ctx.globalAlpha = age > 2600 ? Math.max(0, 1 - (age - 2600) / 800) : 1;
+    ps.forEach(function (p) {
+      p.vy += 0.28; p.vx *= p.d; p.vy *= p.d; p.x += p.vx; p.y += p.vy; p.r += p.vr;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.scale(1, Math.cos(p.r * 2));
+      ctx.fillStyle = p.c; ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h); ctx.restore();
+    });
+    if (age < 3400) requestAnimationFrame(frame);
+    else { removeEventListener('resize', size); cv.remove(); }
+  })(t0);
+}
