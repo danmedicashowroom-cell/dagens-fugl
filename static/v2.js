@@ -264,75 +264,24 @@ function confetti() {
   })(t0);
 }
 
-// ---- Sammenlign: vælg en fugl og se dens forvekslinger (lyd først, så udseende) ----
+// ---- Sammenlign: søg og gå til artens sammenligningsside ----
 (function () {
-  var page = document.querySelector('.cmp-page');
-  if (!page) return;
   var q = document.getElementById('cmp-q');
-  var all = document.getElementById('cmp-all');
-  var res = document.getElementById('cmp-result');
-  var clear = document.getElementById('cmp-clear');
+  if (!q) return;
   var msg = document.getElementById('cmp-msg');
-  var cards = Array.prototype.slice.call(all.querySelectorAll('article.cmp'));
-  var bySlug = {}, byName = {};
-  Array.prototype.forEach.call(document.querySelectorAll('#cmp-arter option'), function (o) {
-    bySlug[o.dataset.slug] = o.value; byName[o.value.toLowerCase()] = o.dataset.slug;
-  });
-  var lcFirst = function (s) { return s.charAt(0).toLowerCase() + s.slice(1); };
-
-  function clone(card, slug, drop) {
-    var c = card.cloneNode(true);
-    c.removeAttribute('id');
-    var flip = card.dataset.b === slug;
-    if (flip) c.classList.add('flip');
-    var other = c.querySelector(flip ? '.cmp-bird.ca .cmp-name a' : '.cmp-bird.cb .cmp-name a');
-    c.querySelector('.cmp-title').textContent = bySlug[slug] + ' og ' + lcFirst(other.textContent);
-    var x = c.querySelector('.cmp-' + drop); if (x) x.remove();
-    return c;
-  }
-  function group(title, list) {
-    if (!list.length) return null;
-    var g = document.createElement('section'); g.className = 'cmp-group';
-    var h = document.createElement('h2'); h.textContent = title; g.appendChild(h);
-    list.forEach(function (c) { g.appendChild(c); });
-    return g;
-  }
-  function show(slug, scroll) {
-    res.innerHTML = '';
-    if (!slug || !bySlug[slug]) { all.hidden = false; clear.hidden = true; return; }
-    var mine = cards.filter(function (c) { return c.dataset.a === slug || c.dataset.b === slug; });
-    var h = document.createElement('h2'); h.className = 'cmp-res-h'; h.textContent = bySlug[slug] + ' forveksles med';
-    res.appendChild(h);
-    var lyd = group('1 · På lyden', mine.filter(function (c) { return c.dataset.lyd === '1'; }).map(function (c) { return clone(c, slug, 'se'); }));
-    var se = group((lyd ? '2' : '1') + ' · På udseendet', mine.filter(function (c) { return c.dataset.se === '1'; }).map(function (c) { return clone(c, slug, 'lyd'); }));
-    if (lyd) res.appendChild(lyd);
-    if (se) res.appendChild(se);
-    all.hidden = true; clear.hidden = false; q.value = bySlug[slug]; msg.textContent = '';
-    if (scroll) res.scrollIntoView({ block: 'start' });
-  }
-  function route(scroll) {
-    var hsh = decodeURIComponent(location.hash.slice(1));
-    if (bySlug[hsh]) show(hsh, scroll);
-    else { show(''); if (hsh) { var t = document.getElementById(hsh); if (t) t.scrollIntoView(); } }
-  }
-  function pick() {
+  var byName = {};
+  Array.prototype.forEach.call(document.querySelectorAll('#cmp-arter option'), function (o) { byName[o.value.toLowerCase()] = o.dataset.url; });
+  function go() {
     var v = q.value.trim().toLowerCase();
-    if (!v) { msg.textContent = ''; return; }
-    var slug = byName[v];
-    if (!slug) {
-      var hits = Object.keys(byName).filter(function (n) { return n.indexOf(v) === 0; });
-      if (hits.length === 1) slug = byName[hits[0]];
-    }
-    if (slug) { history.replaceState(null, '', '#' + slug); show(slug, true); }
-    else msg.textContent = 'Den fugl har ingen sammenligning endnu. Vælg en fra listen.';
+    if (!v) return;
+    var u = byName[v];
+    if (!u) { var hits = Object.keys(byName).filter(function (n) { return n.indexOf(v) === 0; }); if (hits.length === 1) u = byName[hits[0]]; }
+    if (u) location.href = u; else msg.textContent = 'Den fugl har ingen sammenligning endnu. Vælg en fra listen.';
   }
-  q.addEventListener('change', pick);
-  q.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); pick(); } });
-  clear.addEventListener('click', function () { history.replaceState(null, '', location.pathname); q.value = ''; show(''); q.focus(); });
-  window.addEventListener('hashchange', function () { route(true); });
+  q.addEventListener('change', go);
+  q.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); go(); } });
   // Kun én lyd ad gangen
-  page.addEventListener('play', function (e) {
-    page.querySelectorAll('audio').forEach(function (a) { if (a !== e.target) a.pause(); });
+  document.addEventListener('play', function (e) {
+    document.querySelectorAll('.cmp-bird audio').forEach(function (a) { if (a !== e.target) a.pause(); });
   }, true);
-  route(false);
 })();

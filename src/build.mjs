@@ -10,7 +10,7 @@ import {
   SITE_NAME, SITE_URL, BASE_PATH, TIMEZONE, SCHEDULE_START, SCHEDULE_SEED, ALLOW_NONCOMMERCIAL,
 } from './config.mjs';
 import { makeV2 } from './v2.mjs';
-import { loadPairs, sammenlignPage } from './sammenlign.mjs';
+import { loadPairs, sammenlignPages } from './sammenlign.mjs';
 
 // Hvem står bag siden (vises på privatlivssiden). Sættes som repository variables i GitHub.
 const OWNER_NAME = process.env.OWNER_NAME || '';
@@ -890,7 +890,8 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
   write('mine/index.html', v2().minePage());
 
   // --- Sammenlign fugle der ligner hinanden ---
-  if (PAIRS.length) write('sammenlign/index.html', sammenlignPage(PAIRS, { esc, url, abs, size, credit, displayName, page: v2().page, SITE_NAME, photoOf: (d) => homeDD(d).photos?.hero }));
+  const CMP_PAGES = PAIRS.length ? sammenlignPages(PAIRS, { esc, url, abs, size, credit, displayName, page: v2().page, SITE_NAME, photoOf: (d) => homeDD(d).photos?.hero }) : [];
+  for (const pg of CMP_PAGES) write(pg.path, pg.html);
 
   // --- sitemap og robots ---
   const urls = [
@@ -898,7 +899,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     { loc: abs('fugle/'), freq: 'weekly' },
     { loc: abs('arkiv/'), freq: 'daily', lastmod: today },
     { loc: abs('kilder/'), freq: 'yearly' },
-    ...(PAIRS.length ? [{ loc: abs('sammenlign/'), freq: 'monthly' }] : []),
+    ...CMP_PAGES.map((pg) => ({ loc: abs(pg.path.replace(/index\.html$/, '')), freq: 'monthly' })),
     ...extraUrls,
     ...species.map((d) => ({ loc: abs(speciesUrl(d)), freq: 'monthly', lastmod: d.fetchedAt.slice(0, 10) })),
   ];

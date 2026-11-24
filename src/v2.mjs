@@ -255,7 +255,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     const cmpNames = cmp.map((o) => displayName(o).toLowerCase());
     const cmpText = cmpNames.length > 1 ? `${cmpNames.slice(0, -1).join(', ')} og ${cmpNames[cmpNames.length - 1]}` : cmpNames[0];
     return `<section class="sec" id="lignende">
-  ${cmp.length ? `<p class="cmp-link"><a class="btn" href="${P('sammenlign/')}#${esc(d.slug)}">Hør og se forskellen på ${esc(name.toLowerCase())} og ${esc(cmpText)} →</a></p>` : ''}
+  ${cmp.length ? `<p class="cmp-link"><a class="btn" href="${P(`sammenlign/${d.slug}/`)}">Hør og se forskellen på ${esc(name.toLowerCase())} og ${esc(cmpText)} →</a></p>` : ''}
   ${forv.length ? `<h2>Kan forveksles med</h2><ul class="rel">${forv.map(({ o, t }) => `<li><a href="${P(`fugle/${o.slug}/`)}">${o.photos?.hero ? `<img src="${esc(size(o.photos.hero, 'small'))}" alt="" loading="lazy" width="96" height="96">` : ''}<span><strong>${esc(displayName(o))}</strong><i>${esc(o.names.accepted)}</i>${t ? `<span>${esc(t)}</span>` : ''}</span></a></li>`).join('')}</ul>` : ''}
   ${fam.length ? `<${forv.length ? 'h3' : 'h2'}>${forv.length ? '' : 'Lignende arter: '}${famName ? `${forv.length ? 'Samme familie' : 'samme familie'}: ${esc(famName)}` : `samme slægt som ${esc(name.toLowerCase())}`}</${forv.length ? 'h3' : 'h2'}><ul class="chips-list">${fam.map((o) => `<li><a href="${P(`fugle/${o.slug}/`)}">${esc(displayName(o))}</a></li>`).join('')}</ul>` : ''}
 </section>`;
