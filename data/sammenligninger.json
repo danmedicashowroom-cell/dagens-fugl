@@ -981,5 +981,4827 @@
     "u": "https://snl.no/kråke"
    }
   ]
+ },
+ {
+  "a": "acanthis-cabaret",
+  "b": "acanthis-flammea",
+  "se": {
+   "intro": "Lille gråsisken er mørkere og mere brun og en anelse mindre.",
+   "rows": [
+    [
+     "Fjerdragt",
+     "Mørkere, brunlige toner og kraftigere striber",
+     "Gråbrun med mørke striber"
+    ],
+    [
+     "Felter i vingen",
+     "Brunbeige",
+     "Hvide"
+    ],
+    [
+     "Længde",
+     "11,5–12,5 cm",
+     "11,5–14 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: brunsisik",
+    "u": "https://snl.no/brunsisik"
+   },
+   {
+    "n": "Store norske leksikon: gråsisik",
+    "u": "https://snl.no/gråsisik"
+   }
+  ]
+ },
+ {
+  "a": "acanthis-hornemanni",
+  "b": "acanthis-flammea",
+  "se": {
+   "intro": "Hvidsisken virker lysere i det hele taget. Se efter overgumpen.",
+   "rows": [
+    [
+     "Overgump",
+     "Hvid og ustribet",
+     "Stribet"
+    ],
+    [
+     "Underside",
+     "Renere hvid",
+     "–"
+    ],
+    [
+     "Længde",
+     "13 cm",
+     "11,5–14 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: polarsisik",
+    "u": "https://snl.no/polarsisik"
+   },
+   {
+    "n": "Store norske leksikon: gråsisik",
+    "u": "https://snl.no/gråsisik"
+   }
+  ]
+ },
+ {
+  "a": "acrocephalus-arundinaceus",
+  "b": "acrocephalus-scirpaceus",
+  "se": {
+   "intro": "Meget ens, men drosselrørsangeren er langt større.",
+   "rows": [
+    [
+     "Længde",
+     "19–20 cm",
+     "12–14,5 cm"
+    ],
+    [
+     "Hoved og næb",
+     "Kraftigere",
+     "Spinklere"
+    ],
+    [
+     "Øjenbrynsstribe",
+     "Kraftigere",
+     "Svagere"
+    ],
+    [
+     "Underkæbe",
+     "Ofte en mørk plet",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: trostesanger",
+    "u": "https://snl.no/trostesanger"
+   },
+   {
+    "n": "Store norske leksikon: rørsanger",
+    "u": "https://snl.no/rørsanger"
+   }
+  ]
+ },
+ {
+  "a": "acrocephalus-paludicola",
+  "b": "acrocephalus-schoenobaenus",
+  "se": {
+   "intro": "Næsten samme størrelse og farver, men vandsangeren er lysere.",
+   "rows": [
+    [
+     "Isse",
+     "Lys stribe midt på issen",
+     "Ingen lys issestribe – diffuse mørke striber"
+    ],
+    [
+     "Ryg",
+     "Tydelige sorte striber",
+     "Diffuse mørke striber"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: vannsanger",
+    "u": "https://snl.no/vannsanger"
+   },
+   {
+    "n": "Store norske leksikon: sivsanger",
+    "u": "https://snl.no/sivsanger"
+   }
+  ]
+ },
+ {
+  "a": "acrocephalus-schoenobaenus",
+  "b": "acrocephalus-scirpaceus",
+  "se": {
+   "rows": [
+    [
+     "Øjenbrynsstribe",
+     "Markant og hvid",
+     "–"
+    ],
+    [
+     "Overside",
+     "Brun med diffuse mørke striber på isse, kinder og ryg",
+     "Mørk olivenbrun med tendens til rustbrun"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: sivsanger",
+    "u": "https://snl.no/sivsanger"
+   },
+   {
+    "n": "Store norske leksikon: rørsanger",
+    "u": "https://snl.no/rørsanger"
+   }
+  ]
+ },
+ {
+  "a": "actitis-macularius",
+  "b": "actitis-hypoleucos",
+  "se": {
+   "rows": [
+    [
+     "Underside",
+     "Store, mørke pletter",
+     "Hvid med svagt brunt brystbånd"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: flekksnipe",
+    "u": "https://snl.no/flekksnipe"
+   },
+   {
+    "n": "Store norske leksikon: strandsnipe",
+    "u": "https://snl.no/strandsnipe"
+   }
+  ]
+ },
+ {
+  "a": "aegolius-funereus",
+  "b": "athene-noctua",
+  "se": {
+   "rows": [
+    [
+     "Hoved",
+     "Stort, med stort hvidt ansigtsfelt",
+     "Mindre, uden ansigtsskive"
+    ],
+    [
+     "Overside",
+     "Brunlig med mange runde, hvide pletter",
+     "Brungrå til beige med tydelige hvide pletter"
+    ],
+    [
+     "Underside",
+     "Lys med brune længdestriber",
+     "Stribet med brunt"
+    ],
+    [
+     "Ben",
+     "–",
+     "Lange"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: perleugle",
+    "u": "https://snl.no/perleugle"
+   },
+   {
+    "n": "Store norske leksikon: kirkeugle",
+    "u": "https://snl.no/kirkeugle"
+   }
+  ]
+ },
+ {
+  "a": "alca-torda",
+  "b": "uria-aalge",
+  "se": {
+   "intro": "Begge er sorte og hvide – se på næbbet.",
+   "rows": [
+    [
+     "Næb",
+     "Kraftigt og fladt fra siderne",
+     "Spidst"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: alke",
+    "u": "https://snl.no/alke"
+   },
+   {
+    "n": "Store norske leksikon: lomvi",
+    "u": "https://snl.no/lomvi"
+   }
+  ]
+ },
+ {
+  "a": "uria-lomvia",
+  "b": "uria-aalge",
+  "se": {
+   "rows": [
+    [
+     "Næb",
+     "Kortere og kraftigere",
+     "Længere og spinklere"
+    ],
+    [
+     "Mundvig",
+     "Hvid stribe",
+     "–"
+    ],
+    [
+     "Kropssider",
+     "Ustribede",
+     "Stribede"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: polarlomvi",
+    "u": "https://snl.no/polarlomvi"
+   },
+   {
+    "n": "Store norske leksikon: lomvi",
+    "u": "https://snl.no/lomvi"
+   }
+  ]
+ },
+ {
+  "a": "anas-crecca",
+  "b": "spatula-querquedula",
+  "se": {
+   "intro": "Hunnerne er næsten ens – atlingandens lyse strube er det sikre kendetegn.",
+   "rows": [
+    [
+     "Han, hoved",
+     "Rødbrunt med grønt felt fra øjet til nakken",
+     "Mørkt brunlilla med bred hvid stribe over øjet helt til nakken"
+    ],
+    [
+     "Han, bag",
+     "Gult felt på halesiden, kantet af sort",
+     "Lange sort-hvide skulderfjer langs siderne"
+    ],
+    [
+     "Hun",
+     "Brunspraglet",
+     "Brunspættet med hvid stribe over øjet, mørk øjenstribe, hvid plet ved næbroden og lys, næsten hvid strube"
+    ],
+    [
+     "Vingespejl",
+     "Grønt (begge køn)",
+     "Grønt med brede hvide bånd og lys blågrå forvinge (han)"
+    ],
+    [
+     "Størrelse",
+     "Den mindste svømmeand",
+     "Lidt større, 37–41 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: krikkand",
+    "u": "https://snl.no/krikkand"
+   },
+   {
+    "n": "Store norske leksikon: knekkand",
+    "u": "https://snl.no/knekkand"
+   }
+  ]
+ },
+ {
+  "a": "anas-platyrhynchos",
+  "b": "mareca-strepera",
+  "se": {
+   "intro": "Hunnerne ligner hinanden meget – vingespejlet afgør det.",
+   "rows": [
+    [
+     "Vingespejl",
+     "Blåt med brede hvide kanter",
+     "Hvidt"
+    ],
+    [
+     "Han",
+     "Grønglinsende hoved, hvid halsring, rustbrunt bryst, gult næb",
+     "Lyst brunt hoved, jævnt grå krop, sort bagkrop, gråsort næb"
+    ],
+    [
+     "Hunnens næb",
+     "Orange og sort",
+     "Mørk næbryg med skarpe orange kanter"
+    ],
+    [
+     "Størrelse",
+     "50–60 cm",
+     "46–56 cm, lidt mindre"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Hunnens kvæk",
+     "»Kvæh-kvæh-kvah-kvah-kvah« med mest tryk i starten",
+     "Hårdere og mere mekanisk"
+    ],
+    [
+     "Hannen",
+     "Nasalt, gentaget »væph, væph, væph«",
+     "Dybt, kort »æhrp«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: stokkand",
+    "u": "https://snl.no/stokkand"
+   },
+   {
+    "n": "Store norske leksikon: snadderand",
+    "u": "https://snl.no/snadderand"
+   }
+  ]
+ },
+ {
+  "a": "anas-rubripes",
+  "b": "anas-platyrhynchos",
+  "se": {
+   "intro": "Sortbrun and ligner en mørk gråandehun. Vingespejlet skiller dem sikkert.",
+   "rows": [
+    [
+     "Vingespejl",
+     "Blåt uden hvide kanter",
+     "Blåt med brede hvide kanter"
+    ],
+    [
+     "Hoved",
+     "Mørk isse; lysebrune kinder og strube, der står tydeligt mod den mørke krop",
+     "Hunnen: brunspraglet over det hele"
+    ],
+    [
+     "Næb",
+     "Gulgrønt",
+     "Hunnen: orange og sort"
+    ],
+    [
+     "Undervinge",
+     "Tydeligt hvid",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rødfotand",
+    "u": "https://snl.no/rødfotand"
+   },
+   {
+    "n": "Store norske leksikon: stokkand",
+    "u": "https://snl.no/stokkand"
+   }
+  ]
+ },
+ {
+  "a": "anser-albifrons",
+  "b": "anser-anser",
+  "se": {
+   "rows": [
+    [
+     "Størrelse",
+     "Lille og kompakt, betydeligt mindre",
+     "Den største af de gråbrune gæs"
+    ],
+    [
+     "Hoved",
+     "Hvid pandeplet",
+     "Lys gråbrun, lille kontrast til kroppen"
+    ],
+    [
+     "Bug",
+     "Mørke tværpletter",
+     "Gråhvid"
+    ],
+    [
+     "Næb",
+     "Rosa (sibirisk underart) eller orange (grønlandsk)",
+     "Stort og ensfarvet guloransje"
+    ],
+    [
+     "Ben",
+     "Skarpt orange",
+     "Blegt lyserøde"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Kald",
+     "Højere og mindre groft og nasalt, ofte to stavelser: »kjy-jy«",
+     "Højlydt, groft og nasalt: »kijaaa-ga-ga«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tundragås",
+    "u": "https://snl.no/tundragås"
+   },
+   {
+    "n": "Store norske leksikon: grågås",
+    "u": "https://snl.no/grågås"
+   }
+  ]
+ },
+ {
+  "a": "anser-anser",
+  "b": "anser-brachyrhynchus",
+  "se": {
+   "intro": "På kort afstand udelukker næbbets og benenes farve forveksling.",
+   "rows": [
+    [
+     "Hoved og hals",
+     "Lys gråbrun, lille kontrast til kroppen",
+     "Mørkere brun"
+    ],
+    [
+     "Størrelse",
+     "Den største af de gråbrune gæs",
+     "Tydeligt mindre end sædgåsen"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: grågås",
+    "u": "https://snl.no/grågås"
+   },
+   {
+    "n": "Store norske leksikon: sædgås",
+    "u": "https://snl.no/sædgås"
+   }
+  ]
+ },
+ {
+  "a": "anser-erythropus",
+  "b": "anser-albifrons",
+  "se": {
+   "intro": "Begge har hvid pande og mørke pletter på bugen. Se efter øjenringen og hvor langt det hvide når op.",
+   "rows": [
+    [
+     "Øjenring",
+     "Gul",
+     "Mangler"
+    ],
+    [
+     "Hvid pandeplet",
+     "Når fra næbroden op mellem øjnene",
+     "Når ikke op til issen"
+    ],
+    [
+     "Størrelse",
+     "Den mindste gås i Norden – lidt mindre end bramgåsen",
+     "Lille og kompakt"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dverggås",
+    "u": "https://snl.no/dverggås"
+   },
+   {
+    "n": "Store norske leksikon: tundragås",
+    "u": "https://snl.no/tundragås"
+   }
+  ]
+ },
+ {
+  "a": "anser-fabalis",
+  "b": "anser-serrirostris",
+  "se": {
+   "rows": [
+    [
+     "Næb",
+     "Længere og slankere med større orange felt",
+     "Kort og sløvt, sort ved roden og spidsen, lille orange plet"
+    ],
+    [
+     "Hals",
+     "Længere",
+     "Kortere"
+    ],
+    [
+     "Hoved og øvre hals",
+     "Lysere",
+     "Mørkebrune"
+    ],
+    [
+     "Krop",
+     "Større og slankere",
+     "Lidt mindre end grågås"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Kald",
+     "Dybere og langsommere",
+     "Højere og hurtigere nasalt »ang-ank«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tundrasædgås",
+    "u": "https://snl.no/tundrasædgås"
+   }
+  ]
+ },
+ {
+  "a": "anthus-cervinus",
+  "b": "anthus-pratensis",
+  "se": {
+   "intro": "Om sommeren er strubens farve kendetegnet.",
+   "rows": [
+    [
+     "Om sommeren",
+     "Ensfarvet rødbrun strube (begge køn)",
+     "Gråbrun og spraglet med gråhvid bug"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: lappiplerke",
+    "u": "https://snl.no/lappiplerke"
+   },
+   {
+    "n": "Store norske leksikon: heipiplerke",
+    "u": "https://snl.no/heipiplerke"
+   }
+  ]
+ },
+ {
+  "a": "anthus-petrosus",
+  "b": "anthus-pratensis",
+  "se": {
+   "rows": [
+    [
+     "Fjerdragt",
+     "Betydeligt mørkere",
+     "Gråbrun og spraglet med gråhvid bug"
+    ],
+    [
+     "Yderste halefjer",
+     "Gråhvide",
+     "Hvide"
+    ],
+    [
+     "Ben",
+     "Mørke",
+     "–"
+    ],
+    [
+     "Størrelse",
+     "Lidt større",
+     "Lidt mindre end hvid vipstjert"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: skjærpiplerke",
+    "u": "https://snl.no/skjærpiplerke"
+   },
+   {
+    "n": "Store norske leksikon: heipiplerke",
+    "u": "https://snl.no/heipiplerke"
+   }
+  ]
+ },
+ {
+  "a": "anthus-spinoletta",
+  "b": "anthus-petrosus",
+  "se": {
+   "intro": "I forårsdragt kan de ligne hinanden meget og er svære at skelne i felten.",
+   "rows": [
+    [
+     "Underside",
+     "Mindre stribet",
+     "Ofte mere stribet"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: skjærpiplerke",
+    "u": "https://snl.no/skjærpiplerke"
+   },
+   {
+    "n": "Store norske leksikon: vannpiplerke",
+    "u": "https://snl.no/vannpiplerke"
+   }
+  ]
+ },
+ {
+  "a": "apus-apus",
+  "b": "hirundo-rustica",
+  "se": {
+   "intro": "Mursejleren er større end svalerne og folder aldrig vingerne ind mod kroppen.",
+   "rows": [
+    [
+     "Farve",
+     "Brunsort med gråhvid strube",
+     "Blåsort overside, hvid underside, rødbrun strube og pande med blåsort brystbånd"
+    ],
+    [
+     "Hale",
+     "Kløftet og ret kort",
+     "De ydre halefjer er stærkt forlængede"
+    ],
+    [
+     "Vinger",
+     "Lange og buede, holdes strakt ud fra kroppen",
+     "–"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Gennemtrængende, ringende »srriiirr« under jagten",
+     "Hurtig kvidren"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tårnseiler",
+    "u": "https://snl.no/tårnseiler"
+   },
+   {
+    "n": "Store norske leksikon: låvesvale",
+    "u": "https://snl.no/låvesvale"
+   }
+  ]
+ },
+ {
+  "a": "aquila-chrysaetos",
+  "b": "haliaeetus-albicilla",
+  "se": {
+   "rows": [
+    [
+     "Voksen",
+     "Ensfarvet gyldenbrun med gulbrun isse og nakke, uden hvidt",
+     "Nogenlunde ensfarvet mørkebrun med helt hvid hale og gult næb"
+    ],
+    [
+     "Ungfugl",
+     "Mørkebrun med hvide partier under vingerne og hvid hale med mørkt endebånd",
+     "Mørkebrun med spredte hvide pletter; halen jævnt mørkebrun og næbbet sort"
+    ],
+    [
+     "Ben",
+     "Fjerklædte",
+     "Nøgne"
+    ],
+    [
+     "Længde og vingefang",
+     "80–93 cm, 190–225 cm",
+     "76–94 cm, 200–240 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kongeørn",
+    "u": "https://snl.no/kongeørn"
+   },
+   {
+    "n": "Store norske leksikon: havørn",
+    "u": "https://snl.no/havørn"
+   }
+  ]
+ },
+ {
+  "a": "ardea-alba",
+  "b": "egretta-garzetta",
+  "se": {
+   "intro": "Begge er helt hvide. Se på størrelsen og næbbet.",
+   "rows": [
+    [
+     "Størrelse",
+     "Omtrent som fiskehejren, ca. 1 m høj",
+     "Betydeligt mindre, ca. 70 cm høj"
+    ],
+    [
+     "Næb",
+     "Gult",
+     "Som regel helt sort"
+    ],
+    [
+     "Ben og fødder",
+     "Sorte",
+     "Sorte ben med gule fødder"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: egretthegre",
+    "u": "https://snl.no/egretthegre"
+   },
+   {
+    "n": "Store norske leksikon: silkehegre",
+    "u": "https://snl.no/silkehegre"
+   }
+  ]
+ },
+ {
+  "a": "ardea-cinerea",
+  "b": "ardea-alba",
+  "se": {
+   "intro": "Omtrent lige store.",
+   "rows": [
+    [
+     "Farve",
+     "Gråblå overside; hvidt hoved og hals med kraftig sort stribe fra øjet til en hængende nakketop",
+     "Helt hvid, også ungfuglene"
+    ],
+    [
+     "Næb",
+     "Langt og spidst",
+     "Gult"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gråhegre",
+    "u": "https://snl.no/gråhegre"
+   },
+   {
+    "n": "Store norske leksikon: egretthegre",
+    "u": "https://snl.no/egretthegre"
+   }
+  ]
+ },
+ {
+  "a": "ardea-purpurea",
+  "b": "ardea-cinerea",
+  "se": {
+   "rows": [
+    [
+     "Helhedsindtryk",
+     "Mørkere, slankere og lidt mindre",
+     "Stor og slank, ca. 1 m høj"
+    ],
+    [
+     "Farve",
+     "Rødbrun på hoved, halssider og krop; ryggen mørkere grå",
+     "Gråblå overside; hvidt hoved og hals med sort stribe"
+    ],
+    [
+     "Hoved",
+     "Slankere, med jævnere overgang til næbbet",
+     "–"
+    ],
+    [
+     "Adfærd",
+     "Tilbagetrukken – sidder sjældent åbent",
+     "Vader ofte åbent på lavt vand"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: purpurhegre",
+    "u": "https://snl.no/purpurhegre"
+   },
+   {
+    "n": "Store norske leksikon: gråhegre",
+    "u": "https://snl.no/gråhegre"
+   }
+  ]
+ },
+ {
+  "a": "asio-flammeus",
+  "b": "asio-otus",
+  "se": {
+   "intro": "I flugt kan de forveksles – se på undersiden og vingespidserne.",
+   "rows": [
+    [
+     "Øjne",
+     "Citrongule med sort indramning",
+     "Orange"
+    ],
+    [
+     "Fjerører",
+     "Små",
+     "Lange og tydelige"
+    ],
+    [
+     "Bug",
+     "Lys uden tegninger",
+     "Kraftigt stribet"
+    ],
+    [
+     "Vingespidser (underside)",
+     "Helt mørke",
+     "Smalle mørke bånd"
+    ],
+    [
+     "Adfærd",
+     "Jager i dagslys og letter ofte fra jorden",
+     "Jager efter mørkets frembrud; sidder skjult i nåletræer om dagen"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Hurtige, dybe »po-po-po«, 3–4 gange i sekundet, ofte sunget i flugt",
+     "Enstavede, dybe »oh« med ca. tre sekunders mellemrum"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: jordugle",
+    "u": "https://snl.no/jordugle"
+   },
+   {
+    "n": "Store norske leksikon: hornugle",
+    "u": "https://snl.no/hornugle"
+   }
+  ]
+ },
+ {
+  "a": "bubo-bubo",
+  "b": "asio-otus",
+  "se": {
+   "intro": "Ligner hinanden, men skovhornuglen er kun halvt så stor.",
+   "rows": [
+    [
+     "Længde",
+     "60–75 cm",
+     "34–39 cm"
+    ],
+    [
+     "Vingefang",
+     "155–185 cm",
+     "86–98 cm"
+    ],
+    [
+     "Fjerdragt",
+     "Mørkt rødbrun overside; hvid strube",
+     "Gulbrun med mørkere tegninger på ryggen"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: hubro",
+    "u": "https://snl.no/hubro"
+   },
+   {
+    "n": "Store norske leksikon: hornugle",
+    "u": "https://snl.no/hornugle"
+   }
+  ]
+ },
+ {
+  "a": "grus-grus",
+  "b": "ardea-cinerea",
+  "se": {
+   "intro": "Ligner hinanden i flugt – se på halsen.",
+   "rows": [
+    [
+     "Hals i flugt",
+     "Strakt lige frem",
+     "Trukket tilbage i S-form"
+    ],
+    [
+     "Farve",
+     "Jævnt grå, sort-hvid hals og rød plet på issen",
+     "Gråblå overside; hvidt hoved og hals med sort stribe"
+    ],
+    [
+     "Bagende",
+     "Hængende »hale« af forlængede armsvingfjer",
+     "–"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Trompetagtigt skrig",
+     "Gennemtrængende, hæst »ka-kraaah« eller »frarnk«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: trane",
+    "u": "https://snl.no/trane"
+   },
+   {
+    "n": "Store norske leksikon: gråhegre",
+    "u": "https://snl.no/gråhegre"
+   }
+  ]
+ },
+ {
+  "a": "branta-bernicla",
+  "b": "branta-leucopsis",
+  "se": {
+   "rows": [
+    [
+     "Hoved",
+     "Sort",
+     "Forsiden hvid"
+    ],
+    [
+     "Hals",
+     "Sort med en hvid plet på hver side",
+     "Sort"
+    ],
+    [
+     "Krop",
+     "Brunsort ryg",
+     "Gråsort og hvid"
+    ],
+    [
+     "Størrelse",
+     "Mellem bramgås og gråand – ca. 1,5 kg",
+     "Omtrent som en stor gravand, 1,5–2,5 kg"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: ringgås",
+    "u": "https://snl.no/ringgås"
+   },
+   {
+    "n": "Store norske leksikon: hvitkinngås",
+    "u": "https://snl.no/hvitkinngås"
+   }
+  ]
+ },
+ {
+  "a": "branta-canadensis",
+  "b": "branta-leucopsis",
+  "se": {
+   "intro": "Bramgåsen minder lidt om canadagåsen, men er betydeligt mindre.",
+   "rows": [
+    [
+     "Størrelse",
+     "Større end grågås, 5–7 kg",
+     "Omtrent som en stor gravand, 1,5–2,5 kg"
+    ],
+    [
+     "Hoved",
+     "Sort med hvid strubeplet",
+     "Forsiden hvid"
+    ],
+    [
+     "Krop",
+     "Gråbrun",
+     "Gråsort og hvid"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kanadagås",
+    "u": "https://snl.no/kanadagås"
+   },
+   {
+    "n": "Store norske leksikon: hvitkinngås",
+    "u": "https://snl.no/hvitkinngås"
+   }
+  ]
+ },
+ {
+  "a": "calidris-alpina",
+  "b": "calidris-ferruginea",
+  "se": {
+   "rows": [
+    [
+     "Næb",
+     "Relativt langt",
+     "Krummet"
+    ],
+    [
+     "Sommerdragt",
+     "Gråbrun og spraglet med stor sort plet på bugen",
+     "Rustrød over hele kroppen"
+    ],
+    [
+     "Overgump",
+     "–",
+     "Helt hvid"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: myrsnipe",
+    "u": "https://snl.no/myrsnipe"
+   },
+   {
+    "n": "Store norske leksikon: tundrasnipe",
+    "u": "https://snl.no/tundrasnipe"
+   }
+  ]
+ },
+ {
+  "a": "calidris-canutus",
+  "b": "calidris-alpina",
+  "se": {
+   "rows": [
+    [
+     "Størrelse",
+     "Ca. 25 cm – den største af de små ryler",
+     "Vejer 40–50 g"
+    ],
+    [
+     "Sommerdragt",
+     "Kobberbrun underside og brunplettet overside",
+     "Gråbrun og spraglet med stor sort plet på bugen"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: polarsnipe",
+    "u": "https://snl.no/polarsnipe"
+   },
+   {
+    "n": "Store norske leksikon: myrsnipe",
+    "u": "https://snl.no/myrsnipe"
+   }
+  ]
+ },
+ {
+  "a": "calidris-minuta",
+  "b": "calidris-alpina",
+  "se": {
+   "rows": [
+    [
+     "Størrelse",
+     "Ca. 15 cm – omtrent som en gråspurv",
+     "Lidt tungere end en gråspurv, 40–50 g"
+    ],
+    [
+     "Ryg",
+     "Karakteristisk V-formet hvid tegning",
+     "–"
+    ],
+    [
+     "Næb",
+     "–",
+     "Relativt langt"
+    ],
+    [
+     "Sommerdragt",
+     "Gråbrun, plettet og hvid",
+     "Stor sort plet på bugen"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dvergsnipe",
+    "u": "https://snl.no/dvergsnipe"
+   },
+   {
+    "n": "Store norske leksikon: myrsnipe",
+    "u": "https://snl.no/myrsnipe"
+   }
+  ]
+ },
+ {
+  "a": "calidris-pugnax",
+  "b": "tringa-totanus",
+  "se": {
+   "intro": "Hunnen er omtrent på størrelse med rødbenen.",
+   "rows": [
+    [
+     "Ben",
+     "Orange (hunnen gulbrune om vinteren)",
+     "Lange og knaldrøde"
+    ],
+    [
+     "Næb",
+     "Relativt kort og svagt nedbøjet",
+     "Inderste del rød, yderste halvdel brunsort"
+    ],
+    [
+     "I flugt",
+     "Hvide felter ved haleroden og smalle hvide vingebånd",
+     "Bred hvid bagkant på vingen og hvid kile op ad ryggen"
+    ],
+    [
+     "Hoved",
+     "Lille",
+     "–"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Mest tavs, af og til korte svage grynt",
+     "Højlydt kald »tjuu« eller »tjuu-hu-hu«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: brushane",
+    "u": "https://snl.no/brushane"
+   },
+   {
+    "n": "Store norske leksikon: rødstilk",
+    "u": "https://snl.no/rødstilk"
+   }
+  ]
+ },
+ {
+  "a": "calidris-ruficollis",
+  "b": "calidris-minuta",
+  "se": {
+   "intro": "Samme størrelse. Uden for yngletiden er de svære at skelne.",
+   "rows": [
+    [
+     "I yngletiden",
+     "Rødbrunt hoved og hals",
+     "Gråbrun, plettet og hvid med V-formet hvid tegning på ryggen"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rødstrupesnipe",
+    "u": "https://snl.no/rødstrupesnipe"
+   },
+   {
+    "n": "Store norske leksikon: dvergsnipe",
+    "u": "https://snl.no/dvergsnipe"
+   }
+  ]
+ },
+ {
+  "a": "calidris-temminckii",
+  "b": "calidris-minuta",
+  "se": {
+   "intro": "Begge er meget små og ligner hinanden.",
+   "rows": [
+    [
+     "Yderste halefjer",
+     "Hvide",
+     "–"
+    ],
+    [
+     "Ryg",
+     "–",
+     "Karakteristisk V-formet hvid tegning"
+    ],
+    [
+     "Længde",
+     "Ca. 14 cm",
+     "Ca. 15 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: temmincksnipe",
+    "u": "https://snl.no/temmincksnipe"
+   },
+   {
+    "n": "Store norske leksikon: dvergsnipe",
+    "u": "https://snl.no/dvergsnipe"
+   }
+  ]
+ },
+ {
+  "a": "charadrius-alexandrinus",
+  "b": "charadrius-hiaticula",
+  "se": {
+   "rows": [
+    [
+     "Brystbånd",
+     "Kun en sort plet på hver side foran vingen",
+     "Bredt og sort (sommer)"
+    ],
+    [
+     "Næb og ben",
+     "Mørke",
+     "Orange næb med sort spids; orange ben"
+    ],
+    [
+     "Isse og nakke (sommer)",
+     "Lyst rødbrune",
+     "Sorte tegninger på hovedet"
+    ],
+    [
+     "Længde",
+     "Ca. 16 cm",
+     "18–20 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: hvitbrystlo",
+    "u": "https://snl.no/hvitbrystlo"
+   },
+   {
+    "n": "Store norske leksikon: sandlo",
+    "u": "https://snl.no/sandlo"
+   }
+  ]
+ },
+ {
+  "a": "charadrius-dubius",
+  "b": "charadrius-hiaticula",
+  "se": {
+   "intro": "Begge har sorte tegninger på hoved og bryst. Om vinteren er de sværere at skelne.",
+   "rows": [
+    [
+     "Vingebånd i flugt",
+     "Ingen tydelige",
+     "Tydelige hvide"
+    ],
+    [
+     "Øjenring (sommer)",
+     "Gul",
+     "–"
+    ],
+    [
+     "Næb (sommer)",
+     "Overvejende sort",
+     "Orange med sort spids"
+    ],
+    [
+     "Ben",
+     "Mat gråligt rosa",
+     "Orange"
+    ],
+    [
+     "Krop",
+     "Mindre og spinklere, 14–17 cm",
+     "Kompakt med bredt bryst, 18–20 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dverglo",
+    "u": "https://snl.no/dverglo"
+   },
+   {
+    "n": "Store norske leksikon: sandlo",
+    "u": "https://snl.no/sandlo"
+   }
+  ]
+ },
+ {
+  "a": "chlidonias-leucopterus",
+  "b": "chlidonias-niger",
+  "se": {
+   "intro": "Ligner hinanden, men hvidvinget terne har hvid hale.",
+   "rows": [
+    [
+     "Hale",
+     "Hvid",
+     "Kort og kun lidt kløftet"
+    ],
+    [
+     "Overvinge",
+     "Gråhvid",
+     "Mørkt skifergrå – ser ensfarvet grå ud i flugt"
+    ],
+    [
+     "Undervingens dækfjer",
+     "Sorte",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: hvitvingesvartterne",
+    "u": "https://snl.no/hvitvingesvartterne"
+   },
+   {
+    "n": "Store norske leksikon: svartterne",
+    "u": "https://snl.no/svartterne"
+   }
+  ]
+ },
+ {
+  "a": "chloris-chloris",
+  "b": "spinus-spinus",
+  "se": {
+   "intro": "Ungfuglene ligner hinanden med grå og gulgrønne farver.",
+   "rows": [
+    [
+     "Næb",
+     "Kraftigt og kegleformet",
+     "Tyndt og spidst"
+    ],
+    [
+     "Størrelse",
+     "Ca. 15 cm – som en gråspurv",
+     "Ca. 12 cm – som en blåmejse"
+    ],
+    [
+     "Han",
+     "Grøngul med gule vingebånd og gult yderst på halens sider",
+     "Sort hætte og sort strubeplet"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Kort, monoton snerren, der stiger mod slutningen",
+     "Flydende række af kvidrende toner og triller, med lidt efterligning"
+    ],
+    [
+     "Kald",
+     "–",
+     "»Tsily«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: grønnfink",
+    "u": "https://snl.no/grønnfink"
+   },
+   {
+    "n": "Store norske leksikon: grønnsisik",
+    "u": "https://snl.no/grønnsisik"
+   }
+  ]
+ },
+ {
+  "a": "chroicocephalus-philadelphia",
+  "b": "chroicocephalus-ridibundus",
+  "se": {
+   "intro": "Bonapartemågen er en smule mindre.",
+   "rows": [
+    [
+     "Hætte",
+     "Helt sort og når længere ned ad nakken",
+     "Mørkebrun"
+    ],
+    [
+     "Håndsvingfjerenes underside",
+     "Hvid",
+     "Grå med sorte spidser"
+    ],
+    [
+     "Undervinge",
+     "Lysere",
+     "Mørkere"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kanadahettemåke",
+    "u": "https://snl.no/kanadahettemåke"
+   },
+   {
+    "n": "Store norske leksikon: hettemåke",
+    "u": "https://snl.no/hettemåke"
+   }
+  ]
+ },
+ {
+  "a": "chroicocephalus-ridibundus",
+  "b": "ichthyaetus-melanocephalus",
+  "se": {
+   "rows": [
+    [
+     "Hætte (sommer)",
+     "Chokoladebrun",
+     "Sort og når længere bagud på hovedet"
+    ],
+    [
+     "Vingespidser",
+     "Sorte spidser på håndsvingfjerene",
+     "Hvide (voksen)"
+    ],
+    [
+     "Ryg og vinger",
+     "Grå overside med hvid forkant",
+     "Lysere grå"
+    ],
+    [
+     "Næb",
+     "Rødt",
+     "Rødt med sort bånd nær spidsen"
+    ],
+    [
+     "Øjne",
+     "–",
+     "Rød øjenring og hvide pletter over og under øjet"
+    ],
+    [
+     "Størrelse",
+     "Lidt mindre end stormmåge",
+     "Omtrent som stormmåge, men slankere"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: hettemåke",
+    "u": "https://snl.no/hettemåke"
+   },
+   {
+    "n": "Store norske leksikon: svartehavsmåke",
+    "u": "https://snl.no/svartehavsmåke"
+   }
+  ]
+ },
+ {
+  "a": "circus-cyaneus",
+  "b": "circus-aeruginosus",
+  "se": {
+   "rows": [
+    [
+     "Han",
+     "Blågrå med sorte vingespidser",
+     "Spraglet gulbrun til rustbrun krop; hale og vinger askegrå til blågrå med sorte spidser"
+    ],
+    [
+     "Hun",
+     "Brunspraglet med markant hvidt felt over halen",
+     "Spraglet brun, ofte lys, næsten gullig hovedtegning"
+    ],
+    [
+     "Størrelse",
+     "44–52 cm, vingefang 100–120 cm",
+     "43–55 cm, vingefang 115–140 cm – betydeligt tungere"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: myrhauk",
+    "u": "https://snl.no/myrhauk"
+   },
+   {
+    "n": "Store norske leksikon: sivhauk",
+    "u": "https://snl.no/sivhauk"
+   }
+  ]
+ },
+ {
+  "a": "circus-macrourus",
+  "b": "circus-cyaneus",
+  "se": {
+   "intro": "Meget ens og omtrent lige store.",
+   "rows": [
+    [
+     "Han",
+     "Blågrå med sorte vingespidser",
+     "Blågrå med sorte vingespidser"
+    ],
+    [
+     "Vinger",
+     "Smallere",
+     "Noget bredere med svage mørke bånd på undersiden"
+    ],
+    [
+     "Hun",
+     "Spraglet i brungult",
+     "Brunspraglet med markant hvidt felt over halen"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: steppehauk",
+    "u": "https://snl.no/steppehauk"
+   },
+   {
+    "n": "Store norske leksikon: myrhauk",
+    "u": "https://snl.no/myrhauk"
+   }
+  ]
+ },
+ {
+  "a": "circus-pygargus",
+  "b": "circus-cyaneus",
+  "se": {
+   "intro": "Meget ens.",
+   "rows": [
+    [
+     "Han",
+     "Gråblå med sorte vingespidser og sorte striber på vingerne",
+     "Blågrå med sorte vingespidser"
+    ],
+    [
+     "Vinger",
+     "Smallere",
+     "Noget bredere med svage mørke bånd på undersiden"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: enghauk",
+    "u": "https://snl.no/enghauk"
+   },
+   {
+    "n": "Store norske leksikon: steppehauk",
+    "u": "https://snl.no/steppehauk"
+   },
+   {
+    "n": "Store norske leksikon: myrhauk",
+    "u": "https://snl.no/myrhauk"
+   }
+  ]
+ },
+ {
+  "a": "coloeus-monedula",
+  "b": "corvus-frugilegus",
+  "se": {
+   "rows": [
+    [
+     "Længde",
+     "Ca. 35 cm",
+     "Ca. 47 cm"
+    ],
+    [
+     "Fjerdragt",
+     "Mørkegrå krop med grå nakke og kinder",
+     "Helsort med violet glans"
+    ],
+    [
+     "Øjne",
+     "Hvidlige",
+     "–"
+    ],
+    [
+     "Næb",
+     "Kort og sort",
+     "Gråsort og ret langt; gamle fugle har en nøgen, gråhvid plet ved næbroden"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Høje, hurtige, nasale kald – mere klangfulde og melodiske",
+     "Hæse, skrigende kragelyde, dybere i bassen; nasalt »gaah«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kaie",
+    "u": "https://snl.no/kaie"
+   },
+   {
+    "n": "Store norske leksikon: kornkråke",
+    "u": "https://snl.no/kornkråke"
+   }
+  ]
+ },
+ {
+  "a": "corvus-corax",
+  "b": "corvus-corone",
+  "se": {
+   "intro": "Begge er helt sorte.",
+   "rows": [
+    [
+     "Hale",
+     "Kileformet",
+     "Lige afskåret"
+    ],
+    [
+     "Størrelse",
+     "65–70 cm – den største kragefugl",
+     "Som gråkragen, knap 50 cm"
+    ],
+    [
+     "Hoved og næb",
+     "Kraftigt, med lange strubefjer",
+     "–"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Dybt »prruk« eller »korp« og et hult »klong«",
+     "Som gråkragen: hæse, rullende »krra krra krra«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: ravn",
+    "u": "https://snl.no/ravn"
+   },
+   {
+    "n": "Store norske leksikon: svartkråke",
+    "u": "https://snl.no/svartkråke"
+   },
+   {
+    "n": "Store norske leksikon: kråke",
+    "u": "https://snl.no/kråke"
+   }
+  ]
+ },
+ {
+  "a": "corvus-cornix",
+  "b": "corvus-corone",
+  "se": {
+   "intro": "Ens i bygning, stemme og levevis – kun farven adskiller dem. Hvor de mødes, danner de blandingspar.",
+   "rows": [
+    [
+     "Fjerdragt",
+     "Grå med sort hoved, bryst, vinger og hale",
+     "Helt sort"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kråke",
+    "u": "https://snl.no/kråke"
+   },
+   {
+    "n": "Store norske leksikon: svartkråke",
+    "u": "https://snl.no/svartkråke"
+   }
+  ]
+ },
+ {
+  "a": "corvus-cornix",
+  "b": "corvus-frugilegus",
+  "se": {
+   "intro": "Omtrent lige store.",
+   "rows": [
+    [
+     "Fjerdragt",
+     "Grå med sort hoved, bryst, vinger og hale",
+     "Helsort med violet glans"
+    ],
+    [
+     "Næbrod",
+     "–",
+     "Gamle fugle har en nøgen, gråhvid plet"
+    ],
+    [
+     "Flugt",
+     "Langsom med rolige vingeslag; svæver sjældent",
+     "Lidt længere og smallere vinger; svæver mere"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Hæse, hårde, rullende »krra krra krra«",
+     "Hæsere og dybere; nasalt »gaah«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kråke",
+    "u": "https://snl.no/kråke"
+   },
+   {
+    "n": "Store norske leksikon: kornkråke",
+    "u": "https://snl.no/kornkråke"
+   }
+  ]
+ },
+ {
+  "a": "corvus-corone",
+  "b": "corvus-frugilegus",
+  "se": {
+   "intro": "Begge er helt sorte. Unge råger får først den nøgne plet ved næbroden året efter klækningen.",
+   "rows": [
+    [
+     "Næbrod",
+     "–",
+     "Gamle fugle har en nøgen, gråhvid plet"
+    ],
+    [
+     "Hoved",
+     "–",
+     "Flad pande og toppet isse – virker trekantet"
+    ],
+    [
+     "Ben",
+     "–",
+     "Store »fjerbukser«"
+    ],
+    [
+     "Flugt",
+     "Langsom med rolige vingeslag; svæver sjældent",
+     "Lidt længere og smallere vinger; svæver mere"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Hæse, hårde, rullende »krra krra krra«",
+     "Dybere i bassen; nasalt »gaah«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: svartkråke",
+    "u": "https://snl.no/svartkråke"
+   },
+   {
+    "n": "Store norske leksikon: kråke",
+    "u": "https://snl.no/kråke"
+   },
+   {
+    "n": "Store norske leksikon: kornkråke",
+    "u": "https://snl.no/kornkråke"
+   }
+  ]
+ },
+ {
+  "a": "cuculus-canorus",
+  "b": "accipiter-nisus",
+  "se": {
+   "intro": "Kan forveksles på størrelse, bygning og flugt – især i luften.",
+   "rows": [
+    [
+     "Han",
+     "Skifergrå med lysere, tværstribet underside",
+     "Gråblå overside og kraftigt tværstribet underside med rødbrune toner"
+    ],
+    [
+     "Vinger",
+     "Lange og spidse",
+     "–"
+    ],
+    [
+     "Hale",
+     "Lang",
+     "Lang med brede tværbånd"
+    ],
+    [
+     "Længde",
+     "32–33 cm",
+     "Han 29–34 cm, hun 35–41 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gjøk",
+    "u": "https://snl.no/gjøk"
+   },
+   {
+    "n": "Store norske leksikon: spurvehauk",
+    "u": "https://snl.no/spurvehauk"
+   }
+  ]
+ },
+ {
+  "a": "cyanistes-caeruleus",
+  "b": "parus-major",
+  "se": {
+   "intro": "Blåmejsen ligner lidt musvitten, men er klart mindre.",
+   "rows": [
+    [
+     "Isse",
+     "Lyseblå",
+     "Skinnende sort"
+    ],
+    [
+     "Kinder",
+     "Hvide med blåsort stribe gennem øjet",
+     "Hvide"
+    ],
+    [
+     "Bryst",
+     "Gult med antydning af sort brystbånd",
+     "Gult med sort midterstribe"
+    ],
+    [
+     "Længde",
+     "Ca. 12 cm",
+     "Ca. 15 cm – den største mejse"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Trillende »sit-sitt-sirrrrrrr«",
+     "Gentagne fløjtetoner, fx »tu-ti tu-ti tu-ti«"
+    ],
+    [
+     "Kald",
+     "Korte, spidse »sits« og »spitt spitt«",
+     "»Ping ping« (som bogfinken), »huit huit«; alarm »pist! pist!«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: blåmeis",
+    "u": "https://snl.no/blåmeis"
+   },
+   {
+    "n": "Store norske leksikon: kjøttmeis",
+    "u": "https://snl.no/kjøttmeis"
+   }
+  ]
+ },
+ {
+  "a": "parus-major",
+  "b": "periparus-ater",
+  "se": {
+   "rows": [
+    [
+     "Underside",
+     "Gul med sort midterstribe",
+     "Hvid"
+    ],
+    [
+     "Nakke",
+     "–",
+     "Stor, næsten firkantet hvid nakkeplet"
+    ],
+    [
+     "Vingebånd",
+     "Ét smalt hvidt",
+     "To tydelige hvide"
+    ],
+    [
+     "Længde",
+     "Ca. 15 cm – den største mejse",
+     "Ca. 11 cm – den mindste mejse"
+    ]
+   ]
+  },
+  "lyd": {
+   "intro": "Sangen ligner hinanden.",
+   "rows": [
+    [
+     "Sang",
+     "Gentagne fløjtetoner, fx »tu-ti tu-ti tu-ti«",
+     "Lysere, mere vemodig og enklere: »ti-du-vii ti-du-vii«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kjøttmeis",
+    "u": "https://snl.no/kjøttmeis"
+   },
+   {
+    "n": "Store norske leksikon: svartmeis",
+    "u": "https://snl.no/svartmeis"
+   }
+  ]
+ },
+ {
+  "a": "cygnus-columbianus",
+  "b": "cygnus-cygnus",
+  "se": {
+   "intro": "Pibesvanen ligner sangsvanen, men er mindre.",
+   "rows": [
+    [
+     "Gult på næbbet",
+     "Mindre gul plet ved næbroden",
+     "Gult næb med sort spids"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dvergsvane",
+    "u": "https://snl.no/dvergsvane"
+   },
+   {
+    "n": "Store norske leksikon: sangsvane",
+    "u": "https://snl.no/sangsvane"
+   }
+  ]
+ },
+ {
+  "a": "delichon-urbicum",
+  "b": "hirundo-rustica",
+  "se": {
+   "rows": [
+    [
+     "Overgump",
+     "Hvid",
+     "–"
+    ],
+    [
+     "Hale",
+     "Kort og let kløftet",
+     "Dybere kløftet med stærkt forlængede ydre halefjer"
+    ],
+    [
+     "Underside",
+     "Helt hvid",
+     "Hvid med blåsort brystbånd og rødbrun strube og pande"
+    ],
+    [
+     "Ben og fødder",
+     "Fjerklædte helt ud til tæerne",
+     "–"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Kort kvidren, »priitt«",
+     "Hurtig kvidren"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: taksvale",
+    "u": "https://snl.no/taksvale"
+   },
+   {
+    "n": "Store norske leksikon: låvesvale",
+    "u": "https://snl.no/låvesvale"
+   }
+  ]
+ },
+ {
+  "a": "delichon-urbicum",
+  "b": "riparia-riparia",
+  "se": {
+   "rows": [
+    [
+     "Overside",
+     "Blåsort med hvid overgump",
+     "Brungrå"
+    ],
+    [
+     "Underside",
+     "Helt hvid",
+     "Hvid med brunt brystbånd"
+    ],
+    [
+     "Længde",
+     "13–14 cm",
+     "Ca. 12 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Kort kvidren, »priitt«",
+     "Ru kvidren, »tschr«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: taksvale",
+    "u": "https://snl.no/taksvale"
+   },
+   {
+    "n": "Store norske leksikon: sandsvale",
+    "u": "https://snl.no/sandsvale"
+   }
+  ]
+ },
+ {
+  "a": "dendrocopos-major",
+  "b": "dryobates-minor",
+  "se": {
+   "rows": [
+    [
+     "Størrelse",
+     "Ca. 25 cm – som en drossel",
+     "Ca. 15 cm – som en spurv"
+    ],
+    [
+     "Ryg",
+     "Sort med to store hvide skulderfelter",
+     "Hvid med sorte tværstriber"
+    ],
+    [
+     "Under halen",
+     "Blodrødt",
+     "Intet rødt"
+    ],
+    [
+     "Rødt på hovedet",
+     "Hannen: lille rød nakkeplet",
+     "Hannen: rød isse"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: flaggspett",
+    "u": "https://snl.no/flaggspett"
+   },
+   {
+    "n": "Store norske leksikon: dvergspett",
+    "u": "https://snl.no/dvergspett"
+   }
+  ]
+ },
+ {
+  "a": "dendrocoptes-medius",
+  "b": "dendrocopos-major",
+  "se": {
+   "intro": "Mellemflagspætten er lidt mindre end den store flagspætte, som den ligner.",
+   "rows": [
+    [
+     "Isse",
+     "Lyserød uden sorte kanter",
+     "Hannen: sort isse med lille rød nakkeplet"
+    ],
+    [
+     "Underside",
+     "Lyserosa med sorte striber på siderne",
+     "Hvid; blodrødt under halen"
+    ],
+    [
+     "Næb og hoved",
+     "Kort næb og lyst, rundt hoved",
+     "–"
+    ],
+    [
+     "Trommen",
+     "Sjældent",
+     "10–15 slag i sekundet, lidt over et halvt sekund"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: mellomspett",
+    "u": "https://snl.no/mellomspett"
+   },
+   {
+    "n": "Store norske leksikon: flaggspett",
+    "u": "https://snl.no/flaggspett"
+   }
+  ]
+ },
+ {
+  "a": "emberiza-calandra",
+  "b": "alauda-arvensis",
+  "se": {
+   "intro": "Bomlærken ligner sanglærken i farver og størrelse.",
+   "rows": [
+    [
+     "Næb",
+     "Tykt og kort",
+     "–"
+    ],
+    [
+     "Hoved",
+     "–",
+     "Antydning af en top"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Kort og enkel række af knirkende, skrabende lyde",
+     "Triller og fløjtetoner i en løbende strøm under sangflugten"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kornspurv",
+    "u": "https://snl.no/kornspurv"
+   },
+   {
+    "n": "Store norske leksikon: sanglerke",
+    "u": "https://snl.no/sanglerke"
+   }
+  ]
+ },
+ {
+  "a": "emberiza-pusilla",
+  "b": "emberiza-schoeniclus",
+  "se": {
+   "intro": "Begge køn af dværgværlingen ligner rørspurvehunnen.",
+   "rows": [
+    [
+     "Kinder",
+     "Rustbrune",
+     "Hunnen: beigehvid strube og sorte underskægstriber"
+    ],
+    [
+     "Længde",
+     "12–13,5 cm",
+     "14–16,5 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Kort, melodisk trille, der kan minde om rørspurvens",
+     "Enkel og kort, flere korte stavelser"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dvergspurv",
+    "u": "https://snl.no/dvergspurv"
+   },
+   {
+    "n": "Store norske leksikon: sivspurv",
+    "u": "https://snl.no/sivspurv"
+   }
+  ]
+ },
+ {
+  "a": "circus-aeruginosus",
+  "b": "buteo-buteo",
+  "se": {
+   "rows": [
+    [
+     "Han",
+     "Spraglet brun krop; hale og vinger askegrå til blågrå med sorte vingespidser",
+     "Mørkebrun og spraglet, meget varierende"
+    ],
+    [
+     "Hun og ungfugl",
+     "Ofte lys, næsten gullig hovedtegning",
+     "–"
+    ],
+    [
+     "Hale",
+     "–",
+     "Mange smalle tværbånd"
+    ],
+    [
+     "Hvor",
+     "Ses oftest flyvende lavt over rørskoven",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: sivhauk",
+    "u": "https://snl.no/sivhauk"
+   },
+   {
+    "n": "Store norske leksikon: musvåk",
+    "u": "https://snl.no/musvåk"
+   }
+  ]
+ },
+ {
+  "a": "columba-livia",
+  "b": "columba-oenas",
+  "se": {
+   "intro": "Begge er blågrå og omtrent lige store.",
+   "rows": [
+    [
+     "Overgump",
+     "Hvid",
+     "Uden hvide tegninger"
+    ],
+    [
+     "Vinger",
+     "To brede sorte bånd tværs over vingen",
+     "Sorte vingetegninger"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: klippedue",
+    "u": "https://snl.no/klippedue"
+   },
+   {
+    "n": "Store norske leksikon: skogdue",
+    "u": "https://snl.no/skogdue"
+   }
+  ]
+ },
+ {
+  "a": "falco-columbarius",
+  "b": "falco-tinnunculus",
+  "se": {
+   "rows": [
+    [
+     "Han, overside",
+     "Blågrå med sorte længdestriber",
+     "Blågråt hoved, nakke, overgump og hale; rødbrun ryg og vinger med sorte pletter"
+    ],
+    [
+     "Han, underside",
+     "Rustgul med brune længdepletter",
+     "Gulbrun med sorte pletter"
+    ],
+    [
+     "Hun",
+     "Brunere overside",
+     "Rødbrun med sorte pletter over hele oversiden"
+    ],
+    [
+     "Jagt",
+     "–",
+     "Står ofte længe stille i luften med arbejdende vinger, før den styrtdykker"
+    ],
+    [
+     "Længde",
+     "24–32 cm – den mindste falk",
+     "31–37 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dvergfalk",
+    "u": "https://snl.no/dvergfalk"
+   },
+   {
+    "n": "Store norske leksikon: tårnfalk",
+    "u": "https://snl.no/tårnfalk"
+   }
+  ]
+ },
+ {
+  "a": "falco-naumanni",
+  "b": "falco-tinnunculus",
+  "se": {
+   "intro": "Den lille tårnfalk ligner tårnfalken, men er mindre. Hunnerne er meget ens.",
+   "rows": [
+    [
+     "Hannens ryg",
+     "Uden pletter",
+     "Rødbrun med sorte pletter"
+    ],
+    [
+     "Hunnens kløer",
+     "Lyse",
+     "Mørke"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rødfalk",
+    "u": "https://snl.no/rødfalk"
+   },
+   {
+    "n": "Store norske leksikon: tårnfalk",
+    "u": "https://snl.no/tårnfalk"
+   }
+  ]
+ },
+ {
+  "a": "falco-peregrinus",
+  "b": "falco-subbuteo",
+  "se": {
+   "intro": "Begge har en markant mørk skægstribe.",
+   "rows": [
+    [
+     "Underside",
+     "Gråhvid med tætte sorte tværbånd",
+     "Brunplettet"
+    ],
+    [
+     "Lår og undergump",
+     "Tværbåndede",
+     "Rødbrune"
+    ],
+    [
+     "Overside",
+     "Gråblå til brunsort",
+     "Gråsort"
+    ],
+    [
+     "Størrelse",
+     "Hun 46–51 cm, han 38–45 cm",
+     "En ret lille falk"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: vandrefalk",
+    "u": "https://snl.no/vandrefalk"
+   },
+   {
+    "n": "Store norske leksikon: lerkefalk",
+    "u": "https://snl.no/lerkefalk"
+   }
+  ]
+ },
+ {
+  "a": "falco-rusticolus",
+  "b": "falco-peregrinus",
+  "se": {
+   "intro": "Vandrefalken ligner jagtfalken, men er lidt mindre.",
+   "rows": [
+    [
+     "Skægstribe",
+     "Mindre markant",
+     "Mørk og meget markant"
+    ],
+    [
+     "Underside",
+     "Gråhvid med tætte mørkebrune længdepletter",
+     "Gråhvid med tætte sorte tværbånd"
+    ],
+    [
+     "Farve",
+     "Fra mørk til næsten hvid (grønlandske fugle)",
+     "Gråblå til brunsort overside"
+    ],
+    [
+     "Længde",
+     "53–63 cm",
+     "38–51 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: jaktfalk",
+    "u": "https://snl.no/jaktfalk"
+   },
+   {
+    "n": "Store norske leksikon: vandrefalk",
+    "u": "https://snl.no/vandrefalk"
+   }
+  ]
+ },
+ {
+  "a": "ficedula-albicollis",
+  "b": "ficedula-hypoleuca",
+  "se": {
+   "intro": "Samme størrelse. Hunnerne er svære at skelne.",
+   "rows": [
+    [
+     "Han",
+     "Sort og hvid med hvidt bånd tværs over nakken",
+     "Sort og hvid – varierer fra brunlig til helt sort"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: halsbåndfluesnapper",
+    "u": "https://snl.no/halsbåndfluesnapper"
+   },
+   {
+    "n": "Store norske leksikon: svarthvit fluesnapper",
+    "u": "https://snl.no/svarthvit_fluesnapper"
+   }
+  ]
+ },
+ {
+  "a": "ficedula-hypoleuca",
+  "b": "muscicapa-striata",
+  "se": {
+   "rows": [
+    [
+     "Han",
+     "Markant sort og hvid",
+     "Gråbrun som hunnen"
+    ],
+    [
+     "Hun",
+     "Gråbrun overside og hvid underside",
+     "Gråbrun med gråstribet bryst og hvid bug"
+    ],
+    [
+     "Adfærd",
+     "–",
+     "Sidder næsten lodret på en fri gren, flyver ud efter insekter og vipper ofte med halen"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Kort, højlydt og rytmisk, ca. to sekunder, med pludselige skift i takt og tonehøjde",
+     "En række ensartede, lavmælte toner, ofte med enkle triller"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: svarthvit fluesnapper",
+    "u": "https://snl.no/svarthvit_fluesnapper"
+   },
+   {
+    "n": "Store norske leksikon: gråfluesnapper",
+    "u": "https://snl.no/gråfluesnapper"
+   }
+  ]
+ },
+ {
+  "a": "fringilla-coelebs",
+  "b": "fringilla-montifringilla",
+  "se": {
+   "intro": "Samme størrelse, og de ses ofte i flok sammen om vinteren.",
+   "rows": [
+    [
+     "Overgump",
+     "Grøn",
+     "Hvid"
+    ],
+    [
+     "Han",
+     "Gråblå hætte og nakke, kastanjebrun ryg, rødbrun underside",
+     "Om sommeren sort hoved og ryg; rustgul strube og bryst"
+    ],
+    [
+     "Vinger",
+     "Næsten sorte med to tydelige hvide bånd",
+     "Sorte med enkelte lyse striber og bånd"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Kraftig og karakteristisk",
+     "Langsom, sekundlang, rå summetone »rrrrruh«"
+    ],
+    [
+     "Kald",
+     "–",
+     "Højlydt, kvækkende, nasalt »tæ-æhp«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: bokfink",
+    "u": "https://snl.no/bokfink"
+   },
+   {
+    "n": "Store norske leksikon: bjørkefink",
+    "u": "https://snl.no/bjørkefink"
+   }
+  ]
+ },
+ {
+  "a": "fulica-atra",
+  "b": "gallinula-chloropus",
+  "se": {
+   "rows": [
+    [
+     "Næb og pande",
+     "Hvidt næb og hvid pandeplade",
+     "Rødt næb med gul spids og rød pandeplade"
+    ],
+    [
+     "Fjerdragt",
+     "Helt sort",
+     "Næsten sort med smal hvid stribe langs vingekanten og hvidt under halen"
+    ],
+    [
+     "Størrelse",
+     "500–700 g",
+     "200–300 g"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: sothøne",
+    "u": "https://snl.no/sothøne"
+   },
+   {
+    "n": "Store norske leksikon: sivhøne",
+    "u": "https://snl.no/sivhøne"
+   }
+  ]
+ },
+ {
+  "a": "fulmarus-glacialis",
+  "b": "larus-canus",
+  "se": {
+   "intro": "Mallemukken minder om en stor stormmåge.",
+   "rows": [
+    [
+     "Vingespidser",
+     "Hverken sorte eller hvide",
+     "Sorte med hvide pletter yderst"
+    ],
+    [
+     "Flugt",
+     "Hurtige, stive vingeslag afbrudt af glideflugt",
+     "–"
+    ],
+    [
+     "Næb",
+     "–",
+     "Gulgrønt"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: havhest",
+    "u": "https://snl.no/havhest"
+   },
+   {
+    "n": "Store norske leksikon: fiskemåke",
+    "u": "https://snl.no/fiskemåke"
+   }
+  ]
+ },
+ {
+  "a": "rallus-aquaticus",
+  "b": "gallinula-chloropus",
+  "se": {
+   "rows": [
+    [
+     "Næb",
+     "Langt og overvejende rødt",
+     "Rødt med gul spids og rød pandeplade"
+    ],
+    [
+     "Fjerdragt",
+     "Brunsort, spraglet overside og grå underside; sort bagparti med hvide tværstriber",
+     "Næsten sort med hvid stribe langs vingekanten og under halen"
+    ],
+    [
+     "Størrelse",
+     "Ca. 100 g",
+     "200–300 g"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: vannrikse",
+    "u": "https://snl.no/vannrikse"
+   },
+   {
+    "n": "Store norske leksikon: sivhøne",
+    "u": "https://snl.no/sivhøne"
+   }
+  ]
+ },
+ {
+  "a": "galerida-cristata",
+  "b": "alauda-arvensis",
+  "se": {
+   "intro": "Farver og størrelse ligner hinanden.",
+   "rows": [
+    [
+     "Top",
+     "Markant fjertop",
+     "Kun antydning af en top"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: topplerke",
+    "u": "https://snl.no/topplerke"
+   },
+   {
+    "n": "Store norske leksikon: sanglerke",
+    "u": "https://snl.no/sanglerke"
+   }
+  ]
+ },
+ {
+  "a": "gallinago-gallinago",
+  "b": "lymnocryptes-minimus",
+  "se": {
+   "rows": [
+    [
+     "Næb",
+     "Meget langt og lige",
+     "Betydeligt kortere og kraftigere"
+    ],
+    [
+     "Hale",
+     "–",
+     "Meget kort og kileformet"
+    ],
+    [
+     "Ryg",
+     "Brun og sort med tydelige gulhvide længdestriber",
+     "Mørk med grønlig metalglans og kraftige gule længdestriber"
+    ],
+    [
+     "Når den skræmmes op",
+     "Stiger højt i zigzag med et kraftigt »tsjæt« og flyver langt væk",
+     "Tavs; flyver som regel kun et kort stykke"
+    ],
+    [
+     "Størrelse",
+     "–",
+     "17–20 cm – den mindste bekkasin"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dobbeltbekkasin (norsk: enkeltbekkasin)",
+    "u": "https://snl.no/enkeltbekkasin"
+   },
+   {
+    "n": "Store norske leksikon: enkeltbekkasin (norsk: kvartbekkasin)",
+    "u": "https://snl.no/kvartbekkasin"
+   }
+  ]
+ },
+ {
+  "a": "gallinago-media",
+  "b": "gallinago-gallinago",
+  "se": {
+   "intro": "Svære at skelne på udseendet.",
+   "rows": [
+    [
+     "Underside",
+     "Groft tværstribet",
+     "Næsten helt hvid"
+    ],
+    [
+     "Vinger",
+     "Tydelige hvide bånd",
+     "Ingen hvide bånd"
+    ],
+    [
+     "Yderste halefjer",
+     "Meget hvidt, ses ved opflyvning og landing",
+     "–"
+    ],
+    [
+     "Opflyvning",
+     "Lige ud",
+     "Zigzag"
+    ],
+    [
+     "Størrelse",
+     "Lidt større",
+     "Lidt mindre"
+    ]
+   ]
+  },
+  "lyd": {
+   "intro": "Lyd og adfærd i yngletiden er meget forskellige.",
+   "rows": [
+    [
+     "Spil",
+     "Hannerne samles på spillepladser og kvidrer og knepper med næbbet, mest mellem kl. 22 og 03",
+     "»Mekrende« lyd fra halefjerene under styrtdyk, mest i skumring og nat"
+    ],
+    [
+     "Når den skræmmes op",
+     "Normalt tavs",
+     "Kraftigt »tsjæt«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tredækker (norsk: dobbeltbekkasin)",
+    "u": "https://snl.no/dobbeltbekkasin"
+   },
+   {
+    "n": "Store norske leksikon: dobbeltbekkasin (norsk: enkeltbekkasin)",
+    "u": "https://snl.no/enkeltbekkasin"
+   }
+  ]
+ },
+ {
+  "a": "gavia-adamsii",
+  "b": "gavia-immer",
+  "se": {
+   "intro": "Ligner hinanden – næbbet afgør det.",
+   "rows": [
+    [
+     "Næb",
+     "Gult og opadbøjet",
+     "Sort og lige (lysere om vinteren)"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gulnebblom",
+    "u": "https://snl.no/gulnebblom"
+   },
+   {
+    "n": "Store norske leksikon: islom",
+    "u": "https://snl.no/islom"
+   }
+  ]
+ },
+ {
+  "a": "hippolais-icterina",
+  "b": "phylloscopus-trochilus",
+  "se": {
+   "intro": "Forveksles ofte, men gulbugen er noget kraftigere.",
+   "rows": [
+    [
+     "Underside",
+     "Lys gul",
+     "Gråhvid"
+    ],
+    [
+     "Vinge",
+     "Lyst felt på armsvingfjerene",
+     "–"
+    ],
+    [
+     "Næb og hoved",
+     "Ret kraftige",
+     "–"
+    ],
+    [
+     "Længde",
+     "Ca. 13 cm",
+     "Ca. 11 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Meget varieret med lange, hurtige strofer, nasale »piee-piee« og efterligninger",
+     "Melodisk og lidt vemodig tonerække"
+    ],
+    [
+     "Kald",
+     "Hurtigt, trestavet »te-te-pijui«",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gulsanger",
+    "u": "https://snl.no/gulsanger"
+   },
+   {
+    "n": "Store norske leksikon: løvsanger",
+    "u": "https://snl.no/løvsanger"
+   }
+  ]
+ },
+ {
+  "a": "hippolais-polyglotta",
+  "b": "hippolais-icterina",
+  "se": {
+   "intro": "Meget ens – lettest at skelne på sangen.",
+   "rows": [
+    [
+     "Næb",
+     "Noget kortere",
+     "–"
+    ],
+    [
+     "Vinger",
+     "Noget kortere",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: spottesanger",
+    "u": "https://snl.no/spottesanger"
+   },
+   {
+    "n": "Store norske leksikon: gulsanger",
+    "u": "https://snl.no/gulsanger"
+   }
+  ]
+ },
+ {
+  "a": "hydrobates-pelagicus",
+  "b": "hydrobates-leucorhous",
+  "se": {
+   "intro": "Begge er mørke med hvid overgump.",
+   "rows": [
+    [
+     "Hale",
+     "Næsten lige afskåret",
+     "Gaffelformet"
+    ],
+    [
+     "Undervinge",
+     "Lyse felter",
+     "–"
+    ],
+    [
+     "Flugt",
+     "Flagrende, lige over havoverfladen",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: havsvale",
+    "u": "https://snl.no/havsvale"
+   },
+   {
+    "n": "Store norske leksikon: stormsvale",
+    "u": "https://snl.no/stormsvale"
+   }
+  ]
+ },
+ {
+  "a": "hydrocoloeus-minutus",
+  "b": "chroicocephalus-ridibundus",
+  "se": {
+   "rows": [
+    [
+     "Størrelse",
+     "Den mindste måge, 80–140 g",
+     "Ca. 275 g"
+    ],
+    [
+     "Hætte (sommer)",
+     "Helt sort og når lidt længere bagud",
+     "Mørkebrun"
+    ],
+    [
+     "Undervinge",
+     "Mørkegrå",
+     "Grå med sorte spidser på håndsvingfjerene"
+    ],
+    [
+     "Vingespidser",
+     "Uden sort",
+     "Sorte"
+    ],
+    [
+     "Forvinge",
+     "Uden hvidt felt",
+     "Hvid forkant"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dvergmåke",
+    "u": "https://snl.no/dvergmåke"
+   },
+   {
+    "n": "Store norske leksikon: hettemåke",
+    "u": "https://snl.no/hettemåke"
+   }
+  ]
+ },
+ {
+  "a": "hydroprogne-caspia",
+  "b": "thalasseus-sandvicensis",
+  "se": {
+   "intro": "Begge er grå og hvide med sort hætte.",
+   "rows": [
+    [
+     "Næb",
+     "Kraftigt, dolkformet og rødt med sort spids",
+     "Sort med gul spids (yngletid)"
+    ],
+    [
+     "Hoved",
+     "–",
+     "Den sorte hætte ender i en pjusket nakketop"
+    ],
+    [
+     "Størrelse",
+     "Klart større end alle andre europæiske terner, 550–780 g",
+     "Kraftigere end fjordterne"
+    ],
+    [
+     "Flugt",
+     "Langsomme vingeslag – minder om en måge",
+     "Rolige, kraftige vingeslag"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rovterne",
+    "u": "https://snl.no/rovterne"
+   },
+   {
+    "n": "Store norske leksikon: splitterne",
+    "u": "https://snl.no/splitterne"
+   }
+  ]
+ },
+ {
+  "a": "thalasseus-sandvicensis",
+  "b": "sterna-hirundo",
+  "se": {
+   "intro": "Begge er grå og hvide med sort hætte, men splitternen er langt kraftigere bygget.",
+   "rows": [
+    [
+     "Næb",
+     "Sort med gul spids (yngletid)",
+     "Orangerødt med sort spids (yngletid)"
+    ],
+    [
+     "Ben",
+     "Sorte",
+     "Røde (sommer)"
+    ],
+    [
+     "Hale",
+     "Ret kort og mindre kløftet",
+     "Kløftet"
+    ],
+    [
+     "Hoved",
+     "Sort hætte med pjusket nakketop",
+     "Sort hætte"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: splitterne",
+    "u": "https://snl.no/splitterne"
+   },
+   {
+    "n": "Store norske leksikon: makrellterne",
+    "u": "https://snl.no/makrellterne"
+   }
+  ]
+ },
+ {
+  "a": "lanius-collurio",
+  "b": "lanius-excubitor",
+  "se": {
+   "intro": "Den rødryggede tornskade er meget mindre.",
+   "rows": [
+    [
+     "Størrelse",
+     "Ca. 17 cm",
+     "Omtrent som en stor drossel"
+    ],
+    [
+     "Ryg og vinger",
+     "Rødbrune",
+     "Grå og sorte"
+    ],
+    [
+     "Hannens hoved",
+     "Gråt med bred sort maske fra næbbet forbi øjet",
+     "Gråt og sort"
+    ],
+    [
+     "Underside",
+     "Lys",
+     "Hvid"
+    ],
+    [
+     "Hale",
+     "Sort (hannen)",
+     "Lang"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tornskate",
+    "u": "https://snl.no/tornskate"
+   },
+   {
+    "n": "Store norske leksikon: varsler",
+    "u": "https://snl.no/varsler"
+   }
+  ]
+ },
+ {
+  "a": "larus-argentatus",
+  "b": "larus-canus",
+  "se": {
+   "rows": [
+    [
+     "Næb",
+     "Gult med rød plet på underkæben",
+     "Gulgrønt uden rød plet"
+    ],
+    [
+     "Ben",
+     "Grårosa (sjældent gule)",
+     "Grå eller gulgrønne, til tider gule"
+    ],
+    [
+     "Vingespids",
+     "Sort på de fem yderste håndsvingfjer; den yderste med hvid spids",
+     "Sort med hvide pletter yderst"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gråmåke",
+    "u": "https://snl.no/gråmåke"
+   },
+   {
+    "n": "Store norske leksikon: fiskemåke",
+    "u": "https://snl.no/fiskemåke"
+   }
+  ]
+ },
+ {
+  "a": "larus-cachinnans",
+  "b": "larus-argentatus",
+  "se": {
+   "intro": "Voksne kaspiske måger kan minde om sølvmåger.",
+   "rows": [
+    [
+     "Øjne",
+     "Oftest mørke med rød øjenring",
+     "Ofte lyse med gul øjenring"
+    ],
+    [
+     "Næb",
+     "Tyndere, langstrakt og parallelsidet",
+     "–"
+    ],
+    [
+     "Vingespids",
+     "Mere sort; længere vinger",
+     "Sort på de fem yderste håndsvingfjer"
+    ],
+    [
+     "Hoved om vinteren",
+     "Mindre stribet",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kaspimåke",
+    "u": "https://snl.no/kaspimåke"
+   },
+   {
+    "n": "Store norske leksikon: gråmåke",
+    "u": "https://snl.no/gråmåke"
+   }
+  ]
+ },
+ {
+  "a": "larus-delawarensis",
+  "b": "larus-canus",
+  "se": {
+   "intro": "Den ringnæbbede måge er lidt større og grovere bygget.",
+   "rows": [
+    [
+     "Næb",
+     "Bredt sort tværbånd (voksen)",
+     "Gulgrønt uden bånd"
+    ],
+    [
+     "Øje",
+     "De fleste voksne har lyst øje",
+     "Altid mørkt"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: ringnebbmåke",
+    "u": "https://snl.no/ringnebbmåke"
+   },
+   {
+    "n": "Store norske leksikon: fiskemåke",
+    "u": "https://snl.no/fiskemåke"
+   }
+  ]
+ },
+ {
+  "a": "larus-glaucoides",
+  "b": "larus-hyperboreus",
+  "se": {
+   "intro": "Begge har helt hvide vingespidser. Voksne er svære at skelne.",
+   "rows": [
+    [
+     "Størrelse",
+     "Mindre, 490–990 g",
+     "Omtrent dobbelt så tung, 1020–1920 g"
+    ],
+    [
+     "Hoved og næb",
+     "Rundere hoved og kortere næb",
+     "Kraftigere næb og mere udstrakt hoved"
+    ],
+    [
+     "Siddende fugl",
+     "Vingespidserne rager længere ud over halen",
+     "Kortere vingeprojektion"
+    ],
+    [
+     "Ungfuglens næb",
+     "Oftest ikke lyserødt med mørk spids",
+     "Rødrosa ved roden med skarpt afgrænset mørk spids"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: grønlandsmåke",
+    "u": "https://snl.no/grønlandsmåke"
+   },
+   {
+    "n": "Store norske leksikon: polarmåke",
+    "u": "https://snl.no/polarmåke"
+   }
+  ]
+ },
+ {
+  "a": "rissa-tridactyla",
+  "b": "larus-canus",
+  "se": {
+   "intro": "Størrelse og udseende ligner hinanden.",
+   "rows": [
+    [
+     "Vingespids",
+     "Sort uden hvide pletter",
+     "Sort med hvide pletter yderst"
+    ],
+    [
+     "Ben",
+     "Sorte",
+     "Grå eller gulgrønne"
+    ],
+    [
+     "Ungfugl",
+     "Sort bånd over vingerne og i nakken",
+     "Brune vinger og grå ryg den første vinter"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: krykkje",
+    "u": "https://snl.no/krykkje"
+   },
+   {
+    "n": "Store norske leksikon: fiskemåke",
+    "u": "https://snl.no/fiskemåke"
+   }
+  ]
+ },
+ {
+  "a": "linaria-flavirostris",
+  "b": "linaria-cannabina",
+  "se": {
+   "intro": "Tornirisk-hunnen kan minde om en bjergirisk.",
+   "rows": [
+    [
+     "Han",
+     "Rosa overgump; kraftigt stribet brun ryg",
+     "Rød pande og rødt bryst, grå nakke, kanelbrun ryg"
+    ],
+    [
+     "Næb",
+     "Gult om vinteren, gråligt om sommeren",
+     "–"
+    ],
+    [
+     "Strube",
+     "–",
+     "Beigehvid (hannen)"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Kald",
+     "Kort, hårdt »jett« og langtrukkent, let stigende »tweeiht«",
+     "Nasalt »tigg-itt« og »tett-ett-ett«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: bergirisk",
+    "u": "https://snl.no/bergirisk"
+   },
+   {
+    "n": "Store norske leksikon: tornirisk",
+    "u": "https://snl.no/tornirisk"
+   }
+  ]
+ },
+ {
+  "a": "locustella-luscinioides",
+  "b": "locustella-naevia",
+  "se": {
+   "rows": [
+    [
+     "Bryst og ryg",
+     "Uden striber",
+     "Stribet olivenbrun overside og svage stribepletter på brystet"
+    ],
+    [
+     "Farve",
+     "Rødlig olivenbrun",
+     "Olivenbrun"
+    ],
+    [
+     "Længde",
+     "13,5–15 cm",
+     "12,5–13,5 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "intro": "Begge synger en lang, græshoppeagtig snurren.",
+   "rows": [
+    [
+     "Sang",
+     "Minder om en græshoppe",
+     "Som en stor løvgræshoppe eller en fiskehjulslinje, der løber ud – helst om natten"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: sumpsanger",
+    "u": "https://snl.no/sumpsanger"
+   },
+   {
+    "n": "Store norske leksikon: gresshoppesanger",
+    "u": "https://snl.no/gresshoppesanger"
+   }
+  ]
+ },
+ {
+  "a": "loxia-curvirostra",
+  "b": "pyrrhula-pyrrhula",
+  "se": {
+   "intro": "Begge hanner er røde.",
+   "rows": [
+    [
+     "Næb",
+     "Krydsede næbhalvdele, længere end højt",
+     "Kort og tykt"
+    ],
+    [
+     "Hoved",
+     "–",
+     "Sort hætte og sort strubeplet"
+    ],
+    [
+     "Overgump og vinger",
+     "Hunnen ofte blegt gul overgump",
+     "Hvid overgump og hvidt bånd over de sorte vinger"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Kald",
+     "Metallisk »glipp-glipp«",
+     "Fløjtende »djuu«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: grankorsnebb",
+    "u": "https://snl.no/grankorsnebb"
+   },
+   {
+    "n": "Store norske leksikon: dompap",
+    "u": "https://snl.no/dompap"
+   }
+  ]
+ },
+ {
+  "a": "loxia-pytyopsittacus",
+  "b": "loxia-curvirostra",
+  "se": {
+   "intro": "Meget ens.",
+   "rows": [
+    [
+     "Næb",
+     "Kraftigere – næbbet er omtrent lige så højt som langt",
+     "Længere end højt; underkæben tydeligt spinklere"
+    ],
+    [
+     "Længde",
+     "Ca. 18 cm",
+     "15–17 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Kald",
+     "Dybere og hårdere »typp, typp, typp«",
+     "Lysere, metallisk »glipp-glipp«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: furukorsnebb",
+    "u": "https://snl.no/furukorsnebb"
+   },
+   {
+    "n": "Store norske leksikon: grankorsnebb",
+    "u": "https://snl.no/grankorsnebb"
+   }
+  ]
+ },
+ {
+  "a": "luscinia-luscinia",
+  "b": "erithacus-rubecula",
+  "se": {
+   "rows": [
+    [
+     "Bryst",
+     "Gråhvid underside",
+     "Rustrød pande, strube og bryst"
+    ],
+    [
+     "Hale",
+     "Rustbrun",
+     "–"
+    ],
+    [
+     "Længde",
+     "Ca. 16 cm",
+     "Ca. 14 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Fløjtetoner gentaget som hos sangdroslen, med smældende og trommende lyde – om natten og tidligt om morgenen",
+     "Sildrende som et vandløb – i daggry og om aftenen"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: nattergal",
+    "u": "https://snl.no/nattergal"
+   },
+   {
+    "n": "Store norske leksikon: rødstrupe",
+    "u": "https://snl.no/rødstrupe"
+   }
+  ]
+ },
+ {
+  "a": "luscinia-megarhynchos",
+  "b": "luscinia-luscinia",
+  "se": {
+   "intro": "Nærmeste slægtninge og meget ens.",
+   "rows": [
+    [
+     "Overside",
+     "Mere rødbrun",
+     "Brun"
+    ],
+    [
+     "Underside",
+     "Lysere",
+     "Gråhvid"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: nattergal",
+    "u": "https://snl.no/nattergal"
+   }
+  ]
+ },
+ {
+  "a": "mareca-americana",
+  "b": "mareca-penelope",
+  "se": {
+   "rows": [
+    [
+     "Hannens hoved",
+     "Gulhvidt med mørkegrønt bånd fra øjet til nakken",
+     "Rødbrunt med bred gul-orange stribe fra panden over issen"
+    ],
+    [
+     "Hun",
+     "Ligner pibeandehunnen, men med lysere hoved",
+     "Mørk rødbrun"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: amerikablesand",
+    "u": "https://snl.no/amerikablesand"
+   },
+   {
+    "n": "Store norske leksikon: brunnakke",
+    "u": "https://snl.no/brunnakke"
+   }
+  ]
+ },
+ {
+  "a": "melanitta-fusca",
+  "b": "melanitta-nigra",
+  "se": {
+   "intro": "Kan forveksles. Fløjlsanden har hvidt vingespejl, som ses i flugt.",
+   "rows": [
+    [
+     "Vingespejl",
+     "Hvidt (begge køn)",
+     "–"
+    ],
+    [
+     "Han",
+     "Sort med lille hvid plet omkring øjet",
+     "Helt sort; mørkt næb med orange felt og tydelig knop ved roden"
+    ],
+    [
+     "Hun",
+     "Brun med to store lyse pletter på hver side af hovedet",
+     "Ensartet brun med lyse kinder, strube og hals"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: sjøorre",
+    "u": "https://snl.no/sjøorre"
+   },
+   {
+    "n": "Store norske leksikon: svartand",
+    "u": "https://snl.no/svartand"
+   }
+  ]
+ },
+ {
+  "a": "milvus-migrans",
+  "b": "milvus-milvus",
+  "se": {
+   "rows": [
+    [
+     "Farve",
+     "Mørkere brun",
+     "Rødbrun og spraglet; undersiden af vingerne næsten hvid yderst"
+    ],
+    [
+     "Hale",
+     "Mindre kløftet",
+     "Rustbrun og dybt kløftet"
+    ],
+    [
+     "Vingefang",
+     "Lidt mindre",
+     "140–165 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: svartglente",
+    "u": "https://snl.no/svartglente"
+   },
+   {
+    "n": "Store norske leksikon: glente",
+    "u": "https://snl.no/glente"
+   }
+  ]
+ },
+ {
+  "a": "motacilla-alba",
+  "b": "motacilla-flava",
+  "se": {
+   "intro": "Samme form og størrelse.",
+   "rows": [
+    [
+     "Underside",
+     "Hvid",
+     "Gul"
+    ],
+    [
+     "Overside",
+     "Grå",
+     "Grågrøn"
+    ],
+    [
+     "Hoved",
+     "Hvidt ansigt med sort",
+     "Tegningen varierer med underarten"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: linerle",
+    "u": "https://snl.no/linerle"
+   },
+   {
+    "n": "Store norske leksikon: gulerle",
+    "u": "https://snl.no/gulerle"
+   }
+  ]
+ },
+ {
+  "a": "motacilla-cinerea",
+  "b": "motacilla-flava",
+  "se": {
+   "intro": "En langhalet vipstjert med stærkt gul underside ved rindende vand er som regel en bjergvipstjert.",
+   "rows": [
+    [
+     "Hale",
+     "Længere",
+     "Kortere"
+    ],
+    [
+     "Overside",
+     "Mørkere, grågul med sorte vingetegninger",
+     "Grågrøn"
+    ],
+    [
+     "Han om foråret",
+     "Sort strube",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: vintererle",
+    "u": "https://snl.no/vintererle"
+   },
+   {
+    "n": "Store norske leksikon: gulerle",
+    "u": "https://snl.no/gulerle"
+   }
+  ]
+ },
+ {
+  "a": "motacilla-citreola",
+  "b": "motacilla-flava",
+  "se": {
+   "intro": "Størrelse og farver ligner meget.",
+   "rows": [
+    [
+     "Hoved",
+     "Ensfarvet citrongult",
+     "Tegningen varierer med underarten"
+    ],
+    [
+     "Ryg",
+     "Grå, som hos hvid vipstjert",
+     "Grågrøn"
+    ],
+    [
+     "Nakke",
+     "Hannen: sort felt",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: sitronerle",
+    "u": "https://snl.no/sitronerle"
+   },
+   {
+    "n": "Store norske leksikon: gulerle",
+    "u": "https://snl.no/gulerle"
+   }
+  ]
+ },
+ {
+  "a": "pastor-roseus",
+  "b": "sturnus-vulgaris",
+  "se": {
+   "intro": "Samme størrelse.",
+   "rows": [
+    [
+     "Voksen",
+     "Rosenrød ryg og bug; sort hoved, hals, vinger og hale",
+     "Metalglinsende sort, hvidprikket om vinteren"
+    ],
+    [
+     "Top",
+     "Antydning af nakketop",
+     "–"
+    ],
+    [
+     "Ungfugl",
+     "Lysere brun, mørkere vinger og lyst undernæb",
+     "Ensfarvet brun om efteråret"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rosenstær",
+    "u": "https://snl.no/rosenstær"
+   },
+   {
+    "n": "Store norske leksikon: stær",
+    "u": "https://snl.no/stær"
+   }
+  ]
+ },
+ {
+  "a": "prunella-modularis",
+  "b": "passer-domesticus",
+  "se": {
+   "intro": "Samme størrelse og samme farver på ryg og vinger.",
+   "rows": [
+    [
+     "Næb",
+     "Tyndt",
+     "–"
+    ],
+    [
+     "Underside",
+     "Askegrå",
+     "Grå"
+    ],
+    [
+     "Han",
+     "Ligner hunnen",
+     "Sort strubeplet og grå isse"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Ret højlydt – som en trillebør med rustne hjul",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: jernspurv",
+    "u": "https://snl.no/jernspurv"
+   },
+   {
+    "n": "Store norske leksikon: gråspurv",
+    "u": "https://snl.no/gråspurv"
+   }
+  ]
+ },
+ {
+  "a": "sturnus-vulgaris",
+  "b": "turdus-merula",
+  "se": {
+   "intro": "Begge har gult næb.",
+   "rows": [
+    [
+     "Hale",
+     "Kort",
+     "Lang"
+    ],
+    [
+     "På jorden",
+     "Går",
+     "Hopper oftest"
+    ],
+    [
+     "Fjerdragt",
+     "Metalglinsende sort med grønne og blå toner, hvidprikket om vinteren",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: stær",
+    "u": "https://snl.no/stær"
+   }
+  ]
+ },
+ {
+  "a": "phalaropus-fulicarius",
+  "b": "phalaropus-lobatus",
+  "se": {
+   "intro": "Om vinteren er de svære at skelne.",
+   "rows": [
+    [
+     "Næb",
+     "Kraftigere; gult med mørk spids om sommeren",
+     "Længere, spinklere og sort"
+    ],
+    [
+     "Yngledragt",
+     "Rustrød med sort hoved og hvide kinder",
+     "Blågrå ryg med orangegule striber, hvid strube, rødbrun hals og bryst"
+    ],
+    [
+     "Størrelse",
+     "20–22 cm, lidt kraftigere",
+     "18–20 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: polarsvømmesnipe",
+    "u": "https://snl.no/polarsvømmesnipe"
+   },
+   {
+    "n": "Store norske leksikon: svømmesnipe",
+    "u": "https://snl.no/svømmesnipe"
+   }
+  ]
+ },
+ {
+  "a": "phylloscopus-sibilatrix",
+  "b": "phylloscopus-trochilus",
+  "se": {
+   "rows": [
+    [
+     "Strube og hovedsider",
+     "Lysegule",
+     "–"
+    ],
+    [
+     "Underside",
+     "Hvid bug",
+     "Gråhvid"
+    ],
+    [
+     "Overside",
+     "Gulgrøn",
+     "Grågrøn"
+    ],
+    [
+     "Længde",
+     "Ca. 15 cm",
+     "Ca. 11 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Klingende trille, der bliver hurtigere",
+     "Melodisk og lidt vemodig tonerække"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: bøksanger",
+    "u": "https://snl.no/bøksanger"
+   },
+   {
+    "n": "Store norske leksikon: løvsanger",
+    "u": "https://snl.no/løvsanger"
+   }
+  ]
+ },
+ {
+  "a": "platalea-leucorodia",
+  "b": "ardea-alba",
+  "se": {
+   "intro": "Begge er hvide med sorte ben.",
+   "rows": [
+    [
+     "Næb",
+     "Langt og skeformet – sort med gult yderst (voksen)",
+     "Gult og spidst"
+    ],
+    [
+     "Nakke",
+     "Ofte en lang fjertop",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: skjestork",
+    "u": "https://snl.no/skjestork"
+   },
+   {
+    "n": "Store norske leksikon: egretthegre",
+    "u": "https://snl.no/egretthegre"
+   }
+  ]
+ },
+ {
+  "a": "pluvialis-apricaria",
+  "b": "pluvialis-squatarola",
+  "se": {
+   "intro": "Om vinteren ligner de hinanden.",
+   "rows": [
+    [
+     "Overside (sommer)",
+     "Tæt besat med gyldengule pletter",
+     "Sortbrun med kraftige hvide pletter"
+    ],
+    [
+     "I flugt",
+     "Relativt smalle, spidse vinger",
+     "Sorte armhuler, brede hvide vingebånd og hvid overgump"
+    ],
+    [
+     "Bygning",
+     "–",
+     "Kraftigere med større hoved og næb"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: heilo",
+    "u": "https://snl.no/heilo"
+   },
+   {
+    "n": "Store norske leksikon: tundralo",
+    "u": "https://snl.no/tundralo"
+   }
+  ]
+ },
+ {
+  "a": "pluvialis-dominica",
+  "b": "pluvialis-apricaria",
+  "se": {
+   "intro": "Meget ens.",
+   "rows": [
+    [
+     "Armhuler (i flugt)",
+     "Grå",
+     "Hvide"
+    ],
+    [
+     "Underside (sommer)",
+     "Helt sort (hannen)",
+     "Sort, indrammet af hvidt"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kanadalo",
+    "u": "https://snl.no/kanadalo"
+   },
+   {
+    "n": "Store norske leksikon: heilo",
+    "u": "https://snl.no/heilo"
+   }
+  ]
+ },
+ {
+  "a": "podiceps-auritus",
+  "b": "podiceps-nigricollis",
+  "se": {
+   "rows": [
+    [
+     "Forhals (sommer)",
+     "Rødbrun",
+     "Helt sort"
+    ],
+    [
+     "Hoved (sommer)",
+     "Sort med rustgult bånd fra øjet til nakken, der danner to små »horn«",
+     "–"
+    ],
+    [
+     "Størrelse",
+     "Ca. 35 cm, 350–600 g",
+     "Lidt mindre, 250–450 g"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: horndykker",
+    "u": "https://snl.no/horndykker"
+   },
+   {
+    "n": "Store norske leksikon: svarthalsdykker",
+    "u": "https://snl.no/svarthalsdykker"
+   }
+  ]
+ },
+ {
+  "a": "podiceps-cristatus",
+  "b": "podiceps-grisegena",
+  "se": {
+   "rows": [
+    [
+     "Hoved (sommer)",
+     "Sort, todelt top og markant sortbrun halskrave",
+     "Sort isse og nakke, grå kinder og strube"
+    ],
+    [
+     "Hals (sommer)",
+     "–",
+     "Kastanjebrun"
+    ],
+    [
+     "Størrelse",
+     "Ca. 48 cm, 700–1400 g",
+     "500–900 g"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: toppdykker",
+    "u": "https://snl.no/toppdykker"
+   },
+   {
+    "n": "Store norske leksikon: gråstrupedykker",
+    "u": "https://snl.no/gråstrupedykker"
+   }
+  ]
+ },
+ {
+  "a": "saxicola-rubetra",
+  "b": "saxicola-rubicola",
+  "se": {
+   "intro": "Sortstrubet bynkefugl er mørkere på hoved og overside.",
+   "rows": [
+    [
+     "Øjenbryn",
+     "Hvid stribe over øjet",
+     "–"
+    ],
+    [
+     "Hannens hoved",
+     "Sorte kinder",
+     "Sort hoved og sort strube"
+    ],
+    [
+     "Overgump",
+     "Spraglet, ikke hvid",
+     "Hannen: gråhvid"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: buskskvett",
+    "u": "https://snl.no/buskskvett"
+   },
+   {
+    "n": "Store norske leksikon: svartstrupe",
+    "u": "https://snl.no/svartstrupe"
+   }
+  ]
+ },
+ {
+  "a": "serinus-serinus",
+  "b": "spinus-spinus",
+  "se": {
+   "intro": "Samme størrelse og ens farver.",
+   "rows": [
+    [
+     "Hannens hoved",
+     "Citrongul pande og ansigt – ingen sort hætte",
+     "Sort hætte og sort strubeplet"
+    ],
+    [
+     "Overgump",
+     "Kraftigt gul, ses når den flyver op",
+     "–"
+    ],
+    [
+     "Ryg og sider",
+     "Kraftige længdestriber",
+     "Svage længdestriber"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Hurtig række af gnidrende, skarpe og klirrende toner",
+     "Flydende kvidrende toner og triller"
+    ],
+    [
+     "Kald",
+     "–",
+     "»Tsily«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gulirisk",
+    "u": "https://snl.no/gulirisk"
+   },
+   {
+    "n": "Store norske leksikon: grønnsisik",
+    "u": "https://snl.no/grønnsisik"
+   }
+  ]
+ },
+ {
+  "a": "scolopax-rusticola",
+  "b": "gallinago-gallinago",
+  "se": {
+   "intro": "Begge har meget langt, lige næb.",
+   "rows": [
+    [
+     "Krop",
+     "Kompakt, ca. 300 g, med korte ben",
+     "Mellemstor"
+    ],
+    [
+     "Farve",
+     "Kraftigt spraglet i brunrøde toner",
+     "Brun og sort med tydelige gulhvide længdestriber; næsten hvid underside"
+    ],
+    [
+     "Flugt",
+     "Brede vinger med afrundede spidser; næbbet peger skråt nedad",
+     "Zigzag-flugt, når den skræmmes op"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Spil",
+     "Hannen flyver over trætoppene i skumringen med knurrende »orrt-orrt« og et skarpt »pisst«",
+     "»Mekrende« lyd fra halefjerene under styrtdyk"
+    ],
+    [
+     "Når den skræmmes op",
+     "–",
+     "Kraftigt »tsjæt«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rugde",
+    "u": "https://snl.no/rugde"
+   },
+   {
+    "n": "Store norske leksikon: dobbeltbekkasin (norsk: enkeltbekkasin)",
+    "u": "https://snl.no/enkeltbekkasin"
+   }
+  ]
+ },
+ {
+  "a": "somateria-spectabilis",
+  "b": "somateria-mollissima",
+  "se": {
+   "intro": "Kongeederfuglen er lidt mindre. Hunnerne ligner hinanden meget.",
+   "rows": [
+    [
+     "Hannens hoved",
+     "Stor gulrød knop i panden, kantet af en sort stribe mellem næb og øje",
+     "Hvidt hoved med sort isse og to store grønne felter i nakken"
+    ],
+    [
+     "Hannens ryg",
+     "Sort",
+     "Hvid"
+    ],
+    [
+     "Hunnens næb",
+     "Fjerkilen på overnæbbets sider når langt fra næseborene",
+     "Fjerkilen når helt frem under næseborene"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: praktærfugl",
+    "u": "https://snl.no/praktærfugl"
+   },
+   {
+    "n": "Store norske leksikon: ærfugl",
+    "u": "https://snl.no/ærfugl"
+   }
+  ]
+ },
+ {
+  "a": "stercorarius-longicaudus",
+  "b": "stercorarius-parasiticus",
+  "se": {
+   "rows": [
+    [
+     "Midterste halefjer",
+     "15–20 cm længere end halen",
+     "6–10 cm længere og tilspidsede"
+    ],
+    [
+     "Bygning",
+     "Mindre og slankere – den mindste kjove",
+     "Omtrent som en stormmåge"
+    ],
+    [
+     "Flugt",
+     "Let og næsten ternelignende",
+     "Kraftig og ligeud"
+    ],
+    [
+     "Brystbånd",
+     "Mangler",
+     "Somme tider et mørkt brystbånd"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: fjelljo",
+    "u": "https://snl.no/fjelljo"
+   },
+   {
+    "n": "Store norske leksikon: tyvjo",
+    "u": "https://snl.no/tyvjo"
+   }
+  ]
+ },
+ {
+  "a": "stercorarius-parasiticus",
+  "b": "stercorarius-skua",
+  "se": {
+   "rows": [
+    [
+     "Størrelse",
+     "Ca. 45 cm, 300–500 g – som en stormmåge",
+     "Som de store måger, 1,1–1,8 kg"
+    ],
+    [
+     "Fjerdragt",
+     "Fra helt sortbrun til hvid underside",
+     "Mørkebrun"
+    ],
+    [
+     "Vinger",
+     "Lange og spidse",
+     "Store hvide felter ved håndsvingfjerenes rod, både over og under"
+    ],
+    [
+     "Midterste halefjer",
+     "6–10 cm forlængede og tilspidsede",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tyvjo",
+    "u": "https://snl.no/tyvjo"
+   },
+   {
+    "n": "Store norske leksikon: storjo",
+    "u": "https://snl.no/storjo"
+   }
+  ]
+ },
+ {
+  "a": "stercorarius-pomarinus",
+  "b": "stercorarius-parasiticus",
+  "se": {
+   "intro": "Kan ligne hinanden meget, og begge findes i lys og mørk form.",
+   "rows": [
+    [
+     "Midterste halefjer",
+     "Brede og drejet 90 grader",
+     "Spidse"
+    ],
+    [
+     "Størrelse",
+     "Ca. 50 cm – lidt større og kraftigere",
+     "Ca. 45 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: polarjo",
+    "u": "https://snl.no/polarjo"
+   },
+   {
+    "n": "Store norske leksikon: tyvjo",
+    "u": "https://snl.no/tyvjo"
+   }
+  ]
+ },
+ {
+  "a": "sterna-dougallii",
+  "b": "sterna-hirundo",
+  "se": {
+   "rows": [
+    [
+     "Helhedsindtryk",
+     "Markant hvidere, også vinger og underside",
+     "Grå og hvid"
+    ],
+    [
+     "Bryst",
+     "Ofte rosa skær i yngletiden",
+     "–"
+    ],
+    [
+     "Halespyd",
+     "Meget lange – rager langt ud over vingespidserne hos siddende fugle",
+     "Når ikke ud over vingespidserne hos siddende fugle"
+    ],
+    [
+     "Næb",
+     "Mørkt",
+     "Orangerødt med sort spids (yngletid)"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rosenterne",
+    "u": "https://snl.no/rosenterne"
+   },
+   {
+    "n": "Store norske leksikon: makrellterne",
+    "u": "https://snl.no/makrellterne"
+   }
+  ]
+ },
+ {
+  "a": "sternula-albifrons",
+  "b": "sterna-hirundo",
+  "se": {
+   "rows": [
+    [
+     "Størrelse",
+     "Meget lille – betydeligt mindre",
+     "Mellemstor terne"
+    ],
+    [
+     "Pande",
+     "Hvid",
+     "Sort hætte"
+    ],
+    [
+     "Næb (yngletid)",
+     "Gult med sort spids",
+     "Orangerødt med sort spids"
+    ],
+    [
+     "Ben",
+     "Orangegule",
+     "Røde"
+    ],
+    [
+     "Flugt",
+     "Meget hurtige vingeslag, lavt over vandet",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: dvergterne",
+    "u": "https://snl.no/dvergterne"
+   },
+   {
+    "n": "Store norske leksikon: makrellterne",
+    "u": "https://snl.no/makrellterne"
+   }
+  ]
+ },
+ {
+  "a": "streptopelia-decaocto",
+  "b": "streptopelia-turtur",
+  "se": {
+   "rows": [
+    [
+     "Fjerdragt",
+     "Overvejende ensfarvet grå til blegbrun",
+     "Grå hoved og bryst med vinrødt skær; brunorange og sortspraglet ryg og vinger"
+    ],
+    [
+     "Hals",
+     "Kort sort bånd i nakken",
+     "–"
+    ],
+    [
+     "Længde",
+     "29–33 cm",
+     "25–29 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tyrkerdue",
+    "u": "https://snl.no/tyrkerdue"
+   },
+   {
+    "n": "Store norske leksikon: turteldue",
+    "u": "https://snl.no/turteldue"
+   }
+  ]
+ },
+ {
+  "a": "strix-aluco",
+  "b": "asio-otus",
+  "se": {
+   "rows": [
+    [
+     "Øjne",
+     "Helt sorte",
+     "Orange"
+    ],
+    [
+     "Hoved",
+     "Stort og rundt med lyst ansigt",
+     "Lange fjerbundter som horn"
+    ],
+    [
+     "Vinger",
+     "Afrundede og ret korte",
+     "Lange og smalle"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Dyb, langtrukken tone, efter ca. 5 sekunder en markant tone og så en faldende tonerække",
+     "Enstavede, dybe »oh« med ca. tre sekunders mellemrum"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: kattugle",
+    "u": "https://snl.no/kattugle"
+   },
+   {
+    "n": "Store norske leksikon: hornugle",
+    "u": "https://snl.no/hornugle"
+   }
+  ]
+ },
+ {
+  "a": "turdus-merula",
+  "b": "turdus-torquatus",
+  "se": {
+   "intro": "Ringdroslen ligner en solsort.",
+   "rows": [
+    [
+     "Bryst",
+     "Ensfarvet",
+     "Hvid halvmåneformet plet – tydeligst hos hannen"
+    ],
+    [
+     "Hannens næb",
+     "Guloransje",
+     "–"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Melodisk og fløjtende i mol, ofte langsom og uden gentagelser",
+     "Kort og svagt faldende med kvidrende fløjtetoner, ofte fra en fast sangpost"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: svarttrost",
+    "u": "https://snl.no/svarttrost"
+   },
+   {
+    "n": "Store norske leksikon: ringtrost",
+    "u": "https://snl.no/ringtrost"
+   }
+  ]
+ },
+ {
+  "a": "turdus-iliacus",
+  "b": "turdus-philomelos",
+  "se": {
+   "intro": "Vindroslen ligner sangdroslen og er den mindste drossel.",
+   "rows": [
+    [
+     "Øjenbryn",
+     "Tydelig lys stribe over øjet",
+     "–"
+    ],
+    [
+     "Under vingen",
+     "Godt synlig rødbrun plet",
+     "Ingen rustrød plet, men kan være kraftigt rustbeige"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Sang",
+     "Faldende, melodisk frase efterfulgt af en svag kvidren",
+     "Kvidrende triller og klare fløjtetoner; gentager samme strofe 2–3 gange"
+    ],
+    [
+     "Kald",
+     "Tyndt »siiip« ved nattræk",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: rødvingetrost",
+    "u": "https://snl.no/rødvingetrost"
+   },
+   {
+    "n": "Store norske leksikon: måltrost",
+    "u": "https://snl.no/måltrost"
+   }
+  ]
+ },
+ {
+  "a": "turdus-pilaris",
+  "b": "turdus-viscivorus",
+  "se": {
+   "rows": [
+    [
+     "Hoved, nakke og overgump",
+     "Askegrå",
+     "–"
+    ],
+    [
+     "Ryg",
+     "Brun",
+     "–"
+    ],
+    [
+     "Bryst",
+     "Rustgult med sorte pletter",
+     "Mere afrundede pletter"
+    ],
+    [
+     "Længde",
+     "Ca. 25 cm",
+     "26–29 cm – den største drossel"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Stemme",
+     "Ensformig skvatren med »sjæk-sjæk-sjøl«",
+     "Sang mellem solsortens og sangdroslens, uden gentagne strofer; snorkeagtigt kald"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gråtrost",
+    "u": "https://snl.no/gråtrost"
+   },
+   {
+    "n": "Store norske leksikon: duetrost",
+    "u": "https://snl.no/duetrost"
+   }
+  ]
+ },
+ {
+  "a": "tringa-erythropus",
+  "b": "tringa-totanus",
+  "se": {
+   "intro": "Unge og vinterdragtede sortklirer kan forveksles med rødben.",
+   "rows": [
+    [
+     "Bygning",
+     "Større og slankere med længere ben",
+     "27–29 cm"
+    ],
+    [
+     "Næb",
+     "Længere og tyndere med let nedbøjet spids",
+     "Inderste del rød, yderste brunsort"
+    ],
+    [
+     "I flugt",
+     "Ensfarvede vinger uden hvid kant; ovalt hvidt felt fra overgumpen op ad ryggen",
+     "Bred hvid bagkant på vingen og hvid kile op ad ryggen"
+    ],
+    [
+     "Sommerdragt",
+     "Helt sort med små hvide pletter",
+     "Mørkebrun, spraglet overside og stribet underside"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: sotsnipe",
+    "u": "https://snl.no/sotsnipe"
+   },
+   {
+    "n": "Store norske leksikon: rødstilk",
+    "u": "https://snl.no/rødstilk"
+   }
+  ]
+ },
+ {
+  "a": "tringa-glareola",
+  "b": "tringa-ochropus",
+  "se": {
+   "rows": [
+    [
+     "Øjenbryn",
+     "Lang, hvid stribe langt bag øjet",
+     "Kun tydelig mellem næb og øje"
+    ],
+    [
+     "Undervinge",
+     "Lys",
+     "Mørk"
+    ],
+    [
+     "Overside",
+     "Mørkebrun med mange lyse pletter",
+     "Mørkere med mindre hvide pletter"
+    ],
+    [
+     "Hale",
+     "Mange tætte tværbånd",
+     "Tre–fire brede sorte bånd på hvid hale"
+    ],
+    [
+     "Ben",
+     "Gulgrønne – stikker langt ud bag halen i flugt",
+     "Grågrønne og kortere"
+    ]
+   ]
+  },
+  "lyd": {
+   "rows": [
+    [
+     "Kald",
+     "Intense staccato-pibelyde i hurtig rækkefølge",
+     "Kraftige fløjtetoner"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: grønnstilk",
+    "u": "https://snl.no/grønnstilk"
+   },
+   {
+    "n": "Store norske leksikon: skogsnipe",
+    "u": "https://snl.no/skogsnipe"
+   }
+  ]
+ },
+ {
+  "a": "tringa-melanoleuca",
+  "b": "tringa-flavipes",
+  "se": {
+   "intro": "Begge har gule ben.",
+   "rows": [
+    [
+     "Størrelse",
+     "29–33 cm – som en hvidklire",
+     "Mindre"
+    ],
+    [
+     "Ben",
+     "Knaldgule",
+     "–"
+    ],
+    [
+     "Næb",
+     "Svagt opadbøjet",
+     "–"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: plystresnipe",
+    "u": "https://snl.no/plystresnipe"
+   },
+   {
+    "n": "Store norske leksikon: gulbeinsnipe",
+    "u": "https://snl.no/gulbeinsnipe"
+   }
+  ]
+ },
+ {
+  "a": "tringa-nebularia",
+  "b": "tringa-totanus",
+  "se": {
+   "rows": [
+    [
+     "Ben",
+     "Lange og grågrønne",
+     "Lange og knaldrøde"
+    ],
+    [
+     "Næb",
+     "Langt, mørkt og svagt opadbøjet",
+     "Inderste del rød, yderste brunsort"
+    ],
+    [
+     "I flugt",
+     "Mørke vinger uden vingebånd; hvid hale og overgump danner en bred kile op ad ryggen",
+     "Bred hvid bagkant på vingen og hvid kile op ad ryggen"
+    ],
+    [
+     "Længde",
+     "30–34 cm",
+     "27–29 cm"
+    ]
+   ]
+  },
+  "lyd": {
+   "intro": "Kaldene kan forveksles.",
+   "rows": [
+    [
+     "Kald",
+     "»Tju-tju-tju« med tydelige pauser mellem stavelserne",
+     "»Tjuu« eller »tjuu-hu-hu«"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: gluttsnipe",
+    "u": "https://snl.no/gluttsnipe"
+   },
+   {
+    "n": "Store norske leksikon: rødstilk",
+    "u": "https://snl.no/rødstilk"
+   }
+  ]
+ },
+ {
+  "a": "tringa-stagnatilis",
+  "b": "tringa-nebularia",
+  "se": {
+   "intro": "Meget ens, men damkliren er mindre og slankere.",
+   "rows": [
+    [
+     "Næb",
+     "Lige og tyndt",
+     "Langt og svagt opadbøjet"
+    ],
+    [
+     "Længde",
+     "–",
+     "30–34 cm"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: damsnipe",
+    "u": "https://snl.no/damsnipe"
+   },
+   {
+    "n": "Store norske leksikon: gluttsnipe",
+    "u": "https://snl.no/gluttsnipe"
+   }
+  ]
+ },
+ {
+  "a": "falco-tinnunculus",
+  "b": "accipiter-nisus",
+  "se": {
+   "rows": [
+    [
+     "Han",
+     "Blågråt hoved, nakke, overgump og hale; rødbrun ryg og vinger med sorte pletter",
+     "Gråblå overside og kraftigt tværstribet underside med rødbrune toner"
+    ],
+    [
+     "Underside",
+     "Gulbrun med sorte pletter",
+     "Tværstribet"
+    ],
+    [
+     "Jagt",
+     "Står ofte længe stille i luften med arbejdende vinger, før den styrtdykker",
+     "Mere vinglende flugt"
+    ],
+    [
+     "Hale",
+     "Hannens blågrå",
+     "Lang med brede tværbånd"
+    ]
+   ]
+  },
+  "kilder": [
+   {
+    "n": "Store norske leksikon: tårnfalk",
+    "u": "https://snl.no/tårnfalk"
+   },
+   {
+    "n": "Store norske leksikon: spurvehauk",
+    "u": "https://snl.no/spurvehauk"
+   }
+  ]
  }
 ]
