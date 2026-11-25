@@ -809,3 +809,37 @@ dk Emberiza leucocephalos
 dk Zonotrichia leucophrys
 dk Setophaga striata
 dk Setophaga aestiva
+
+# --- Tilføjet 2026-11-25: europæiske arter fra DOF's artsliste (ikke på Den danske liste) ---
+verden Thalasseus bengalensis
+verden Curruca conspicillata
+verden Alectoris chukar
+verden Chersophilus duponti
+verden Alaudala rufescens
+verden Geronticus eremita
+verden Estrilda astrild
+verden Passer italiae
+verden Melanocorypha calandra
+verden Fulica cristata
+verden Sitta neumayer
+verden Accipiter brevipes
+verden Sitta krueperi
+verden Poecile cinctus
+verden Marmaronetta angustirostris
+verden Lanius nubicus
+verden Myiopsitta monachus
+verden Euplectes afer
+verden Curruca undata
+verden Emberiza caesia
+verden Pterocles orientalis
+verden Ploceus melanocephalus
+verden Pterocles alchata
+verden Vanellus spinosus
+verden Alectoris graeca
+verden Petronia petronia
+verden Lanius meridionalis
+verden Oenanthe leucura
+verden Acrocephalus melanopogon
+verden Galerida theklae
+verden Cercotrichas galactotes
+verden Corvus ruficollis

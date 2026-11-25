@@ -388,8 +388,9 @@ function speciesBody(d, { headingTag = 'h1', kicker = '' } = {}) {
 }
 
 function akaNames(d) {
-  const a = d.tekst?.andre_navne;
-  return Array.isArray(a) ? a.filter(Boolean) : [];
+  const a = [...(Array.isArray(d.tekst?.andre_navne) ? d.tekst.andre_navne : []), ...(ANDRE_NAVNE[d.key] || [])].filter(Boolean);
+  const own = (d.names.da || '').toLowerCase();
+  return a.filter((x, i) => x.toLowerCase() !== own && a.findIndex((y) => y.toLowerCase() === x.toLowerCase()) === i);
 }
 
 function metaDescription(d) {
@@ -472,6 +473,10 @@ function speciesJsonLd(d, canonical) {
 }
 
 const NAVNE = readJson(path.join(ROOT, 'data', 'navne.json'), {});
+const ANDRE_NAVNE = readJson(path.join(ROOT, 'data', 'andre-navne.json'), {});
+// Arter med egen side, som Den danske liste regner som underarter (af krage og gråsisken)
+const DL_UNDERARTER = new Set(['corvus-cornix', 'acanthis-cabaret', 'acanthis-hornemanni']);
+const DL_ANTAL = 505; // Den danske liste pr. 1.9.2025
 
 // ---------------- Byg ----------------
 function main() {
@@ -484,7 +489,7 @@ function main() {
     d.region = sp.region; // listen bestemmer altid området
     d.tekst = readJson(path.join(ROOT, 'data', 'tekster', `${sp.key}.json`), null);
     if (NAVNE[sp.key]) d.names.da = NAVNE[sp.key];
-    const hasContent = d.photos?.hero || d.wiki?.extract;
+    const hasContent = d.photos?.hero || d.wiki?.extract || d.tekst?.kendetegn;
     if (!hasContent) continue; // ingen tom side
     d.slug = slugs[sp.key] || (d.names.da ? `${slugify(d.names.da)}-${sp.key}` : sp.key);
     species.push(d);
@@ -688,7 +693,7 @@ function main() {
 
   function card(d, label) {
     const t = thumb(d.photos?.hero);
-    return `<li class="card" data-key="${esc(d.key)}" data-region="${d.region}" data-name="${esc(`${displayName(d)} ${d.names.accepted} ${d.names.en || ''}`.toLowerCase())}"><a href="${url(speciesUrl(d))}">${t ? `<img src="${esc(t)}" srcset="${srcset(d.photos.hero, [['small', 240], ['medium', 500]])}" sizes="(min-width: 900px) 220px, 45vw" alt="" loading="lazy" decoding="async">` : '<span class="noimg" aria-hidden="true"></span>'}<span class="card-text">${label ? `<span class="card-label">${esc(label)}</span>` : ''}<span class="card-name">${esc(displayName(d))}</span><i>${esc(d.names.accepted)}</i></span></a></li>`;
+    return `<li class="card" data-key="${esc(d.key)}" data-region="${d.region}" data-name="${esc(`${displayName(d)} ${akaNames(d).join(' ')} ${d.names.accepted} ${d.names.en || ''}`.toLowerCase())}"><a href="${url(speciesUrl(d))}">${t ? `<img src="${esc(t)}" srcset="${srcset(d.photos.hero, [['small', 240], ['medium', 500]])}" sizes="(min-width: 900px) 220px, 45vw" alt="" loading="lazy" decoding="async">` : '<span class="noimg" aria-hidden="true"></span>'}<span class="card-text">${label ? `<span class="card-label">${esc(label)}</span>` : ''}<span class="card-name">${esc(displayName(d))}</span><i>${esc(d.names.accepted)}</i></span></a></li>`;
   }
 
   // --- alle fugle ---
@@ -736,7 +741,7 @@ function main() {
 
   // --- danske og udenlandske fugle (egne sider, så Google kan finde dem) ---
   for (const [slug, region, h1, intro] of [
-    ['danske', 'dk', 'Danske fugle', `Oversigt over ${dkCount} danske fuglearter – fra almindelige havefugle til sjældne gæster. Klik på en fugl for billeder af fjerdragten, hvornår den ses, og kort over udbredelsen.`],
+    ['danske', 'dk', 'Danske fugle', `Alle ${DL_ANTAL} arter på Den danske liste – fra almindelige havefugle til sjældne gæster. Klik på en fugl for billeder af fjerdragten, hvornår den ses, og kort over udbredelsen.`],
     ['udenlandske', 'verden', 'Udenlandske fugle', `${species.length - dkCount} udenlandske fuglearter – fra Afrikas savanner til Sydamerikas regnskove og Antarktis. Klik på en fugl for billeder, beskrivelse og kort over hvor den lever.`],
   ]) {
     const items = sorted.filter((d) => (region === 'dk' ? d.region === 'dk' : d.region !== 'dk'));
@@ -757,7 +762,8 @@ function main() {
 <p>En art tæller som dansk på ${esc(SITE_NAME)}, når den står på <strong>Den danske liste</strong>. Det er Dansk Ornitologisk Forenings (DOF) officielle liste over fuglearter, der er truffet vildtlevende i Danmark, og den føres af DOF's Sjældenhedsudvalg (SU).</p>
 <p>Listen rummer ynglefugle, trækfugle, vintergæster og sjældne gæster. Den rummer også indførte arter, der har dannet faste, vilde bestande, fx fasan og canadagås. Fugle, der kun er set efter at være undsluppet fra fangenskab, er ikke med.</p>
 <p><strong>Sjælden gæst</strong> (${rareN} arter) betyder her, at arten har færre end 20 registreringer fra Danmark i GBIF. Det er en praktisk grænse for denne side og ikke DOF's definition af en SU-art.</p>
-<p class="muted">Navne og systematik følger iNaturalist og GBIF og kan afvige en smule fra DOF's navneliste.</p></aside>`;
+<p>Den danske liste rummer ${DL_ANTAL} arter (pr. 1. september 2025), og alle har en side her. Gråkrage, lille gråsisken og hvidsisken har også egne sider, selvom listen regner dem som underarter af krage og gråsisken. Derfor står der ${items.length} fugle i oversigten.</p>
+<p class="muted">De danske navne følger Den danske liste. Systematikken bag billeder og fund følger iNaturalist og GBIF og kan afvige en smule fra listens.</p></aside>`;
   }
   function DEF_UDENLANDSKE() { return `<aside class="definition"><h2>Hvad er en udenlandsk fugl her?</h2>
 <p>En art tæller som udenlandsk på ${esc(SITE_NAME)}, når den <strong>ikke</strong> står på Den danske liste. Det vil sige, at den aldrig er godkendt som truffet vildtlevende i Danmark.</p>
@@ -884,7 +890,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
 
   // --- data til "tilfældig" og søgning ---
   write('fugle.json', JSON.stringify(species.map((d) => url(speciesUrl(d)))));
-  write('arter.json', JSON.stringify(sorted.map((d) => ({ k: d.key, n: displayName(d), s: d.names.accepted, r: d.region, u: url(speciesUrl(d)), t: thumb(d.photos?.hero) }))));
+  write('arter.json', JSON.stringify(sorted.map((d) => ({ k: d.key, n: displayName(d), a: akaNames(d), s: d.names.accepted, r: d.region, u: url(speciesUrl(d)), t: thumb(d.photos?.hero) }))));
 
   // --- Mine fugle (vises i browseren ud fra det, man selv har markeret) ---
   write('mine/index.html', v2().minePage());

@@ -305,7 +305,8 @@ async function fetchSpecies(sp, old) {
   const step = async (label, fn) => { try { return await fn(); } catch (e) { warn.push(`${label}: ${e.message}`); return undefined; } };
 
   const wd = await step('wikidata', () => wikidata(sp.name));
-  const taxon = await step('inaturalist taxon', () => inatTaxon(sp.name, wd?.inat));
+  const inatName = INAT_NAVNE[sp.key];
+  const taxon = await step('inaturalist taxon', () => (inatName ? inatTaxon(inatName, null) : inatTaxon(sp.name, wd?.inat)));
   const gKey = await step('gbif match', () => gbifKey(sp.name, wd?.gbif, taxon?.name !== sp.name ? taxon?.name : null));
 
   let da = isRealName(wd?.labelDa, sp.name) ? cap(wd.labelDa) : null;
@@ -356,6 +357,9 @@ async function fetchSpecies(sp, old) {
     warnings: warn,
   };
 }
+
+// data/inat-navne.json: art, der hedder noget andet på iNaturalist (fx kohejre = Ardea ibis).
+const INAT_NAVNE = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'inat-navne.json'), 'utf8')); } catch { return {}; } })();
 
 // data/hent-igen.txt: »nøgle dato« – arten hentes forfra én gang (fx efter taksonomiske ændringer).
 const REFETCH = Object.fromEntries((fs.existsSync(path.join(ROOT, 'data', 'hent-igen.txt')) ? fs.readFileSync(path.join(ROOT, 'data', 'hent-igen.txt'), 'utf8') : '')

@@ -24,3 +24,5 @@ zapornia-parva 2026-11-21b
 zapornia-pusilla 2026-11-21b
 anarhynchus-asiaticus 2026-11-21b
 vireo-olivaceus 2026-11-21b
+# 2026-11-25: kohejre hedder Ardea ibis på iNaturalist; nye udenlandske arter.
+bubulcus-ibis 2026-11-25
