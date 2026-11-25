@@ -126,23 +126,23 @@
    0,
    0
   ],
-  "worldTotal": 85353,
+  "worldTotal": 85365,
   "topCountries": [
    {
     "code": "CR",
-    "count": 25634
+    "count": 25639
    },
    {
     "code": "BZ",
-    "count": 12654
+    "count": 12655
    },
    {
     "code": "BR",
-    "count": 9193
+    "count": 9197
    },
    {
     "code": "CO",
-    "count": 7867
+    "count": 7868
    },
    {
     "code": "PE",
@@ -150,11 +150,11 @@
    },
    {
     "code": "PA",
-    "count": 5707
+    "count": 5709
    },
    {
     "code": "EC",
-    "count": 3663
+    "count": 3664
    },
    {
     "code": "MX",
@@ -200,5 +200,6 @@
   "familyKey": 3242141,
   "familyDa": "Amerikanske gribbe og kondorer",
   "order": "Accipitriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:16.022Z"
 }

@@ -131,58 +131,58 @@
  },
  "gbif": {
   "key": 2494441,
-  "dkTotal": 120364,
+  "dkTotal": 120689,
   "dkMonths": [
    19228,
    15404,
    16241,
-   15236,
-   2897,
+   15239,
+   2898,
    390,
    20,
    106,
-   7172,
-   21859,
-   11031,
-   10739
+   7177,
+   21898,
+   11305,
+   10742
   ],
-  "worldTotal": 1812157,
+  "worldTotal": 1816560,
   "topCountries": [
    {
     "code": "SE",
-    "count": 587549
+    "count": 591053
    },
    {
     "code": "NO",
-    "count": 258284
+    "count": 258602
    },
    {
     "code": "FI",
-    "count": 201352
+    "count": 201355
    },
    {
     "code": "FR",
-    "count": 143890
+    "count": 143900
    },
    {
     "code": "DK",
-    "count": 120364
+    "count": 120689
    },
    {
     "code": "NL",
-    "count": 104304
+    "count": 104389
    },
    {
     "code": "DE",
-    "count": 68692
+    "count": 68717
    },
    {
     "code": "GB",
-    "count": 59693
+    "count": 59700
    },
    {
     "code": "BE",
-    "count": 55423
+    "count": 55424
    },
    {
     "code": "CN",
@@ -194,7 +194,7 @@
    },
    {
     "code": "RU",
-    "count": 19532
+    "count": 19580
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:48.784Z"
 }

@@ -131,7 +131,7 @@
  },
  "gbif": {
   "key": 2498415,
-  "dkTotal": 2741,
+  "dkTotal": 2744,
   "dkMonths": [
    141,
    203,
@@ -142,59 +142,59 @@
    19,
    52,
    141,
-   379,
-   217,
+   381,
+   218,
    143
   ],
-  "worldTotal": 1292065,
+  "worldTotal": 1292377,
   "topCountries": [
    {
     "code": "ES",
-    "count": 331863
+    "count": 331928
    },
    {
     "code": "FR",
-    "count": 191188
+    "count": 191197
    },
    {
     "code": "IN",
-    "count": 162207
+    "count": 162230
    },
    {
     "code": "PT",
-    "count": 97272
+    "count": 97295
    },
    {
     "code": "IL",
-    "count": 58607
+    "count": 58622
    },
    {
     "code": "ZA",
-    "count": 36505
+    "count": 36509
    },
    {
     "code": "CN",
-    "count": 32863
+    "count": 32862
    },
    {
     "code": "AE",
-    "count": 30591
+    "count": 30594
    },
    {
     "code": "TR",
-    "count": 22740
+    "count": 22741
    },
    {
     "code": "TH",
-    "count": 20611
+    "count": 20619
    },
    {
     "code": "GR",
-    "count": 19949
+    "count": 19952
    },
    {
     "code": "TW",
-    "count": 17482
+    "count": 17484
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5293,
   "familyDa": "Hærfugle",
   "order": "Bucerotiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:33.009Z"
 }

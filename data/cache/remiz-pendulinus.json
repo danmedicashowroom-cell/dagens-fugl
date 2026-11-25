@@ -146,27 +146,27 @@
    14,
    18
   ],
-  "worldTotal": 271152,
+  "worldTotal": 271259,
   "topCountries": [
    {
     "code": "ES",
-    "count": 98703
+    "count": 98705
    },
    {
     "code": "FR",
-    "count": 32129
+    "count": 32133
    },
    {
     "code": "SE",
-    "count": 28515
+    "count": 28517
    },
    {
     "code": "PL",
-    "count": 15259
+    "count": 15260
    },
    {
     "code": "RU",
-    "count": 7483
+    "count": 7489
    },
    {
     "code": "TR",
@@ -174,11 +174,11 @@
    },
    {
     "code": "NL",
-    "count": 7246
+    "count": 7247
    },
    {
     "code": "DE",
-    "count": 6931
+    "count": 6996
    },
    {
     "code": "IL",
@@ -190,11 +190,11 @@
    },
    {
     "code": "IT",
-    "count": 5540
+    "count": 5542
    },
    {
     "code": "UA",
-    "count": 4884
+    "count": 4885
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9344,
   "familyDa": "Pungmejser",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:48.682Z"
 }

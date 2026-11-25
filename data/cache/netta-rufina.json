@@ -146,43 +146,43 @@
    436,
    269
   ],
-  "worldTotal": 451402,
+  "worldTotal": 451594,
   "topCountries": [
    {
     "code": "NL",
-    "count": 89988
+    "count": 90062
    },
    {
     "code": "ES",
-    "count": 75721
+    "count": 75728
    },
    {
     "code": "FR",
-    "count": 65953
+    "count": 65980
    },
    {
     "code": "CH",
-    "count": 34307
+    "count": 34309
    },
    {
     "code": "DE",
-    "count": 31169
+    "count": 31182
    },
    {
     "code": "GB",
-    "count": 29020
+    "count": 29022
    },
    {
     "code": "IN",
-    "count": 21329
+    "count": 21333
    },
    {
     "code": "SE",
-    "count": 10919
+    "count": 10943
    },
    {
     "code": "AT",
-    "count": 10181
+    "count": 10193
    },
    {
     "code": "DK",
@@ -190,7 +190,7 @@
    },
    {
     "code": "PT",
-    "count": 9129
+    "count": 9130
    },
    {
     "code": "BE",
@@ -220,5 +220,6 @@
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:30.546Z"
 }

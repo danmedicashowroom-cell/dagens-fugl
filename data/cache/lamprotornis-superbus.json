@@ -136,15 +136,15 @@
    0,
    0
   ],
-  "worldTotal": 77303,
+  "worldTotal": 77391,
   "topCountries": [
    {
     "code": "KE",
-    "count": 51295
+    "count": 51380
    },
    {
     "code": "TZ",
-    "count": 20451
+    "count": 20455
    },
    {
     "code": "ET",
@@ -184,7 +184,7 @@
    },
    {
     "code": "US",
-    "count": 17
+    "count": 16
    }
   ]
  },
@@ -210,5 +210,6 @@
   "familyKey": 9350,
   "familyDa": "Stære",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:37.195Z"
 }

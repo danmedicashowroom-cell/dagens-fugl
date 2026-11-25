@@ -115,7 +115,7 @@
    0,
    0
   ],
-  "worldTotal": 138019,
+  "worldTotal": 138077,
   "topCountries": [
    {
     "code": "ZA",
@@ -127,11 +127,11 @@
    },
    {
     "code": "US",
-    "count": 17402
+    "count": 17403
    },
    {
     "code": "MX",
-    "count": 15146
+    "count": 15155
    },
    {
     "code": "BQ",
@@ -139,15 +139,15 @@
    },
    {
     "code": "EC",
-    "count": 8136
+    "count": 8177
    },
    {
     "code": "CW",
-    "count": 5263
+    "count": 5265
    },
    {
     "code": "CU",
-    "count": 4931
+    "count": 4932
    },
    {
     "code": "VE",
@@ -189,5 +189,6 @@
   "familyKey": 5269,
   "familyDa": null,
   "order": "Phoenicopteriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:08.735Z"
 }

@@ -1,0 +1,226 @@
+{
+ "key": "alectoris-chukar",
+ "name": "Alectoris chukar",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:11:21.366Z",
+ "gbifAt": "2026-11-25T22:11:21.366Z",
+ "names": {
+  "da": "Chukarhøne",
+  "en": "Chukar Partridge",
+  "accepted": "Alectoris chukar"
+ },
+ "wikidata": {
+  "id": "Q194043"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Chukar partridge",
+  "extract": "The chukar partridge, or simply chukar, is a Palearctic upland gamebird in the pheasant family Phasianidae. It has been considered to form a superspecies complex along with the rock partridge, Philby's partridge and Przevalski's partridge and treated in the past as conspecific particularly with the first. This partridge has well-marked black and white bars on the flanks and a black band running from the forehead across the eye down the head to form a necklace that encloses a white throat. Native to Asia, the species has been introduced into many other places and feral populations have established themselves in parts of North America, Malta and New Zealand. This bird can be found in parts of Middle East and temperate Asia.",
+  "url": "https://en.wikipedia.org/wiki/Chukar_partridge"
+ },
+ "inat": {
+  "id": 846,
+  "observations": 9089
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 385244750,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/385244750/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/385244750/large.jpg",
+    "attribution": "(c) Alexey Katz, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/217752913",
+    "place": "Nurata District, Navoiy Region, Uzbekistan",
+    "date": "2024-04-23"
+   },
+   {
+    "id": 372476634,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/372476634/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/372476634/large.jpg",
+    "attribution": "(c) Jef-B, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/210598837",
+    "place": "Kennewick, WA, USA",
+    "date": "2024-04-27"
+   },
+   {
+    "id": 620240278,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/620240278/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/620240278/large.jpg",
+    "attribution": "(c) Daughter Dad, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/340793252",
+    "place": "Antelope Island, Utah, USA",
+    "date": "2026-02-28"
+   }
+  ],
+  "female": [
+   {
+    "id": 179431265,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179431265/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179431265/large.jpg",
+    "attribution": "(c) Andrew Miller, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/106768156",
+    "place": "Haleakalā National Park, Hana, HI, US",
+    "date": "2022-02-14"
+   },
+   {
+    "id": 179431200,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179431200/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179431200/large.jpg",
+    "attribution": "(c) Andrew Miller, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/106768128",
+    "place": "Haleakalā National Park, Hana, HI, US",
+    "date": "2022-02-14"
+   },
+   {
+    "id": 497164160,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/497164160/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/497164160/large.jpg",
+    "attribution": "(c) Jef-B, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/276865498",
+    "place": "Kennewick, WA, USA",
+    "date": "2025-04-29"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 76660700,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/76660700/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/76660700/large.jpeg",
+    "attribution": "(c) wingwatcher48, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/48318113",
+    "place": "Marmaris/Muğla, Türkei",
+    "date": "2020-06-03"
+   },
+   {
+    "id": 243481711,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/243481711/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/243481711/large.jpeg",
+    "attribution": "(c) Chayant Gonsalves, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/142053291",
+    "place": "Lahul & Spiti, IN-HP, IN",
+    "date": "2022-07-02"
+   },
+   {
+    "id": 681847843,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/681847843/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/681847843/large.jpg",
+    "attribution": "(c) kkrauth, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/373111901",
+    "place": "Davis County, UT, USA",
+    "date": "2023-08-20"
+   }
+  ],
+  "hero": {
+   "id": 225378787,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/225378787/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/225378787/large.jpg",
+   "attribution": "(c) rickhowie, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/225378787",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2474029,
+  "dkTotal": 14,
+  "dkMonths": [
+   1,
+   0,
+   3,
+   3,
+   1,
+   2,
+   1,
+   0,
+   1,
+   0,
+   1,
+   0
+  ],
+  "worldTotal": 232461,
+  "topCountries": [
+   {
+    "code": "IL",
+    "count": 118459
+   },
+   {
+    "code": "US",
+    "count": 55856
+   },
+   {
+    "code": "CY",
+    "count": 7757
+   },
+   {
+    "code": "IN",
+    "count": 6956
+   },
+   {
+    "code": "CA",
+    "count": 6179
+   },
+   {
+    "code": "TR",
+    "count": 5909
+   },
+   {
+    "code": "PS",
+    "count": 5316
+   },
+   {
+    "code": "GR",
+    "count": 5257
+   },
+   {
+    "code": "AE",
+    "count": 3684
+   },
+   {
+    "code": "IR",
+    "count": 3023
+   },
+   {
+    "code": "AM",
+    "count": 1714
+   },
+   {
+    "code": "KZ",
+    "count": 1511
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1048930/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Alain Verneau",
+  "page": "https://xeno-canto.org/1048930",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Phasianidae",
+  "familyKey": 9331,
+  "familyDa": "Fasanfugle",
+  "order": "Galliformes"
+ }
+}

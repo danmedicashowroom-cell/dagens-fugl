@@ -131,9 +131,9 @@
  },
  "gbif": {
   "key": 2484605,
-  "dkTotal": 73426,
+  "dkTotal": 73575,
   "dkMonths": [
-   13865,
+   13866,
    9573,
    7235,
    4135,
@@ -142,55 +142,55 @@
    9,
    2,
    0,
-   6198,
-   18815,
-   12525
+   6200,
+   18960,
+   12526
   ],
-  "worldTotal": 1160176,
+  "worldTotal": 1162965,
   "topCountries": [
    {
     "code": "SE",
-    "count": 419858
+    "count": 421454
    },
    {
     "code": "CA",
-    "count": 184652
+    "count": 184675
    },
    {
     "code": "FI",
-    "count": 169345
+    "count": 169348
    },
    {
     "code": "NO",
-    "count": 97037
+    "count": 97576
    },
    {
     "code": "US",
-    "count": 77759
+    "count": 77766
    },
    {
     "code": "DK",
-    "count": 73426
+    "count": 73575
    },
    {
     "code": "RU",
-    "count": 38466
+    "count": 38753
    },
    {
     "code": "NL",
-    "count": 31865
+    "count": 32012
    },
    {
     "code": "GB",
-    "count": 20989
+    "count": 21003
    },
    {
     "code": "EE",
-    "count": 10426
+    "count": 10427
    },
    {
     "code": "DE",
-    "count": 7148
+    "count": 7156
    },
    {
     "code": "BE",
@@ -220,5 +220,6 @@
   "familyKey": 5215,
   "familyDa": "Silkehaler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:17.703Z"
 }

@@ -2,18 +2,129 @@
  "key": "bubulcus-ibis",
  "name": "Bubulcus ibis",
  "region": "dk",
- "fetchedAt": "2026-11-21T10:37:57.965Z",
+ "fetchedAt": "2026-11-25T22:10:51.400Z",
+ "gbifAt": "2026-11-25T22:10:51.401Z",
  "names": {
   "da": "Kohejre",
   "en": null,
-  "accepted": "Bubulcus ibis"
+  "accepted": "Ardea ibis"
  },
  "wikidata": {
   "id": "Q132669"
  },
  "wiki": null,
- "inat": null,
- "photos": null,
+ "inat": {
+  "id": 411086,
+  "observations": 105033
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 11777658,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/11777658/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/11777658/large.jpeg",
+    "attribution": "(c) Peter Vos, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/8771431",
+    "place": "CrocWorld",
+    "date": "2017-11-11"
+   },
+   {
+    "id": 25499816,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/25499816/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/25499816/large.jpeg",
+    "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "source": "https://www.inaturalist.org/observations/16881915",
+    "place": "Marinilla, Antioquia, Colombia",
+    "date": "2018-09-09"
+   },
+   {
+    "id": 25516168,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/25516168/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/25516168/large.jpeg",
+    "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "source": "https://www.inaturalist.org/observations/16891521",
+    "place": "Marinilla, Antioquia, Colombia",
+    "date": "2018-09-10"
+   }
+  ],
+  "female": [
+   {
+    "id": 702488025,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/702488025/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/702488025/large.jpg",
+    "attribution": "(c) birdnerd123, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/383798360",
+    "place": "Wailua, HI 96746, USA",
+    "date": "2026-07-21"
+   },
+   {
+    "id": 48863239,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/48863239/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/48863239/large.jpg",
+    "attribution": "(c) Ricardo Benavides Vasquez, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/31232644",
+    "place": "Quiroga, Ecuador",
+    "date": "2019-08-21"
+   },
+   {
+    "id": 179126525,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179126525/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179126525/large.jpeg",
+    "attribution": "(c) mvz_charbel, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/106609788",
+    "place": "29963 Chis., México",
+    "date": "2022-02-03"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 621471646,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/621471646/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/621471646/large.jpg",
+    "attribution": "(c) Brandon Ehrman, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/341388998",
+    "place": "Pg Lluís Companys - Arc de Triomf, Ciutat Vella, 08003 Barcelona, Spain",
+    "date": "2026-03-05"
+   },
+   {
+    "id": 2200100,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2200100/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2200100/large.jpg",
+    "attribution": "(c) mohamedfadly, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/1814291",
+    "place": "Sidi Jabir, EG-IK, EG",
+    "date": "2015-06-12"
+   },
+   {
+    "id": 217457189,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/217457189/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/217457189/large.jpg",
+    "attribution": "(c) Szymon Bzoma, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/128046869",
+    "place": "La Paz, Kalifornia Dolna Południowa, Meksyk",
+    "date": "2022-07-10"
+   }
+  ],
+  "hero": {
+   "id": 278764160,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/278764160/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/278764160/large.jpg",
+   "attribution": "(c) Алексей Сизов, some rights reserved (CC BY-NC), uploaded by Алексей Сизов",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/278764160",
+   "place": null,
+   "date": null
+  }
+ },
  "gbif": {
   "key": 2480830,
   "dkTotal": 2110,
@@ -31,7 +142,7 @@
    530,
    351
   ],
-  "worldTotal": 3379903,
+  "worldTotal": 3381113,
   "topCountries": [
    {
     "code": "US",
@@ -39,11 +150,11 @@
    },
    {
     "code": "ES",
-    "count": 295470
+    "count": 295519
    },
    {
     "code": "ZA",
-    "count": 292403
+    "count": 292416
    },
    {
     "code": "CO",
@@ -51,11 +162,11 @@
    },
    {
     "code": "FR",
-    "count": 145652
+    "count": 145667
    },
    {
     "code": "CR",
-    "count": 109417
+    "count": 109420
    },
    {
     "code": "AU",
@@ -67,39 +178,26 @@
    },
    {
     "code": "PT",
-    "count": 90651
+    "count": 90653
    },
    {
     "code": "NL",
-    "count": 65247
+    "count": 66231
    },
    {
     "code": "IL",
-    "count": 60893
+    "count": 60895
    },
    {
     "code": "BR",
-    "count": 60073
+    "count": 60075
    }
   ]
  },
- "sound": {
-  "src": [
-   {
-    "u": "https://xeno-canto.org/1046140/download",
-    "type": "audio/mpeg"
-   }
-  ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Lionel FREDERIC",
-  "page": "https://xeno-canto.org/1046140",
-  "type": "flight call, nocturnal flight call",
-  "via": "xeno-canto"
- },
+ "sound": null,
  "soundVersion": 2,
  "photoVersion": 3,
- "refetchedFor": "2026-11-21b",
+ "refetchedFor": "2026-11-25",
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",

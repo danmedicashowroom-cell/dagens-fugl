@@ -126,15 +126,15 @@
    0,
    0
   ],
-  "worldTotal": 85337,
+  "worldTotal": 85350,
   "topCountries": [
    {
     "code": "BR",
-    "count": 63542
+    "count": 63553
    },
    {
     "code": "AR",
-    "count": 11653
+    "count": 11656
    },
    {
     "code": "PY",
@@ -162,7 +162,7 @@
    },
    {
     "code": "UY",
-    "count": 39
+    "count": 38
    },
    {
     "code": "ES",
@@ -200,5 +200,6 @@
   "familyKey": 9340,
   "familyDa": "Kakaduer & papegøjer",
   "order": "Psittaciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:15.094Z"
 }

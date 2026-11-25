@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 9761484,
-  "dkTotal": 788660,
+  "dkTotal": 789506,
   "dkMonths": [
-   84719,
-   70655,
-   92691,
-   92734,
-   85350,
-   59003,
-   47087,
-   50685,
-   47011,
-   57036,
-   50138,
-   51182
+   84724,
+   70667,
+   92699,
+   92742,
+   85361,
+   59018,
+   47094,
+   50693,
+   47017,
+   57056,
+   50881,
+   51185
   ],
-  "worldTotal": 33009873,
+  "worldTotal": 33021104,
   "topCountries": [
    {
     "code": "US",
-    "count": 18946187
+    "count": 18947310
    },
    {
     "code": "CA",
-    "count": 3661725
+    "count": 3662069
    },
    {
     "code": "SE",
-    "count": 1500939
+    "count": 1502119
    },
    {
     "code": "GB",
-    "count": 1384772
+    "count": 1385001
    },
    {
     "code": "NL",
-    "count": 1154012
+    "count": 1155725
    },
    {
     "code": "NO",
-    "count": 797745
+    "count": 798431
    },
    {
     "code": "DK",
-    "count": 788660
+    "count": 789506
    },
    {
     "code": "FR",
-    "count": 765979
+    "count": 766132
    },
    {
     "code": "ES",
-    "count": 696434
+    "count": 696588
    },
    {
     "code": "DE",
-    "count": 536817
+    "count": 540105
    },
    {
     "code": "BE",
-    "count": 440133
+    "count": 440144
    },
    {
     "code": "CH",
-    "count": 195011
+    "count": 195040
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:28.423Z"
 }

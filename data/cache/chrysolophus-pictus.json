@@ -146,7 +146,7 @@
    1,
    1
   ],
-  "worldTotal": 5704,
+  "worldTotal": 5703,
   "topCountries": [
    {
     "code": "CN",
@@ -162,7 +162,7 @@
    },
    {
     "code": "BE",
-    "count": 229
+    "count": 231
    },
    {
     "code": "NL",
@@ -220,5 +220,6 @@
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:03.799Z"
 }

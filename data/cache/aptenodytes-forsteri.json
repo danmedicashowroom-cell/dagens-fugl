@@ -95,11 +95,11 @@
    0,
    0
   ],
-  "worldTotal": 132294,
+  "worldTotal": 132280,
   "topCountries": [
    {
     "code": "AQ",
-    "count": 108673
+    "count": 108660
    },
    {
     "code": "HM",
@@ -169,5 +169,6 @@
   "familyKey": 5284,
   "familyDa": "Pingvin",
   "order": "Sphenisciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:45.182Z"
 }

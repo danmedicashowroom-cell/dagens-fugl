@@ -95,31 +95,31 @@
    0,
    0
   ],
-  "worldTotal": 59058,
+  "worldTotal": 59089,
   "topCountries": [
    {
     "code": "IN",
-    "count": 24851
+    "count": 24857
    },
    {
     "code": "TW",
-    "count": 14103
+    "count": 14108
    },
    {
     "code": "CN",
-    "count": 3958
+    "count": 3974
    },
    {
     "code": "LK",
-    "count": 3825
+    "count": 3827
    },
    {
     "code": "ID",
-    "count": 3214
+    "count": 3215
    },
    {
     "code": "MY",
-    "count": 2564
+    "count": 2565
    },
    {
     "code": "BT",
@@ -169,5 +169,6 @@
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:22.442Z"
 }

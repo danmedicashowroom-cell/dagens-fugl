@@ -105,15 +105,15 @@
    1,
    0
   ],
-  "worldTotal": 16371,
+  "worldTotal": 16366,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 15483
+    "count": 15479
    },
    {
     "code": "NA",
-    "count": 463
+    "count": 462
    },
    {
     "code": "ZZ",
@@ -179,5 +179,6 @@
   "familyKey": 5284,
   "familyDa": "Pingvin",
   "order": "Sphenisciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:52.894Z"
 }

@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 12095146,
+  "worldTotal": 12095264,
   "topCountries": [
    {
     "code": "US",
-    "count": 9842117
+    "count": 9842202
    },
    {
     "code": "CA",
-    "count": 2251647
+    "count": 2251681
    },
    {
     "code": "PM",
@@ -220,5 +220,6 @@
   "familyKey": 6176,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:39.823Z"
 }

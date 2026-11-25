@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2484916,
-  "dkTotal": 228621,
+  "dkTotal": 228982,
   "dkMonths": [
    27360,
    24767,
    34298,
    33552,
-   13427,
-   10605,
+   13431,
+   10606,
    10136,
    13415,
-   14324,
-   15284,
-   15007,
+   14325,
+   15292,
+   15354,
    16392
   ],
-  "worldTotal": 3966158,
+  "worldTotal": 3970990,
   "topCountries": [
    {
     "code": "SE",
-    "count": 950203
+    "count": 951551
    },
    {
     "code": "FR",
-    "count": 485525
+    "count": 485553
    },
    {
     "code": "NL",
-    "count": 408927
+    "count": 409409
    },
    {
     "code": "DE",
-    "count": 392518
+    "count": 393948
    },
    {
     "code": "NO",
-    "count": 378986
+    "count": 379413
    },
    {
     "code": "GB",
-    "count": 285503
+    "count": 285534
    },
    {
     "code": "DK",
-    "count": 228621
+    "count": 228982
    },
    {
     "code": "ES",
-    "count": 127807
+    "count": 127831
    },
    {
     "code": "BE",
-    "count": 101799
+    "count": 101800
    },
    {
     "code": "CH",
-    "count": 98181
+    "count": 98182
    },
    {
     "code": "RU",
-    "count": 81172
+    "count": 81618
    },
    {
     "code": "CZ",
-    "count": 69926
+    "count": 69934
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5283,
   "familyDa": "Spætmejser",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:18.340Z"
 }

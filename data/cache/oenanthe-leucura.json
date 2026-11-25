@@ -1,0 +1,216 @@
+{
+ "key": "oenanthe-leucura",
+ "name": "Oenanthe leucura",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:16:08.062Z",
+ "gbifAt": "2026-11-25T22:16:08.062Z",
+ "names": {
+  "da": "Sørgestenpikker",
+  "en": "Black Wheatear",
+  "accepted": "Oenanthe leucura"
+ },
+ "wikidata": {
+  "id": "Q856062"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Black wheatear",
+  "extract": "The black wheatear is a wheatear, a small passerine bird in the Old World flycatcher family Muscicapidae. It is found in the Iberian Peninsula and western North Africa.",
+  "url": "https://en.wikipedia.org/wiki/Black_wheatear"
+ },
+ "inat": {
+  "id": 12838,
+  "observations": 2404
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 443719137,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/443719137/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/443719137/large.jpeg",
+    "attribution": "(c) gardatxanae, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/248347425",
+    "place": "04100 Níjar, Almería, España",
+    "date": "2024-05-19"
+   },
+   {
+    "id": 332675719,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/332675719/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/332675719/large.jpg",
+    "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/189849801",
+    "place": "Granada, Spain",
+    "date": "2023-10-25"
+   },
+   {
+    "id": 584483231,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584483231/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584483231/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/323041550",
+    "place": "Málaga, España",
+    "date": "2014-11-02"
+   }
+  ],
+  "female": [
+   {
+    "id": 107089145,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107089145/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107089145/large.jpg",
+    "attribution": "(c) Karim Haddad, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/66430023",
+    "place": "Tighanimine, Algérie",
+    "date": "2018-05-10"
+   },
+   {
+    "id": 643767207,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/643767207/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/643767207/large.jpg",
+    "attribution": "(c) muchoslopez, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/352771476",
+    "place": "Almería, España",
+    "date": "2026-04-24"
+   },
+   {
+    "id": 107067187,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107067187/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107067187/large.jpeg",
+    "attribution": "(c) Yves Bas, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/66417689",
+    "place": "Taroudant, Morocco",
+    "date": "2007-01-02"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 701105688,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/701105688/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/701105688/large.jpg",
+    "attribution": "(c) Othman Amalal, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/383082691",
+    "place": "GM7C+55H, Mechrouha, Morocco",
+    "date": "2026-07-09"
+   },
+   {
+    "id": 482655794,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/482655794/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/482655794/large.jpg",
+    "attribution": "(c) Bernard Noguès, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/268508010",
+    "place": "Ighil Ali, Algérie",
+    "date": "2025-04-01"
+   }
+  ],
+  "hero": {
+   "id": 529203,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/529203/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/529203/large.jpg",
+   "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC-SA)",
+   "license": "cc-by-nc-sa",
+   "source": "https://www.inaturalist.org/photos/529203",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 5231236,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 43183,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 31701
+   },
+   {
+    "code": "MA",
+    "count": 8022
+   },
+   {
+    "code": "PT",
+    "count": 1404
+   },
+   {
+    "code": "TN",
+    "count": 789
+   },
+   {
+    "code": "DZ",
+    "count": 617
+   },
+   {
+    "code": "EH",
+    "count": 431
+   },
+   {
+    "code": "FR",
+    "count": 81
+   },
+   {
+    "code": "LY",
+    "count": 26
+   },
+   {
+    "code": "MR",
+    "count": 7
+   },
+   {
+    "code": "BG",
+    "count": 5
+   },
+   {
+    "code": "EG",
+    "count": 5
+   },
+   {
+    "code": "ZZ",
+    "count": 4
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1096098/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "João Ferreira Tomás",
+  "page": "https://xeno-canto.org/1096098",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Muscicapidae",
+  "familyKey": 9322,
+  "familyDa": "Fluesnappere",
+  "order": "Passeriformes"
+ }
+}

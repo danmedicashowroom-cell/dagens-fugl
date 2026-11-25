@@ -85,7 +85,7 @@
    0,
    0
   ],
-  "worldTotal": 7784,
+  "worldTotal": 7785,
   "topCountries": [
    {
     "code": "GH",
@@ -97,7 +97,7 @@
    },
    {
     "code": "GM",
-    "count": 1531
+    "count": 1532
    },
    {
     "code": "CM",
@@ -159,5 +159,6 @@
   "familyKey": 5258,
   "familyDa": "Turakoer",
   "order": "Musophagiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:54.451Z"
 }

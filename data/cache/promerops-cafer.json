@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 50035,
+  "worldTotal": 50057,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 49974
+    "count": 49996
    },
    {
     "code": "ZZ",
@@ -188,5 +188,6 @@
   "familyKey": 5788708,
   "familyDa": "Sukkerfugle",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:53.526Z"
 }

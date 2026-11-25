@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 1472458,
+  "worldTotal": 1472641,
   "topCountries": [
    {
     "code": "AU",
-    "count": 1472106
+    "count": 1472289
    },
    {
     "code": "US",
@@ -196,5 +196,6 @@
   "familyKey": 9319,
   "familyDa": "Honningædere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:53.859Z"
 }

@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 45943,
+  "worldTotal": 45964,
   "topCountries": [
    {
     "code": "CR",
-    "count": 33472
+    "count": 33492
    },
    {
     "code": "GT",
@@ -166,7 +166,7 @@
    },
    {
     "code": "HN",
-    "count": 1426
+    "count": 1427
    },
    {
     "code": "NI",
@@ -220,5 +220,6 @@
   "familyKey": 9356,
   "familyDa": "Trogoner",
   "order": "Trogoniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:49.659Z"
 }

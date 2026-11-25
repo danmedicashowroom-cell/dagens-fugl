@@ -146,27 +146,27 @@
    0,
    0
   ],
-  "worldTotal": 236264,
+  "worldTotal": 236359,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 115767
+    "count": 115789
    },
    {
     "code": "KE",
-    "count": 20255
+    "count": 20263
    },
    {
     "code": "NG",
-    "count": 12984
+    "count": 12985
    },
    {
     "code": "UG",
-    "count": 12547
+    "count": 12563
    },
    {
     "code": "GM",
-    "count": 9246
+    "count": 9260
    },
    {
     "code": "ZW",
@@ -174,27 +174,27 @@
    },
    {
     "code": "GH",
-    "count": 5418
+    "count": 5425
    },
    {
     "code": "DO",
-    "count": 4722
+    "count": 4724
    },
    {
     "code": "SN",
-    "count": 4062
+    "count": 4067
    },
    {
     "code": "TZ",
-    "count": 3864
+    "count": 3865
    },
    {
     "code": "ZM",
-    "count": 3149
+    "count": 3150
    },
    {
     "code": "RE",
-    "count": 3120
+    "count": 3121
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9336,
   "familyDa": "Væverfugle",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:45.464Z"
 }

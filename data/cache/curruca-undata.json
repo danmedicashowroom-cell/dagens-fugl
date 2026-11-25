@@ -1,0 +1,226 @@
+{
+ "key": "curruca-undata",
+ "name": "Curruca undata",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:14:36.630Z",
+ "gbifAt": "2026-11-25T22:14:36.630Z",
+ "names": {
+  "da": "Provence-sanger",
+  "en": null,
+  "accepted": "Curruca undata"
+ },
+ "wikidata": {
+  "id": "Q110257524"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Dartford warbler",
+  "extract": "The Dartford warbler is a Sylviid warbler from the warmer parts of western Europe and northwestern Africa. It is a small warbler with a long thin tail and a thin pointed bill. The adult male has grey-brown upperparts and is dull reddish-brown below except for the centre of the belly which has a dirty white patch. It has light speckles on the throat and a red eye-ring. The sexes are similar but the adult female is usually less grey above and paler below.",
+  "url": "https://en.wikipedia.org/wiki/Dartford_warbler"
+ },
+ "inat": {
+  "id": 1289467,
+  "observations": 3514
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 3031238,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031238/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031238/large.jpg",
+    "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/2693573",
+    "place": "Kewstoke, England, United Kingdom",
+    "date": "2016-02-16"
+   },
+   {
+    "id": 747895824,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/747895824/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/747895824/large.jpg",
+    "attribution": "(c) Colin Haggart, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/407020336",
+    "place": "Dunwich, Saxmundham, UK",
+    "date": "2026-05-29"
+   },
+   {
+    "id": 164638025,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/164638025/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/164638025/large.jpg",
+    "attribution": "(c) Philip Mark Osso, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/98832665",
+    "place": "Woking, UK",
+    "date": "2021-04-01"
+   }
+  ],
+  "female": [
+   {
+    "id": 449492541,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/449492541/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/449492541/large.jpeg",
+    "attribution": "(c) Daniel Gaona Carrilero, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/251020390",
+    "place": "Montejo de la Sierra, 28190, Madrid, España",
+    "date": "2024-11-09"
+   },
+   {
+    "id": 622813676,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/622813676/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/622813676/large.jpg",
+    "attribution": "(c) Georges Olioso, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/342050109",
+    "place": "Port-la-Nouvelle, France",
+    "date": "2013-06-10"
+   },
+   {
+    "id": 461390311,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/461390311/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/461390311/large.jpeg",
+    "attribution": "(c) Cristina Krippahl, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/257226716",
+    "place": "34110 Frontignan, Frankreich",
+    "date": "2024-12-29"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 545063289,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/545063289/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/545063289/large.jpg",
+    "attribution": "(c) Will Taylor, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/302445303",
+    "place": "England, GB",
+    "date": "2025-07-25"
+   },
+   {
+    "id": 294660167,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/294660167/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/294660167/large.jpeg",
+    "attribution": "(c) Daniel Gaona Carrilero, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/168528000",
+    "place": "Horcajuelo de la Sierra, 28191, Madrid, España",
+    "date": "2023-06-20"
+   },
+   {
+    "id": 218308055,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/218308055/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/218308055/large.jpg",
+    "attribution": "(c) Daniela Costa, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/128519050",
+    "place": "3020 Brasfemes, Portugal",
+    "date": "2022-07-05"
+   }
+  ],
+  "hero": {
+   "id": 5703674,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5703674/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5703674/large.jpeg",
+   "attribution": "(c) Carles Pastor, some rights reserved (CC BY-SA), uploaded by Carles Pastor",
+   "license": "cc-by-sa",
+   "source": "https://www.inaturalist.org/photos/5703674",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2492949,
+  "dkTotal": 15,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   15,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 204644,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 95322
+   },
+   {
+    "code": "FR",
+    "count": 60081
+   },
+   {
+    "code": "PT",
+    "count": 34108
+   },
+   {
+    "code": "GB",
+    "count": 8171
+   },
+   {
+    "code": "NL",
+    "count": 2196
+   },
+   {
+    "code": "IT",
+    "count": 2164
+   },
+   {
+    "code": "BE",
+    "count": 382
+   },
+   {
+    "code": "MA",
+    "count": 281
+   },
+   {
+    "code": "JE",
+    "count": 196
+   },
+   {
+    "code": "SE",
+    "count": 187
+   },
+   {
+    "code": "TN",
+    "count": 122
+   },
+   {
+    "code": "GI",
+    "count": 98
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1151707/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Adrien Peillon",
+  "page": "https://xeno-canto.org/1151707",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Sylviidae",
+  "familyKey": 5285,
+  "familyDa": "Sangere",
+  "order": "Passeriformes"
+ }
+}

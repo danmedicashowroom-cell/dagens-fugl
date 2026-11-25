@@ -136,7 +136,7 @@
    1,
    1
   ],
-  "worldTotal": 98232,
+  "worldTotal": 98284,
   "topCountries": [
    {
     "code": "CH",
@@ -144,27 +144,27 @@
    },
    {
     "code": "FR",
-    "count": 24826
+    "count": 24832
    },
    {
     "code": "ES",
-    "count": 13665
+    "count": 13674
    },
    {
     "code": "IT",
-    "count": 4693
+    "count": 4695
    },
    {
     "code": "AT",
-    "count": 4177
+    "count": 4202
    },
    {
     "code": "IN",
-    "count": 3330
+    "count": 3332
    },
    {
     "code": "TW",
-    "count": 2569
+    "count": 2571
    },
    {
     "code": "CN",
@@ -184,7 +184,7 @@
    },
    {
     "code": "PT",
-    "count": 863
+    "count": 864
    }
   ]
  },
@@ -210,5 +210,6 @@
   "familyKey": 5273,
   "familyDa": "Jernspurve",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:28.242Z"
 }

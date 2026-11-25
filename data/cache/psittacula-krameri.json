@@ -131,7 +131,7 @@
  },
  "gbif": {
   "key": 2479226,
-  "dkTotal": 82,
+  "dkTotal": 84,
   "dkMonths": [
    2,
    4,
@@ -143,58 +143,58 @@
    10,
    8,
    19,
-   4,
+   6,
    4
   ],
-  "worldTotal": 1960568,
+  "worldTotal": 1961579,
   "topCountries": [
    {
     "code": "IN",
-    "count": 943170
+    "count": 943223
    },
    {
     "code": "GB",
-    "count": 192722
+    "count": 192767
    },
    {
     "code": "BE",
-    "count": 128004
+    "count": 128513
    },
    {
     "code": "NL",
-    "count": 122948
+    "count": 123160
    },
    {
     "code": "IL",
-    "count": 91711
+    "count": 91721
    },
    {
     "code": "FR",
-    "count": 89074
+    "count": 89090
    },
    {
     "code": "ES",
-    "count": 59838
+    "count": 59860
    },
    {
     "code": "LK",
-    "count": 50915
+    "count": 50936
    },
    {
     "code": "DE",
-    "count": 35275
+    "count": 35307
    },
    {
     "code": "PT",
-    "count": 28766
+    "count": 28771
    },
    {
     "code": "ZA",
-    "count": 27171
+    "count": 27174
    },
    {
     "code": "IT",
-    "count": 23960
+    "count": 23993
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9340,
   "familyDa": "Kakaduer & papegøjer",
   "order": "Psittaciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:10.635Z"
 }

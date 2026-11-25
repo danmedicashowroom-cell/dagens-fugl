@@ -136,19 +136,19 @@
    0,
    0
   ],
-  "worldTotal": 60316,
+  "worldTotal": 60336,
   "topCountries": [
    {
     "code": "BR",
-    "count": 52473
+    "count": 52491
    },
    {
     "code": "AR",
-    "count": 4632
+    "count": 4633
    },
    {
     "code": "BO",
-    "count": 1241
+    "count": 1242
    },
    {
     "code": "UY",
@@ -156,7 +156,7 @@
    },
    {
     "code": "PY",
-    "count": 862
+    "count": 863
    },
    {
     "code": "DE",
@@ -210,5 +210,6 @@
   "familyKey": 5226,
   "familyDa": "Rødbenet seriema",
   "order": "Cariamiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:12.823Z"
 }

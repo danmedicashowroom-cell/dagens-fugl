@@ -131,7 +131,7 @@
  },
  "gbif": {
   "key": 5231190,
-  "dkTotal": 155794,
+  "dkTotal": 155974,
   "dkMonths": [
    16361,
    11763,
@@ -140,61 +140,61 @@
    18561,
    15811,
    13382,
-   11847,
-   9686,
-   10739,
-   7829,
-   8496
+   11848,
+   9688,
+   10743,
+   8001,
+   8497
   ],
-  "worldTotal": 26510836,
+  "worldTotal": 26519291,
   "topCountries": [
    {
     "code": "US",
-    "count": 13499621
+    "count": 13500255
    },
    {
     "code": "CA",
-    "count": 2053321
+    "count": 2053462
    },
    {
     "code": "ES",
-    "count": 1325057
+    "count": 1325312
    },
    {
     "code": "FR",
-    "count": 1280704
+    "count": 1280823
    },
    {
     "code": "GB",
-    "count": 990031
+    "count": 990093
    },
    {
     "code": "NL",
-    "count": 730678
+    "count": 731238
    },
    {
     "code": "AU",
-    "count": 676790
+    "count": 676859
    },
    {
     "code": "DE",
-    "count": 594956
+    "count": 599639
    },
    {
     "code": "IN",
-    "count": 472715
+    "count": 472749
    },
    {
     "code": "PT",
-    "count": 446722
+    "count": 446759
    },
    {
     "code": "SE",
-    "count": 420870
+    "count": 421394
    },
    {
     "code": "NO",
-    "count": 420373
+    "count": 420699
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5264,
   "familyDa": "Spurve",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:38.063Z"
 }

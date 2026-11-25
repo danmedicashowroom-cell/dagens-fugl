@@ -146,23 +146,23 @@
    0,
    0
   ],
-  "worldTotal": 293874,
+  "worldTotal": 293942,
   "topCountries": [
    {
     "code": "CR",
-    "count": 131995
+    "count": 132046
    },
    {
     "code": "PA",
-    "count": 57389
+    "count": 57398
    },
    {
     "code": "BZ",
-    "count": 42915
+    "count": 42917
    },
    {
     "code": "MX",
-    "count": 22911
+    "count": 22914
    },
    {
     "code": "GT",
@@ -170,7 +170,7 @@
    },
    {
     "code": "CO",
-    "count": 11717
+    "count": 11720
    },
    {
     "code": "HN",
@@ -220,5 +220,6 @@
   "familyKey": 9343,
   "familyDa": null,
   "order": "Piciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:47.049Z"
 }

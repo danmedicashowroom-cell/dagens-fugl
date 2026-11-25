@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 547583,
+  "worldTotal": 547624,
   "topCountries": [
    {
     "code": "US",
-    "count": 492637
+    "count": 492670
    },
    {
     "code": "MX",
-    "count": 33282
+    "count": 33290
    },
    {
     "code": "CR",
@@ -220,5 +220,6 @@
   "familyKey": 9285,
   "familyDa": "Kardinaler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:14.434Z"
 }

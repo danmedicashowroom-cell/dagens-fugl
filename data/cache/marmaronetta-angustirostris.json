@@ -1,0 +1,226 @@
+{
+ "key": "marmaronetta-angustirostris",
+ "name": "Marmaronetta angustirostris",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:13:41.297Z",
+ "gbifAt": "2026-11-25T22:13:41.297Z",
+ "names": {
+  "da": "Marmorand",
+  "en": "Marbled Teal",
+  "accepted": "Marmaronetta angustirostris"
+ },
+ "wikidata": {
+  "id": "Q331447"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Marbled duck",
+  "extract": "The marbled duck or marbled teal is a medium-sized species of duck from southern Europe, northern Africa, and western and central Asia. The scientific name, Marmaronetta angustirostris, comes from the Greek marmaros, marbled and netta, a duck, and Latin angustus, narrow or small and -rostris billed.",
+  "url": "https://en.wikipedia.org/wiki/Marbled_duck"
+ },
+ "inat": {
+  "id": 7139,
+  "observations": 2026
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 293589287,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/293589287/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/293589287/large.jpg",
+    "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/169347723",
+    "place": "Málaga, ES-AN, ES",
+    "date": "2023-03-24"
+   },
+   {
+    "id": 551310128,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/551310128/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/551310128/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/305749050",
+    "place": "Cádiz, ES-AN, ES",
+    "date": "2025-08-07"
+   },
+   {
+    "id": 462965689,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/462965689/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/462965689/large.jpg",
+    "attribution": "(c) Susanne Vogel, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/258073123",
+    "place": "Málaga, ES-AN, ES",
+    "date": "2025-01-10"
+   }
+  ],
+  "female": [
+   {
+    "id": 134011069,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/134011069/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/134011069/large.jpeg",
+    "attribution": "(c) kamel Alfayadhi, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/81693967",
+    "place": "Babil, IQ",
+    "date": "2021-06-05"
+   },
+   {
+    "id": 696681713,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/696681713/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/696681713/large.jpg",
+    "attribution": "(c) elodye, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/380789783",
+    "place": "Ciudad Real, ES-CM, ES",
+    "date": "2026-07-12"
+   },
+   {
+    "id": 551309819,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/551309819/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/551309819/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/305749047",
+    "place": "Cádiz, ES-AN, ES",
+    "date": "2025-08-07"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 458513329,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/458513329/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/458513329/large.jpg",
+    "attribution": "(c) Diego González Dopico, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/255811528",
+    "place": "Ciudad Real, ES-CM, ES",
+    "date": "2024-12-19"
+   },
+   {
+    "id": 576473760,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/576473760/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/576473760/large.jpg",
+    "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/318938822",
+    "place": "Ciudad Real, ES-CM, ES",
+    "date": "2025-10-04"
+   },
+   {
+    "id": 551309547,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/551309547/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/551309547/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/305749048",
+    "place": "Cádiz, ES-AN, ES",
+    "date": "2025-08-07"
+   }
+  ],
+  "hero": {
+   "id": 174739586,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/174739586/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174739586/large.jpg",
+   "attribution": "(c) jjulio2000, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/174739586",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2498390,
+  "dkTotal": 237,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   37,
+   6,
+   37,
+   61,
+   93,
+   0,
+   2,
+   1,
+   0
+  ],
+  "worldTotal": 40784,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 27666
+   },
+   {
+    "code": "IL",
+    "count": 5758
+   },
+   {
+    "code": "MA",
+    "count": 2710
+   },
+   {
+    "code": "NL",
+    "count": 857
+   },
+   {
+    "code": "AE",
+    "count": 464
+   },
+   {
+    "code": "BE",
+    "count": 328
+   },
+   {
+    "code": "PT",
+    "count": 272
+   },
+   {
+    "code": "TR",
+    "count": 241
+   },
+   {
+    "code": "DK",
+    "count": 237
+   },
+   {
+    "code": "IR",
+    "count": 233
+   },
+   {
+    "code": "FR",
+    "count": 227
+   },
+   {
+    "code": "TN",
+    "count": 207
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1098259/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/1098259",
+  "type": "flight call, song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Anatidae",
+  "familyKey": 2986,
+  "familyDa": "Andefugle",
+  "order": "Anseriformes"
+ }
+}

@@ -131,54 +131,54 @@
  },
  "gbif": {
   "key": 2484596,
-  "dkTotal": 174461,
+  "dkTotal": 174695,
   "dkMonths": [
    16122,
    11477,
-   18937,
-   18885,
-   9379,
+   18939,
+   18886,
+   9384,
    5507,
    3510,
    4808,
-   15593,
-   39684,
-   18144,
-   12290
+   15598,
+   39705,
+   18338,
+   12296
   ],
-  "worldTotal": 4235717,
+  "worldTotal": 4240906,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1352433
+    "count": 1355795
    },
    {
     "code": "FI",
-    "count": 560566
+    "count": 560568
    },
    {
     "code": "GB",
-    "count": 464656
+    "count": 464685
    },
    {
     "code": "PL",
-    "count": 322799
+    "count": 322801
    },
    {
     "code": "NL",
-    "count": 278527
+    "count": 278859
    },
    {
     "code": "NO",
-    "count": 200440
+    "count": 200678
    },
    {
     "code": "DK",
-    "count": 174461
+    "count": 174695
    },
    {
     "code": "FR",
-    "count": 170215
+    "count": 170267
    },
    {
     "code": "AX",
@@ -186,15 +186,15 @@
    },
    {
     "code": "DE",
-    "count": 89649
+    "count": 90275
    },
    {
     "code": "BE",
-    "count": 88062
+    "count": 88064
    },
    {
     "code": "CH",
-    "count": 87447
+    "count": 87448
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5279,
   "familyDa": "Fuglekonger",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:47.709Z"
 }

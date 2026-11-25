@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 933585,
+  "worldTotal": 933603,
   "topCountries": [
    {
     "code": "US",
-    "count": 800255
+    "count": 800269
    },
    {
     "code": "CA",
-    "count": 117956
+    "count": 117958
    },
    {
     "code": "CO",
@@ -178,7 +178,7 @@
    },
    {
     "code": "BR",
-    "count": 856
+    "count": 857
    },
    {
     "code": "HN",
@@ -190,7 +190,7 @@
    },
    {
     "code": "AR",
-    "count": 340
+    "count": 341
    },
    {
     "code": "BM",
@@ -220,5 +220,6 @@
   "familyKey": 5225,
   "familyDa": "Natravne",
   "order": "Caprimulgiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:39.150Z"
 }

@@ -121,42 +121,42 @@
  },
  "gbif": {
   "key": 2495093,
-  "dkTotal": 43640,
+  "dkTotal": 43734,
   "dkMonths": [
-   11210,
-   9109,
-   6273,
+   11213,
+   9112,
+   6274,
    582,
    75,
    28,
    13,
    8,
    15,
-   1834,
-   7249,
+   1835,
+   7335,
    7217
   ],
-  "worldTotal": 731281,
+  "worldTotal": 732010,
   "topCountries": [
    {
     "code": "SE",
-    "count": 216753
+    "count": 216972
    },
    {
     "code": "NO",
-    "count": 89373
+    "count": 89467
    },
    {
     "code": "FR",
-    "count": 76290
+    "count": 76299
    },
    {
     "code": "GB",
-    "count": 56734
+    "count": 56759
    },
    {
     "code": "CH",
-    "count": 49681
+    "count": 49683
    },
    {
     "code": "FI",
@@ -164,27 +164,27 @@
    },
    {
     "code": "DK",
-    "count": 43640
+    "count": 43734
    },
    {
     "code": "ES",
-    "count": 32683
+    "count": 32689
    },
    {
     "code": "DE",
-    "count": 25379
+    "count": 25411
    },
    {
     "code": "AT",
-    "count": 14571
-   },
-   {
-    "code": "IT",
-    "count": 12759
+    "count": 14758
    },
    {
     "code": "NL",
-    "count": 12751
+    "count": 12785
+   },
+   {
+    "code": "IT",
+    "count": 12760
    }
   ]
  },
@@ -210,5 +210,6 @@
   "familyKey": 9290,
   "familyDa": "Vandstære",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:20.900Z"
 }

@@ -146,27 +146,27 @@
    0,
    0
   ],
-  "worldTotal": 124855,
+  "worldTotal": 124879,
   "topCountries": [
    {
     "code": "IN",
-    "count": 70640
+    "count": 70643
    },
    {
     "code": "TW",
-    "count": 23583
+    "count": 23587
    },
    {
     "code": "LK",
-    "count": 10006
+    "count": 10011
    },
    {
     "code": "TH",
-    "count": 7611
+    "count": 7613
    },
    {
     "code": "CN",
-    "count": 3452
+    "count": 3451
    },
    {
     "code": "KH",
@@ -174,7 +174,7 @@
    },
    {
     "code": "OM",
-    "count": 1193
+    "count": 1204
    },
    {
     "code": "PH",
@@ -220,5 +220,6 @@
   "familyKey": 9314,
   "familyDa": "Jacanaer",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:30.013Z"
 }

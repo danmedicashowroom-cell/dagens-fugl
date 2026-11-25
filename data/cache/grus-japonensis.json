@@ -126,11 +126,11 @@
    12,
    20
   ],
-  "worldTotal": 8158,
+  "worldTotal": 8164,
   "topCountries": [
    {
     "code": "JP",
-    "count": 3571
+    "count": 3572
    },
    {
     "code": "KR",
@@ -138,11 +138,11 @@
    },
    {
     "code": "CN",
-    "count": 1180
+    "count": 1179
    },
    {
     "code": "RU",
-    "count": 654
+    "count": 660
    },
    {
     "code": "TW",
@@ -154,7 +154,7 @@
    },
    {
     "code": "NL",
-    "count": 205
+    "count": 206
    },
    {
     "code": "ES",
@@ -200,5 +200,6 @@
   "familyKey": 9313,
   "familyDa": "Traner",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:04.833Z"
 }

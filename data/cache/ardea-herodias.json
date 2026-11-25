@@ -146,35 +146,35 @@
    0,
    0
   ],
-  "worldTotal": 13179578,
+  "worldTotal": 13181047,
   "topCountries": [
    {
     "code": "US",
-    "count": 11373838
+    "count": 11375030
    },
    {
     "code": "CA",
-    "count": 1535862
+    "count": 1536057
    },
    {
     "code": "MX",
-    "count": 113105
+    "count": 113150
    },
    {
     "code": "CR",
-    "count": 36374
+    "count": 36378
    },
    {
     "code": "BZ",
-    "count": 20047
+    "count": 20049
    },
    {
     "code": "PA",
-    "count": 10828
+    "count": 10830
    },
    {
     "code": "EC",
-    "count": 9665
+    "count": 9672
    },
    {
     "code": "CU",
@@ -186,7 +186,7 @@
    },
    {
     "code": "PR",
-    "count": 7304
+    "count": 7305
    },
    {
     "code": "GT",
@@ -220,5 +220,6 @@
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:27.622Z"
 }

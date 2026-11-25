@@ -85,11 +85,11 @@
    0,
    0
   ],
-  "worldTotal": 5151,
+  "worldTotal": 5153,
   "topCountries": [
    {
     "code": "EC",
-    "count": 5123
+    "count": 5125
    },
    {
     "code": "ZZ",
@@ -127,5 +127,6 @@
   "familyKey": 5268,
   "familyDa": "Skarver",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:30.201Z"
 }

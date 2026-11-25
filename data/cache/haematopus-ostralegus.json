@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 7788295,
-  "dkTotal": 397147,
+  "dkTotal": 397343,
   "dkMonths": [
    13731,
-   18974,
-   54083,
-   62758,
-   57602,
-   38483,
-   53585,
-   42206,
-   22367,
-   16217,
-   9249,
-   7810
+   18976,
+   54092,
+   62764,
+   57616,
+   38490,
+   53587,
+   42211,
+   22376,
+   16224,
+   9382,
+   7812
   ],
-  "worldTotal": 4066751,
+  "worldTotal": 4069711,
   "topCountries": [
    {
     "code": "NL",
-    "count": 1564354
+    "count": 1564838
    },
    {
     "code": "GB",
-    "count": 592275
+    "count": 592358
    },
    {
     "code": "SE",
-    "count": 520180
+    "count": 520272
    },
    {
     "code": "NO",
-    "count": 450773
+    "count": 450881
    },
    {
     "code": "DK",
-    "count": 397147
+    "count": 397343
    },
    {
     "code": "BE",
-    "count": 127934
+    "count": 127939
    },
    {
     "code": "DE",
-    "count": 63511
+    "count": 65416
    },
    {
     "code": "FR",
-    "count": 62327
+    "count": 62353
    },
    {
     "code": "IE",
-    "count": 41565
+    "count": 41574
    },
    {
     "code": "IS",
-    "count": 38935
+    "count": 38938
    },
    {
     "code": "FI",
-    "count": 35687
+    "count": 35699
    },
    {
     "code": "ES",
-    "count": 31311
+    "count": 31319
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 4287243,
   "familyDa": "Strandskader",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:24.913Z"
 }

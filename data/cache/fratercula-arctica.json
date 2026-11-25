@@ -100,7 +100,7 @@
  },
  "gbif": {
   "key": 2481353,
-  "dkTotal": 1507,
+  "dkTotal": 1514,
   "dkMonths": [
    75,
    138,
@@ -111,31 +111,31 @@
    100,
    262,
    83,
-   432,
-   152,
+   438,
+   153,
    62
   ],
-  "worldTotal": 295257,
+  "worldTotal": 295319,
   "topCountries": [
    {
     "code": "GB",
-    "count": 145788
+    "count": 145819
    },
    {
     "code": "US",
-    "count": 29561
+    "count": 29562
    },
    {
     "code": "NO",
-    "count": 24835
+    "count": 24852
    },
    {
     "code": "CA",
-    "count": 21898
+    "count": 21899
    },
    {
     "code": "IS",
-    "count": 20297
+    "count": 20298
    },
    {
     "code": "FO",
@@ -143,7 +143,7 @@
    },
    {
     "code": "SE",
-    "count": 6303
+    "count": 6306
    },
    {
     "code": "IE",
@@ -189,5 +189,6 @@
   "familyKey": 2985,
   "familyDa": "Alkefugl",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:15.114Z"
 }

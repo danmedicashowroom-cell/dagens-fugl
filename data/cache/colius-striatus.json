@@ -126,19 +126,19 @@
    1,
    0
   ],
-  "worldTotal": 419095,
+  "worldTotal": 419083,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 291893
+    "count": 291908
    },
    {
     "code": "KE",
-    "count": 51927
+    "count": 51940
    },
    {
     "code": "UG",
-    "count": 20487
+    "count": 20488
    },
    {
     "code": "TZ",
@@ -146,15 +146,15 @@
    },
    {
     "code": "ET",
-    "count": 6692
+    "count": 6669
    },
    {
     "code": "RW",
-    "count": 6287
+    "count": 6289
    },
    {
     "code": "ZW",
-    "count": 5004
+    "count": 5005
    },
    {
     "code": "NG",
@@ -166,11 +166,11 @@
    },
    {
     "code": "MZ",
-    "count": 2517
+    "count": 2519
    },
    {
     "code": "CD",
-    "count": 2383
+    "count": 2381
    },
    {
     "code": "MW",
@@ -200,5 +200,6 @@
   "familyKey": 9305,
   "familyDa": "Musefugle",
   "order": "Coliiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:47.282Z"
 }

@@ -115,55 +115,55 @@
    0,
    0
   ],
-  "worldTotal": 389232,
+  "worldTotal": 389513,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 115778
+    "count": 115847
    },
    {
     "code": "KE",
-    "count": 50759
+    "count": 50812
    },
    {
     "code": "UG",
-    "count": 32213
+    "count": 32228
    },
    {
     "code": "TZ",
-    "count": 26529
+    "count": 26543
    },
    {
     "code": "MA",
-    "count": 23092
+    "count": 23150
    },
    {
     "code": "ZM",
-    "count": 17873
+    "count": 17876
    },
    {
     "code": "ZW",
-    "count": 15234
+    "count": 15235
    },
    {
     "code": "GM",
-    "count": 11064
+    "count": 11085
    },
    {
     "code": "GH",
-    "count": 11034
+    "count": 11044
    },
    {
     "code": "RW",
-    "count": 8572
+    "count": 8576
    },
    {
     "code": "ET",
-    "count": 7050
+    "count": 7051
    },
    {
     "code": "SN",
-    "count": 7009
+    "count": 7015
    }
   ]
  },
@@ -189,5 +189,6 @@
   "familyKey": 5277,
   "familyDa": "Bulbuler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:56.839Z"
 }

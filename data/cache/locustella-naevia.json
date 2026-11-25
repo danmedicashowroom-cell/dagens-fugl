@@ -100,30 +100,30 @@
  },
  "gbif": {
   "key": 2493548,
-  "dkTotal": 34564,
+  "dkTotal": 34567,
   "dkMonths": [
    0,
    0,
    0,
    1607,
-   19012,
+   19014,
    9043,
    3732,
    784,
    330,
-   17,
+   18,
    1,
    3
   ],
-  "worldTotal": 431159,
+  "worldTotal": 432735,
   "topCountries": [
    {
     "code": "SE",
-    "count": 133079
+    "count": 133117
    },
    {
     "code": "GB",
-    "count": 50967
+    "count": 50968
    },
    {
     "code": "FR",
@@ -131,11 +131,11 @@
    },
    {
     "code": "NL",
-    "count": 34627
+    "count": 34886
    },
    {
     "code": "DK",
-    "count": 34564
+    "count": 34567
    },
    {
     "code": "BE",
@@ -143,7 +143,7 @@
    },
    {
     "code": "DE",
-    "count": 16063
+    "count": 17325
    },
    {
     "code": "ES",
@@ -159,7 +159,7 @@
    },
    {
     "code": "FI",
-    "count": 8664
+    "count": 8665
    },
    {
     "code": "PL",
@@ -189,5 +189,6 @@
   "familyKey": 6100825,
   "familyDa": "Græssangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:11.312Z"
 }

@@ -1,0 +1,195 @@
+{
+ "key": "galerida-theklae",
+ "name": "Galerida theklae",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:16:24.984Z",
+ "gbifAt": "2026-11-25T22:16:24.984Z",
+ "names": {
+  "da": "Theklalærke",
+  "en": "Thekla's Lark",
+  "accepted": "Galerida theklae"
+ },
+ "wikidata": {
+  "id": "Q851570"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Thekla's lark",
+  "extract": "Thekla's lark, also known as the Thekla lark, is a species of lark that breeds on the Iberian Peninsula and in North and East Africa south to Kenya. It is a sedentary (non-migratory) species. This is a common bird of dry open country, often at some altitude. Thekla's lark was named by Alfred Edmund Brehm in 1857 for his recently deceased sister Thekla Brehm (1833–1857). The name is a modern Greek one, Θέκλα, which comes from ancient Greek Θεόκλεια (Theokleia) derived from θεός and κλέος. The population is declining in parts of Spain, but this is a common bird with a very wide range and the International Union for Conservation of Nature has rated its conservation status as being of \"least concern\".",
+  "url": "https://en.wikipedia.org/wiki/Thekla's_lark"
+ },
+ "inat": {
+  "id": 7359,
+  "observations": 6110
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 556095232,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/556095232/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/556095232/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/308246580",
+    "place": "Cádiz, España",
+    "date": "2024-04-18"
+   },
+   {
+    "id": 610988700,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/610988700/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/610988700/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/336248046",
+    "place": "Málaga, España",
+    "date": "2024-04-01"
+   },
+   {
+    "id": 271727265,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/271727265/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/271727265/large.jpg",
+    "attribution": "(c) Pablo Pozo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/157133472",
+    "place": "Madrid, España",
+    "date": "2023-04-27"
+   }
+  ],
+  "female": [],
+  "juvenile": [
+   {
+    "id": 316759437,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/316759437/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/316759437/large.jpeg",
+    "attribution": "(c) A Emmerson, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/181757018",
+    "place": "Teruel, Spain",
+    "date": "2023-08-04"
+   },
+   {
+    "id": 388530001,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/388530001/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/388530001/large.jpg",
+    "attribution": "(c) Karim Haddad, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/219502673",
+    "place": "Algeria",
+    "date": "2024-05-29"
+   },
+   {
+    "id": 395427725,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/395427725/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/395427725/large.jpeg",
+    "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/223189045",
+    "place": "Castro Marim, Faro, Portugal",
+    "date": "2024-06-16"
+   }
+  ],
+  "hero": {
+   "id": 241289298,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/241289298/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/241289298/large.jpg",
+   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/241289298",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 9330514,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 188899,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 126645
+   },
+   {
+    "code": "PT",
+    "count": 44842
+   },
+   {
+    "code": "MA",
+    "count": 10052
+   },
+   {
+    "code": "FR",
+    "count": 2990
+   },
+   {
+    "code": "ET",
+    "count": 1714
+   },
+   {
+    "code": "DZ",
+    "count": 895
+   },
+   {
+    "code": "TN",
+    "count": 838
+   },
+   {
+    "code": "EH",
+    "count": 395
+   },
+   {
+    "code": "SO",
+    "count": 226
+   },
+   {
+    "code": "KE",
+    "count": 135
+   },
+   {
+    "code": "ER",
+    "count": 31
+   },
+   {
+    "code": "LY",
+    "count": 23
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1174940/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "erbd",
+  "page": "https://xeno-canto.org/1174940",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Alaudidae",
+  "familyKey": 7211,
+  "familyDa": "Lærker",
+  "order": "Passeriformes"
+ }
+}

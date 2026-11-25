@@ -116,11 +116,11 @@
    0,
    0
   ],
-  "worldTotal": 9930,
+  "worldTotal": 9943,
   "topCountries": [
    {
     "code": "EC",
-    "count": 9883
+    "count": 9896
    },
    {
     "code": "US",
@@ -166,5 +166,6 @@
   "familyKey": 5284,
   "familyDa": "Pingvin",
   "order": "Sphenisciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:29.783Z"
 }

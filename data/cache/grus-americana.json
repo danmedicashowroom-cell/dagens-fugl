@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 76863,
+  "worldTotal": 76864,
   "topCountries": [
    {
     "code": "US",
-    "count": 74389
+    "count": 74391
    },
    {
     "code": "CA",
-    "count": 2194
+    "count": 2195
    },
    {
     "code": "ZZ",
@@ -192,5 +192,6 @@
   "familyKey": 9313,
   "familyDa": "Traner",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:31.903Z"
 }

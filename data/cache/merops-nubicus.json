@@ -106,19 +106,19 @@
    1,
    1
   ],
-  "worldTotal": 12290,
+  "worldTotal": 12298,
   "topCountries": [
    {
     "code": "KE",
-    "count": 4419
+    "count": 4420
    },
    {
     "code": "ET",
-    "count": 2098
+    "count": 2099
    },
    {
     "code": "UG",
-    "count": 1411
+    "count": 1415
    },
    {
     "code": "TZ",
@@ -134,7 +134,7 @@
    },
    {
     "code": "SN",
-    "count": 424
+    "count": 425
    },
    {
     "code": "GM",
@@ -150,7 +150,7 @@
    },
    {
     "code": "TD",
-    "count": 185
+    "count": 186
    },
    {
     "code": "CM",
@@ -180,5 +180,6 @@
   "familyKey": 9320,
   "familyDa": "Biædere",
   "order": "Coraciiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:36.651Z"
 }

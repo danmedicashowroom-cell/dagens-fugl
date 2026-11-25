@@ -1,0 +1,175 @@
+{
+ "key": "poecile-cinctus",
+ "name": "Poecile cinctus",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:13:34.869Z",
+ "gbifAt": "2026-11-25T22:13:34.869Z",
+ "names": {
+  "da": "Lapmejse",
+  "en": "Siberian Tit",
+  "accepted": "Poecile cinctus"
+ },
+ "wikidata": {
+  "id": "Q574447"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Grey-headed chickadee",
+  "extract": "The grey-headed chickadee or Siberian tit is a passerine bird in the tit family Paridae. It is a widespread resident breeder throughout subarctic Scandinavia and the northern Palearctic, and also into North America in Alaska and the far northwest of Canada. It is a conifer specialist. It is resident, and most birds do not migrate.",
+  "url": "https://en.wikipedia.org/wiki/Grey-headed_chickadee"
+ },
+ "inat": {
+  "id": 144822,
+  "observations": 861
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 326942023,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/326942023/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/326942023/large.jpg",
+    "attribution": "(c) Irina Krug, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/187008848",
+    "place": "Онгудайский р-н, Респ. Алтай, Россия",
+    "date": "2023-10-07"
+   }
+  ],
+  "female": [],
+  "juvenile": [
+   {
+    "id": 678982114,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/678982114/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/678982114/large.jpg",
+    "attribution": "(c) naturalisttt, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/371518023",
+    "place": "Респ. Саха (Якутия), Россия, 677000",
+    "date": "2026-06-14"
+   },
+   {
+    "id": 456539333,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/456539333/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/456539333/large.jpg",
+    "attribution": "(c) naturalisttt, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/254830786",
+    "place": "Вилюйский у., Респ. Саха (Якутия), Россия",
+    "date": "2024-06-26"
+   },
+   {
+    "id": 543421186,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/543421186/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/543421186/large.jpg",
+    "attribution": "(c) Sergey_Cher, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/301577463",
+    "place": "9JQ9RFHG+V5",
+    "date": "2004-07-20"
+   }
+  ],
+  "hero": {
+   "id": 59218927,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/59218927/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/59218927/large.jpg",
+   "attribution": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/59218927",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2487862,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 67945,
+  "topCountries": [
+   {
+    "code": "FI",
+    "count": 47356
+   },
+   {
+    "code": "SE",
+    "count": 14825
+   },
+   {
+    "code": "NO",
+    "count": 4211
+   },
+   {
+    "code": "RU",
+    "count": 1177
+   },
+   {
+    "code": "US",
+    "count": 111
+   },
+   {
+    "code": "MN",
+    "count": 101
+   },
+   {
+    "code": "CA",
+    "count": 50
+   },
+   {
+    "code": "EE",
+    "count": 15
+   },
+   {
+    "code": "ZZ",
+    "count": 15
+   },
+   {
+    "code": "KZ",
+    "count": 10
+   },
+   {
+    "code": "GR",
+    "count": 1
+   },
+   {
+    "code": "IN",
+    "count": 1
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1168750/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/1168750",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Paridae",
+  "familyKey": 9327,
+  "familyDa": "Mejser",
+  "order": "Passeriformes"
+ }
+}

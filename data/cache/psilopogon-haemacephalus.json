@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 547707,
+  "worldTotal": 547782,
   "topCountries": [
    {
     "code": "IN",
-    "count": 415014
+    "count": 415049
    },
    {
     "code": "TH",
-    "count": 62779
+    "count": 62801
    },
    {
     "code": "PH",
-    "count": 15403
+    "count": 15406
    },
    {
     "code": "KH",
@@ -166,15 +166,15 @@
    },
    {
     "code": "LK",
-    "count": 7736
+    "count": 7739
    },
    {
     "code": "ID",
-    "count": 7211
+    "count": 7219
    },
    {
     "code": "SG",
-    "count": 6164
+    "count": 6165
    },
    {
     "code": "MY",
@@ -186,11 +186,11 @@
    },
    {
     "code": "NP",
-    "count": 3824
+    "count": 3825
    },
    {
     "code": "VN",
-    "count": 3200
+    "count": 3201
    },
    {
     "code": "MM",
@@ -220,5 +220,6 @@
   "familyKey": 3242200,
   "familyDa": null,
   "order": "Piciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:26.126Z"
 }

@@ -126,23 +126,23 @@
    0,
    0
   ],
-  "worldTotal": 79069,
+  "worldTotal": 79082,
   "topCountries": [
    {
     "code": "AR",
-    "count": 47630
+    "count": 47640
    },
    {
     "code": "BR",
-    "count": 15499
+    "count": 15503
    },
    {
     "code": "UY",
-    "count": 9307
+    "count": 9308
    },
    {
     "code": "BO",
-    "count": 4250
+    "count": 4251
    },
    {
     "code": "PY",
@@ -200,5 +200,6 @@
   "familyKey": 2988,
   "familyDa": "Hyrdefugle",
   "order": "Anseriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:12.363Z"
 }

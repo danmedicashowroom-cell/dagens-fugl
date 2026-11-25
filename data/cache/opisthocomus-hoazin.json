@@ -126,11 +126,11 @@
    0,
    0
   ],
-  "worldTotal": 52332,
+  "worldTotal": 52360,
   "topCountries": [
    {
     "code": "EC",
-    "count": 15130
+    "count": 15155
    },
    {
     "code": "PE",
@@ -142,11 +142,11 @@
    },
    {
     "code": "BR",
-    "count": 4426
+    "count": 4428
    },
    {
     "code": "BO",
-    "count": 2151
+    "count": 2152
    },
    {
     "code": "VE",
@@ -200,5 +200,6 @@
   "familyKey": 5261,
   "familyDa": null,
   "order": "Opisthocomiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:50.750Z"
 }

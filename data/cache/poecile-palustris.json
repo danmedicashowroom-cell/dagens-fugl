@@ -100,46 +100,46 @@
  },
  "gbif": {
   "key": 2487843,
-  "dkTotal": 164372,
+  "dkTotal": 164681,
   "dkMonths": [
    23307,
    19757,
    24420,
-   19272,
-   9381,
-   5681,
-   5772,
-   8442,
-   9535,
-   11819,
-   12583,
+   19274,
+   9383,
+   5682,
+   5775,
+   8444,
+   9537,
+   11827,
+   12872,
    14356
   ],
-  "worldTotal": 1641232,
+  "worldTotal": 1643485,
   "topCountries": [
    {
     "code": "SE",
-    "count": 455813
+    "count": 456828
    },
    {
     "code": "FR",
-    "count": 295969
+    "count": 295985
    },
    {
     "code": "DE",
-    "count": 176490
+    "count": 177063
    },
    {
     "code": "DK",
-    "count": 164372
+    "count": 164681
    },
    {
     "code": "NO",
-    "count": 96169
+    "count": 96285
    },
    {
     "code": "GB",
-    "count": 83874
+    "count": 83882
    },
    {
     "code": "CH",
@@ -147,23 +147,23 @@
    },
    {
     "code": "KR",
-    "count": 39206
+    "count": 39220
+   },
+   {
+    "code": "NL",
+    "count": 26565
    },
    {
     "code": "IT",
     "count": 26485
    },
    {
-    "code": "NL",
-    "count": 26484
-   },
-   {
     "code": "PL",
-    "count": 24819
+    "count": 24821
    },
    {
     "code": "CN",
-    "count": 21081
+    "count": 21083
    }
   ]
  },
@@ -189,5 +189,6 @@
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:53.905Z"
 }

@@ -131,66 +131,66 @@
  },
  "gbif": {
   "key": 2481174,
-  "dkTotal": 119566,
+  "dkTotal": 119577,
   "dkMonths": [
    278,
    643,
    8748,
-   23577,
-   19877,
+   23578,
+   19881,
    12932,
    21582,
-   14615,
+   14616,
    10862,
-   5814,
+   5819,
    250,
    243
   ],
-  "worldTotal": 8920533,
+  "worldTotal": 8922524,
   "topCountries": [
    {
     "code": "NL",
-    "count": 1475260
+    "count": 1475354
    },
    {
     "code": "GB",
-    "count": 1322864
+    "count": 1322905
    },
    {
     "code": "BE",
-    "count": 1176908
+    "count": 1176911
    },
    {
     "code": "FR",
-    "count": 1154738
+    "count": 1154758
    },
    {
     "code": "ES",
-    "count": 956194
+    "count": 956230
    },
    {
     "code": "MA",
-    "count": 416401
+    "count": 416403
    },
    {
     "code": "PT",
-    "count": 402235
+    "count": 402245
    },
    {
     "code": "US",
-    "count": 340077
+    "count": 340111
    },
    {
     "code": "SE",
-    "count": 297383
+    "count": 298003
    },
    {
     "code": "NO",
-    "count": 245638
+    "count": 245675
    },
    {
     "code": "FI",
-    "count": 217181
+    "count": 217187
    },
    {
     "code": "EH",
@@ -220,5 +220,6 @@
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:59.918Z"
 }

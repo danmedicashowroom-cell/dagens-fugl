@@ -1,0 +1,142 @@
+{
+ "key": "chersophilus-duponti",
+ "name": "Chersophilus duponti",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:11:33.607Z",
+ "gbifAt": "2026-11-25T22:11:33.607Z",
+ "names": {
+  "da": "Duponts Lærke",
+  "en": "Dupont's Lark",
+  "accepted": "Chersophilus duponti"
+ },
+ "wikidata": {
+  "id": "Q1266617"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Dupont's lark",
+  "extract": "Dupont's lark is a species of lark in the family Alaudidae of the monotypic genus Chersophilus. It is found in northern Africa and Spain.",
+  "url": "https://en.wikipedia.org/wiki/Dupont's_lark"
+ },
+ "inat": {
+  "id": 7416,
+  "observations": 115
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 642959560,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/642959560/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/642959560/large.jpg",
+    "attribution": "(c) María Rodríguez, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/352276051",
+    "place": "Spain",
+    "date": "2026-04-23"
+   },
+   {
+    "id": 449308883,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/449308883/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/449308883/large.jpeg",
+    "attribution": "(c) BEKKOUCHE Abdelkader, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/251140256",
+    "place": null,
+    "date": "2023-10-27"
+   }
+  ],
+  "female": [],
+  "juvenile": [],
+  "hero": {
+   "id": 107290942,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107290942/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107290942/large.jpg",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/107290942",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2490674,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 10034,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 9337
+   },
+   {
+    "code": "MA",
+    "count": 522
+   },
+   {
+    "code": "DZ",
+    "count": 75
+   },
+   {
+    "code": "TN",
+    "count": 58
+   },
+   {
+    "code": "EG",
+    "count": 15
+   },
+   {
+    "code": "FR",
+    "count": 7
+   },
+   {
+    "code": "LY",
+    "count": 3
+   },
+   {
+    "code": "GR",
+    "count": 1
+   },
+   {
+    "code": "PT",
+    "count": 1
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1137339/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Pere Josa",
+  "page": "https://xeno-canto.org/1137339",
+  "type": "dawn song, song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Alaudidae",
+  "familyKey": 7211,
+  "familyDa": "Lærker",
+  "order": "Passeriformes"
+ }
+}

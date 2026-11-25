@@ -146,31 +146,31 @@
    0,
    0
   ],
-  "worldTotal": 1729875,
+  "worldTotal": 1729909,
   "topCountries": [
    {
     "code": "US",
-    "count": 1534619
+    "count": 1534635
    },
    {
     "code": "CA",
-    "count": 152365
+    "count": 152375
    },
    {
     "code": "CR",
-    "count": 12831
+    "count": 12834
    },
    {
     "code": "CO",
-    "count": 11460
+    "count": 11461
    },
    {
     "code": "PA",
-    "count": 4790
+    "count": 4791
    },
    {
     "code": "EC",
-    "count": 4481
+    "count": 4482
    },
    {
     "code": "BZ",
@@ -186,7 +186,7 @@
    },
    {
     "code": "HN",
-    "count": 1112
+    "count": 1113
    },
    {
     "code": "NI",
@@ -220,5 +220,6 @@
   "familyKey": 9285,
   "familyDa": "Kardinaler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:14.952Z"
 }

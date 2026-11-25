@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 14204763,
+  "worldTotal": 14205132,
   "topCountries": [
    {
     "code": "US",
-    "count": 12422342
+    "count": 12422634
    },
    {
     "code": "CA",
-    "count": 1767092
+    "count": 1767163
    },
    {
     "code": "MX",
-    "count": 14779
+    "count": 14783
    },
    {
     "code": "ZZ",
@@ -220,5 +220,6 @@
   "familyKey": 5283,
   "familyDa": "Spætmejser",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:11.215Z"
 }

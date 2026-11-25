@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 9515886,
-  "dkTotal": 444484,
+  "dkTotal": 444525,
   "dkMonths": [
    8,
    1,
    320,
    64698,
-   107654,
-   61389,
+   107671,
+   61396,
    59320,
-   76761,
-   70959,
-   2645,
+   76764,
+   70969,
+   2649,
    638,
    1
   ],
-  "worldTotal": 16985651,
+  "worldTotal": 16988754,
   "topCountries": [
    {
     "code": "US",
-    "count": 7151854
+    "count": 7151908
    },
    {
     "code": "ES",
-    "count": 1373844
+    "count": 1373856
    },
    {
     "code": "CA",
-    "count": 948337
+    "count": 948345
    },
    {
     "code": "SE",
-    "count": 774043
+    "count": 774588
    },
    {
     "code": "GB",
-    "count": 681372
+    "count": 681390
    },
    {
     "code": "FR",
-    "count": 612235
+    "count": 612274
    },
    {
     "code": "FI",
-    "count": 454384
+    "count": 454396
    },
    {
     "code": "DK",
-    "count": 444484
+    "count": 444525
    },
    {
     "code": "NL",
-    "count": 416678
+    "count": 417759
    },
    {
     "code": "ZA",
-    "count": 360801
+    "count": 360811
    },
    {
     "code": "NO",
-    "count": 345909
+    "count": 345984
    },
    {
     "code": "TW",
-    "count": 314360
+    "count": 314372
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5248,
   "familyDa": "Svaler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:58.642Z"
 }

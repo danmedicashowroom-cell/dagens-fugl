@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 1302393,
+  "worldTotal": 1302675,
   "topCountries": [
    {
     "code": "US",
-    "count": 1171532
+    "count": 1171741
    },
    {
     "code": "CA",
-    "count": 130229
+    "count": 130296
    },
    {
     "code": "ZZ",
@@ -216,5 +216,6 @@
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:45.286Z"
 }

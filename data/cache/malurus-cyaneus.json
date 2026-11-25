@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 1594066,
+  "worldTotal": 1594326,
   "topCountries": [
    {
     "code": "AU",
-    "count": 1593799
+    "count": 1594058
    },
    {
     "code": "US",
@@ -200,5 +200,6 @@
   "familyKey": 5251,
   "familyDa": "Alfesmutter",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:37.488Z"
 }

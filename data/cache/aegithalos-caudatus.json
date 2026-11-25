@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2495000,
-  "dkTotal": 118610,
+  "dkTotal": 118772,
   "dkMonths": [
    13793,
-   14047,
-   20727,
-   14379,
+   14048,
+   20728,
+   14380,
    8743,
-   3887,
+   3889,
    2265,
    3490,
-   6159,
-   12401,
-   9515,
+   6163,
+   12402,
+   9667,
    9153
   ],
-  "worldTotal": 3542821,
+  "worldTotal": 3546046,
   "topCountries": [
    {
     "code": "GB",
-    "count": 745929
+    "count": 745998
    },
    {
     "code": "NL",
-    "count": 522097
+    "count": 523155
    },
    {
     "code": "FR",
-    "count": 401489
+    "count": 401578
    },
    {
     "code": "SE",
-    "count": 390413
+    "count": 390778
    },
    {
     "code": "ES",
-    "count": 324427
+    "count": 324453
    },
    {
     "code": "DE",
-    "count": 177838
+    "count": 178969
    },
    {
     "code": "FI",
-    "count": 150545
+    "count": 150546
    },
    {
     "code": "DK",
-    "count": 118610
+    "count": 118772
    },
    {
     "code": "BE",
-    "count": 117920
+    "count": 117923
    },
    {
     "code": "IT",
-    "count": 78998
+    "count": 79006
    },
    {
     "code": "PL",
-    "count": 66119
+    "count": 66124
    },
    {
     "code": "PT",
-    "count": 58033
+    "count": 58038
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 2878,
   "familyDa": "Halemejser",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:07.544Z"
 }

@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 1940223,
+  "worldTotal": 1940493,
   "topCountries": [
    {
     "code": "US",
-    "count": 1770663
+    "count": 1770892
    },
    {
     "code": "CA",
-    "count": 122938
+    "count": 122951
    },
    {
     "code": "MX",
-    "count": 40176
+    "count": 40204
    },
    {
     "code": "CU",
@@ -220,5 +220,6 @@
   "familyKey": 9329,
   "familyDa": "Pelikaner",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:27.180Z"
 }

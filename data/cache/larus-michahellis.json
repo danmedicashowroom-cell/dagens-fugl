@@ -146,51 +146,51 @@
    152,
    158
   ],
-  "worldTotal": 1911924,
+  "worldTotal": 1912348,
   "topCountries": [
    {
     "code": "ES",
-    "count": 717202
+    "count": 717292
    },
    {
     "code": "FR",
-    "count": 322249
+    "count": 322293
    },
    {
     "code": "PT",
-    "count": 254915
+    "count": 254959
    },
    {
     "code": "IT",
-    "count": 147521
+    "count": 147608
    },
    {
     "code": "GR",
-    "count": 61055
+    "count": 61074
    },
    {
     "code": "CH",
-    "count": 60825
+    "count": 60833
    },
    {
     "code": "TR",
-    "count": 59865
+    "count": 59879
    },
    {
     "code": "GB",
-    "count": 45946
+    "count": 45949
    },
    {
     "code": "DE",
-    "count": 35314
+    "count": 35317
    },
    {
     "code": "BG",
-    "count": 26338
+    "count": 26339
    },
    {
     "code": "HR",
-    "count": 22753
+    "count": 22777
    },
    {
     "code": "GI",
@@ -220,5 +220,6 @@
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:00.922Z"
 }

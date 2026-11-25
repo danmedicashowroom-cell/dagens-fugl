@@ -146,27 +146,27 @@
    0,
    0
   ],
-  "worldTotal": 196383,
+  "worldTotal": 196426,
   "topCountries": [
    {
     "code": "US",
-    "count": 49577
+    "count": 49575
    },
    {
     "code": "EC",
-    "count": 29919
+    "count": 29929
    },
    {
     "code": "GP",
-    "count": 21108
+    "count": 21109
    },
    {
     "code": "MX",
-    "count": 19522
+    "count": 19529
    },
    {
     "code": "CO",
-    "count": 8384
+    "count": 8394
    },
    {
     "code": "KY",
@@ -178,11 +178,11 @@
    },
    {
     "code": "CR",
-    "count": 6617
+    "count": 6619
    },
    {
     "code": "BZ",
-    "count": 5434
+    "count": 5435
    },
    {
     "code": "BQ",
@@ -194,7 +194,7 @@
    },
    {
     "code": "PA",
-    "count": 3961
+    "count": 3962
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5263,
   "familyDa": "Amerikanske sangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:12.670Z"
 }

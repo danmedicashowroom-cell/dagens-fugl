@@ -101,7 +101,7 @@
  },
  "gbif": {
   "key": 2481609,
-  "dkTotal": 3851,
+  "dkTotal": 3859,
   "dkMonths": [
    102,
    13,
@@ -112,19 +112,19 @@
    77,
    232,
    886,
-   1425,
-   633,
-   119
+   1428,
+   637,
+   120
   ],
-  "worldTotal": 125586,
+  "worldTotal": 125604,
   "topCountries": [
    {
     "code": "US",
-    "count": 50490
+    "count": 50495
    },
    {
     "code": "SE",
-    "count": 17001
+    "count": 17004
    },
    {
     "code": "GB",
@@ -148,7 +148,7 @@
    },
    {
     "code": "DK",
-    "count": 3851
+    "count": 3859
    },
    {
     "code": "NL",
@@ -190,5 +190,6 @@
   "familyKey": 9347,
   "familyDa": "Kjover",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:50.241Z"
 }

@@ -1,0 +1,226 @@
+{
+ "key": "fulica-cristata",
+ "name": "Fulica cristata",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:12:45.724Z",
+ "gbifAt": "2026-11-25T22:12:45.724Z",
+ "names": {
+  "da": "Kamblishøne",
+  "en": "Red-knobbed Coot",
+  "accepted": "Fulica cristata"
+ },
+ "wikidata": {
+  "id": "Q748033"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Red-knobbed coot",
+  "extract": "The red-knobbed coot or crested coot is a member of the rail and crake bird family, the Rallidae.",
+  "url": "https://en.wikipedia.org/wiki/Red-knobbed_coot"
+ },
+ "inat": {
+  "id": 487,
+  "observations": 8232
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 198433188,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/198433188/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/198433188/large.jpg",
+    "attribution": "(c) Wolfgang Bettighofer, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/117495819",
+    "place": "Baleares, ES-PM, ES",
+    "date": "2022-04-05"
+   },
+   {
+    "id": 762012674,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/762012674/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/762012674/large.jpg",
+    "attribution": "(c) Diego González Dopico, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/413979916",
+    "place": "Sevilla, ES-AN, ES",
+    "date": "2026-11-06"
+   },
+   {
+    "id": 260545584,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/260545584/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/260545584/large.jpeg",
+    "attribution": "(c) Kate BT, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/151038873",
+    "place": "The Kloof, Bloemfontein, 9301, Sydafrika",
+    "date": "2023-03-13"
+   }
+  ],
+  "female": [
+   {
+    "id": 68388822,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/68388822/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/68388822/large.jpeg",
+    "attribution": "(c) M Sturgess, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/43105083",
+    "place": "South Cape DC, South Africa",
+    "date": "2020-04-24"
+   },
+   {
+    "id": 196213128,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/196213128/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/196213128/large.jpeg",
+    "attribution": "(c) gardatxanae, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/116248438",
+    "place": "Alicante, ES-VC, ES",
+    "date": "2022-04-26"
+   },
+   {
+    "id": 205519144,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/205519144/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/205519144/large.jpg",
+    "attribution": "(c) Wolfgang Bettighofer, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/121454290",
+    "place": "Baleares, ES-PM, ES",
+    "date": "2022-04-25"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 93311446,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/93311446/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/93311446/large.jpeg",
+    "attribution": "(c) Nick Leggatt, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/58446075",
+    "place": "Milnerton, Cape Town, South Africa",
+    "date": "2020-09-03"
+   },
+   {
+    "id": 54084647,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/54084647/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/54084647/large.jpeg",
+    "attribution": "(c) Liv MW, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "source": "https://www.inaturalist.org/observations/34371188",
+    "place": "City of Cape Town, Western Cape, South Africa",
+    "date": "2019-09-27"
+   },
+   {
+    "id": 337826368,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/337826368/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/337826368/large.jpeg",
+    "attribution": "(c) Gerald Wingate, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/192441901",
+    "place": "Olienhout Park, Plattekloof",
+    "date": "2023-11-27"
+   }
+  ],
+  "hero": {
+   "id": 107238717,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107238717/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107238717/large.jpg",
+   "attribution": "(c) Xavier Rufray, some rights reserved (CC BY-NC), uploaded by Xavier Rufray",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/107238717",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2474381,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 280415,
+  "topCountries": [
+   {
+    "code": "ZA",
+    "count": 238611
+   },
+   {
+    "code": "ES",
+    "count": 17734
+   },
+   {
+    "code": "KE",
+    "count": 6260
+   },
+   {
+    "code": "NA",
+    "count": 4080
+   },
+   {
+    "code": "MA",
+    "count": 2383
+   },
+   {
+    "code": "TZ",
+    "count": 2248
+   },
+   {
+    "code": "ET",
+    "count": 1965
+   },
+   {
+    "code": "ZW",
+    "count": 1394
+   },
+   {
+    "code": "BW",
+    "count": 826
+   },
+   {
+    "code": "ZM",
+    "count": 669
+   },
+   {
+    "code": "PT",
+    "count": 647
+   },
+   {
+    "code": "OM",
+    "count": 645
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1084453/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "African Bioacoustics Community",
+  "page": "https://xeno-canto.org/1084453",
+  "type": "call",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Rallidae",
+  "familyKey": 9342,
+  "familyDa": "Vandhøns",
+  "order": "Gruiformes"
+ }
+}

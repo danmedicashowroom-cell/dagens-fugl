@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 28843731,
+  "worldTotal": 28844269,
   "topCountries": [
    {
     "code": "US",
-    "count": 26097610
+    "count": 26098079
    },
    {
     "code": "CA",
-    "count": 2564608
+    "count": 2564648
    },
    {
     "code": "MX",
-    "count": 89898
+    "count": 89918
    },
    {
     "code": "CU",
@@ -170,7 +170,7 @@
    },
    {
     "code": "DO",
-    "count": 13753
+    "count": 13759
    },
    {
     "code": "PR",
@@ -220,5 +220,6 @@
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:04.905Z"
 }

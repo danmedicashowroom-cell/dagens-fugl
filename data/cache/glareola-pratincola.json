@@ -95,19 +95,19 @@
    0,
    0
   ],
-  "worldTotal": 94782,
+  "worldTotal": 94807,
   "topCountries": [
    {
     "code": "ES",
-    "count": 30017
+    "count": 30019
    },
    {
     "code": "ZA",
-    "count": 6020
+    "count": 6025
    },
    {
     "code": "FR",
-    "count": 5844
+    "count": 5845
    },
    {
     "code": "IL",
@@ -115,15 +115,15 @@
    },
    {
     "code": "PT",
-    "count": 3568
+    "count": 3569
    },
    {
     "code": "BW",
-    "count": 2884
+    "count": 2885
    },
    {
     "code": "GR",
-    "count": 2786
+    "count": 2787
    },
    {
     "code": "IN",
@@ -139,7 +139,7 @@
    },
    {
     "code": "KE",
-    "count": 2304
+    "count": 2312
    },
    {
     "code": "TZ",
@@ -169,5 +169,6 @@
   "familyKey": 5245,
   "familyDa": "Ørkenløbere & braksvaler",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:18.231Z"
 }

@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2480327,
-  "dkTotal": 95874,
+  "dkTotal": 96045,
   "dkMonths": [
    1574,
    855,
    1007,
    2070,
-   11212,
-   2003,
+   11215,
+   2004,
    10373,
-   26749,
-   16697,
-   16874,
-   5062,
-   1394
+   26755,
+   16714,
+   16892,
+   5187,
+   1395
   ],
-  "worldTotal": 2282444,
+  "worldTotal": 2283871,
   "topCountries": [
    {
     "code": "US",
-    "count": 1100537
+    "count": 1100665
    },
    {
     "code": "CA",
-    "count": 203991
+    "count": 204020
    },
    {
     "code": "SE",
-    "count": 194421
+    "count": 194479
    },
    {
     "code": "DK",
-    "count": 95874
+    "count": 96045
    },
    {
     "code": "GB",
-    "count": 89054
+    "count": 89065
    },
    {
     "code": "FR",
-    "count": 59040
+    "count": 59060
    },
    {
     "code": "ES",
-    "count": 57882
+    "count": 57907
    },
    {
     "code": "NL",
-    "count": 41729
+    "count": 41916
    },
    {
     "code": "PT",
-    "count": 36302
+    "count": 36314
    },
    {
     "code": "TW",
-    "count": 34485
+    "count": 34495
    },
    {
     "code": "NO",
-    "count": 32659
+    "count": 32680
    },
    {
     "code": "MX",
-    "count": 28913
+    "count": 28920
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 2480210,
   "familyDa": "Brokfugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:27.953Z"
 }

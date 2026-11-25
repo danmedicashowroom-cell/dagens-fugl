@@ -136,19 +136,19 @@
    0,
    0
   ],
-  "worldTotal": 67278,
+  "worldTotal": 67303,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 39334
+    "count": 39348
    },
    {
     "code": "KE",
-    "count": 12822
+    "count": 12832
    },
    {
     "code": "TZ",
-    "count": 7723
+    "count": 7724
    },
    {
     "code": "NA",
@@ -156,11 +156,11 @@
    },
    {
     "code": "BW",
-    "count": 1898
+    "count": 1899
    },
    {
     "code": "ZW",
-    "count": 1164
+    "count": 1165
    },
    {
     "code": "ZM",
@@ -168,7 +168,7 @@
    },
    {
     "code": "ET",
-    "count": 321
+    "count": 322
    },
    {
     "code": "UG",
@@ -210,5 +210,6 @@
   "familyKey": 5713,
   "familyDa": "Sekretærfugl",
   "order": "Accipitriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:34.597Z"
 }

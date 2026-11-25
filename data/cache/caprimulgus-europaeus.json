@@ -131,30 +131,30 @@
  },
  "gbif": {
   "key": 8109681,
-  "dkTotal": 16038,
+  "dkTotal": 16042,
   "dkMonths": [
    3,
    0,
    2,
    29,
    3939,
-   7525,
-   2981,
-   999,
+   7526,
+   2982,
+   1001,
    351,
    47,
    1,
    3
   ],
-  "worldTotal": 305492,
+  "worldTotal": 305854,
   "topCountries": [
    {
     "code": "SE",
-    "count": 97555
+    "count": 97853
    },
    {
     "code": "FR",
-    "count": 45738
+    "count": 45740
    },
    {
     "code": "ES",
@@ -162,23 +162,23 @@
    },
    {
     "code": "GB",
-    "count": 17200
+    "count": 17197
    },
    {
     "code": "FI",
-    "count": 16741
+    "count": 16743
    },
    {
     "code": "DK",
-    "count": 16038
+    "count": 16042
    },
    {
     "code": "NL",
-    "count": 15225
+    "count": 15228
    },
    {
     "code": "NO",
-    "count": 14633
+    "count": 14639
    },
    {
     "code": "PT",
@@ -220,5 +220,6 @@
   "familyKey": 5225,
   "familyDa": "Natravne",
   "order": "Caprimulgiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:27.179Z"
 }

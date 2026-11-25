@@ -131,42 +131,42 @@
  },
  "gbif": {
   "key": 2487603,
-  "dkTotal": 90954,
+  "dkTotal": 91058,
   "dkMonths": [
    9180,
    9548,
-   16114,
+   16115,
    13514,
    8708,
    4753,
    3319,
-   3357,
-   4233,
-   7491,
-   5343,
+   3358,
+   4234,
+   7492,
+   5443,
    5336
   ],
-  "worldTotal": 1309157,
+  "worldTotal": 1310257,
   "topCountries": [
    {
     "code": "SE",
-    "count": 434775
+    "count": 435141
    },
    {
     "code": "GB",
-    "count": 204057
+    "count": 204079
    },
    {
     "code": "FI",
-    "count": 174186
+    "count": 174189
    },
    {
     "code": "NO",
-    "count": 98486
+    "count": 98604
    },
    {
     "code": "DK",
-    "count": 90954
+    "count": 91058
    },
    {
     "code": "CH",
@@ -178,15 +178,15 @@
    },
    {
     "code": "RU",
-    "count": 37537
+    "count": 37676
    },
    {
     "code": "DE",
-    "count": 35282
+    "count": 35520
    },
    {
     "code": "PL",
-    "count": 22904
+    "count": 22905
    },
    {
     "code": "EE",
@@ -194,7 +194,7 @@
    },
    {
     "code": "CZ",
-    "count": 14089
+    "count": 14090
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5227,
   "familyDa": "Træløbere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:18.904Z"
 }

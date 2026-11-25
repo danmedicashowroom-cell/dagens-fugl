@@ -131,58 +131,58 @@
  },
  "gbif": {
   "key": 2491719,
-  "dkTotal": 45730,
+  "dkTotal": 45867,
   "dkMonths": [
-   8224,
-   6235,
-   6061,
+   8226,
+   6237,
+   6063,
    758,
    54,
    25,
    7,
    5,
    658,
-   6316,
-   11386,
-   5971
+   6324,
+   11507,
+   5973
   ],
-  "worldTotal": 889493,
+  "worldTotal": 890358,
   "topCountries": [
    {
     "code": "US",
-    "count": 261596
+    "count": 261655
    },
    {
     "code": "CA",
-    "count": 257058
+    "count": 257104
    },
    {
     "code": "SE",
-    "count": 134870
+    "count": 135057
    },
    {
     "code": "DK",
-    "count": 45730
+    "count": 45867
    },
    {
     "code": "NO",
-    "count": 45140
+    "count": 45212
    },
    {
     "code": "NL",
-    "count": 39641
+    "count": 39886
    },
    {
     "code": "GB",
-    "count": 23881
+    "count": 23889
    },
    {
     "code": "IS",
-    "count": 16678
+    "count": 16680
    },
    {
     "code": "FI",
-    "count": 14061
+    "count": 14062
    },
    {
     "code": "SJ",
@@ -190,11 +190,11 @@
    },
    {
     "code": "RU",
-    "count": 6970
+    "count": 7018
    },
    {
     "code": "FR",
-    "count": 5621
+    "count": 5635
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 6101141,
   "familyDa": "Sporeværlinger",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:02.054Z"
 }

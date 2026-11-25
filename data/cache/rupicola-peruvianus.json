@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 44462,
+  "worldTotal": 44476,
   "topCountries": [
    {
     "code": "EC",
-    "count": 18907
+    "count": 18919
    },
    {
     "code": "CO",
-    "count": 14705
+    "count": 14707
    },
    {
     "code": "PE",
@@ -216,5 +216,6 @@
   "familyKey": 5236,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:50.244Z"
 }

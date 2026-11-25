@@ -146,35 +146,35 @@
    0,
    0
   ],
-  "worldTotal": 54047,
+  "worldTotal": 54067,
   "topCountries": [
    {
     "code": "FR",
-    "count": 22710
+    "count": 22713
    },
    {
     "code": "CH",
-    "count": 7116
+    "count": 7117
    },
    {
     "code": "ES",
-    "count": 5117
+    "count": 5118
    },
    {
     "code": "IN",
-    "count": 4791
+    "count": 4792
    },
    {
     "code": "IT",
-    "count": 2306
+    "count": 2308
    },
    {
     "code": "AT",
-    "count": 1513
+    "count": 1519
    },
    {
     "code": "CN",
-    "count": 1249
+    "count": 1247
    },
    {
     "code": "NP",
@@ -182,15 +182,15 @@
    },
    {
     "code": "GE",
-    "count": 923
+    "count": 924
    },
    {
     "code": "BT",
-    "count": 791
+    "count": 792
    },
    {
     "code": "DE",
-    "count": 704
+    "count": 708
    },
    {
     "code": "NL",
@@ -220,5 +220,6 @@
   "familyKey": 6101032,
   "familyDa": "Murløbere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:07.429Z"
 }

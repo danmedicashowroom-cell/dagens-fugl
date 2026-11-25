@@ -131,34 +131,34 @@
  },
  "gbif": {
   "key": 2497306,
-  "dkTotal": 25510,
+  "dkTotal": 25529,
   "dkMonths": [
    3434,
    2660,
    2925,
    1986,
-   2329,
+   2330,
    4189,
    2058,
-   503,
-   350,
-   1481,
-   1820,
+   504,
+   351,
+   1482,
+   1835,
    1673
   ],
-  "worldTotal": 485853,
+  "worldTotal": 486252,
   "topCountries": [
    {
     "code": "SE",
-    "count": 103647
+    "count": 103699
    },
    {
     "code": "NL",
-    "count": 88258
+    "count": 88379
    },
    {
     "code": "FR",
-    "count": 46920
+    "count": 46927
    },
    {
     "code": "FI",
@@ -166,7 +166,7 @@
    },
    {
     "code": "DK",
-    "count": 25510
+    "count": 25529
    },
    {
     "code": "BE",
@@ -174,15 +174,15 @@
    },
    {
     "code": "ES",
-    "count": 20034
+    "count": 20036
    },
    {
     "code": "CA",
-    "count": 17835
+    "count": 17838
    },
    {
     "code": "DE",
-    "count": 16599
+    "count": 16705
    },
    {
     "code": "CH",
@@ -190,11 +190,11 @@
    },
    {
     "code": "NO",
-    "count": 11934
+    "count": 11949
    },
    {
     "code": "RU",
-    "count": 8291
+    "count": 8301
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:24.871Z"
 }

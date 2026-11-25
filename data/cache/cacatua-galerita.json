@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 1379185,
+  "worldTotal": 1379400,
   "topCountries": [
    {
     "code": "AU",
-    "count": 1370135
+    "count": 1370349
    },
    {
     "code": "PG",
@@ -174,7 +174,7 @@
    },
    {
     "code": "ID",
-    "count": 342
+    "count": 343
    },
    {
     "code": "US",
@@ -220,5 +220,6 @@
   "familyKey": 9340,
   "familyDa": "Kakaduer & papegøjer",
   "order": "Psittaciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:32.292Z"
 }

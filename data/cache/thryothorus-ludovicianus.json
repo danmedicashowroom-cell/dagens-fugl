@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 12905729,
+  "worldTotal": 12905962,
   "topCountries": [
    {
     "code": "US",
-    "count": 12686129
+    "count": 12686352
    },
    {
     "code": "CA",
-    "count": 201395
+    "count": 201402
    },
    {
     "code": "MX",
-    "count": 13834
+    "count": 13836
    },
    {
     "code": "GT",
@@ -212,5 +212,6 @@
   "familyKey": 9355,
   "familyDa": "Smutter",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:40.554Z"
 }

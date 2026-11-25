@@ -115,7 +115,7 @@
    0,
    0
   ],
-  "worldTotal": 209844,
+  "worldTotal": 209883,
   "topCountries": [
    {
     "code": "ES",
@@ -123,7 +123,7 @@
    },
    {
     "code": "SE",
-    "count": 25324
+    "count": 25335
    },
    {
     "code": "CH",
@@ -131,23 +131,23 @@
    },
    {
     "code": "NL",
-    "count": 20886
+    "count": 20889
    },
    {
     "code": "FR",
-    "count": 19466
+    "count": 19467
    },
    {
     "code": "PL",
-    "count": 16389
+    "count": 16390
    },
    {
     "code": "DE",
-    "count": 11237
+    "count": 11252
    },
    {
     "code": "IL",
-    "count": 11107
+    "count": 11109
    },
    {
     "code": "BE",
@@ -189,5 +189,6 @@
   "familyKey": 6100825,
   "familyDa": "Græssangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:12.529Z"
 }

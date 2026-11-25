@@ -146,23 +146,23 @@
    0,
    0
   ],
-  "worldTotal": 142270,
+  "worldTotal": 142387,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 89376
+    "count": 89417
    },
    {
     "code": "KE",
-    "count": 18057
+    "count": 18115
    },
    {
     "code": "NA",
-    "count": 13432
+    "count": 13443
    },
    {
     "code": "TZ",
-    "count": 11845
+    "count": 11848
    },
    {
     "code": "BW",
@@ -182,7 +182,7 @@
    },
    {
     "code": "MA",
-    "count": 238
+    "count": 239
    },
    {
     "code": "SZ",
@@ -220,5 +220,6 @@
   "familyKey": 9349,
   "familyDa": "Strudsefamilien",
   "order": "Struthioniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:33.429Z"
 }

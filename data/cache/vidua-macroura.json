@@ -146,27 +146,27 @@
    0,
    0
   ],
-  "worldTotal": 274452,
+  "worldTotal": 274489,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 171159
+    "count": 171185
    },
    {
     "code": "US",
-    "count": 34705
+    "count": 34707
    },
    {
     "code": "KE",
-    "count": 15425
+    "count": 15426
    },
    {
     "code": "UG",
-    "count": 9105
+    "count": 9108
    },
    {
     "code": "TZ",
-    "count": 5424
+    "count": 5426
    },
    {
     "code": "ZW",
@@ -182,7 +182,7 @@
    },
    {
     "code": "GH",
-    "count": 2455
+    "count": 2456
    },
    {
     "code": "SZ",
@@ -220,5 +220,6 @@
   "familyKey": 5295,
   "familyDa": "Enker",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:02.083Z"
 }

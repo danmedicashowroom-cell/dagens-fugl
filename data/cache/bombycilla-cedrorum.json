@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 6970912,
+  "worldTotal": 6971166,
   "topCountries": [
    {
     "code": "US",
-    "count": 5642448
+    "count": 5642639
    },
    {
     "code": "CA",
-    "count": 1306267
+    "count": 1306331
    },
    {
     "code": "MX",
@@ -220,5 +220,6 @@
   "familyKey": 5215,
   "familyDa": "Silkehaler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:21.554Z"
 }

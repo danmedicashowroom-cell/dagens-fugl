@@ -131,7 +131,7 @@
  },
  "gbif": {
   "key": 2481047,
-  "dkTotal": 129802,
+  "dkTotal": 129879,
   "dkMonths": [
    11222,
    10419,
@@ -140,61 +140,61 @@
    9442,
    2798,
    2896,
-   7283,
-   16552,
-   20609,
-   10331,
+   7284,
+   16559,
+   20611,
+   10398,
    7824
   ],
-  "worldTotal": 2693788,
+  "worldTotal": 2694615,
   "topCountries": [
    {
     "code": "US",
-    "count": 999719
+    "count": 999788
    },
    {
     "code": "SE",
-    "count": 224584
+    "count": 224718
    },
    {
     "code": "NL",
-    "count": 208597
+    "count": 208785
    },
    {
     "code": "CA",
-    "count": 176671
+    "count": 176682
    },
    {
     "code": "DK",
-    "count": 129802
+    "count": 129879
    },
    {
     "code": "FR",
-    "count": 117755
+    "count": 117764
    },
    {
     "code": "GB",
-    "count": 115133
+    "count": 115142
    },
    {
     "code": "ES",
-    "count": 86712
+    "count": 86727
    },
    {
     "code": "NO",
-    "count": 82623
+    "count": 82671
    },
    {
     "code": "AU",
-    "count": 81629
+    "count": 81647
    },
    {
     "code": "BE",
-    "count": 73953
+    "count": 73955
    },
    {
     "code": "DE",
-    "count": 32776
+    "count": 32911
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:18.801Z"
 }

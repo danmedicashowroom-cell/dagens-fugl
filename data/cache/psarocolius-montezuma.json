@@ -126,15 +126,15 @@
    0,
    0
   ],
-  "worldTotal": 272015,
+  "worldTotal": 272050,
   "topCountries": [
    {
     "code": "CR",
-    "count": 185103
+    "count": 185132
    },
    {
     "code": "MX",
-    "count": 24718
+    "count": 24722
    },
    {
     "code": "BZ",
@@ -142,11 +142,11 @@
    },
    {
     "code": "HN",
-    "count": 15568
+    "count": 15569
    },
    {
     "code": "NI",
-    "count": 12202
+    "count": 12203
    },
    {
     "code": "GT",
@@ -200,5 +200,6 @@
   "familyKey": 6176,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:58.534Z"
 }

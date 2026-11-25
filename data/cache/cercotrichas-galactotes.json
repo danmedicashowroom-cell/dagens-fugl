@@ -1,0 +1,175 @@
+{
+ "key": "cercotrichas-galactotes",
+ "name": "Cercotrichas galactotes",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:16:35.935Z",
+ "gbifAt": "2026-11-25T22:16:35.935Z",
+ "names": {
+  "da": "Trænattergal",
+  "en": null,
+  "accepted": "Cercotrichas galactotes"
+ },
+ "wikidata": {
+  "id": "Q607027"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Rufous-tailed scrub robin",
+  "extract": "The rufous-tailed scrub robin is a medium-sized member of the family Muscicapidae. Other common names include the rufous scrub robin, rufous bush chat, rufous bush robin and the rufous warbler. It breeds around the Mediterranean and east to Pakistan. It also breeds south of the Sahara from the Sahel region east to Somalia; these African birds are sometimes considered to be a separate species, the African scrub robin. It is partially migratory, wintering in Africa and India. This is a very rare visitor to northern Europe.",
+  "url": "https://en.wikipedia.org/wiki/Rufous-tailed_scrub_robin"
+ },
+ "inat": {
+  "id": 145026,
+  "observations": 1364
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 185540400,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/185540400/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/185540400/large.jpeg",
+    "attribution": "(c) Matthieu Gauvain, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/110027214",
+    "place": "Mbour, Thiès, Senegal",
+    "date": "2022-03-17"
+   },
+   {
+    "id": 584366106,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584366106/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584366106/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/322980262",
+    "place": "Andalucía, ES",
+    "date": "2019-07-22"
+   },
+   {
+    "id": 75880426,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/75880426/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/75880426/large.jpeg",
+    "attribution": "(c) Daniel Raposo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/47834867",
+    "place": "Beja, PT",
+    "date": "2020-05-24"
+   }
+  ],
+  "female": [
+   {
+    "id": 75880453,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/75880453/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/75880453/large.jpeg",
+    "attribution": "(c) Daniel Raposo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/47834871",
+    "place": "Beja, PT",
+    "date": "2020-05-24"
+   }
+  ],
+  "juvenile": [],
+  "hero": {
+   "id": 29402866,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/29402866/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/29402866/large.jpg",
+   "attribution": "(c) El Golli Mohamed, some rights reserved (CC BY-SA)",
+   "license": "cc-by-sa",
+   "source": "https://www.inaturalist.org/photos/29402866",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 5788860,
+  "dkTotal": 1,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 49472,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 11645
+   },
+   {
+    "code": "IL",
+    "count": 9879
+   },
+   {
+    "code": "TR",
+    "count": 3859
+   },
+   {
+    "code": "AE",
+    "count": 3567
+   },
+   {
+    "code": "MA",
+    "count": 2040
+   },
+   {
+    "code": "GR",
+    "count": 1726
+   },
+   {
+    "code": "KW",
+    "count": 1464
+   },
+   {
+    "code": "NL",
+    "count": 1458
+   },
+   {
+    "code": "KE",
+    "count": 1285
+   },
+   {
+    "code": "SA",
+    "count": 1186
+   },
+   {
+    "code": "AM",
+    "count": 1105
+   },
+   {
+    "code": "IN",
+    "count": 924
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1134777/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/1134777",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Muscicapidae",
+  "familyKey": 9322,
+  "familyDa": "Fluesnappere",
+  "order": "Passeriformes"
+ }
+}

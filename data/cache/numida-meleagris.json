@@ -146,23 +146,23 @@
    0,
    0
   ],
-  "worldTotal": 505579,
+  "worldTotal": 505675,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 358620
+    "count": 358676
    },
    {
     "code": "KE",
-    "count": 26232
+    "count": 26238
    },
    {
     "code": "NA",
-    "count": 20013
+    "count": 20018
    },
    {
     "code": "TZ",
-    "count": 15228
+    "count": 15227
    },
    {
     "code": "ZW",
@@ -170,23 +170,23 @@
    },
    {
     "code": "BW",
-    "count": 10324
+    "count": 10326
    },
    {
     "code": "UG",
-    "count": 8449
+    "count": 8458
    },
    {
     "code": "AU",
-    "count": 8181
+    "count": 8183
    },
    {
     "code": "ZM",
-    "count": 8078
+    "count": 8079
    },
    {
     "code": "US",
-    "count": 7487
+    "count": 7491
    },
    {
     "code": "SZ",
@@ -220,5 +220,6 @@
   "familyKey": 5260,
   "familyDa": "Perlehøns",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:42.361Z"
 }

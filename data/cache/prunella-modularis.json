@@ -131,66 +131,66 @@
  },
  "gbif": {
   "key": 5231763,
-  "dkTotal": 218255,
+  "dkTotal": 218388,
   "dkMonths": [
    8242,
    6573,
-   35496,
+   35513,
    56392,
-   31646,
-   16959,
-   7706,
+   31652,
+   16962,
+   7707,
    5473,
-   18512,
-   19406,
-   6504,
+   18513,
+   19415,
+   6600,
    5282
   ],
-  "worldTotal": 4264169,
+  "worldTotal": 4272414,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1089781
+    "count": 1089939
    },
    {
     "code": "FR",
-    "count": 542531
+    "count": 542616
    },
    {
     "code": "SE",
-    "count": 528609
+    "count": 530421
    },
    {
     "code": "NL",
-    "count": 501935
+    "count": 502450
    },
    {
     "code": "FI",
-    "count": 242897
+    "count": 242905
    },
    {
     "code": "DK",
-    "count": 218255
-   },
-   {
-    "code": "BE",
-    "count": 194085
+    "count": 218388
    },
    {
     "code": "DE",
-    "count": 192801
+    "count": 197931
+   },
+   {
+    "code": "BE",
+    "count": 194093
    },
    {
     "code": "NO",
-    "count": 165431
+    "count": 165609
    },
    {
     "code": "ES",
-    "count": 131740
+    "count": 131749
    },
    {
     "code": "NZ",
-    "count": 113636
+    "count": 113648
    },
    {
     "code": "CH",
@@ -220,5 +220,6 @@
   "familyKey": 5273,
   "familyDa": "Jernspurve",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:37.553Z"
 }

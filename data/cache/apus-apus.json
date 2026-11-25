@@ -121,58 +121,58 @@
  },
  "gbif": {
   "key": 5228676,
-  "dkTotal": 190453,
+  "dkTotal": 190488,
   "dkMonths": [
    1,
    0,
    9,
    461,
-   52202,
-   47674,
-   44214,
-   33923,
-   11775,
+   52219,
+   47680,
+   44219,
+   33928,
+   11777,
    124,
    22,
    2
   ],
-  "worldTotal": 3302918,
+  "worldTotal": 3305361,
   "topCountries": [
    {
     "code": "GB",
-    "count": 494126
+    "count": 494128
    },
    {
     "code": "SE",
-    "count": 479793
+    "count": 480130
    },
    {
     "code": "ES",
-    "count": 355076
+    "count": 355078
    },
    {
     "code": "FR",
-    "count": 331602
+    "count": 331610
    },
    {
     "code": "NL",
-    "count": 310260
+    "count": 310683
    },
    {
     "code": "DK",
-    "count": 190453
+    "count": 190488
    },
    {
     "code": "DE",
-    "count": 180166
+    "count": 181711
    },
    {
     "code": "NO",
-    "count": 148082
+    "count": 148108
    },
    {
     "code": "FI",
-    "count": 109055
+    "count": 109057
    },
    {
     "code": "CH",
@@ -210,5 +210,6 @@
   "familyKey": 2993,
   "familyDa": "Sejlere",
   "order": "Apodiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:27.922Z"
 }

@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2495414,
-  "dkTotal": 47977,
+  "dkTotal": 48060,
   "dkMonths": [
    5889,
    3518,
    4137,
    4394,
    4889,
-   3852,
-   4252,
-   4468,
-   4018,
-   3379,
-   2490,
+   3854,
+   4253,
+   4470,
+   4023,
+   3381,
+   2561,
    2651
   ],
-  "worldTotal": 15337194,
+  "worldTotal": 15342374,
   "topCountries": [
    {
     "code": "US",
-    "count": 6630827
+    "count": 6631194
    },
    {
     "code": "CA",
-    "count": 1599374
+    "count": 1599474
    },
    {
     "code": "IN",
-    "count": 1036237
+    "count": 1036313
    },
    {
     "code": "GB",
-    "count": 677030
+    "count": 677132
    },
    {
     "code": "ES",
-    "count": 555530
+    "count": 555611
    },
    {
     "code": "AU",
-    "count": 489746
+    "count": 489815
    },
    {
     "code": "SE",
-    "count": 355551
+    "count": 355912
    },
    {
     "code": "PT",
-    "count": 255537
+    "count": 255564
    },
    {
     "code": "FR",
-    "count": 253203
+    "count": 253249
    },
    {
     "code": "DE",
-    "count": 187981
+    "count": 190065
    },
    {
     "code": "AR",
-    "count": 151067
+    "count": 151083
    },
    {
     "code": "BR",
-    "count": 149186
+    "count": 149216
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:15.569Z"
 }

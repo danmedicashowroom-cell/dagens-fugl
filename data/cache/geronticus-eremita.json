@@ -1,0 +1,226 @@
+{
+ "key": "geronticus-eremita",
+ "name": "Geronticus eremita",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:11:56.145Z",
+ "gbifAt": "2026-11-25T22:11:56.145Z",
+ "names": {
+  "da": "Eremitibis",
+  "en": "Northern Bald Ibis",
+  "accepted": "Geronticus eremita"
+ },
+ "wikidata": {
+  "id": "Q245414"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Northern bald ibis",
+  "extract": "The northern bald ibis, hermit ibis, or Waldrapp is a migratory Old World ibis found in open areas such as grasslands, rocky mountains, and semi-deserts, often close to running water. This 70–80 cm (28–31 in) glossy black ibis, which, unlike many members of the ibis family, is non-wading, has an unfeathered red face and head, and a long, curved red bill. It breeds colonially on coastal or mountain cliff ledges, where it typically lays two to three eggs in a stick nest, and feeds on lizards, insects, and other small animals.",
+  "url": "https://en.wikipedia.org/wiki/Northern_bald_ibis"
+ },
+ "inat": {
+  "id": 3753,
+  "observations": 2214
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 126647085,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/126647085/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/126647085/large.jpg",
+    "attribution": "(c) chorthippus, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/77444129",
+    "place": "Graubünden, CH",
+    "date": "2020-10-23"
+   },
+   {
+    "id": 182985779,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/182985779/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/182985779/large.jpg",
+    "attribution": "(c) dbenvenuti, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/108656630",
+    "place": "Grosseto, Toscana, IT",
+    "date": "2022-03-11"
+   },
+   {
+    "id": 657235916,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/657235916/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/657235916/large.jpg",
+    "attribution": "(c) Daniel Rocandio, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/360189497",
+    "place": "Burgos, ES-CL, ES",
+    "date": "2026-05-10"
+   }
+  ],
+  "female": [
+   {
+    "id": 126652796,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/126652796/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/126652796/large.jpg",
+    "attribution": "(c) chorthippus, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/77444137",
+    "place": "Graubünden, CH",
+    "date": "2020-10-23"
+   },
+   {
+    "id": 126653384,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/126653384/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/126653384/large.jpg",
+    "attribution": "(c) chorthippus, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/77444139",
+    "place": "Graubünden, CH",
+    "date": "2019-06-29"
+   },
+   {
+    "id": 592905866,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/592905866/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/592905866/large.jpg",
+    "attribution": "(c) Lydia Brühwasser, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/327285362",
+    "place": "Zell am See, AT-SZ, AT",
+    "date": "2025-11-19"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 11320704,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/11320704/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/11320704/large.jpg",
+    "attribution": "(c) Paolo Zucca, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/8488415",
+    "place": "Lombardia, IT",
+    "date": "2017-10-21"
+   },
+   {
+    "id": 622998071,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/622998071/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/622998071/large.jpg",
+    "attribution": "(c) Tanja Röber, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/342143735",
+    "place": "Oberösterreich, AT",
+    "date": "2026-03-09"
+   },
+   {
+    "id": 630558047,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/630558047/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/630558047/large.jpg",
+    "attribution": "(c) Simon Plat, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/345963029",
+    "place": "Türkiye",
+    "date": "2013-05-22"
+   }
+  ],
+  "hero": {
+   "id": 330765224,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/330765224/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/330765224/large.jpg",
+   "attribution": "(c) Burak Doğansoysal, some rights reserved (CC BY-NC), uploaded by Burak Doğansoysal",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/330765224",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2480770,
+  "dkTotal": 430,
+  "dkMonths": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   424,
+   4
+  ],
+  "worldTotal": 15195,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 5862
+   },
+   {
+    "code": "MA",
+    "count": 3129
+   },
+   {
+    "code": "IT",
+    "count": 1055
+   },
+   {
+    "code": "TR",
+    "count": 1042
+   },
+   {
+    "code": "AT",
+    "count": 982
+   },
+   {
+    "code": "SE",
+    "count": 961
+   },
+   {
+    "code": "DK",
+    "count": 430
+   },
+   {
+    "code": "DE",
+    "count": 427
+   },
+   {
+    "code": "CH",
+    "count": 402
+   },
+   {
+    "code": "NL",
+    "count": 218
+   },
+   {
+    "code": "FR",
+    "count": 153
+   },
+   {
+    "code": "IL",
+    "count": 84
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/712492/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "SonoNatura",
+  "page": "https://xeno-canto.org/712492",
+  "type": "call",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Threskiornithidae",
+  "familyKey": 5288,
+  "familyDa": "Ibiser & skestorke",
+  "order": "Pelecaniformes"
+ }
+}

@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 155195,
+  "worldTotal": 155224,
   "topCountries": [
    {
     "code": "BR",
-    "count": 43390
+    "count": 43409
    },
    {
     "code": "CR",
-    "count": 36796
+    "count": 36803
    },
    {
     "code": "CO",
-    "count": 29008
+    "count": 29010
    },
    {
     "code": "VE",
@@ -178,7 +178,7 @@
    },
    {
     "code": "BO",
-    "count": 2965
+    "count": 2966
    },
    {
     "code": "MX",
@@ -186,7 +186,7 @@
    },
    {
     "code": "EC",
-    "count": 1853
+    "count": 1854
    },
    {
     "code": "PA",
@@ -220,5 +220,6 @@
   "familyKey": 5244,
   "familyDa": "Glansfugle",
   "order": "Piciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:24.152Z"
 }

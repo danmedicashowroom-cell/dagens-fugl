@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2493052,
-  "dkTotal": 233606,
+  "dkTotal": 233666,
   "dkMonths": [
    0,
    3,
    8,
-   53143,
-   89248,
-   38511,
+   53144,
+   89261,
+   38516,
    13245,
-   25118,
-   13542,
-   653,
+   25140,
+   13558,
+   656,
    24,
    4
   ],
-  "worldTotal": 5292444,
+  "worldTotal": 5303431,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1684996
+    "count": 1693491
    },
    {
     "code": "FI",
-    "count": 1121645
+    "count": 1121652
    },
    {
     "code": "NO",
-    "count": 392848
+    "count": 393219
    },
    {
     "code": "ES",
-    "count": 341593
+    "count": 341594
    },
    {
     "code": "NL",
-    "count": 336340
+    "count": 336410
    },
    {
     "code": "GB",
-    "count": 332578
+    "count": 332588
    },
    {
     "code": "DK",
-    "count": 233606
+    "count": 233666
    },
    {
     "code": "FR",
-    "count": 180864
+    "count": 180872
    },
    {
     "code": "DE",
-    "count": 83967
+    "count": 85846
    },
    {
     "code": "BE",
-    "count": 71425
+    "count": 71427
    },
    {
     "code": "PL",
-    "count": 62625
+    "count": 62632
    },
    {
     "code": "ZA",
-    "count": 51997
+    "count": 51998
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:01.390Z"
 }

@@ -115,31 +115,31 @@
    1,
    0
   ],
-  "worldTotal": 83593,
+  "worldTotal": 83617,
   "topCountries": [
    {
     "code": "US",
-    "count": 29110
+    "count": 29115
    },
    {
     "code": "IN",
-    "count": 19549
+    "count": 19552
    },
    {
     "code": "CN",
-    "count": 8811
+    "count": 8818
    },
    {
     "code": "ES",
-    "count": 8376
+    "count": 8377
    },
    {
     "code": "FR",
-    "count": 5574
+    "count": 5579
    },
    {
     "code": "JP",
-    "count": 4565
+    "count": 4568
    },
    {
     "code": "IT",
@@ -176,5 +176,6 @@
   "familyKey": 6101112,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:19.046Z"
 }

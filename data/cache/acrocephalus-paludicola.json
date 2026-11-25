@@ -85,7 +85,7 @@
    0,
    0
   ],
-  "worldTotal": 22072,
+  "worldTotal": 22073,
   "topCountries": [
    {
     "code": "FR",
@@ -101,7 +101,7 @@
    },
    {
     "code": "NL",
-    "count": 3191
+    "count": 3192
    },
    {
     "code": "BE",
@@ -159,5 +159,6 @@
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:13.119Z"
 }

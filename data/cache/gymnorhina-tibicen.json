@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 3029788,
+  "worldTotal": 3030163,
   "topCountries": [
    {
     "code": "AU",
-    "count": 2890079
+    "count": 2890437
    },
    {
     "code": "NZ",
-    "count": 138705
+    "count": 138724
    },
    {
     "code": "FJ",
@@ -220,5 +220,6 @@
   "familyKey": 9308,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:42.763Z"
 }

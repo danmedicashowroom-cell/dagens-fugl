@@ -131,38 +131,38 @@
  },
  "gbif": {
   "key": 5231918,
-  "dkTotal": 169465,
+  "dkTotal": 169479,
   "dkMonths": [
    1,
    0,
    5,
    2642,
-   95734,
-   54846,
+   95740,
+   54849,
    11958,
-   4035,
-   128,
+   4038,
+   130,
    41,
    3,
    1
   ],
-  "worldTotal": 2255422,
+  "worldTotal": 2256816,
   "topCountries": [
    {
     "code": "SE",
-    "count": 376905
+    "count": 376957
    },
    {
     "code": "NL",
-    "count": 315918
+    "count": 316215
    },
    {
     "code": "FR",
-    "count": 306585
+    "count": 306588
    },
    {
     "code": "DK",
-    "count": 169465
+    "count": 169479
    },
    {
     "code": "CH",
@@ -170,11 +170,11 @@
    },
    {
     "code": "GB",
-    "count": 126232
+    "count": 126235
    },
    {
     "code": "DE",
-    "count": 116499
+    "count": 117153
    },
    {
     "code": "ES",
@@ -182,19 +182,19 @@
    },
    {
     "code": "FI",
-    "count": 89145
-   },
-   {
-    "code": "BE",
-    "count": 80308
+    "count": 89152
    },
    {
     "code": "NO",
-    "count": 80122
+    "count": 80362
+   },
+   {
+    "code": "BE",
+    "count": 80309
    },
    {
     "code": "RU",
-    "count": 31010
+    "count": 31022
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9309,
   "familyDa": "Gøge",
   "order": "Cuculiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:18.519Z"
 }

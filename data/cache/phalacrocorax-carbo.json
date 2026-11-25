@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2481890,
-  "dkTotal": 586084,
+  "dkTotal": 586736,
   "dkMonths": [
-   55454,
-   42787,
-   58449,
-   59036,
-   46664,
-   31971,
-   43162,
-   59071,
-   57966,
-   56862,
-   39019,
-   35391
+   55460,
+   42792,
+   58458,
+   59039,
+   46668,
+   31974,
+   43170,
+   59080,
+   57974,
+   56883,
+   39593,
+   35393
   ],
-  "worldTotal": 7016308,
+  "worldTotal": 7021783,
   "topCountries": [
    {
     "code": "GB",
-    "count": 863679
+    "count": 863768
    },
    {
     "code": "SE",
-    "count": 837542
+    "count": 838226
    },
    {
     "code": "NL",
-    "count": 761478
+    "count": 762789
    },
    {
     "code": "DK",
-    "count": 586084
+    "count": 586736
    },
    {
     "code": "FR",
-    "count": 480958
+    "count": 481130
    },
    {
     "code": "NO",
-    "count": 470436
+    "count": 470888
    },
    {
     "code": "ES",
-    "count": 403066
+    "count": 403197
    },
    {
     "code": "AU",
-    "count": 390340
+    "count": 390415
    },
    {
     "code": "DE",
-    "count": 299035
+    "count": 300341
    },
    {
     "code": "BE",
-    "count": 280281
+    "count": 280291
    },
    {
     "code": "IN",
-    "count": 145931
+    "count": 145947
    },
    {
     "code": "US",
-    "count": 138056
+    "count": 138062
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5268,
   "familyDa": "Skarver",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:55.562Z"
 }

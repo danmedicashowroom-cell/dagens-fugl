@@ -115,19 +115,19 @@
    4,
    0
   ],
-  "worldTotal": 223230,
+  "worldTotal": 223331,
   "topCountries": [
    {
     "code": "FR",
-    "count": 77959
+    "count": 77961
    },
    {
     "code": "ES",
-    "count": 69996
+    "count": 70027
    },
    {
     "code": "IL",
-    "count": 26350
+    "count": 26402
    },
    {
     "code": "GB",
@@ -135,7 +135,7 @@
    },
    {
     "code": "PT",
-    "count": 9324
+    "count": 9335
    },
    {
     "code": "NL",
@@ -147,15 +147,15 @@
    },
    {
     "code": "MA",
-    "count": 3254
+    "count": 3255
    },
    {
     "code": "IT",
-    "count": 2998
+    "count": 2999
    },
    {
     "code": "SE",
-    "count": 2864
+    "count": 2865
    },
    {
     "code": "CY",
@@ -189,5 +189,6 @@
   "familyKey": 9697,
   "familyDa": "Trieler",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:26.193Z"
 }

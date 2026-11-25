@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 231763,
+  "worldTotal": 231982,
   "topCountries": [
    {
     "code": "AU",
-    "count": 231306
+    "count": 231525
    },
    {
     "code": "US",
@@ -220,5 +220,6 @@
   "familyKey": 9337,
   "familyDa": "Frømunde",
   "order": "Caprimulgiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:42.242Z"
 }

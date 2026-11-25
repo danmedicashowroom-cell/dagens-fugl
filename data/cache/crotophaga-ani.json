@@ -146,27 +146,27 @@
    0,
    0
   ],
-  "worldTotal": 573785,
+  "worldTotal": 573850,
   "topCountries": [
    {
     "code": "CO",
-    "count": 146866
+    "count": 146874
    },
    {
     "code": "BR",
-    "count": 137953
+    "count": 137985
    },
    {
     "code": "EC",
-    "count": 46870
+    "count": 46877
    },
    {
     "code": "PA",
-    "count": 26371
+    "count": 26373
    },
    {
     "code": "PR",
-    "count": 26143
+    "count": 26146
    },
    {
     "code": "PE",
@@ -182,11 +182,11 @@
    },
    {
     "code": "AR",
-    "count": 18099
+    "count": 18101
    },
    {
     "code": "CR",
-    "count": 14889
+    "count": 14891
    },
    {
     "code": "BS",
@@ -220,5 +220,6 @@
   "familyKey": 9309,
   "familyDa": "Gøge",
   "order": "Cuculiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:19.876Z"
 }

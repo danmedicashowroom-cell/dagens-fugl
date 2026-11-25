@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 9409796,
-  "dkTotal": 102482,
+  "dkTotal": 102723,
   "dkMonths": [
    9116,
-   7911,
-   12124,
+   7912,
+   12125,
    14752,
    12455,
    5958,
-   5714,
-   5515,
-   7007,
-   10895,
-   5859,
-   5070
+   5715,
+   5521,
+   7012,
+   10902,
+   6074,
+   5075
   ],
-  "worldTotal": 6453984,
+  "worldTotal": 6461027,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1783770
+    "count": 1784099
    },
    {
     "code": "FR",
-    "count": 1210791
+    "count": 1210917
    },
    {
     "code": "NL",
-    "count": 1038554
+    "count": 1040248
    },
    {
     "code": "DE",
-    "count": 692884
+    "count": 695943
    },
    {
     "code": "ES",
-    "count": 408310
+    "count": 408383
    },
    {
     "code": "BE",
-    "count": 310321
+    "count": 310328
    },
    {
     "code": "CH",
-    "count": 272082
+    "count": 272100
    },
    {
     "code": "PT",
-    "count": 170151
+    "count": 170165
    },
    {
     "code": "JP",
-    "count": 114152
+    "count": 114185
    },
    {
     "code": "DK",
-    "count": 102482
+    "count": 102723
    },
    {
     "code": "AT",
-    "count": 63842
+    "count": 64030
    },
    {
     "code": "FI",
-    "count": 57908
+    "count": 57917
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:44.000Z"
 }

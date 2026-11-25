@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 107989,
+  "worldTotal": 108026,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 103056
+    "count": 103093
    },
    {
     "code": "KE",
@@ -220,5 +220,6 @@
   "familyKey": 5259,
   "familyDa": "Solfugle",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:53.960Z"
 }

@@ -131,42 +131,42 @@
  },
  "gbif": {
   "key": 2493367,
-  "dkTotal": 81060,
+  "dkTotal": 81150,
   "dkMonths": [
    4449,
    2748,
    4695,
-   9512,
+   9513,
    8520,
    6694,
-   7829,
+   7831,
    6720,
-   6478,
-   13171,
-   6634,
-   3597
+   6480,
+   13173,
+   6716,
+   3598
   ],
-  "worldTotal": 589056,
+  "worldTotal": 589413,
   "topCountries": [
    {
     "code": "SE",
-    "count": 166402
+    "count": 166509
    },
    {
     "code": "NL",
-    "count": 143080
+    "count": 143194
    },
    {
     "code": "DK",
-    "count": 81060
+    "count": 81150
    },
    {
     "code": "GB",
-    "count": 43292
+    "count": 43298
    },
    {
     "code": "FR",
-    "count": 27278
+    "count": 27280
    },
    {
     "code": "PL",
@@ -174,7 +174,7 @@
    },
    {
     "code": "ES",
-    "count": 17875
+    "count": 17876
    },
    {
     "code": "FI",
@@ -186,11 +186,11 @@
    },
    {
     "code": "DE",
-    "count": 12129
+    "count": 12135
    },
    {
     "code": "NO",
-    "count": 10272
+    "count": 10276
    },
    {
     "code": "CH",
@@ -220,5 +220,6 @@
   "familyKey": 6100802,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:54.899Z"
 }

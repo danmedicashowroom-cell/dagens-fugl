@@ -111,13 +111,13 @@
  },
  "gbif": {
   "key": 2493136,
-  "dkTotal": 82175,
+  "dkTotal": 82177,
   "dkMonths": [
    0,
    0,
    0,
    3,
-   26241,
+   26243,
    43965,
    9046,
    2619,
@@ -126,15 +126,15 @@
    3,
    3
   ],
-  "worldTotal": 706664,
+  "worldTotal": 710861,
   "topCountries": [
    {
     "code": "SE",
-    "count": 236650
+    "count": 237143
    },
    {
     "code": "DK",
-    "count": 82175
+    "count": 82177
    },
    {
     "code": "BE",
@@ -142,7 +142,7 @@
    },
    {
     "code": "NL",
-    "count": 47303
+    "count": 47333
    },
    {
     "code": "CH",
@@ -150,23 +150,23 @@
    },
    {
     "code": "NO",
-    "count": 40281
-   },
-   {
-    "code": "FR",
-    "count": 30876
+    "count": 40282
    },
    {
     "code": "DE",
-    "count": 29130
+    "count": 32763
+   },
+   {
+    "code": "FR",
+    "count": 30877
    },
    {
     "code": "LU",
-    "count": 28257
+    "count": 28269
    },
    {
     "code": "PL",
-    "count": 23126
+    "count": 23127
    },
    {
     "code": "FI",
@@ -174,7 +174,7 @@
    },
    {
     "code": "RU",
-    "count": 11819
+    "count": 11829
    }
   ]
  },
@@ -200,5 +200,6 @@
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:15.599Z"
 }

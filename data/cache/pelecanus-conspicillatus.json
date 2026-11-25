@@ -136,11 +136,11 @@
    0,
    0
   ],
-  "worldTotal": 703058,
+  "worldTotal": 703174,
   "topCountries": [
    {
     "code": "AU",
-    "count": 702023
+    "count": 702140
    },
    {
     "code": "TL",
@@ -148,7 +148,7 @@
    },
    {
     "code": "ID",
-    "count": 273
+    "count": 272
    },
    {
     "code": "BE",
@@ -210,5 +210,6 @@
   "familyKey": 9329,
   "familyDa": "Pelikaner",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:41.638Z"
 }

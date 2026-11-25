@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 6249,
+  "worldTotal": 6251,
   "topCountries": [
    {
     "code": "BR",
-    "count": 1680
+    "count": 1681
    },
    {
     "code": "PA",
-    "count": 1370
+    "count": 1371
    },
    {
     "code": "EC",
-    "count": 802
+    "count": 803
    },
    {
     "code": "PE",
@@ -166,7 +166,7 @@
    },
    {
     "code": "CO",
-    "count": 502
+    "count": 501
    },
    {
     "code": "GY",
@@ -220,5 +220,6 @@
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:06.484Z"
 }

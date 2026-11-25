@@ -95,11 +95,11 @@
    0,
    0
   ],
-  "worldTotal": 5687,
+  "worldTotal": 5701,
   "topCountries": [
    {
     "code": "FK",
-    "count": 3239
+    "count": 3241
    },
    {
     "code": "AR",
@@ -115,7 +115,7 @@
    },
    {
     "code": "AU",
-    "count": 219
+    "count": 231
    },
    {
     "code": "NZ",
@@ -169,5 +169,6 @@
   "familyKey": 5284,
   "familyDa": "Pingvin",
   "order": "Sphenisciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:50.395Z"
 }

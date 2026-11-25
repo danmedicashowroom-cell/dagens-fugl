@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2477968,
-  "dkTotal": 365373,
+  "dkTotal": 365977,
   "dkMonths": [
    36609,
-   35017,
-   48260,
-   44423,
-   34977,
-   29403,
-   19607,
-   22725,
-   23271,
-   27521,
-   22015,
+   35018,
+   48262,
+   44428,
+   34985,
+   29410,
+   19612,
+   22733,
+   23276,
+   27529,
+   22570,
    21478
   ],
-  "worldTotal": 5777228,
+  "worldTotal": 5783988,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1089350
+    "count": 1090522
    },
    {
     "code": "NL",
-    "count": 804099
+    "count": 805701
    },
    {
     "code": "FR",
-    "count": 570468
+    "count": 570527
    },
    {
     "code": "DE",
-    "count": 521935
+    "count": 524141
    },
    {
     "code": "GB",
-    "count": 506587
+    "count": 506639
    },
    {
     "code": "DK",
-    "count": 365373
+    "count": 365977
    },
    {
     "code": "NO",
-    "count": 337452
+    "count": 337804
    },
    {
     "code": "FI",
-    "count": 299936
+    "count": 299957
    },
    {
     "code": "ES",
-    "count": 200952
+    "count": 200975
    },
    {
     "code": "BE",
-    "count": 195294
+    "count": 195298
    },
    {
     "code": "CH",
-    "count": 143209
+    "count": 143219
    },
    {
     "code": "RU",
-    "count": 119125
+    "count": 119568
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9333,
   "familyDa": "Spætter",
   "order": "Piciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:35.400Z"
 }

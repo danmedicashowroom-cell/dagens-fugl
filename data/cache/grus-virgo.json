@@ -111,19 +111,19 @@
    0,
    0
   ],
-  "worldTotal": 23051,
+  "worldTotal": 23065,
   "topCountries": [
    {
     "code": "IN",
-    "count": 7317
+    "count": 7318
    },
    {
     "code": "MN",
-    "count": 4590
+    "count": 4592
    },
    {
     "code": "RU",
-    "count": 2863
+    "count": 2868
    },
    {
     "code": "KZ",
@@ -139,11 +139,11 @@
    },
    {
     "code": "SE",
-    "count": 752
+    "count": 753
    },
    {
     "code": "CN",
-    "count": 532
+    "count": 534
    },
    {
     "code": "TR",
@@ -155,7 +155,7 @@
    },
    {
     "code": "BE",
-    "count": 219
+    "count": 221
    },
    {
     "code": "GE",
@@ -185,5 +185,6 @@
   "familyKey": 9313,
   "familyDa": "Traner",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:05.659Z"
 }

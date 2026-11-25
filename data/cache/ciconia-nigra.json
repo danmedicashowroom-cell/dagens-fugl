@@ -121,42 +121,42 @@
  },
  "gbif": {
   "key": 2481909,
-  "dkTotal": 2496,
+  "dkTotal": 2500,
   "dkMonths": [
    1,
    0,
    3,
    186,
    439,
-   407,
-   376,
+   408,
+   379,
    899,
    167,
    2,
    0,
    1
   ],
-  "worldTotal": 412410,
+  "worldTotal": 412493,
   "topCountries": [
    {
     "code": "FR",
-    "count": 49424
+    "count": 49427
    },
    {
     "code": "ES",
-    "count": 42334
+    "count": 42342
    },
    {
     "code": "IL",
-    "count": 29070
+    "count": 29071
    },
    {
     "code": "NL",
-    "count": 26759
+    "count": 26768
    },
    {
     "code": "TR",
-    "count": 21174
+    "count": 21175
    },
    {
     "code": "SA",
@@ -168,11 +168,11 @@
    },
    {
     "code": "DE",
-    "count": 13894
+    "count": 13898
    },
    {
     "code": "ZA",
-    "count": 12239
+    "count": 12248
    },
    {
     "code": "PL",
@@ -180,7 +180,7 @@
    },
    {
     "code": "IN",
-    "count": 11026
+    "count": 11029
    },
    {
     "code": "ET",
@@ -210,5 +210,6 @@
   "familyKey": 9289,
   "familyDa": "Storke",
   "order": "Ciconiiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:02.444Z"
 }

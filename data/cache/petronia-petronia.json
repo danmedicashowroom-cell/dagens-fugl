@@ -1,0 +1,226 @@
+{
+ "key": "petronia-petronia",
+ "name": "Petronia petronia",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:15:45.596Z",
+ "gbifAt": "2026-11-25T22:15:45.596Z",
+ "names": {
+  "da": "Stenspurv",
+  "en": "Rock Sparrow",
+  "accepted": "Petronia petronia"
+ },
+ "wikidata": {
+  "id": "Q736313"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Rock sparrow",
+  "extract": "The rock sparrow or rock petronia is a small passerine bird in the sparrow family Passeridae. It is the only species in the genus Petronia. It breeds on barren rocky hills from Madeira and the Canary Islands east through the Iberian Peninsula and western north Africa, across southern Europe and through southwestern and central Asia to Mongolia and the north and west of China. It is resident in the west of its range, but some Asian birds may migrate to more southerly areas, or move to lower altitudes in mountains, in winter.",
+  "url": "https://en.wikipedia.org/wiki/Rock_sparrow"
+ },
+ "inat": {
+  "id": 14076,
+  "observations": 4582
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 469566809,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/469566809/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/469566809/large.jpeg",
+    "attribution": "(c) Sylvain G, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/261378227",
+    "place": "05150 Rosans, France",
+    "date": "2022-06-23"
+   },
+   {
+    "id": 197820644,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/197820644/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/197820644/large.jpg",
+    "attribution": "(c) Irina Krug, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/117153409",
+    "place": "Кош-Агачский р-н, Респ. Алтай, Россия",
+    "date": "2022-05-02"
+   },
+   {
+    "id": 383109382,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/383109382/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/383109382/large.jpeg",
+    "attribution": "(c) Maxime Fousse, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/216622682",
+    "place": "11120 Argeliers, France",
+    "date": "2024-05-09"
+   }
+  ],
+  "female": [
+   {
+    "id": 537748015,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/537748015/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/537748015/large.jpg",
+    "attribution": "(c) Gianluca Congi🪶🦆🌲, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "source": "https://www.inaturalist.org/observations/298532900",
+    "place": "Parco nazionale della Sila",
+    "date": "2025-07-15"
+   },
+   {
+    "id": 125229517,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/125229517/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/125229517/large.jpg",
+    "attribution": "(c) Cristina, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/76560308",
+    "place": "28693 Quijorna, Madrid, España",
+    "date": "2021-05-02"
+   },
+   {
+    "id": 385791285,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/385791285/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/385791285/large.jpeg",
+    "attribution": "(c) Анна, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/218036986",
+    "place": "Кумторкалинский р-н, Респ. Дагестан, Россия",
+    "date": "2024-05-19"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 5629429,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5629429/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5629429/large.jpeg",
+    "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/4651152",
+    "place": "Kyrgyzstan - Naryn",
+    "date": "2015-07-11"
+   },
+   {
+    "id": 564893189,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/564893189/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/564893189/large.jpg",
+    "attribution": "(c) darklighter, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/312847008",
+    "place": "中国青海省海西蒙古族藏族自治州都兰县",
+    "date": "2025-07-14"
+   },
+   {
+    "id": 612990274,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/612990274/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/612990274/large.jpg",
+    "attribution": "(c) Elena Shnayder, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/337237532",
+    "place": "Тес-Хемский р-н, Респу́блика Тыва́, Россия",
+    "date": "2021-07-03"
+   }
+  ],
+  "hero": {
+   "id": 7408820,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/7408820/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/7408820/large.jpeg",
+   "attribution": "(c) Ani Sarkisyan, some rights reserved (CC BY), uploaded by Ani Sarkisyan",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/7408820",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2492350,
+  "dkTotal": 3,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 184167,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 124916
+   },
+   {
+    "code": "FR",
+    "count": 20129
+   },
+   {
+    "code": "PT",
+    "count": 13007
+   },
+   {
+    "code": "TR",
+    "count": 6605
+   },
+   {
+    "code": "MA",
+    "count": 2940
+   },
+   {
+    "code": "MN",
+    "count": 2107
+   },
+   {
+    "code": "AM",
+    "count": 1656
+   },
+   {
+    "code": "GE",
+    "count": 1638
+   },
+   {
+    "code": "IL",
+    "count": 1586
+   },
+   {
+    "code": "IR",
+    "count": 1517
+   },
+   {
+    "code": "CN",
+    "count": 1375
+   },
+   {
+    "code": "GR",
+    "count": 1272
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1142550/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "artist": "Philippe_Grange",
+  "page": "https://xeno-canto.org/1142550",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Passeridae",
+  "familyKey": 5264,
+  "familyDa": "Spurve",
+  "order": "Passeriformes"
+ }
+}

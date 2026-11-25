@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 5228199,
-  "dkTotal": 169837,
+  "dkTotal": 169988,
   "dkMonths": [
-   14131,
-   10691,
-   13713,
-   23970,
-   19766,
+   14132,
+   10692,
+   13716,
+   23972,
+   19767,
    13939,
-   13557,
-   17003,
-   14020,
-   12060,
-   8610,
+   13561,
+   17008,
+   14022,
+   12063,
+   8739,
    8312
   ],
-  "worldTotal": 6157414,
+  "worldTotal": 6161121,
   "topCountries": [
    {
     "code": "US",
-    "count": 1317593
+    "count": 1317744
    },
    {
     "code": "GB",
-    "count": 904477
+    "count": 904612
    },
    {
     "code": "NL",
-    "count": 623787
+    "count": 624911
    },
    {
     "code": "ES",
-    "count": 353916
+    "count": 354005
    },
    {
     "code": "FR",
-    "count": 353832
+    "count": 353927
    },
    {
     "code": "SE",
-    "count": 256285
+    "count": 256385
    },
    {
     "code": "TW",
-    "count": 245170
+    "count": 245205
    },
    {
     "code": "BE",
-    "count": 230471
+    "count": 230479
    },
    {
     "code": "ZA",
-    "count": 177985
+    "count": 177998
    },
    {
     "code": "DK",
-    "count": 169837
+    "count": 169988
    },
    {
     "code": "IN",
-    "count": 164883
+    "count": 164903
    },
    {
     "code": "DE",
-    "count": 148480
+    "count": 149834
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:22.975Z"
 }

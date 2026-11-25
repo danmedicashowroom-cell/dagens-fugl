@@ -75,19 +75,19 @@
    0,
    0
   ],
-  "worldTotal": 6423,
+  "worldTotal": 6430,
   "topCountries": [
    {
     "code": "TH",
-    "count": 3022
+    "count": 3021
    },
    {
     "code": "CN",
-    "count": 1439
+    "count": 1446
    },
    {
     "code": "TW",
-    "count": 637
+    "count": 638
    },
    {
     "code": "KR",
@@ -149,5 +149,6 @@
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:14.788Z"
 }

@@ -1,0 +1,196 @@
+{
+ "key": "alectoris-graeca",
+ "name": "Alectoris graeca",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:15:37.962Z",
+ "gbifAt": "2026-11-25T22:15:37.962Z",
+ "names": {
+  "da": "Stenhøne",
+  "en": "Rock Partridge",
+  "accepted": "Alectoris graeca"
+ },
+ "wikidata": {
+  "id": "Q492684"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Rock partridge",
+  "extract": "The rock partridge or common rock partridge is a gamebird in the pheasant family, Phasianidae, of the order Galliformes. It is native to southern Europe, and is closely related and very similar to its eastern equivalent, the chukar partridge, A. chukar.",
+  "url": "https://en.wikipedia.org/wiki/Rock_partridge"
+ },
+ "inat": {
+  "id": 863,
+  "observations": 2299
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 522167433,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/522167433/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/522167433/large.jpg",
+    "attribution": "(c) Mathieu Pélissié, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/290273189",
+    "place": "Italy",
+    "date": "2025-06-15"
+   },
+   {
+    "id": 534751181,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/534751181/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/534751181/large.jpg",
+    "attribution": "(c) inaturaphil, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/296950430",
+    "place": "73140 Saint-Martin-de-la-Porte, France",
+    "date": "2025-07-10"
+   }
+  ],
+  "female": [
+   {
+    "id": 307829297,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/307829297/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/307829297/large.jpeg",
+    "attribution": "(c) Tobias Gratzer, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/177032439",
+    "place": "Kärnten, AT",
+    "date": "2023-07-29"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 558591932,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/558591932/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/558591932/large.jpg",
+    "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/309550749",
+    "place": "Piemonte, CH",
+    "date": "2025-08-26"
+   },
+   {
+    "id": 558551567,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/558551567/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/558551567/large.jpg",
+    "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/309533780",
+    "place": "Piemonte, CH",
+    "date": "2025-08-25"
+   },
+   {
+    "id": 558551677,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/558551677/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/558551677/large.jpg",
+    "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/309533781",
+    "place": "Piemonte, CH",
+    "date": "2025-08-25"
+   }
+  ],
+  "hero": {
+   "id": 307003540,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/307003540/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/307003540/large.jpeg",
+   "attribution": "(c) dimitriskokkinidis, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/307003540",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2474055,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 36970,
+  "topCountries": [
+   {
+    "code": "FR",
+    "count": 18788
+   },
+   {
+    "code": "CH",
+    "count": 11688
+   },
+   {
+    "code": "IT",
+    "count": 1785
+   },
+   {
+    "code": "HR",
+    "count": 1669
+   },
+   {
+    "code": "GR",
+    "count": 902
+   },
+   {
+    "code": "AT",
+    "count": 355
+   },
+   {
+    "code": "BG",
+    "count": 293
+   },
+   {
+    "code": "MK",
+    "count": 172
+   },
+   {
+    "code": "ME",
+    "count": 138
+   },
+   {
+    "code": "BA",
+    "count": 101
+   },
+   {
+    "code": "AL",
+    "count": 94
+   },
+   {
+    "code": "IN",
+    "count": 79
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1009260/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Frantz Barrault",
+  "page": "https://xeno-canto.org/1009260",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Phasianidae",
+  "familyKey": 9331,
+  "familyDa": "Fasanfugle",
+  "order": "Galliformes"
+ }
+}

@@ -146,39 +146,39 @@
    0,
    0
   ],
-  "worldTotal": 1260909,
+  "worldTotal": 1261156,
   "topCountries": [
    {
     "code": "IN",
-    "count": 917500
+    "count": 917603
    },
    {
     "code": "IL",
-    "count": 84227
+    "count": 84248
    },
    {
     "code": "LK",
-    "count": 52094
+    "count": 52122
    },
    {
     "code": "TH",
-    "count": 51962
+    "count": 51990
    },
    {
     "code": "SG",
-    "count": 25437
+    "count": 25461
    },
    {
     "code": "NP",
-    "count": 23380
+    "count": 23389
    },
    {
     "code": "MY",
-    "count": 23017
+    "count": 23029
    },
    {
     "code": "HK",
-    "count": 13473
+    "count": 13480
    },
    {
     "code": "TW",
@@ -186,15 +186,15 @@
    },
    {
     "code": "BD",
-    "count": 11085
+    "count": 11086
    },
    {
     "code": "CN",
-    "count": 7978
+    "count": 7985
    },
    {
     "code": "VN",
-    "count": 7184
+    "count": 7185
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 2984,
   "familyDa": "Isfugle",
   "order": "Coraciiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:07.098Z"
 }

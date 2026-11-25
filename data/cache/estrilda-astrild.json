@@ -1,0 +1,226 @@
+{
+ "key": "estrilda-astrild",
+ "name": "Estrilda astrild",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:12:06.966Z",
+ "gbifAt": "2026-11-25T22:12:06.966Z",
+ "names": {
+  "da": "Helenaastrild",
+  "en": "Common Waxbill",
+  "accepted": "Estrilda astrild"
+ },
+ "wikidata": {
+  "id": "Q583220"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Common waxbill",
+  "extract": "The common waxbill, also known as the St Helena waxbill, is a small passerine bird belonging to the estrildid finch family. It is native to sub-Saharan Africa but has been introduced to many other regions of the world and now has an estimated global extent of occurrence of 10,000,000 km2. It is popular and easy to keep in captivity.",
+  "url": "https://en.wikipedia.org/wiki/Common_waxbill"
+ },
+ "inat": {
+  "id": 13770,
+  "observations": 14485
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 510065429,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/510065429/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/510065429/large.jpg",
+    "attribution": "(c) carles llurda rovira, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/283846383",
+    "place": "08470 Sant Celoni, Barcelona, Espanya",
+    "date": "2025-05-24"
+   },
+   {
+    "id": 102108775,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102108775/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102108775/large.jpg",
+    "attribution": "(c) Leo Pires, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/63606497",
+    "place": "Olaria, Lorena - SP, Brasil",
+    "date": "2014-11-18"
+   },
+   {
+    "id": 731343424,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/731343424/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/731343424/large.jpg",
+    "attribution": "(c) Gerhard Lemmer, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/398660740",
+    "place": "Cotswold, Gqeberha, South Africa",
+    "date": "2026-09-02"
+   }
+  ],
+  "female": [
+   {
+    "id": 170317454,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/170317454/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/170317454/large.jpg",
+    "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/101943363",
+    "place": "Cádiz, Spain",
+    "date": "2021-11-12"
+   },
+   {
+    "id": 731343993,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/731343993/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/731343993/large.jpg",
+    "attribution": "(c) Gerhard Lemmer, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/398661014",
+    "place": "Cotswold, Gqeberha, South Africa",
+    "date": "2026-09-02"
+   },
+   {
+    "id": 22200953,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/22200953/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/22200953/large.jpg",
+    "attribution": "(c) Mathias D'haen, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/14872905",
+    "place": "Nagero, Democratic Republic of the Congo",
+    "date": "2018-07-29"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 448213132,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/448213132/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/448213132/large.jpg",
+    "attribution": "(c) Diego González Dopico, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/250595987",
+    "place": "Campo de la Verdad-Miraflores, Sur, Córdoba, España",
+    "date": "2024-11-05"
+   },
+   {
+    "id": 280608395,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/280608395/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/280608395/large.jpeg",
+    "attribution": "(c) Raquel Ribeiro, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/162291897",
+    "place": "Vila do Conde, Portugal",
+    "date": "2023-05-18"
+   },
+   {
+    "id": 522536378,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/522536378/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/522536378/large.jpg",
+    "attribution": "(c) Wagner Henrique, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/290466669",
+    "place": "Campos Eliseos, Duque de Caxias - RJ, 25223, Brasil",
+    "date": "2025-06-17"
+   }
+  ],
+  "hero": {
+   "id": 397446858,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/397446858/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/397446858/large.jpg",
+   "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC), uploaded by David Barros Cardona",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/397446858",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2493660,
+  "dkTotal": 3,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 536422,
+  "topCountries": [
+   {
+    "code": "ZA",
+    "count": 198477
+   },
+   {
+    "code": "PT",
+    "count": 100428
+   },
+   {
+    "code": "ES",
+    "count": 76325
+   },
+   {
+    "code": "US",
+    "count": 49108
+   },
+   {
+    "code": "BR",
+    "count": 48031
+   },
+   {
+    "code": "KE",
+    "count": 12282
+   },
+   {
+    "code": "NA",
+    "count": 7100
+   },
+   {
+    "code": "ZW",
+    "count": 6603
+   },
+   {
+    "code": "TZ",
+    "count": 3015
+   },
+   {
+    "code": "SZ",
+    "count": 2886
+   },
+   {
+    "code": "UG",
+    "count": 2802
+   },
+   {
+    "code": "RE",
+    "count": 2714
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/840650/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Paulo Alves",
+  "page": "https://xeno-canto.org/840650",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Estrildidae",
+  "familyKey": 5709,
+  "familyDa": null,
+  "order": "Passeriformes"
+ }
+}

@@ -131,7 +131,7 @@
  },
  "gbif": {
   "key": 2481748,
-  "dkTotal": 74659,
+  "dkTotal": 74735,
   "dkMonths": [
    4609,
    4035,
@@ -140,61 +140,61 @@
    5703,
    1080,
    6900,
-   15016,
-   12421,
-   9048,
-   4784,
-   3250
+   15020,
+   12425,
+   9053,
+   4846,
+   3251
   ],
-  "worldTotal": 1938325,
+  "worldTotal": 1939504,
   "topCountries": [
    {
     "code": "US",
-    "count": 1120169
+    "count": 1120330
    },
    {
     "code": "CA",
-    "count": 118876
+    "count": 118883
    },
    {
     "code": "GB",
-    "count": 78583
+    "count": 78591
    },
    {
     "code": "DK",
-    "count": 74659
+    "count": 74735
    },
    {
     "code": "ES",
-    "count": 67751
+    "count": 67791
    },
    {
     "code": "NL",
-    "count": 65909
+    "count": 66308
    },
    {
     "code": "SE",
-    "count": 61056
+    "count": 61148
    },
    {
     "code": "PT",
-    "count": 48056
+    "count": 48074
    },
    {
     "code": "FR",
-    "count": 35553
+    "count": 35569
    },
    {
     "code": "NO",
-    "count": 27697
+    "count": 27699
    },
    {
     "code": "MX",
-    "count": 23607
+    "count": 23622
    },
    {
     "code": "AU",
-    "count": 17127
+    "count": 17128
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:29.724Z"
 }

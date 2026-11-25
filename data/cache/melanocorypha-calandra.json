@@ -1,0 +1,195 @@
+{
+ "key": "melanocorypha-calandra",
+ "name": "Melanocorypha calandra",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:12:34.194Z",
+ "gbifAt": "2026-11-25T22:12:34.194Z",
+ "names": {
+  "da": "Kalanderlærke",
+  "en": "Calandra Lark",
+  "accepted": "Melanocorypha calandra"
+ },
+ "wikidata": {
+  "id": "Q470853"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Calandra lark",
+  "extract": "The calandra lark or European calandra-lark breeds in warm temperate countries around the Mediterranean and eastwards through Turkey into northern Iran and southern Russia. It is replaced further east by its relative, the bimaculated lark.",
+  "url": "https://en.wikipedia.org/wiki/Calandra_lark"
+ },
+ "inat": {
+  "id": 7367,
+  "observations": 3530
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 184154727,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/184154727/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/184154727/large.jpg",
+    "attribution": "(c) Марина Горбунова-Ëлкина, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/109281787",
+    "place": "Chornomors'kyi, UA-KR, UA",
+    "date": "2021-05-06"
+   },
+   {
+    "id": 595002695,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/595002695/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/595002695/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/328365471",
+    "place": "Cádiz, España",
+    "date": "2019-05-29"
+   },
+   {
+    "id": 204079380,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/204079380/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/204079380/large.jpeg",
+    "attribution": "(c) Анна Мостовая, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/120647366",
+    "place": "Светлоярский р-н, Волгоградская обл., Россия",
+    "date": "2022-05-30"
+   }
+  ],
+  "female": [],
+  "juvenile": [
+   {
+    "id": 516151431,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/516151431/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/516151431/large.jpg",
+    "attribution": "(c) Kudaibergen Amirekul, some rights reserved (CC BY-SA)",
+    "license": "cc-by-sa",
+    "source": "https://www.inaturalist.org/observations/287075550",
+    "place": "Мойынқұм ауданы, Қазақстан",
+    "date": "2025-05-08"
+   },
+   {
+    "id": 399901905,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/399901905/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/399901905/large.jpeg",
+    "attribution": "(c) Елена Шубенкина, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/225554915",
+    "place": "Lenins'kyi, UA-KR, UA",
+    "date": "2024-06-26"
+   },
+   {
+    "id": 393612354,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393612354/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393612354/large.jpg",
+    "attribution": "(c) adil_biten, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/222217712",
+    "place": "Южно-Казахстанская область, KZ",
+    "date": "2024-06-05"
+   }
+  ],
+  "hero": {
+   "id": 235499993,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/235499993/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/235499993/large.jpeg",
+   "attribution": "(c) Татьяна Меньшикова, some rights reserved (CC BY-NC), uploaded by Татьяна Меньшикова",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/235499993",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2490613,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 134959,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 81766
+   },
+   {
+    "code": "PT",
+    "count": 12342
+   },
+   {
+    "code": "TR",
+    "count": 7493
+   },
+   {
+    "code": "UA",
+    "count": 7389
+   },
+   {
+    "code": "FR",
+    "count": 5268
+   },
+   {
+    "code": "BG",
+    "count": 2891
+   },
+   {
+    "code": "KZ",
+    "count": 2431
+   },
+   {
+    "code": "GE",
+    "count": 2305
+   },
+   {
+    "code": "RU",
+    "count": 2209
+   },
+   {
+    "code": "GR",
+    "count": 1619
+   },
+   {
+    "code": "AZ",
+    "count": 1248
+   },
+   {
+    "code": "IL",
+    "count": 1228
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1101745/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "João Ferreira Tomás",
+  "page": "https://xeno-canto.org/1101745",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Alaudidae",
+  "familyKey": 7211,
+  "familyDa": "Lærker",
+  "order": "Passeriformes"
+ }
+}

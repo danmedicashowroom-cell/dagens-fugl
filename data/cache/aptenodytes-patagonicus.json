@@ -116,7 +116,7 @@
    0,
    0
   ],
-  "worldTotal": 201812,
+  "worldTotal": 201820,
   "topCountries": [
    {
     "code": "HM",
@@ -128,11 +128,11 @@
    },
    {
     "code": "GS",
-    "count": 8481
+    "count": 8492
    },
    {
     "code": "AU",
-    "count": 5943
+    "count": 5940
    },
    {
     "code": "ZA",
@@ -144,7 +144,7 @@
    },
    {
     "code": "FK",
-    "count": 3521
+    "count": 3519
    },
    {
     "code": "AR",
@@ -152,7 +152,7 @@
    },
    {
     "code": "CL",
-    "count": 1616
+    "count": 1619
    },
    {
     "code": "ZZ",
@@ -190,5 +190,6 @@
   "familyKey": 5284,
   "familyDa": "Pingvin",
   "order": "Sphenisciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:45.759Z"
 }

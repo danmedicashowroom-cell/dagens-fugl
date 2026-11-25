@@ -146,31 +146,31 @@
    0,
    0
   ],
-  "worldTotal": 67679,
+  "worldTotal": 67712,
   "topCountries": [
    {
     "code": "CO",
-    "count": 16544
+    "count": 16548
    },
    {
     "code": "BR",
-    "count": 15073
+    "count": 15085
    },
    {
     "code": "EC",
-    "count": 10414
+    "count": 10419
    },
    {
     "code": "CR",
-    "count": 7058
+    "count": 7065
    },
    {
     "code": "AR",
-    "count": 4510
+    "count": 4514
    },
    {
     "code": "PE",
-    "count": 4063
+    "count": 4064
    },
    {
     "code": "PA",
@@ -182,7 +182,7 @@
    },
    {
     "code": "PY",
-    "count": 1206
+    "count": 1207
    },
    {
     "code": "BO",
@@ -220,5 +220,6 @@
   "familyKey": 9324,
   "familyDa": "Potuer",
   "order": "Nyctibiiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:02.137Z"
 }

@@ -105,23 +105,23 @@
    0,
    0
   ],
-  "worldTotal": 227444,
+  "worldTotal": 227547,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 115803
+    "count": 115854
    },
    {
     "code": "KE",
-    "count": 24740
+    "count": 24748
    },
    {
     "code": "UG",
-    "count": 13083
+    "count": 13094
    },
    {
     "code": "TZ",
-    "count": 11399
+    "count": 11403
    },
    {
     "code": "ZW",
@@ -133,11 +133,11 @@
    },
    {
     "code": "GM",
-    "count": 6882
+    "count": 6903
    },
    {
     "code": "ZM",
-    "count": 6514
+    "count": 6515
    },
    {
     "code": "ET",
@@ -153,7 +153,7 @@
    },
    {
     "code": "RW",
-    "count": 3366
+    "count": 3367
    }
   ]
  },
@@ -179,5 +179,6 @@
   "familyKey": 9345,
   "familyDa": null,
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:37.678Z"
 }

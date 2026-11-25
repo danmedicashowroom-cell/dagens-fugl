@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 7686001,
+  "worldTotal": 7686055,
   "topCountries": [
    {
     "code": "US",
-    "count": 6292384
+    "count": 6292426
    },
    {
     "code": "CA",
-    "count": 1370487
+    "count": 1370495
    },
    {
     "code": "MX",
@@ -194,7 +194,7 @@
    },
    {
     "code": "PM",
-    "count": 309
+    "count": 310
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5248,
   "familyDa": "Svaler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:22.046Z"
 }

@@ -131,7 +131,7 @@
  },
  "gbif": {
   "key": 2482065,
-  "dkTotal": 33913,
+  "dkTotal": 33915,
   "dkMonths": [
    17,
    27,
@@ -141,32 +141,32 @@
    5371,
    4365,
    3572,
-   1404,
-   222,
+   1405,
+   223,
    34,
    22
   ],
-  "worldTotal": 1307581,
+  "worldTotal": 1307813,
   "topCountries": [
    {
     "code": "US",
-    "count": 700413
+    "count": 700512
    },
    {
     "code": "NL",
-    "count": 112880
+    "count": 112936
    },
    {
     "code": "ES",
-    "count": 79464
+    "count": 79476
    },
    {
     "code": "CA",
-    "count": 67160
+    "count": 67162
    },
    {
     "code": "FR",
-    "count": 59497
+    "count": 59505
    },
    {
     "code": "BE",
@@ -174,11 +174,11 @@
    },
    {
     "code": "DK",
-    "count": 33913
+    "count": 33915
    },
    {
     "code": "SE",
-    "count": 27193
+    "count": 27195
    },
    {
     "code": "GB",
@@ -186,15 +186,15 @@
    },
    {
     "code": "MX",
-    "count": 20313
+    "count": 20319
    },
    {
     "code": "IT",
-    "count": 18923
+    "count": 18926
    },
    {
     "code": "ZA",
-    "count": 15870
+    "count": 15872
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9338,
   "familyDa": "Lappedykker",
   "order": "Podicipediformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:49.807Z"
 }

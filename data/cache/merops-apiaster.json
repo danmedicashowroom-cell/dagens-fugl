@@ -131,14 +131,14 @@
  },
  "gbif": {
   "key": 2475443,
-  "dkTotal": 2210,
+  "dkTotal": 2211,
   "dkMonths": [
    0,
    0,
    1,
    42,
    1431,
-   490,
+   491,
    85,
    122,
    29,
@@ -146,39 +146,39 @@
    0,
    1
   ],
-  "worldTotal": 818797,
+  "worldTotal": 818941,
   "topCountries": [
    {
     "code": "ES",
-    "count": 239236
+    "count": 239239
    },
    {
     "code": "ZA",
-    "count": 109017
+    "count": 109059
    },
    {
     "code": "FR",
-    "count": 107156
+    "count": 107158
    },
    {
     "code": "PT",
-    "count": 56207
+    "count": 56224
    },
    {
     "code": "IL",
-    "count": 35982
+    "count": 35983
    },
    {
     "code": "TR",
-    "count": 22655
+    "count": 22656
    },
    {
     "code": "GR",
-    "count": 19961
+    "count": 19968
    },
    {
     "code": "IT",
-    "count": 19937
+    "count": 19939
    },
    {
     "code": "BG",
@@ -186,15 +186,15 @@
    },
    {
     "code": "NL",
-    "count": 10706
+    "count": 10707
    },
    {
     "code": "RU",
-    "count": 9647
+    "count": 9659
    },
    {
     "code": "DE",
-    "count": 9366
+    "count": 9364
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9320,
   "familyDa": "Biædere",
   "order": "Coraciiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:29.794Z"
 }

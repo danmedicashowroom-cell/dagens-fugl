@@ -146,55 +146,55 @@
    0,
    0
   ],
-  "worldTotal": 3497356,
+  "worldTotal": 3497787,
   "topCountries": [
    {
     "code": "IN",
-    "count": 1232421
+    "count": 1232477
    },
    {
     "code": "AU",
-    "count": 886513
+    "count": 886583
    },
    {
     "code": "TW",
-    "count": 253367
+    "count": 253422
    },
    {
     "code": "ZA",
-    "count": 213880
+    "count": 213895
    },
    {
     "code": "US",
-    "count": 185246
+    "count": 185263
    },
    {
     "code": "IL",
-    "count": 117698
+    "count": 117712
    },
    {
     "code": "TH",
-    "count": 116295
+    "count": 116364
    },
    {
     "code": "NZ",
-    "count": 110671
+    "count": 110679
    },
    {
     "code": "LK",
-    "count": 58178
+    "count": 58198
    },
    {
     "code": "AE",
-    "count": 50993
+    "count": 51003
    },
    {
     "code": "NP",
-    "count": 36827
+    "count": 36834
    },
    {
     "code": "KH",
-    "count": 21244
+    "count": 21246
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9350,
   "familyDa": "Stære",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:11.147Z"
 }

@@ -95,23 +95,23 @@
    0,
    0
   ],
-  "worldTotal": 121463,
+  "worldTotal": 121492,
   "topCountries": [
    {
     "code": "BR",
-    "count": 49165
+    "count": 49175
    },
    {
     "code": "CR",
-    "count": 29887
+    "count": 29902
    },
    {
     "code": "CO",
-    "count": 24614
+    "count": 24615
    },
    {
     "code": "PE",
-    "count": 4507
+    "count": 4509
    },
    {
     "code": "PA",
@@ -127,7 +127,7 @@
    },
    {
     "code": "AR",
-    "count": 1709
+    "count": 1710
    },
    {
     "code": "EC",
@@ -169,5 +169,6 @@
   "familyKey": 5288,
   "familyDa": "Ibiser & skestorke",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:22.979Z"
 }

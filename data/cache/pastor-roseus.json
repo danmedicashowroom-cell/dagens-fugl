@@ -136,23 +136,23 @@
    14,
    0
   ],
-  "worldTotal": 138661,
+  "worldTotal": 138695,
   "topCountries": [
    {
     "code": "IN",
-    "count": 93985
+    "count": 94003
    },
    {
     "code": "NL",
-    "count": 7933
+    "count": 7934
    },
    {
     "code": "SE",
-    "count": 5328
+    "count": 5329
    },
    {
     "code": "LK",
-    "count": 3294
+    "count": 3298
    },
    {
     "code": "GB",
@@ -160,7 +160,7 @@
    },
    {
     "code": "NO",
-    "count": 2283
+    "count": 2284
    },
    {
     "code": "TR",
@@ -168,11 +168,11 @@
    },
    {
     "code": "KZ",
-    "count": 2079
+    "count": 2080
    },
    {
     "code": "FR",
-    "count": 1617
+    "count": 1618
    },
    {
     "code": "GE",
@@ -184,7 +184,7 @@
    },
    {
     "code": "RU",
-    "count": 1192
+    "count": 1196
    }
   ]
  },
@@ -210,5 +210,6 @@
   "familyKey": 9350,
   "familyDa": "Stære",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:20.402Z"
 }

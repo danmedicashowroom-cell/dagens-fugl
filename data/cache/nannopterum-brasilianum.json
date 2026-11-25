@@ -146,55 +146,55 @@
    0,
    0
   ],
-  "worldTotal": 1288454,
+  "worldTotal": 1288660,
   "topCountries": [
    {
     "code": "US",
-    "count": 568150
+    "count": 568206
    },
    {
     "code": "AR",
-    "count": 110720
+    "count": 110748
    },
    {
     "code": "CL",
-    "count": 108836
+    "count": 108852
    },
    {
     "code": "MX",
-    "count": 101059
+    "count": 101095
    },
    {
     "code": "BR",
-    "count": 94221
+    "count": 94253
    },
    {
     "code": "CO",
-    "count": 52580
+    "count": 52583
    },
    {
     "code": "CR",
-    "count": 47429
+    "count": 47437
    },
    {
     "code": "PE",
-    "count": 43915
+    "count": 43924
    },
    {
     "code": "PA",
-    "count": 28081
+    "count": 28082
    },
    {
     "code": "BZ",
-    "count": 20562
+    "count": 20564
    },
    {
     "code": "UY",
-    "count": 19207
+    "count": 19214
    },
    {
     "code": "EC",
-    "count": 16945
+    "count": 16950
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5268,
   "familyDa": "Skarver",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:21.985Z"
 }

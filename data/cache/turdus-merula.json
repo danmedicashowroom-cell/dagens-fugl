@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2490719,
-  "dkTotal": 696694,
+  "dkTotal": 697714,
   "dkMonths": [
-   76913,
-   57653,
-   73843,
-   84173,
-   89645,
-   68014,
-   50052,
-   29321,
-   24939,
-   46827,
-   46354,
-   48800
+   76916,
+   57657,
+   73871,
+   84179,
+   89662,
+   68038,
+   50057,
+   29325,
+   24942,
+   46850,
+   47245,
+   48812
   ],
-  "worldTotal": 14588795,
+  "worldTotal": 14601608,
   "topCountries": [
    {
     "code": "FR",
-    "count": 2096416
+    "count": 2096647
    },
    {
     "code": "GB",
-    "count": 1837386
+    "count": 1837760
    },
    {
     "code": "SE",
-    "count": 1437457
+    "count": 1439233
    },
    {
     "code": "NL",
-    "count": 1391988
+    "count": 1394088
    },
    {
     "code": "ES",
-    "count": 1256789
+    "count": 1256959
    },
    {
     "code": "DE",
-    "count": 975321
+    "count": 981191
    },
    {
     "code": "AU",
-    "count": 738196
+    "count": 738254
    },
    {
     "code": "NO",
-    "count": 733830
+    "count": 734466
    },
    {
     "code": "DK",
-    "count": 696694
+    "count": 697714
    },
    {
     "code": "CH",
-    "count": 469014
+    "count": 469022
    },
    {
     "code": "PT",
-    "count": 464942
+    "count": 465004
    },
    {
     "code": "BE",
-    "count": 419170
+    "count": 419180
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5290,
   "familyDa": "Drosler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:25.746Z"
 }

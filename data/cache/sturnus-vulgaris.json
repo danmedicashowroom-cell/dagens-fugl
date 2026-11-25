@@ -131,62 +131,62 @@
  },
  "gbif": {
   "key": 9809229,
-  "dkTotal": 467727,
+  "dkTotal": 468111,
   "dkMonths": [
-   14623,
-   18522,
-   65847,
-   66334,
-   55116,
-   40459,
+   14624,
+   18536,
+   65910,
+   66346,
+   55127,
+   40464,
    38311,
-   40539,
-   44624,
-   53979,
-   19324,
-   9883
+   40542,
+   44635,
+   54025,
+   19529,
+   9896
   ],
-  "worldTotal": 28006634,
+  "worldTotal": 28012708,
   "topCountries": [
    {
     "code": "US",
-    "count": 16148381
+    "count": 16148691
    },
    {
     "code": "CA",
-    "count": 3129935
+    "count": 3129992
    },
    {
     "code": "GB",
-    "count": 1140714
+    "count": 1140798
    },
    {
     "code": "SE",
-    "count": 997298
+    "count": 998221
    },
    {
     "code": "FR",
-    "count": 991556
+    "count": 991655
    },
    {
     "code": "AU",
-    "count": 939362
+    "count": 939410
    },
    {
     "code": "NL",
-    "count": 813761
+    "count": 814645
    },
    {
     "code": "DE",
-    "count": 492263
+    "count": 494966
    },
    {
     "code": "DK",
-    "count": 467727
+    "count": 468111
    },
    {
     "code": "NO",
-    "count": 453564
+    "count": 453785
    },
    {
     "code": "FI",
@@ -194,7 +194,7 @@
    },
    {
     "code": "NZ",
-    "count": 268260
+    "count": 268275
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9350,
   "familyDa": "Stære",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:19.907Z"
 }

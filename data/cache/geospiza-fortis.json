@@ -126,11 +126,11 @@
    0,
    0
   ],
-  "worldTotal": 17012,
+  "worldTotal": 17015,
   "topCountries": [
    {
     "code": "EC",
-    "count": 16737
+    "count": 16739
    },
    {
     "code": "NZ",
@@ -164,5 +164,6 @@
   "familyKey": 9352,
   "familyDa": "Tangarer",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:31.724Z"
 }

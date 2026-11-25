@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 1033572,
+  "worldTotal": 1033731,
   "topCountries": [
    {
     "code": "ES",
-    "count": 522266
+    "count": 522360
    },
    {
     "code": "PT",
-    "count": 243911
+    "count": 243933
    },
    {
     "code": "IL",
@@ -162,15 +162,15 @@
    },
    {
     "code": "FR",
-    "count": 50487
+    "count": 50503
    },
    {
     "code": "IT",
-    "count": 49501
+    "count": 49513
    },
    {
     "code": "GR",
-    "count": 32105
+    "count": 32111
    },
    {
     "code": "CY",
@@ -178,11 +178,11 @@
    },
    {
     "code": "TR",
-    "count": 15055
+    "count": 15058
    },
    {
     "code": "MA",
-    "count": 14496
+    "count": 14500
    },
    {
     "code": "PS",
@@ -190,11 +190,11 @@
    },
    {
     "code": "HR",
-    "count": 3184
+    "count": 3186
    },
    {
     "code": "MT",
-    "count": 2911
+    "count": 2914
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5285,
   "familyDa": "Sangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:12.850Z"
 }

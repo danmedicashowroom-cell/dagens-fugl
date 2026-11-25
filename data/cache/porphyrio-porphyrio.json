@@ -105,43 +105,43 @@
    2,
    1
   ],
-  "worldTotal": 759296,
+  "worldTotal": 759383,
   "topCountries": [
    {
     "code": "AU",
-    "count": 259798
+    "count": 259803
    },
    {
     "code": "IN",
-    "count": 206885
+    "count": 206898
    },
    {
     "code": "ES",
-    "count": 87785
+    "count": 87808
    },
    {
     "code": "US",
-    "count": 53527
+    "count": 53544
    },
    {
     "code": "ZA",
-    "count": 49352
+    "count": 49359
    },
    {
     "code": "FR",
-    "count": 17553
+    "count": 17555
    },
    {
     "code": "PT",
-    "count": 15290
+    "count": 15293
    },
    {
     "code": "LK",
-    "count": 14150
+    "count": 14151
    },
    {
     "code": "TH",
-    "count": 9618
+    "count": 9621
    },
    {
     "code": "NL",
@@ -149,11 +149,11 @@
    },
    {
     "code": "AE",
-    "count": 2525
+    "count": 2526
    },
    {
     "code": "EG",
-    "count": 2350
+    "count": 2352
    }
   ]
  },
@@ -179,5 +179,6 @@
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:16.708Z"
 }

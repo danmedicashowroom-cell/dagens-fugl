@@ -131,22 +131,22 @@
  },
  "gbif": {
   "key": 2474156,
-  "dkTotal": 21378,
+  "dkTotal": 21380,
   "dkMonths": [
    0,
    0,
    0,
    98,
    3082,
-   8275,
+   8276,
    6771,
    3030,
    63,
    28,
-   12,
+   13,
    0
   ],
-  "worldTotal": 533438,
+  "worldTotal": 533536,
   "topCountries": [
    {
     "code": "ES",
@@ -154,27 +154,27 @@
    },
    {
     "code": "SE",
-    "count": 84474
+    "count": 84485
    },
    {
     "code": "FR",
-    "count": 79646
+    "count": 79648
    },
    {
     "code": "PT",
-    "count": 49939
+    "count": 49934
    },
    {
     "code": "NL",
-    "count": 27905
+    "count": 27910
    },
    {
     "code": "ZA",
-    "count": 25850
+    "count": 25848
    },
    {
     "code": "DK",
-    "count": 21378
+    "count": 21380
    },
    {
     "code": "CH",
@@ -182,7 +182,7 @@
    },
    {
     "code": "NO",
-    "count": 17199
+    "count": 17202
    },
    {
     "code": "BE",
@@ -190,11 +190,11 @@
    },
    {
     "code": "DE",
-    "count": 9250
+    "count": 9343
    },
    {
     "code": "GB",
-    "count": 8897
+    "count": 8900
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:43.660Z"
 }

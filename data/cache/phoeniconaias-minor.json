@@ -95,7 +95,7 @@
    1,
    0
   ],
-  "worldTotal": 61801,
+  "worldTotal": 61820,
   "topCountries": [
    {
     "code": "ZA",
@@ -107,15 +107,15 @@
    },
    {
     "code": "KE",
-    "count": 7283
+    "count": 7287
    },
    {
     "code": "TZ",
-    "count": 5470
+    "count": 5471
    },
    {
     "code": "NA",
-    "count": 4756
+    "count": 4769
    },
    {
     "code": "ES",
@@ -169,5 +169,6 @@
   "familyKey": 5269,
   "familyDa": null,
   "order": "Phoenicopteriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:39.311Z"
 }

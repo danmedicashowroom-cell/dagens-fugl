@@ -46,11 +46,11 @@
    0,
    0
   ],
-  "worldTotal": 1048848,
+  "worldTotal": 1049040,
   "topCountries": [
    {
     "code": "AU",
-    "count": 1047582
+    "count": 1047774
    },
    {
     "code": "PG",
@@ -107,5 +107,6 @@
   "familyKey": 5288,
   "familyDa": "Ibiser & skestorke",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:52.424Z"
 }

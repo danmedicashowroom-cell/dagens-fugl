@@ -121,54 +121,54 @@
  },
  "gbif": {
   "key": 2480964,
-  "dkTotal": 136237,
+  "dkTotal": 136573,
   "dkMonths": [
    4956,
    3144,
    8742,
-   12982,
-   11921,
-   3633,
+   12985,
+   11922,
+   3634,
    10358,
-   13830,
-   22625,
-   27542,
-   11655,
+   13832,
+   22629,
+   27592,
+   11930,
    4821
   ],
-  "worldTotal": 2140606,
+  "worldTotal": 2141877,
   "topCountries": [
    {
     "code": "CA",
-    "count": 503510
+    "count": 503529
    },
    {
     "code": "US",
-    "count": 432657
+    "count": 432675
    },
    {
     "code": "GB",
-    "count": 427811
+    "count": 427838
    },
    {
     "code": "DK",
-    "count": 136237
+    "count": 136573
    },
    {
     "code": "FR",
-    "count": 106223
+    "count": 106251
    },
    {
     "code": "NO",
-    "count": 84080
+    "count": 84121
    },
    {
     "code": "SE",
-    "count": 74378
+    "count": 74505
    },
    {
     "code": "PT",
-    "count": 73971
+    "count": 73977
    },
    {
     "code": "IE",
@@ -176,15 +176,15 @@
    },
    {
     "code": "ES",
-    "count": 72815
+    "count": 72823
    },
    {
     "code": "NL",
-    "count": 59966
+    "count": 60614
    },
    {
     "code": "BE",
-    "count": 32237
+    "count": 32240
    }
   ]
  },
@@ -210,5 +210,6 @@
   "familyKey": 9351,
   "familyDa": "Suler",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:54.665Z"
 }

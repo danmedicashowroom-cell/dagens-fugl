@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 735873,
+  "worldTotal": 736073,
   "topCountries": [
    {
     "code": "FR",
-    "count": 195186
+    "count": 195191
    },
    {
     "code": "ES",
-    "count": 121610
+    "count": 121611
    },
    {
     "code": "CH",
@@ -162,27 +162,27 @@
    },
    {
     "code": "NL",
-    "count": 53776
+    "count": 53831
    },
    {
     "code": "DE",
-    "count": 44004
+    "count": 44104
    },
    {
     "code": "SE",
-    "count": 28161
+    "count": 28162
    },
    {
     "code": "PT",
-    "count": 26779
+    "count": 26781
    },
    {
     "code": "PL",
-    "count": 22512
+    "count": 22518
    },
    {
     "code": "BE",
-    "count": 19942
+    "count": 19943
    },
    {
     "code": "BG",
@@ -190,11 +190,11 @@
    },
    {
     "code": "CZ",
-    "count": 11837
+    "count": 11838
    },
    {
     "code": "RU",
-    "count": 11406
+    "count": 11411
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5708,
   "familyDa": "Piroler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:40.732Z"
 }

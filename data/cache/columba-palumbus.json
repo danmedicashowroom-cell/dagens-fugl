@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2495455,
-  "dkTotal": 723303,
+  "dkTotal": 724088,
   "dkMonths": [
    60391,
-   55921,
-   92879,
-   98215,
-   80106,
-   56936,
-   50242,
-   52338,
-   48418,
-   55683,
-   35109,
-   36999
+   55923,
+   92890,
+   98217,
+   80120,
+   56940,
+   50248,
+   52346,
+   48428,
+   55704,
+   35812,
+   37003
   ],
-  "worldTotal": 10337495,
+  "worldTotal": 10344790,
   "topCountries": [
    {
     "code": "GB",
-    "count": 2131169
+    "count": 2131618
    },
    {
     "code": "FR",
-    "count": 1464542
+    "count": 1464650
    },
    {
     "code": "SE",
-    "count": 1155176
+    "count": 1155563
    },
    {
     "code": "NL",
-    "count": 996815
+    "count": 997946
    },
    {
     "code": "ES",
-    "count": 832680
+    "count": 832762
    },
    {
     "code": "DE",
-    "count": 743662
+    "count": 747515
    },
    {
     "code": "DK",
-    "count": 723303
+    "count": 724088
    },
    {
     "code": "NO",
-    "count": 456287
+    "count": 456574
    },
    {
     "code": "BE",
-    "count": 439692
+    "count": 439702
    },
    {
     "code": "CH",
-    "count": 232504
+    "count": 232510
    },
    {
     "code": "PT",
-    "count": 232247
+    "count": 232262
    },
    {
     "code": "FI",
-    "count": 143758
+    "count": 143766
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:16.578Z"
 }

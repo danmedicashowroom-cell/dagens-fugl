@@ -95,15 +95,15 @@
    103,
    32
   ],
-  "worldTotal": 468502,
+  "worldTotal": 468571,
   "topCountries": [
    {
     "code": "SE",
-    "count": 96164
+    "count": 96173
    },
    {
     "code": "US",
-    "count": 84020
+    "count": 84025
    },
    {
     "code": "DK",
@@ -111,11 +111,11 @@
    },
    {
     "code": "NO",
-    "count": 45088
+    "count": 45108
    },
    {
     "code": "GB",
-    "count": 45053
+    "count": 45058
    },
    {
     "code": "CA",
@@ -135,15 +135,15 @@
    },
    {
     "code": "NL",
-    "count": 9913
+    "count": 9932
    },
    {
     "code": "AU",
-    "count": 8455
+    "count": 8456
    },
    {
     "code": "ES",
-    "count": 7724
+    "count": 7726
    }
   ]
  },
@@ -169,5 +169,6 @@
   "familyKey": 9347,
   "familyDa": "Kjover",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:52.864Z"
 }

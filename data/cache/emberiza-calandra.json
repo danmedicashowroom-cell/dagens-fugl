@@ -131,42 +131,42 @@
  },
  "gbif": {
   "key": 7634625,
-  "dkTotal": 83364,
+  "dkTotal": 83401,
   "dkMonths": [
    5665,
    5102,
    7148,
    13061,
    18132,
-   11288,
+   11289,
    10093,
    2856,
    1058,
    2332,
-   3267,
+   3303,
    3289
   ],
-  "worldTotal": 1185485,
+  "worldTotal": 1185688,
   "topCountries": [
    {
     "code": "ES",
-    "count": 369177
+    "count": 369228
    },
    {
     "code": "FR",
-    "count": 206227
+    "count": 206231
    },
    {
     "code": "PT",
-    "count": 129745
+    "count": 129763
    },
    {
     "code": "DK",
-    "count": 83364
+    "count": 83401
    },
    {
     "code": "GB",
-    "count": 68784
+    "count": 68793
    },
    {
     "code": "BG",
@@ -174,7 +174,7 @@
    },
    {
     "code": "DE",
-    "count": 28718
+    "count": 28732
    },
    {
     "code": "TR",
@@ -182,7 +182,7 @@
    },
    {
     "code": "GR",
-    "count": 25326
+    "count": 25331
    },
    {
     "code": "CH",
@@ -190,11 +190,11 @@
    },
    {
     "code": "PL",
-    "count": 23592
+    "count": 23593
    },
    {
     "code": "SE",
-    "count": 21144
+    "count": 21151
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9608,
   "familyDa": "Værlinger",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:02.675Z"
 }

@@ -126,19 +126,19 @@
    0,
    0
   ],
-  "worldTotal": 24589,
+  "worldTotal": 24598,
   "topCountries": [
    {
     "code": "CO",
-    "count": 10517
+    "count": 10520
    },
    {
     "code": "EC",
-    "count": 9625
+    "count": 9629
    },
    {
     "code": "PE",
-    "count": 4045
+    "count": 4047
    },
    {
     "code": "VE",
@@ -188,5 +188,6 @@
   "familyKey": 5289,
   "familyDa": null,
   "order": "Apodiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:03.411Z"
 }

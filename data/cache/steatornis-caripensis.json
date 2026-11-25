@@ -105,11 +105,11 @@
    0,
    0
   ],
-  "worldTotal": 10584,
+  "worldTotal": 10587,
   "topCountries": [
    {
     "code": "CO",
-    "count": 5394
+    "count": 5395
    },
    {
     "code": "EC",
@@ -145,7 +145,7 @@
    },
    {
     "code": "BR",
-    "count": 10
+    "count": 11
    },
    {
     "code": "GF",
@@ -179,5 +179,6 @@
   "familyKey": 9346,
   "familyDa": null,
   "order": "Steatornithiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:02.649Z"
 }

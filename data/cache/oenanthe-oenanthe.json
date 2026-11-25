@@ -131,50 +131,50 @@
  },
  "gbif": {
   "key": 5231240,
-  "dkTotal": 112458,
+  "dkTotal": 112524,
   "dkMonths": [
    0,
    18,
    615,
-   16863,
-   36410,
+   16868,
+   36427,
    2557,
    2537,
-   19510,
-   26458,
-   7381,
+   19520,
+   26484,
+   7389,
    48,
    3
   ],
-  "worldTotal": 1894827,
+  "worldTotal": 1895462,
   "topCountries": [
    {
     "code": "SE",
-    "count": 427624
+    "count": 427790
    },
    {
     "code": "NL",
-    "count": 235248
+    "count": 235299
    },
    {
     "code": "NO",
-    "count": 213807
+    "count": 213965
    },
    {
     "code": "GB",
-    "count": 178043
+    "count": 178055
    },
    {
     "code": "FR",
-    "count": 131246
+    "count": 131266
    },
    {
     "code": "ES",
-    "count": 119500
+    "count": 119507
    },
    {
     "code": "DK",
-    "count": 112458
+    "count": 112524
    },
    {
     "code": "CH",
@@ -182,7 +182,7 @@
    },
    {
     "code": "FI",
-    "count": 55480
+    "count": 55490
    },
    {
     "code": "BE",
@@ -190,7 +190,7 @@
    },
    {
     "code": "DE",
-    "count": 29925
+    "count": 30017
    },
    {
     "code": "PT",
@@ -220,5 +220,6 @@
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:37.116Z"
 }

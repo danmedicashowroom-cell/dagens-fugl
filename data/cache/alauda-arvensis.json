@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 8077224,
-  "dkTotal": 387695,
+  "dkTotal": 387936,
   "dkMonths": [
-   7392,
-   44006,
-   75411,
-   62872,
-   52752,
-   37726,
-   27702,
-   11412,
-   18328,
-   38663,
-   7678,
-   3506
+   7398,
+   44026,
+   75436,
+   62885,
+   52760,
+   37736,
+   27718,
+   11416,
+   18335,
+   38726,
+   7745,
+   3508
   ],
-  "worldTotal": 3913183,
+  "worldTotal": 3916390,
   "topCountries": [
    {
     "code": "SE",
-    "count": 661827
+    "count": 662115
    },
    {
     "code": "FR",
-    "count": 523326
+    "count": 523353
    },
    {
     "code": "GB",
-    "count": 522807
+    "count": 522835
    },
    {
     "code": "DK",
-    "count": 387695
+    "count": 387936
    },
    {
     "code": "NL",
-    "count": 327605
+    "count": 327939
    },
    {
     "code": "NO",
-    "count": 211167
+    "count": 211221
    },
    {
     "code": "DE",
-    "count": 151690
+    "count": 153821
    },
    {
     "code": "BE",
-    "count": 141752
+    "count": 141763
    },
    {
     "code": "ES",
-    "count": 134538
+    "count": 134545
    },
    {
     "code": "AU",
-    "count": 109926
+    "count": 109928
    },
    {
     "code": "CH",
-    "count": 107825
+    "count": 107828
    },
    {
     "code": "NZ",
-    "count": 102061
+    "count": 102071
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 7211,
   "familyDa": "Lærker",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:56.706Z"
 }

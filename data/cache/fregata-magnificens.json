@@ -146,39 +146,39 @@
    0,
    0
   ],
-  "worldTotal": 779644,
+  "worldTotal": 779820,
   "topCountries": [
    {
     "code": "US",
-    "count": 144577
+    "count": 144589
    },
    {
     "code": "MX",
-    "count": 133828
+    "count": 133863
    },
    {
     "code": "CR",
-    "count": 67533
+    "count": 67543
    },
    {
     "code": "BR",
-    "count": 49840
+    "count": 49849
    },
    {
     "code": "PR",
-    "count": 48510
+    "count": 48514
    },
    {
     "code": "PA",
-    "count": 46052
+    "count": 46054
    },
    {
     "code": "EC",
-    "count": 40655
+    "count": 40659
    },
    {
     "code": "BZ",
-    "count": 31420
+    "count": 31423
    },
    {
     "code": "CO",
@@ -186,7 +186,7 @@
    },
    {
     "code": "AI",
-    "count": 25101
+    "count": 25102
    },
    {
     "code": "VG",
@@ -194,7 +194,7 @@
    },
    {
     "code": "VE",
-    "count": 12830
+    "count": 12831
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5241,
   "familyDa": "Fregatfugle",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:09.164Z"
 }

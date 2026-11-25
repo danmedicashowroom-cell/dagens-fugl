@@ -146,27 +146,27 @@
    0,
    0
   ],
-  "worldTotal": 73102,
+  "worldTotal": 73122,
   "topCountries": [
    {
     "code": "IN",
-    "count": 28557
+    "count": 28559
    },
    {
     "code": "SG",
-    "count": 13880
+    "count": 13886
    },
    {
     "code": "MY",
-    "count": 9077
+    "count": 9084
    },
    {
     "code": "TH",
-    "count": 5063
+    "count": 5065
    },
    {
     "code": "NP",
-    "count": 5021
+    "count": 5024
    },
    {
     "code": "VN",
@@ -174,7 +174,7 @@
    },
    {
     "code": "ID",
-    "count": 2192
+    "count": 2193
    },
    {
     "code": "CN",
@@ -220,5 +220,6 @@
   "familyKey": 5259,
   "familyDa": "Solfugle",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:19.650Z"
 }

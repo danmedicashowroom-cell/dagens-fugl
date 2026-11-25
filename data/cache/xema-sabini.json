@@ -116,23 +116,23 @@
    36,
    7
   ],
-  "worldTotal": 92138,
+  "worldTotal": 92159,
   "topCountries": [
    {
     "code": "US",
-    "count": 57376
+    "count": 57382
    },
    {
     "code": "CA",
-    "count": 8354
+    "count": 8357
    },
    {
     "code": "NL",
-    "count": 4933
+    "count": 4935
    },
    {
     "code": "SE",
-    "count": 4359
+    "count": 4363
    },
    {
     "code": "GB",
@@ -140,11 +140,11 @@
    },
    {
     "code": "ES",
-    "count": 2252
+    "count": 2251
    },
    {
     "code": "FR",
-    "count": 1645
+    "count": 1646
    },
    {
     "code": "DK",
@@ -156,7 +156,7 @@
    },
    {
     "code": "NO",
-    "count": 878
+    "count": 879
    },
    {
     "code": "BE",
@@ -190,5 +190,6 @@
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:55.172Z"
 }

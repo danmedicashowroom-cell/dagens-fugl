@@ -131,34 +131,34 @@
  },
  "gbif": {
   "key": 2492960,
-  "dkTotal": 164300,
+  "dkTotal": 164314,
   "dkMonths": [
    4,
    1,
    0,
    28959,
-   70752,
-   30767,
+   70759,
+   30770,
    11493,
-   14407,
-   7152,
+   14409,
+   7153,
    541,
-   91,
+   92,
    28
   ],
-  "worldTotal": 1447931,
+  "worldTotal": 1451723,
   "topCountries": [
    {
     "code": "SE",
-    "count": 445973
+    "count": 447845
    },
    {
     "code": "DK",
-    "count": 164300
+    "count": 164314
    },
    {
     "code": "FI",
-    "count": 129636
+    "count": 129653
    },
    {
     "code": "GB",
@@ -166,27 +166,27 @@
    },
    {
     "code": "NO",
-    "count": 77477
+    "count": 77527
    },
    {
     "code": "IN",
-    "count": 76263
+    "count": 76269
    },
    {
     "code": "IL",
-    "count": 54993
+    "count": 54996
    },
    {
     "code": "DE",
-    "count": 53408
+    "count": 54872
    },
    {
     "code": "NL",
-    "count": 49285
+    "count": 49582
    },
    {
     "code": "FR",
-    "count": 45660
+    "count": 45662
    },
    {
     "code": "CH",
@@ -194,7 +194,7 @@
    },
    {
     "code": "PL",
-    "count": 32059
+    "count": 32063
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5285,
   "familyDa": "Sangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:09.403Z"
 }

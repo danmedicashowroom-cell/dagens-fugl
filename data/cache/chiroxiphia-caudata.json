@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 80696,
+  "worldTotal": 80703,
   "topCountries": [
    {
     "code": "BR",
-    "count": 71661
+    "count": 71668
    },
    {
     "code": "AR",
@@ -204,5 +204,6 @@
   "familyKey": 5270,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:24.617Z"
 }

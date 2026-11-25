@@ -146,47 +146,47 @@
    0,
    0
   ],
-  "worldTotal": 841493,
+  "worldTotal": 841664,
   "topCountries": [
    {
     "code": "BR",
-    "count": 270218
+    "count": 270297
    },
    {
     "code": "CO",
-    "count": 189449
+    "count": 189467
    },
    {
     "code": "AR",
-    "count": 137925
+    "count": 137952
    },
    {
     "code": "VE",
-    "count": 56560
+    "count": 56564
    },
    {
     "code": "US",
-    "count": 51237
+    "count": 51255
    },
    {
     "code": "EC",
-    "count": 28761
+    "count": 28770
    },
    {
     "code": "PE",
-    "count": 28295
+    "count": 28301
    },
    {
     "code": "UY",
-    "count": 25247
+    "count": 25249
    },
    {
     "code": "PY",
-    "count": 14128
+    "count": 14130
    },
    {
     "code": "PA",
-    "count": 12353
+    "count": 12355
    },
    {
     "code": "BO",
@@ -194,7 +194,7 @@
    },
    {
     "code": "CW",
-    "count": 5273
+    "count": 5274
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9352,
   "familyDa": "Tangarer",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:28.959Z"
 }

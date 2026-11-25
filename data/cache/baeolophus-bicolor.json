@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 13475655,
+  "worldTotal": 13475908,
   "topCountries": [
    {
     "code": "US",
-    "count": 13378207
+    "count": 13378456
    },
    {
     "code": "CA",
-    "count": 96865
+    "count": 96867
    },
    {
     "code": "MX",
@@ -204,5 +204,6 @@
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:43.786Z"
 }

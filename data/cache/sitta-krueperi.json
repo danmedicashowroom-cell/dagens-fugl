@@ -1,0 +1,152 @@
+{
+ "key": "sitta-krueperi",
+ "name": "Sitta krueperi",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:13:23.361Z",
+ "gbifAt": "2026-11-25T22:13:23.361Z",
+ "names": {
+  "da": "Krüpers Spætmejse",
+  "en": null,
+  "accepted": "Sitta krueperi"
+ },
+ "wikidata": {
+  "id": "Q851556"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Krüper's nuthatch",
+  "extract": "Krüper's nuthatch is a species of bird in the nuthatch family Sittidae. It is a small to medium-sized nuthatch, measuring 12.5 centimetres (4.9 in) in length. The upperparts are blue-grey, with the front half of the crown black in adults of both sexes, but with a less marked in the female rear. The species has a black or grey eyestripe and a prominent white supercilium. The underparts are blue-grey in males and buff-grey in females, with a large, crescent-shaped rufous pectoral patch. It feeds on insects in the summer and seeds, especially pine seeds, in autumn and winter. Breeding takes place between March and May, and the nest is usually placed in a tree hole. The clutch consists of five to seven eggs, incubated by the female and fed by the male. Both parents take part in feeding the young.",
+  "url": "https://en.wikipedia.org/wiki/Kr%C3%BCper's_nuthatch"
+ },
+ "inat": {
+  "id": 14814,
+  "observations": 344
+ },
+ "photos": {
+  "male": [],
+  "female": [],
+  "juvenile": [
+   {
+    "id": 108597795,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/108597795/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/108597795/large.jpg",
+    "attribution": "no rights reserved",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/observations/67245832",
+    "place": "Fındıklı, Pozantı, Adana, TR",
+    "date": "2010-05-30"
+   }
+  ],
+  "adult": [
+   {
+    "id": 607642084,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/607642084/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/607642084/large.jpg",
+    "attribution": "(c) Alexey Katz, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/334586457",
+    "place": "City of Sochi, Krasnodar Krai, Russia",
+    "date": "2026-01-07"
+   },
+   {
+    "id": 363112835,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/363112835/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/363112835/large.jpg",
+    "attribution": "(c) Olga Eremenko, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/205364118",
+    "place": "город-курорт Сочи, Краснодарский край, Россия",
+    "date": "2023-10-01"
+   },
+   {
+    "id": 91671280,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/91671280/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/91671280/large.jpg",
+    "attribution": "no rights reserved",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/observations/57469922",
+    "place": "Road between Gumuldur and Çanakkale, Turkey",
+    "date": "2007-08-28"
+   }
+  ],
+  "hero": {
+   "id": 366518731,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/366518731/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/366518731/large.jpg",
+   "attribution": "(c) Ульяна Лалак, some rights reserved (CC BY), uploaded by Ульяна Лалак",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/366518731",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2484880,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 8045,
+  "topCountries": [
+   {
+    "code": "TR",
+    "count": 4639
+   },
+   {
+    "code": "GR",
+    "count": 1515
+   },
+   {
+    "code": "GE",
+    "count": 993
+   },
+   {
+    "code": "RU",
+    "count": 855
+   },
+   {
+    "code": "ZZ",
+    "count": 5
+   },
+   {
+    "code": "AM",
+    "count": 1
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1153840/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Frantz Barrault",
+  "page": "https://xeno-canto.org/1153840",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Sittidae",
+  "familyKey": 5283,
+  "familyDa": "Spætmejser",
+  "order": "Passeriformes"
+ }
+}

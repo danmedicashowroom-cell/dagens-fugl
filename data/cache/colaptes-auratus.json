@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 14465683,
+  "worldTotal": 14466181,
   "topCountries": [
    {
     "code": "US",
-    "count": 12015879
+    "count": 12016310
    },
    {
     "code": "CA",
-    "count": 2419546
+    "count": 2419628
    },
    {
     "code": "MX",
-    "count": 20370
+    "count": 20363
    },
    {
     "code": "KY",
@@ -166,7 +166,7 @@
    },
    {
     "code": "CU",
-    "count": 3083
+    "count": 3081
    },
    {
     "code": "PM",
@@ -174,7 +174,7 @@
    },
    {
     "code": "GT",
-    "count": 284
+    "count": 283
    },
    {
     "code": "BM",
@@ -220,5 +220,6 @@
   "familyKey": 9333,
   "familyDa": "Spætter",
   "order": "Piciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:09.786Z"
 }

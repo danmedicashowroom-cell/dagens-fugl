@@ -146,19 +146,19 @@
    9,
    4
   ],
-  "worldTotal": 115049,
+  "worldTotal": 115081,
   "topCountries": [
    {
     "code": "AU",
-    "count": 101874
+    "count": 101899
    },
    {
     "code": "US",
-    "count": 5285
+    "count": 5287
    },
    {
     "code": "BE",
-    "count": 790
+    "count": 793
    },
    {
     "code": "TW",
@@ -166,11 +166,11 @@
    },
    {
     "code": "CA",
-    "count": 470
+    "count": 471
    },
    {
     "code": "FR",
-    "count": 417
+    "count": 418
    },
    {
     "code": "DK",
@@ -190,7 +190,7 @@
    },
    {
     "code": "MX",
-    "count": 281
+    "count": 285
    },
    {
     "code": "PT",
@@ -220,5 +220,6 @@
   "familyKey": 9340,
   "familyDa": "Kakaduer & papegøjer",
   "order": "Psittaciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:34.214Z"
 }

@@ -115,15 +115,15 @@
    0,
    0
   ],
-  "worldTotal": 22932,
+  "worldTotal": 22936,
   "topCountries": [
    {
     "code": "EC",
-    "count": 18569
+    "count": 18570
    },
    {
     "code": "US",
-    "count": 1688
+    "count": 1690
    },
    {
     "code": "MX",
@@ -155,7 +155,7 @@
    },
    {
     "code": "UM",
-    "count": 59
+    "count": 60
    },
    {
     "code": "FR",
@@ -189,5 +189,6 @@
   "familyKey": 9351,
   "familyDa": "Suler",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:31.204Z"
 }

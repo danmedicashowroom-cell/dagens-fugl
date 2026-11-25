@@ -88,7 +88,7 @@
    0,
    0
   ],
-  "worldTotal": 587,
+  "worldTotal": 586,
   "topCountries": [
    {
     "code": "NZ",
@@ -117,5 +117,6 @@
   "familyKey": 9340,
   "familyDa": "Kakaduer & papegøjer",
   "order": "Psittaciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:38.073Z"
 }

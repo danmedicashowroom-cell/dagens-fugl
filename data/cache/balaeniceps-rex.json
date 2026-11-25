@@ -126,11 +126,11 @@
    0,
    0
   ],
-  "worldTotal": 3493,
+  "worldTotal": 3502,
   "topCountries": [
    {
     "code": "UG",
-    "count": 3158
+    "count": 3162
    },
    {
     "code": "ZM",
@@ -187,5 +187,6 @@
   "familyKey": 4287242,
   "familyDa": null,
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:38.343Z"
 }

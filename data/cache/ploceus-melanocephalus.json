@@ -1,0 +1,226 @@
+{
+ "key": "ploceus-melanocephalus",
+ "name": "Ploceus melanocephalus",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:15:02.960Z",
+ "gbifAt": "2026-11-25T22:15:02.960Z",
+ "names": {
+  "da": "Sorthovedet Væver",
+  "en": "Black-headed Weaver",
+  "accepted": "Ploceus melanocephalus"
+ },
+ "wikidata": {
+  "id": "Q998572"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Black-headed weaver",
+  "extract": "The black-headed weaver, also known as yellow-backed weaver, is a species of bird in the family Ploceidae. It is a resident breeder in damp areas in tropical Africa.",
+  "url": "https://en.wikipedia.org/wiki/Black-headed_weaver"
+ },
+ "inat": {
+  "id": 13793,
+  "observations": 1606
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 603656731,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/603656731/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/603656731/large.jpg",
+    "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/332605525",
+    "place": "Parque del Guadalhorce, Churriana, 29004 Málaga, Spain",
+    "date": "2019-07-17"
+   },
+   {
+    "id": 621469917,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/621469917/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/621469917/large.jpg",
+    "attribution": "(c) Georges Olioso, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/341388344",
+    "place": "8125 Quarteira, Portugal",
+    "date": "2010-03-09"
+   },
+   {
+    "id": 467399357,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/467399357/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/467399357/large.jpeg",
+    "attribution": "(c) Adam Z. Lendvai, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/260283162",
+    "place": "Punaauia, Francia Polinézia",
+    "date": "2025-02-01"
+   }
+  ],
+  "female": [
+   {
+    "id": 635168384,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/635168384/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/635168384/large.jpg",
+    "attribution": "(c) mmostert12, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/348283369",
+    "place": "8125 Quarteira, Portugal",
+    "date": "2026-04-02"
+   },
+   {
+    "id": 338988497,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/338988497/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/338988497/large.jpeg",
+    "attribution": "(c) Roy Lowry, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/193022030",
+    "place": "Loulé, Portugal",
+    "date": "2023-11-13"
+   },
+   {
+    "id": 52939175,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/52939175/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/52939175/large.jpeg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/33689194",
+    "place": "Loulé, Portugal",
+    "date": "2019-09-20"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 102079425,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102079425/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102079425/large.jpeg",
+    "attribution": "(c) camila1975, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/63589466",
+    "place": "Alverca do Ribatejo, Portugal",
+    "date": "2020-10-26"
+   },
+   {
+    "id": 120491501,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/120491501/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/120491501/large.jpeg",
+    "attribution": "(c) camila1975, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/73774763",
+    "place": "2660 Frielas, Portugal",
+    "date": "2021-04-12"
+   },
+   {
+    "id": 139095555,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/139095555/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/139095555/large.jpeg",
+    "attribution": "(c) camila1975, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/84619624",
+    "place": "2660 Frielas, Portugal",
+    "date": "2021-06-26"
+   }
+  ],
+  "hero": {
+   "id": 4725762,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/4725762/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/4725762/large.jpg",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/4725762",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2494070,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 41472,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 12731
+   },
+   {
+    "code": "UG",
+    "count": 9358
+   },
+   {
+    "code": "PT",
+    "count": 7528
+   },
+   {
+    "code": "SN",
+    "count": 3023
+   },
+   {
+    "code": "RW",
+    "count": 2614
+   },
+   {
+    "code": "GM",
+    "count": 1161
+   },
+   {
+    "code": "KE",
+    "count": 1105
+   },
+   {
+    "code": "NG",
+    "count": 624
+   },
+   {
+    "code": "CD",
+    "count": 601
+   },
+   {
+    "code": "BF",
+    "count": 526
+   },
+   {
+    "code": "GH",
+    "count": 402
+   },
+   {
+    "code": "BJ",
+    "count": 334
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1086232/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-ND 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "artist": "Brendan Sloan",
+  "page": "https://xeno-canto.org/1086232",
+  "type": "call, song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Ploceidae",
+  "familyKey": 9336,
+  "familyDa": "Væverfugle",
+  "order": "Passeriformes"
+ }
+}

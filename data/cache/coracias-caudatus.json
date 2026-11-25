@@ -126,31 +126,31 @@
    0,
    0
   ],
-  "worldTotal": 208889,
+  "worldTotal": 208960,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 102408
+    "count": 102467
    },
    {
     "code": "KE",
-    "count": 27548
+    "count": 27555
    },
    {
     "code": "TZ",
-    "count": 17413
+    "count": 17421
    },
    {
     "code": "NA",
-    "count": 16119
+    "count": 16120
    },
    {
     "code": "BW",
-    "count": 15626
+    "count": 15633
    },
    {
     "code": "ZW",
-    "count": 10217
+    "count": 10220
    },
    {
     "code": "ZM",
@@ -162,15 +162,15 @@
    },
    {
     "code": "UG",
-    "count": 2226
+    "count": 2229
    },
    {
     "code": "MW",
-    "count": 1682
+    "count": 1685
    },
    {
     "code": "ET",
-    "count": 1594
+    "count": 1588
    },
    {
     "code": "SZ",
@@ -200,5 +200,6 @@
   "familyKey": 9307,
   "familyDa": "Ellekrager",
   "order": "Coraciiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:35.601Z"
 }

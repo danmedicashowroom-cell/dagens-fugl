@@ -1,0 +1,226 @@
+{
+ "key": "passer-italiae",
+ "name": "Passer italiae",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:12:20.059Z",
+ "gbifAt": "2026-11-25T22:12:20.059Z",
+ "names": {
+  "da": "Italiensk Spurv",
+  "en": "Italian Sparrow",
+  "accepted": "Passer italiae"
+ },
+ "wikidata": {
+  "id": "Q937933"
+ },
+ "wiki": {
+  "lang": "da",
+  "title": "Italiensk spurv",
+  "extract": "Italiensk spurv er en fugleart, der lever i Italien, på Korsika, Sicilien og Kreta.",
+  "url": "https://da.wikipedia.org/wiki/Italiensk_spurv"
+ },
+ "inat": {
+  "id": 201233,
+  "observations": 17165
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 309650713,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/309650713/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/309650713/large.jpeg",
+    "attribution": "(c) Christian, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/177994432",
+    "place": "Las Lilas, Córdoba, Argentina",
+    "date": "2023-08-11"
+   },
+   {
+    "id": 309648551,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/309648551/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/309648551/large.jpeg",
+    "attribution": "(c) Christian, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/177993450",
+    "place": "Las Lilas, Córdoba, Argentina",
+    "date": "2021-09-19"
+   },
+   {
+    "id": 590239122,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/590239122/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/590239122/large.jpg",
+    "attribution": "(c) muzi1020, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/325946723",
+    "place": "Via dei Coronari, Rome, Lazio, IT",
+    "date": "2022-06-12"
+   }
+  ],
+  "female": [
+   {
+    "id": 278445182,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/278445182/medium.gif",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/278445182/large.gif",
+    "attribution": "(c) Golfopolikayak, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/161106459",
+    "place": "87029 Scalea CS, Italia",
+    "date": "2023-05-10"
+   },
+   {
+    "id": 611169916,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/611169916/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/611169916/large.jpg",
+    "attribution": "(c) Sarah Gregg, some rights reserved (CC BY-NC-SA)",
+    "license": "cc-by-nc-sa",
+    "source": "https://www.inaturalist.org/observations/336333945",
+    "place": "67062 Rosciolo dei Marsi, Province of L'Aquila, Italy",
+    "date": "2026-01-26"
+   },
+   {
+    "id": 485255686,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/485255686/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/485255686/large.jpg",
+    "attribution": "(c) sofia_9911, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/269859028",
+    "place": "Via Luigi Petroselli, Rome, Lazio, IT",
+    "date": "2025-03-26"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 17446099,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/17446099/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/17446099/large.jpg",
+    "attribution": "(c) Eddi Bisulli, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/12154387",
+    "place": "Via Roma 49, Gambettola, Emilia-Romagna, IT",
+    "date": "2018-05-05"
+   },
+   {
+    "id": 709890457,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/709890457/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/709890457/large.jpg",
+    "attribution": "(c) Adrian Matala, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/387658844",
+    "place": "10056 Oulx, Metropolitan City of Turin, Italy",
+    "date": "2026-07-28"
+   },
+   {
+    "id": 150472383,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/150472383/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/150472383/large.jpeg",
+    "attribution": "(c) Elio Giacone, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/91008202",
+    "place": "Racconigi - CN - Italia",
+    "date": "2021-08-12"
+   }
+  ],
+  "hero": {
+   "id": 376663737,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/376663737/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/376663737/large.jpg",
+   "attribution": "(c) mauro_fioretto, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/376663737",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 8426551,
+  "dkTotal": 2,
+  "dkMonths": [
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 159893,
+  "topCountries": [
+   {
+    "code": "IT",
+    "count": 128562
+   },
+   {
+    "code": "CH",
+    "count": 16449
+   },
+   {
+    "code": "FR",
+    "count": 9005
+   },
+   {
+    "code": "GR",
+    "count": 4613
+   },
+   {
+    "code": "VA",
+    "count": 589
+   },
+   {
+    "code": "SI",
+    "count": 180
+   },
+   {
+    "code": "MT",
+    "count": 102
+   },
+   {
+    "code": "SM",
+    "count": 94
+   },
+   {
+    "code": "AT",
+    "count": 69
+   },
+   {
+    "code": "ES",
+    "count": 38
+   },
+   {
+    "code": "DZ",
+    "count": 20
+   },
+   {
+    "code": "HR",
+    "count": 13
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1177719/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Gianluca Congi",
+  "page": "https://xeno-canto.org/1177719",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Passeridae",
+  "familyKey": 5264,
+  "familyDa": "Spurve",
+  "order": "Passeriformes"
+ }
+}

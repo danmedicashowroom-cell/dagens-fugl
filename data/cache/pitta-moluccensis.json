@@ -95,15 +95,15 @@
    0,
    0
   ],
-  "worldTotal": 10769,
+  "worldTotal": 10773,
   "topCountries": [
    {
     "code": "TH",
-    "count": 4990
+    "count": 4991
    },
    {
     "code": "SG",
-    "count": 2337
+    "count": 2339
    },
    {
     "code": "MY",
@@ -111,7 +111,7 @@
    },
    {
     "code": "VN",
-    "count": 571
+    "count": 572
    },
    {
     "code": "KH",
@@ -169,5 +169,6 @@
   "familyKey": 9334,
   "familyDa": "Pittaer",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:15.412Z"
 }

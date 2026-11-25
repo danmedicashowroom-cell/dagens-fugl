@@ -131,7 +131,7 @@
  },
  "gbif": {
   "key": 2497921,
-  "dkTotal": 5232,
+  "dkTotal": 5238,
   "dkMonths": [
    376,
    292,
@@ -140,45 +140,45 @@
    448,
    716,
    722,
-   443,
+   444,
    321,
    439,
-   312,
+   317,
    244
   ],
-  "worldTotal": 466313,
+  "worldTotal": 466458,
   "topCountries": [
    {
     "code": "FR",
-    "count": 104212
+    "count": 104228
    },
    {
     "code": "GB",
-    "count": 101323
+    "count": 101335
    },
    {
     "code": "NL",
-    "count": 82513
+    "count": 82567
    },
    {
     "code": "ES",
-    "count": 44203
+    "count": 44204
    },
    {
     "code": "ZA",
-    "count": 33297
+    "count": 33300
    },
    {
     "code": "BE",
-    "count": 14475
+    "count": 14477
    },
    {
     "code": "PT",
-    "count": 10559
+    "count": 10561
    },
    {
     "code": "IL",
-    "count": 8767
+    "count": 8780
    },
    {
     "code": "CH",
@@ -186,7 +186,7 @@
    },
    {
     "code": "DE",
-    "count": 6548
+    "count": 6583
    },
    {
     "code": "US",
@@ -194,7 +194,7 @@
    },
    {
     "code": "DK",
-    "count": 5232
+    "count": 5238
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5292,
   "familyDa": "Slørugler",
   "order": "Strigiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:19.092Z"
 }

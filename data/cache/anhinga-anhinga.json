@@ -146,47 +146,47 @@
    0,
    0
   ],
-  "worldTotal": 1424128,
+  "worldTotal": 1424376,
   "topCountries": [
    {
     "code": "US",
-    "count": 1239977
+    "count": 1240145
    },
    {
     "code": "CR",
-    "count": 42711
+    "count": 42735
    },
    {
     "code": "MX",
-    "count": 32260
+    "count": 32286
    },
    {
     "code": "BR",
-    "count": 29579
+    "count": 29593
    },
    {
     "code": "PA",
-    "count": 11628
+    "count": 11630
    },
    {
     "code": "BZ",
-    "count": 11549
+    "count": 11552
    },
    {
     "code": "CO",
-    "count": 10647
+    "count": 10650
    },
    {
     "code": "EC",
-    "count": 8129
+    "count": 8132
    },
    {
     "code": "AR",
-    "count": 7265
+    "count": 7267
    },
    {
     "code": "PE",
-    "count": 5841
+    "count": 5842
    },
    {
     "code": "CU",
@@ -220,5 +220,6 @@
   "familyKey": 2989,
   "familyDa": "Slangehalsfugle",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:00.520Z"
 }

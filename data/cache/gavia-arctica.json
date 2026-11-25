@@ -111,46 +111,46 @@
  },
  "gbif": {
   "key": 2481959,
-  "dkTotal": 43692,
+  "dkTotal": 43729,
   "dkMonths": [
    2083,
    1619,
    2569,
    6557,
-   7807,
+   7809,
    1485,
    1235,
-   2433,
+   2434,
    5551,
-   6420,
-   3872,
+   6424,
+   3902,
    2032
   ],
-  "worldTotal": 702200,
+  "worldTotal": 702492,
   "topCountries": [
    {
     "code": "SE",
-    "count": 430568
+    "count": 430644
    },
    {
     "code": "NO",
-    "count": 98788
+    "count": 98874
    },
    {
     "code": "DK",
-    "count": 43692
+    "count": 43729
    },
    {
     "code": "FI",
-    "count": 33478
+    "count": 33486
    },
    {
     "code": "GB",
-    "count": 17191
+    "count": 17190
    },
    {
     "code": "NL",
-    "count": 14483
+    "count": 14493
    },
    {
     "code": "EE",
@@ -158,19 +158,19 @@
    },
    {
     "code": "FR",
-    "count": 7772
+    "count": 7773
    },
    {
     "code": "DE",
-    "count": 5128
+    "count": 5132
    },
    {
     "code": "RU",
-    "count": 5005
+    "count": 5056
    },
    {
     "code": "US",
-    "count": 3451
+    "count": 3453
    },
    {
     "code": "PL",
@@ -200,5 +200,6 @@
   "familyKey": 9312,
   "familyDa": "Lommer",
   "order": "Gaviiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:45.911Z"
 }

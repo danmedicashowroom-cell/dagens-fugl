@@ -70,7 +70,7 @@
  },
  "gbif": {
   "key": 2498027,
-  "dkTotal": 14260,
+  "dkTotal": 14269,
   "dkMonths": [
    5010,
    3439,
@@ -82,30 +82,30 @@
    7,
    87,
    682,
-   1181,
+   1190,
    2149
   ],
-  "worldTotal": 155027,
+  "worldTotal": 155277,
   "topCountries": [
    {
     "code": "SE",
-    "count": 46980
+    "count": 47192
    },
    {
     "code": "RU",
-    "count": 17670
+    "count": 17675
    },
    {
     "code": "NO",
-    "count": 17191
+    "count": 17198
    },
    {
     "code": "DK",
-    "count": 14260
+    "count": 14269
    },
    {
     "code": "FI",
-    "count": 10601
+    "count": 10602
    },
    {
     "code": "EE",
@@ -113,19 +113,19 @@
    },
    {
     "code": "KR",
-    "count": 8597
+    "count": 8599
    },
    {
     "code": "DE",
-    "count": 6241
+    "count": 6249
    },
    {
     "code": "CN",
-    "count": 5081
+    "count": 5082
    },
    {
     "code": "NL",
-    "count": 2888
+    "count": 2891
    },
    {
     "code": "JP",
@@ -159,5 +159,6 @@
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:16.924Z"
 }

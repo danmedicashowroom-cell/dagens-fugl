@@ -146,19 +146,19 @@
    0,
    1
   ],
-  "worldTotal": 1369692,
+  "worldTotal": 1369994,
   "topCountries": [
    {
     "code": "AU",
-    "count": 1368185
+    "count": 1368484
    },
    {
     "code": "NZ",
-    "count": 620
+    "count": 621
    },
    {
     "code": "BE",
-    "count": 170
+    "count": 173
    },
    {
     "code": "NL",
@@ -220,5 +220,6 @@
   "familyKey": 2984,
   "familyDa": "Isfugle",
   "order": "Coraciiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:35.163Z"
 }

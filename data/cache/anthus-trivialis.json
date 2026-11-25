@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2490246,
-  "dkTotal": 105546,
+  "dkTotal": 105566,
   "dkMonths": [
    1,
    0,
    5,
-   18175,
-   32662,
-   14128,
+   18177,
+   32671,
+   14129,
    5721,
    14686,
-   18604,
-   1452,
+   18609,
+   1455,
    12,
    2
   ],
-  "worldTotal": 1750360,
+  "worldTotal": 1752665,
   "topCountries": [
    {
     "code": "SE",
-    "count": 466723
+    "count": 467756
    },
    {
     "code": "FI",
-    "count": 207226
+    "count": 207229
    },
    {
     "code": "FR",
-    "count": 174238
+    "count": 174255
    },
    {
     "code": "NL",
-    "count": 172553
+    "count": 172581
    },
    {
     "code": "CH",
-    "count": 111075
+    "count": 111076
    },
    {
     "code": "DK",
-    "count": 105546
+    "count": 105566
    },
    {
     "code": "NO",
-    "count": 96480
+    "count": 96687
    },
    {
     "code": "GB",
-    "count": 57737
+    "count": 57744
    },
    {
     "code": "BE",
-    "count": 49969
+    "count": 49971
    },
    {
     "code": "ES",
-    "count": 41974
+    "count": 41978
    },
    {
     "code": "RU",
-    "count": 41501
+    "count": 41547
    },
    {
     "code": "DE",
-    "count": 36535
+    "count": 37400
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:39.614Z"
 }

@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 29077176,
+  "worldTotal": 29077889,
   "topCountries": [
    {
     "code": "US",
-    "count": 24044435
+    "count": 24044998
    },
    {
     "code": "CA",
-    "count": 4978575
+    "count": 4978712
    },
    {
     "code": "MX",
-    "count": 49067
+    "count": 49078
    },
    {
     "code": "PM",
@@ -220,5 +220,6 @@
   "familyKey": 5290,
   "familyDa": "Drosler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:00.125Z"
 }

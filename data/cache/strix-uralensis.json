@@ -146,31 +146,31 @@
    0,
    0
   ],
-  "worldTotal": 158008,
+  "worldTotal": 158209,
   "topCountries": [
    {
     "code": "FI",
-    "count": 114822
+    "count": 114827
    },
    {
     "code": "SE",
-    "count": 26729
+    "count": 26875
    },
    {
     "code": "RU",
-    "count": 7213
+    "count": 7257
    },
    {
     "code": "EE",
-    "count": 5481
+    "count": 5480
    },
    {
     "code": "JP",
-    "count": 881
+    "count": 879
    },
    {
     "code": "UA",
-    "count": 773
+    "count": 775
    },
    {
     "code": "RO",
@@ -186,15 +186,15 @@
    },
    {
     "code": "HU",
-    "count": 189
+    "count": 191
    },
    {
     "code": "SI",
-    "count": 151
+    "count": 152
    },
    {
     "code": "CN",
-    "count": 91
+    "count": 93
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:22.844Z"
 }

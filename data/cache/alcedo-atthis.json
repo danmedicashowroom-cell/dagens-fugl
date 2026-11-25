@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2475532,
-  "dkTotal": 100225,
+  "dkTotal": 100317,
   "dkMonths": [
-   12511,
+   12512,
    8025,
    7920,
-   6758,
+   6759,
    5450,
-   4060,
+   4062,
    5110,
-   8351,
-   11252,
+   8354,
+   11254,
    11430,
-   10165,
+   10248,
    9131
   ],
-  "worldTotal": 2671105,
+  "worldTotal": 2672789,
   "topCountries": [
    {
     "code": "NL",
-    "count": 496665
+    "count": 497375
    },
    {
     "code": "FR",
-    "count": 297396
+    "count": 297460
    },
    {
     "code": "IN",
-    "count": 242223
+    "count": 242247
    },
    {
     "code": "ES",
-    "count": 219744
+    "count": 219758
    },
    {
     "code": "GB",
-    "count": 212794
+    "count": 212823
    },
    {
     "code": "TW",
-    "count": 153852
+    "count": 153879
    },
    {
     "code": "SE",
-    "count": 122658
+    "count": 122758
    },
    {
     "code": "DE",
-    "count": 120782
+    "count": 121182
    },
    {
     "code": "BE",
-    "count": 106925
+    "count": 106929
    },
    {
     "code": "DK",
-    "count": 100225
+    "count": 100317
    },
    {
     "code": "PT",
-    "count": 64185
+    "count": 64197
    },
    {
     "code": "CH",
-    "count": 52220
+    "count": 52227
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 2984,
   "familyDa": "Isfugle",
   "order": "Coraciiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:29.297Z"
 }

@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 35963,
+  "worldTotal": 35996,
   "topCountries": [
    {
     "code": "AR",
-    "count": 12643
+    "count": 12656
    },
    {
     "code": "CL",
-    "count": 10145
+    "count": 10159
    },
    {
     "code": "FK",
@@ -162,11 +162,11 @@
    },
    {
     "code": "BR",
-    "count": 5811
+    "count": 5816
    },
    {
     "code": "UY",
-    "count": 877
+    "count": 878
    },
    {
     "code": "GB",
@@ -220,5 +220,6 @@
   "familyKey": 5284,
   "familyDa": "Pingvin",
   "order": "Sphenisciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:52.324Z"
 }

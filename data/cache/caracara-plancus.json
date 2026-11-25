@@ -146,35 +146,35 @@
    0,
    0
   ],
-  "worldTotal": 1194275,
+  "worldTotal": 1194496,
   "topCountries": [
    {
     "code": "US",
-    "count": 423687
+    "count": 423733
    },
    {
     "code": "AR",
-    "count": 206063
+    "count": 206102
    },
    {
     "code": "BR",
-    "count": 187806
+    "count": 187866
    },
    {
     "code": "CR",
-    "count": 85482
+    "count": 85508
    },
    {
     "code": "MX",
-    "count": 72430
+    "count": 72446
    },
    {
     "code": "CO",
-    "count": 55000
+    "count": 55005
    },
    {
     "code": "CL",
-    "count": 35533
+    "count": 35547
    },
    {
     "code": "UY",
@@ -182,15 +182,15 @@
    },
    {
     "code": "VE",
-    "count": 17997
+    "count": 17999
    },
    {
     "code": "PA",
-    "count": 15008
+    "count": 15010
    },
    {
     "code": "PY",
-    "count": 10121
+    "count": 10125
    },
    {
     "code": "BO",
@@ -220,5 +220,6 @@
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:18.665Z"
 }

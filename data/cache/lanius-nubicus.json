@@ -1,0 +1,226 @@
+{
+ "key": "lanius-nubicus",
+ "name": "Lanius nubicus",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:14:02.672Z",
+ "gbifAt": "2026-11-25T22:14:02.672Z",
+ "names": {
+  "da": "Masketornskade",
+  "en": "Masked Shrike",
+  "accepted": "Lanius nubicus"
+ },
+ "wikidata": {
+  "id": "Q731085"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Masked shrike",
+  "extract": "The  masked shrike is a species of bird in the shrike family, Laniidae. It breeds in southeastern Europe and at the eastern end of the Mediterranean, with a separate population in eastern Iraq and western Iran. It is migratory, wintering mainly in northeast Africa. Although it is a short-range migrant, vagrants have occurred widely elsewhere, including northern and western Europe. It is the smallest member of its genus, long-tailed and with a hooked bill. The male has mainly black upperparts, with white on its crown, forehead and supercilium and large white patches on the shoulders and wings. The throat, neck sides and underparts are white, with orange flanks and breast. The female is a duller version of the male, with brownish black upperparts and a grey or buff tone to the shoulders and underparts. The juvenile has grey-brown upperparts with a paler forehead and barring from the head to rump, barred off-white underparts and brown wings аpart from the white primary patches. The species' calls are short and grating, but the song has melodic warbler-like components.",
+  "url": "https://en.wikipedia.org/wiki/Masked_shrike"
+ },
+ "inat": {
+  "id": 12023,
+  "observations": 1286
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 280011398,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/280011398/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/280011398/large.jpg",
+    "attribution": "(c) SteveM4560, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/161968127",
+    "place": "Parvomay, Bulgaria",
+    "date": "2023-05-16"
+   },
+   {
+    "id": 13862379,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13862379/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13862379/large.jpg",
+    "attribution": "(c) richardjaybee, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/10068577",
+    "place": "Ortaca/Muğla Province, Turkey",
+    "date": "2008-05-02"
+   },
+   {
+    "id": 664380564,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/664380564/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/664380564/large.jpg",
+    "attribution": "(c) Leo Cantiran, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/363920797",
+    "place": "Boğaz, 16700 Karacabey/Bursa, Türkiye",
+    "date": "2026-05-21"
+   }
+  ],
+  "female": [
+   {
+    "id": 311234059,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/311234059/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/311234059/large.jpg",
+    "attribution": "(c) SteveM4560, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/178821719",
+    "place": "Parvomay, Bulgaria",
+    "date": "2023-08-17"
+   },
+   {
+    "id": 524531300,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/524531300/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/524531300/large.jpg",
+    "attribution": "(c) avocat, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/291533573",
+    "place": "East Macedonia and Thrace, Greece",
+    "date": "2025-05-22"
+   },
+   {
+    "id": 54435562,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/54435562/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/54435562/large.jpeg",
+    "attribution": "(c) Joni Overbosch, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/34579496",
+    "place": "Baibariu, Kenya",
+    "date": "2017-03-03"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 546416625,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/546416625/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/546416625/large.jpg",
+    "attribution": "(c) terencebaker, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/303172436",
+    "place": "St Nicholas Park, Birchington, England, GB",
+    "date": "2020-10-18"
+   },
+   {
+    "id": 566407586,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/566407586/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/566407586/large.jpg",
+    "attribution": "(c) dimitriskokkinidis, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/313640003",
+    "place": "Περιφέρεια Ανατολικής Μακεδονίας και Θράκης, Ελλάδα",
+    "date": "2025-08-29"
+   },
+   {
+    "id": 441433339,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/441433339/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/441433339/large.jpeg",
+    "attribution": "(c) נדב גופר, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/247191260",
+    "place": "גזר, ישראל",
+    "date": "2024-10-05"
+   }
+  ],
+  "hero": {
+   "id": 118443879,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/118443879/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/118443879/large.jpg",
+   "attribution": "(c) Len Worthington, some rights reserved (CC BY-SA)",
+   "license": "cc-by-sa",
+   "source": "https://www.inaturalist.org/photos/118443879",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2492855,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 62389,
+  "topCountries": [
+   {
+    "code": "IL",
+    "count": 32361
+   },
+   {
+    "code": "TR",
+    "count": 6419
+   },
+   {
+    "code": "GR",
+    "count": 5766
+   },
+   {
+    "code": "CY",
+    "count": 4011
+   },
+   {
+    "code": "AE",
+    "count": 2854
+   },
+   {
+    "code": "PS",
+    "count": 2322
+   },
+   {
+    "code": "KW",
+    "count": 1428
+   },
+   {
+    "code": "EG",
+    "count": 1392
+   },
+   {
+    "code": "SA",
+    "count": 1193
+   },
+   {
+    "code": "JO",
+    "count": 802
+   },
+   {
+    "code": "BG",
+    "count": 746
+   },
+   {
+    "code": "QA",
+    "count": 611
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1134699/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/1134699",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Laniidae",
+  "familyKey": 9315,
+  "familyDa": "Tornskader",
+  "order": "Passeriformes"
+ }
+}

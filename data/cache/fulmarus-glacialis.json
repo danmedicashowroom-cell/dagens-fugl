@@ -91,7 +91,7 @@
  },
  "gbif": {
   "key": 2481433,
-  "dkTotal": 42638,
+  "dkTotal": 42643,
   "dkMonths": [
    1620,
    2007,
@@ -99,26 +99,26 @@
    1655,
    5182,
    3450,
-   7254,
+   7255,
    6959,
    6215,
    4605,
-   2178,
+   2182,
    786
   ],
-  "worldTotal": 1262851,
+  "worldTotal": 1262926,
   "topCountries": [
    {
     "code": "GB",
-    "count": 700496
+    "count": 700507
    },
    {
     "code": "US",
-    "count": 98401
+    "count": 98420
    },
    {
     "code": "NO",
-    "count": 72163
+    "count": 72176
    },
    {
     "code": "IE",
@@ -130,23 +130,23 @@
    },
    {
     "code": "IS",
-    "count": 47139
+    "count": 47143
    },
    {
     "code": "CA",
-    "count": 43362
+    "count": 43363
    },
    {
     "code": "DK",
-    "count": 42638
+    "count": 42643
    },
    {
     "code": "NL",
-    "count": 25280
+    "count": 25281
    },
    {
     "code": "SE",
-    "count": 19623
+    "count": 19627
    },
    {
     "code": "DE",
@@ -180,5 +180,6 @@
   "familyKey": 9339,
   "familyDa": "Egentlige Stormfugle",
   "order": "Procellariiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:50.315Z"
 }

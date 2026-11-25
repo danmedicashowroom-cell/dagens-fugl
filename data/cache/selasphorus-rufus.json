@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 916804,
+  "worldTotal": 916855,
   "topCountries": [
    {
     "code": "US",
-    "count": 701560
+    "count": 701586
    },
    {
     "code": "CA",
-    "count": 206614
+    "count": 206633
    },
    {
     "code": "MX",
-    "count": 8360
+    "count": 8365
    },
    {
     "code": "CR",
@@ -208,5 +208,6 @@
   "familyKey": 5289,
   "familyDa": null,
   "order": "Apodiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:03.933Z"
 }

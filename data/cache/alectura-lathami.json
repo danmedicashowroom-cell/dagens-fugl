@@ -146,11 +146,11 @@
    1,
    0
   ],
-  "worldTotal": 289676,
+  "worldTotal": 289799,
   "topCountries": [
    {
     "code": "AU",
-    "count": 289478
+    "count": 289600
    },
    {
     "code": "ZZ",
@@ -212,5 +212,6 @@
   "familyKey": 9318,
   "familyDa": "Tallegallahøns",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:54.921Z"
 }

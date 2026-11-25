@@ -131,62 +131,62 @@
  },
  "gbif": {
   "key": 2480482,
-  "dkTotal": 419222,
+  "dkTotal": 419244,
   "dkMonths": [
    296,
    321,
    13622,
-   100172,
-   88939,
+   100178,
+   88941,
    42896,
-   40915,
-   67649,
-   52985,
-   10341,
-   539,
+   40916,
+   67652,
+   52992,
+   10343,
+   540,
    237
   ],
-  "worldTotal": 3512547,
+  "worldTotal": 3513394,
   "topCountries": [
    {
     "code": "SE",
-    "count": 707890
+    "count": 708004
    },
    {
     "code": "NL",
-    "count": 452087
+    "count": 452359
    },
    {
     "code": "DK",
-    "count": 419222
+    "count": 419244
    },
    {
     "code": "ES",
-    "count": 329190
+    "count": 329251
    },
    {
     "code": "GB",
-    "count": 221246
+    "count": 221269
    },
    {
     "code": "BE",
-    "count": 201858
+    "count": 201859
    },
    {
     "code": "FR",
-    "count": 192355
+    "count": 192379
    },
    {
     "code": "IN",
-    "count": 86427
+    "count": 86441
    },
    {
     "code": "DE",
-    "count": 78737
+    "count": 78864
    },
    {
     "code": "GE",
-    "count": 64488
+    "count": 64489
    },
    {
     "code": "SN",
@@ -194,7 +194,7 @@
    },
    {
     "code": "NO",
-    "count": 56780
+    "count": 56785
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:06.489Z"
 }

@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 2129006,
+  "worldTotal": 2129177,
   "topCountries": [
    {
     "code": "AU",
-    "count": 2128677
+    "count": 2128848
    },
    {
     "code": "PG",
@@ -208,5 +208,6 @@
   "familyKey": 5256,
   "familyDa": "Monarkfluesnappere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:53.163Z"
 }

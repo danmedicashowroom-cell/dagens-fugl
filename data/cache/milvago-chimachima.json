@@ -55,11 +55,11 @@
    0,
    0
   ],
-  "worldTotal": 16641,
+  "worldTotal": 16644,
   "topCountries": [
    {
     "code": "CO",
-    "count": 14555
+    "count": 14558
    },
    {
     "code": "BR",
@@ -129,5 +129,6 @@
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:19.316Z"
 }

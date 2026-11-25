@@ -146,15 +146,15 @@
    283,
    177
   ],
-  "worldTotal": 27312,
+  "worldTotal": 27327,
   "topCountries": [
    {
     "code": "SE",
-    "count": 10749
+    "count": 10755
    },
    {
     "code": "NO",
-    "count": 5942
+    "count": 5950
    },
    {
     "code": "NL",
@@ -178,7 +178,7 @@
    },
    {
     "code": "CA",
-    "count": 666
+    "count": 667
    },
    {
     "code": "IS",
@@ -220,5 +220,6 @@
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:19.309Z"
 }

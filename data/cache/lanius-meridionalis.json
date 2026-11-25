@@ -1,0 +1,216 @@
+{
+ "key": "lanius-meridionalis",
+ "name": "Lanius meridionalis",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:16:00.595Z",
+ "gbifAt": "2026-11-25T22:16:00.595Z",
+ "names": {
+  "da": "Sydlig stor tornskade",
+  "en": "Iberian Grey Shrike",
+  "accepted": "Lanius meridionalis"
+ },
+ "wikidata": {
+  "id": "Q705505"
+ },
+ "wiki": {
+  "lang": "da",
+  "title": "Sydlig stor tornskade",
+  "extract": "Sydlig stor tornskade er en art i familien af tornskader, der findes i det sydvestligste Europa og Nordafrika. Den er nært beslægtet med stor tornskade. I Danmark er sydlig stor tornskade en meget sjælden gæst.",
+  "url": "https://da.wikipedia.org/wiki/Sydlig_stor_tornskade"
+ },
+ "inat": {
+  "id": 906982,
+  "observations": 4332
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 663377307,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/663377307/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/663377307/large.jpg",
+    "attribution": "(c) Sylvain G, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/363427157",
+    "place": "34230 Saint-Pargoire, France",
+    "date": "2026-05-20"
+   },
+   {
+    "id": 212792072,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/212792072/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/212792072/large.jpeg",
+    "attribution": "(c) Cristina Girão Vieira, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/125477771",
+    "place": "Portugal",
+    "date": "2019-09-17"
+   },
+   {
+    "id": 212768153,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/212768153/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/212768153/large.jpeg",
+    "attribution": "(c) Cristina Girão Vieira, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/125464057",
+    "place": "Portugal",
+    "date": "2019-09-15"
+   }
+  ],
+  "female": [
+   {
+    "id": 170716395,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/170716395/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/170716395/large.jpg",
+    "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/102158019",
+    "place": "Huelva, ES-AN, ES",
+    "date": "2021-10-21"
+   },
+   {
+    "id": 177231734,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/177231734/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/177231734/large.jpg",
+    "attribution": "(c) euqirneto, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/105607769",
+    "place": "Burgos, ES-CL, ES",
+    "date": "2022-01-23"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 682560705,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/682560705/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/682560705/large.jpg",
+    "attribution": "(c) Pablo Pozo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/373481134",
+    "place": "Comunidad de Madrid, ES-MD-MD, ES",
+    "date": "2026-06-19"
+   },
+   {
+    "id": 323522837,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/323522837/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/323522837/large.jpg",
+    "attribution": "(c) nathanbouvier, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/185257435",
+    "place": "Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, FR",
+    "date": "2023-09-24"
+   },
+   {
+    "id": 728502487,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/728502487/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/728502487/large.jpg",
+    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/397210971",
+    "place": "Comunidad Valenciana, ES",
+    "date": "2003-06-17"
+   }
+  ],
+  "hero": {
+   "id": 63102844,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/63102844/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/63102844/large.jpg",
+   "attribution": "(c) Ximo Galarza, some rights reserved (CC BY-NC-SA)",
+   "license": "cc-by-nc-sa",
+   "source": "https://www.inaturalist.org/photos/63102844",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 7341500,
+  "dkTotal": 1,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 211156,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 136810
+   },
+   {
+    "code": "PT",
+    "count": 51119
+   },
+   {
+    "code": "FR",
+    "count": 22340
+   },
+   {
+    "code": "IN",
+    "count": 284
+   },
+   {
+    "code": "SN",
+    "count": 57
+   },
+   {
+    "code": "TN",
+    "count": 53
+   },
+   {
+    "code": "IT",
+    "count": 43
+   },
+   {
+    "code": "NG",
+    "count": 42
+   },
+   {
+    "code": "MA",
+    "count": 39
+   },
+   {
+    "code": "DZ",
+    "count": 35
+   },
+   {
+    "code": "YE",
+    "count": 34
+   },
+   {
+    "code": "DJ",
+    "count": 32
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/975928/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Gonzalo Peña Sánchez",
+  "page": "https://xeno-canto.org/975928",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Laniidae",
+  "familyKey": 9315,
+  "familyDa": "Tornskader",
+  "order": "Passeriformes"
+ }
+}

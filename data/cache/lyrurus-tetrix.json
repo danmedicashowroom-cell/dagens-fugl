@@ -146,23 +146,23 @@
    18,
    13
   ],
-  "worldTotal": 433246,
+  "worldTotal": 433627,
   "topCountries": [
    {
     "code": "SE",
-    "count": 167475
+    "count": 167575
    },
    {
     "code": "FI",
-    "count": 72740
+    "count": 72809
    },
    {
     "code": "NO",
-    "count": 57028
+    "count": 57139
    },
    {
     "code": "FR",
-    "count": 35631
+    "count": 35632
    },
    {
     "code": "CH",
@@ -170,7 +170,7 @@
    },
    {
     "code": "GB",
-    "count": 17391
+    "count": 17392
    },
    {
     "code": "EE",
@@ -178,19 +178,19 @@
    },
    {
     "code": "NL",
-    "count": 10712
+    "count": 10722
    },
    {
     "code": "RU",
-    "count": 9541
+    "count": 9576
    },
    {
     "code": "DE",
-    "count": 4628
+    "count": 4630
    },
    {
     "code": "AT",
-    "count": 3226
+    "count": 3273
    },
    {
     "code": "BE",
@@ -220,5 +220,6 @@
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:19.610Z"
 }

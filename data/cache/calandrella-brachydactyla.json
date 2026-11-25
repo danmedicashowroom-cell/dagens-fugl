@@ -85,23 +85,23 @@
    16,
    0
   ],
-  "worldTotal": 130363,
+  "worldTotal": 130380,
   "topCountries": [
    {
     "code": "ES",
-    "count": 45641
+    "count": 45642
    },
    {
     "code": "IN",
-    "count": 15652
+    "count": 15655
    },
    {
     "code": "PT",
-    "count": 9750
+    "count": 9754
    },
    {
     "code": "FR",
-    "count": 8619
+    "count": 8620
    },
    {
     "code": "IL",
@@ -113,11 +113,11 @@
    },
    {
     "code": "SE",
-    "count": 4337
+    "count": 4343
    },
    {
     "code": "MA",
-    "count": 3172
+    "count": 3171
    },
    {
     "code": "GR",
@@ -159,5 +159,6 @@
   "familyKey": 7211,
   "familyDa": "Lærker",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:55.766Z"
 }

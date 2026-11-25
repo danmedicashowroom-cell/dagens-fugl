@@ -55,15 +55,15 @@
    0,
    0
   ],
-  "worldTotal": 251767,
+  "worldTotal": 251847,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 190037
+    "count": 190115
    },
    {
     "code": "NA",
-    "count": 26163
+    "count": 26165
    },
    {
     "code": "ZW",
@@ -71,7 +71,7 @@
    },
    {
     "code": "BW",
-    "count": 13609
+    "count": 13611
    },
    {
     "code": "ZM",
@@ -128,5 +128,6 @@
   "familyKey": 5258,
   "familyDa": "Turakoer",
   "order": "Musophagiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:44.968Z"
 }

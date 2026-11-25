@@ -146,39 +146,39 @@
    0,
    0
   ],
-  "worldTotal": 507635,
+  "worldTotal": 507745,
   "topCountries": [
    {
     "code": "US",
-    "count": 329401
+    "count": 329472
    },
    {
     "code": "AR",
-    "count": 38936
+    "count": 38950
    },
    {
     "code": "BR",
-    "count": 34348
+    "count": 34354
    },
    {
     "code": "MX",
-    "count": 15339
+    "count": 15343
    },
    {
     "code": "CO",
-    "count": 15171
+    "count": 15173
    },
    {
     "code": "BZ",
-    "count": 12632
+    "count": 12637
    },
    {
     "code": "CR",
-    "count": 8711
+    "count": 8714
    },
    {
     "code": "EC",
-    "count": 6056
+    "count": 6057
    },
    {
     "code": "PY",
@@ -220,5 +220,6 @@
   "familyKey": 7514,
   "familyDa": null,
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:59.822Z"
 }

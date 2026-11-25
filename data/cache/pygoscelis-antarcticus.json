@@ -116,7 +116,7 @@
    0,
    0
   ],
-  "worldTotal": 15430,
+  "worldTotal": 15420,
   "topCountries": [
    {
     "code": "AQ",
@@ -124,7 +124,7 @@
    },
    {
     "code": "GS",
-    "count": 1110
+    "count": 1106
    },
    {
     "code": "ZZ",
@@ -155,12 +155,12 @@
     "count": 17
    },
    {
-    "code": "JP",
-    "count": 14
-   },
-   {
     "code": "NO",
     "count": 10
+   },
+   {
+    "code": "JP",
+    "count": 8
    },
    {
     "code": "CA",
@@ -190,5 +190,6 @@
   "familyKey": 5284,
   "familyDa": "Pingvin",
   "order": "Sphenisciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:49.630Z"
 }

@@ -105,19 +105,19 @@
    0,
    0
   ],
-  "worldTotal": 204506,
+  "worldTotal": 204565,
   "topCountries": [
    {
     "code": "IN",
-    "count": 163712
+    "count": 163743
    },
    {
     "code": "TH",
-    "count": 15557
+    "count": 15568
    },
    {
     "code": "LK",
-    "count": 14880
+    "count": 14896
    },
    {
     "code": "KH",
@@ -125,7 +125,7 @@
    },
    {
     "code": "MY",
-    "count": 2822
+    "count": 2823
    },
    {
     "code": "SG",
@@ -179,5 +179,6 @@
   "familyKey": 9289,
   "familyDa": "Storke",
   "order": "Ciconiiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:27.947Z"
 }

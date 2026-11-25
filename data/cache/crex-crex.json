@@ -100,7 +100,7 @@
  },
  "gbif": {
   "key": 4408498,
-  "dkTotal": 10487,
+  "dkTotal": 10488,
   "dkMonths": [
    4,
    0,
@@ -111,11 +111,11 @@
    2296,
    189,
    66,
-   22,
+   23,
    2,
    0
   ],
-  "worldTotal": 295021,
+  "worldTotal": 295230,
   "topCountries": [
    {
     "code": "GB",
@@ -123,7 +123,7 @@
    },
    {
     "code": "SE",
-    "count": 89558
+    "count": 89575
    },
    {
     "code": "EE",
@@ -131,23 +131,23 @@
    },
    {
     "code": "FI",
-    "count": 11522
+    "count": 11524
    },
    {
     "code": "NO",
-    "count": 11372
+    "count": 11373
    },
    {
     "code": "RU",
-    "count": 10995
+    "count": 11000
    },
    {
     "code": "DK",
-    "count": 10487
+    "count": 10488
    },
    {
     "code": "NL",
-    "count": 8724
+    "count": 8725
    },
    {
     "code": "PL",
@@ -189,5 +189,6 @@
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:20.230Z"
 }

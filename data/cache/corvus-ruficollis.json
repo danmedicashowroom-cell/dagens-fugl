@@ -1,0 +1,165 @@
+{
+ "key": "corvus-ruficollis",
+ "name": "Corvus ruficollis",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:16:59.700Z",
+ "gbifAt": "2026-11-25T22:16:59.700Z",
+ "names": {
+  "da": "Ørkenravn",
+  "en": "Brown-necked Raven",
+  "accepted": "Corvus ruficollis"
+ },
+ "wikidata": {
+  "id": "Q420818"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Brown-necked raven",
+  "extract": "The brown-necked raven is a larger bird than the carrion crow though not as large as the common raven. It has similar proportions to the common raven but the bill is not so large or deep and the wings tend to be a little more pointed in profile. The head and throat are a distinct brownish-black giving the bird its English name, while the rest of the plumage is black glossed with purple, blue or purplish-blue. Like the common raven, thick-billed raven and white-necked raven, it is one of the larger raven species. The feathers of this species often fade quite quickly to a brownish black and the bird can look distinctly brown by the time it moults. The feet, legs and bill are black. The dwarf raven was formerly considered a subspecies but this bird now appears to be closer to the pied crow than this species.",
+  "url": "https://en.wikipedia.org/wiki/Brown-necked_raven"
+ },
+ "inat": {
+  "id": 8034,
+  "observations": 1398
+ },
+ "photos": {
+  "male": [],
+  "female": [],
+  "juvenile": [],
+  "adult": [
+   {
+    "id": 598548290,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/598548290/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/598548290/large.jpg",
+    "attribution": "(c) Theodore, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/330122628",
+    "place": "Lots Cisterns, Negev Highlands, Israel",
+    "date": "2025-11-28"
+   },
+   {
+    "id": 456389076,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/456389076/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/456389076/large.jpg",
+    "attribution": "(c) miguelleal, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/254755988",
+    "place": "Santo Antão, Cabo Verde, CV",
+    "date": "2024-12-05"
+   },
+   {
+    "id": 58946805,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58946805/medium.png",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58946805/large.png",
+    "attribution": "(c) Karim Haddad, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/37207701",
+    "place": "Hassi Gara, Algérie",
+    "date": "2019-12-22"
+   }
+  ],
+  "hero": {
+   "id": 91401836,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/91401836/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/91401836/large.jpeg",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/91401836",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2482479,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 52360,
+  "topCountries": [
+   {
+    "code": "IL",
+    "count": 23112
+   },
+   {
+    "code": "AE",
+    "count": 8069
+   },
+   {
+    "code": "MA",
+    "count": 4830
+   },
+   {
+    "code": "EG",
+    "count": 3270
+   },
+   {
+    "code": "OM",
+    "count": 2849
+   },
+   {
+    "code": "CV",
+    "count": 2420
+   },
+   {
+    "code": "SA",
+    "count": 1569
+   },
+   {
+    "code": "JO",
+    "count": 1381
+   },
+   {
+    "code": "PS",
+    "count": 910
+   },
+   {
+    "code": "EH",
+    "count": 647
+   },
+   {
+    "code": "DZ",
+    "count": 630
+   },
+   {
+    "code": "MR",
+    "count": 509
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1098279/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/1098279",
+  "type": "call, song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Corvidae",
+  "familyKey": 5235,
+  "familyDa": "Kragefugle",
+  "order": "Passeriformes"
+ }
+}

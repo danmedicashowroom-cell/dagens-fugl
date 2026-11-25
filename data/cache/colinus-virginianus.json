@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 476042,
+  "worldTotal": 476030,
   "topCountries": [
    {
     "code": "US",
-    "count": 458991
+    "count": 458989
    },
    {
     "code": "MX",
-    "count": 10076
+    "count": 10075
    },
    {
     "code": "CU",
-    "count": 1998
+    "count": 1997
    },
    {
     "code": "CA",
@@ -220,5 +220,6 @@
   "familyKey": 9325,
   "familyDa": "Tandvagtler",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:05.968Z"
 }

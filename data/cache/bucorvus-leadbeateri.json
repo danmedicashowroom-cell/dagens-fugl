@@ -146,19 +146,19 @@
    0,
    0
   ],
-  "worldTotal": 51725,
+  "worldTotal": 51741,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 28876
+    "count": 28890
    },
    {
     "code": "TZ",
-    "count": 5689
+    "count": 5688
    },
    {
     "code": "KE",
-    "count": 4532
+    "count": 4534
    },
    {
     "code": "BW",
@@ -170,7 +170,7 @@
    },
    {
     "code": "ZM",
-    "count": 3035
+    "count": 3037
    },
    {
     "code": "MZ",
@@ -220,5 +220,6 @@
   "familyKey": 5704,
   "familyDa": null,
   "order": "Bucerotiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:35.086Z"
 }

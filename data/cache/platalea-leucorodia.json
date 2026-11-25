@@ -111,70 +111,70 @@
  },
  "gbif": {
   "key": 2480801,
-  "dkTotal": 50765,
+  "dkTotal": 50770,
   "dkMonths": [
    84,
    264,
    2106,
    5223,
-   10060,
+   10061,
    7611,
    10532,
-   9709,
-   4692,
-   215,
+   9711,
+   4693,
+   216,
    164,
    73
   ],
-  "worldTotal": 1350208,
+  "worldTotal": 1350676,
   "topCountries": [
    {
     "code": "NL",
-    "count": 646792
+    "count": 647078
    },
    {
     "code": "ES",
-    "count": 152423
+    "count": 152457
    },
    {
     "code": "FR",
-    "count": 117469
+    "count": 117478
    },
    {
     "code": "BE",
-    "count": 81765
+    "count": 81767
    },
    {
     "code": "PT",
-    "count": 61535
+    "count": 61552
    },
    {
     "code": "IN",
-    "count": 60756
+    "count": 60763
    },
    {
     "code": "DK",
-    "count": 50765
+    "count": 50770
    },
    {
     "code": "GB",
-    "count": 45870
+    "count": 45879
    },
    {
     "code": "IL",
-    "count": 12494
+    "count": 12501
    },
    {
     "code": "CN",
-    "count": 9852
+    "count": 9859
    },
    {
     "code": "SE",
-    "count": 9549
+    "count": 9545
    },
    {
     "code": "TW",
-    "count": 9339
+    "count": 9344
    }
   ]
  },
@@ -200,5 +200,6 @@
   "familyKey": 5288,
   "familyDa": "Ibiser & skestorke",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:02.985Z"
 }

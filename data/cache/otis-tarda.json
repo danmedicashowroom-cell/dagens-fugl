@@ -126,19 +126,19 @@
    0,
    0
   ],
-  "worldTotal": 64525,
+  "worldTotal": 64555,
   "topCountries": [
    {
     "code": "ES",
-    "count": 43867
+    "count": 43873
    },
    {
     "code": "PT",
-    "count": 7102
+    "count": 7104
    },
    {
     "code": "DE",
-    "count": 3083
+    "count": 3090
    },
    {
     "code": "NL",
@@ -146,19 +146,19 @@
    },
    {
     "code": "HU",
-    "count": 2059
+    "count": 2061
    },
    {
     "code": "UA",
-    "count": 1443
+    "count": 1451
    },
    {
     "code": "AT",
-    "count": 1086
+    "count": 1091
    },
    {
     "code": "CN",
-    "count": 752
+    "count": 754
    },
    {
     "code": "GB",
@@ -200,5 +200,6 @@
   "familyKey": 9610,
   "familyDa": "Trapper",
   "order": "Otidiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:13.437Z"
 }

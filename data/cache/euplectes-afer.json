@@ -1,0 +1,195 @@
+{
+ "key": "euplectes-afer",
+ "name": "Euplectes afer",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:14:29.279Z",
+ "gbifAt": "2026-11-25T22:14:29.279Z",
+ "names": {
+  "da": "Napoleonsvæver",
+  "en": "Yellow-crowned Bishop",
+  "accepted": "Euplectes afer"
+ },
+ "wikidata": {
+  "id": "Q1300963"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Yellow-crowned bishop",
+  "extract": "The yellow-crowned bishop is a species of passerine bird in the family Ploceidae native to Africa south of the Sahara. It is highly sexually dimorphic in its breeding season, during which the male adopts a distinctive yellow and black plumage, contrasting with the female's predominantly brown coloration. Four subspecies are recognised.",
+  "url": "https://en.wikipedia.org/wiki/Yellow-crowned_bishop"
+ },
+ "inat": {
+  "id": 13974,
+  "observations": 1447
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 112342070,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/112342070/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/112342070/large.jpeg",
+    "attribution": "(c) marcomtr, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/69256270",
+    "place": "3865 Salreu, Portugal",
+    "date": "2020-07-15"
+   },
+   {
+    "id": 623916473,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/623916473/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/623916473/large.jpg",
+    "attribution": "(c) Ray Duffy, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/342595206",
+    "place": "Alcochete, Portugal",
+    "date": "2024-10-01"
+   },
+   {
+    "id": 520492486,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/520492486/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/520492486/large.jpg",
+    "attribution": "(c) Pedro Nicolau, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/289387017",
+    "place": "Caia, São Pedro e Alcáçova, 7350 Elvas, Portugal",
+    "date": "2025-06-13"
+   }
+  ],
+  "female": [
+   {
+    "id": 238805509,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/238805509/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/238805509/large.jpeg",
+    "attribution": "(c) Felix Riegel, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/139603086",
+    "place": "R103 s.Mooibult, Fezile Dabi, Free State, South Africa",
+    "date": "2022-01-20"
+   },
+   {
+    "id": 216858864,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/216858864/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/216858864/large.jpeg",
+    "attribution": "(c) Cristina Girão Vieira, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/127719547",
+    "place": "Vila Franca de Xira, Portugal",
+    "date": "2022-07-23"
+   },
+   {
+    "id": 243249137,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/243249137/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/243249137/large.jpeg",
+    "attribution": "(c) Cristina Girão Vieira, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/141930338",
+    "place": "Vila Franca de Xira, Portugal",
+    "date": "2022-11-12"
+   }
+  ],
+  "juvenile": [],
+  "hero": {
+   "id": 23872330,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/23872330/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/23872330/large.jpg",
+   "attribution": "(c) John G. Phillips, some rights reserved (CC BY), uploaded by John G. Phillips",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/23872330",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2494097,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 77058,
+  "topCountries": [
+   {
+    "code": "ZA",
+    "count": 43394
+   },
+   {
+    "code": "ES",
+    "count": 13545
+   },
+   {
+    "code": "PT",
+    "count": 12493
+   },
+   {
+    "code": "KE",
+    "count": 1250
+   },
+   {
+    "code": "GM",
+    "count": 564
+   },
+   {
+    "code": "NA",
+    "count": 535
+   },
+   {
+    "code": "BW",
+    "count": 465
+   },
+   {
+    "code": "NG",
+    "count": 461
+   },
+   {
+    "code": "PR",
+    "count": 404
+   },
+   {
+    "code": "SN",
+    "count": 370
+   },
+   {
+    "code": "BJ",
+    "count": 270
+   },
+   {
+    "code": "ET",
+    "count": 256
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/810349/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Oliver Fowler",
+  "page": "https://xeno-canto.org/810349",
+  "type": "flight call, song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Ploceidae",
+  "familyKey": 9336,
+  "familyDa": "Væverfugle",
+  "order": "Passeriformes"
+ }
+}

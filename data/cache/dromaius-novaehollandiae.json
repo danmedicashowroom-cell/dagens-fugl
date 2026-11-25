@@ -146,11 +146,11 @@
    0,
    0
   ],
-  "worldTotal": 168443,
+  "worldTotal": 168490,
   "topCountries": [
    {
     "code": "AU",
-    "count": 167002
+    "count": 167049
    },
    {
     "code": "NZ",
@@ -174,7 +174,7 @@
    },
    {
     "code": "JP",
-    "count": 31
+    "count": 26
    },
    {
     "code": "ZA",
@@ -220,5 +220,6 @@
   "familyKey": 5239,
   "familyDa": "Emu",
   "order": "Casuariiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:30.627Z"
 }

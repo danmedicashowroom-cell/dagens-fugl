@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 2480726,
-  "dkTotal": 136906,
+  "dkTotal": 136918,
   "dkMonths": [
    3,
    3,
    2872,
    42858,
-   22657,
+   22659,
    5423,
-   6361,
-   27785,
-   27651,
+   6362,
+   27788,
+   27656,
    1005,
-   220,
+   221,
    6
   ],
-  "worldTotal": 7397273,
+  "worldTotal": 7398142,
   "topCountries": [
    {
     "code": "US",
-    "count": 5174774
+    "count": 5175072
    },
    {
     "code": "CA",
-    "count": 492861
+    "count": 492870
    },
    {
     "code": "SE",
-    "count": 417378
+    "count": 417463
    },
    {
     "code": "DK",
-    "count": 136906
+    "count": 136918
    },
    {
     "code": "AU",
-    "count": 105583
+    "count": 105670
    },
    {
     "code": "FI",
-    "count": 91354
+    "count": 91358
    },
    {
     "code": "MX",
-    "count": 85740
+    "count": 85774
    },
    {
     "code": "NL",
-    "count": 79361
+    "count": 79506
    },
    {
     "code": "TW",
-    "count": 59529
+    "count": 59542
    },
    {
     "code": "ES",
-    "count": 57585
+    "count": 57598
    },
    {
     "code": "NO",
-    "count": 54496
+    "count": 54501
    },
    {
     "code": "FR",
-    "count": 50595
+    "count": 50597
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 4408414,
   "familyDa": "Fiskeørne",
   "order": "Accipitriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:16.245Z"
 }

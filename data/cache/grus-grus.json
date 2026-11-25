@@ -131,66 +131,66 @@
  },
  "gbif": {
   "key": 2474950,
-  "dkTotal": 222300,
+  "dkTotal": 222468,
   "dkMonths": [
    4088,
    10811,
-   53839,
-   48017,
-   36142,
+   53840,
+   48021,
+   36143,
    11189,
-   10893,
+   10895,
    13811,
-   13552,
-   13500,
-   3821,
+   13554,
+   13514,
+   3965,
    2529
   ],
-  "worldTotal": 2572488,
+  "worldTotal": 2573546,
   "topCountries": [
    {
     "code": "SE",
-    "count": 913991
+    "count": 914085
    },
    {
     "code": "DE",
-    "count": 268620
+    "count": 268806
    },
    {
     "code": "DK",
-    "count": 222300
+    "count": 222468
    },
    {
     "code": "NO",
-    "count": 160063
+    "count": 160147
    },
    {
     "code": "FR",
-    "count": 154935
+    "count": 155033
    },
    {
     "code": "EE",
-    "count": 120849
+    "count": 120853
    },
    {
     "code": "NL",
-    "count": 110073
+    "count": 110295
    },
    {
     "code": "ES",
-    "count": 99549
+    "count": 99586
    },
    {
     "code": "FI",
-    "count": 86399
+    "count": 86404
    },
    {
     "code": "PL",
-    "count": 77774
+    "count": 77795
    },
    {
     "code": "HU",
-    "count": 64453
+    "count": 64459
    },
    {
     "code": "ET",
@@ -220,5 +220,6 @@
   "familyKey": 9313,
   "familyDa": "Traner",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:24.463Z"
 }

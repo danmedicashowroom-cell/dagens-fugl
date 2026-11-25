@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 28994,
+  "worldTotal": 29005,
   "topCountries": [
    {
     "code": "IN",
-    "count": 11920
+    "count": 11932
    },
    {
     "code": "TH",
-    "count": 9962
+    "count": 9960
    },
    {
     "code": "MY",
@@ -162,11 +162,11 @@
    },
    {
     "code": "BT",
-    "count": 1688
+    "count": 1689
    },
    {
     "code": "KH",
-    "count": 1369
+    "count": 1370
    },
    {
     "code": "NP",
@@ -178,15 +178,15 @@
    },
    {
     "code": "CN",
-    "count": 317
+    "count": 318
    },
    {
     "code": "MM",
-    "count": 270
+    "count": 271
    },
    {
     "code": "ID",
-    "count": 145
+    "count": 144
    },
    {
     "code": "SG",
@@ -220,5 +220,6 @@
   "familyKey": 9720,
   "familyDa": "Næsehornsfugle",
   "order": "Bucerotiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:22:09.730Z"
 }

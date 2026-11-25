@@ -131,30 +131,30 @@
  },
  "gbif": {
   "key": 7745240,
-  "dkTotal": 100788,
+  "dkTotal": 100798,
   "dkMonths": [
    8,
    4,
    3,
    57,
-   28764,
-   24317,
+   28769,
+   24318,
    23288,
-   19262,
-   4276,
+   19265,
+   4277,
    182,
    13,
    35
   ],
-  "worldTotal": 1465457,
+  "worldTotal": 1467051,
   "topCountries": [
    {
     "code": "SE",
-    "count": 295600
+    "count": 295818
    },
    {
     "code": "FR",
-    "count": 200072
+    "count": 200074
    },
    {
     "code": "CH",
@@ -162,31 +162,31 @@
    },
    {
     "code": "DK",
-    "count": 100788
+    "count": 100798
    },
    {
     "code": "NL",
-    "count": 87155
+    "count": 87163
    },
    {
     "code": "DE",
-    "count": 79847
+    "count": 81055
    },
    {
     "code": "ZA",
-    "count": 66781
+    "count": 66790
    },
    {
     "code": "FI",
-    "count": 58817
+    "count": 58819
    },
    {
     "code": "NO",
-    "count": 40574
+    "count": 40584
    },
    {
     "code": "PL",
-    "count": 35997
+    "count": 35998
    },
    {
     "code": "ES",
@@ -194,7 +194,7 @@
    },
    {
     "code": "TR",
-    "count": 26795
+    "count": 26802
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9315,
   "familyDa": "Tornskader",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:19:37.043Z"
 }

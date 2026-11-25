@@ -100,70 +100,70 @@
  },
  "gbif": {
   "key": 2481714,
-  "dkTotal": 281541,
+  "dkTotal": 281670,
   "dkMonths": [
    13845,
-   9240,
-   16514,
-   48652,
-   46034,
-   26949,
-   37585,
-   39879,
-   16815,
-   10311,
-   7593,
-   8011
+   9241,
+   16520,
+   48657,
+   46043,
+   26957,
+   37586,
+   39885,
+   16823,
+   10317,
+   7669,
+   8014
   ],
-  "worldTotal": 2929203,
+  "worldTotal": 2931433,
   "topCountries": [
    {
     "code": "NL",
-    "count": 561184
+    "count": 561513
    },
    {
     "code": "SE",
-    "count": 521385
+    "count": 521486
    },
    {
     "code": "GB",
-    "count": 461974
+    "count": 462055
    },
    {
     "code": "DK",
-    "count": 281541
+    "count": 281670
    },
    {
     "code": "NO",
-    "count": 238915
+    "count": 239094
    },
    {
     "code": "ES",
-    "count": 123708
+    "count": 123734
    },
    {
     "code": "FR",
-    "count": 112823
+    "count": 112836
    },
    {
     "code": "BE",
-    "count": 70379
+    "count": 70380
    },
    {
     "code": "IN",
-    "count": 55330
+    "count": 55336
    },
    {
     "code": "TW",
-    "count": 54563
+    "count": 54572
    },
    {
     "code": "PT",
-    "count": 54531
+    "count": 54560
    },
    {
     "code": "IS",
-    "count": 47014
+    "count": 47016
    }
   ]
  },
@@ -189,5 +189,6 @@
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:42.588Z"
 }

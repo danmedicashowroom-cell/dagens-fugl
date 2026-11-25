@@ -146,15 +146,15 @@
    4,
    4
   ],
-  "worldTotal": 420777,
+  "worldTotal": 420877,
   "topCountries": [
    {
     "code": "SE",
-    "count": 162517
+    "count": 162552
    },
    {
     "code": "FI",
-    "count": 69663
+    "count": 69672
    },
    {
     "code": "IN",
@@ -162,11 +162,11 @@
    },
    {
     "code": "RU",
-    "count": 27328
+    "count": 27347
    },
    {
     "code": "NO",
-    "count": 22684
+    "count": 22689
    },
    {
     "code": "DK",
@@ -182,11 +182,11 @@
    },
    {
     "code": "NL",
-    "count": 9967
+    "count": 9968
    },
    {
     "code": "CN",
-    "count": 6330
+    "count": 6333
    },
    {
     "code": "CH",
@@ -220,5 +220,6 @@
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:50.622Z"
 }

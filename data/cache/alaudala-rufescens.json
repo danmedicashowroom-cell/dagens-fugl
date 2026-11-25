@@ -1,0 +1,165 @@
+{
+ "key": "alaudala-rufescens",
+ "name": "Alaudala rufescens",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:11:44.570Z",
+ "gbifAt": "2026-11-25T22:11:44.570Z",
+ "names": {
+  "da": "Dværglærke",
+  "en": null,
+  "accepted": "Alaudala rufescens"
+ },
+ "wikidata": {
+  "id": "Q27075424"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Mediterranean short-toed lark",
+  "extract": "The Mediterranean short-toed lark is a small passerine bird found in and around the Mediterranean Basin. It is a common bird with a very wide range from Canary Islands north to the Iberian Peninsula and east throughout North Africa to parts of the Middle East. The International Union for Conservation of Nature has rated its conservation status as being of \"least concern\".",
+  "url": "https://en.wikipedia.org/wiki/Mediterranean_short-toed_lark"
+ },
+ "inat": {
+  "id": 546379,
+  "observations": 719
+ },
+ "photos": {
+  "male": [],
+  "female": [],
+  "juvenile": [],
+  "adult": [
+   {
+    "id": 253763860,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/253763860/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/253763860/large.jpeg",
+    "attribution": "(c) Olivier Benoist, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/147470724",
+    "place": "38260 Gillonnay, France",
+    "date": "2017-04-28"
+   },
+   {
+    "id": 343288043,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/343288043/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/343288043/large.jpeg",
+    "attribution": "(c) Jeremy Barker, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/195175184",
+    "place": "30849 Alhama de Murcia, Murcia, Spain",
+    "date": "2023-12-29"
+   },
+   {
+    "id": 756730413,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/756730413/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/756730413/large.jpg",
+    "attribution": "(c) Sam Darmstadt, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/411357583",
+    "place": "Las Palmas, ES-CN, ES",
+    "date": "2026-04-16"
+   }
+  ],
+  "hero": {
+   "id": 77058327,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/77058327/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/77058327/large.jpeg",
+   "attribution": "(c) Mourad Harzallah, some rights reserved (CC BY), uploaded by Mourad Harzallah",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/77058327",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2490682,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 37780,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 25620
+   },
+   {
+    "code": "TR",
+    "count": 1975
+   },
+   {
+    "code": "MA",
+    "count": 1694
+   },
+   {
+    "code": "KZ",
+    "count": 1196
+   },
+   {
+    "code": "AZ",
+    "count": 938
+   },
+   {
+    "code": "IL",
+    "count": 884
+   },
+   {
+    "code": "IR",
+    "count": 691
+   },
+   {
+    "code": "RU",
+    "count": 638
+   },
+   {
+    "code": "AE",
+    "count": 520
+   },
+   {
+    "code": "PT",
+    "count": 501
+   },
+   {
+    "code": "GE",
+    "count": 439
+   },
+   {
+    "code": "KW",
+    "count": 373
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/730387/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/730387",
+  "type": "call, imitation, song, imitation of greater short-toed lark ?, mimicry/imitation",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Alaudidae",
+  "familyKey": 7211,
+  "familyDa": "Lærker",
+  "order": "Passeriformes"
+ }
+}

@@ -105,11 +105,11 @@
    0,
    0
   ],
-  "worldTotal": 52057,
+  "worldTotal": 52062,
   "topCountries": [
    {
     "code": "BR",
-    "count": 18152
+    "count": 18159
    },
    {
     "code": "CO",
@@ -179,5 +179,6 @@
   "familyKey": 5255,
   "familyDa": null,
   "order": "Coraciiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:11.389Z"
 }

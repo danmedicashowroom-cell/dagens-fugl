@@ -101,7 +101,7 @@
  },
  "gbif": {
   "key": 4408455,
-  "dkTotal": 504,
+  "dkTotal": 506,
   "dkMonths": [
    7,
    1,
@@ -113,10 +113,10 @@
    138,
    88,
    153,
-   41,
+   42,
    12
   ],
-  "worldTotal": 112457,
+  "worldTotal": 112482,
   "topCountries": [
    {
     "code": "ES",
@@ -128,19 +128,19 @@
    },
    {
     "code": "IE",
-    "count": 14358
+    "count": 14359
    },
    {
     "code": "FR",
-    "count": 6553
+    "count": 6566
    },
    {
     "code": "PT",
-    "count": 6236
+    "count": 6237
    },
    {
     "code": "NO",
-    "count": 5636
+    "count": 5642
    },
    {
     "code": "FO",
@@ -152,7 +152,7 @@
    },
    {
     "code": "SE",
-    "count": 664
+    "count": 667
    },
    {
     "code": "ZA",
@@ -160,7 +160,7 @@
    },
    {
     "code": "DK",
-    "count": 504
+    "count": 506
    },
    {
     "code": "NL",
@@ -190,5 +190,6 @@
   "familyKey": 5249,
   "familyDa": "Stormsvaler",
   "order": "Procellariiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:51.999Z"
 }

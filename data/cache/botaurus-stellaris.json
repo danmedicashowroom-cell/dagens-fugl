@@ -131,46 +131,46 @@
  },
  "gbif": {
   "key": 2480910,
-  "dkTotal": 65522,
+  "dkTotal": 65531,
   "dkMonths": [
    1740,
    3394,
    9541,
-   20180,
+   20181,
    19405,
    6300,
    1451,
    771,
-   644,
+   645,
    714,
-   522,
-   724
+   528,
+   725
   ],
-  "worldTotal": 493570,
+  "worldTotal": 493753,
   "topCountries": [
    {
     "code": "SE",
-    "count": 162417
+    "count": 162435
    },
    {
     "code": "NL",
-    "count": 82021
+    "count": 82104
    },
    {
     "code": "DK",
-    "count": 65522
+    "count": 65531
    },
    {
     "code": "GB",
-    "count": 42796
+    "count": 42800
    },
    {
     "code": "FR",
-    "count": 22260
+    "count": 22289
    },
    {
     "code": "BE",
-    "count": 21665
+    "count": 21677
    },
    {
     "code": "LV",
@@ -178,7 +178,7 @@
    },
    {
     "code": "FI",
-    "count": 11959
+    "count": 11963
    },
    {
     "code": "PL",
@@ -190,11 +190,11 @@
    },
    {
     "code": "DE",
-    "count": 5945
+    "count": 5951
    },
    {
     "code": "RU",
-    "count": 5133
+    "count": 5137
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:56.527Z"
 }

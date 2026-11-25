@@ -95,11 +95,11 @@
    0,
    0
   ],
-  "worldTotal": 55383,
+  "worldTotal": 55388,
   "topCountries": [
    {
     "code": "US",
-    "count": 50372
+    "count": 50374
    },
    {
     "code": "CA",
@@ -107,7 +107,7 @@
    },
    {
     "code": "RU",
-    "count": 1685
+    "count": 1688
    },
    {
     "code": "ZZ",
@@ -156,5 +156,6 @@
   "familyKey": 2985,
   "familyDa": "Alkefugl",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:34.767Z"
 }

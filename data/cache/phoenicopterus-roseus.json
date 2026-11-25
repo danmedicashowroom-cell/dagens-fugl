@@ -146,55 +146,55 @@
    3,
    3
   ],
-  "worldTotal": 546269,
+  "worldTotal": 546523,
   "topCountries": [
    {
     "code": "ES",
-    "count": 150658
+    "count": 150696
    },
    {
     "code": "FR",
-    "count": 132479
+    "count": 132507
    },
    {
     "code": "PT",
-    "count": 52451
+    "count": 52470
    },
    {
     "code": "IN",
-    "count": 31598
+    "count": 31612
    },
    {
     "code": "ZA",
-    "count": 21393
+    "count": 21411
    },
    {
     "code": "IT",
-    "count": 20238
+    "count": 20251
    },
    {
     "code": "AE",
-    "count": 18165
+    "count": 18170
    },
    {
     "code": "NL",
-    "count": 16743
+    "count": 16767
    },
    {
     "code": "GR",
-    "count": 16723
+    "count": 16731
    },
    {
     "code": "IL",
-    "count": 14444
+    "count": 14446
    },
    {
     "code": "TR",
-    "count": 13897
+    "count": 13900
    },
    {
     "code": "KE",
-    "count": 5991
+    "count": 5999
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 5269,
   "familyDa": null,
   "order": "Phoenicopteriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:25.955Z"
 }

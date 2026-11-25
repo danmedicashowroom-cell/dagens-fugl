@@ -146,15 +146,15 @@
    0,
    0
   ],
-  "worldTotal": 5236480,
+  "worldTotal": 5236724,
   "topCountries": [
    {
     "code": "US",
-    "count": 4542010
+    "count": 4542180
    },
    {
     "code": "CA",
-    "count": 693990
+    "count": 694064
    },
    {
     "code": "ZZ",
@@ -216,5 +216,6 @@
   "familyKey": 9333,
   "familyDa": "Spætter",
   "order": "Piciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:08.827Z"
 }

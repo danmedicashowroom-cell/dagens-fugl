@@ -131,54 +131,54 @@
  },
  "gbif": {
   "key": 2480259,
-  "dkTotal": 130751,
+  "dkTotal": 130784,
   "dkMonths": [
    103,
    261,
-   11575,
-   26948,
-   31232,
-   21350,
+   11579,
+   26950,
+   31242,
+   21356,
    19666,
    11655,
-   4305,
-   2476,
-   767,
+   4307,
+   2478,
+   774,
    79
   ],
-  "worldTotal": 1286048,
+  "worldTotal": 1286651,
   "topCountries": [
    {
     "code": "NL",
-    "count": 367059
+    "count": 367197
    },
    {
     "code": "SE",
-    "count": 175529
+    "count": 175584
    },
    {
     "code": "GB",
-    "count": 142936
+    "count": 142945
    },
    {
     "code": "DK",
-    "count": 130751
+    "count": 130784
    },
    {
     "code": "FR",
-    "count": 96720
+    "count": 96731
    },
    {
     "code": "ES",
-    "count": 82739
+    "count": 82750
    },
    {
     "code": "TW",
-    "count": 43989
+    "count": 44000
    },
    {
     "code": "ZA",
-    "count": 42868
+    "count": 42877
    },
    {
     "code": "BE",
@@ -186,15 +186,15 @@
    },
    {
     "code": "PT",
-    "count": 27586
+    "count": 27594
    },
    {
     "code": "IN",
-    "count": 16270
+    "count": 16274
    },
    {
     "code": "CN",
-    "count": 12896
+    "count": 12909
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 4287244,
   "familyDa": "Stylteløbere & klyder",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:18:25.512Z"
 }

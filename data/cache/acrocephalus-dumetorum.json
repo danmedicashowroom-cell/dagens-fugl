@@ -136,23 +136,23 @@
    0,
    0
   ],
-  "worldTotal": 335737,
+  "worldTotal": 335794,
   "topCountries": [
    {
     "code": "IN",
-    "count": 219511
+    "count": 219516
    },
    {
     "code": "SE",
-    "count": 34818
+    "count": 34830
    },
    {
     "code": "FI",
-    "count": 26550
+    "count": 26553
    },
    {
     "code": "RU",
-    "count": 21827
+    "count": 21843
    },
    {
     "code": "EE",
@@ -160,7 +160,7 @@
    },
    {
     "code": "NL",
-    "count": 5362
+    "count": 5363
    },
    {
     "code": "LK",
@@ -176,11 +176,11 @@
    },
    {
     "code": "NP",
-    "count": 1550
+    "count": 1552
    },
    {
     "code": "KZ",
-    "count": 1472
+    "count": 1489
    },
    {
     "code": "BD",
@@ -210,5 +210,6 @@
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:20:14.229Z"
 }

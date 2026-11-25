@@ -131,11 +131,11 @@
    0,
    0
   ],
-  "worldTotal": 174008,
+  "worldTotal": 174035,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 150056
+    "count": 150083
    },
    {
     "code": "ZW",
@@ -205,5 +205,6 @@
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:21:56.110Z"
 }

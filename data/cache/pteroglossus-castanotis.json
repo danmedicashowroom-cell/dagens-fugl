@@ -146,7 +146,7 @@
    0,
    0
   ],
-  "worldTotal": 68414,
+  "worldTotal": 68424,
   "topCountries": [
    {
     "code": "CO",
@@ -154,7 +154,7 @@
    },
    {
     "code": "BR",
-    "count": 16853
+    "count": 16860
    },
    {
     "code": "PE",
@@ -162,7 +162,7 @@
    },
    {
     "code": "EC",
-    "count": 8054
+    "count": 8060
    },
    {
     "code": "AR",
@@ -216,5 +216,6 @@
   "familyKey": 9343,
   "familyDa": null,
   "order": "Piciformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:24:23.687Z"
 }

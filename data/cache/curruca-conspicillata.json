@@ -1,0 +1,206 @@
+{
+ "key": "curruca-conspicillata",
+ "name": "Curruca conspicillata",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:11:14.009Z",
+ "gbifAt": "2026-11-25T22:11:14.009Z",
+ "names": {
+  "da": "Brillesanger",
+  "en": null,
+  "accepted": "Curruca conspicillata"
+ },
+ "wikidata": {
+  "id": "Q110257518"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Spectacled warbler",
+  "extract": "The spectacled warbler is a species of passerine bird in the warbler genus Curruca in the family Sylviidae. The specific conspicillata is from Latin conspicillum, a place to look from, equivalent to \"spectacled\".",
+  "url": "https://en.wikipedia.org/wiki/Spectacled_warbler"
+ },
+ "inat": {
+  "id": 1289469,
+  "observations": 1329
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 112999326,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/112999326/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/112999326/large.jpg",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/69617609",
+    "place": "Norfolk, UK",
+    "date": "2014-06-08"
+   },
+   {
+    "id": 675570419,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/675570419/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/675570419/large.jpg",
+    "attribution": "(c) Donald Davesne, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/369833012",
+    "place": "13460 Saintes-Maries-de-la-Mer, France",
+    "date": "2026-05-24"
+   },
+   {
+    "id": 461026284,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/461026284/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/461026284/large.jpg",
+    "attribution": "(c) Codrin Bucur, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/257048111",
+    "place": "35571 Mácher, Las Palmas, Spain",
+    "date": "2025-01-01"
+   }
+  ],
+  "female": [
+   {
+    "id": 675570842,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/675570842/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/675570842/large.jpg",
+    "attribution": "(c) Donald Davesne, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/369833013",
+    "place": "13460 Saintes-Maries-de-la-Mer, France",
+    "date": "2026-05-24"
+   },
+   {
+    "id": 182688930,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/182688930/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/182688930/large.jpg",
+    "attribution": "(c) Pablo Pozo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/108499754",
+    "place": "El Pardo, 28048 Madrid, España",
+    "date": "2020-08-23"
+   },
+   {
+    "id": 248364393,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/248364393/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/248364393/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/144677801",
+    "place": "Segovia, España",
+    "date": "2015-05-27"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 687771643,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/687771643/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/687771643/large.jpg",
+    "attribution": "(c) Guillerme Mioño Pazos, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/376174615",
+    "place": "A Esculqueira, A Mezquita, Ourense, España",
+    "date": "2026-06-27"
+   }
+  ],
+  "hero": {
+   "id": 3177612,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3177612/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3177612/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/3177612",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2492959,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 49246,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 27865
+   },
+   {
+    "code": "FR",
+    "count": 4957
+   },
+   {
+    "code": "PT",
+    "count": 3170
+   },
+   {
+    "code": "IL",
+    "count": 2940
+   },
+   {
+    "code": "CY",
+    "count": 2285
+   },
+   {
+    "code": "MA",
+    "count": 1975
+   },
+   {
+    "code": "CV",
+    "count": 1819
+   },
+   {
+    "code": "PS",
+    "count": 1370
+   },
+   {
+    "code": "IT",
+    "count": 964
+   },
+   {
+    "code": "MT",
+    "count": 425
+   },
+   {
+    "code": "TN",
+    "count": 284
+   },
+   {
+    "code": "GB",
+    "count": 208
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/1094172/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Thierry THOMAS",
+  "page": "https://xeno-canto.org/1094172",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Sylviidae",
+  "familyKey": 5285,
+  "familyDa": "Sangere",
+  "order": "Passeriformes"
+ }
+}

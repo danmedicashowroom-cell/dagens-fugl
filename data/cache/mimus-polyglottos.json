@@ -146,43 +146,43 @@
    0,
    0
   ],
-  "worldTotal": 11397943,
+  "worldTotal": 11398742,
   "topCountries": [
    {
     "code": "US",
-    "count": 11074280
+    "count": 11075023
    },
    {
     "code": "MX",
-    "count": 86367
+    "count": 86404
    },
    {
     "code": "CA",
-    "count": 71931
+    "count": 71935
    },
    {
     "code": "PR",
-    "count": 48875
+    "count": 48883
    },
    {
     "code": "CU",
-    "count": 37033
+    "count": 37034
    },
    {
     "code": "BS",
-    "count": 27001
+    "count": 27003
    },
    {
     "code": "DO",
-    "count": 19183
+    "count": 19186
    },
    {
     "code": "KY",
-    "count": 14180
+    "count": 14181
    },
    {
     "code": "JM",
-    "count": 12025
+    "count": 12026
    },
    {
     "code": "HT",
@@ -220,5 +220,6 @@
   "familyKey": 9321,
   "familyDa": "Spottedrosler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:23:17.534Z"
 }

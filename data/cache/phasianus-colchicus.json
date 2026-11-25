@@ -131,70 +131,70 @@
  },
  "gbif": {
   "key": 9752149,
-  "dkTotal": 203397,
+  "dkTotal": 203681,
   "dkMonths": [
    15866,
-   12061,
-   23726,
-   38101,
-   34550,
-   17893,
-   9633,
-   8369,
-   9376,
-   12791,
-   11322,
-   9589
+   12067,
+   23733,
+   38105,
+   34560,
+   17901,
+   9640,
+   8377,
+   9380,
+   12802,
+   11540,
+   9590
   ],
-  "worldTotal": 3569029,
+  "worldTotal": 3572374,
   "topCountries": [
    {
     "code": "US",
-    "count": 780175
+    "count": 780214
    },
    {
     "code": "GB",
-    "count": 615864
+    "count": 616131
    },
    {
     "code": "NL",
-    "count": 391920
+    "count": 392467
    },
    {
     "code": "SE",
-    "count": 299738
+    "count": 299968
    },
    {
     "code": "BE",
-    "count": 266174
+    "count": 266538
    },
    {
     "code": "FR",
-    "count": 218820
+    "count": 218884
    },
    {
     "code": "DK",
-    "count": 203397
+    "count": 203681
    },
    {
     "code": "CA",
-    "count": 176577
+    "count": 176584
    },
    {
     "code": "DE",
-    "count": 116320
+    "count": 117664
    },
    {
     "code": "FI",
-    "count": 75960
+    "count": 75962
    },
    {
     "code": "PL",
-    "count": 38153
+    "count": 38161
    },
    {
     "code": "CN",
-    "count": 35650
+    "count": 35646
    }
   ]
  },
@@ -220,5 +220,6 @@
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- }
+ },
+ "gbifAt": "2026-11-25T22:17:44.575Z"
 }

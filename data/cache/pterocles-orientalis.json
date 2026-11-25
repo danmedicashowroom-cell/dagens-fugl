@@ -1,0 +1,195 @@
+{
+ "key": "pterocles-orientalis",
+ "name": "Pterocles orientalis",
+ "region": "verden",
+ "fetchedAt": "2026-11-25T22:14:55.247Z",
+ "gbifAt": "2026-11-25T22:14:55.247Z",
+ "names": {
+  "da": "Sortbuget Sandhøne",
+  "en": "Black-bellied Sandgrouse",
+  "accepted": "Pterocles orientalis"
+ },
+ "wikidata": {
+  "id": "Q383182"
+ },
+ "wiki": {
+  "lang": "en",
+  "title": "Black-bellied sandgrouse",
+  "extract": "The black-bellied sandgrouse is a medium large bird in the sandgrouse family.",
+  "url": "https://en.wikipedia.org/wiki/Black-bellied_sandgrouse"
+ },
+ "inat": {
+  "id": 117088,
+  "observations": 1245
+ },
+ "photos": {
+  "male": [
+   {
+    "id": 464177106,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464177106/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464177106/large.jpg",
+    "attribution": "(c) Donald Davesne, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/258680866",
+    "place": "Spain",
+    "date": "2024-09-06"
+   },
+   {
+    "id": 733850796,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/733850796/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/733850796/large.jpg",
+    "attribution": "(c) Houman Doroudi, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/399954377",
+    "place": "Varamin, IR-TH, IR",
+    "date": "2022-03-16"
+   },
+   {
+    "id": 749080244,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/749080244/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/749080244/large.jpg",
+    "attribution": "(c) Алексей Сальников, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/407613832",
+    "place": "Kharabalinskiy rayon, RU-AS, RU",
+    "date": "2026-05-08"
+   }
+  ],
+  "female": [
+   {
+    "id": 464177299,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464177299/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464177299/large.jpg",
+    "attribution": "(c) Donald Davesne, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/258680868",
+    "place": "Spain",
+    "date": "2024-09-06"
+   },
+   {
+    "id": 339525588,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/339525588/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/339525588/large.jpeg",
+    "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/193289119",
+    "place": "Гиждуванский, Узбекистан",
+    "date": "2023-05-04"
+   },
+   {
+    "id": 609292893,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/609292893/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/609292893/large.jpg",
+    "attribution": "(c) Wolfgang Bittermann, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/335399392",
+    "place": "Las Palmas, ES-CN, ES",
+    "date": "2026-01-19"
+   }
+  ],
+  "juvenile": [],
+  "hero": {
+   "id": 480944894,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/480944894/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/480944894/large.jpeg",
+   "attribution": "(c) BEKKOUCHE Abdelkader, some rights reserved (CC BY-NC), uploaded by BEKKOUCHE Abdelkader",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/480944894",
+   "place": null,
+   "date": null
+  }
+ },
+ "gbif": {
+  "key": 2480193,
+  "dkTotal": 0,
+  "dkMonths": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "worldTotal": 39793,
+  "topCountries": [
+   {
+    "code": "ES",
+    "count": 23678
+   },
+   {
+    "code": "IL",
+    "count": 4082
+   },
+   {
+    "code": "PT",
+    "count": 4079
+   },
+   {
+    "code": "KZ",
+    "count": 1776
+   },
+   {
+    "code": "MA",
+    "count": 1696
+   },
+   {
+    "code": "TR",
+    "count": 1501
+   },
+   {
+    "code": "IR",
+    "count": 1240
+   },
+   {
+    "code": "UZ",
+    "count": 580
+   },
+   {
+    "code": "PS",
+    "count": 190
+   },
+   {
+    "code": "IN",
+    "count": 137
+   },
+   {
+    "code": "TN",
+    "count": 134
+   },
+   {
+    "code": "AZ",
+    "count": 120
+   }
+  ]
+ },
+ "sound": {
+  "src": [
+   {
+    "u": "https://xeno-canto.org/37420/download",
+    "type": "audio/mpeg"
+   }
+  ],
+  "license": "CC BY-NC-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "artist": "David Farrow",
+  "page": "https://xeno-canto.org/37420",
+  "type": "song",
+  "via": "xeno-canto"
+ },
+ "soundVersion": 2,
+ "photoVersion": 3,
+ "refetchedFor": null,
+ "warnings": [],
+ "taxon": {
+  "family": "Pteroclididae",
+  "familyKey": 5274,
+  "familyDa": "Sandhøns",
+  "order": "Pteroclidiformes"
+ }
+}
