@@ -15,8 +15,8 @@ export const TIMEZONE = 'Europe/Copenhagen';
 // Siden har aldrig reklamer eller salg, så som standard bruges også ikke-kommercielle licenser.
 export const ALLOW_NONCOMMERCIAL = (process.env.ALLOW_NONCOMMERCIAL ?? 'true') === 'true';
 export const PHOTO_LICENSES = ALLOW_NONCOMMERCIAL
-  ? ['cc0', 'cc-by', 'cc-by-sa', 'cc-by-nc', 'cc-by-nc-sa']
-  : ['cc0', 'cc-by', 'cc-by-sa'];
+  ? ['cc0', 'cc-by', 'cc-by-nc']
+  : ['cc0', 'cc-by'];
 
 // Hvor mange arter der højst hentes data for pr. kørsel, og hvor gamle data må være.
 export const MAX_FETCH = Number(process.env.MAX_FETCH || 60);

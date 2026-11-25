@@ -64,7 +64,7 @@ const PHOTO_BY_ID = new Map();
 function creditText(ph) {
   const lic = LICENSES[ph.license];
   const who = photographer(ph) ? `${ph.license === 'cc0' ? '' : '© '}${photographer(ph)}` : 'Fotograf ikke angivet';
-  return `Foto: ${who} · ${lic ? lic.label : ph.license.toUpperCase()} · iNaturalist`;
+  return `Foto: ${who} · ${lic ? lic.label : ph.license.toUpperCase()} · iNaturalist · vist som udsnit`;
 }
 function creditThumbs(html) {
   let uncredited = 0;
@@ -136,7 +136,7 @@ function credit(photo) {
   const lic = LICENSES[photo.license] || { label: photo.license.toUpperCase(), url: '#' };
   const who = photographer(photo) ? esc(`${photo.license === 'cc0' ? 'Foto: ' : '© '}${photographer(photo)}`) : 'Fotograf ikke angivet';
   const where = [photo.place, photo.date].filter(Boolean).map(esc).join(', ');
-  return `<span class="credit">${who} · <a href="${lic.url}" rel="license noopener" target="_blank">${lic.label}</a> · <a href="${esc(photo.source)}" rel="noopener" target="_blank">iNaturalist</a>${where ? `<span class="where"> · ${where}</span>` : ''}</span>`;
+  return `<span class="credit">${who} · <a href="${lic.url}" rel="license noopener" target="_blank">${lic.label}</a> · <a href="${esc(photo.source)}" rel="noopener" target="_blank">iNaturalist</a> · vist som udsnit${where ? `<span class="where"> · ${where}</span>` : ''}</span>`;
 }
 
 function figure(photo, alt, cls = '', eager = false) {
@@ -544,6 +544,12 @@ function main() {
     d.region = sp.region; // listen bestemmer altid området
     d.tekst = readJson(path.join(ROOT, 'data', 'tekster', `${sp.key}.json`), null);
     if (NAVNE[sp.key]) d.names.da = NAVNE[sp.key];
+    // Kun licenser der tillader udsnit uden krav om at dele videre under samme licens (ingen SA, ingen ND)
+    if (d.photos) {
+      const okPh = (x) => x && ['cc0', 'cc-by', 'cc-by-nc'].includes(x.license);
+      for (const k of Object.keys(d.photos)) if (Array.isArray(d.photos[k])) d.photos[k] = d.photos[k].filter(okPh);
+      if (!okPh(d.photos.hero)) d.photos.hero = ['male', 'adult', 'general', 'female', 'juvenile'].map((k) => d.photos[k]?.[0]).find(Boolean) || null;
+    }
     d.navnenote = NAVNENOTER[sp.key] || null;
     const hasContent = d.photos?.hero || d.wiki?.extract || d.tekst?.kendetegn;
     if (!hasContent) continue; // ingen tom side
@@ -712,7 +718,7 @@ function main() {
       img: ph ? ph.medium.replace('/medium.', '/large.') : null,
       fx: 35 + Math.floor(rnd() * 30), fy: 35 + Math.floor(rnd() * 30),
       hint: hints.join(' '),
-      imgCredit: ph ? `${creditText(ph).replace(/ · iNaturalist$/, '')} · iNaturalist (udsnit)` : null,
+      imgCredit: ph ? creditText(ph) : null,
       imgLic: ph && LICENSES[ph.license] ? LICENSES[ph.license].url : null,
       hintSrc: !d.tekst && d.wiki?.extract ? 'Fakta fra Wikipedia, forkortet og med fuglens navn skjult · CC BY-SA 4.0' : null,
       sound: d.sound ? { src: d.sound.src, credit: `Lyd: ${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, page: d.sound.page } : null,
@@ -930,7 +936,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
 <h1>Kilder og licenser</h1>
 <p>Indholdet kommer fra åbne kilder eller er skrevet til siden. Hver art har sin egen kildeliste nederst. Store fotos er krediteret direkte under billedet. Ved små billeder i lister står fotograf og licens i billedets beskrivelse (hold musen over billedet) og under billedet på artens side.</p>
 <h2>Billeder – iNaturalist</h2>
-<p>Fotos kommer fra <a href="https://www.inaturalist.org" rel="noopener" target="_blank">iNaturalist</a>, hvor fotograferne selv vælger licens. Vi viser kun fotos med licenserne ${ALLOW_NONCOMMERCIAL ? 'CC0, CC BY, CC BY-SA, CC BY-NC og CC BY-NC-SA. Siden er ikke-kommerciel' : 'CC0, CC BY og CC BY-SA, som tillader genbrug med kreditering'}. Fotografens navn, licensen og et link til den oprindelige observation står under hvert billede. Licensens version fremgår af den oprindelige observation på iNaturalist. I gætteleget vises et udsnit af fotoet med samme kreditering. Fotos med licenser, der forbyder bearbejdning (ND), bruges ikke. Køn og alder (han, hun, ungfugl) er markeret af iNaturalist-brugerne selv og kan i sjældne tilfælde være forkert.</p>
+<p>Fotos kommer fra <a href="https://www.inaturalist.org" rel="noopener" target="_blank">iNaturalist</a>, hvor fotograferne selv vælger licens. Vi viser kun fotos med licenserne ${ALLOW_NONCOMMERCIAL ? 'CC0, CC BY og CC BY-NC. Siden er ikke-kommerciel' : 'CC0 og CC BY'}. Alle tre tillader, at fotoet vises beskåret, så længe fotografen krediteres, og det fremgår, at det er ændret. Derfor står der »vist som udsnit« ved fotoene, som ofte er beskåret til et fast format. Fotos med licenser, der forbyder bearbejdning (ND) eller kræver, at bearbejdninger deles under samme licens (SA), bruges ikke. Fotografens navn, licensen og et link til den oprindelige observation står ved hvert billede, og licensens version fremgår af observationen på iNaturalist. Køn og alder (han, hun, ungfugl) er markeret af iNaturalist-brugerne selv og kan i sjældne tilfælde være forkert.</p>
 <h2>Tekster</h2>
 <p>Mange arter har en beskrivelse skrevet til ${esc(SITE_NAME)} – kendetegn, stemme, levested, føde og forekomst i Danmark. Teksterne er skrevet fra bunden og bygger på almindelig kendt viden om fuglene; de er ikke kopieret fra andre sider. Finder du en fejl, hører vi gerne om det.</p>
 <p>For de øvrige arter er beskrivelsen indledningen fra <a href="https://da.wikipedia.org" rel="noopener" target="_blank">dansk Wikipedia</a> – eller engelsk Wikipedia, hvis der ikke findes en dansk artikel. Teksten bruges under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a> med link til artiklen. I gætteleget bruges i stedet et kort uddrag med fuglens navn skjult, også under CC BY-SA 4.0.</p>

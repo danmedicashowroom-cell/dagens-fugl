@@ -366,7 +366,7 @@ const REFETCH = Object.fromEntries((fs.existsSync(path.join(ROOT, 'data', 'hent-
   .split('\n').map((l) => l.replace(/#.*/, '').trim().split(/\s+/)).filter((a) => a.length === 2));
 
 // Hæves når måden at vælge billeder på ændres – så hentes alle arter igen ved næste fulde kørsel.
-const PHOTO_VERSION = 3; // 3: også billeder med ikke-kommerciel licens
+const PHOTO_VERSION = 4; // 4: ingen SA-licenser (så udsnit altid er tilladt)
 
 // ---------- Hovedløkke ----------
 async function main() {
