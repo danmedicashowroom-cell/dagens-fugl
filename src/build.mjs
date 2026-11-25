@@ -31,10 +31,10 @@ const MONTHS_SHORT = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 's
 
 const LICENSES = {
   'cc0': { label: 'CC0', url: 'https://creativecommons.org/publicdomain/zero/1.0/deed.da' },
-  'cc-by': { label: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/deed.da' },
-  'cc-by-sa': { label: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/deed.da' },
-  'cc-by-nc': { label: 'CC BY-NC 4.0', url: 'https://creativecommons.org/licenses/by-nc/4.0/deed.da' },
-  'cc-by-nc-sa': { label: 'CC BY-NC-SA 4.0', url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.da' },
+  'cc-by': { label: 'CC BY', url: 'https://creativecommons.org/licenses/by/4.0/deed.da' },
+  'cc-by-sa': { label: 'CC BY-SA', url: 'https://creativecommons.org/licenses/by-sa/4.0/deed.da' },
+  'cc-by-nc': { label: 'CC BY-NC', url: 'https://creativecommons.org/licenses/by-nc/4.0/deed.da' },
+  'cc-by-nc-sa': { label: 'CC BY-NC-SA', url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.da' },
 };
 
 function todayISO(date = new Date()) {
@@ -52,7 +52,37 @@ function shortDate(iso) {
 }
 const capFirst = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
+// Fotografens navn ud fra iNaturalists kreditering, fx »(c) Navn, some rights reserved (CC BY-NC)«
+function photographer(ph) {
+  const a = (ph?.attribution || '').replace(/\s*\(c\)\s*/i, '').replace(/,?\s*(some|no|all) rights reserved.*$/i, '').replace(/\s*uploaded by.*$/i, '').replace(/[,\s]+$/, '').trim();
+  if (a) return a;
+  const up = (ph?.attribution || '').match(/uploaded by\s+(.+)$/i);
+  return up ? up[1].trim() : '';
+}
+// Kreditering for alle iNaturalist-fotos (id -> foto), så også små billeder i lister kan krediteres.
+const PHOTO_BY_ID = new Map();
+function creditText(ph) {
+  const lic = LICENSES[ph.license];
+  const who = photographer(ph) ? `${ph.license === 'cc0' ? '' : '© '}${photographer(ph)}` : 'Fotograf ikke angivet';
+  return `Foto: ${who} · ${lic ? lic.label : ph.license.toUpperCase()} · iNaturalist`;
+}
+function creditThumbs(html) {
+  let uncredited = 0;
+  const out = html.replace(/<img\b[^>]*?src="[^"]*\/photos\/(\d+)\/[^"]*"[^>]*>/g, (tag, id) => {
+    const ph = PHOTO_BY_ID.get(id);
+    if (!ph) return tag;
+    const who = photographer(ph);
+    if (who && html.includes(esc(who))) return tag; // krediteret synligt på siden
+    uncredited++;
+    return /\stitle=/.test(tag) ? tag : tag.replace(/<img\b/, `<img title="${esc(creditText(ph))}"`);
+  });
+  if (!uncredited) return out;
+  const note = `<p class="src wrap photo-note">Fotos fra iNaturalist under Creative Commons-licenser. Fotograf og licens står i billedets beskrivelse (hold musen over billedet) og under billedet på hver arts side. Se <a href="${url('kilder/')}">kilder og licenser</a>.</p>`;
+  return out.includes('</main>') ? out.replace('</main>', `${note}</main>`) : out;
+}
+
 function write(rel, content) {
+  if (rel.endsWith('.html') && PHOTO_BY_ID.size) content = creditThumbs(content);
   const file = path.join(DIST_DIR, rel);
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, content);
@@ -104,7 +134,7 @@ function srcset(photo, sizes) {
 
 function credit(photo) {
   const lic = LICENSES[photo.license] || { label: photo.license.toUpperCase(), url: '#' };
-  const who = photo.attribution ? esc(photo.attribution.replace(/\s*\(c\)\s*/i, '© ').replace(/, (some|no) rights reserved.*$/i, '').replace(/\s*uploaded by.*$/i, '')) : 'Ukendt fotograf';
+  const who = photographer(photo) ? esc(`${photo.license === 'cc0' ? 'Foto: ' : '© '}${photographer(photo)}`) : 'Fotograf ikke angivet';
   const where = [photo.place, photo.date].filter(Boolean).map(esc).join(', ');
   return `<span class="credit">${who} · <a href="${lic.url}" rel="license noopener" target="_blank">${lic.label}</a> · <a href="${esc(photo.source)}" rel="noopener" target="_blank">iNaturalist</a>${where ? `<span class="where"> · ${where}</span>` : ''}</span>`;
 }
@@ -314,19 +344,32 @@ function seasonNow(d) {
   const m = NOW_MONTH;
   const name = MONTHS[m];
   if (!g) return null;
+  const rar = rarity(d);
+  if (rar === 'sjaelden' || rar === 'meget-sjaelden') {
+    const su = DL_STATUS[d.key]?.su;
+    let when = '';
+    if (g.dkTotal >= 20 && Array.isArray(g.dkMonths)) {
+      const mo = relMonths(g.dkMonths);
+      const best = mo.map((v, i) => [v, i]).filter(([v]) => v >= 0.6).map(([, i]) => i);
+      if (best.length && best.length < 12) when = `De fleste fund er fra ${rangeText(best)}.`;
+    }
+    const acc = DL_STATUS[d.key]?.h === 'A';
+    return { level: 'svag', text: acc ? 'Tilfældig gæst i Danmark' : rar === 'meget-sjaelden' ? 'Meget sjælden gæst i Danmark' : 'Sjælden gæst i Danmark', more: [acc ? 'Kun truffet få gange.' : 'Der skal held til at se den.', acc ? '' : when, su ? 'Fund skal godkendes af DOF\'s Sjældenhedsudvalg.' : ''].filter(Boolean).join(' ') };
+  }
   if (g.dkTotal >= 20 && Array.isArray(g.dkMonths)) {
     const mo = relMonths(g.dkMonths); const mx = 1;
     const share = mo[m];
     if (Math.min(...mo) >= 0.45) return { level: 'god', text: `Ses hele året – også i ${name}`, more: '' };
     const best = mo.map((v, i) => [v, i]).filter(([v]) => v >= 0.6 * mx).map(([, i]) => i);
     const bestTxt = best.length && best.length < 12 ? ` Bedst i ${rangeText(best)}.` : '';
+    if (share >= 0.6 && rar === 'faatallig') return { level: 'mulig', text: `Fåtallig – ses mest i ${name}`, more: 'Arten er ret fåtallig i Danmark, så det kræver held eller de rette steder.' };
     if (share >= 0.6) return { level: 'god', text: `Gode chancer i ${name}`, more: share === 1 ? 'Det er den måned, den ses mest.' : '' };
     if (share >= 0.25) return { level: 'mulig', text: `Kan ses i ${name}`, more: `Men ikke så ofte som på andre tider af året.${bestTxt}` };
     if (share >= 0.05) return { level: 'svag', text: `Sjælden i ${name}`, more: bestTxt.trim() };
     return { level: 'ingen', text: `Ses normalt ikke i ${name}`, more: bestTxt.trim() };
   }
   if (d.region !== 'dk') return { level: 'ingen', text: g.dkTotal > 0 ? 'Ikke på Den danske liste – fund her er typisk undslupne fugle' : 'Aldrig truffet vildtlevende i Danmark', more: '' };
-  if (g.dkTotal > 0) return { level: 'svag', text: 'Sjælden gæst i Danmark', more: '' };
+  if (g.dkTotal > 0 || rar) return { level: 'svag', text: 'Sjælden gæst i Danmark', more: '' };
   return null;
 }
 
@@ -347,7 +390,7 @@ function rangeText(idx) {
 function speciesBody(d, { headingTag = 'h1', kicker = '' } = {}) {
   const name = displayName(d);
   const alt = d.names.da && d.names.en ? `<span class="alt">${esc(d.names.en)}</span>` : '';
-  const rare = d.region === 'dk' && (d.gbif?.dkTotal ?? 0) < 20;
+  const rare = rarity(d) === 'sjaelden' || rarity(d) === 'meget-sjaelden';
   const tag = rare ? '<span class="tag rare">Sjælden gæst i Danmark</span>' : d.region === 'dk' ? '<span class="tag">Dansk fugl</span>' : '<span class="tag">Udenlandsk fugl</span>';
   const hero = d.photos?.hero ? figure(d.photos.hero, name, 'hero', true) : '';
   return `<article class="species" data-key="${esc(d.key)}" data-region="${d.region}">
@@ -398,7 +441,7 @@ function metaDescription(d) {
   const name = displayName(d);
   const aka = akaNames(d);
   const base = `${name} (${d.names.accepted})${aka.length ? `, også kaldt ${aka.join(' eller ')}` : ''}.`;
-  const first = (d.tekst?.kendetegn || (d.wiki?.lang === 'da' ? d.wiki.extract : '') || '').split(/(?<=\.)\s/)[0] || '';
+  const first = (d.tekst?.kendetegn || '').split(/(?<=\.)\s/)[0] || '';
   const offers = [];
   if (PLUMAGE.slice(0, 3).some((g) => d.photos?.[g.key]?.length)) offers.push('se billeder af han, hun og ungfugl');
   if (d.sound?.src?.length) offers.push('hør stemmen');
@@ -432,7 +475,7 @@ function clip(text, max) {
 // ---------------- Sideskabelon ----------------
 let V2 = null;
 const v2 = () => V2 || (V2 = makeV2({ esc, url, abs, nf, SITE_NAME, MONTHS, MONTHS_SHORT, regionNames, displayName, size, srcset, credit,
-  relMonths, seasonText, rangeText, seasonNow, speciesJsonLd, metaDescription, speciesTitle, akaNames, mailto, CF_BEACON, SIGNUP_URL }));
+  relMonths, seasonText, rangeText, seasonNow, rarity, speciesJsonLd, metaDescription, speciesTitle, akaNames, mailto, CF_BEACON, SIGNUP_URL }));
 
 // Fælles sideskabelon (nyt design). Ældre sider beholder deres egne komponenter fra style.css.
 function page(opts) {
@@ -441,7 +484,7 @@ function page(opts) {
 
 function imageLd(ph) {
   const lic = LICENSES[ph.license];
-  const who = ph.attribution ? ph.attribution.replace(/\s*\(c\)\s*/i, '').replace(/, (some|no) rights reserved.*$/i, '').replace(/\s*uploaded by.*$/i, '').trim() : '';
+  const who = photographer(ph);
   return {
     '@type': 'ImageObject',
     contentUrl: ph.large || ph.medium,
@@ -474,6 +517,18 @@ function speciesJsonLd(d, canonical) {
 
 const NAVNE = readJson(path.join(ROOT, 'data', 'navne.json'), {});
 const ANDRE_NAVNE = readJson(path.join(ROOT, 'data', 'andre-navne.json'), {});
+const NAVNENOTER = readJson(path.join(ROOT, 'data', 'navnenoter.json'), {});
+// Hyppighed på Den danske liste: VC/C/FC/S (almindelig–fåtallig), R/VR/A (sjælden–meget sjælden)
+const DL_STATUS = readJson(path.join(ROOT, 'data', 'danske-liste.json'), {});
+function rarity(d) {
+  if (d.region !== 'dk') return null;
+  const h = DL_STATUS[d.key]?.h;
+  if (h === 'A' || h === 'VR') return 'meget-sjaelden';
+  if (h === 'R') return 'sjaelden';
+  if (h === 'S') return 'faatallig';
+  if (!h && (d.gbif?.dkTotal ?? 0) < 20) return 'sjaelden';
+  return null;
+}
 // Arter med egen side, som Den danske liste regner som underarter (af krage og gråsisken)
 const DL_UNDERARTER = new Set(['corvus-cornix', 'acanthis-cabaret', 'acanthis-hornemanni']);
 const DL_ANTAL = 505; // Den danske liste pr. 1.9.2025
@@ -489,12 +544,21 @@ function main() {
     d.region = sp.region; // listen bestemmer altid området
     d.tekst = readJson(path.join(ROOT, 'data', 'tekster', `${sp.key}.json`), null);
     if (NAVNE[sp.key]) d.names.da = NAVNE[sp.key];
+    d.navnenote = NAVNENOTER[sp.key] || null;
     const hasContent = d.photos?.hero || d.wiki?.extract || d.tekst?.kendetegn;
     if (!hasContent) continue; // ingen tom side
     d.slug = slugs[sp.key] || (d.names.da ? `${slugify(d.names.da)}-${sp.key}` : sp.key);
     species.push(d);
   }
   const byKey = new Map(species.map((d) => [d.key, d]));
+  for (const d of species) (function walk(o) {
+    if (Array.isArray(o)) o.forEach(walk);
+    else if (o && typeof o === 'object') {
+      const m = typeof o.medium === 'string' && o.medium.match(/\/photos\/(\d+)\//);
+      if (m && o.license) PHOTO_BY_ID.set(m[1], o);
+      Object.values(o).forEach(walk);
+    }
+  })(d.photos);
   // Forvekslingspar til sammenligningssiden (data/sammenligninger.json)
   const PAIRS = loadPairs(readJson, path.join(ROOT, 'data', 'sammenligninger.json'), byKey).map((p) => ({ ...p, A: byKey.get(p.a), B: byKey.get(p.b) }));
   for (const p of PAIRS) for (const [d, o] of [[p.A, p.B], [p.B, p.A]]) (d.cmp ||= []).push(o);
@@ -648,6 +712,9 @@ function main() {
       img: ph ? ph.medium.replace('/medium.', '/large.') : null,
       fx: 35 + Math.floor(rnd() * 30), fy: 35 + Math.floor(rnd() * 30),
       hint: hints.join(' '),
+      imgCredit: ph ? `${creditText(ph).replace(/ · iNaturalist$/, '')} · iNaturalist (udsnit)` : null,
+      imgLic: ph && LICENSES[ph.license] ? LICENSES[ph.license].url : null,
+      hintSrc: !d.tekst && d.wiki?.extract ? 'Fakta fra Wikipedia, forkortet og med fuglens navn skjult · CC BY-SA 4.0' : null,
       sound: d.sound ? { src: d.sound.src, credit: `Lyd: ${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, page: d.sound.page } : null,
       name: displayName(d),
     };
@@ -660,6 +727,7 @@ function main() {
   <div class="quiz-stage">
     <div class="quiz-listen" id="quiz-listen" hidden><span class="quiz-listen-icon" aria-hidden="true">🔊</span><audio id="quiz-audio" controls preload="none"></audio><p class="source" id="quiz-audio-credit"></p></div>
     <div class="quiz-frame" id="quiz-frame" hidden><img id="quiz-img" alt="Udsnit af dagens fugl"></div>
+    <p class="source" id="quiz-img-credit" hidden></p>
     <p class="quiz-hint" id="quiz-hint" hidden></p>
   </div>
   <div class="quiz-opts" id="quiz-opts" role="group" aria-label="Svarmuligheder"></div>
@@ -683,7 +751,7 @@ function main() {
       inLanguage: 'da',
       description: 'Hver dag en ny fugl – danske og udenlandske arter med billeder af fjerdragt, sæson og kort.',
     },
-    body: homeBody + `<section class="block small" id="om-siden"><h2>Om Dagens Fugl</h2><p>Hver dag ved midnat skifter siden til en ny fugl. Du får billeder af han, hun og ungfugl, en beskrivelse, hvornår på året den ses i Danmark, og kort over hvor i verden den lever. Der er ${species.length} arter i alt – <a href="${url('fugle/danske/')}">${species.filter((d) => d.region === 'dk').length} danske fugle</a> og <a href="${url('fugle/udenlandske/')}">${species.filter((d) => d.region !== 'dk').length} udenlandske</a>. Vil du vide, hvad du kan møde derude lige nu, så se <a href="${url(`maaned/${MONTH_SLUGS[Number(today.slice(5, 7)) - 1]}/`)}">fugle i ${MONTHS[Number(today.slice(5, 7)) - 1]}</a>.</p></section>`,
+    body: homeBody + `<section class="block small" id="om-siden"><h2>Om Dagens Fugl</h2><p>Hver dag ved midnat skifter siden til en ny fugl. Du får billeder af han, hun og ungfugl, en beskrivelse, hvornår på året den ses i Danmark, og kort over hvor i verden den lever. Siden dækker <a href="${url('fugle/danske/')}">alle ${DL_ANTAL} arter på Den danske liste</a> og <a href="${url('fugle/udenlandske/')}">${species.filter((d) => d.region !== 'dk').length} udenlandske arter</a>. Vil du vide, hvad du kan møde derude lige nu, så se <a href="${url(`maaned/${MONTH_SLUGS[Number(today.slice(5, 7)) - 1]}/`)}">fugle i ${MONTHS[Number(today.slice(5, 7)) - 1]}</a>.</p></section>`,
   }));
 
   function recentStrip(items) {
@@ -701,11 +769,11 @@ function main() {
   const dkCount = species.filter((d) => d.region === 'dk').length;
   write('fugle/index.html', page({
     title: `Alle fugle – ${species.length} danske og udenlandske arter | ${SITE_NAME}`,
-    description: `Oversigt over ${species.length} fuglearter: ${dkCount} danske (på Den danske liste) og ${species.length - dkCount} udenlandske. Med billeder, kort og sæson for hver art.`,
+    description: `Alle ${DL_ANTAL} arter på Den danske liste og ${species.length - dkCount} udenlandske fugle. Med billeder, kort og sæson for hver art.`,
     canonical: abs('fugle/'),
     body: `<section class="listing">
   <h1>Alle fugle</h1>
-  <p class="lede">${species.length} arter – <a href="${url('fugle/danske/')}">${dkCount} danske</a> og <a href="${url('fugle/udenlandske/')}">${species.length - dkCount} udenlandske</a>. Danske fugle er arter på Den danske liste. Se også <a href="${url('maaned/')}">hvilke fugle der ses måned for måned</a>.</p>
+  <p class="lede"><a href="${url('fugle/danske/')}">Alle ${DL_ANTAL} arter på Den danske liste</a> og <a href="${url('fugle/udenlandske/')}">${species.length - dkCount} udenlandske fugle</a>. Gråkrage, lille gråsisken og hvidsisken har egne sider, selvom listen regner dem som underarter. Se også <a href="${url('maaned/')}">hvilke fugle der ses måned for måned</a>.</p>
   <div class="filters" role="search">
     <input type="search" id="q" placeholder="Søg på dansk, engelsk eller latinsk navn" aria-label="Søg efter fugl">
     <div class="seg" role="group" aria-label="Vis">
@@ -757,11 +825,11 @@ function main() {
   }
 
   function DEF_DANSKE(items) {
-    const rareN = items.filter((d) => (d.gbif?.dkTotal ?? 0) < 20).length;
+    const rareN = items.filter((d) => rarity(d) === 'sjaelden' || rarity(d) === 'meget-sjaelden').length;
     return `<aside class="definition"><h2>Hvad er en dansk fugl her?</h2>
 <p>En art tæller som dansk på ${esc(SITE_NAME)}, når den står på <strong>Den danske liste</strong>. Det er Dansk Ornitologisk Forenings (DOF) officielle liste over fuglearter, der er truffet vildtlevende i Danmark, og den føres af DOF's Sjældenhedsudvalg (SU).</p>
 <p>Listen rummer ynglefugle, trækfugle, vintergæster og sjældne gæster. Den rummer også indførte arter, der har dannet faste, vilde bestande, fx fasan og canadagås. Fugle, der kun er set efter at være undsluppet fra fangenskab, er ikke med.</p>
-<p><strong>Sjælden gæst</strong> (${rareN} arter) betyder her, at arten har færre end 20 registreringer fra Danmark i GBIF. Det er en praktisk grænse for denne side og ikke DOF's definition af en SU-art.</p>
+<p><strong>Sjælden gæst</strong> (${rareN} arter) følger Den danske liste: arter, der står som sjældne, meget sjældne eller tilfældige gæster. Nogle af dem er SU-arter, hvor hvert fund skal godkendes af DOF's Sjældenhedsudvalg.</p>
 <p>Den danske liste rummer ${DL_ANTAL} arter (pr. 1. september 2025), og alle har en side her. Gråkrage, lille gråsisken og hvidsisken har også egne sider, selvom listen regner dem som underarter af krage og gråsisken. Derfor står der ${items.length} fugle i oversigten.</p>
 <p class="muted">De danske navne følger Den danske liste. Systematikken bag billeder og fund følger iNaturalist og GBIF og kan afvige en smule fra listens.</p></aside>`;
   }
@@ -780,7 +848,7 @@ function main() {
   }
 
   // --- fugle måned for måned ---
-  const seasonal = species.filter((d) => d.region === 'dk' && d.gbif?.dkTotal >= 20 && Array.isArray(d.gbif.dkMonths));
+  const seasonal = species.filter((d) => d.region === 'dk' && d.gbif?.dkTotal >= 20 && Array.isArray(d.gbif.dkMonths) && rarity(d) !== 'sjaelden' && rarity(d) !== 'meget-sjaelden');
   const monthLinks = [];
   for (let m = 0; m < 12; m++) {
     const items = seasonal
@@ -860,20 +928,23 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     canonical: abs('kilder/'),
     body: `<article class="prose-page">
 <h1>Kilder og licenser</h1>
-<p>Alt indhold på siden hentes automatisk fra åbne kilder. Hver art har sin egen kildeliste nederst, og hvert foto er krediteret direkte under billedet.</p>
+<p>Indholdet kommer fra åbne kilder eller er skrevet til siden. Hver art har sin egen kildeliste nederst. Store fotos er krediteret direkte under billedet. Ved små billeder i lister står fotograf og licens i billedets beskrivelse (hold musen over billedet) og under billedet på artens side.</p>
 <h2>Billeder – iNaturalist</h2>
-<p>Fotos kommer fra <a href="https://www.inaturalist.org" rel="noopener" target="_blank">iNaturalist</a>, hvor fotograferne selv vælger licens. Vi viser kun fotos med licenserne ${ALLOW_NONCOMMERCIAL ? 'CC0, CC BY, CC BY-SA, CC BY-NC og CC BY-NC-SA. Siden er ikke-kommerciel' : 'CC0, CC BY og CC BY-SA, som tillader genbrug med kreditering'}. Fotografens navn, licensen og et link til den oprindelige observation står under hvert billede. Køn og alder (han, hun, ungfugl) er markeret af iNaturalist-brugerne selv og kan i sjældne tilfælde være forkert.</p>
+<p>Fotos kommer fra <a href="https://www.inaturalist.org" rel="noopener" target="_blank">iNaturalist</a>, hvor fotograferne selv vælger licens. Vi viser kun fotos med licenserne ${ALLOW_NONCOMMERCIAL ? 'CC0, CC BY, CC BY-SA, CC BY-NC og CC BY-NC-SA. Siden er ikke-kommerciel' : 'CC0, CC BY og CC BY-SA, som tillader genbrug med kreditering'}. Fotografens navn, licensen og et link til den oprindelige observation står under hvert billede. Licensens version fremgår af den oprindelige observation på iNaturalist. I gætteleget vises et udsnit af fotoet med samme kreditering. Fotos med licenser, der forbyder bearbejdning (ND), bruges ikke. Køn og alder (han, hun, ungfugl) er markeret af iNaturalist-brugerne selv og kan i sjældne tilfælde være forkert.</p>
 <h2>Tekster</h2>
 <p>Mange arter har en beskrivelse skrevet til ${esc(SITE_NAME)} – kendetegn, stemme, levested, føde og forekomst i Danmark. Teksterne er skrevet fra bunden og bygger på almindelig kendt viden om fuglene; de er ikke kopieret fra andre sider. Finder du en fejl, hører vi gerne om det.</p>
-<p>For de øvrige arter er beskrivelsen indledningen fra <a href="https://da.wikipedia.org" rel="noopener" target="_blank">dansk Wikipedia</a> – eller engelsk Wikipedia, hvis der ikke findes en dansk artikel. Teksten bruges under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a> med link til artiklen.</p>
-<h2>Navne – Wikidata</h2>
-<p>Danske og engelske navne kommer fra <a href="https://www.wikidata.org" rel="noopener" target="_blank">Wikidata</a> (CC0) og i enkelte tilfælde fra GBIF.</p>
+<p>For de øvrige arter er beskrivelsen indledningen fra <a href="https://da.wikipedia.org" rel="noopener" target="_blank">dansk Wikipedia</a> – eller engelsk Wikipedia, hvis der ikke findes en dansk artikel. Teksten bruges under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a> med link til artiklen. I gætteleget bruges i stedet et kort uddrag med fuglens navn skjult, også under CC BY-SA 4.0.</p>
+<p>Sammenligningerne af arter, der ligner hinanden, er skrevet med egne ord ud fra <a href="https://snl.no" rel="noopener" target="_blank">Store norske leksikon</a> og andre opslagsværker. Kilderne står under hvert par.</p>
+<h2>Navne og status – Den danske liste og Wikidata</h2>
+<p>De danske navne på arter fra Den danske liste følger listen (Olsen, K. & Sjældenhedsudvalget 2025: The Danish List: A Checklist of the Birds of Denmark. Dansk Orn. Foren. Tidsskr. 119: 105–112). Det samme gælder, om en art regnes som sjælden gæst. Gamle eller andre navne står som »også kendt som«. Øvrige danske og engelske navne kommer fra <a href="https://www.wikidata.org" rel="noopener" target="_blank">Wikidata</a> (CC0) og i enkelte tilfælde fra GBIF.</p>
 <h2>Kort og sæson – GBIF</h2>
 <p>Kort og fund pr. måned bygger på <a href="https://www.gbif.org" rel="noopener" target="_blank">GBIF – Global Biodiversity Information Facility</a>, som samler registrerede fund fra naturdatabaser og citizen science i hele verden. Tallene viser, hvor og hvornår fuglen er registreret – ikke nødvendigvis hvor mange fugle der er. Baggrundskortene er © <a href="https://www.openstreetmap.org/copyright" rel="noopener" target="_blank">OpenStreetMap</a>-bidragydere og © OpenMapTiles, leveret af GBIF.</p>
 <h2>Fuglestemmer – xeno-canto og Wikimedia Commons</h2>
 <p>Optagelserne kommer fra <a href="https://xeno-canto.org" rel="noopener" target="_blank">xeno-canto</a> og <a href="https://commons.wikimedia.org" rel="noopener" target="_blank">Wikimedia Commons</a> under Creative Commons-licenser. Optager, licens og link til den oprindelige optagelse står ved hver lyd. Siden er ikke-kommerciel, så vi bruger også optagelser med ikke-kommercielle licenser.</p>
 <h2>Kortværktøj</h2>
 <p>Kortene vises med <a href="https://leafletjs.com" rel="noopener" target="_blank">Leaflet</a> (BSD-2-licens).</p>
+<h2>Skrifttyper</h2>
+<p>Fraunces og Inter, begge under <a href="https://openfontlicense.org" rel="noopener" target="_blank">SIL Open Font License</a>.</p>
 <h2>Fejl og rettelser</h2>
 <p>Hvis du finder en fejl, er den bedste vej at rette den hos kilden – fx på Wikipedia eller ved at foreslå en anden artsbestemmelse på iNaturalist. Siden henter opdaterede data løbende.</p>
 </article>`,
@@ -914,7 +985,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
   const line = (d) => `- [${displayName(d)} (${d.names.accepted})](${abs(speciesUrl(d))})`;
   write('llms.txt', `# ${SITE_NAME}
 
-> ${SITE_NAME} er en dansk hjemmeside, der hver dag viser en ny fugl. Hver art har sin egen side med egne danske artstekster (med link til Wikipedia), billeder af han, hun og ungfugl (fra iNaturalist, frie licenser), hvornår på året den ses i Danmark og kort over udbredelsen (fra GBIF). Siden dækker ${species.length} arter: ${dkCount} danske (arter på DOF's Den danske liste) og ${species.length - dkCount} udenlandske (ikke på listen).
+> ${SITE_NAME} er en dansk hjemmeside, der hver dag viser en ny fugl. Hver art har sin egen side med egne danske artstekster (med link til Wikipedia), billeder af han, hun og ungfugl (fra iNaturalist, frie licenser), hvornår på året den ses i Danmark og kort over udbredelsen (fra GBIF). Siden dækker alle ${DL_ANTAL} arter på DOF's Den danske liste og ${species.length - dkCount} udenlandske arter (ikke på listen).
 
 Alt indhold er på dansk. Kilde og licens står ved hver tekst og hvert billede.
 
@@ -979,7 +1050,7 @@ ${yImg ? `<p style="margin:4px 0 0;font-size:11px;color:#69706b">Foto: ${esc(Str
       if (i === 0) {
         items.push(`<item><title>Dagens fugl #${no} – kan du gætte den?</title><link>${abs('')}</link><guid isPermaLink="false">dagensfugl-${iso}</guid><pubDate>${pub}</pubDate><description>${esc(`Dagens fugl er klar. Lyt til stemmen, se billedet og gæt hvilken fugl det er – ${capFirst(longDate(iso))}.`)}</description></item>`);
       } else {
-        items.push(`<item><title>${esc(`Dagens fugl #${no}: ${displayName(d)}`)}</title><link>${abs(speciesUrl(d))}</link><guid isPermaLink="false">dagensfugl-${iso}</guid><pubDate>${pub}</pubDate><description>${esc(d.tekst?.kendetegn || d.wiki?.extract?.split(/(?<=\.)\s/)[0] || '')}</description></item>`);
+        items.push(`<item><title>${esc(`Dagens fugl #${no}: ${displayName(d)}`)}</title><link>${abs(speciesUrl(d))}</link><guid isPermaLink="false">dagensfugl-${iso}</guid><pubDate>${pub}</pubDate><description>${esc(d.tekst?.kendetegn || `Billeder, stemme og kort over ${displayName(d).toLowerCase()}.`)}</description></item>`);
       }
     }
     write('feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>${esc(SITE_NAME)}</title><link>${abs('')}</link><description>En ny fugl at gætte hver dag.</description><language>da</language>${items.join('')}</channel></rss>\n`);

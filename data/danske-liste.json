@@ -1,0 +1,2035 @@
+{
+"_note": "Status fra Den danske liste (DOF, 1.9.2025): hyppighed VC/C/FC/S/R/VR/A og om fund skal godkendes af Sjældenhedsudvalget (su).",
+"oxyura-leucocephala": {
+"h": "A",
+"su": true
+},
+"oxyura-jamaicensis": {
+"h": "R",
+"su": false
+},
+"cygnus-olor": {
+"h": "C",
+"su": false
+},
+"cygnus-atratus": {
+"h": null,
+"su": false
+},
+"cygnus-columbianus": {
+"h": "FC",
+"su": false
+},
+"cygnus-cygnus": {
+"h": "C",
+"su": false
+},
+"branta-bernicla": {
+"h": "C",
+"su": false
+},
+"branta-ruficollis": {
+"h": "R",
+"su": false
+},
+"branta-canadensis": {
+"h": "C",
+"su": false
+},
+"branta-leucopsis": {
+"h": "VC",
+"su": false
+},
+"anser-indicus": {
+"h": null,
+"su": false
+},
+"anser-rossii": {
+"h": "VR",
+"su": true
+},
+"anser-anser": {
+"h": "VC",
+"su": false
+},
+"anser-erythropus": {
+"h": "R",
+"su": false
+},
+"anser-albifrons": {
+"h": "VC",
+"su": false
+},
+"anser-serrirostris": {
+"h": "FC",
+"su": false
+},
+"anser-brachyrhynchus": {
+"h": "C",
+"su": false
+},
+"anser-fabalis": {
+"h": "FC",
+"su": false
+},
+"aix-galericulata": {
+"h": null,
+"su": false
+},
+"alopochen-aegyptiaca": {
+"h": "S",
+"su": false
+},
+"tadorna-tadorna": {
+"h": "C",
+"su": false
+},
+"tadorna-ferruginea": {
+"h": "R",
+"su": false
+},
+"clangula-hyemalis": {
+"h": "C",
+"su": false
+},
+"polysticta-stelleri": {
+"h": "R",
+"su": true
+},
+"somateria-spectabilis": {
+"h": "R",
+"su": false
+},
+"somateria-mollissima": {
+"h": "VC",
+"su": false
+},
+"melanitta-nigra": {
+"h": "C",
+"su": false
+},
+"melanitta-americana": {
+"h": "VR",
+"su": false
+},
+"melanitta-perspicillata": {
+"h": "R",
+"su": false
+},
+"melanitta-fusca": {
+"h": "C",
+"su": false
+},
+"melanitta-deglandi": {
+"h": "A",
+"su": true
+},
+"melanitta-stejnegeri": {
+"h": "VR",
+"su": true
+},
+"bucephala-clangula": {
+"h": "C",
+"su": false
+},
+"mergellus-albellus": {
+"h": "FC",
+"su": false
+},
+"mergus-serrator": {
+"h": "C",
+"su": false
+},
+"mergus-merganser": {
+"h": "C",
+"su": false
+},
+"netta-rufina": {
+"h": "R",
+"su": false
+},
+"aythya-nyroca": {
+"h": "VR",
+"su": false
+},
+"aythya-ferina": {
+"h": "FC",
+"su": false
+},
+"aythya-collaris": {
+"h": "VR",
+"su": true
+},
+"aythya-fuligula": {
+"h": "C",
+"su": false
+},
+"aythya-affinis": {
+"h": "VR",
+"su": true
+},
+"aythya-marila": {
+"h": "C",
+"su": false
+},
+"sibirionetta-formosa": {
+"h": "VR",
+"su": true
+},
+"spatula-querquedula": {
+"h": "S",
+"su": false
+},
+"spatula-discors": {
+"h": "VR",
+"su": true
+},
+"spatula-clypeata": {
+"h": "C",
+"su": false
+},
+"mareca-strepera": {
+"h": "FC",
+"su": false
+},
+"mareca-penelope": {
+"h": "VC",
+"su": false
+},
+"mareca-americana": {
+"h": "VR",
+"su": true
+},
+"anas-platyrhynchos": {
+"h": "VC",
+"su": false
+},
+"anas-rubripes": {
+"h": "A",
+"su": true
+},
+"anas-acuta": {
+"h": "C",
+"su": false
+},
+"anas-crecca": {
+"h": "C",
+"su": false
+},
+"lyrurus-tetrix": {
+"h": null,
+"su": false
+},
+"perdix-perdix": {
+"h": "FC",
+"su": false
+},
+"phasianus-colchicus": {
+"h": "C",
+"su": false
+},
+"coturnix-coturnix": {
+"h": "S",
+"su": false
+},
+"tachybaptus-ruficollis": {
+"h": "FC",
+"su": false
+},
+"podiceps-auritus": {
+"h": "S",
+"su": false
+},
+"podiceps-grisegena": {
+"h": "FC",
+"su": false
+},
+"podiceps-cristatus": {
+"h": "FC",
+"su": false
+},
+"podiceps-nigricollis": {
+"h": "S",
+"su": false
+},
+"otis-tarda": {
+"h": "A",
+"su": false
+},
+"chlamydotis-macqueenii": {
+"h": "A",
+"su": true
+},
+"tetrax-tetrax": {
+"h": "VR",
+"su": true
+},
+"clamator-glandarius": {
+"h": "VR",
+"su": true
+},
+"coccyzus-americanus": {
+"h": "A",
+"su": true
+},
+"coccyzus-erythropthalmus": {
+"h": "A",
+"su": true
+},
+"cuculus-canorus": {
+"h": "C",
+"su": false
+},
+"syrrhaptes-paradoxus": {
+"h": "VR",
+"su": true
+},
+"zenaida-macroura": {
+"h": "A",
+"su": false
+},
+"streptopelia-orientalis": {
+"h": "VR",
+"su": false
+},
+"streptopelia-turtur": {
+"h": "R",
+"su": false
+},
+"streptopelia-decaocto": {
+"h": "C",
+"su": false
+},
+"columba-palumbus": {
+"h": "VC",
+"su": false
+},
+"columba-livia": {
+"h": "C",
+"su": false
+},
+"columba-oenas": {
+"h": "FC",
+"su": false
+},
+"antigone-canadensis": {
+"h": "A",
+"su": false
+},
+"grus-virgo": {
+"h": "VR",
+"su": true
+},
+"grus-grus": {
+"h": "C",
+"su": false
+},
+"rallus-aquaticus": {
+"h": "FC",
+"su": false
+},
+"crex-crex": {
+"h": "S",
+"su": false
+},
+"porzana-porzana": {
+"h": "R",
+"su": false
+},
+"gallinula-chloropus": {
+"h": "FC",
+"su": false
+},
+"fulica-atra": {
+"h": "VC",
+"su": false
+},
+"porphyrio-alleni": {
+"h": "A",
+"su": true
+},
+"zapornia-parva": {
+"h": "VR",
+"su": true
+},
+"zapornia-pusilla": {
+"h": "VR",
+"su": false
+},
+"burhinus-oedicnemus": {
+"h": "R",
+"su": false
+},
+"recurvirostra-avosetta": {
+"h": "FC",
+"su": false
+},
+"himantopus-himantopus": {
+"h": "R",
+"su": false
+},
+"haematopus-ostralegus": {
+"h": "C",
+"su": false
+},
+"pluvialis-squatarola": {
+"h": "C",
+"su": false
+},
+"pluvialis-apricaria": {
+"h": "VC",
+"su": false
+},
+"pluvialis-dominica": {
+"h": "VR",
+"su": true
+},
+"pluvialis-fulva": {
+"h": "VR",
+"su": true
+},
+"charadrius-morinellus": {
+"h": "S",
+"su": false
+},
+"charadrius-hiaticula": {
+"h": "C",
+"su": false
+},
+"charadrius-dubius": {
+"h": "S",
+"su": false
+},
+"vanellus-vanellus": {
+"h": "VC",
+"su": false
+},
+"vanellus-gregarius": {
+"h": "VR",
+"su": true
+},
+"vanellus-leucurus": {
+"h": "VR",
+"su": true
+},
+"anarhynchus-asiaticus": {
+"h": "A",
+"su": true
+},
+"anarhynchus-atrifrons": {
+"h": "A",
+"su": false
+},
+"anarhynchus-mongolus": {
+"h": "A",
+"su": false
+},
+"anarhynchus-leschenaultii": {
+"h": "VR",
+"su": false
+},
+"charadrius-alexandrinus": {
+"h": "R",
+"su": false
+},
+"bartramia-longicauda": {
+"h": "A",
+"su": true
+},
+"numenius-phaeopus": {
+"h": "FC",
+"su": false
+},
+"numenius-arquata": {
+"h": "C",
+"su": false
+},
+"limosa-lapponica": {
+"h": "C",
+"su": false
+},
+"limosa-limosa": {
+"h": "S",
+"su": false
+},
+"limosa-haemastica": {
+"h": "A",
+"su": true
+},
+"limnodromus-scolopaceus": {
+"h": "VR",
+"su": true
+},
+"lymnocryptes-minimus": {
+"h": "C",
+"su": false
+},
+"scolopax-rusticola": {
+"h": "VC",
+"su": false
+},
+"gallinago-media": {
+"h": "R",
+"su": false
+},
+"gallinago-gallinago": {
+"h": "VC",
+"su": false
+},
+"xenus-cinereus": {
+"h": "VR",
+"su": true
+},
+"actitis-hypoleucos": {
+"h": "FC",
+"su": false
+},
+"actitis-macularius": {
+"h": "A",
+"su": true
+},
+"phalaropus-tricolor": {
+"h": "VR",
+"su": true
+},
+"phalaropus-fulicarius": {
+"h": "R",
+"su": false
+},
+"phalaropus-lobatus": {
+"h": "R",
+"su": false
+},
+"tringa-ochropus": {
+"h": "FC",
+"su": false
+},
+"tringa-stagnatilis": {
+"h": "R",
+"su": false
+},
+"tringa-glareola": {
+"h": "FC",
+"su": false
+},
+"tringa-totanus": {
+"h": "C",
+"su": false
+},
+"tringa-flavipes": {
+"h": "VR",
+"su": true
+},
+"tringa-erythropus": {
+"h": "FC",
+"su": false
+},
+"tringa-nebularia": {
+"h": "FC",
+"su": false
+},
+"tringa-melanoleuca": {
+"h": "A",
+"su": true
+},
+"arenaria-interpres": {
+"h": "FC",
+"su": false
+},
+"calidris-canutus": {
+"h": "VC",
+"su": false
+},
+"calidris-pugnax": {
+"h": "C",
+"su": false
+},
+"calidris-acuminata": {
+"h": "A",
+"su": true
+},
+"calidris-falcinellus": {
+"h": "S",
+"su": false
+},
+"calidris-ferruginea": {
+"h": "FC",
+"su": false
+},
+"calidris-himantopus": {
+"h": "A",
+"su": true
+},
+"calidris-ruficollis": {
+"h": "A",
+"su": true
+},
+"calidris-temminckii": {
+"h": "FC",
+"su": false
+},
+"calidris-subruficollis": {
+"h": "VR",
+"su": true
+},
+"calidris-alba": {
+"h": "FC",
+"su": false
+},
+"calidris-alpina": {
+"h": "VC",
+"su": false
+},
+"calidris-maritima": {
+"h": "S",
+"su": false
+},
+"calidris-bairdii": {
+"h": "VR",
+"su": true
+},
+"calidris-melanotos": {
+"h": "VR",
+"su": false
+},
+"calidris-pusilla": {
+"h": "A",
+"su": true
+},
+"calidris-minuta": {
+"h": "FC",
+"su": false
+},
+"calidris-fuscicollis": {
+"h": "VR",
+"su": true
+},
+"cursorius-cursor": {
+"h": "A",
+"su": false
+},
+"glareola-maldivarum": {
+"h": "A",
+"su": true
+},
+"glareola-nordmanni": {
+"h": "VR",
+"su": true
+},
+"glareola-pratincola": {
+"h": "VR",
+"su": false
+},
+"stercorarius-parasiticus": {
+"h": "FC",
+"su": false
+},
+"stercorarius-longicaudus": {
+"h": "S",
+"su": false
+},
+"stercorarius-pomarinus": {
+"h": "S",
+"su": false
+},
+"stercorarius-skua": {
+"h": "FC",
+"su": false
+},
+"fratercula-arctica": {
+"h": "R",
+"su": false
+},
+"cepphus-grylle": {
+"h": "FC",
+"su": false
+},
+"alca-torda": {
+"h": "VC",
+"su": false
+},
+"alle-alle": {
+"h": "VC",
+"su": false
+},
+"uria-lomvia": {
+"h": "VR",
+"su": false
+},
+"uria-aalge": {
+"h": "VC",
+"su": false
+},
+"onychoprion-anaethetus": {
+"h": "A",
+"su": false
+},
+"sternula-albifrons": {
+"h": "S",
+"su": false
+},
+"hydroprogne-caspia": {
+"h": "S",
+"su": false
+},
+"gelochelidon-nilotica": {
+"h": "VR",
+"su": false
+},
+"chlidonias-hybrida": {
+"h": "VR",
+"su": false
+},
+"chlidonias-leucopterus": {
+"h": "S",
+"su": false
+},
+"chlidonias-niger": {
+"h": "FC",
+"su": false
+},
+"thalasseus-sandvicensis": {
+"h": "C",
+"su": false
+},
+"thalasseus-elegans": {
+"h": "A",
+"su": true
+},
+"sterna-paradisaea": {
+"h": "C",
+"su": false
+},
+"sterna-hirundo": {
+"h": "C",
+"su": false
+},
+"sterna-dougallii": {
+"h": "VR",
+"su": false
+},
+"hydrocoloeus-minutus": {
+"h": "FC",
+"su": false
+},
+"rhodostethia-rosea": {
+"h": "VR",
+"su": true
+},
+"rissa-tridactyla": {
+"h": "C",
+"su": false
+},
+"xema-sabini": {
+"h": "R",
+"su": false
+},
+"pagophila-eburnea": {
+"h": "VR",
+"su": true
+},
+"chroicocephalus-genei": {
+"h": "A",
+"su": true
+},
+"chroicocephalus-philadelphia": {
+"h": "VR",
+"su": true
+},
+"chroicocephalus-ridibundus": {
+"h": "VC",
+"su": false
+},
+"leucophaeus-atricilla": {
+"h": "VR",
+"su": false
+},
+"leucophaeus-pipixcan": {
+"h": "A",
+"su": true
+},
+"ichthyaetus-ichthyaetus": {
+"h": "A",
+"su": true
+},
+"ichthyaetus-audouinii": {
+"h": "A",
+"su": true
+},
+"ichthyaetus-melanocephalus": {
+"h": "S",
+"su": false
+},
+"larus-delawarensis": {
+"h": "A",
+"su": true
+},
+"larus-canus": {
+"h": "VC",
+"su": false
+},
+"larus-cachinnans": {
+"h": "S",
+"su": false
+},
+"larus-argentatus": {
+"h": "VC",
+"su": false
+},
+"larus-michahellis": {
+"h": "R",
+"su": false
+},
+"larus-armenicus": {
+"h": "A",
+"su": true
+},
+"larus-marinus": {
+"h": "C",
+"su": false
+},
+"larus-hyperboreus": {
+"h": "R",
+"su": false
+},
+"larus-fuscus": {
+"h": "C",
+"su": false
+},
+"larus-glaucescens": {
+"h": "A",
+"su": true
+},
+"larus-glaucoides": {
+"h": "R",
+"su": false
+},
+"gavia-stellata": {
+"h": "C",
+"su": false
+},
+"gavia-immer": {
+"h": "R",
+"su": false
+},
+"gavia-adamsii": {
+"h": "R",
+"su": false
+},
+"gavia-pacifica": {
+"h": "VR",
+"su": true
+},
+"gavia-arctica": {
+"h": "FC",
+"su": false
+},
+"thalassarche-melanophris": {
+"h": "VR",
+"su": false
+},
+"oceanites-oceanicus": {
+"h": "A",
+"su": false
+},
+"hydrobates-pelagicus": {
+"h": "R",
+"su": false
+},
+"hydrobates-leucorhous": {
+"h": "R",
+"su": false
+},
+"fulmarus-glacialis": {
+"h": "C",
+"su": false
+},
+"calonectris-diomedea": {
+"h": "A",
+"su": true
+},
+"calonectris-borealis": {
+"h": "VR",
+"su": true
+},
+"ardenna-grisea": {
+"h": "S",
+"su": false
+},
+"ardenna-gravis": {
+"h": "VR",
+"su": true
+},
+"puffinus-puffinus": {
+"h": "R",
+"su": false
+},
+"puffinus-yelkouan": {
+"h": "R",
+"su": false
+},
+"puffinus-lherminieri": {
+"h": "A",
+"su": false
+},
+"ciconia-nigra": {
+"h": "R",
+"su": false
+},
+"ciconia-ciconia": {
+"h": "S",
+"su": false
+},
+"fregata-magnificens": {
+"h": "A",
+"su": true
+},
+"morus-bassanus": {
+"h": "C",
+"su": false
+},
+"sula-leucogaster": {
+"h": "A",
+"su": false
+},
+"microcarbo-pygmaeus": {
+"h": "A",
+"su": true
+},
+"gulosus-aristotelis": {
+"h": "R",
+"su": false
+},
+"phalacrocorax-carbo": {
+"h": "C",
+"su": false
+},
+"plegadis-falcinellus": {
+"h": "VR",
+"su": false
+},
+"platalea-leucorodia": {
+"h": "S",
+"su": false
+},
+"pelecanus-crispus": {
+"h": "A",
+"su": true
+},
+"botaurus-stellaris": {
+"h": "S",
+"su": false
+},
+"botaurus-lentiginosus": {
+"h": "A",
+"su": true
+},
+"ixobrychus-minutus": {
+"h": "VR",
+"su": false
+},
+"egretta-garzetta": {
+"h": "R",
+"su": false
+},
+"nycticorax-nycticorax": {
+"h": "VR",
+"su": false
+},
+"ardeola-ralloides": {
+"h": "VR",
+"su": true
+},
+"ardea-alba": {
+"h": "FC",
+"su": false
+},
+"bubulcus-ibis": {
+"h": "VR",
+"su": false
+},
+"ardea-purpurea": {
+"h": "VR",
+"su": false
+},
+"ardea-cinerea": {
+"h": "FC",
+"su": false
+},
+"caprimulgus-europaeus": {
+"h": "S",
+"su": false
+},
+"caprimulgus-aegyptius": {
+"h": "A",
+"su": false
+},
+"hirundapus-caudacutus": {
+"h": "A",
+"su": false
+},
+"tachymarptis-melba": {
+"h": "VR",
+"su": false
+},
+"apus-pacificus": {
+"h": "VR",
+"su": false
+},
+"apus-caffer": {
+"h": "A",
+"su": true
+},
+"apus-affinis": {
+"h": "A",
+"su": false
+},
+"apus-apus": {
+"h": "C",
+"su": false
+},
+"apus-pallidus": {
+"h": "VR",
+"su": false
+},
+"tyto-alba": {
+"h": "S",
+"su": false
+},
+"aegolius-funereus": {
+"h": "R",
+"su": false
+},
+"athene-noctua": {
+"h": "R",
+"su": false
+},
+"surnia-ulula": {
+"h": "R",
+"su": false
+},
+"glaucidium-passerinum": {
+"h": "R",
+"su": false
+},
+"otus-scops": {
+"h": "VR",
+"su": false
+},
+"asio-otus": {
+"h": "FC",
+"su": false
+},
+"asio-flammeus": {
+"h": "FC",
+"su": false
+},
+"bubo-scandiacus": {
+"h": "R",
+"su": true
+},
+"bubo-bubo": {
+"h": "S",
+"su": false
+},
+"strix-aluco": {
+"h": "FC",
+"su": false
+},
+"pandion-haliaetus": {
+"h": "FC",
+"su": false
+},
+"elanus-caeruleus": {
+"h": "VR",
+"su": false
+},
+"neophron-percnopterus": {
+"h": "VR",
+"su": false
+},
+"pernis-apivorus": {
+"h": "C",
+"su": false
+},
+"pernis-ptilorhynchus": {
+"h": "A",
+"su": false
+},
+"gyps-fulvus": {
+"h": "VR",
+"su": false
+},
+"circaetus-gallicus": {
+"h": "VR",
+"su": false
+},
+"clanga-clanga": {
+"h": "VR",
+"su": true
+},
+"clanga-pomarina": {
+"h": "R",
+"su": false
+},
+"hieraaetus-pennatus": {
+"h": "VR",
+"su": true
+},
+"aquila-nipalensis": {
+"h": "VR",
+"su": false
+},
+"aquila-heliaca": {
+"h": "VR",
+"su": true
+},
+"aquila-chrysaetos": {
+"h": "R",
+"su": false
+},
+"aquila-fasciata": {
+"h": "VR",
+"su": false
+},
+"accipiter-nisus": {
+"h": "C",
+"su": false
+},
+"accipiter-gentilis": {
+"h": "S",
+"su": false
+},
+"circus-macrourus": {
+"h": "S",
+"su": false
+},
+"circus-cyaneus": {
+"h": "FC",
+"su": false
+},
+"circus-hudsonius": {
+"h": "A",
+"su": true
+},
+"circus-pygargus": {
+"h": "S",
+"su": false
+},
+"circus-aeruginosus": {
+"h": "C",
+"su": false
+},
+"milvus-milvus": {
+"h": "FC",
+"su": false
+},
+"milvus-migrans": {
+"h": "S",
+"su": false
+},
+"haliaeetus-albicilla": {
+"h": "S",
+"su": false
+},
+"buteo-lagopus": {
+"h": "FC",
+"su": false
+},
+"buteo-buteo": {
+"h": "C",
+"su": false
+},
+"buteo-rufinus": {
+"h": "VR",
+"su": false
+},
+"upupa-epops": {
+"h": "R",
+"su": false
+},
+"coracias-garrulus": {
+"h": "R",
+"su": false
+},
+"merops-apiaster": {
+"h": "R",
+"su": false
+},
+"merops-persicus": {
+"h": "A",
+"su": false
+},
+"alcedo-atthis": {
+"h": "S",
+"su": false
+},
+"jynx-torquilla": {
+"h": "S",
+"su": false
+},
+"picus-viridis": {
+"h": "S",
+"su": false
+},
+"dryocopus-martius": {
+"h": "S",
+"su": false
+},
+"colaptes-auratus": {
+"h": "A",
+"su": false
+},
+"picoides-tridactylus": {
+"h": "VR",
+"su": false
+},
+"dendrocoptes-medius": {
+"h": "VR",
+"su": false
+},
+"dendrocopos-major": {
+"h": "VC",
+"su": false
+},
+"dryobates-minor": {
+"h": "S",
+"su": false
+},
+"falco-naumanni": {
+"h": "VR",
+"su": true
+},
+"falco-tinnunculus": {
+"h": "C",
+"su": false
+},
+"falco-sparverius": {
+"h": "A",
+"su": false
+},
+"falco-vespertinus": {
+"h": "S",
+"su": false
+},
+"falco-columbarius": {
+"h": "FC",
+"su": false
+},
+"falco-eleonorae": {
+"h": "VR",
+"su": true
+},
+"falco-subbuteo": {
+"h": "FC",
+"su": false
+},
+"falco-peregrinus": {
+"h": "S",
+"su": false
+},
+"falco-rusticolus": {
+"h": "R",
+"su": true
+},
+"falco-cherrug": {
+"h": "VR",
+"su": false
+},
+"vireo-olivaceus": {
+"h": "A",
+"su": true
+},
+"oriolus-oriolus": {
+"h": "S",
+"su": false
+},
+"lanius-excubitor": {
+"h": "S",
+"su": false
+},
+"lanius-minor": {
+"h": "VR",
+"su": true
+},
+"lanius-senator": {
+"h": "VR",
+"su": false
+},
+"lanius-collurio": {
+"h": "FC",
+"su": false
+},
+"lanius-phoenicuroides": {
+"h": "A",
+"su": true
+},
+"lanius-schach": {
+"h": "A",
+"su": false
+},
+"lanius-cristatus": {
+"h": "A",
+"su": false
+},
+"garrulus-glandarius": {
+"h": "C",
+"su": false
+},
+"pica-pica": {
+"h": "VC",
+"su": false
+},
+"nucifraga-caryocatactes": {
+"h": "S",
+"su": false
+},
+"coloeus-dauuricus": {
+"h": "A",
+"su": true
+},
+"coloeus-monedula": {
+"h": "VC",
+"su": false
+},
+"corvus-frugilegus": {
+"h": "VC",
+"su": false
+},
+"corvus-corax": {
+"h": "FC",
+"su": false
+},
+"corvus-corone": {
+"h": "C",
+"su": false
+},
+"remiz-pendulinus": {
+"h": "R",
+"su": false
+},
+"cyanistes-caeruleus": {
+"h": "VC",
+"su": false
+},
+"parus-major": {
+"h": "VC",
+"su": false
+},
+"periparus-ater": {
+"h": "C",
+"su": false
+},
+"lophophanes-cristatus": {
+"h": "FC",
+"su": false
+},
+"poecile-palustris": {
+"h": "FC",
+"su": false
+},
+"poecile-montanus": {
+"h": "S",
+"su": false
+},
+"panurus-biarmicus": {
+"h": "FC",
+"su": false
+},
+"lullula-arborea": {
+"h": "FC",
+"su": false
+},
+"alauda-arvensis": {
+"h": "VC",
+"su": false
+},
+"galerida-cristata": {
+"h": "VR",
+"su": false
+},
+"eremophila-alpestris": {
+"h": "FC",
+"su": false
+},
+"calandrella-brachydactyla": {
+"h": "VR",
+"su": false
+},
+"melanocorypha-bimaculata": {
+"h": "A",
+"su": true
+},
+"cisticola-juncidis": {
+"h": "VR",
+"su": false
+},
+"hippolais-icterina": {
+"h": "C",
+"su": false
+},
+"hippolais-polyglotta": {
+"h": "VR",
+"su": true
+},
+"iduna-caligata": {
+"h": "VR",
+"su": true
+},
+"iduna-pallida": {
+"h": "A",
+"su": false
+},
+"acrocephalus-schoenobaenus": {
+"h": "FC",
+"su": false
+},
+"acrocephalus-paludicola": {
+"h": "VR",
+"su": true
+},
+"acrocephalus-agricola": {
+"h": "VR",
+"su": true
+},
+"acrocephalus-dumetorum": {
+"h": "VR",
+"su": false
+},
+"acrocephalus-palustris": {
+"h": "C",
+"su": false
+},
+"acrocephalus-scirpaceus": {
+"h": "C",
+"su": false
+},
+"acrocephalus-arundinaceus": {
+"h": "R",
+"su": false
+},
+"helopsaltes-fasciolatus": {
+"h": "A",
+"su": true
+},
+"locustella-lanceolata": {
+"h": "VR",
+"su": false
+},
+"locustella-fluviatilis": {
+"h": "R",
+"su": false
+},
+"locustella-luscinioides": {
+"h": "R",
+"su": false
+},
+"locustella-naevia": {
+"h": "S",
+"su": false
+},
+"riparia-riparia": {
+"h": "C",
+"su": false
+},
+"ptyonoprogne-rupestris": {
+"h": "VR",
+"su": true
+},
+"hirundo-rustica": {
+"h": "VC",
+"su": false
+},
+"delichon-urbicum": {
+"h": "C",
+"su": false
+},
+"cecropis-semirufa": {
+"h": "A",
+"su": false
+},
+"cecropis-rufula": {
+"h": "A",
+"su": false
+},
+"cecropis-daurica": {
+"h": "A",
+"su": false
+},
+"aegithalos-caudatus": {
+"h": "FC",
+"su": false
+},
+"cettia-cetti": {
+"h": "A",
+"su": false
+},
+"phylloscopus-sibilatrix": {
+"h": "FC",
+"su": false
+},
+"phylloscopus-bonelli": {
+"h": "VR",
+"su": true
+},
+"phylloscopus-inornatus": {
+"h": "S",
+"su": false
+},
+"phylloscopus-humei": {
+"h": "VR",
+"su": false
+},
+"phylloscopus-proregulus": {
+"h": "R",
+"su": false
+},
+"phylloscopus-schwarzi": {
+"h": "VR",
+"su": true
+},
+"phylloscopus-griseolus": {
+"h": "A",
+"su": true
+},
+"phylloscopus-fuscatus": {
+"h": "VR",
+"su": false
+},
+"phylloscopus-trochilus": {
+"h": "VC",
+"su": false
+},
+"phylloscopus-ibericus": {
+"h": "VR",
+"su": true
+},
+"phylloscopus-collybita": {
+"h": "VC",
+"su": false
+},
+"phylloscopus-nitidus": {
+"h": "A",
+"su": true
+},
+"phylloscopus-plumbeitarsus": {
+"h": "A",
+"su": true
+},
+"phylloscopus-trochiloides": {
+"h": "R",
+"su": false
+},
+"phylloscopus-borealis": {
+"h": "VR",
+"su": true
+},
+"sylvia-borin": {
+"h": "VC",
+"su": false
+},
+"sylvia-atricapilla": {
+"h": "VC",
+"su": false
+},
+"curruca-nisoria": {
+"h": "R",
+"su": false
+},
+"curruca-curruca": {
+"h": "VC",
+"su": false
+},
+"curruca-nana": {
+"h": "VR",
+"su": true
+},
+"curruca-communis": {
+"h": "VC",
+"su": false
+},
+"curruca-sarda": {
+"h": "A",
+"su": true
+},
+"curruca-ruppeli": {
+"h": "A",
+"su": true
+},
+"curruca-melanocephala": {
+"h": "VR",
+"su": false
+},
+"curruca-subalpina": {
+"h": null,
+"su": true
+},
+"curruca-iberiae": {
+"h": "VR",
+"su": true
+},
+"curruca-cantillans": {
+"h": "VR",
+"su": false
+},
+"bombycilla-garrulus": {
+"h": "C",
+"su": false
+},
+"regulus-ignicapilla": {
+"h": "S",
+"su": false
+},
+"regulus-regulus": {
+"h": "C",
+"su": false
+},
+"sitta-europaea": {
+"h": "C",
+"su": false
+},
+"certhia-familiaris": {
+"h": "C",
+"su": false
+},
+"certhia-brachydactyla": {
+"h": "FC",
+"su": false
+},
+"troglodytes-troglodytes": {
+"h": "VC",
+"su": false
+},
+"sturnus-unicolor": {
+"h": "A",
+"su": true
+},
+"sturnus-vulgaris": {
+"h": "VC",
+"su": false
+},
+"pastor-roseus": {
+"h": "R",
+"su": false
+},
+"cinclus-cinclus": {
+"h": "S",
+"su": false
+},
+"zoothera-aurea": {
+"h": "VR",
+"su": false
+},
+"catharus-ustulatus": {
+"h": "A",
+"su": false
+},
+"catharus-guttatus": {
+"h": "A",
+"su": false
+},
+"turdus-viscivorus": {
+"h": "C",
+"su": false
+},
+"turdus-philomelos": {
+"h": "VC",
+"su": false
+},
+"turdus-iliacus": {
+"h": "C",
+"su": false
+},
+"turdus-merula": {
+"h": "VC",
+"su": false
+},
+"turdus-pilaris": {
+"h": "VC",
+"su": false
+},
+"turdus-torquatus": {
+"h": "FC",
+"su": false
+},
+"turdus-atrogularis": {
+"h": "VR",
+"su": true
+},
+"turdus-eunomus": {
+"h": "A",
+"su": true
+},
+"turdus-obscurus": {
+"h": "A",
+"su": true
+},
+"turdus-migratorius": {
+"h": "A",
+"su": false
+},
+"muscicapa-dauurica": {
+"h": "A",
+"su": false
+},
+"muscicapa-striata": {
+"h": "FC",
+"su": false
+},
+"erithacus-rubecula": {
+"h": "VC",
+"su": false
+},
+"luscinia-luscinia": {
+"h": "C",
+"su": false
+},
+"luscinia-megarhynchos": {
+"h": "R",
+"su": false
+},
+"luscinia-svecica": {
+"h": "S",
+"su": false
+},
+"calliope-calliope": {
+"h": "A",
+"su": false
+},
+"larvivora-sibilans": {
+"h": "A",
+"su": true
+},
+"ficedula-parva": {
+"h": "S",
+"su": false
+},
+"ficedula-albicilla": {
+"h": "A",
+"su": true
+},
+"ficedula-albicollis": {
+"h": "R",
+"su": false
+},
+"ficedula-hypoleuca": {
+"h": "C",
+"su": false
+},
+"tarsiger-cyanurus": {
+"h": "VR",
+"su": true
+},
+"phoenicurus-ochruros": {
+"h": "S",
+"su": false
+},
+"phoenicurus-phoenicurus": {
+"h": "C",
+"su": false
+},
+"monticola-saxatilis": {
+"h": "VR",
+"su": true
+},
+"saxicola-rubetra": {
+"h": "C",
+"su": false
+},
+"saxicola-maurus": {
+"h": "VR",
+"su": false
+},
+"saxicola-rubicola": {
+"h": "S",
+"su": false
+},
+"oenanthe-deserti": {
+"h": "VR",
+"su": false
+},
+"oenanthe-hispanica": {
+"h": "VR",
+"su": true
+},
+"oenanthe-pleschanka": {
+"h": "VR",
+"su": true
+},
+"oenanthe-melanoleuca": {
+"h": "A",
+"su": true
+},
+"oenanthe-oenanthe": {
+"h": "C",
+"su": false
+},
+"oenanthe-isabellina": {
+"h": "VR",
+"su": true
+},
+"oenanthe-leucopyga": {
+"h": "A",
+"su": false
+},
+"prunella-collaris": {
+"h": "VR",
+"su": false
+},
+"prunella-atrogularis": {
+"h": "A",
+"su": false
+},
+"prunella-modularis": {
+"h": "C",
+"su": false
+},
+"prunella-montanella": {
+"h": "VR",
+"su": false
+},
+"montifringilla-nivalis": {
+"h": "A",
+"su": false
+},
+"passer-montanus": {
+"h": "VC",
+"su": false
+},
+"passer-hispaniolensis": {
+"h": "A",
+"su": false
+},
+"passer-domesticus": {
+"h": "VC",
+"su": false
+},
+"motacilla-cinerea": {
+"h": "S",
+"su": false
+},
+"motacilla-flava": {
+"h": "C",
+"su": false
+},
+"motacilla-citreola": {
+"h": "VR",
+"su": false
+},
+"motacilla-tschutschensis": {
+"h": "A",
+"su": false
+},
+"motacilla-alba": {
+"h": "C",
+"su": false
+},
+"anthus-godlewskii": {
+"h": "VR",
+"su": true
+},
+"anthus-campestris": {
+"h": "R",
+"su": false
+},
+"anthus-richardi": {
+"h": "R",
+"su": false
+},
+"anthus-trivialis": {
+"h": "C",
+"su": false
+},
+"anthus-hodgsoni": {
+"h": "VR",
+"su": false
+},
+"anthus-cervinus": {
+"h": "R",
+"su": false
+},
+"anthus-pratensis": {
+"h": "VC",
+"su": false
+},
+"anthus-petrosus": {
+"h": "FC",
+"su": false
+},
+"anthus-spinoletta": {
+"h": "FC",
+"su": false
+},
+"fringilla-montifringilla": {
+"h": "VC",
+"su": false
+},
+"fringilla-coelebs": {
+"h": "VC",
+"su": false
+},
+"coccothraustes-coccothraustes": {
+"h": "FC",
+"su": false
+},
+"carpodacus-erythrinus": {
+"h": "S",
+"su": false
+},
+"pinicola-enucleator": {
+"h": "R",
+"su": false
+},
+"pyrrhula-pyrrhula": {
+"h": "C",
+"su": false
+},
+"bucanetes-githagineus": {
+"h": "VR",
+"su": false
+},
+"chloris-chloris": {
+"h": "VC",
+"su": false
+},
+"linaria-flavirostris": {
+"h": "C",
+"su": false
+},
+"linaria-cannabina": {
+"h": "C",
+"su": false
+},
+"acanthis-flammea": {
+"h": "C",
+"su": false
+},
+"loxia-leucoptera": {
+"h": "FC",
+"su": false
+},
+"loxia-pytyopsittacus": {
+"h": "S",
+"su": false
+},
+"loxia-curvirostra": {
+"h": "C",
+"su": false
+},
+"carduelis-carduelis": {
+"h": "C",
+"su": false
+},
+"serinus-serinus": {
+"h": "S",
+"su": false
+},
+"spinus-spinus": {
+"h": "C",
+"su": false
+},
+"plectrophenax-nivalis": {
+"h": "FC",
+"su": false
+},
+"calcarius-lapponicus": {
+"h": "S",
+"su": false
+},
+"emberiza-schoeniclus": {
+"h": "C",
+"su": false
+},
+"emberiza-chrysophrys": {
+"h": "A",
+"su": true
+},
+"emberiza-aureola": {
+"h": "VR",
+"su": false
+},
+"emberiza-pusilla": {
+"h": "R",
+"su": false
+},
+"emberiza-rustica": {
+"h": "VR",
+"su": true
+},
+"emberiza-melanocephala": {
+"h": "VR",
+"su": true
+},
+"emberiza-bruniceps": {
+"h": "A",
+"su": true
+},
+"emberiza-calandra": {
+"h": "C",
+"su": false
+},
+"emberiza-cia": {
+"h": "A",
+"su": false
+},
+"emberiza-buchanani": {
+"h": "A",
+"su": false
+},
+"emberiza-cineracea": {
+"h": "A",
+"su": false
+},
+"emberiza-hortulana": {
+"h": "R",
+"su": false
+},
+"emberiza-cirlus": {
+"h": "A",
+"su": true
+},
+"emberiza-leucocephalos": {
+"h": "VR",
+"su": false
+},
+"emberiza-citrinella": {
+"h": "VC",
+"su": false
+},
+"junco-hyemalis": {
+"h": "A",
+"su": false
+},
+"zonotrichia-albicollis": {
+"h": "A",
+"su": true
+},
+"zonotrichia-leucophrys": {
+"h": "A",
+"su": false
+},
+"setophaga-striata": {
+"h": "A",
+"su": true
+},
+"setophaga-aestiva": {
+"h": "A",
+"su": false
+},
+"pheucticus-ludovicianus": {
+"h": "A",
+"su": true
+},
+"corvus-cornix": {
+"h": "VC",
+"su": false
+},
+"acanthis-cabaret": {
+"h": "FC",
+"su": false
+},
+"acanthis-hornemanni": {
+"h": "R",
+"su": false
+}
+}

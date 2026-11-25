@@ -37,7 +37,7 @@ export function sammenlignPages(pairs, h) {
     const lic = so ? (so.licenseUrl ? `<a href="${esc(so.licenseUrl)}" rel="license noopener" target="_blank">${esc(so.license)}</a>` : esc(so.license)) : '';
     return `<div class="cmp-bird${focal ? ' focal' : ''}">
     ${ph ? `<figure><img src="${esc(ph.medium)}" srcset="${esc(ph.medium)} 500w, ${esc(size(ph, 'large'))} 1024w" sizes="(min-width: 1100px) 540px, (min-width: 700px) 45vw, 100vw" alt="${esc(nm(d))}" loading="lazy" decoding="async"><figcaption>${credit(ph)}</figcaption></figure>` : '<div class="cmp-noimg" aria-hidden="true"></div>'}
-    <p class="cmp-name">${focal ? `<span>${esc(nm(d))}</span>` : `<a href="${url(`fugle/${d.slug}/`)}">${esc(nm(d))}</a>`} <i>${esc(d.names.accepted)}</i></p>
+    <p class="cmp-name"><a href="${url(`fugle/${d.slug}/`)}">${esc(nm(d))}</a> <i>${esc(d.names.accepted)}</i></p>
     ${so ? `<audio controls preload="none" aria-label="Lyd: ${esc(nm(d))}">${so.src.map((x) => `<source src="${esc(x.u)}"${x.type && x.type !== 'application/ogg' ? ` type="${esc(x.type)}"` : ''}>`).join('')}</audio>
     <p class="cmp-credit">Optaget af ${esc(so.artist || 'ukendt')}, ${lic}, via <a href="${esc(so.page)}" rel="noopener" target="_blank">${esc(so.via || 'xeno-canto')}</a>.</p>` : '<p class="cmp-credit">Ingen lydoptagelse.</p>'}
     ${!focal && bySlug.has(d.slug) ? `<p class="cmp-more"><a href="${url(cmpUrl(d))}">Sammenlign ${esc(lc(nm(d)))} →</a></p>` : ''}

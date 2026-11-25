@@ -301,6 +301,9 @@
       var hintAt = -1; steps.forEach(function (st, i) { if (st.t === 'fakta') hintAt = i; });
       hintEl.hidden = !(day.done || cur >= hintAt);
       hintEl.textContent = '💡 Fakta: ' + qd.hint;
+      if (qd.hintSrc) { var hs = document.createElement('small'); hs.className = 'source'; hs.textContent = ' (' + qd.hintSrc + ')'; hintEl.appendChild(hs); }
+      var ic = document.getElementById('quiz-img-credit');
+      if (ic) { ic.hidden = frame.hidden || !qd.imgCredit; if (qd.imgCredit && !ic.firstChild) { if (qd.imgLic) { var la = document.createElement('a'); la.href = qd.imgLic; la.target = '_blank'; la.rel = 'license noopener'; la.textContent = qd.imgCredit; ic.appendChild(la); } else ic.textContent = qd.imgCredit; } }
       // vis hvilket trin man er på
       var st = steps[cur];
       var lab = document.getElementById('quiz-step-label');

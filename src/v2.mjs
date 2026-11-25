@@ -4,7 +4,7 @@
 
 export function makeV2(h) {
   const { esc, url, abs, nf, SITE_NAME, MONTHS, MONTHS_SHORT, regionNames, displayName, size, srcset, credit,
-    relMonths, seasonText, rangeText, seasonNow, speciesJsonLd, metaDescription, speciesTitle, akaNames, mailto, CF_BEACON, SIGNUP_URL } = h;
+    relMonths, seasonText, rangeText, seasonNow, rarity, speciesJsonLd, metaDescription, speciesTitle, akaNames, mailto, CF_BEACON, SIGNUP_URL } = h;
   const P = (p) => url(p);
   const VER = Date.now().toString(36); // nyt filnavn ved hver bygning, så browsere ikke bruger gammel CSS/JS
   const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
@@ -91,7 +91,8 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
   function statusDK(d) {
     const g = d.gbif;
     if (d.region !== 'dk') return null;
-    if (!g || (g.dkTotal ?? 0) < 20 || !Array.isArray(g.dkMonths)) return 'Sjælden gæst';
+    if (rarity(d) === 'meget-sjaelden') return 'Meget sjælden gæst';
+    if (rarity(d) === 'sjaelden' || !g || (g.dkTotal ?? 0) < 20 || !Array.isArray(g.dkMonths)) return 'Sjælden gæst';
     const r = relMonths(g.dkMonths);
     const avg = (ix) => ix.reduce((s, i) => s + r[i], 0) / ix.length;
     const winter = avg([11, 0, 1]); const summer = avg([5, 6]); const spring = avg([2, 3, 4]); const autumn = avg([8, 9, 10]);
@@ -100,6 +101,11 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     if (summer < 0.08 && winter >= 0.25) return 'Vintergæst';
     if (summer < 0.15 && winter < 0.15 && Math.max(spring, autumn) >= 0.25) return 'Trækgæst';
     return 'Ses det meste af året';
+  }
+  function rareLead(d) {
+    const r = rarity(d);
+    if (r !== 'sjaelden' && r !== 'meget-sjaelden') return null;
+    return `${r === 'meget-sjaelden' ? 'Meget sjælden' : 'Sjælden'} gæst i Danmark. Søjlerne viser, hvornår på året de forholdsvis få fund er gjort – ikke at den er let at finde.`;
   }
   function bestPeriod(d) {
     const g = d.gbif;
@@ -188,7 +194,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     let inner;
     const aka = akaNames(d);
     const akaP = aka.length ? `<p class="aka">${esc(name)} kaldes også ${aka.map((a) => `<b>${esc(a)}</b>`).join(' eller ')}.</p>` : '';
-    if (t) inner = akaP + parts.filter(([k]) => t[k]).map(([k, hd]) => `<h3>${hd}</h3><p>${esc(t[k])}</p>`).join('') + `<p class="src">Tekst: ${esc(SITE_NAME)}.${d.wiki ? ` Læs mere på <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>.` : ''}</p>`;
+    if (t) inner = parts.filter(([k]) => t[k]).map(([k, hd]) => `<h3>${hd}</h3><p>${esc(t[k])}</p>`).join('') + `<p class="src">Tekst: ${esc(SITE_NAME)}.${d.wiki ? ` Læs mere på <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>.` : ''}</p>`;
     else if (d.wiki?.extract) inner = `<div${d.wiki.lang !== 'da' ? ' lang="en"' : ''}><p>${esc(d.wiki.extract).replace(/\n+/g, '</p><p>')}</p></div><p class="src">Tekst fra <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a>.</p>`;
     else return '';
     return `<section class="sec" id="om"><h2>Om fuglen</h2><div class="prose">${inner}</div></section>`;
@@ -210,7 +216,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     const gbifA = `<a href="https://www.gbif.org/species/${g.key}" rel="noopener" target="_blank">GBIF</a>`;
     let when;
     if (g.dkTotal >= 20 && Array.isArray(g.dkMonths)) {
-      when = `<div class="box" id="hvornaar"><h2>Hvornår ses den?</h2><p class="lead">${esc(seasonText(relMonths(g.dkMonths)) || '')}</p>${chart(relMonths(g.dkMonths), g.dkMonths)}<p class="src">${nf.format(g.dkTotal)} registreringer fra Danmark i ${gbifA}. Søjlerne er korrigeret for, at der generelt er flere fuglekiggere ude i nogle måneder end i andre. ${upd}</p></div>`;
+      when = `<div class="box" id="hvornaar"><h2>Hvornår ses den?</h2><p class="lead">${esc(rareLead(d) || seasonText(relMonths(g.dkMonths)) || '')}</p>${chart(relMonths(g.dkMonths), g.dkMonths)}<p class="src">${nf.format(g.dkTotal)} registreringer fra Danmark i ${gbifA}. Søjlerne er korrigeret for, at der generelt er flere fuglekiggere ude i nogle måneder end i andre. ${upd}</p></div>`;
     } else if (d.region === 'dk') {
       when = `<div class="box" id="hvornaar"><h2>Ses den i Danmark?</h2><p class="lead">Den er en sjælden gæst – der er kun ${nf.format(g.dkTotal || 0)} registreringer fra Danmark i GBIF.</p><p class="src">Fund af sjældne arter skal som regel godkendes af DOF's Sjældenhedsudvalg (SU). Antallet her er registreringer i GBIF, ikke antal godkendte fund. ${upd}</p></div>`;
     } else {
@@ -240,7 +246,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     const g = d.gbif;
     if (d.region === 'dk' && g?.dkTotal >= 20 && Array.isArray(g.dkMonths)) {
       const st = statusDK(d);
-      out.push([`Hvornår kan man se ${name.toLowerCase()} i Danmark?`, `${seasonText(relMonths(g.dkMonths))}${st ? ` Ud fra fundene er den ${st === 'Ses hele året' || st === 'Ses det meste af året' ? 'at finde ' + st.slice(5) : 'en ' + st.toLowerCase()}.` : ''}`]);
+      out.push([`Hvornår kan man se ${name.toLowerCase()} i Danmark?`, `${rareLead(d) || seasonText(relMonths(g.dkMonths))}${st && !rareLead(d) ? ` Ud fra fundene er den ${st === 'Ses hele året' || st === 'Ses det meste af året' ? 'at finde ' + st.slice(5) : 'en ' + st.toLowerCase()}.` : ''}`]);
     }
     for (const f of t.forveksling || []) {
       const o = byKey.get(f.art);
@@ -281,7 +287,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
 
   function speciesArticle(d, { byKey, family, headingTag = 'h1', kicker = '', crumbs = true }) {
     const name = displayName(d);
-    const rare = d.region === 'dk' && (d.gbif?.dkTotal ?? 0) < 20;
+    const rare = rarity(d) === 'sjaelden' || rarity(d) === 'meget-sjaelden';
     const tag = rare ? '<span class="tag rare">Sjælden gæst i Danmark</span>' : d.region === 'dk' ? '<span class="tag">Dansk fugl</span>' : '<span class="tag">Udenlandsk fugl</span>';
     const now = seasonNow(d);
     const sec = d.region === 'dk' ? ['fugle/danske/', 'Danske fugle'] : ['fugle/udenlandske/', 'Udenlandske fugle'];
@@ -303,6 +309,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     <div class="head-name">
       <${headingTag} class="name">${esc(name)}</${headingTag}>
       <p class="names"><i>${esc(d.names.accepted)}</i>${d.names.da && d.names.en ? `<span>${esc(d.names.en)}</span>` : ''}${tag}</p>
+      ${d.navnenote ? `<p class="aka-head">${esc(d.navnenote)}</p>` : (akaNames(d).length ? `<p class="aka-head">Også kendt som ${akaNames(d).map((a) => `<b>${esc(a)}</b>`).join(akaNames(d).length > 2 ? ', ' : ' og ').replace(/, (?=[^,]*$)/, ' og ')}.</p>` : '')}
       ${now ? `<p class="now now-${now.level}"><span class="dot" aria-hidden="true"></span><strong>${esc(now.text)}</strong>${now.more ? ` <span>${esc(now.more)}</span>` : ''}</p>` : ''}
     </div>
     <div class="cta" data-seen hidden>
@@ -338,7 +345,8 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
       title: `${speciesTitle(d)} | ${SITE_NAME}`,
       description: metaDescription(d),
       canonical: abs(`fugle/${d.slug}/`),
-      image: d.photos?.hero?.large || d.photos?.hero?.medium,
+      // Delingsbillede kun når fotoet er CC0 – sociale medier viser ikke fotografens navn
+      image: d.photos?.hero?.license === 'cc0' ? (d.photos.hero.large || d.photos.hero.medium) : null,
       type: 'article',
       jsonld: ld,
       body,
