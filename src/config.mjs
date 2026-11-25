@@ -21,6 +21,9 @@ export const PHOTO_LICENSES = ALLOW_NONCOMMERCIAL
 // Hvor mange arter der højst hentes data for pr. kørsel, og hvor gamle data må være.
 export const MAX_FETCH = Number(process.env.MAX_FETCH || 60);
 export const REFRESH_DAYS = Number(process.env.REFRESH_DAYS || 90);
+// Fund fra GBIF (hvornår og hvor arten ses) opdateres hver uge – højst GBIF_FETCH arter pr. kørsel.
+export const GBIF_REFRESH_DAYS = Number(process.env.GBIF_REFRESH_DAYS || 7);
+export const GBIF_FETCH = Number(process.env.GBIF_FETCH ?? 200);
 
 // Kontakt i User-Agent – Wikipedia og iNaturalist beder om det.
 export const CONTACT = process.env.CONTACT || SITE_URL;

@@ -46,6 +46,8 @@ jobs:
         env:
           # Skriv [hent-alle] i en commit-besked for at hente data for alle arter ved et push
           MAX_FETCH: ${{ github.event_name == 'push' && (contains(github.event.head_commit.message, '[hent-alle]') && '700' || '0') || inputs.max_fetch || '60' }}
+          # Ugentlig opdatering af GBIF-fund – ikke ved almindelige push.
+          GBIF_FETCH: ${{ github.event_name == 'push' && (contains(github.event.head_commit.message, '[hent-alle]') && '800' || '0') || '200' }}
           ALLOW_NONCOMMERCIAL: ${{ vars.ALLOW_NONCOMMERCIAL || 'true' }}
           CONTACT: ${{ vars.CONTACT }}
           XC_KEY: ${{ secrets.XC_KEY }}

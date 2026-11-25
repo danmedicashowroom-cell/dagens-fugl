@@ -14,7 +14,7 @@ import {
   loadSpeciesList, readCache, writeJson, cachePath, readJson, sleep,
   CACHE_DIR, SLUGS_FILE, slugify, ROOT,
 } from './common.mjs';
-import { USER_AGENT, MAX_FETCH, REFRESH_DAYS, PHOTO_LICENSES } from './config.mjs';
+import { USER_AGENT, MAX_FETCH, REFRESH_DAYS, GBIF_FETCH, GBIF_REFRESH_DAYS, PHOTO_LICENSES } from './config.mjs';
 
 const HEADERS = { 'User-Agent': USER_AGENT, 'Accept': 'application/json', 'Api-User-Agent': USER_AGENT };
 
@@ -342,6 +342,7 @@ async function fetchSpecies(sp, old) {
     name: sp.name,
     region: sp.region,
     fetchedAt: new Date().toISOString(),
+    gbifAt: gbif ? new Date().toISOString() : old?.gbifAt || null,
     names: { da: da || old?.names?.da || null, en: en || old?.names?.en || null, accepted: taxon?.name || old?.names?.accepted || sp.name },
     wikidata: wd ? { id: wd.id } : old?.wikidata || null,
     wiki: keep(wiki, old?.wiki),
@@ -432,6 +433,24 @@ async function main() {
     } catch (e) { console.log(`    taksonomi ${sp.name}: ${e.message}`); }
   }
   if (noTaxon.length) console.log(`Taksonomi: hentet for ${noTaxon.length} arter.`);
+
+  // Fund fra GBIF (måneder, lande) opdateres oftere end resten, så »hvornår ses den« følger med.
+  // Let – to kald pr. art. Ældste først, højst GBIF_FETCH pr. kørsel.
+  const gbifDue = list.map((sp) => ({ sp, d: readCache(sp.key) }))
+    .filter(({ d }) => d?.gbif?.key && now - Date.parse(d.gbifAt || d.fetchedAt) > GBIF_REFRESH_DAYS * 864e5)
+    .sort((a, b) => Date.parse(a.d.gbifAt || a.d.fetchedAt) - Date.parse(b.d.gbifAt || b.d.fetchedAt))
+    .slice(0, GBIF_FETCH);
+  let gOk = 0;
+  for (const { sp, d } of gbifDue) {
+    try {
+      const g = await gbifStats(d.gbif.key);
+      d.gbif = { ...d.gbif, ...g };
+      d.gbifAt = new Date().toISOString();
+      writeJson(cachePath(sp.key), d);
+      gOk++;
+    } catch (e) { console.log(`    gbif ${sp.name}: ${e.message}`); }
+  }
+  if (gbifDue.length) console.log(`GBIF-fund: opdateret ${gOk}/${gbifDue.length} arter (data ældre end ${GBIF_REFRESH_DAYS} dage).`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
