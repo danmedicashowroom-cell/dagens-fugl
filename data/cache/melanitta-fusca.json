@@ -2,7 +2,8 @@
  "key": "melanitta-fusca",
  "name": "Melanitta fusca",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:15.088Z",
+ "fetchedAt": "2026-11-26T04:09:07.464Z",
+ "gbifAt": "2026-11-26T04:09:07.464Z",
  "names": {
   "da": "Fløjlsand",
   "en": "Velvet Scoter",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 850858,
-  "observations": 3053
+  "observations": 3124
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498238,
-  "dkTotal": 87490,
+  "dkTotal": 87641,
   "dkMonths": [
    9129,
-   7767,
-   8455,
+   7766,
+   8456,
    8090,
    5129,
    1405,
-   3497,
+   3498,
    4585,
-   9054,
-   14311,
-   10247,
+   9055,
+   14315,
+   10392,
    5734
   ],
-  "worldTotal": 641527,
+  "worldTotal": 641679,
   "topCountries": [
    {
     "code": "SE",
@@ -158,7 +159,7 @@
    },
    {
     "code": "DK",
-    "count": 87490
+    "count": 87641
    },
    {
     "code": "US",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 13407
+    "count": 13408
    },
    {
     "code": "FR",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:37.594Z"
+ }
 }

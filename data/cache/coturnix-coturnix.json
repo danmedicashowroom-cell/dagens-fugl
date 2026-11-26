@@ -2,7 +2,8 @@
  "key": "coturnix-coturnix",
  "name": "Coturnix coturnix",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:55.815Z",
+ "fetchedAt": "2026-11-26T04:09:47.938Z",
+ "gbifAt": "2026-11-26T04:09:47.938Z",
  "names": {
   "da": "Vagtel",
   "en": "Common Quail",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 804,
-  "observations": 4594
+  "observations": 4613
  },
  "photos": {
   "male": [
@@ -131,14 +132,14 @@
  },
  "gbif": {
   "key": 2474156,
-  "dkTotal": 21380,
+  "dkTotal": 21381,
   "dkMonths": [
    0,
    0,
    0,
    98,
    3082,
-   8276,
+   8277,
    6771,
    3030,
    63,
@@ -146,7 +147,7 @@
    13,
    0
   ],
-  "worldTotal": 533536,
+  "worldTotal": 533537,
   "topCountries": [
    {
     "code": "ES",
@@ -174,7 +175,7 @@
    },
    {
     "code": "DK",
-    "count": 21380
+    "count": 21381
    },
    {
     "code": "CH",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phasianidae",
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- },
- "gbifAt": "2026-11-25T22:17:43.660Z"
+ }
 }

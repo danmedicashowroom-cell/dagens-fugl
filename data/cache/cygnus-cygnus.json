@@ -2,7 +2,8 @@
  "key": "cygnus-cygnus",
  "name": "Cygnus cygnus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:31:20.750Z",
+ "fetchedAt": "2026-11-26T04:06:06.832Z",
+ "gbifAt": "2026-11-26T04:06:06.832Z",
  "names": {
   "da": "Sangsvane",
   "en": "Whooper Swan",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 6916,
-  "observations": 24638
+  "observations": 24793
  },
  "photos": {
   "male": [
@@ -108,14 +109,14 @@
     "date": "2019-01-26"
    },
    {
-    "id": 312266681,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/312266681/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/312266681/large.jpeg",
-    "attribution": "(c) Maija Karala, some rights reserved (CC BY-NC)",
+    "id": 347014252,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/347014252/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/347014252/large.jpeg",
+    "attribution": "(c) Janne Uusitalo, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/179373470",
-    "place": "Helsinki, Finland",
-    "date": "2023-08-20"
+    "source": "https://www.inaturalist.org/observations/197077999",
+    "place": "Pyhäjärvi",
+    "date": "2024-01-19"
    }
   ],
   "hero": {
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498347,
-  "dkTotal": 337073,
+  "dkTotal": 337468,
   "dkMonths": [
-   85602,
+   85607,
    60823,
-   53235,
-   11205,
+   53236,
+   11206,
    3879,
    2396,
    1822,
    2149,
    2182,
-   13215,
-   45344,
+   13216,
+   45731,
    53891
   ],
-  "worldTotal": 2250834,
+  "worldTotal": 2251238,
   "topCountries": [
    {
     "code": "SE",
@@ -154,7 +155,7 @@
    },
    {
     "code": "DK",
-    "count": 337073
+    "count": 337468
    },
    {
     "code": "NO",
@@ -174,7 +175,7 @@
    },
    {
     "code": "IS",
-    "count": 43920
+    "count": 43921
    },
    {
     "code": "EE",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 21903
+    "count": 21911
    },
    {
     "code": "RU",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:15.374Z"
+ }
 }

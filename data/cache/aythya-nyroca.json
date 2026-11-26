@@ -2,7 +2,8 @@
  "key": "aythya-nyroca",
  "name": "Aythya nyroca",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:33:48.456Z",
+ "fetchedAt": "2026-11-26T04:08:40.992Z",
+ "gbifAt": "2026-11-26T04:08:40.992Z",
  "names": {
   "da": "Hvidøjet And",
   "en": "Ferruginous Duck",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7055,
-  "observations": 6977
+  "observations": 7029
  },
  "photos": {
   "male": [
@@ -34,6 +35,16 @@
     "date": "2025-02-08"
    },
    {
+    "id": 766344188,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/766344188/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/766344188/large.jpg",
+    "attribution": "(c) Wilco Vertegaal, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/416142150",
+    "place": "Netherlands",
+    "date": "2026-11-21"
+   },
+   {
     "id": 618919422,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/618919422/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/618919422/large.jpg",
@@ -42,16 +53,6 @@
     "source": "https://www.inaturalist.org/observations/340138014",
     "place": "Northern Ireland, GB",
     "date": "2026-02-24"
-   },
-   {
-    "id": 752285981,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/752285981/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/752285981/large.jpg",
-    "attribution": "(c) James Rawson, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/409176361",
-    "place": "Warwickshire, England, GB",
-    "date": "2026-03-24"
    }
   ],
   "female": [
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 399761550,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/399761550/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/399761550/large.jpg",
-    "attribution": "(c) ahlsa, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/225471567",
-    "place": "Hohhot, CN-NM, CN",
-    "date": "2024-06-27"
-   },
-   {
     "id": 449359123,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/449359123/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/449359123/large.jpg",
@@ -106,6 +97,16 @@
     "source": "https://www.inaturalist.org/observations/251172805",
     "place": "Hajdú-Bihar, HU",
     "date": "2024-10-01"
+   },
+   {
+    "id": 399761550,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/399761550/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/399761550/large.jpg",
+    "attribution": "(c) ahlsa, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/225471567",
+    "place": "Hohhot, CN-NM, CN",
+    "date": "2024-06-27"
    },
    {
     "id": 589678108,
@@ -119,12 +120,12 @@
    }
   ],
   "hero": {
-   "id": 6567260,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/6567260/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/6567260/large.jpg",
-   "attribution": "(c) Martin Mecnarowski, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/6567260",
+   "id": 1954492,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954492/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954492/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/1954492",
    "place": null,
    "date": null
   }
@@ -146,7 +147,7 @@
    262,
    31
   ],
-  "worldTotal": 163780,
+  "worldTotal": 163782,
   "topCountries": [
    {
     "code": "NL",
@@ -194,7 +195,7 @@
    },
    {
     "code": "DE",
-    "count": 3866
+    "count": 3868
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:34.615Z"
+ }
 }

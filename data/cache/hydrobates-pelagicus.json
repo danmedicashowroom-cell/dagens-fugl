@@ -2,7 +2,8 @@
  "key": "hydrobates-pelagicus",
  "name": "Hydrobates pelagicus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:36:20.089Z",
+ "fetchedAt": "2026-11-26T04:11:13.177Z",
+ "gbifAt": "2026-11-26T04:11:13.177Z",
  "names": {
   "da": "Lille stormsvale",
   "en": "European Storm Petrel",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4170,
-  "observations": 854
+  "observations": 858
  },
  "photos": {
   "male": [],
@@ -183,13 +184,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Hydrobatidae",
   "familyKey": 5249,
   "familyDa": "Stormsvaler",
   "order": "Procellariiformes"
- },
- "gbifAt": "2026-11-25T22:17:51.999Z"
+ }
 }

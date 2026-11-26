@@ -2,7 +2,8 @@
  "key": "branta-ruficollis",
  "name": "Branta ruficollis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:26.573Z",
+ "fetchedAt": "2026-11-26T04:07:14.936Z",
+ "gbifAt": "2026-11-26T04:07:14.936Z",
  "names": {
   "da": "Rødhalset gås",
   "en": "Red-breasted Goose",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7102,
-  "observations": 2539
+  "observations": 2551
  },
  "photos": {
   "male": [
@@ -70,7 +71,7 @@
  },
  "gbif": {
   "key": 5232451,
-  "dkTotal": 3841,
+  "dkTotal": 3846,
   "dkMonths": [
    327,
    585,
@@ -82,10 +83,10 @@
    69,
    48,
    529,
-   265,
+   270,
    242
   ],
-  "worldTotal": 77962,
+  "worldTotal": 77970,
   "topCountries": [
    {
     "code": "NL",
@@ -97,7 +98,7 @@
    },
    {
     "code": "DK",
-    "count": 3841
+    "count": 3846
    },
    {
     "code": "GB",
@@ -109,7 +110,7 @@
    },
    {
     "code": "DE",
-    "count": 1550
+    "count": 1553
    },
    {
     "code": "RU",
@@ -152,13 +153,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:23.436Z"
+ }
 }

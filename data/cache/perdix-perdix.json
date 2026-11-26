@@ -2,7 +2,8 @@
  "key": "perdix-perdix",
  "name": "Perdix perdix",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:50.134Z",
+ "fetchedAt": "2026-11-26T04:09:42.302Z",
+ "gbifAt": "2026-11-26T04:09:42.302Z",
  "names": {
   "da": "Agerhøne",
   "en": "Grey Partridge",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 831,
-  "observations": 16223
+  "observations": 16344
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2473958,
-  "dkTotal": 67901,
+  "dkTotal": 67946,
   "dkMonths": [
-   5476,
-   5215,
+   5477,
+   5216,
    6370,
-   9505,
+   9506,
    11972,
-   6300,
-   3984,
-   3874,
-   3949,
-   4792,
-   3152,
-   3145
+   6301,
+   3989,
+   3879,
+   3954,
+   4794,
+   3175,
+   3146
   ],
-  "worldTotal": 698051,
+  "worldTotal": 698110,
   "topCountries": [
    {
     "code": "NL",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 67901
+    "count": 67946
    },
    {
     "code": "FR",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 18711
+    "count": 18725
    },
    {
     "code": "FI",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phasianidae",
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- },
- "gbifAt": "2026-11-25T22:17:43.143Z"
+ }
 }

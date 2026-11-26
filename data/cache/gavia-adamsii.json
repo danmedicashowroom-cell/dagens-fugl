@@ -2,7 +2,8 @@
  "key": "gavia-adamsii",
  "name": "Gavia adamsii",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:35:23.038Z",
+ "fetchedAt": "2026-11-26T04:10:16.666Z",
+ "gbifAt": "2026-11-26T04:10:16.666Z",
  "names": {
   "da": "Hvidnæbbet lom",
   "en": "Yellow-billed Diver",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4622,
-  "observations": 1285
+  "observations": 1289
  },
  "photos": {
   "male": [
@@ -193,13 +194,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Gaviidae",
   "familyKey": 9312,
   "familyDa": "Lommer",
   "order": "Gaviiformes"
- },
- "gbifAt": "2026-11-25T22:17:46.930Z"
+ }
 }

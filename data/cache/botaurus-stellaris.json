@@ -2,7 +2,8 @@
  "key": "botaurus-stellaris",
  "name": "Botaurus stellaris",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:36:52.170Z",
+ "fetchedAt": "2026-11-26T04:11:36.451Z",
+ "gbifAt": "2026-11-26T04:11:36.451Z",
  "names": {
   "da": "Rørdrum",
   "en": "Eurasian Bittern",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5033,
-  "observations": 5149
+  "observations": 5199
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2480910,
-  "dkTotal": 65531,
+  "dkTotal": 65538,
   "dkMonths": [
    1740,
    3394,
    9541,
-   20181,
+   20182,
    19405,
    6300,
    1451,
    771,
    645,
    714,
-   528,
+   534,
    725
   ],
-  "worldTotal": 493753,
+  "worldTotal": 493763,
   "topCountries": [
    {
     "code": "SE",
@@ -158,7 +159,7 @@
    },
    {
     "code": "DK",
-    "count": 65531
+    "count": 65538
    },
    {
     "code": "GB",
@@ -190,7 +191,7 @@
    },
    {
     "code": "DE",
-    "count": 5951
+    "count": 5954
    },
    {
     "code": "RU",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:17:56.527Z"
+ }
 }

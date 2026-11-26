@@ -2,7 +2,8 @@
  "key": "fulmarus-glacialis",
  "name": "Fulmarus glacialis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:35:56.238Z",
+ "fetchedAt": "2026-11-26T04:10:51.432Z",
+ "gbifAt": "2026-11-26T04:10:51.432Z",
  "names": {
   "da": "Mallemuk",
   "en": "Northern Fulmar",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4180,
-  "observations": 16288
+  "observations": 16363
  },
  "photos": {
   "male": [
@@ -48,16 +49,6 @@
   ],
   "juvenile": [
    {
-    "id": 1000117,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1000117/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1000117/large.jpg",
-    "attribution": "(c) matthias alfredsson, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/794839",
-    "place": "Surtsey",
-    "date": "2014-07-16"
-   },
-   {
     "id": 690446954,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/690446954/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/690446954/large.jpg",
@@ -66,6 +57,16 @@
     "source": "https://www.inaturalist.org/observations/377559981",
     "place": "California, US",
     "date": "2026-04-17"
+   },
+   {
+    "id": 415017569,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/415017569/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/415017569/large.jpeg",
+    "attribution": "(c) seabirder, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/233523142",
+    "place": "Ballineden, Co. Sligo, Ireland",
+    "date": "2024-08-03"
    },
    {
     "id": 716247306,
@@ -91,7 +92,7 @@
  },
  "gbif": {
   "key": 2481433,
-  "dkTotal": 42643,
+  "dkTotal": 42653,
   "dkMonths": [
    1620,
    2007,
@@ -101,12 +102,12 @@
    3450,
    7255,
    6959,
-   6215,
-   4605,
-   2182,
+   6218,
+   4608,
+   2186,
    786
   ],
-  "worldTotal": 1262926,
+  "worldTotal": 1262937,
   "topCountries": [
    {
     "code": "GB",
@@ -130,7 +131,7 @@
    },
    {
     "code": "IS",
-    "count": 47143
+    "count": 47144
    },
    {
     "code": "CA",
@@ -138,7 +139,7 @@
    },
    {
     "code": "DK",
-    "count": 42643
+    "count": 42653
    },
    {
     "code": "NL",
@@ -173,13 +174,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Procellariidae",
   "familyKey": 9339,
   "familyDa": "Egentlige Stormfugle",
   "order": "Procellariiformes"
- },
- "gbifAt": "2026-11-25T22:17:50.315Z"
+ }
 }

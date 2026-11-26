@@ -2,7 +2,8 @@
  "key": "branta-leucopsis",
  "name": "Branta leucopsis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:16.119Z",
+ "fetchedAt": "2026-11-26T04:07:03.460Z",
+ "gbifAt": "2026-11-26T04:07:03.460Z",
  "names": {
   "da": "Bramgås",
   "en": "Barnacle goose",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7101,
-  "observations": 21396
+  "observations": 21504
  },
  "photos": {
   "male": [
@@ -121,26 +122,26 @@
  },
  "gbif": {
   "key": 5232464,
-  "dkTotal": 294840,
+  "dkTotal": 295276,
   "dkMonths": [
-   29478,
+   29480,
    26349,
    39932,
-   35562,
+   35563,
    29431,
    5133,
    2751,
    3752,
    11007,
-   58616,
-   31187,
+   58619,
+   31617,
    21568
   ],
-  "worldTotal": 1630194,
+  "worldTotal": 1630649,
   "topCountries": [
    {
     "code": "SE",
-    "count": 553946
+    "count": 553947
    },
    {
     "code": "NL",
@@ -148,7 +149,7 @@
    },
    {
     "code": "DK",
-    "count": 294840
+    "count": 295276
    },
    {
     "code": "NO",
@@ -168,7 +169,7 @@
    },
    {
     "code": "DE",
-    "count": 39047
+    "count": 39065
    },
    {
     "code": "EE",
@@ -203,13 +204,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:20.139Z"
+ }
 }

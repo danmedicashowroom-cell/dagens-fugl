@@ -2,7 +2,8 @@
  "key": "clangula-hyemalis",
  "name": "Clangula hyemalis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:20.040Z",
+ "fetchedAt": "2026-11-26T04:09:13.361Z",
+ "gbifAt": "2026-11-26T04:09:13.361Z",
  "names": {
   "da": "Havlit",
   "en": "Long-tailed Duck",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7170,
-  "observations": 26994
+  "observations": 27267
  },
  "photos": {
   "male": [
@@ -34,14 +35,14 @@
     "date": "2014-06-18"
    },
    {
-    "id": 32289713,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/32289713/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/32289713/large.jpg",
-    "attribution": "(c) Paul Reeves, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/20921711",
-    "place": "Mimico Waterfront ParkToronto, ON M8V, Canada",
-    "date": "2019-03-03"
+    "id": 104006503,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/104006503/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/104006503/large.jpg",
+    "attribution": "(c) Марина Горбунова-Ëлкина, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/64672444",
+    "place": "Петроградский р-н, Санкт-Петербург, Россия",
+    "date": "2020-11-11"
    },
    {
     "id": 247422648,
@@ -98,24 +99,24 @@
     "date": "2023-07-24"
    },
    {
-    "id": 331200327,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/331200327/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/331200327/large.jpg",
-    "attribution": "(c) Александр Гончаров, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/189117388",
-    "place": "Приуральский р-н, Ямало-Ненецкий автономный округ, Россия",
-    "date": "2023-07-23"
-   },
-   {
-    "id": 596142188,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/596142188/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/596142188/large.jpg",
+    "id": 765360963,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/765360963/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/765360963/large.jpg",
     "attribution": "(c) Андрей Радыгин, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/328929753",
-    "place": "Пеновский р-н, Тверская обл., Россия",
-    "date": "2025-11-29"
+    "source": "https://www.inaturalist.org/observations/415633177",
+    "place": "Заволжский р-н, Тверь, Тверская обл., Россия",
+    "date": "2026-11-19"
+   },
+   {
+    "id": 765085297,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/765085297/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/765085297/large.jpg",
+    "attribution": "(c) Вадим Рыбаков, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415493179",
+    "place": "Заволжский р-н, Тверь, Тверская обл., Россия",
+    "date": "2026-11-18"
    }
   ],
   "hero": {
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498273,
-  "dkTotal": 60194,
+  "dkTotal": 60335,
   "dkMonths": [
    10069,
    8511,
-   9930,
-   9135,
+   9936,
+   9142,
    1760,
    148,
    102,
    70,
    324,
-   5644,
-   8586,
+   5645,
+   8713,
    5890
   ],
-  "worldTotal": 1500006,
+  "worldTotal": 1500153,
   "topCountries": [
    {
     "code": "US",
@@ -166,7 +167,7 @@
    },
    {
     "code": "DK",
-    "count": 60194
+    "count": 60335
    },
    {
     "code": "GB",
@@ -174,7 +175,7 @@
    },
    {
     "code": "DE",
-    "count": 32088
+    "count": 32093
    },
    {
     "code": "NL",
@@ -186,7 +187,7 @@
    },
    {
     "code": "IS",
-    "count": 24404
+    "count": 24405
    },
    {
     "code": "FI",
@@ -201,25 +202,25 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1046093/download",
+    "u": "https://xeno-canto.org/1196290/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "artist": "Petter Westberg",
-  "page": "https://xeno-canto.org/1046093",
-  "type": "call, song",
+  "page": "https://xeno-canto.org/1196290",
+  "type": "song",
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:38.101Z"
+ }
 }

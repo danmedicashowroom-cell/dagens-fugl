@@ -2,7 +2,8 @@
  "key": "anas-platyrhynchos",
  "name": "Anas platyrhynchos",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:33:04.312Z",
+ "fetchedAt": "2026-11-26T04:07:56.822Z",
+ "gbifAt": "2026-11-26T04:07:56.822Z",
  "names": {
   "da": "Gråand",
   "en": "Mallard",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 6930,
-  "observations": 991904
+  "observations": 996582
  },
  "photos": {
   "male": [
@@ -119,34 +120,34 @@
    }
   ],
   "hero": {
-   "id": 95268822,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/95268822/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/95268822/large.jpg",
-   "attribution": "(c) anonymous, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/95268822",
+   "id": 19738773,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/19738773/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/19738773/large.jpg",
+   "attribution": "(c) Kyle Tansley, some rights reserved (CC BY-NC), uploaded by Kyle Tansley",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/19738773",
    "place": null,
    "date": null
   }
  },
  "gbif": {
   "key": 9761484,
-  "dkTotal": 789506,
+  "dkTotal": 790143,
   "dkMonths": [
-   84724,
-   70667,
-   92699,
-   92742,
+   84728,
+   70668,
+   92710,
+   92756,
    85361,
-   59018,
-   47094,
-   50693,
-   47017,
-   57056,
-   50881,
-   51185
+   59022,
+   47114,
+   50700,
+   47020,
+   57062,
+   51446,
+   51187
   ],
-  "worldTotal": 33021104,
+  "worldTotal": 33022056,
   "topCountries": [
    {
     "code": "US",
@@ -158,11 +159,11 @@
    },
    {
     "code": "SE",
-    "count": 1502119
+    "count": 1502123
    },
    {
     "code": "GB",
-    "count": 1385001
+    "count": 1385003
    },
    {
     "code": "NL",
@@ -170,23 +171,23 @@
    },
    {
     "code": "NO",
-    "count": 798431
+    "count": 798432
    },
    {
     "code": "DK",
-    "count": 789506
+    "count": 790143
    },
    {
     "code": "FR",
-    "count": 766132
+    "count": 766133
    },
    {
     "code": "ES",
-    "count": 696588
+    "count": 696589
    },
    {
     "code": "DE",
-    "count": 540105
+    "count": 540409
    },
    {
     "code": "BE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:28.423Z"
+ }
 }

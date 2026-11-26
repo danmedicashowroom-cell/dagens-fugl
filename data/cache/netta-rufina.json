@@ -2,7 +2,8 @@
  "key": "netta-rufina",
  "name": "Netta rufina",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:33:26.512Z",
+ "fetchedAt": "2026-11-26T04:08:19.088Z",
+ "gbifAt": "2026-11-26T04:08:19.088Z",
  "names": {
   "da": "Rødhovedet and",
   "en": "Red-crested Pochard",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7122,
-  "observations": 21928
+  "observations": 22008
  },
  "photos": {
   "male": [
@@ -146,7 +147,7 @@
    436,
    269
   ],
-  "worldTotal": 451594,
+  "worldTotal": 451603,
   "topCountries": [
    {
     "code": "NL",
@@ -166,7 +167,7 @@
    },
    {
     "code": "DE",
-    "count": 31182
+    "count": 31191
    },
    {
     "code": "GB",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:30.546Z"
+ }
 }

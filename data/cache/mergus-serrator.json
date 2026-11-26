@@ -2,7 +2,8 @@
  "key": "mergus-serrator",
  "name": "Mergus serrator",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:39.220Z",
+ "fetchedAt": "2026-11-26T04:09:30.372Z",
+ "gbifAt": "2026-11-26T04:09:30.372Z",
  "names": {
   "da": "Toppet skallesluger",
   "en": "Red-breasted Merganser",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 6996,
-  "observations": 59343
+  "observations": 59748
  },
  "photos": {
   "male": [
@@ -88,6 +89,16 @@
   ],
   "juvenile": [
    {
+    "id": 584836062,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584836062/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584836062/large.jpg",
+    "attribution": "(c) Татьяна Гилязова, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/323217214",
+    "place": "Zarechye, Kazan, Republic of Tatarstan, Россия",
+    "date": "2025-10-26"
+   },
+   {
     "id": 405538896,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/405538896/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/405538896/large.jpg",
@@ -106,16 +117,6 @@
     "source": "https://www.inaturalist.org/observations/176004223",
     "place": "Avannaata, Greenland",
     "date": "2023-07-31"
-   },
-   {
-    "id": 31215699,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31215699/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31215699/large.jpg",
-    "attribution": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/20227111",
-    "place": "Burlington Lift Bridge, Burlington, ON, Canada",
-    "date": "2012-02-09"
    }
   ],
   "hero": {
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498375,
-  "dkTotal": 250579,
+  "dkTotal": 250871,
   "dkMonths": [
    25618,
    22349,
-   29268,
-   32470,
+   29277,
+   32481,
    24522,
-   14169,
-   14167,
-   8741,
-   15110,
-   27474,
-   20953,
-   15646
+   14171,
+   14188,
+   8748,
+   15117,
+   27479,
+   21181,
+   15648
   ],
-  "worldTotal": 3722509,
+  "worldTotal": 3722808,
   "topCountries": [
    {
     "code": "US",
@@ -162,11 +163,11 @@
    },
    {
     "code": "NO",
-    "count": 423296
+    "count": 423297
    },
    {
     "code": "DK",
-    "count": 250579
+    "count": 250871
    },
    {
     "code": "NL",
@@ -194,7 +195,7 @@
    },
    {
     "code": "DE",
-    "count": 13420
+    "count": 13426
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:39.947Z"
+ }
 }

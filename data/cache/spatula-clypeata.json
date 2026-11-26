@@ -2,7 +2,8 @@
  "key": "spatula-clypeata",
  "name": "Spatula clypeata",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:33:21.094Z",
+ "fetchedAt": "2026-11-26T04:08:13.577Z",
+ "gbifAt": "2026-11-26T04:08:13.577Z",
  "names": {
   "da": "Skeand",
   "en": "Northern Shoveler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 558438,
-  "observations": 144331
+  "observations": 145303
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 8332393,
-  "dkTotal": 209011,
+  "dkTotal": 209168,
   "dkMonths": [
    3687,
    3389,
-   19551,
-   50477,
+   19552,
+   50479,
    31651,
-   18027,
-   9469,
-   17853,
-   20201,
-   19669,
-   10713,
+   18028,
+   9475,
+   17857,
+   20203,
+   19672,
+   10851,
    4216
   ],
-  "worldTotal": 6143503,
+  "worldTotal": 6143704,
   "topCountries": [
    {
     "code": "US",
@@ -170,11 +171,11 @@
    },
    {
     "code": "DK",
-    "count": 209011
+    "count": 209168
    },
    {
     "code": "ES",
-    "count": 179556
+    "count": 179557
    },
    {
     "code": "FR",
@@ -194,7 +195,7 @@
    },
    {
     "code": "DE",
-    "count": 65052
+    "count": 65093
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:29.980Z"
+ }
 }

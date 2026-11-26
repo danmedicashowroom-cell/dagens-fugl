@@ -2,7 +2,8 @@
  "key": "egretta-garzetta",
  "name": "Egretta garzetta",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:12.226Z",
+ "fetchedAt": "2026-11-26T04:11:49.072Z",
+ "gbifAt": "2026-11-26T04:11:49.072Z",
  "names": {
   "da": "Silkehejre",
   "en": "Little Egret",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4943,
-  "observations": 142261
+  "observations": 143256
  },
  "photos": {
   "male": [
@@ -146,11 +147,11 @@
    250,
    218
   ],
-  "worldTotal": 3885009,
+  "worldTotal": 3885022,
   "topCountries": [
    {
     "code": "GB",
-    "count": 523599
+    "count": 523600
    },
    {
     "code": "IN",
@@ -162,7 +163,7 @@
    },
    {
     "code": "ES",
-    "count": 378666
+    "count": 378669
    },
    {
     "code": "FR",
@@ -201,25 +202,25 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/992651/download",
+    "u": "https://xeno-canto.org/1151421/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Feather V",
-  "page": "https://xeno-canto.org/992651",
-  "type": "song",
+  "artist": "Olivier SWIFT",
+  "page": "https://xeno-canto.org/1151421",
+  "type": "call, song",
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:17:57.633Z"
+ }
 }

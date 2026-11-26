@@ -2,7 +2,8 @@
  "key": "gavia-immer",
  "name": "Gavia immer",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:35:18.003Z",
+ "fetchedAt": "2026-11-26T04:10:11.330Z",
+ "gbifAt": "2026-11-26T04:10:11.330Z",
  "names": {
   "da": "Islom",
   "en": "Common loon",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4626,
-  "observations": 71319
+  "observations": 71626
  },
  "photos": {
   "male": [
@@ -131,7 +132,7 @@
  },
  "gbif": {
   "key": 2481962,
-  "dkTotal": 8487,
+  "dkTotal": 8511,
   "dkMonths": [
    499,
    253,
@@ -143,10 +144,10 @@
    56,
    96,
    872,
-   918,
+   942,
    372
   ],
-  "worldTotal": 2893346,
+  "worldTotal": 2893370,
   "topCountries": [
    {
     "code": "US",
@@ -190,7 +191,7 @@
    },
    {
     "code": "DK",
-    "count": 8487
+    "count": 8511
    },
    {
     "code": "MX",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Gaviidae",
   "familyKey": 9312,
   "familyDa": "Lommer",
   "order": "Gaviiformes"
- },
- "gbifAt": "2026-11-25T22:17:46.354Z"
+ }
 }

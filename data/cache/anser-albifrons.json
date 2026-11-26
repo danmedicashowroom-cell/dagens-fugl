@@ -2,7 +2,8 @@
  "key": "anser-albifrons",
  "name": "Anser albifrons",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:31:58.258Z",
+ "fetchedAt": "2026-11-26T04:06:44.774Z",
+ "gbifAt": "2026-11-26T04:06:44.774Z",
  "names": {
   "da": "Blisgås",
   "en": "Greater white-fronted goose",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7019,
-  "observations": 40937
+  "observations": 41207
  },
  "photos": {
   "male": [
@@ -66,6 +67,16 @@
     "date": "2026-04-23"
    },
    {
+    "id": 765443948,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/765443948/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/765443948/large.jpg",
+    "attribution": "(c) ywcai, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415673590",
+    "place": "Valley St, Seattle, WA, US",
+    "date": "2026-11-19"
+   },
+   {
     "id": 758519315,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/758519315/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/758519315/large.jpg",
@@ -74,16 +85,6 @@
     "source": "https://www.inaturalist.org/observations/412247547",
     "place": "Leipzig, Germany",
     "date": "2026-10-27"
-   },
-   {
-    "id": 270091868,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/270091868/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/270091868/large.jpeg",
-    "attribution": "(c) Владимир Джерихов, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/156210584",
-    "place": "Новгородский р-н, Новгородская обл., Россия",
-    "date": "2023-04-23"
    }
   ],
   "juvenile": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498017,
-  "dkTotal": 122483,
+  "dkTotal": 122578,
   "dkMonths": [
-   20632,
+   20633,
    24602,
-   30874,
+   30875,
    5507,
    1647,
    324,
    287,
    221,
    1919,
-   17548,
-   9025,
+   17549,
+   9117,
    9889
   ],
-  "worldTotal": 1695139,
+  "worldTotal": 1695320,
   "topCountries": [
    {
     "code": "US",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 122483
+    "count": 122578
    },
    {
     "code": "CA",
@@ -174,7 +175,7 @@
    },
    {
     "code": "DE",
-    "count": 51523
+    "count": 51609
    },
    {
     "code": "RU",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:18.609Z"
+ }
 }

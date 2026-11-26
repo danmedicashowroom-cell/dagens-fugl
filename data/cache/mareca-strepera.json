@@ -2,7 +2,8 @@
  "key": "mareca-strepera",
  "name": "Mareca strepera",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:53.391Z",
+ "fetchedAt": "2026-11-26T04:07:44.525Z",
+ "gbifAt": "2026-11-26T04:07:44.525Z",
  "names": {
   "da": "Knarand",
   "en": "Gadwall",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 558439,
-  "observations": 125686
+  "observations": 126462
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 9362027,
-  "dkTotal": 219355,
+  "dkTotal": 219530,
   "dkMonths": [
    12914,
    11315,
    27440,
    39480,
-   34233,
-   16852,
+   34234,
+   16853,
    8901,
-   13217,
+   13218,
    16145,
    16105,
-   13170,
+   13342,
    9564
   ],
-  "worldTotal": 6695562,
+  "worldTotal": 6695813,
   "topCountries": [
    {
     "code": "US",
@@ -174,11 +175,11 @@
    },
    {
     "code": "DK",
-    "count": 219355
+    "count": 219530
    },
    {
     "code": "ES",
-    "count": 158354
+    "count": 158355
    },
    {
     "code": "FR",
@@ -186,7 +187,7 @@
    },
    {
     "code": "DE",
-    "count": 126188
+    "count": 126263
    },
    {
     "code": "IN",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:27.080Z"
+ }
 }

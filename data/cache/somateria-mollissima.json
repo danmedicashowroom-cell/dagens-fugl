@@ -2,7 +2,8 @@
  "key": "somateria-mollissima",
  "name": "Somateria mollissima",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:33:53.744Z",
+ "fetchedAt": "2026-11-26T04:08:46.123Z",
+ "gbifAt": "2026-11-26T04:08:46.123Z",
  "names": {
   "da": "Ederfugl",
   "en": "Common Eider",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7024,
-  "observations": 40972
+  "observations": 41145
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 208343860,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/208343860/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/208343860/large.jpg",
-    "attribution": "(c) Claude Nozères, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/123012323",
-    "place": "Route 132, Ste-Flavie, QC, CA",
-    "date": "2022-06-22"
-   },
-   {
     "id": 292994134,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/292994134/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/292994134/large.jpg",
@@ -106,6 +97,16 @@
     "source": "https://www.inaturalist.org/observations/169021770",
     "place": "Brunswick, ME 04011, USA",
     "date": "2023-06-22"
+   },
+   {
+    "id": 208343860,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/208343860/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/208343860/large.jpg",
+    "attribution": "(c) Claude Nozères, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/123012323",
+    "place": "Route 132, Ste-Flavie, QC, CA",
+    "date": "2022-06-22"
    },
    {
     "id": 393935143,
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498352,
-  "dkTotal": 352353,
+  "dkTotal": 352760,
   "dkMonths": [
-   39867,
-   33601,
-   37053,
-   32936,
+   39868,
+   33600,
+   37063,
+   32954,
    31365,
-   20144,
-   21480,
-   22178,
-   25107,
-   41412,
-   26659,
-   18262
+   20147,
+   21502,
+   22187,
+   25121,
+   41421,
+   26978,
+   18265
   ],
-  "worldTotal": 2712756,
+  "worldTotal": 2713170,
   "topCountries": [
    {
     "code": "US",
@@ -154,15 +155,15 @@
    },
    {
     "code": "NO",
-    "count": 484455
+    "count": 484456
    },
    {
     "code": "SE",
-    "count": 474683
+    "count": 474686
    },
    {
     "code": "DK",
-    "count": 352353
+    "count": 352760
    },
    {
     "code": "CA",
@@ -182,11 +183,11 @@
    },
    {
     "code": "IS",
-    "count": 64221
+    "count": 64222
    },
    {
     "code": "DE",
-    "count": 42549
+    "count": 42551
    },
    {
     "code": "SJ",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:35.453Z"
+ }
 }

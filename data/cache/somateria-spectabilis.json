@@ -2,7 +2,8 @@
  "key": "somateria-spectabilis",
  "name": "Somateria spectabilis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:33:59.415Z",
+ "fetchedAt": "2026-11-26T04:08:51.721Z",
+ "gbifAt": "2026-11-26T04:08:51.721Z",
  "names": {
   "da": "Kongeedderfugl",
   "en": "King Eider",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7030,
-  "observations": 2905
+  "observations": 2910
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 72640782,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/72640782/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/72640782/large.jpg",
-    "attribution": "(c) Paul Reeves, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/45802074",
-    "place": "Humber River, Toronto, ON, Canada",
-    "date": "2014-12-07"
-   },
-   {
     "id": 202497758,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/202497758/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/202497758/large.jpg",
@@ -116,6 +107,16 @@
     "source": "https://www.inaturalist.org/observations/64546749",
     "place": "Центральный административный округ, Москва, Россия",
     "date": "2020-11-09"
+   },
+   {
+    "id": 582921963,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/582921963/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/582921963/large.jpg",
+    "attribution": "(c) Andrew Lai, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/322251346",
+    "place": "Toronto, ON, Canada",
+    "date": "2025-03-03"
    }
   ],
   "hero": {
@@ -131,7 +132,7 @@
  },
  "gbif": {
   "key": 2498350,
-  "dkTotal": 2561,
+  "dkTotal": 2562,
   "dkMonths": [
    530,
    323,
@@ -143,10 +144,10 @@
    32,
    26,
    172,
-   297,
+   298,
    237
   ],
-  "worldTotal": 144135,
+  "worldTotal": 144136,
   "topCountries": [
    {
     "code": "US",
@@ -178,7 +179,7 @@
    },
    {
     "code": "DK",
-    "count": 2561
+    "count": 2562
    },
    {
     "code": "IS",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:35.967Z"
+ }
 }

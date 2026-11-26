@@ -2,7 +2,8 @@
  "key": "phalacrocorax-carbo",
  "name": "Phalacrocorax carbo",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:36:41.726Z",
+ "fetchedAt": "2026-11-26T04:11:24.975Z",
+ "gbifAt": "2026-11-26T04:11:24.975Z",
  "names": {
   "da": "Skarv",
   "en": "Great Cormorant",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4270,
-  "observations": 183568
+  "observations": 184763
  },
  "photos": {
   "male": [
@@ -131,42 +132,42 @@
  },
  "gbif": {
   "key": 2481890,
-  "dkTotal": 586736,
+  "dkTotal": 587233,
   "dkMonths": [
    55460,
-   42792,
+   42793,
    58458,
    59039,
    46668,
    31974,
-   43170,
-   59080,
-   57974,
-   56883,
-   39593,
-   35393
+   43187,
+   59088,
+   57986,
+   56888,
+   40045,
+   35395
   ],
-  "worldTotal": 7021783,
+  "worldTotal": 7022440,
   "topCountries": [
    {
     "code": "GB",
-    "count": 863768
+    "count": 863769
    },
    {
     "code": "SE",
-    "count": 838226
+    "count": 838229
    },
    {
     "code": "NL",
-    "count": 762789
+    "count": 762791
    },
    {
     "code": "DK",
-    "count": 586736
+    "count": 587233
    },
    {
     "code": "FR",
-    "count": 481130
+    "count": 481131
    },
    {
     "code": "NO",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 300341
+    "count": 300489
    },
    {
     "code": "BE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phalacrocoracidae",
   "familyKey": 5268,
   "familyDa": "Skarver",
   "order": "Suliformes"
- },
- "gbifAt": "2026-11-25T22:17:55.562Z"
+ }
 }

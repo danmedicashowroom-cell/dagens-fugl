@@ -2,7 +2,8 @@
  "key": "melanitta-nigra",
  "name": "Melanitta nigra",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:10.115Z",
+ "fetchedAt": "2026-11-26T04:09:02.127Z",
+ "gbifAt": "2026-11-26T04:09:02.127Z",
  "names": {
   "da": "Sortand",
   "en": "Common Scoter",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144221,
-  "observations": 4017
+  "observations": 4085
  },
  "photos": {
   "male": [
@@ -56,6 +57,16 @@
   ],
   "female": [
    {
+    "id": 764629294,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/764629294/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/764629294/large.jpg",
+    "attribution": "(c) Александра Василевская, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415266564",
+    "place": "Восточный административный округ, Москва, Россия",
+    "date": "2026-11-17"
+   },
+   {
     "id": 60486375,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/60486375/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/60486375/large.jpg",
@@ -74,16 +85,6 @@
     "source": "https://www.inaturalist.org/observations/36099984",
     "place": "Василеостровский р-н, Санкт-Петербург, Россия",
     "date": "2019-11-22"
-   },
-   {
-    "id": 580884083,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/580884083/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/580884083/large.jpg",
-    "attribution": "(c) stevebailey, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/321212787",
-    "place": "Tintwistle SK13, UK",
-    "date": "2025-10-16"
    }
   ],
   "juvenile": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498247,
-  "dkTotal": 198396,
+  "dkTotal": 198659,
   "dkMonths": [
    18685,
-   18282,
-   20744,
-   21104,
+   18281,
+   20747,
+   21106,
    13547,
    5425,
-   13753,
+   13755,
    17165,
-   21198,
-   22966,
-   15921,
+   21213,
+   22976,
+   16153,
    9586
   ],
-  "worldTotal": 990969,
+  "worldTotal": 991232,
   "topCountries": [
    {
     "code": "SE",
@@ -154,7 +155,7 @@
    },
    {
     "code": "DK",
-    "count": 198396
+    "count": 198659
    },
    {
     "code": "NO",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:37.118Z"
+ }
 }

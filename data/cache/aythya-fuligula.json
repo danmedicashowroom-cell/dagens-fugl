@@ -2,7 +2,8 @@
  "key": "aythya-fuligula",
  "name": "Aythya fuligula",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:33:37.659Z",
+ "fetchedAt": "2026-11-26T04:08:29.798Z",
+ "gbifAt": "2026-11-26T04:08:29.798Z",
  "names": {
   "da": "Troldand",
   "en": "Tufted Duck",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7046,
-  "observations": 88669
+  "observations": 89152
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498261,
-  "dkTotal": 414104,
+  "dkTotal": 414386,
   "dkMonths": [
-   46614,
+   46617,
    42939,
-   61916,
-   62530,
+   61923,
+   62540,
    37387,
    23114,
-   22346,
-   19702,
-   19145,
+   22358,
+   19704,
+   19146,
    25482,
-   25491,
+   25738,
    27297
   ],
-  "worldTotal": 4143194,
+  "worldTotal": 4143569,
   "topCountries": [
    {
     "code": "NL",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 414104
+    "count": 414386
    },
    {
     "code": "NO",
@@ -174,7 +175,7 @@
    },
    {
     "code": "DE",
-    "count": 201039
+    "count": 201131
    },
    {
     "code": "FR",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:31.484Z"
+ }
 }

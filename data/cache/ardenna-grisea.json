@@ -2,7 +2,8 @@
  "key": "ardenna-grisea",
  "name": "Ardenna grisea",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:36:09.809Z",
+ "fetchedAt": "2026-11-26T04:11:06.042Z",
+ "gbifAt": "2026-11-26T04:11:06.042Z",
  "names": {
   "da": "Sodfarvet Skråpe",
   "en": "Sooty Shearwater",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 502899,
-  "observations": 7868
+  "observations": 7898
  },
  "photos": {
   "male": [],
@@ -58,16 +59,6 @@
   ],
   "adult": [
    {
-    "id": 457557445,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/457557445/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/457557445/large.jpg",
-    "attribution": "(c) Ariel Cabrera Foix, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/255333295",
-    "place": null,
-    "date": "2024-12-15"
-   },
-   {
     "id": 452727364,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/452727364/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/452727364/large.jpg",
@@ -86,6 +77,16 @@
     "source": "https://www.inaturalist.org/observations/99262468",
     "place": "Lincoln County, OR, USA",
     "date": "2021-10-19"
+   },
+   {
+    "id": 556712489,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/556712489/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/556712489/large.jpg",
+    "attribution": "(c) Alan Torretto, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/308571484",
+    "place": "Silver Strand State Beach, Coronado, CA, US",
+    "date": "2025-08-23"
    }
   ],
   "hero": {
@@ -101,7 +102,7 @@
  },
  "gbif": {
   "key": 5739277,
-  "dkTotal": 5882,
+  "dkTotal": 5888,
   "dkMonths": [
    45,
    5,
@@ -111,12 +112,12 @@
    14,
    36,
    507,
-   2298,
-   2357,
-   458,
+   2299,
+   2358,
+   462,
    123
   ],
-  "worldTotal": 246250,
+  "worldTotal": 246256,
   "topCountries": [
    {
     "code": "US",
@@ -152,7 +153,7 @@
    },
    {
     "code": "DK",
-    "count": 5882
+    "count": 5888
    },
    {
     "code": "ZA",
@@ -183,13 +184,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Procellariidae",
   "familyKey": 9339,
   "familyDa": "Egentlige Stormfugle",
   "order": "Procellariiformes"
- },
- "gbifAt": "2026-11-25T22:17:51.519Z"
+ }
 }

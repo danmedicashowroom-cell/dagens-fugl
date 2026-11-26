@@ -2,7 +2,8 @@
  "key": "anser-erythropus",
  "name": "Anser erythropus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:04.725Z",
+ "fetchedAt": "2026-11-26T04:06:52.028Z",
+ "gbifAt": "2026-11-26T04:06:52.028Z",
  "names": {
   "da": "Dværggås",
   "en": "Lesser white-fronted goose",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7013,
-  "observations": 740
+  "observations": 744
  },
  "photos": {
   "male": [],
@@ -173,13 +174,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:19.051Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "gavia-stellata",
  "name": "Gavia stellata",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:35:07.241Z",
+ "fetchedAt": "2026-11-26T04:09:59.825Z",
+ "gbifAt": "2026-11-26T04:09:59.825Z",
  "names": {
   "da": "Rødstrubet lom",
   "en": "Red-throated Diver",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4627,
-  "observations": 16521
+  "observations": 16784
  },
  "photos": {
   "male": [
@@ -131,7 +132,7 @@
  },
  "gbif": {
   "key": 2481958,
-  "dkTotal": 122453,
+  "dkTotal": 122629,
   "dkMonths": [
    6939,
    5339,
@@ -140,17 +141,17 @@
    13900,
    2947,
    4443,
-   4943,
-   16348,
-   22612,
-   13551,
+   4944,
+   16359,
+   22617,
+   13710,
    6542
   ],
-  "worldTotal": 1342326,
+  "worldTotal": 1342512,
   "topCountries": [
    {
     "code": "US",
-    "count": 509093
+    "count": 509094
    },
    {
     "code": "SE",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 122453
+    "count": 122629
    },
    {
     "code": "CA",
@@ -190,7 +191,7 @@
    },
    {
     "code": "DE",
-    "count": 10201
+    "count": 10210
    },
    {
     "code": "EE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Gaviidae",
   "familyKey": 9312,
   "familyDa": "Lommer",
   "order": "Gaviiformes"
- },
- "gbifAt": "2026-11-25T22:17:45.087Z"
+ }
 }

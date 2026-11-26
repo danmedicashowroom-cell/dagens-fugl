@@ -2,7 +2,8 @@
  "key": "mergellus-albellus",
  "name": "Mergellus albellus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:34.266Z",
+ "fetchedAt": "2026-11-26T04:09:24.651Z",
+ "gbifAt": "2026-11-26T04:09:24.651Z",
  "names": {
   "da": "Lille skallesluger",
   "en": "Smew",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7192,
-  "observations": 9336
+  "observations": 9409
  },
  "photos": {
   "male": [
@@ -56,14 +57,14 @@
   ],
   "female": [
    {
-    "id": 613907538,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/613907538/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/613907538/large.jpg",
-    "attribution": "(c) yakshina, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/337676099",
-    "place": "Псков, Псковская обл., Россия",
-    "date": "2026-02-07"
+    "id": 767493404,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/767493404/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/767493404/large.jpg",
+    "attribution": "(c) Сергей Громов, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/416715517",
+    "place": "Ленинградская обл., Россия, 188501",
+    "date": "2026-11-24"
    },
    {
     "id": 601224131,
@@ -108,14 +109,14 @@
     "date": "2024-06-16"
    },
    {
-    "id": 370083510,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/370083510/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/370083510/large.jpg",
-    "attribution": "(c) SK53, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/209138297",
-    "place": "Nottinghamshire, UK",
-    "date": "2011-01-03"
+    "id": 302117385,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/302117385/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/302117385/large.jpg",
+    "attribution": "(c) amentesia, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/173935609",
+    "place": "Lill-Valla lekpark, Linköping, E, SE",
+    "date": "2023-06-12"
    }
   ],
   "hero": {
@@ -131,11 +132,11 @@
  },
  "gbif": {
   "key": 2498285,
-  "dkTotal": 98808,
+  "dkTotal": 98858,
   "dkMonths": [
    25066,
    23790,
-   22009,
+   22010,
    5336,
    336,
    54,
@@ -143,10 +144,10 @@
    83,
    61,
    1263,
-   6865,
+   6914,
    13847
   ],
-  "worldTotal": 746265,
+  "worldTotal": 746320,
   "topCountries": [
    {
     "code": "SE",
@@ -158,7 +159,7 @@
    },
    {
     "code": "DK",
-    "count": 98808
+    "count": 98858
    },
    {
     "code": "NO",
@@ -178,7 +179,7 @@
    },
    {
     "code": "DE",
-    "count": 14751
+    "count": 14756
    },
    {
     "code": "EE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:39.503Z"
+ }
 }

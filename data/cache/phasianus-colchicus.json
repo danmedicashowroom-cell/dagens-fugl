@@ -2,7 +2,8 @@
  "key": "phasianus-colchicus",
  "name": "Phasianus colchicus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:35:01.785Z",
+ "fetchedAt": "2026-11-26T04:09:53.711Z",
+ "gbifAt": "2026-11-26T04:09:53.711Z",
  "names": {
   "da": "Fasan",
   "en": "Common Pheasant",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 981,
-  "observations": 77704
+  "observations": 78122
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 9752149,
-  "dkTotal": 203681,
+  "dkTotal": 203872,
   "dkMonths": [
-   15866,
+   15872,
    12067,
-   23733,
-   38105,
+   23736,
+   38107,
    34560,
-   17901,
-   9640,
-   8377,
-   9380,
-   12802,
-   11540,
+   17908,
+   9644,
+   8380,
+   9383,
+   12804,
+   11701,
    9590
   ],
-  "worldTotal": 3572374,
+  "worldTotal": 3572639,
   "topCountries": [
    {
     "code": "US",
@@ -154,7 +155,7 @@
    },
    {
     "code": "GB",
-    "count": 616131
+    "count": 616133
    },
    {
     "code": "NL",
@@ -174,7 +175,7 @@
    },
    {
     "code": "DK",
-    "count": 203681
+    "count": 203872
    },
    {
     "code": "CA",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 117664
+    "count": 117736
    },
    {
     "code": "FI",
@@ -201,25 +202,25 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1157852/download",
+    "u": "https://xeno-canto.org/1195490/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Grégoire Chauvot",
-  "page": "https://xeno-canto.org/1157852",
-  "type": "song, Wing beat",
+  "artist": "Julien Birard",
+  "page": "https://xeno-canto.org/1195490",
+  "type": "song",
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phasianidae",
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- },
- "gbifAt": "2026-11-25T22:17:44.575Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "branta-bernicla",
  "name": "Branta bernicla",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:21.817Z",
+ "fetchedAt": "2026-11-26T04:07:09.451Z",
+ "gbifAt": "2026-11-26T04:07:09.451Z",
  "names": {
   "da": "Knortegås",
   "en": "Ensis (bird)",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7087,
-  "observations": 27066
+  "observations": 27375
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 5232446,
-  "dkTotal": 128994,
+  "dkTotal": 129104,
   "dkMonths": [
    8971,
-   7250,
+   7249,
    11605,
-   15557,
+   15558,
    16390,
    2934,
    1030,
    907,
-   15626,
-   31122,
-   12225,
+   15636,
+   31128,
+   12319,
    5358
   ],
-  "worldTotal": 1439689,
+  "worldTotal": 1439807,
   "topCountries": [
    {
     "code": "US",
@@ -158,7 +159,7 @@
    },
    {
     "code": "DK",
-    "count": 128994
+    "count": 129104
    },
    {
     "code": "SE",
@@ -186,7 +187,7 @@
    },
    {
     "code": "DE",
-    "count": 10624
+    "count": 10632
    },
    {
     "code": "BE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:22.863Z"
+ }
 }

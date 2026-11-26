@@ -2,7 +2,8 @@
  "key": "branta-canadensis",
  "name": "Branta canadensis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:10.915Z",
+ "fetchedAt": "2026-11-26T04:06:57.921Z",
+ "gbifAt": "2026-11-26T04:06:57.921Z",
  "names": {
   "da": "Canadagås",
   "en": "Canada Goose",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7089,
-  "observations": 497487
+  "observations": 499324
  },
  "photos": {
   "male": [
@@ -76,14 +77,14 @@
     "date": "2023-05-12"
    },
    {
-    "id": 61089496,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/61089496/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/61089496/large.jpg",
-    "attribution": "(c) colleencraig, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/38438369",
-    "place": "Toronto Division, ON, Canada",
-    "date": "2020-02-08"
+    "id": 40877515,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/40877515/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/40877515/large.jpeg",
+    "attribution": "no rights reserved",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/observations/26329921",
+    "place": "Cook County, IL, USA",
+    "date": "2019-05-29"
    }
   ],
   "juvenile": [
@@ -119,34 +120,34 @@
    }
   ],
   "hero": {
-   "id": 239718896,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/239718896/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/239718896/large.jpeg",
-   "attribution": "(c) Daniel LaFrance, some rights reserved (CC BY-NC), uploaded by Daniel LaFrance",
+   "id": 271239259,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/271239259/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/271239259/large.jpeg",
+   "attribution": "(c) mhalsted, some rights reserved (CC BY-NC)",
    "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/239718896",
+   "source": "https://www.inaturalist.org/photos/271239259",
    "place": null,
    "date": null
   }
  },
  "gbif": {
   "key": 5232437,
-  "dkTotal": 114222,
+  "dkTotal": 114330,
   "dkMonths": [
    19912,
    13341,
    9410,
-   3379,
-   5229,
+   3380,
+   5230,
    9002,
    4941,
-   11525,
+   11526,
    9849,
    6212,
-   9590,
+   9695,
    11817
   ],
-  "worldTotal": 25283230,
+  "worldTotal": 25283448,
   "topCountries": [
    {
     "code": "US",
@@ -158,11 +159,11 @@
    },
    {
     "code": "SE",
-    "count": 882907
+    "count": 882909
    },
    {
     "code": "GB",
-    "count": 797738
+    "count": 797740
    },
    {
     "code": "BE",
@@ -178,11 +179,11 @@
    },
    {
     "code": "DE",
-    "count": 139677
+    "count": 139783
    },
    {
     "code": "DK",
-    "count": 114222
+    "count": 114330
    },
    {
     "code": "FR",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:19.683Z"
+ }
 }

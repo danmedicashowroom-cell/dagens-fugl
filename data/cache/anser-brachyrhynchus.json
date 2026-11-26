@@ -2,7 +2,8 @@
  "key": "anser-brachyrhynchus",
  "name": "Anser brachyrhynchus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:31:52.019Z",
+ "fetchedAt": "2026-11-26T04:06:38.460Z",
+ "gbifAt": "2026-11-26T04:06:38.460Z",
  "names": {
   "da": "Kortnæbbet Gås",
   "en": "Pink-footed goose",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7007,
-  "observations": 5095
+  "observations": 5144
  },
  "photos": {
   "male": [],
@@ -101,22 +102,22 @@
  },
  "gbif": {
   "key": 2498024,
-  "dkTotal": 65252,
+  "dkTotal": 65337,
   "dkMonths": [
-   9533,
+   9538,
    8866,
-   11989,
-   7587,
+   11991,
+   7590,
    2223,
    104,
    139,
    182,
    3265,
-   10265,
-   5803,
+   10266,
+   5877,
    5291
   ],
-  "worldTotal": 465087,
+  "worldTotal": 465174,
   "topCountries": [
    {
     "code": "SE",
@@ -132,7 +133,7 @@
    },
    {
     "code": "DK",
-    "count": 65252
+    "count": 65337
    },
    {
     "code": "NL",
@@ -160,7 +161,7 @@
    },
    {
     "code": "DE",
-    "count": 3226
+    "count": 3228
    },
    {
     "code": "FI",
@@ -183,13 +184,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:17.922Z"
+ }
 }

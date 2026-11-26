@@ -2,7 +2,8 @@
  "key": "cygnus-columbianus",
  "name": "Cygnus columbianus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:31:26.488Z",
+ "fetchedAt": "2026-11-26T04:06:12.377Z",
+ "gbifAt": "2026-11-26T04:06:12.377Z",
  "names": {
   "da": "Pibesvane",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 6917,
-  "observations": 23200
+  "observations": 23376
  },
  "photos": {
   "male": [
@@ -111,22 +112,22 @@
  },
  "gbif": {
   "key": 2498338,
-  "dkTotal": 36226,
+  "dkTotal": 36308,
   "dkMonths": [
    5242,
    5402,
    6977,
-   1382,
+   1383,
    64,
    6,
    2,
    1,
    66,
-   5699,
-   6845,
+   5703,
+   6922,
    4507
   ],
-  "worldTotal": 1014164,
+  "worldTotal": 1014247,
   "topCountries": [
    {
     "code": "US",
@@ -146,7 +147,7 @@
    },
    {
     "code": "DK",
-    "count": 36226
+    "count": 36308
    },
    {
     "code": "BE",
@@ -193,13 +194,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:15.872Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "cygnus-olor",
  "name": "Cygnus olor",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:31:14.677Z",
+ "fetchedAt": "2026-11-26T04:06:00.902Z",
+ "gbifAt": "2026-11-26T04:06:00.902Z",
  "names": {
   "da": "Knopsvane",
   "en": "Mute Swan",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 6921,
-  "observations": 194767
+  "observations": 195720
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2025-06-08"
    },
    {
-    "id": 102049057,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102049057/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102049057/large.jpg",
-    "attribution": "(c) gouljack72, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/63572744",
-    "place": "Brighton, ON, Canada",
-    "date": "2018-06-20"
-   },
-   {
     "id": 361519787,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/361519787/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/361519787/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/204520555",
     "place": "Lehtisaari, Helsinki, Suomi",
     "date": "2024-03-30"
+   },
+   {
+    "id": 102049057,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102049057/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102049057/large.jpg",
+    "attribution": "(c) gouljack72, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/63572744",
+    "place": "Brighton, ON, Canada",
+    "date": "2018-06-20"
    }
   ],
   "juvenile": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2498343,
-  "dkTotal": 690058,
+  "dkTotal": 690552,
   "dkMonths": [
    75971,
-   67756,
-   80538,
-   84824,
+   67757,
+   80545,
+   84834,
    73108,
-   50220,
-   40847,
-   41302,
-   43780,
-   48802,
-   40539,
-   42248
+   50223,
+   40867,
+   41312,
+   43788,
+   48806,
+   40967,
+   42251
   ],
-  "worldTotal": 6949196,
+  "worldTotal": 6949825,
   "topCountries": [
    {
     "code": "US",
@@ -154,23 +155,23 @@
    },
    {
     "code": "SE",
-    "count": 983578
+    "count": 983582
    },
    {
     "code": "GB",
-    "count": 871098
+    "count": 871099
    },
    {
     "code": "NL",
-    "count": 842007
+    "count": 842009
    },
    {
     "code": "DK",
-    "count": 690058
+    "count": 690552
    },
    {
     "code": "NO",
-    "count": 346929
+    "count": 346930
    },
    {
     "code": "FR",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 286735
+    "count": 286862
    },
    {
     "code": "BE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:14.432Z"
+ }
 }

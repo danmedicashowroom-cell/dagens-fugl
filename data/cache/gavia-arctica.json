@@ -2,7 +2,8 @@
  "key": "gavia-arctica",
  "name": "Gavia arctica",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:35:12.292Z",
+ "fetchedAt": "2026-11-26T04:10:05.645Z",
+ "gbifAt": "2026-11-26T04:10:05.645Z",
  "names": {
   "da": "Sortstrubet lom",
   "en": "Black-throated loon",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4623,
-  "observations": 7978
+  "observations": 8045
  },
  "photos": {
   "male": [
@@ -111,7 +112,7 @@
  },
  "gbif": {
   "key": 2481959,
-  "dkTotal": 43729,
+  "dkTotal": 43790,
   "dkMonths": [
    2083,
    1619,
@@ -123,10 +124,10 @@
    2434,
    5551,
    6424,
-   3902,
+   3963,
    2032
   ],
-  "worldTotal": 702492,
+  "worldTotal": 702556,
   "topCountries": [
    {
     "code": "SE",
@@ -138,7 +139,7 @@
    },
    {
     "code": "DK",
-    "count": 43729
+    "count": 43790
    },
    {
     "code": "FI",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DE",
-    "count": 5132
+    "count": 5135
    },
    {
     "code": "RU",
@@ -193,13 +194,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Gaviidae",
   "familyKey": 9312,
   "familyDa": "Lommer",
   "order": "Gaviiformes"
- },
- "gbifAt": "2026-11-25T22:17:45.911Z"
+ }
 }

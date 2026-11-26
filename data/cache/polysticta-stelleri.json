@@ -2,7 +2,8 @@
  "key": "polysticta-stelleri",
  "name": "Polysticta stelleri",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:05.248Z",
+ "fetchedAt": "2026-11-26T04:08:56.820Z",
+ "gbifAt": "2026-11-26T04:08:56.820Z",
  "names": {
   "da": "Stellersand",
   "en": "Steller’s Eider",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7164,
-  "observations": 515
+  "observations": 519
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2023-01-04"
    },
    {
-    "id": 2963206,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2963206/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2963206/large.jpg",
-    "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/2641198",
-    "place": "North Slope County, US-AK, US",
-    "date": "2015-06-15"
+    "id": 623870729,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/623870729/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/623870729/large.jpg",
+    "attribution": "(c) Сичинава Екатерина, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/342571318",
+    "place": "Murmansk, RU",
+    "date": "2026-03-09"
    }
   ],
   "female": [
@@ -193,13 +194,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:36.391Z"
+ }
 }

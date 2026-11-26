@@ -2,7 +2,8 @@
  "key": "mergus-merganser",
  "name": "Mergus merganser",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:34:44.644Z",
+ "fetchedAt": "2026-11-26T04:09:35.747Z",
+ "gbifAt": "2026-11-26T04:09:35.747Z",
  "names": {
   "da": "Stor skallesluger",
   "en": "Common Merganser",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7004,
-  "observations": 134961
+  "observations": 135576
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 9537647,
-  "dkTotal": 242207,
+  "dkTotal": 242388,
   "dkMonths": [
-   53134,
-   47752,
-   48573,
-   20595,
+   53141,
+   47751,
+   48581,
+   20596,
    8748,
    3650,
    2484,
    2544,
    3287,
-   5184,
-   16412,
+   5185,
+   16577,
    29642
   ],
-  "worldTotal": 5556777,
+  "worldTotal": 5557005,
   "topCountries": [
    {
     "code": "US",
@@ -158,11 +159,11 @@
    },
    {
     "code": "SE",
-    "count": 865749
+    "count": 865750
    },
    {
     "code": "DK",
-    "count": 242207
+    "count": 242388
    },
    {
     "code": "NL",
@@ -178,7 +179,7 @@
    },
    {
     "code": "DE",
-    "count": 88518
+    "count": 88564
    },
    {
     "code": "FI",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:40.567Z"
+ }
 }

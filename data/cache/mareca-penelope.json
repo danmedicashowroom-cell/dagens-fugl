@@ -2,7 +2,8 @@
  "key": "mareca-penelope",
  "name": "Mareca penelope",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:48.255Z",
+ "fetchedAt": "2026-11-26T04:07:38.565Z",
+ "gbifAt": "2026-11-26T04:07:38.565Z",
  "names": {
   "da": "Pibeand",
   "en": "Eurasian Wigeon",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 558441,
-  "observations": 51729
+  "observations": 52125
  },
  "photos": {
   "male": [
@@ -131,26 +132,26 @@
  },
  "gbif": {
   "key": 8000602,
-  "dkTotal": 375729,
+  "dkTotal": 376190,
   "dkMonths": [
    37088,
    33369,
-   53006,
-   44118,
+   53007,
+   44121,
    12545,
-   8027,
-   6755,
-   14114,
-   47989,
-   58254,
-   34720,
+   8028,
+   6756,
+   14118,
+   48007,
+   58268,
+   35139,
    25655
   ],
-  "worldTotal": 2995467,
+  "worldTotal": 2995976,
   "topCountries": [
    {
     "code": "SE",
-    "count": 670542
+    "count": 670544
    },
    {
     "code": "GB",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 375729
+    "count": 376190
    },
    {
     "code": "NO",
@@ -186,7 +187,7 @@
    },
    {
     "code": "DE",
-    "count": 61131
+    "count": 61176
    },
    {
     "code": "CA",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:26.300Z"
+ }
 }

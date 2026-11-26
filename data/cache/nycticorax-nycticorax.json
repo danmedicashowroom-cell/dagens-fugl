@@ -2,7 +2,8 @@
  "key": "nycticorax-nycticorax",
  "name": "Nycticorax nycticorax",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:05.288Z",
+ "fetchedAt": "2026-11-26T04:11:42.803Z",
+ "gbifAt": "2026-11-26T04:11:42.803Z",
  "names": {
   "da": "Nathejre",
   "en": "Black-crowned night heron",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4981,
-  "observations": 188909
+  "observations": 189739
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2024-10-31"
    },
    {
-    "id": 58341058,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58341058/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58341058/large.jpeg",
-    "attribution": "(c) Nelson Conceição, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/36862413",
-    "place": "Conceição, 8800, Portugal",
-    "date": "2019-03-23"
-   },
-   {
     "id": 485094996,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/485094996/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/485094996/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/269772821",
     "place": "Guanacaste Province, Bagaces, Costa Rica",
     "date": "2013-11-11"
+   },
+   {
+    "id": 58341058,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58341058/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58341058/large.jpeg",
+    "attribution": "(c) Nelson Conceição, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/36862413",
+    "place": "Conceição, 8800, Portugal",
+    "date": "2019-03-23"
    }
   ],
   "female": [
@@ -146,7 +147,7 @@
    219,
    19
   ],
-  "worldTotal": 2877678,
+  "worldTotal": 2877685,
   "topCountries": [
    {
     "code": "US",
@@ -194,7 +195,7 @@
    },
    {
     "code": "IL",
-    "count": 33278
+    "count": 33279
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:17:57.027Z"
+ }
 }

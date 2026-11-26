@@ -2,7 +2,8 @@
  "key": "morus-bassanus",
  "name": "Morus bassanus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:36:35.592Z",
+ "fetchedAt": "2026-11-26T04:11:18.976Z",
+ "gbifAt": "2026-11-26T04:11:18.976Z",
  "names": {
   "da": "Sule",
   "en": "Northern Gannet",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3802,
-  "observations": 26235
+  "observations": 26376
  },
  "photos": {
   "male": [
@@ -109,19 +110,19 @@
    }
   ],
   "hero": {
-   "id": 8811,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8811/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8811/large.jpg",
-   "attribution": "(c) PÃ©tur Gauti Valgeirsson, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/8811",
+   "id": 411599065,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/411599065/medium.png",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/411599065/large.png",
+   "attribution": "(c) Leo Weiskittel, some rights reserved (CC BY-NC), uploaded by Leo Weiskittel",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/411599065",
    "place": null,
    "date": null
   }
  },
  "gbif": {
   "key": 2480964,
-  "dkTotal": 136573,
+  "dkTotal": 136855,
   "dkMonths": [
    4956,
    3144,
@@ -130,13 +131,13 @@
    11922,
    3634,
    10358,
-   13832,
-   22629,
-   27592,
-   11930,
+   13833,
+   22638,
+   27603,
+   12191,
    4821
   ],
-  "worldTotal": 2141877,
+  "worldTotal": 2142161,
   "topCountries": [
    {
     "code": "CA",
@@ -152,7 +153,7 @@
    },
    {
     "code": "DK",
-    "count": 136573
+    "count": 136855
    },
    {
     "code": "FR",
@@ -203,13 +204,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Sulidae",
   "familyKey": 9351,
   "familyDa": "Suler",
   "order": "Suliformes"
- },
- "gbifAt": "2026-11-25T22:17:54.665Z"
+ }
 }

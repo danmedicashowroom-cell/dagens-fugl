@@ -2,7 +2,8 @@
  "key": "tachybaptus-ruficollis",
  "name": "Tachybaptus ruficollis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:35:28.698Z",
+ "fetchedAt": "2026-11-26T04:10:22.513Z",
+ "gbifAt": "2026-11-26T04:10:22.513Z",
  "names": {
   "da": "Lille lappedykker",
   "en": "Little Grebe",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4237,
-  "observations": 67215
+  "observations": 67670
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2482048,
-  "dkTotal": 202765,
+  "dkTotal": 202906,
   "dkMonths": [
    24834,
    17311,
    18170,
-   17584,
-   12692,
+   17585,
+   12693,
    9360,
-   13246,
-   20733,
-   20147,
-   19483,
-   14601,
+   13247,
+   20736,
+   20150,
+   19486,
+   14730,
    14550
   ],
-  "worldTotal": 3203442,
+  "worldTotal": 3203680,
   "topCountries": [
    {
     "code": "GB",
@@ -170,7 +171,7 @@
    },
    {
     "code": "DK",
-    "count": 202765
+    "count": 202906
    },
    {
     "code": "IN",
@@ -190,7 +191,7 @@
    },
    {
     "code": "DE",
-    "count": 117863
+    "count": 117958
    },
    {
     "code": "CN",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Podicipedidae",
   "familyKey": 9338,
   "familyDa": "Lappedykker",
   "order": "Podicipediformes"
- },
- "gbifAt": "2026-11-25T22:17:47.508Z"
+ }
 }

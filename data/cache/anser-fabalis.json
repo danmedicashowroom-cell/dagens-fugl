@@ -2,7 +2,8 @@
  "key": "anser-fabalis",
  "name": "Anser fabalis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:31:38.117Z",
+ "fetchedAt": "2026-11-26T04:06:24.067Z",
+ "gbifAt": "2026-11-26T04:06:24.067Z",
  "names": {
   "da": "Sædgås",
   "en": "Taiga bean goose",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7009,
-  "observations": 4820
+  "observations": 4817
  },
  "photos": {
   "male": [
@@ -70,7 +71,7 @@
  },
  "gbif": {
   "key": 2498027,
-  "dkTotal": 14269,
+  "dkTotal": 14278,
   "dkMonths": [
    5010,
    3439,
@@ -82,10 +83,10 @@
    7,
    87,
    682,
-   1190,
+   1199,
    2149
   ],
-  "worldTotal": 155277,
+  "worldTotal": 155302,
   "topCountries": [
    {
     "code": "SE",
@@ -101,7 +102,7 @@
    },
    {
     "code": "DK",
-    "count": 14269
+    "count": 14278
    },
    {
     "code": "FI",
@@ -117,7 +118,7 @@
    },
    {
     "code": "DE",
-    "count": 6249
+    "count": 6265
    },
    {
     "code": "CN",
@@ -152,13 +153,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:16.924Z"
+ }
 }

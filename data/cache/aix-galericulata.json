@@ -2,7 +2,8 @@
  "key": "aix-galericulata",
  "name": "Aix galericulata",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:32:43.271Z",
+ "fetchedAt": "2026-11-26T04:07:33.470Z",
+ "gbifAt": "2026-11-26T04:07:33.470Z",
  "names": {
   "da": "Mandarinand",
   "en": "Mandarin Duck",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7106,
-  "observations": 28532
+  "observations": 28748
  },
  "photos": {
   "male": [
@@ -146,7 +147,7 @@
    242,
    476
   ],
-  "worldTotal": 289589,
+  "worldTotal": 289601,
   "topCountries": [
    {
     "code": "GB",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DE",
-    "count": 27326
+    "count": 27338
    },
    {
     "code": "SE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Anatidae",
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- },
- "gbifAt": "2026-11-25T22:17:25.456Z"
+ }
 }
