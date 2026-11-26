@@ -43,6 +43,9 @@ function url_() { return ScriptApp.getService().getUrl(); }
 function doPost(e) {
   var p = (e && e.parameter) || {};
   if (p.website) return json_({ ok: true }); // honningkrukke mod robotter
+  // Tidsfælde: formularen på siden sender hvor længe den har været åben (ms). Robotter, der poster direkte, mangler den eller er for hurtige.
+  var ms = Number(p.t || 0);
+  if (!ms || ms < 2500) return json_({ ok: true });
   var email = String(p.email || '').trim().toLowerCase();
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || email.length > 120) return json_({ ok: false, error: 'Ugyldig mailadresse' });
   var lock = LockService.getScriptLock(); lock.waitLock(10000);
@@ -52,16 +55,32 @@ function doPost(e) {
       if (r.v[i][0] === email) {
         if (r.v[i][1] === 'bekræftet') return json_({ ok: true, already: true });
         var t = r.v[i][2];
+        // Send højst én bekræftelsesmail pr. adresse pr. døgn (så ingen kan bruge formularen til at oversvømme andres indbakke)
+        var last = r.v[i][6] ? new Date(r.v[i][6]).getTime() : 0;
+        if (Date.now() - last < 24 * 3600 * 1000) return json_({ ok: true });
         r.sh.getRange(i + 1, 2).setValue('afventer');
+        if (!underCap_()) return json_({ ok: true });
         sendConfirm_(email, t);
+        r.sh.getRange(i + 1, 7).setValue(new Date());
         return json_({ ok: true });
       }
     }
+    if (!underCap_()) return json_({ ok: true });
     var token = Utilities.getUuid();
-    r.sh.appendRow([email, 'afventer', token, new Date(), '', '']);
+    r.sh.appendRow([email, 'afventer', token, new Date(), '', '', new Date()]);
     sendConfirm_(email, token);
     return json_({ ok: true });
   } finally { lock.releaseLock(); }
+}
+
+// Højst 40 bekræftelsesmails pr. døgn i alt – beskytter Gmail-kvoten, hvis nogen spammer formularen
+function underCap_() {
+  var props = PropertiesService.getScriptProperties();
+  var day = Utilities.formatDate(new Date(), 'Europe/Copenhagen', 'yyyy-MM-dd');
+  var n = props.getProperty('CAP_DAY') === day ? Number(props.getProperty('CAP_N') || 0) : 0;
+  if (n >= 40) return false;
+  props.setProperty('CAP_DAY', day); props.setProperty('CAP_N', String(n + 1));
+  return true;
 }
 
 function sendConfirm_(email, token) {

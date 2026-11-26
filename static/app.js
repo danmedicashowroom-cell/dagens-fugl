@@ -205,11 +205,12 @@
   // ---- Tilmelding til morgenmail ----
   document.querySelectorAll('.signup-form').forEach(function (f) {
     var msg = f.parentNode.querySelector('.signup-msg');
+    var t0 = Date.now(); // robotter udfylder formularen på under et par sekunder
     f.addEventListener('submit', function (ev) {
       ev.preventDefault();
       if (f.website.value) return;
       var btn = f.querySelector('button'); btn.disabled = true;
-      var body = new URLSearchParams({ email: f.email.value, website: f.website.value });
+      var body = new URLSearchParams({ email: f.email.value, website: f.website.value, t: String(Date.now() - t0) });
       fetch(f.dataset.url, { method: 'POST', mode: 'no-cors', body: body }).then(function () {
         msg.textContent = 'Tak! Tjek din indbakke (og evt. spam) og bekræft tilmeldingen via linket i mailen.';
         f.reset();
