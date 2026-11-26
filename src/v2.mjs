@@ -54,7 +54,7 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 <a class="skip" href="#indhold">Spring til indhold</a>
 <header class="top"><div class="wrap top-in">
   <a class="brand" href="${url('')}"><span class="brand-mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 38c6-1 10-6 14-12 3-5 8-9 14-9 3 0 6 2 7 5l5 2-5 2c0 9-7 17-18 18-6 1-12-1-17-6z" fill="currentColor"/></svg></span>${esc(SITE_NAME)}</a>
-  <nav class="top-nav" aria-label="Hovedmenu"><a href="${url('')}">Dagens fugl</a><a href="${url('fugle/')}">Alle fugle</a><a href="${url('maaned/')}">Måned for måned</a><a href="${url('arkiv/')}">Tidligere</a><a href="${url('mine/')}">Mine fugle</a></nav>
+  <nav class="top-nav" aria-label="Hovedmenu"><a href="${url('')}">Dagens fugl</a><a href="${url('quiz/')}">Quiz</a><a href="${url('fugle/')}">Alle fugle</a><a href="${url('maaned/')}">Måned for måned</a><a href="${url('arkiv/')}">Tidligere</a><a href="${url('mine/')}">Mine fugle</a></nav>
   <button type="button" class="theme-btn" aria-label="Skift mellem lyst og mørkt tema" title="Lyst/mørkt tema">${I.sun}${I.moon}</button>
 </div></header>
 <main id="indhold">
@@ -73,8 +73,8 @@ ${SIGNUP_URL ? `<section class="news" aria-labelledby="news-h"><div class="wrap 
 </div></section>` : ''}
 <footer class="foot"><div class="wrap foot-in">
   <div><strong>${esc(SITE_NAME)}</strong><p>En ny fugl at gætte og lære om hver dag. Billeder, lyde og data fra åbne kilder, krediteret på hver side. Uden reklamer.</p></div>
-  <div><h2>Fugle</h2><a href="${url('fugle/danske/')}">Danske fugle</a><a href="${url('fugle/udenlandske/')}">Udenlandske fugle</a><a href="${url('maaned/')}">Måned for måned</a><a href="${url('sammenlign/')}">Fugle der ligner hinanden</a></div>
-  <div><h2>Om siden</h2><a href="${url('kilder/')}">Kilder og licenser</a><a href="${url('privatliv/')}">Privatliv</a><a href="${esc(mailto('Feedback til Dagens Fugl'))}">Giv feedback</a></div>
+  <div><h2>Fugle</h2><a href="${url('fugle/danske/')}">Danske fugle</a><a href="${url('fugle/udenlandske/')}">Udenlandske fugle</a><a href="${url('maaned/')}">Måned for måned</a><a href="${url('sammenlign/')}">Fugle der ligner hinanden</a><a href="${url('quiz/')}">Fuglequiz</a></div>
+  <div><h2>Om siden</h2><a href="${url('kilder/')}">Kilder og licenser</a><a href="${url('kreditering/')}">Fotografer og optagere</a><a href="${url('privatliv/')}">Privatliv</a><a href="${esc(mailto('Feedback til Dagens Fugl'))}">Giv feedback</a></div>
 </div></footer>
 <dialog class="lightbox" aria-label="Billede i stor størrelse"><button type="button" class="lb-close" aria-label="Luk">×</button><img alt=""><p class="lb-caption"></p></dialog>
 <script>window.DF_BASE=${JSON.stringify(url('').replace(/\/$/, ''))};</script>

@@ -76,7 +76,7 @@ function creditThumbs(html) {
     uncredited++;
     return /\stitle=/.test(tag) ? tag : tag.replace(/<img\b/, `<img title="${esc(creditText(ph))}"`);
   });
-  if (!uncredited) return out;
+  if (!uncredited || html.includes('id="kr-rows"')) return out;
   const note = `<p class="src wrap photo-note">Fotos fra iNaturalist under Creative Commons-licenser. Fotograf og licens står i billedets beskrivelse (hold musen over billedet) og under billedet på hver arts side. Se <a href="${url('kilder/')}">kilder og licenser</a>.</p>`;
   return out.includes('</main>') ? out.replace('</main>', `${note}</main>`) : out;
 }
@@ -907,7 +907,7 @@ function main() {
 <h2>Cookies</h2>
 <p>Siden bruger ingen cookies. Derfor er der heller ikke noget cookie-banner. Knappen »Tilfældig« henter blot listen over fugle fra siden selv.</p>
 <h2>»Jeg har set den« og Mine fugle</h2>
-<p>Når du markerer en fugl som set, gemmes det kun i din egen browser (såkaldt local storage) – det sendes ikke til os eller andre, og vi kan ikke se det. Det bruges kun til at vise din egen liste, fordi du selv har bedt om det. Det samme gælder dine resultater og din stime i »Gæt fuglen«. Du kan slette det hele ved at rydde browserdata for dagensfugl.dk.</p>
+<p>Når du markerer en fugl som set, gemmes det kun i din egen browser (såkaldt local storage) – det sendes ikke til os eller andre, og vi kan ikke se det. Det bruges kun til at vise din egen liste, fordi du selv har bedt om det. Det samme gælder dine resultater og din stime i »Gæt fuglen« og dine bedste resultater i fuglequizzen. Du kan slette det hele ved at rydde browserdata for dagensfugl.dk.</p>
 <h2>Hvad sker der, når du besøger siden?</h2>
 <p>Som på alle hjemmesider sender din browser din IP-adresse og oplysninger om browsertype, når den henter sidens indhold. Det sker hos disse tjenester:</p>
 <ul>
@@ -936,7 +936,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
 <h1>Kilder og licenser</h1>
 <p>Indholdet kommer fra åbne kilder eller er skrevet til siden. Hver art har sin egen kildeliste nederst. Store fotos er krediteret direkte under billedet. Ved små billeder i lister står fotograf og licens i billedets beskrivelse (hold musen over billedet) og under billedet på artens side.</p>
 <h2>Billeder – iNaturalist</h2>
-<p>Fotos kommer fra <a href="https://www.inaturalist.org" rel="noopener" target="_blank">iNaturalist</a>, hvor fotograferne selv vælger licens. Vi viser kun fotos med licenserne ${ALLOW_NONCOMMERCIAL ? 'CC0, CC BY og CC BY-NC. Siden er ikke-kommerciel' : 'CC0 og CC BY'}. Alle tre tillader, at fotoet vises beskåret, så længe fotografen krediteres, og det fremgår, at det er ændret. Derfor står der »vist som udsnit« ved fotoene, som ofte er beskåret til et fast format. Fotos med licenser, der forbyder bearbejdning (ND) eller kræver, at bearbejdninger deles under samme licens (SA), bruges ikke. Fotografens navn, licensen og et link til den oprindelige observation står ved hvert billede, og licensens version fremgår af observationen på iNaturalist. Køn og alder (han, hun, ungfugl) er markeret af iNaturalist-brugerne selv og kan i sjældne tilfælde være forkert.</p>
+<p>Fotos kommer fra <a href="https://www.inaturalist.org" rel="noopener" target="_blank">iNaturalist</a>, hvor fotograferne selv vælger licens. Vi viser kun fotos med licenserne ${ALLOW_NONCOMMERCIAL ? 'CC0, CC BY og CC BY-NC. Siden er ikke-kommerciel' : 'CC0 og CC BY'}. Alle tre tillader, at fotoet vises beskåret, så længe fotografen krediteres, og det fremgår, at det er ændret. Derfor står der »vist som udsnit« ved fotoene, som ofte er beskåret til et fast format. Fotos med licenser, der forbyder bearbejdning (ND) eller kræver, at bearbejdninger deles under samme licens (SA), bruges ikke. Fotografens navn, licensen og et link til den oprindelige observation står ved hvert billede og samlet på siden <a href="${url('kreditering/')}">fotografer og optagere</a>. Licensens version fremgår af observationen på iNaturalist. Køn og alder (han, hun, ungfugl) er markeret af iNaturalist-brugerne selv og kan i sjældne tilfælde være forkert.</p>
 <h2>Tekster</h2>
 <p>Mange arter har en beskrivelse skrevet til ${esc(SITE_NAME)} – kendetegn, stemme, levested, føde og forekomst i Danmark. Teksterne er skrevet fra bunden og bygger på almindelig kendt viden om fuglene; de er ikke kopieret fra andre sider. Finder du en fejl, hører vi gerne om det.</p>
 <p>For de øvrige arter er beskrivelsen indledningen fra <a href="https://da.wikipedia.org" rel="noopener" target="_blank">dansk Wikipedia</a> – eller engelsk Wikipedia, hvis der ikke findes en dansk artikel. Teksten bruges under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a> med link til artiklen. I gætteleget bruges i stedet et kort uddrag med fuglens navn skjult, også under CC BY-SA 4.0.</p>
@@ -955,6 +955,124 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
 <p>Hvis du finder en fejl, er den bedste vej at rette den hos kilden – fx på Wikipedia eller ved at foreslå en anden artsbestemmelse på iNaturalist. Siden henter opdaterede data løbende.</p>
 </article>`,
   }));
+
+  // --- Fotos og lyde der faktisk vises på artssiden (samme udvalg som i v2.mjs) ---
+  function shownPhotos(d) {
+    const p = homeDD(d).photos || {};
+    const wild = (arr) => [...arr].sort((a, b) => (a.captive ? 1 : 0) - (b.captive ? 1 : 0));
+    let groups = [['male', 'Han'], ['female', 'Hun'], ['juvenile', 'Ungfugl']].map(([k, l]) => ({ k, l, ph: wild(p[k] || []).slice(0, 4) })).filter((g) => g.ph.length);
+    if (!groups.length) groups = [['adult', 'Voksen'], ['general', 'Andre']].map(([k, l]) => ({ k, l, ph: (p[k] || []).slice(0, 4) })).filter((g) => g.ph.length);
+    const out = []; const seen = new Set();
+    if (p.hero) { out.push({ ph: p.hero, k: 'hero', l: 'Hovedbillede' }); seen.add(p.hero.id); }
+    for (const g of groups) for (const ph of g.ph) if (!seen.has(ph.id)) { seen.add(ph.id); out.push({ ph, k: g.k, l: g.l }); }
+    return out;
+  }
+  const licLabel = (l) => LICENSES[l]?.label || String(l).toUpperCase();
+  const whoShort = (ph) => (photographer(ph) ? `${ph.license === 'cc0' ? '' : '© '}${photographer(ph)}` : 'Fotograf ikke angivet');
+
+  // --- Fuglequiz med sværhedsgrader (kun arter på Den danske liste) ---
+  {
+    const dk = species.filter((d) => d.region === 'dk' && d.photos?.hero);
+    const common = dk.filter((d) => ['VC', 'C'].includes(DL_STATUS[d.key]?.h)).sort((a, b) => (b.gbif?.dkTotal || 0) - (a.gbif?.dkTotal || 0));
+    const easy = new Set(common.slice(0, 70).map((d) => d.key));
+    const level = (d) => {
+      const h = DL_STATUS[d.key]?.h;
+      if (easy.has(d.key)) return 1;
+      if (['VC', 'C', 'FC'].includes(h)) return 2;
+      if (h === 'S' || (!rarity(d) && !['R', 'VR', 'A'].includes(h))) return 3;
+      return 4;
+    };
+    const qdata = dk.map((d) => {
+      const photos = shownPhotos(d).filter((x) => x.k !== 'general' || shownPhotos(d).length === 1).slice(0, 4)
+        .map(({ ph, k }) => ({ u: ph.medium, c: `${whoShort(ph)} · ${licLabel(ph.license)} · iNaturalist · vist som udsnit`, s: ph.source, ...(k === 'juvenile' ? { j: 1 } : {}) }));
+      const s = d.sound?.src?.[0]?.u ? { u: d.sound.src[0].u, c: `${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, s: d.sound.page } : null;
+      return { k: d.key, n: displayName(d), a: akaNames(d), sci: d.names.accepted, l: level(d), f: d.taxon?.family || d.names.accepted.split(' ')[0], g: d.names.accepted.split(' ')[0], u: url(speciesUrl(d)), p: photos, ...(s ? { snd: s } : {}) };
+    }).filter((x) => x.p.length);
+    write('fuglequiz.json', JSON.stringify(qdata));
+    const cnt = [1, 2, 3, 4].map((L) => qdata.filter((x) => x.l <= L).length);
+    const LV = [
+      ['1', 'Lette', `De ${cnt[0]} arter, man oftest møder i Danmark`],
+      ['2', 'Almindelige', `Alle ${cnt[1]} almindelige og ret almindelige arter`],
+      ['3', 'Svære', 'Også fåtallige arter – og svarmuligheder, der ligner hinanden'],
+      ['4', 'Ekspert', 'Alle arter på Den danske liste, også sjældne gæster – du skriver selv navnet'],
+    ];
+    write('quiz/index.html', page({
+      bodyClass: 'v2s fq-page',
+      title: `Fuglequiz – kan du kende de danske fugle? | ${SITE_NAME}`,
+      description: `Quiz om de danske fugle i fire sværhedsgrader. Gæt fuglen ud fra billede eller stemme, eller find billedet ud fra navnet. Alle arter fra Den danske liste.`,
+      canonical: abs('quiz/'),
+      body: `<section class="fq wrap" id="fq">
+  <div class="fq-setup" id="fq-setup">
+    <p class="kicker">Fuglequiz</p>
+    <h1>Kan du kende de danske fugle?</h1>
+    <p class="lede">Vælg sværhedsgrad og type. Alle spørgsmål er om arter på Den danske liste.</p>
+    <form id="fq-form">
+      <fieldset class="fq-group"><legend>Sværhedsgrad</legend><div class="fq-choices lv">
+        ${LV.map(([v, l, t], i) => `<label class="fq-choice"><input type="radio" name="lv" value="${v}"${i === 0 ? ' checked' : ''}><span><b>${l}</b><small>${esc(t)}</small></span></label>`).join('')}
+      </div></fieldset>
+      <fieldset class="fq-group"><legend>Type</legend><div class="fq-choices">
+        ${[['foto', 'Foto', 'Hvilken fugl er på billedet?'], ['lyd', 'Lyd', 'Hvilken fugl synger eller kalder?'], ['navn', 'Navn', 'Find billedet af fuglen'], ['blandet', 'Blandet', 'Lidt af det hele']].map(([v, l, t], i) => `<label class="fq-choice"><input type="radio" name="type" value="${v}"${i === 0 ? ' checked' : ''}><span><b>${l}</b><small>${t}</small></span></label>`).join('')}
+      </div></fieldset>
+      <fieldset class="fq-group"><legend>Antal spørgsmål</legend><div class="fq-choices n">
+        ${[10, 20].map((n, i) => `<label class="fq-choice"><input type="radio" name="n" value="${n}"${i === 0 ? ' checked' : ''}><span><b>${n}</b></span></label>`).join('')}
+      </div></fieldset>
+      <label class="fq-check" id="fq-write-wrap"><input type="checkbox" name="write" id="fq-write"> Skriv selv navnet i stedet for at vælge</label>
+      <p><button type="submit" class="btn primary fq-start">Start quizzen</button></p>
+      <p class="fq-best" id="fq-best"></p>
+    </form>
+  </div>
+  <div class="fq-play" id="fq-play" hidden>
+    <div class="fq-bar"><span id="fq-count"></span><span id="fq-score"></span></div>
+    <div class="fq-progress"><span id="fq-prog"></span></div>
+    <h2 class="fq-q" id="fq-q"></h2>
+    <div class="fq-media" id="fq-media"></div>
+    <div class="fq-answer" id="fq-answer"></div>
+    <div class="fq-feedback" id="fq-feedback" aria-live="polite"></div>
+    <p class="fq-nav"><button type="button" class="btn primary" id="fq-next" hidden>Næste</button></p>
+  </div>
+  <div class="fq-end" id="fq-end" hidden></div>
+  <noscript><p>Quizzen kræver JavaScript.</p></noscript>
+  <p class="src">Fotos fra iNaturalist og lyde fra xeno-canto og Wikimedia Commons under Creative Commons-licenser. Fotograf eller optager og licens står ved hvert spørgsmål. Se <a href="${url('kreditering/')}">alle fotografer og optagere</a>.</p>
+</section>
+<script src="${url('fuglequiz.js')}?v=${Date.now().toString(36)}" defer></script>`,
+    }));
+    extraUrls.push({ loc: abs('quiz/'), freq: 'monthly' });
+  }
+
+  // --- Kreditering af alle fotos og lyde ---
+  {
+    let nPh = 0; let nSnd = 0;
+    const rows = sorted.map((d) => {
+      const shown = shownPhotos(d);
+      if (!shown.length && !d.sound) return '';
+      nPh += shown.length; if (d.sound) nSnd++;
+      const name = displayName(d);
+      const hay = [name, ...akaNames(d), d.names.accepted, d.names.en].filter(Boolean).join(' ').toLowerCase();
+      const ph0 = shown[0]?.ph;
+      const phLines = shown.map(({ ph, l }) => {
+        const lic = LICENSES[ph.license];
+        return `<li><span class="kr-k">${esc(l)}</span> ${esc(whoShort(ph))} · ${lic ? `<a href="${lic.url}" rel="license noopener" target="_blank">${lic.label}</a>` : esc(ph.license)} · <a href="${esc(ph.source)}" rel="noopener" target="_blank">iNaturalist</a></li>`;
+      }).join('');
+      const s = d.sound;
+      const sLine = s ? `<li><span class="kr-k">Lyd</span> ${esc(s.artist || 'Optager ikke angivet')} · ${s.licenseUrl ? `<a href="${esc(s.licenseUrl)}" rel="license noopener" target="_blank">${esc(s.license)}</a>` : esc(s.license || '')} · <a href="${esc(s.page)}" rel="noopener" target="_blank">${esc(s.via || 'Wikimedia Commons')}</a></li>` : '';
+      return `<li class="kr-row" data-s="${esc(hay)}">${ph0 ? `<img src="${esc(size(ph0, 'small'))}" alt="" loading="lazy" decoding="async" width="72" height="72">` : '<span class="kr-noimg"></span>'}<div><p class="kr-name"><a href="${url(speciesUrl(d))}">${esc(name)}</a> <i>${esc(d.names.accepted)}</i></p><ul class="kr-list">${phLines}${sLine}</ul></div></li>`;
+    }).filter(Boolean);
+    write('kreditering/index.html', page({
+      bodyClass: 'v2s kr-page',
+      title: `Kreditering af fotos og lyde | ${SITE_NAME}`,
+      description: `Alle ${nf.format(nPh)} fotos og ${nf.format(nSnd)} lyde på Dagens Fugl med fotograf, optager, licens og link til originalen.`,
+      canonical: abs('kreditering/'),
+      body: `<article class="prose-page kr">
+<h1>Kreditering af fotos og lyde</h1>
+<p>Tak til de fotografer og optagere, der deler deres billeder og lyde under frie licenser. Her står alle fotos og lyde, der bruges på siden, med fotograf eller optager, licens og link til originalen.</p>
+<p>Fotos kommer fra iNaturalist og vises ofte beskåret og i mindre størrelse, så de passer til siden. Lydene bruges uændrede. Læs mere om <a href="${url('kilder/')}">kilder og licenser</a>.</p>
+<div class="kr-tools"><label class="sr" for="kr-q">Søg efter art</label><input id="kr-q" type="search" placeholder="Søg på dansk, engelsk eller videnskabeligt navn" autocomplete="off"><p class="kr-count" id="kr-count" data-total="${rows.length}">${nf.format(rows.length)} arter · ${nf.format(nPh)} fotos · ${nf.format(nSnd)} lyde</p></div>
+<ul class="kr-rows" id="kr-rows">${rows.join('')}</ul>
+</article>
+<script>(function(){var q=document.getElementById('kr-q'),c=document.getElementById('kr-count'),rows=[].slice.call(document.querySelectorAll('.kr-row')),t=c.textContent;q.addEventListener('input',function(){var v=q.value.trim().toLowerCase(),n=0;rows.forEach(function(r){var ok=!v||r.dataset.s.indexOf(v)>-1;r.hidden=!ok;if(ok)n++});c.textContent=v?n+' af '+rows.length+' arter':t})})()</script>`,
+    }));
+    extraUrls.push({ loc: abs('kreditering/'), freq: 'monthly' });
+  }
 
   // --- 404 ---
   write('404.html', page({
