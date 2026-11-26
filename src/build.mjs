@@ -967,6 +967,13 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     for (const g of groups) for (const ph of g.ph) if (!seen.has(ph.id)) { seen.add(ph.id); out.push({ ph, k: g.k, l: g.l }); }
     return out;
   }
+  // Quizzen bruger iNaturalists udvalgte artsfotos (skarpe, hele fuglen); ellers fotos fra artssiden
+  function quizPhotos(d) {
+    const cur = (homeDD(d).photos?.curated || []).map((ph) => ({ ph, k: 'curated', l: 'Quiz' }));
+    if (cur.length >= 2) return cur.slice(0, 6);
+    const seen = new Set(cur.map((x) => x.ph.id));
+    return [...cur, ...shownPhotos(d).filter((x) => x.k !== 'general' && !seen.has(x.ph.id))].slice(0, 4);
+  }
   const licLabel = (l) => LICENSES[l]?.label || String(l).toUpperCase();
   const whoShort = (ph) => (photographer(ph) ? `${ph.license === 'cc0' ? '' : '© '}${photographer(ph)}` : 'Fotograf ikke angivet');
 
@@ -983,7 +990,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
       return 4;
     };
     const qdata = dk.map((d) => {
-      const photos = shownPhotos(d).filter((x) => x.k !== 'general' || shownPhotos(d).length === 1).slice(0, 4)
+      const photos = quizPhotos(d)
         .map(({ ph, k }) => ({ u: ph.medium, c: `${whoShort(ph)} · ${licLabel(ph.license)} · iNaturalist · vist som udsnit`, s: ph.source, ...(k === 'juvenile' ? { j: 1 } : {}) }));
       const s = d.sound?.src?.[0]?.u ? { u: d.sound.src[0].u, c: `${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, s: d.sound.page } : null;
       return { k: d.key, n: displayName(d), a: akaNames(d), sci: d.names.accepted, l: level(d), f: d.taxon?.family || d.names.accepted.split(' ')[0], g: d.names.accepted.split(' ')[0], u: url(speciesUrl(d)), p: photos, ...(s ? { snd: s } : {}) };
@@ -1044,6 +1051,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     let nPh = 0; let nSnd = 0;
     const rows = sorted.map((d) => {
       const shown = shownPhotos(d);
+      if (d.region === 'dk') for (const x of quizPhotos(d)) if (!shown.some((y) => y.ph.id === x.ph.id)) shown.push({ ...x, l: 'Quiz' });
       if (!shown.length && !d.sound) return '';
       nPh += shown.length; if (d.sound) nSnd++;
       const name = displayName(d);

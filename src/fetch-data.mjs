@@ -112,6 +112,12 @@ function photoSize(url, size) {
   return url ? url.replace(/\/(square|small|medium|large|original|thumb)\.(jpe?g|png|gif)/i, `/${size}.$2`) : null;
 }
 
+// iNaturalists udvalgte artsfotos med fri licens (bruges i quizzen, fordi de oftest er skarpe og viser hele fuglen)
+function uniqCurated(list) {
+  const seen = new Set();
+  return (list || []).map((p) => cleanPhoto(p, null)).filter((p) => p && !seen.has(p.id) && seen.add(p.id)).slice(0, 8);
+}
+
 function cleanPhoto(p, obs) {
   if (!p?.url || !p.license_code) return null;
   const lic = p.license_code.toLowerCase();
@@ -336,6 +342,7 @@ async function fetchSpecies(sp, old) {
     }
     const curated = [taxon.default_photo, ...(full.taxon_photos || []).map((tp) => tp.photo)];
     const hero = curated.map((p) => cleanPhoto(p, null)).find(Boolean) || null;
+    if (photos) photos.curated = uniqCurated(curated);
     if (photos) photos.hero = hero || photos.male?.[0] || photos.adult?.[0] || photos.general?.[0] || photos.female?.[0] || null;
   }
 
@@ -372,6 +379,7 @@ const REFETCH = Object.fromEntries((fs.existsSync(path.join(ROOT, 'data', 'hent-
   .split('\n').map((l) => l.replace(/#.*/, '').trim().split(/\s+/)).filter((a) => a.length === 2));
 
 // Hæves når måden at vælge billeder på ændres – så hentes alle arter igen ved næste fulde kørsel.
+const CURATED_FETCH = Number(process.env.CURATED_FETCH ?? 900);
 const PHOTO_VERSION = 4; // 4: ingen SA-licenser (så udsnit altid er tilladt)
 
 // ---------- Hovedløkke ----------
@@ -443,6 +451,20 @@ async function main() {
     } catch (e) { console.log(`    taksonomi ${sp.name}: ${e.message}`); }
   }
   if (noTaxon.length) console.log(`Taksonomi: hentet for ${noTaxon.length} arter.`);
+
+  // Udvalgte artsfotos til quizzen for arter, der blev hentet før de blev gemt (ét kald pr. art)
+  const curDue = list.map((sp) => ({ sp, d: readCache(sp.key) })).filter(({ d }) => d?.inat?.id && d.photos && !d.photos.curated).slice(0, CURATED_FETCH);
+  let cOk = 0;
+  for (const { sp, d } of curDue) {
+    try {
+      const t = (await getJson(`https://api.inaturalist.org/v1/taxa/${d.inat.id}`, { allow404: true }))?.results?.[0];
+      if (!t) continue;
+      d.photos.curated = uniqCurated([t.default_photo, ...(t.taxon_photos || []).map((tp) => tp.photo)]);
+      writeJson(cachePath(sp.key), d);
+      cOk++;
+    } catch (e) { console.log(`    artsfotos ${sp.name}: ${e.message}`); }
+  }
+  if (curDue.length) console.log(`Udvalgte artsfotos: hentet for ${cOk}/${curDue.length} arter.`);
 
   // Fund fra GBIF (måneder, lande) opdateres oftere end resten, så »hvornår ses den« følger med.
   // Let – to kald pr. art. Ældste først, højst GBIF_FETCH pr. kørsel.
