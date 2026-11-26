@@ -171,18 +171,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/810349/download",
+    "u": "https://xeno-canto.org/509182/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Oliver Fowler",
-  "page": "https://xeno-canto.org/810349",
-  "type": "flight call, song",
+  "artist": "Étienne Leroy",
+  "page": "https://xeno-canto.org/509182",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "refetchedFor": null,
  "warnings": [],

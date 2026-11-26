@@ -202,18 +202,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1142550/download",
+    "u": "https://xeno-canto.org/695396/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "artist": "Philippe_Grange",
-  "page": "https://xeno-canto.org/1142550",
-  "type": "song",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Soulier Pierrick",
+  "page": "https://xeno-canto.org/695396",
+  "type": "call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "refetchedFor": null,
  "warnings": [],

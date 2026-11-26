@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1046250/download",
+    "u": "https://xeno-canto.org/1002373/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-ND 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Manuel Oudard",
-  "page": "https://xeno-canto.org/1046250",
-  "type": "call, song",
+  "artist": "Ding Li Yong",
+  "page": "https://xeno-canto.org/1002373",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

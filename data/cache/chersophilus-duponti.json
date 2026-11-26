@@ -127,9 +127,10 @@
   "artist": "Pere Josa",
   "page": "https://xeno-canto.org/1137339",
   "type": "dawn song, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "refetchedFor": null,
  "warnings": [],

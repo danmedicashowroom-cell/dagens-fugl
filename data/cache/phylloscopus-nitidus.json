@@ -70,18 +70,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/954671/download",
+    "u": "https://xeno-canto.org/567044/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Lukas Ehmke",
-  "page": "https://xeno-canto.org/954671",
+  "artist": "Ruud van Beusekom",
+  "page": "https://xeno-canto.org/567044",
   "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

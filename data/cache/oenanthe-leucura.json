@@ -192,18 +192,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1096098/download",
+    "u": "https://xeno-canto.org/892435/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "João Ferreira Tomás",
-  "page": "https://xeno-canto.org/1096098",
+  "artist": "Sven Normant",
+  "page": "https://xeno-canto.org/892435",
   "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "refetchedFor": null,
  "warnings": [],
