@@ -209,23 +209,28 @@ const secs = (t) => { const p = String(t || '').split(':').map(Number); return p
 
 async function xenoCantoSound(sciName, region) {
   if (!XC_KEY) return undefined; // ingen nøgle → spring over
-  let recs = [];
+  const GRADE = { A: 5, B: 4, C: 3, D: 2, E: 1 };
+  let ok = [];
+  // Først kun A-optagelser; findes der ingen brugbare, hentes alle, og den bedste klasse vælges.
   for (const query of [`sp:"${sciName}" q:A`, `sp:"${sciName}"`]) {
     const d = await getJson(`https://xeno-canto.org/api/3/recordings?query=${q(query)}&per_page=100&key=${q(XC_KEY)}`, { allow404: true });
-    recs = d?.recordings || [];
-    if (recs.length) break;
+    ok = (d?.recordings || []).filter((r) => r.file && xcLicense(r.lic) && GRADE[r.q]);
+    if (ok.length) break;
   }
-  const scored = recs
-    .filter((r) => r.file && xcLicense(r.lic))
+  // Xeno-cantos egen kvalitetsvurdering (A er bedst, E dårligst) vejer tungest: kun optagelser i den
+  // bedste klasse, der findes for arten, kommer i betragtning. Derefter: få baggrundsarter, passende længde, nærhed.
+  const top = Math.max(0, ...ok.map((r) => GRADE[r.q]));
+  const scored = ok
+    .filter((r) => GRADE[r.q] === top)
     .map((r) => {
       const len = secs(r.length);
       const type = String(r.type || '').toLowerCase();
+      const bg = Array.isArray(r.also) ? r.also.filter(Boolean).length : 0;
       let score = 0;
-      if (/song/.test(type)) score += 3;
-      if (r.q === 'A') score += 2; else if (r.q === 'B') score += 1;
+      if (/song/.test(type)) score += 1; // sang foretrækkes en anelse, men aldrig frem for bedre kvalitet
+      if (bg === 0) score += 2; else if (bg <= 1) score += 1;
       if (len >= 8 && len <= 60) score += 2; else if (len > 60 && len <= 120) score += 1;
       if (region === 'dk' && NEAR.has(r.cnt)) score += 1;
-      if (/background|bg:/.test(String(r.also || ''))) score -= 0;
       return { r, score };
     })
     .sort((a, b) => b.score - a.score);
@@ -239,6 +244,7 @@ async function xenoCantoSound(sciName, region) {
     artist: best.rec || null,
     page: `https://xeno-canto.org/${best.id}`,
     type: best.type || null,
+    q: best.q || null,
     via: 'xeno-canto',
   };
 }
@@ -250,7 +256,7 @@ async function findSound(sciName, region) {
   const c = await commonsSound(sciName);
   return c ? { ...c, via: 'Wikimedia Commons' } : null;
 }
-const SOUND_VERSION = XC_KEY ? 2 : 1;
+const SOUND_VERSION = XC_KEY ? 3 : 1; // 3: bedste kvalitetsklasse fra xeno-canto (A før B osv.)
 
 // ---------- GBIF ----------
 async function gbifKey(sciName, fromWikidata, altName) {
