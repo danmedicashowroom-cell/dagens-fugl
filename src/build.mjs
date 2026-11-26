@@ -991,7 +991,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     };
     const qdata = dk.map((d) => {
       const photos = quizPhotos(d)
-        .map(({ ph, k }) => ({ u: ph.medium, c: `${whoShort(ph)} · ${licLabel(ph.license)} · iNaturalist · vist som udsnit`, s: ph.source, ...(k === 'juvenile' ? { j: 1 } : {}) }));
+        .map(({ ph, k }) => ({ u: ph.medium, c: `${whoShort(ph)} · ${licLabel(ph.license)} · iNaturalist · vist som udsnit`, s: ph.source, i: ph.id, ...(k === 'juvenile' ? { j: 1 } : {}) }));
       const s = d.sound?.src?.[0]?.u ? { u: d.sound.src[0].u, c: `${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, s: d.sound.page } : null;
       return { k: d.key, n: displayName(d), a: akaNames(d), sci: d.names.accepted, l: level(d), f: d.taxon?.family || d.names.accepted.split(' ')[0], g: d.names.accepted.split(' ')[0], u: url(speciesUrl(d)), p: photos, ...(s ? { snd: s } : {}) };
     }).filter((x) => x.p.length);
@@ -1008,7 +1008,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
       title: `Fuglequiz – kan du kende de danske fugle? | ${SITE_NAME}`,
       description: `Quiz om de danske fugle i fire sværhedsgrader. Gæt fuglen ud fra billede eller stemme, eller find billedet ud fra navnet. Alle arter fra Den danske liste.`,
       canonical: abs('quiz/'),
-      body: `<section class="fq wrap" id="fq">
+      body: `<section class="fq wrap" id="fq" data-mail="${esc(CONTACT_EMAIL)}">
   <div class="fq-setup" id="fq-setup">
     <p class="kicker">Fuglequiz</p>
     <h1>Kan du kende de danske fugle?</h1>

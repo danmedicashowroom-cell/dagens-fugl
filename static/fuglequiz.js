@@ -40,6 +40,7 @@
   syncForm();
 
   // ---- Svarmuligheder ----
+  function byKey(k) { for (var i = 0; i < DATA.length; i++) if (DATA[i].k === k) return DATA[i]; return null; }
   function poolFor(lv) { return DATA.filter(function (x) { return x.l <= lv; }); }
   function distractors(ans, pool, k, lv, needSnd) {
     var others = pool.filter(function (x) { return x.k !== ans.k && (!needSnd || x.snd); });
@@ -186,6 +187,13 @@
     p.appendChild(spLink(q.sp));
     p.appendChild(document.createTextNode('.'));
     fb.appendChild(p);
+    var mail = root.getAttribute('data-mail');
+    var pics = q.t === 'foto' ? [[q.sp, q.photo]] : q.t === 'navn' ? q.opts.map(function (o, i) { return [o, q.photos[i]]; }) : [];
+    if (mail && pics.length) {
+      var r = el('a', 'fq-report', q.t === 'navn' ? 'Er et af billederne dårligt? Sig til' : 'Er billedet dårligt? Sig til');
+      r.href = 'mailto:' + mail + '?subject=' + encodeURIComponent('Dårligt billede i fuglequizzen') + '&body=' + encodeURIComponent('Hvilket billede er dårligt, og hvorfor?\n\n' + pics.map(function (x) { return x[0].n + ': foto ' + x[1].i; }).join('\n'));
+      fb.appendChild(r);
+    }
     var media = $('fq-media');
     var cr = media.querySelector('.fq-credit');
     if (cr) cr.replaceWith(q.t === 'lyd' ? credit(q.sp.snd, true, 'Lyd: ') : credit(q.photo, true));
@@ -198,6 +206,13 @@
     [].forEach.call(wrap.children, function (b) {
       b.disabled = true;
       if (b.dataset.k === q.sp.k) b.classList.add('right');
+      if (b.classList.contains('fq-imgopt')) {
+        var sp = byKey(b.dataset.k);
+        var lab = el('span', 'fq-imgname');
+        lab.appendChild(el('b', null, sp.n)); lab.appendChild(el('i', null, ' ' + sp.sci));
+        b.insertBefore(lab, b.querySelector('.fq-imgcap'));
+        b.title = sp.n;
+      }
     });
     if (!ok) btn.classList.add('wrong');
     reveal(ok);
