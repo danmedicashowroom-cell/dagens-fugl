@@ -2,7 +2,8 @@
  "key": "pandion-haliaetus",
  "name": "Pandion haliaetus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:26.621Z",
+ "fetchedAt": "2026-11-26T04:57:12.597Z",
+ "gbifAt": "2026-11-26T04:57:12.597Z",
  "names": {
   "da": "Fiskeørn",
   "en": "Osprey",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116999,
-  "observations": 230002
+  "observations": 230825
  },
  "photos": {
   "male": [
@@ -131,26 +132,26 @@
  },
  "gbif": {
   "key": 2480726,
-  "dkTotal": 136918,
+  "dkTotal": 136926,
   "dkMonths": [
    3,
    3,
    2872,
-   42858,
+   42864,
    22659,
    5423,
-   6362,
+   6363,
    27788,
-   27656,
+   27657,
    1005,
    221,
    6
   ],
-  "worldTotal": 7398142,
+  "worldTotal": 7398153,
   "topCountries": [
    {
     "code": "US",
-    "count": 5175072
+    "count": 5175074
    },
    {
     "code": "CA",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 136918
+    "count": 136926
    },
    {
     "code": "AU",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Pandionidae",
   "familyKey": 4408414,
   "familyDa": "Fiskeørne",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:16.245Z"
+ }
 }

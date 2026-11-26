@@ -2,7 +2,8 @@
  "key": "falco-rusticolus",
  "name": "Falco rusticolus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:58.532Z",
+ "fetchedAt": "2026-11-26T04:57:47.721Z",
+ "gbifAt": "2026-11-26T04:57:47.721Z",
  "names": {
   "da": "Jagtfalk",
   "en": "Gyrfalcon",
@@ -19,20 +20,10 @@
  },
  "inat": {
   "id": 4657,
-  "observations": 1258
+  "observations": 1263
  },
  "photos": {
   "male": [
-   {
-    "id": 483058592,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/483058592/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/483058592/large.jpeg",
-    "attribution": "(c) Nodnarb Nedloh, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/268718830",
-    "place": "Division No. 9, CA-NF, CA",
-    "date": "2010-02-20"
-   },
    {
     "id": 153930332,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/153930332/medium.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/10466218",
     "place": "Nome County, US-AK, US",
     "date": "2018-03-27"
+   },
+   {
+    "id": 110435929,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/110435929/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/110435929/large.jpg",
+    "attribution": "(c) michmash_, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/68236308",
+    "place": "Washington, US",
+    "date": "2021-01-15"
    }
   ],
   "female": [
@@ -146,7 +147,7 @@
    283,
    177
   ],
-  "worldTotal": 27327,
+  "worldTotal": 27328,
   "topCountries": [
    {
     "code": "SE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Falconidae",
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- },
- "gbifAt": "2026-11-25T22:18:19.309Z"
+ }
 }

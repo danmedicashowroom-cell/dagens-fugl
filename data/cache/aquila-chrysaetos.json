@@ -2,7 +2,8 @@
  "key": "aquila-chrysaetos",
  "name": "Aquila chrysaetos",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:20.984Z",
+ "fetchedAt": "2026-11-26T04:57:06.449Z",
+ "gbifAt": "2026-11-26T04:57:06.449Z",
  "names": {
   "da": "Kongeørn",
   "en": "Golden Eagle",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5074,
-  "observations": 29366
+  "observations": 29503
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2026-04-07"
    },
    {
-    "id": 341834113,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/341834113/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/341834113/large.jpeg",
-    "attribution": "(c) Gianluca Congi🪶🦆🌲, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/194464811",
-    "place": "Sila",
-    "date": "2023-12-19"
+    "id": 285396541,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/285396541/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/285396541/large.jpeg",
+    "attribution": "(c) rowz, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/164911100",
+    "place": "Colorado, US",
+    "date": "2023-05-31"
    }
   ],
   "female": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2480506,
-  "dkTotal": 18566,
+  "dkTotal": 18578,
   "dkMonths": [
    1728,
    1795,
    2210,
-   3080,
+   3081,
    2841,
    1027,
    829,
    992,
    1054,
    1292,
-   849,
+   860,
    849
   ],
-  "worldTotal": 802531,
+  "worldTotal": 802545,
   "topCountries": [
    {
     "code": "US",
@@ -178,15 +179,15 @@
    },
    {
     "code": "DK",
-    "count": 18566
+    "count": 18578
    },
    {
     "code": "AT",
-    "count": 8490
+    "count": 8491
    },
    {
     "code": "CH",
-    "count": 8227
+    "count": 8228
    },
    {
     "code": "IT",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:15.464Z"
+ }
 }

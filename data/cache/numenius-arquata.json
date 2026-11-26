@@ -2,7 +2,8 @@
  "key": "numenius-arquata",
  "name": "Numenius arquata",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:43:16.639Z",
+ "fetchedAt": "2026-11-26T05:00:40.791Z",
+ "gbifAt": "2026-11-26T05:00:40.791Z",
  "names": {
   "da": "Storspove",
   "en": "Eurasian Curlew",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3896,
-  "observations": 30837
+  "observations": 31012
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2022-07-13"
    },
    {
-    "id": 41152169,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/41152169/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/41152169/large.jpeg",
-    "attribution": "(c) mervyngreening, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/26498433",
-    "place": "Ashleworth, Gloucester GL19 4LD, UK",
-    "date": "2019-06-06"
-   },
-   {
     "id": 248377988,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/248377988/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/248377988/large.jpeg",
@@ -116,6 +107,16 @@
     "source": "https://www.inaturalist.org/observations/144684373",
     "place": "Morecambe, North West England, UK",
     "date": "2021-04-13"
+   },
+   {
+    "id": 41152169,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/41152169/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/41152169/large.jpeg",
+    "attribution": "(c) mervyngreening, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/26498433",
+    "place": "Ashleworth, Gloucester GL19 4LD, UK",
+    "date": "2019-06-06"
    }
   ],
   "hero": {
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2481792,
-  "dkTotal": 248834,
+  "dkTotal": 248976,
   "dkMonths": [
-   18359,
+   18360,
    14088,
-   22019,
-   31805,
+   22020,
+   31809,
    14891,
-   16491,
-   29390,
-   33375,
-   21377,
-   20587,
-   14220,
+   16494,
+   29407,
+   33380,
+   21379,
+   20593,
+   14323,
    11996
   ],
-  "worldTotal": 2692774,
+  "worldTotal": 2692930,
   "topCountries": [
    {
     "code": "SE",
@@ -158,11 +159,11 @@
    },
    {
     "code": "NL",
-    "count": 419355
+    "count": 419356
    },
    {
     "code": "DK",
-    "count": 248834
+    "count": 248976
    },
    {
     "code": "NO",
@@ -182,11 +183,11 @@
    },
    {
     "code": "ES",
-    "count": 70182
+    "count": 70183
    },
    {
     "code": "DE",
-    "count": 42733
+    "count": 42744
    },
    {
     "code": "IE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:41.383Z"
+ }
 }

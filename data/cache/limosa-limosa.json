@@ -2,7 +2,8 @@
  "key": "limosa-limosa",
  "name": "Limosa limosa",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:42:59.901Z",
+ "fetchedAt": "2026-11-26T05:00:23.255Z",
+ "gbifAt": "2026-11-26T05:00:23.255Z",
  "names": {
   "da": "Stor kobbersneppe",
   "en": "Black-tailed Godwit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3947,
-  "observations": 31146
+  "observations": 31297
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2023-04-09"
    },
    {
-    "id": 382940244,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/382940244/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/382940244/large.jpg",
-    "attribution": "(c) bristolian, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/216521353",
-    "place": "Steinfurt, DE-NW, DE",
-    "date": "2024-05-17"
-   },
-   {
     "id": 179264871,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179264871/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179264871/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/106682104",
     "place": "2835 Baixa da Banheira, Portugal",
     "date": "2022-02-06"
+   },
+   {
+    "id": 382940244,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/382940244/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/382940244/large.jpg",
+    "attribution": "(c) bristolian, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/216521353",
+    "place": "Steinfurt, DE-NW, DE",
+    "date": "2024-05-17"
    }
   ],
   "juvenile": [
@@ -98,14 +99,14 @@
     "date": "2019-05-29"
    },
    {
-    "id": 558156125,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/558156125/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/558156125/large.jpg",
-    "attribution": "(c) Africa Gomez, some rights reserved (CC BY-NC)",
+    "id": 723730526,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/723730526/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/723730526/large.jpg",
+    "attribution": "(c) Daniel Gaona Carrilero, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/309319364",
-    "place": "Waters Edge Visitor Centre, Barton-upon-Humber DN18 5JR, UK",
-    "date": "2025-08-26"
+    "source": "https://www.inaturalist.org/observations/394757015",
+    "place": "Asturias, España",
+    "date": "2026-08-26"
    },
    {
     "id": 309626623,
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2481685,
-  "dkTotal": 38863,
+  "dkTotal": 38866,
   "dkMonths": [
    60,
    43,
    2564,
-   8805,
+   8807,
    8000,
    4761,
    6122,
    4167,
    2472,
    1304,
-   390,
+   391,
    31
   ],
-  "worldTotal": 1319444,
+  "worldTotal": 1319451,
   "topCountries": [
    {
     "code": "NL",
@@ -158,7 +159,7 @@
    },
    {
     "code": "SE",
-    "count": 95320
+    "count": 95321
    },
    {
     "code": "BE",
@@ -178,7 +179,7 @@
    },
    {
     "code": "DK",
-    "count": 38863
+    "count": 38866
    },
    {
     "code": "PT",
@@ -194,7 +195,7 @@
    },
    {
     "code": "IS",
-    "count": 23592
+    "count": 23593
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:39.263Z"
+ }
 }

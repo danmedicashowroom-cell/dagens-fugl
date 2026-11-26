@@ -2,7 +2,8 @@
  "key": "lymnocryptes-minimus",
  "name": "Lymnocryptes minimus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:42:38.951Z",
+ "fetchedAt": "2026-11-26T05:00:00.456Z",
+ "gbifAt": "2026-11-26T05:00:00.456Z",
  "names": {
   "da": "Enkeltbekkasin",
   "en": "Jack Snipe",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3911,
-  "observations": 1719
+  "observations": 1743
  },
  "photos": {
   "male": [],
@@ -69,19 +70,19 @@
    }
   ],
   "hero": {
-   "id": 168123244,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/168123244/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/168123244/large.jpg",
-   "attribution": "(c) Aurelie Laurent, some rights reserved (CC BY-NC-SA), uploaded by Aurelie Laurent",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/168123244",
+   "id": 332559960,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/332559960/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/332559960/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/332559960",
    "place": null,
    "date": null
   }
  },
  "gbif": {
   "key": 2481835,
-  "dkTotal": 11321,
+  "dkTotal": 11334,
   "dkMonths": [
    1127,
    890,
@@ -93,10 +94,10 @@
    21,
    924,
    3839,
-   1512,
+   1525,
    703
   ],
-  "worldTotal": 184480,
+  "worldTotal": 184494,
   "topCountries": [
    {
     "code": "SE",
@@ -120,7 +121,7 @@
    },
    {
     "code": "DK",
-    "count": 11321
+    "count": 11334
    },
    {
     "code": "FI",
@@ -140,7 +141,7 @@
    },
    {
     "code": "DE",
-    "count": 4081
+    "count": 4082
    },
    {
     "code": "IL",
@@ -151,25 +152,25 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1168497/download",
+    "u": "https://xeno-canto.org/1106774/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Stanislas Wroza",
-  "page": "https://xeno-canto.org/1168497",
+  "artist": "Lars Edenius",
+  "page": "https://xeno-canto.org/1106774",
   "type": "song",
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:36.919Z"
+ }
 }

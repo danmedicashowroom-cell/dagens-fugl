@@ -2,7 +2,8 @@
  "key": "porzana-porzana",
  "name": "Porzana porzana",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:40:12.568Z",
+ "fetchedAt": "2026-11-26T04:57:53.934Z",
+ "gbifAt": "2026-11-26T04:57:53.935Z",
  "names": {
   "da": "Plettet rørvagtel",
   "en": "Spotted Crake",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 178,
-  "observations": 2049
+  "observations": 2056
  },
  "photos": {
   "male": [
@@ -182,13 +183,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Rallidae",
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- },
- "gbifAt": "2026-11-25T22:18:19.747Z"
+ }
 }

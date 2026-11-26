@@ -2,7 +2,8 @@
  "key": "vanellus-vanellus",
  "name": "Vanellus vanellus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:41:37.209Z",
+ "fetchedAt": "2026-11-26T04:58:56.552Z",
+ "gbifAt": "2026-11-26T04:58:56.552Z",
  "names": {
   "da": "Vibe",
   "en": "Northern Lapwing",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4857,
-  "observations": 70989
+  "observations": 71285
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "1986-10-16"
    },
    {
-    "id": 295121675,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/295121675/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/295121675/large.jpeg",
-    "attribution": "(c) Ирина Рогова, some rights reserved (CC BY-NC)",
+    "id": 599297925,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/599297925/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/599297925/large.jpg",
+    "attribution": "(c) Tommi G, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/170184207",
-    "place": "Krasnoselsky District, St Petersburg, Russia",
-    "date": "2023-06-29"
+    "source": "https://www.inaturalist.org/observations/330487918",
+    "place": "Braunau, Österreich",
+    "date": "2024-06-07"
    }
   ],
   "female": [
@@ -66,14 +67,14 @@
     "date": "2023-04-11"
    },
    {
-    "id": 658156452,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/658156452/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/658156452/large.jpg",
-    "attribution": "(c) voynovskiyaa, some rights reserved (CC BY-NC)",
+    "id": 359717935,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/359717935/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/359717935/large.jpeg",
+    "attribution": "(c) Владимир Джерихов, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/360679642",
-    "place": "Муниципальный округ Егорьевск, Московская обл., Россия",
-    "date": "2026-05-09"
+    "source": "https://www.inaturalist.org/observations/203584075",
+    "place": "Ушерско, Новгородская обл., Россия, 173020",
+    "date": "2024-03-23"
    },
    {
     "id": 545796431,
@@ -108,14 +109,14 @@
     "date": "2024-06-03"
    },
    {
-    "id": 255304265,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/255304265/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/255304265/large.jpeg",
-    "attribution": "(c) Zhuofei Lu, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/148275009",
-    "place": "East Lothian Council, UK",
-    "date": "2022-10-08"
+    "id": 98860599,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/98860599/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/98860599/large.jpeg",
+    "attribution": "(c) frankielee91, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/61757604",
+    "place": "99869 Tröchtelborn, Deutschland",
+    "date": "2020-08-30"
    }
   ],
   "hero": {
@@ -131,30 +132,30 @@
  },
  "gbif": {
   "key": 2480242,
-  "dkTotal": 535359,
+  "dkTotal": 535623,
   "dkMonths": [
    10649,
-   27317,
-   78912,
-   77776,
+   27318,
+   78925,
+   77784,
    73848,
-   48335,
-   50516,
-   49144,
-   42427,
-   41975,
-   23917,
+   48339,
+   50539,
+   49152,
+   42438,
+   41985,
+   24103,
    10420
   ],
-  "worldTotal": 4653090,
+  "worldTotal": 4653381,
   "topCountries": [
    {
     "code": "SE",
-    "count": 921003
+    "count": 921004
    },
    {
     "code": "NL",
-    "count": 824655
+    "count": 824656
    },
    {
     "code": "GB",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 535359
+    "count": 535623
    },
    {
     "code": "NO",
@@ -178,11 +179,11 @@
    },
    {
     "code": "ES",
-    "count": 143218
+    "count": 143219
    },
    {
     "code": "DE",
-    "count": 139037
+    "count": 139061
    },
    {
     "code": "FI",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Charadriidae",
   "familyKey": 2480210,
   "familyDa": "Brokfugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:28.484Z"
+ }
 }

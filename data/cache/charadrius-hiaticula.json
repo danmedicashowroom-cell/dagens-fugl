@@ -2,7 +2,8 @@
  "key": "charadrius-hiaticula",
  "name": "Charadrius hiaticula",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:40:56.936Z",
+ "fetchedAt": "2026-11-26T04:58:39.987Z",
+ "gbifAt": "2026-11-26T04:58:39.987Z",
  "names": {
   "da": "Stor præstekrave",
   "en": "Common Ringed Plover",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4801,
-  "observations": 29206
+  "observations": 29373
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 9566659,
-  "dkTotal": 215532,
+  "dkTotal": 215611,
   "dkMonths": [
    493,
    4571,
-   23327,
-   23569,
+   23328,
+   23573,
    32642,
-   19878,
-   36189,
-   46011,
-   22517,
-   5517,
-   506,
+   19883,
+   36225,
+   46023,
+   22532,
+   5518,
+   511,
    228
   ],
-  "worldTotal": 1881126,
+  "worldTotal": 1881210,
   "topCountries": [
    {
     "code": "SE",
@@ -154,11 +155,11 @@
    },
    {
     "code": "DK",
-    "count": 215532
+    "count": 215611
    },
    {
     "code": "GB",
-    "count": 214793
+    "count": 214794
    },
    {
     "code": "NO",
@@ -190,11 +191,11 @@
    },
    {
     "code": "IL",
-    "count": 25320
+    "count": 25322
    },
    {
     "code": "DE",
-    "count": 22993
+    "count": 22994
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Charadriidae",
   "familyKey": 2480210,
   "familyDa": "Brokfugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:26.826Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "ardea-alba",
  "name": "Ardea alba",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:17.407Z",
+ "fetchedAt": "2026-11-26T04:55:01.984Z",
+ "gbifAt": "2026-11-26T04:55:01.984Z",
  "names": {
   "da": "Sølvhejre",
   "en": "Great Egret",
@@ -19,20 +20,10 @@
  },
  "inat": {
   "id": 144455,
-  "observations": 441230
+  "observations": 443759
  },
  "photos": {
   "male": [
-   {
-    "id": 595444255,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/595444255/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/595444255/large.jpg",
-    "attribution": "(c) HasanZR, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/328581304",
-    "place": "Central San Jose, San Jose, CA, USA",
-    "date": "2025-11-27"
-   },
    {
     "id": 718966911,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/718966911/medium.jpg",
@@ -42,6 +33,16 @@
     "source": "https://www.inaturalist.org/observations/392322074",
     "place": "Port Orange, FL 32127, USA",
     "date": "2020-01-20"
+   },
+   {
+    "id": 595444255,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/595444255/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/595444255/large.jpg",
+    "attribution": "(c) HasanZR, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/328581304",
+    "place": "Central San Jose, San Jose, CA, USA",
+    "date": "2025-11-27"
    },
    {
     "id": 593696601,
@@ -131,7 +132,7 @@
  },
  "gbif": {
   "key": 9752617,
-  "dkTotal": 159507,
+  "dkTotal": 159822,
   "dkMonths": [
    14194,
    12118,
@@ -142,11 +143,11 @@
    9354,
    16833,
    20784,
-   23459,
-   15333,
+   23461,
+   15646,
    11524
   ],
-  "worldTotal": 12229530,
+  "worldTotal": 12230039,
   "topCountries": [
    {
     "code": "US",
@@ -178,11 +179,11 @@
    },
    {
     "code": "DE",
-    "count": 194450
+    "count": 194645
    },
    {
     "code": "SE",
-    "count": 180760
+    "count": 180761
    },
    {
     "code": "MX",
@@ -190,7 +191,7 @@
    },
    {
     "code": "DK",
-    "count": 159507
+    "count": 159822
    },
    {
     "code": "BE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:17:58.312Z"
+ }
 }

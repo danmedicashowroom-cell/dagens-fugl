@@ -2,7 +2,8 @@
  "key": "haematopus-ostralegus",
  "name": "Haematopus ostralegus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:40:40.540Z",
+ "fetchedAt": "2026-11-26T04:58:23.268Z",
+ "gbifAt": "2026-11-26T04:58:23.268Z",
  "names": {
   "da": "Strandskade",
   "en": "Eurasian Oystercatcher",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4843,
-  "observations": 49522
+  "observations": 49712
  },
  "photos": {
   "male": [
@@ -56,16 +57,6 @@
   ],
   "female": [
    {
-    "id": 650293853,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/650293853/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/650293853/large.jpg",
-    "attribution": "(c) hafstrembi, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/356589575",
-    "place": "32P2+6MG, 210 Garðabær, Ísland",
-    "date": "2026-04-29"
-   },
-   {
     "id": 393529865,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393529865/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393529865/large.jpeg",
@@ -74,6 +65,16 @@
     "source": "https://www.inaturalist.org/observations/222173858",
     "place": "00140 Helsinki, Finland",
     "date": "2024-06-11"
+   },
+   {
+    "id": 650293853,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/650293853/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/650293853/large.jpg",
+    "attribution": "(c) hafstrembi, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/356589575",
+    "place": "32P2+6MG, 210 Garðabær, Ísland",
+    "date": "2026-04-29"
    },
    {
     "id": 750158279,
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 7788295,
-  "dkTotal": 397343,
+  "dkTotal": 397516,
   "dkMonths": [
-   13731,
+   13732,
    18976,
-   54092,
-   62764,
+   54095,
+   62772,
    57616,
-   38490,
-   53587,
-   42211,
-   22376,
-   16224,
-   9382,
+   38493,
+   53627,
+   42228,
+   22392,
+   16231,
+   9460,
    7812
   ],
-  "worldTotal": 4069711,
+  "worldTotal": 4069899,
   "topCountries": [
    {
     "code": "NL",
@@ -154,7 +155,7 @@
    },
    {
     "code": "GB",
-    "count": 592358
+    "count": 592360
    },
    {
     "code": "SE",
@@ -166,7 +167,7 @@
    },
    {
     "code": "DK",
-    "count": 397343
+    "count": 397516
    },
    {
     "code": "BE",
@@ -174,7 +175,7 @@
    },
    {
     "code": "DE",
-    "count": 65416
+    "count": 65427
    },
    {
     "code": "FR",
@@ -186,7 +187,7 @@
    },
    {
     "code": "IS",
-    "count": 38938
+    "count": 38939
    },
    {
     "code": "FI",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Haematopodidae",
   "familyKey": 4287243,
   "familyDa": "Strandskader",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:24.913Z"
+ }
 }

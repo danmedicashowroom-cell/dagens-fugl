@@ -2,7 +2,8 @@
  "key": "milvus-migrans",
  "name": "Milvus migrans",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:55.255Z",
+ "fetchedAt": "2026-11-26T04:55:43.554Z",
+ "gbifAt": "2026-11-26T04:55:43.554Z",
  "names": {
   "da": "Sort Glente",
   "en": "Black Kite",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5268,
-  "observations": 132841
+  "observations": 133512
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2025-06-07"
    },
    {
-    "id": 450241453,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/450241453/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/450241453/large.jpeg",
-    "attribution": "(c) Ярослав, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/251613180",
-    "place": "республика Удмуртия, Россия, 426069",
-    "date": "2024-09-23"
-   },
-   {
     "id": 367734636,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/367734636/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/367734636/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/207870815",
     "place": "99, Sector 33, Sahibzada Ajit Singh Nagar, Chandigarh 160071, India",
     "date": "2024-04-18"
+   },
+   {
+    "id": 450241453,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/450241453/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/450241453/large.jpeg",
+    "attribution": "(c) Ярослав, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/251613180",
+    "place": "республика Удмуртия, Россия, 426069",
+    "date": "2024-09-23"
    }
   ],
   "juvenile": [
@@ -131,9 +132,9 @@
  },
  "gbif": {
   "key": 5229167,
-  "dkTotal": 22618,
+  "dkTotal": 22617,
   "dkMonths": [
-   139,
+   138,
    100,
    212,
    6273,
@@ -146,7 +147,7 @@
    63,
    22
   ],
-  "worldTotal": 2832207,
+  "worldTotal": 2832213,
   "topCountries": [
    {
     "code": "IN",
@@ -158,7 +159,7 @@
    },
    {
     "code": "ES",
-    "count": 318289
+    "count": 318290
    },
    {
     "code": "AU",
@@ -170,7 +171,7 @@
    },
    {
     "code": "JP",
-    "count": 76492
+    "count": 76494
    },
    {
     "code": "GE",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 65802
+    "count": 65803
    },
    {
     "code": "TW",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:04.287Z"
+ }
 }

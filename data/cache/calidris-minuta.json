@@ -2,7 +2,8 @@
  "key": "calidris-minuta",
  "name": "Calidris minuta",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:41:52.811Z",
+ "fetchedAt": "2026-11-26T04:59:14.217Z",
+ "gbifAt": "2026-11-26T04:59:14.217Z",
  "names": {
   "da": "Dværgryle",
   "en": "Little Stint",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3838,
-  "observations": 14848
+  "observations": 14909
  },
  "photos": {
   "male": [
@@ -68,14 +69,14 @@
     "date": "2026-10-06"
    },
    {
-    "id": 562376525,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/562376525/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/562376525/large.jpg",
-    "attribution": "(c) Sam Shutt, some rights reserved (CC BY-NC)",
+    "id": 596136972,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/596136972/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/596136972/large.jpg",
+    "attribution": "(c) Nik Milek, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/311527768",
-    "place": "East Lothian, UK",
-    "date": "2025-09-02"
+    "source": "https://www.inaturalist.org/observations/328927361",
+    "place": "Mörbylånga Municipality, Sweden",
+    "date": "2025-09-17"
    }
   ],
   "hero": {
@@ -91,7 +92,7 @@
  },
  "gbif": {
   "key": 2481749,
-  "dkTotal": 34347,
+  "dkTotal": 34361,
   "dkMonths": [
    3,
    1,
@@ -99,14 +100,14 @@
    48,
    3421,
    588,
-   6634,
-   13116,
-   10410,
+   6640,
+   13119,
+   10415,
    85,
    25,
    0
   ],
-  "worldTotal": 595505,
+  "worldTotal": 595521,
   "topCountries": [
    {
     "code": "SE",
@@ -114,7 +115,7 @@
    },
    {
     "code": "ES",
-    "count": 53006
+    "count": 53007
    },
    {
     "code": "ZA",
@@ -126,7 +127,7 @@
    },
    {
     "code": "DK",
-    "count": 34347
+    "count": 34361
    },
    {
     "code": "FR",
@@ -142,7 +143,7 @@
    },
    {
     "code": "IL",
-    "count": 27186
+    "count": 27187
    },
    {
     "code": "AE",
@@ -173,13 +174,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:30.228Z"
+ }
 }

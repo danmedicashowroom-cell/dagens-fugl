@@ -2,7 +2,8 @@
  "key": "gallinago-media",
  "name": "Gallinago media",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:42:49.202Z",
+ "fetchedAt": "2026-11-26T05:00:11.262Z",
+ "gbifAt": "2026-11-26T05:00:11.262Z",
  "names": {
   "da": "Tredækker",
   "en": "Great Snipe",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3919,
-  "observations": 812
+  "observations": 814
  },
  "photos": {
   "male": [
@@ -172,13 +173,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:37.960Z"
+ }
 }

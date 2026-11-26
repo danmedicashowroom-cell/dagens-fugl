@@ -2,7 +2,8 @@
  "key": "calidris-alba",
  "name": "Calidris alba",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:41:47.882Z",
+ "fetchedAt": "2026-11-26T04:59:08.576Z",
+ "gbifAt": "2026-11-26T04:59:08.576Z",
  "names": {
   "da": "Sandløber",
   "en": "Sanderling",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3849,
-  "observations": 89378
+  "observations": 89910
  },
  "photos": {
   "male": [
@@ -131,7 +132,7 @@
  },
  "gbif": {
   "key": 2481748,
-  "dkTotal": 74735,
+  "dkTotal": 74795,
   "dkMonths": [
    4609,
    4035,
@@ -139,14 +140,14 @@
    3706,
    5703,
    1080,
-   6900,
-   15020,
-   12425,
-   9053,
-   4846,
+   6904,
+   15024,
+   12432,
+   9056,
+   4888,
    3251
   ],
-  "worldTotal": 1939504,
+  "worldTotal": 1939569,
   "topCountries": [
    {
     "code": "US",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 74735
+    "count": 74795
    },
    {
     "code": "ES",
@@ -170,7 +171,7 @@
    },
    {
     "code": "NL",
-    "count": 66308
+    "count": 66309
    },
    {
     "code": "SE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:29.724Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "tringa-erythropus",
  "name": "Tringa erythropus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:43:22.297Z",
+ "fetchedAt": "2026-11-26T05:00:46.575Z",
+ "gbifAt": "2026-11-26T05:00:46.575Z",
  "names": {
   "da": "Sortklire",
   "en": "Spotted Redshank",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3882,
-  "observations": 10962
+  "observations": 11018
  },
  "photos": {
   "male": [
@@ -111,22 +112,22 @@
  },
  "gbif": {
   "key": 2481725,
-  "dkTotal": 73331,
+  "dkTotal": 73373,
   "dkMonths": [
    131,
    50,
    298,
    4618,
    7175,
-   12151,
-   14793,
-   19624,
-   9442,
-   4732,
+   12152,
+   14817,
+   19634,
+   9447,
+   4734,
    208,
    100
   ],
-  "worldTotal": 665620,
+  "worldTotal": 665663,
   "topCountries": [
    {
     "code": "SE",
@@ -134,7 +135,7 @@
    },
    {
     "code": "DK",
-    "count": 73331
+    "count": 73373
    },
    {
     "code": "GB",
@@ -193,13 +194,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:42.088Z"
+ }
 }

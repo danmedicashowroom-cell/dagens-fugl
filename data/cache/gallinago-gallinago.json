@@ -2,7 +2,8 @@
  "key": "gallinago-gallinago",
  "name": "Gallinago gallinago",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:42:44.294Z",
+ "fetchedAt": "2026-11-26T05:00:06.008Z",
+ "gbifAt": "2026-11-26T05:00:06.008Z",
  "names": {
   "da": "Dobbeltbekkasin",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 318836,
-  "observations": 30597
+  "observations": 30812
  },
  "photos": {
   "male": [
@@ -109,34 +110,34 @@
    }
   ],
   "hero": {
-   "id": 323397,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/323397/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/323397/large.jpg",
-   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/323397",
+   "id": 102020340,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102020340/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102020340/large.jpg",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/102020340",
    "place": null,
    "date": null
   }
  },
  "gbif": {
   "key": 2481819,
-  "dkTotal": 196250,
+  "dkTotal": 196391,
   "dkMonths": [
-   6405,
+   6406,
    4704,
-   9661,
-   24750,
+   9662,
+   24756,
    13913,
-   8301,
-   13227,
-   37142,
-   33086,
-   27858,
-   12139,
+   8302,
+   13235,
+   37149,
+   33101,
+   27866,
+   12233,
    4971
   ],
-  "worldTotal": 2426422,
+  "worldTotal": 2426593,
   "topCountries": [
    {
     "code": "SE",
@@ -152,7 +153,7 @@
    },
    {
     "code": "DK",
-    "count": 196250
+    "count": 196391
    },
    {
     "code": "NO",
@@ -164,7 +165,7 @@
    },
    {
     "code": "ES",
-    "count": 111183
+    "count": 111184
    },
    {
     "code": "BE",
@@ -176,7 +177,7 @@
    },
    {
     "code": "DE",
-    "count": 50214
+    "count": 50242
    },
    {
     "code": "TW",
@@ -203,13 +204,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:37.379Z"
+ }
 }

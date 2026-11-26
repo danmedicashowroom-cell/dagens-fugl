@@ -2,7 +2,8 @@
  "key": "falco-columbarius",
  "name": "Falco columbarius",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:42.440Z",
+ "fetchedAt": "2026-11-26T04:57:30.928Z",
+ "gbifAt": "2026-11-26T04:57:30.928Z",
  "names": {
   "da": "Dværgfalk",
   "en": "Merlin",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4672,
-  "observations": 42678
+  "observations": 42892
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 9813242,
-  "dkTotal": 81329,
+  "dkTotal": 81354,
   "dkMonths": [
    1445,
    1223,
    2405,
-   19600,
-   15942,
+   19601,
+   15943,
    368,
    90,
    2225,
-   18827,
-   16272,
-   1887,
-   1029
+   18834,
+   16277,
+   1897,
+   1030
   ],
-  "worldTotal": 1904340,
+  "worldTotal": 1904365,
   "topCountries": [
    {
     "code": "US",
@@ -162,7 +163,7 @@
    },
    {
     "code": "DK",
-    "count": 81329
+    "count": 81354
    },
    {
     "code": "NO",
@@ -178,7 +179,7 @@
    },
    {
     "code": "ES",
-    "count": 17308
+    "count": 17307
    },
    {
     "code": "NL",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Falconidae",
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- },
- "gbifAt": "2026-11-25T22:18:17.774Z"
+ }
 }

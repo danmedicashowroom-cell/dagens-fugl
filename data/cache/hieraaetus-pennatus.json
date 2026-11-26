@@ -2,7 +2,8 @@
  "key": "hieraaetus-pennatus",
  "name": "Hieraaetus pennatus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:15.336Z",
+ "fetchedAt": "2026-11-26T04:57:00.878Z",
+ "gbifAt": "2026-11-26T04:57:00.878Z",
  "names": {
   "da": "Dværgørn",
   "en": "Booted Eagle",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5154,
-  "observations": 18328
+  "observations": 18445
  },
  "photos": {
   "male": [
@@ -56,16 +57,6 @@
   ],
   "female": [
    {
-    "id": 362271075,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362271075/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362271075/large.jpeg",
-    "attribution": "(c) Adrien Nouailhane, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/204924161",
-    "place": "24570 Condat-sur-Vézère, France",
-    "date": "2024-04-01"
-   },
-   {
     "id": 145338419,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/145338419/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/145338419/large.jpeg",
@@ -74,6 +65,16 @@
     "source": "https://www.inaturalist.org/observations/88111366",
     "place": "Homocea, Romania",
     "date": "2021-07-20"
+   },
+   {
+    "id": 362271075,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362271075/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362271075/large.jpeg",
+    "attribution": "(c) Adrien Nouailhane, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/204924161",
+    "place": "24570 Condat-sur-Vézère, France",
+    "date": "2024-04-01"
    }
   ],
   "juvenile": [
@@ -136,7 +137,7 @@
    0,
    0
   ],
-  "worldTotal": 502487,
+  "worldTotal": 502488,
   "topCountries": [
    {
     "code": "ES",
@@ -164,7 +165,7 @@
    },
    {
     "code": "IL",
-    "count": 15001
+    "count": 15002
    },
    {
     "code": "IT",
@@ -203,13 +204,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:14.289Z"
+ }
 }

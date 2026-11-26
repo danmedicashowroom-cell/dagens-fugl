@@ -2,7 +2,8 @@
  "key": "falco-tinnunculus",
  "name": "Falco tinnunculus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:32.015Z",
+ "fetchedAt": "2026-11-26T04:57:18.776Z",
+ "gbifAt": "2026-11-26T04:57:18.776Z",
  "names": {
   "da": "Tårnfalk",
   "en": "Common Kestrel",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 472766,
-  "observations": 149610
+  "observations": 150355
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 9616058,
-  "dkTotal": 525649,
+  "dkTotal": 526040,
   "dkMonths": [
-   42696,
-   33879,
-   40687,
-   59560,
+   42700,
+   33880,
+   40691,
+   59565,
    55395,
-   29991,
-   35349,
-   49345,
-   67655,
-   49400,
-   31134,
-   30435
+   29992,
+   35360,
+   49352,
+   67664,
+   49411,
+   31470,
+   30437
   ],
-  "worldTotal": 6116901,
+  "worldTotal": 6117447,
   "topCountries": [
    {
     "code": "NL",
@@ -162,15 +163,15 @@
    },
    {
     "code": "GB",
-    "count": 571481
+    "count": 571483
    },
    {
     "code": "ES",
-    "count": 547726
+    "count": 547729
    },
    {
     "code": "DK",
-    "count": 525649
+    "count": 526040
    },
    {
     "code": "FI",
@@ -178,7 +179,7 @@
    },
    {
     "code": "DE",
-    "count": 359225
+    "count": 359361
    },
    {
     "code": "BE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Falconidae",
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- },
- "gbifAt": "2026-11-25T22:18:16.676Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "falco-peregrinus",
  "name": "Falco peregrinus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:53.046Z",
+ "fetchedAt": "2026-11-26T04:57:42.244Z",
+ "gbifAt": "2026-11-26T04:57:42.244Z",
  "names": {
   "da": "Vandrefalk",
   "en": "Peregrine Falcon",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4647,
-  "observations": 64727
+  "observations": 65020
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2022-10-12"
    },
    {
-    "id": 35648686,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/35648686/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/35648686/large.jpeg",
-    "attribution": "(c) Luke, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/22995183",
-    "place": "Ontario, CA",
-    "date": "2019-04-24"
-   },
-   {
     "id": 248601329,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/248601329/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/248601329/large.jpg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/144798887",
     "place": "Lake Pleasant, AZ, USA",
     "date": "2022-12-20"
+   },
+   {
+    "id": 111722785,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/111722785/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/111722785/large.jpg",
+    "attribution": "(c) Luis Orlando, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/68923193",
+    "place": "Valencia, Spain",
+    "date": "2021-02-01"
    }
   ],
   "juvenile": [
@@ -131,7 +132,7 @@
  },
  "gbif": {
   "key": 2481047,
-  "dkTotal": 129879,
+  "dkTotal": 129924,
   "dkMonths": [
    11222,
    10419,
@@ -142,11 +143,11 @@
    2896,
    7284,
    16559,
-   20611,
-   10398,
+   20612,
+   10442,
    7824
   ],
-  "worldTotal": 2694615,
+  "worldTotal": 2694679,
   "topCountries": [
    {
     "code": "US",
@@ -166,7 +167,7 @@
    },
    {
     "code": "DK",
-    "count": 129879
+    "count": 129924
    },
    {
     "code": "FR",
@@ -194,7 +195,7 @@
    },
    {
     "code": "DE",
-    "count": 32911
+    "count": 32930
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Falconidae",
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- },
- "gbifAt": "2026-11-25T22:18:18.801Z"
+ }
 }

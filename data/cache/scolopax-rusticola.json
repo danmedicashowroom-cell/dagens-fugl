@@ -2,7 +2,8 @@
  "key": "scolopax-rusticola",
  "name": "Scolopax rusticola",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:42:54.734Z",
+ "fetchedAt": "2026-11-26T05:00:17.247Z",
+ "gbifAt": "2026-11-26T05:00:17.247Z",
  "names": {
   "da": "Skovsneppe",
   "en": "Eurasian Woodcock",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3931,
-  "observations": 7903
+  "observations": 7960
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 586113091,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/586113091/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/586113091/large.jpg",
-    "attribution": "(c) stevebailey, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/323883445",
-    "place": "Derbyshire, UK",
-    "date": "2025-06-14"
-   },
-   {
     "id": 703272874,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/703272874/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/703272874/large.jpg",
@@ -106,6 +97,16 @@
     "source": "https://www.inaturalist.org/observations/384203443",
     "place": "Rebun, Hokkaido, JP",
     "date": "2026-07-23"
+   },
+   {
+    "id": 586113091,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/586113091/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/586113091/large.jpg",
+    "attribution": "(c) stevebailey, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/323883445",
+    "place": "Derbyshire, UK",
+    "date": "2025-06-14"
    },
    {
     "id": 89247398,
@@ -131,11 +132,11 @@
  },
  "gbif": {
   "key": 2481700,
-  "dkTotal": 40894,
+  "dkTotal": 40943,
   "dkMonths": [
-   4394,
+   4395,
    5357,
-   7394,
+   7395,
    3849,
    3684,
    3194,
@@ -143,10 +144,10 @@
    223,
    328,
    3456,
-   4628,
+   4675,
    3288
   ],
-  "worldTotal": 686692,
+  "worldTotal": 686754,
   "topCountries": [
    {
     "code": "SE",
@@ -166,7 +167,7 @@
    },
    {
     "code": "DK",
-    "count": 40894
+    "count": 40943
    },
    {
     "code": "FI",
@@ -194,7 +195,7 @@
    },
    {
     "code": "DE",
-    "count": 8805
+    "count": 8818
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:38.703Z"
+ }
 }

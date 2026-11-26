@@ -2,7 +2,8 @@
  "key": "pluvialis-squatarola",
  "name": "Pluvialis squatarola",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:41:30.798Z",
+ "fetchedAt": "2026-11-26T04:58:50.761Z",
+ "gbifAt": "2026-11-26T04:58:50.761Z",
  "names": {
   "da": "Strandhjejle",
   "en": "Grey Plover",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4892,
-  "observations": 61141
+  "observations": 61586
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2026-10-08"
    },
    {
-    "id": 584867424,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584867424/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584867424/large.jpg",
-    "attribution": "(c) theskaro, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/323236736",
-    "place": "河北省张家口市涿鹿县东小庄镇洋河",
-    "date": "2025-10-26"
-   },
-   {
     "id": 570956672,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/570956672/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/570956672/large.jpg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/316030228",
     "place": "Provincetown, MA, US",
     "date": "2025-08-25"
+   },
+   {
+    "id": 584867424,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584867424/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584867424/large.jpg",
+    "attribution": "(c) theskaro, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/323236736",
+    "place": "河北省张家口市涿鹿县东小庄镇洋河",
+    "date": "2025-10-26"
    }
   ],
   "juvenile": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2480327,
-  "dkTotal": 96045,
+  "dkTotal": 96136,
   "dkMonths": [
    1574,
    855,
    1007,
    2070,
    11215,
-   2004,
-   10373,
-   26755,
-   16714,
-   16892,
-   5187,
+   2005,
+   10390,
+   26768,
+   16721,
+   16900,
+   5232,
    1395
   ],
-  "worldTotal": 2283871,
+  "worldTotal": 2283967,
   "topCountries": [
    {
     "code": "US",
@@ -158,11 +159,11 @@
    },
    {
     "code": "SE",
-    "count": 194479
+    "count": 194480
    },
    {
     "code": "DK",
-    "count": 96045
+    "count": 96136
    },
    {
     "code": "GB",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Charadriidae",
   "familyKey": 2480210,
   "familyDa": "Brokfugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:27.953Z"
+ }
 }

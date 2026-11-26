@@ -2,7 +2,8 @@
  "key": "limosa-lapponica",
  "name": "Limosa lapponica",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:43:05.453Z",
+ "fetchedAt": "2026-11-26T05:00:29.109Z",
+ "gbifAt": "2026-11-26T05:00:29.109Z",
  "names": {
   "da": "Lille kobbersneppe",
   "en": "Bar-tailed Godwit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3951,
-  "observations": 18252
+  "observations": 18391
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2026-10-17"
    },
    {
-    "id": 399874472,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/399874472/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/399874472/large.jpg",
-    "attribution": "(c) Александр Балаев, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/225534123",
-    "place": "Первомайский округ, Мурманск, Мурманская обл., Россия",
-    "date": "2024-06-26"
-   },
-   {
     "id": 683270273,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/683270273/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/683270273/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/373853891",
     "place": "Nesseby, Norway",
     "date": "2026-05-23"
+   },
+   {
+    "id": 399874472,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/399874472/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/399874472/large.jpg",
+    "attribution": "(c) Александр Балаев, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/225534123",
+    "place": "Первомайский округ, Мурманск, Мурманская обл., Россия",
+    "date": "2024-06-26"
    }
   ],
   "female": [
@@ -131,26 +132,26 @@
  },
  "gbif": {
   "key": 2481681,
-  "dkTotal": 106316,
+  "dkTotal": 106378,
   "dkMonths": [
    1768,
    1256,
    3240,
-   6532,
+   6533,
    13160,
    2620,
-   23087,
-   28361,
-   14317,
-   7852,
-   2755,
+   23111,
+   28365,
+   14320,
+   7856,
+   2781,
    1353
   ],
-  "worldTotal": 901639,
+  "worldTotal": 901705,
   "topCountries": [
    {
     "code": "SE",
-    "count": 188436
+    "count": 188438
    },
    {
     "code": "AU",
@@ -158,7 +159,7 @@
    },
    {
     "code": "DK",
-    "count": 106316
+    "count": 106378
    },
    {
     "code": "GB",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:39.989Z"
+ }
 }

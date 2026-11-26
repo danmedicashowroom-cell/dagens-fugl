@@ -2,7 +2,8 @@
  "key": "crex-crex",
  "name": "Crex crex",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:40:17.922Z",
+ "fetchedAt": "2026-11-26T04:57:59.863Z",
+ "gbifAt": "2026-11-26T04:57:59.863Z",
  "names": {
   "da": "Engsnarre",
   "en": "Corn Crake",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 443,
-  "observations": 4594
+  "observations": 4601
  },
  "photos": {
   "male": [
@@ -115,7 +116,7 @@
    2,
    0
   ],
-  "worldTotal": 295230,
+  "worldTotal": 295231,
   "topCountries": [
    {
     "code": "GB",
@@ -182,13 +183,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Rallidae",
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- },
- "gbifAt": "2026-11-25T22:18:20.230Z"
+ }
 }

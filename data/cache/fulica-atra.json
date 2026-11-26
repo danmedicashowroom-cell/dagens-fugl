@@ -2,7 +2,8 @@
  "key": "fulica-atra",
  "name": "Fulica atra",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:40:29.616Z",
+ "fetchedAt": "2026-11-26T04:58:11.165Z",
+ "gbifAt": "2026-11-26T04:58:11.165Z",
  "names": {
   "da": "Blishøne",
   "en": "Common Coot",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 482,
-  "observations": 191901
+  "observations": 192893
  },
  "photos": {
   "male": [
@@ -76,14 +77,14 @@
     "date": "2022-10-18"
    },
    {
-    "id": 322364358,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/322364358/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/322364358/large.jpeg",
-    "attribution": "(c) Michael Grundner, some rights reserved (CC BY)",
+    "id": 135252982,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135252982/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135252982/large.jpg",
+    "attribution": "(c) ognevit, some rights reserved (CC BY)",
     "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/184653512",
-    "place": "Industriegebiet, 78467 Konstanz, Deutschland",
-    "date": "2023-09-16"
+    "source": "https://www.inaturalist.org/observations/82409867",
+    "place": "Советский район, Минск, Беларусь",
+    "date": "2021-06-06"
    }
   ],
   "juvenile": [
@@ -131,30 +132,30 @@
  },
  "gbif": {
   "key": 2474377,
-  "dkTotal": 453402,
+  "dkTotal": 453618,
   "dkMonths": [
-   40895,
+   40899,
    39439,
-   58874,
-   62814,
+   58881,
+   62823,
    56228,
    41490,
-   33762,
-   31455,
-   24378,
-   22806,
-   19911,
-   21259
+   33763,
+   31456,
+   24379,
+   22809,
+   20100,
+   21260
   ],
-  "worldTotal": 6362454,
+  "worldTotal": 6362804,
   "topCountries": [
    {
     "code": "NL",
-    "count": 1143722
+    "count": 1143723
    },
    {
     "code": "GB",
-    "count": 790524
+    "count": 790526
    },
    {
     "code": "AU",
@@ -170,7 +171,7 @@
    },
    {
     "code": "DK",
-    "count": 453402
+    "count": 453618
    },
    {
     "code": "ES",
@@ -182,7 +183,7 @@
    },
    {
     "code": "DE",
-    "count": 280435
+    "count": 280564
    },
    {
     "code": "CH",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Rallidae",
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- },
- "gbifAt": "2026-11-25T22:18:23.530Z"
+ }
 }

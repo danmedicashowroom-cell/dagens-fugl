@@ -2,7 +2,8 @@
  "key": "platalea-leucorodia",
  "name": "Platalea leucorodia",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:44.576Z",
+ "fetchedAt": "2026-11-26T04:55:32.593Z",
+ "gbifAt": "2026-11-26T04:55:32.593Z",
  "names": {
   "da": "Skestork",
   "en": "Eurasian Spoonbill",
@@ -19,20 +20,10 @@
  },
  "inat": {
   "id": 3731,
-  "observations": 25317
+  "observations": 25491
  },
  "photos": {
   "male": [
-   {
-    "id": 611634136,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/611634136/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/611634136/large.jpg",
-    "attribution": "(c) harshithjv, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/336564194",
-    "place": "Ranganathittu Bird Sanctuary, Srirangapatna, Karnataka",
-    "date": "2026-01-03"
-   },
    {
     "id": 753692501,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/753692501/medium.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/406800035",
     "place": "Gloucestershire, UK",
     "date": "2026-02-16"
+   },
+   {
+    "id": 53858795,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/53858795/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/53858795/large.jpeg",
+    "attribution": "(c) Gaozi Chen, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/34236794",
+    "place": "108台灣台北市萬華區柳鄉里",
+    "date": "2019-10-12"
    }
   ],
   "female": [
@@ -111,7 +112,7 @@
  },
  "gbif": {
   "key": 2480801,
-  "dkTotal": 50770,
+  "dkTotal": 50769,
   "dkMonths": [
    84,
    264,
@@ -121,12 +122,12 @@
    7611,
    10532,
    9711,
-   4693,
+   4692,
    216,
    164,
    73
   ],
-  "worldTotal": 1350676,
+  "worldTotal": 1350680,
   "topCountries": [
    {
     "code": "NL",
@@ -134,7 +135,7 @@
    },
    {
     "code": "ES",
-    "count": 152457
+    "count": 152458
    },
    {
     "code": "FR",
@@ -146,7 +147,7 @@
    },
    {
     "code": "PT",
-    "count": 61552
+    "count": 61553
    },
    {
     "code": "IN",
@@ -154,7 +155,7 @@
    },
    {
     "code": "DK",
-    "count": 50770
+    "count": 50769
    },
    {
     "code": "GB",
@@ -162,7 +163,7 @@
    },
    {
     "code": "IL",
-    "count": 12501
+    "count": 12502
    },
    {
     "code": "CN",
@@ -193,13 +194,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Threskiornithidae",
   "familyKey": 5288,
   "familyDa": "Ibiser & skestorke",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:18:02.985Z"
+ }
 }

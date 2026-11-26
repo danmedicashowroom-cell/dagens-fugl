@@ -2,7 +2,8 @@
  "key": "haliaeetus-albicilla",
  "name": "Haliaeetus albicilla",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:38:05.910Z",
+ "fetchedAt": "2026-11-26T04:55:56.206Z",
+ "gbifAt": "2026-11-26T04:55:56.206Z",
  "names": {
   "da": "Havørn",
   "en": "White-tailed Eagle",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5309,
-  "observations": 33777
+  "observations": 33988
  },
  "photos": {
   "male": [
@@ -56,16 +57,6 @@
   ],
   "female": [
    {
-    "id": 382628250,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/382628250/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/382628250/large.jpg",
-    "attribution": "(c) Анна Мостовая, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/216360496",
-    "place": "Ахтубинский р-н, Астраханская обл., Россия",
-    "date": "2024-04-17"
-   },
-   {
     "id": 464512024,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464512024/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464512024/large.jpg",
@@ -74,6 +65,16 @@
     "source": "https://www.inaturalist.org/observations/258845004",
     "place": "Bayern, DE",
     "date": "2025-01-18"
+   },
+   {
+    "id": 382628250,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/382628250/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/382628250/large.jpg",
+    "attribution": "(c) Анна Мостовая, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/216360496",
+    "place": "Ахтубинский р-н, Астраханская обл., Россия",
+    "date": "2024-04-17"
    },
    {
     "id": 461713971,
@@ -131,30 +132,30 @@
  },
  "gbif": {
   "key": 2480449,
-  "dkTotal": 383380,
+  "dkTotal": 383809,
   "dkMonths": [
    34785,
    35840,
-   44303,
-   44635,
-   35552,
-   19886,
+   44304,
+   44636,
+   35553,
+   19887,
    21904,
    31277,
    34999,
-   35006,
-   23465,
+   35009,
+   23887,
    21283
   ],
-  "worldTotal": 2212295,
+  "worldTotal": 2212757,
   "topCountries": [
    {
     "code": "SE",
-    "count": 998298
+    "count": 998299
    },
    {
     "code": "DK",
-    "count": 383380
+    "count": 383809
    },
    {
     "code": "NO",
@@ -174,7 +175,7 @@
    },
    {
     "code": "DE",
-    "count": 49915
+    "count": 49946
    },
    {
     "code": "EE",
@@ -186,7 +187,7 @@
    },
    {
     "code": "GB",
-    "count": 19042
+    "count": 19043
    },
    {
     "code": "LV",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:05.374Z"
+ }
 }

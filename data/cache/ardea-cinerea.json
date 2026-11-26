@@ -2,7 +2,8 @@
  "key": "ardea-cinerea",
  "name": "Ardea cinerea",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:23.142Z",
+ "fetchedAt": "2026-11-26T04:55:08.063Z",
+ "gbifAt": "2026-11-26T04:55:08.063Z",
  "names": {
   "da": "Fiskehejre",
   "en": "Grey Heron",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4954,
-  "observations": 275242
+  "observations": 276880
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2025-02-08"
    },
    {
-    "id": 732946485,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/732946485/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/732946485/large.jpg",
-    "attribution": "(c) ☮️Momo🇵🇸Proske🏳️‍🌈🏳️‍⚧️, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/399487266",
-    "place": "Rheinland-Pfalz, DE",
-    "date": "2026-09-12"
-   },
-   {
     "id": 573877669,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/573877669/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/573877669/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/317555624",
     "place": "Chilton Moor, Houghton le Spring DH4 6PU, UK",
     "date": "2025-09-29"
+   },
+   {
+    "id": 637725347,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/637725347/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/637725347/large.jpg",
+    "attribution": "(c) Sora, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/349582789",
+    "place": "Metz, France",
+    "date": "2022-03-28"
    }
   ],
   "female": [
@@ -66,16 +67,6 @@
     "date": "2026-02-18"
    },
    {
-    "id": 172515915,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/172515915/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/172515915/large.jpeg",
-    "attribution": "(c) gardatxanae, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/103115967",
-    "place": "Aranguren, 31192, Navarra, España",
-    "date": "2021-12-14"
-   },
-   {
     "id": 450553282,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/450553282/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/450553282/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/251767352",
     "place": "09 Mittweida, Alemania",
     "date": "2024-11-15"
+   },
+   {
+    "id": 172515915,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/172515915/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/172515915/large.jpeg",
+    "attribution": "(c) gardatxanae, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/103115967",
+    "place": "Aranguren, 31192, Navarra, España",
+    "date": "2021-12-14"
    }
   ],
   "juvenile": [
@@ -131,30 +132,30 @@
  },
  "gbif": {
   "key": 9797180,
-  "dkTotal": 636616,
+  "dkTotal": 637049,
   "dkMonths": [
-   55934,
+   55936,
    43746,
-   55972,
-   65315,
-   60525,
-   46265,
-   55305,
-   62049,
-   56710,
-   53891,
-   41628,
-   39208
+   55975,
+   65318,
+   60526,
+   46266,
+   55314,
+   62052,
+   56712,
+   53895,
+   42032,
+   39209
   ],
-  "worldTotal": 8147082,
+  "worldTotal": 8147874,
   "topCountries": [
    {
     "code": "NL",
-    "count": 1152316
+    "count": 1152317
    },
    {
     "code": "SE",
-    "count": 892242
+    "count": 892243
    },
    {
     "code": "GB",
@@ -162,19 +163,19 @@
    },
    {
     "code": "FR",
-    "count": 663152
+    "count": 663153
    },
    {
     "code": "DK",
-    "count": 636616
+    "count": 637049
    },
    {
     "code": "ES",
-    "count": 506086
+    "count": 506087
    },
    {
     "code": "DE",
-    "count": 439407
+    "count": 439756
    },
    {
     "code": "NO",
@@ -201,25 +202,25 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1188015/download",
+    "u": "https://xeno-canto.org/1196389/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "David Darrell-Lambert",
-  "page": "https://xeno-canto.org/1188015",
-  "type": "flight call",
+  "artist": "Lionel FREDERIC",
+  "page": "https://xeno-canto.org/1196389",
+  "type": "flight call, nocturnal flight call",
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:17:58.754Z"
+ }
 }

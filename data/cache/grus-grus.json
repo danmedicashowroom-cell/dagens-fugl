@@ -2,7 +2,8 @@
  "key": "grus-grus",
  "name": "Grus grus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:40:34.770Z",
+ "fetchedAt": "2026-11-26T04:58:16.466Z",
+ "gbifAt": "2026-11-26T04:58:16.466Z",
  "names": {
   "da": "Trane",
   "en": "Common Crane",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 41,
-  "observations": 43736
+  "observations": 43968
  },
  "photos": {
   "male": [
@@ -119,46 +120,46 @@
    }
   ],
   "hero": {
-   "id": 13745,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13745/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13745/large.jpg",
-   "attribution": "(c) Tarique Sani, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/13745",
+   "id": 119153903,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/119153903/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/119153903/large.jpeg",
+   "attribution": "(c) Ирина Николанвна Кудинова, some rights reserved (CC BY-NC), uploaded by Ирина Николанвна Кудинова",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/119153903",
    "place": null,
    "date": null
   }
  },
  "gbif": {
   "key": 2474950,
-  "dkTotal": 222468,
+  "dkTotal": 222608,
   "dkMonths": [
    4088,
    10811,
-   53840,
-   48021,
+   53841,
+   48024,
    36143,
-   11189,
+   11191,
    10895,
-   13811,
-   13554,
-   13514,
-   3965,
+   13812,
+   13555,
+   13515,
+   4096,
    2529
   ],
-  "worldTotal": 2573546,
+  "worldTotal": 2573949,
   "topCountries": [
    {
     "code": "SE",
-    "count": 914085
+    "count": 914086
    },
    {
     "code": "DE",
-    "count": 268806
+    "count": 269055
    },
    {
     "code": "DK",
-    "count": 222468
+    "count": 222608
    },
    {
     "code": "NO",
@@ -166,7 +167,7 @@
    },
    {
     "code": "FR",
-    "count": 155033
+    "count": 155036
    },
    {
     "code": "EE",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Gruidae",
   "familyKey": 9313,
   "familyDa": "Traner",
   "order": "Gruiformes"
- },
- "gbifAt": "2026-11-25T22:18:24.463Z"
+ }
 }

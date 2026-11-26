@@ -2,7 +2,8 @@
  "key": "pernis-apivorus",
  "name": "Pernis apivorus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:50.037Z",
+ "fetchedAt": "2026-11-26T04:55:38.140Z",
+ "gbifAt": "2026-11-26T04:55:38.140Z",
  "names": {
   "da": "Hvepsevåge",
   "en": "European honey buzzard",
@@ -19,20 +20,10 @@
  },
  "inat": {
   "id": 5325,
-  "observations": 20947
+  "observations": 20997
  },
  "photos": {
   "male": [
-   {
-    "id": 142594803,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/142594803/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/142594803/large.jpg",
-    "attribution": "(c) Aurelie Laurent, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/86550822",
-    "place": "Lieusaint, France",
-    "date": "2021-07-08"
-   },
    {
     "id": 142311675,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/142311675/medium.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/165876725",
     "place": "Oberösterreich, AT",
     "date": "2023-06-06"
+   },
+   {
+    "id": 713190616,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/713190616/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/713190616/large.jpg",
+    "attribution": "(c) Андрей Семенов, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/389358964",
+    "place": "Волоколамский муниципальный округ, Московская обл., Россия",
+    "date": "2026-08-08"
    }
   ],
   "female": [
@@ -131,7 +132,7 @@
  },
  "gbif": {
   "key": 2480420,
-  "dkTotal": 98551,
+  "dkTotal": 98555,
   "dkMonths": [
    5,
    0,
@@ -140,13 +141,13 @@
    34264,
    12844,
    9114,
-   22215,
-   19084,
-   710,
+   22216,
+   19086,
+   711,
    12,
    9
   ],
-  "worldTotal": 781254,
+  "worldTotal": 781259,
   "topCountries": [
    {
     "code": "SE",
@@ -158,7 +159,7 @@
    },
    {
     "code": "DK",
-    "count": 98551
+    "count": 98555
    },
    {
     "code": "GE",
@@ -190,7 +191,7 @@
    },
    {
     "code": "DE",
-    "count": 13625
+    "count": 13626
    },
    {
     "code": "NO",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:03.462Z"
+ }
 }

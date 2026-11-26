@@ -2,7 +2,8 @@
  "key": "falco-vespertinus",
  "name": "Falco vespertinus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:37.344Z",
+ "fetchedAt": "2026-11-26T04:57:24.253Z",
+ "gbifAt": "2026-11-26T04:57:24.253Z",
  "names": {
   "da": "Aftenfalk",
   "en": "Red-footed Falcon",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4641,
-  "observations": 5870
+  "observations": 5878
  },
  "photos": {
   "male": [
@@ -146,7 +147,7 @@
    15,
    0
   ],
-  "worldTotal": 107683,
+  "worldTotal": 107684,
   "topCountries": [
    {
     "code": "SE",
@@ -178,7 +179,7 @@
    },
    {
     "code": "RO",
-    "count": 3904
+    "count": 3905
    },
    {
     "code": "HU",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Falconidae",
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- },
- "gbifAt": "2026-11-25T22:18:17.177Z"
+ }
 }

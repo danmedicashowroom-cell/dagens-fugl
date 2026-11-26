@@ -2,7 +2,8 @@
  "key": "gallinula-chloropus",
  "name": "Gallinula chloropus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:40:23.249Z",
+ "fetchedAt": "2026-11-26T04:58:05.207Z",
+ "gbifAt": "2026-11-26T04:58:05.207Z",
  "names": {
   "da": "Grønbenet rørhøne",
   "en": "Common Moorhen",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 201282,
-  "observations": 138722
+  "observations": 139590
  },
  "photos": {
   "male": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 5228199,
-  "dkTotal": 169988,
+  "dkTotal": 170094,
   "dkMonths": [
    14132,
    10692,
    13716,
-   23972,
+   23975,
    19767,
    13939,
-   13561,
-   17008,
-   14022,
+   13563,
+   17009,
+   14024,
    12063,
-   8739,
-   8312
+   8836,
+   8313
   ],
-  "worldTotal": 6161121,
+  "worldTotal": 6161333,
   "topCountries": [
    {
     "code": "US",
@@ -154,11 +155,11 @@
    },
    {
     "code": "GB",
-    "count": 904612
+    "count": 904613
    },
    {
     "code": "NL",
-    "count": 624911
+    "count": 624912
    },
    {
     "code": "ES",
@@ -186,7 +187,7 @@
    },
    {
     "code": "DK",
-    "count": 169988
+    "count": 170094
    },
    {
     "code": "IN",
@@ -194,7 +195,7 @@
    },
    {
     "code": "DE",
-    "count": 149834
+    "count": 149938
    }
   ]
  },
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Rallidae",
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- },
- "gbifAt": "2026-11-25T22:18:22.975Z"
+ }
 }

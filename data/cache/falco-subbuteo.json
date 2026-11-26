@@ -2,7 +2,8 @@
  "key": "falco-subbuteo",
  "name": "Falco subbuteo",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:39:47.279Z",
+ "fetchedAt": "2026-11-26T04:57:36.582Z",
+ "gbifAt": "2026-11-26T04:57:36.582Z",
  "names": {
   "da": "Lærkefalk",
   "en": "Eurasian Hobby",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4643,
-  "observations": 19077
+  "observations": 19128
  },
  "photos": {
   "male": [
@@ -34,6 +35,16 @@
     "date": "2026-09-02"
    },
    {
+    "id": 763848740,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/763848740/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/763848740/large.jpg",
+    "attribution": "(c) morodunka, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/414882329",
+    "place": "Стерлитамакский р-н, Респ. Башкортостан, Россия",
+    "date": "2023-08-12"
+   },
+   {
     "id": 434593316,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/434593316/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/434593316/large.jpeg",
@@ -42,16 +53,6 @@
     "source": "https://www.inaturalist.org/observations/243701615",
     "place": "日本、〒088-2339 北海道川上郡標茶町上多和",
     "date": "2024-09-22"
-   },
-   {
-    "id": 130710565,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/130710565/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/130710565/large.jpg",
-    "attribution": "(c) samre, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/79787259",
-    "place": "Val Germanasca",
-    "date": "2021-04-24"
    }
   ],
   "female": [
@@ -131,22 +132,22 @@
  },
  "gbif": {
   "key": 2481035,
-  "dkTotal": 52539,
+  "dkTotal": 52544,
   "dkMonths": [
    1,
    0,
    0,
-   4283,
-   23924,
+   4284,
+   23927,
    6013,
    1845,
    3987,
-   12238,
+   12239,
    170,
    0,
    0
   ],
-  "worldTotal": 933180,
+  "worldTotal": 933186,
   "topCountries": [
    {
     "code": "SE",
@@ -162,7 +163,7 @@
    },
    {
     "code": "GB",
-    "count": 93223
+    "count": 93224
    },
    {
     "code": "BE",
@@ -170,7 +171,7 @@
    },
    {
     "code": "DK",
-    "count": 52539
+    "count": 52544
    },
    {
     "code": "ES",
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Falconidae",
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- },
- "gbifAt": "2026-11-25T22:18:18.242Z"
+ }
 }

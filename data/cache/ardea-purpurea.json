@@ -2,7 +2,8 @@
  "key": "ardea-purpurea",
  "name": "Ardea purpurea",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:37:29.031Z",
+ "fetchedAt": "2026-11-26T04:55:14.220Z",
+ "gbifAt": "2026-11-26T04:55:14.220Z",
  "names": {
   "da": "Purpurhejre",
   "en": "Purple Heron",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4951,
-  "observations": 29317
+  "observations": 29489
  },
  "photos": {
   "male": [
@@ -146,7 +147,7 @@
    2,
    0
   ],
-  "worldTotal": 814371,
+  "worldTotal": 814372,
   "topCountries": [
    {
     "code": "IN",
@@ -201,25 +202,25 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1194880/download",
+    "u": "https://xeno-canto.org/1195201/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "artist": "MILLON Xavier",
-  "page": "https://xeno-canto.org/1194880",
+  "page": "https://xeno-canto.org/1195201",
   "type": "nocturnal flight call",
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:17:59.263Z"
+ }
 }

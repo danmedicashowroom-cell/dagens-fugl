@@ -2,7 +2,8 @@
  "key": "circus-pygargus",
  "name": "Circus pygargus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:38:27.364Z",
+ "fetchedAt": "2026-11-26T04:56:20.290Z",
+ "gbifAt": "2026-11-26T04:56:20.290Z",
  "names": {
   "da": "Hedehøg",
   "en": "Montagu's Harrier",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5167,
-  "observations": 14451
+  "observations": 14497
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2020-04-12"
    },
    {
-    "id": 589645401,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/589645401/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/589645401/large.jpg",
-    "attribution": "(c) Evgeny Komarov, some rights reserved (CC BY-NC)",
+    "id": 319382395,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/319382395/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/319382395/large.jpeg",
+    "attribution": "(c) Michal Zifčák, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/325648853",
-    "place": "Котельниковский р-н, Волгоградская обл., Россия",
-    "date": "2012-05-24"
+    "source": "https://www.inaturalist.org/observations/183100115",
+    "place": "Unčovice 138, 784 01 Litovel, Česko",
+    "date": "2023-08-10"
    }
   ],
   "female": [
@@ -66,16 +67,6 @@
     "date": "2021-04-24"
    },
    {
-    "id": 90117304,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/90117304/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/90117304/large.jpg",
-    "attribution": "(c) Вячеслав Юсупов, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/56545895",
-    "place": "Дальнеконстантиновский р-н, Нижегородская обл., Россия",
-    "date": "2020-08-15"
-   },
-   {
     "id": 381009330,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/381009330/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/381009330/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/215499279",
     "place": "Apetlon, Austria",
     "date": "2024-05-10"
+   },
+   {
+    "id": 90117304,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/90117304/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/90117304/large.jpg",
+    "attribution": "(c) Вячеслав Юсупов, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/56545895",
+    "place": "Дальнеконстантиновский р-н, Нижегородская обл., Россия",
+    "date": "2020-08-15"
    }
   ],
   "juvenile": [
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:07.778Z"
+ }
 }

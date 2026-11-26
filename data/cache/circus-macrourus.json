@@ -2,7 +2,8 @@
  "key": "circus-macrourus",
  "name": "Circus macrourus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:38:35.137Z",
+ "fetchedAt": "2026-11-26T04:56:25.698Z",
+ "gbifAt": "2026-11-26T04:56:25.698Z",
  "names": {
   "da": "Steppehøg",
   "en": "Pallid Harrier",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5178,
-  "observations": 4942
+  "observations": 4974
  },
  "photos": {
   "male": [
@@ -213,13 +214,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 2,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:18:08.306Z"
+ }
 }
