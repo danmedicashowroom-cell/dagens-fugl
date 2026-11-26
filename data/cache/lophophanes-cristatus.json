@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1149841/download",
+    "u": "https://xeno-canto.org/979681/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Louis-Marie Gourmelon",
-  "page": "https://xeno-canto.org/1149841",
+  "license": "CC BY-NC-ND 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "artist": "Hans Matheve",
+  "page": "https://xeno-canto.org/979681",
   "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

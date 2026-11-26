@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1163370/download",
+    "u": "https://xeno-canto.org/1195261/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "artist": "Rachel Thurman",
-  "page": "https://xeno-canto.org/1163370",
-  "type": "call",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Robert Bain",
+  "page": "https://xeno-canto.org/1195261",
+  "type": "uncertain",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

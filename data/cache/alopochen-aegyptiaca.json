@@ -202,18 +202,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/928270/download",
+    "u": "https://xeno-canto.org/1194461/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-ND 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Jarek Matusiak",
-  "page": "https://xeno-canto.org/928270",
-  "type": "call, flight call, song",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "David Darrell-Lambert",
+  "page": "https://xeno-canto.org/1194461",
+  "type": "flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

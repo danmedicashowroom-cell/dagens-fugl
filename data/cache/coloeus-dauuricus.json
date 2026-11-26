@@ -145,18 +145,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/411919/download",
+    "u": "https://xeno-canto.org/1149120/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-ND 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Frank Lambert",
-  "page": "https://xeno-canto.org/411919",
-  "type": "song",
+  "artist": "Ding Li Yong",
+  "page": "https://xeno-canto.org/1149120",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

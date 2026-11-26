@@ -202,18 +202,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/96430/download",
+    "u": "https://xeno-canto.org/1168283/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-ND 2.5",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.5/",
-  "artist": "Jarek Matusiak",
-  "page": "https://xeno-canto.org/96430",
-  "type": "call, song",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/1168283",
+  "type": "alarm call, call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

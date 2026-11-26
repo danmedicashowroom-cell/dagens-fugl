@@ -161,18 +161,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/609425/download",
+    "u": "https://xeno-canto.org/837225/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Jarek Matusiak",
-  "page": "https://xeno-canto.org/609425",
-  "type": "call, flight call, song",
+  "license": "CC BY-NC-ND 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "artist": "Manuel Oudard",
+  "page": "https://xeno-canto.org/837225",
+  "type": "flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

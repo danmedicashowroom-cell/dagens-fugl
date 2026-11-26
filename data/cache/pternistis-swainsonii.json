@@ -186,18 +186,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/662980/download",
+    "u": "https://xeno-canto.org/1025452/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Rick Nuttall",
-  "page": "https://xeno-canto.org/662980",
-  "type": "song",
+  "artist": "African Bioacoustics Community",
+  "page": "https://xeno-canto.org/1025452",
+  "type": null,
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

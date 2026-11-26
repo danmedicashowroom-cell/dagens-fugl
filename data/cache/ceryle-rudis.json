@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/665952/download",
+    "u": "https://xeno-canto.org/366177/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Sreekumar Chirukandoth",
-  "page": "https://xeno-canto.org/665952",
-  "type": "call, song",
+  "license": "CC BY-NC-ND 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "artist": "Frank Lambert",
+  "page": "https://xeno-canto.org/366177",
+  "type": "flight call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

@@ -210,9 +210,10 @@
   "artist": "Stein Ø. Nilsen",
   "page": "https://xeno-canto.org/862737",
   "type": "song, subsong",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

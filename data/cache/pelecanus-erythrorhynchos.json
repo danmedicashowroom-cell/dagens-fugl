@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/486233/download",
+    "u": "https://xeno-canto.org/104394/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Bruce Lagerquist",
-  "page": "https://xeno-canto.org/486233",
+  "license": "CC BY-NC-ND 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.5/",
+  "artist": "Andrew Spencer",
+  "page": "https://xeno-canto.org/104394",
   "type": "wing noise",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

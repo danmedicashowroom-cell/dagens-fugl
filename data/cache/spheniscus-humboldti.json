@@ -180,9 +180,10 @@
   "artist": "Cristian Pinto",
   "page": "https://xeno-canto.org/520292",
   "type": "alarm call, begging call, call, hatchling or nestling",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

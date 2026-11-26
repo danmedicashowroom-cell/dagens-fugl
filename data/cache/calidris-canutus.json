@@ -182,18 +182,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/559623/download",
+    "u": "https://xeno-canto.org/1162054/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Stein Ø. Nilsen",
-  "page": "https://xeno-canto.org/559623",
-  "type": "call, song",
+  "artist": "Arend Wassink",
+  "page": "https://xeno-canto.org/1162054",
+  "type": "nocturnal flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

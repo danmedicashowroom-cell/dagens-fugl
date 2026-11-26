@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1165842/download",
+    "u": "https://xeno-canto.org/1071377/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "African Bioacoustics Community",
-  "page": "https://xeno-canto.org/1165842",
-  "type": "song",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "artist": "Joris Komen",
+  "page": "https://xeno-canto.org/1071377",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

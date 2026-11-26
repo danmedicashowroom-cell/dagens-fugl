@@ -202,18 +202,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1157661/download",
+    "u": "https://xeno-canto.org/1157241/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Steven Van Garsse",
-  "page": "https://xeno-canto.org/1157661",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "artist": "Teet Sirotkin",
+  "page": "https://xeno-canto.org/1157241",
   "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

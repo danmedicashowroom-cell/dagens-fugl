@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1192231/download",
+    "u": "https://xeno-canto.org/1179925/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "JAYRSON ARAUJO DE OLIVEIRA",
-  "page": "https://xeno-canto.org/1192231",
-  "type": "call, song",
+  "artist": "Nick Talbot",
+  "page": "https://xeno-canto.org/1179925",
+  "type": "song, air-conditioner",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

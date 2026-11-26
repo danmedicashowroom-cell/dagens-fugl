@@ -160,18 +160,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/319896/download",
+    "u": "https://xeno-canto.org/642112/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Timo Janhonen",
-  "page": "https://xeno-canto.org/319896",
-  "type": "song",
+  "artist": "Andrew Harrop",
+  "page": "https://xeno-canto.org/642112",
+  "type": "call, flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

@@ -191,18 +191,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1191841/download",
+    "u": "https://xeno-canto.org/613398/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "JAYRSON ARAUJO DE OLIVEIRA",
-  "page": "https://xeno-canto.org/1191841",
-  "type": "flight call, song",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "artist": "Doug Hynes",
+  "page": "https://xeno-canto.org/613398",
+  "type": "call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

@@ -170,18 +170,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1181333/download",
+    "u": "https://xeno-canto.org/1192618/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Bo Shunqi 薄顺奇",
-  "page": "https://xeno-canto.org/1181333",
-  "type": "song",
+  "artist": "Gary Elton",
+  "page": "https://xeno-canto.org/1192618",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

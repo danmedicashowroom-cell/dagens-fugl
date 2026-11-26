@@ -202,18 +202,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/652678/download",
+    "u": "https://xeno-canto.org/902620/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Maarten Sluijter",
-  "page": "https://xeno-canto.org/652678",
-  "type": "song",
+  "artist": "Lars Mogensen",
+  "page": "https://xeno-canto.org/902620",
+  "type": "flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

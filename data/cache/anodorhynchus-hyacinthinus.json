@@ -167,18 +167,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/709906/download",
+    "u": "https://xeno-canto.org/707625/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "JAYRSON ARAUJO DE OLIVEIRA",
-  "page": "https://xeno-canto.org/709906",
-  "type": "call, song",
+  "artist": "Fernando Igor de Godoy",
+  "page": "https://xeno-canto.org/707625",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

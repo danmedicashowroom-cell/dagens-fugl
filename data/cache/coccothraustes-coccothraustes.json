@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1088897/download",
+    "u": "https://xeno-canto.org/724320/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Mats Olsson",
-  "page": "https://xeno-canto.org/1088897",
-  "type": "song",
+  "artist": "Lars Edenius",
+  "page": "https://xeno-canto.org/724320",
+  "type": "call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

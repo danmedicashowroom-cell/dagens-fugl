@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/636462/download",
+    "u": "https://xeno-canto.org/906721/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Thomas Ryder Payne",
-  "page": "https://xeno-canto.org/636462",
-  "type": "song",
+  "artist": "Jeff Stewart",
+  "page": "https://xeno-canto.org/906721",
+  "type": "flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

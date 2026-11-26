@@ -202,18 +202,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1196290/download",
+    "u": "https://xeno-canto.org/989428/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Petter Westberg",
-  "page": "https://xeno-canto.org/1196290",
+  "license": "CC BY-NC-ND 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "artist": "Rolf A. de By",
+  "page": "https://xeno-canto.org/989428",
   "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

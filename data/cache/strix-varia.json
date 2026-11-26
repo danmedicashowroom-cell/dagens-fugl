@@ -206,9 +206,10 @@
   "artist": "Kayla Brown",
   "page": "https://xeno-canto.org/956792",
   "type": "duet, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

@@ -181,18 +181,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1148983/download",
+    "u": "https://xeno-canto.org/459351/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "artist": "Kileo Jumah",
-  "page": "https://xeno-canto.org/1148983",
-  "type": "call",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Stratton Hatfield",
+  "page": "https://xeno-canto.org/459351",
+  "type": "begging call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

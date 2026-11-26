@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1181911/download",
+    "u": "https://xeno-canto.org/799411/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Clément Bruneau",
-  "page": "https://xeno-canto.org/1181911",
-  "type": "call, song, subsong",
+  "artist": "Lars Edenius",
+  "page": "https://xeno-canto.org/799411",
+  "type": "flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

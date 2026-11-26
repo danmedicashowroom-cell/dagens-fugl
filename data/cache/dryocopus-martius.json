@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1091912/download",
+    "u": "https://xeno-canto.org/794585/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-ND 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Elias A. Ryberg",
-  "page": "https://xeno-canto.org/1091912",
-  "type": "call, song",
+  "artist": "Bodo Sonnenburg",
+  "page": "https://xeno-canto.org/794585",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

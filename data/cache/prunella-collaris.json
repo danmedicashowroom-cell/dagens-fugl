@@ -191,18 +191,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1137661/download",
+    "u": "https://xeno-canto.org/1051293/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Xavier Riera",
-  "page": "https://xeno-canto.org/1137661",
-  "type": "song",
+  "license": "CC BY-NC-ND 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "artist": "b_hirschmann",
+  "page": "https://xeno-canto.org/1051293",
+  "type": "call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

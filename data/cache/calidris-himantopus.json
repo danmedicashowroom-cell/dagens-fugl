@@ -171,18 +171,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/76188/download",
+    "u": "https://xeno-canto.org/1139147/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-ND 2.5",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.5/",
-  "artist": "Doug Hynes",
-  "page": "https://xeno-canto.org/76188",
-  "type": "song",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Tristan Guillebot de Nerville",
+  "page": "https://xeno-canto.org/1139147",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

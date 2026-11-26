@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1133785/download",
+    "u": "https://xeno-canto.org/917761/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-ND 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Bodo Sonnenburg",
-  "page": "https://xeno-canto.org/1133785",
-  "type": "call, song",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Regina Eidner",
+  "page": "https://xeno-canto.org/917761",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

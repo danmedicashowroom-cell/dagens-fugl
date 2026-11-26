@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/704310/download",
+    "u": "https://xeno-canto.org/1146873/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-ND 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Elias A. Ryberg",
-  "page": "https://xeno-canto.org/704310",
-  "type": "call, song",
+  "artist": "Joost van Bruggen",
+  "page": "https://xeno-canto.org/1146873",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

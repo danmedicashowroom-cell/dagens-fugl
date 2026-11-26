@@ -189,18 +189,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/613904/download",
+    "u": "https://xeno-canto.org/581027/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Peter Ward and Ken Hall",
-  "page": "https://xeno-canto.org/613904",
-  "type": "flight call, flight call made by feathers",
+  "artist": "Eric DeFonso",
+  "page": "https://xeno-canto.org/581027",
+  "type": "call, wing whirr",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

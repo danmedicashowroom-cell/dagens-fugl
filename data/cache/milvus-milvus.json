@@ -202,18 +202,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/879251/download",
+    "u": "https://xeno-canto.org/471655/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Olivier SWIFT",
-  "page": "https://xeno-canto.org/879251",
-  "type": "song",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/471655",
+  "type": "call, flight call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

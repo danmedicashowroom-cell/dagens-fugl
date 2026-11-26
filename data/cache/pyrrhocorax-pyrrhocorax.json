@@ -161,18 +161,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1193130/download",
+    "u": "https://xeno-canto.org/1196751/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Thierry THOMAS",
-  "page": "https://xeno-canto.org/1193130",
+  "artist": "Gonzalo Peña Sánchez",
+  "page": "https://xeno-canto.org/1196751",
   "type": "call, flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

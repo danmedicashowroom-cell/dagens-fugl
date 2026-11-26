@@ -170,18 +170,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/523011/download",
+    "u": "https://xeno-canto.org/1177417/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-ND 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Joost van Bruggen",
-  "page": "https://xeno-canto.org/523011",
-  "type": "call, song",
+  "artist": "Ding Li Yong",
+  "page": "https://xeno-canto.org/1177417",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

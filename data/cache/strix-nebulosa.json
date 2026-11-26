@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/659840/download",
+    "u": "https://xeno-canto.org/655482/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Johan Södercrantz",
-  "page": "https://xeno-canto.org/659840",
-  "type": "alarm call, song",
+  "artist": "Lars Edenius",
+  "page": "https://xeno-canto.org/655482",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

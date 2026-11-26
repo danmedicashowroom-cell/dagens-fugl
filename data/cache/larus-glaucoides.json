@@ -159,9 +159,10 @@
   "artist": "Frank Roos",
   "page": "https://xeno-canto.org/523094",
   "type": "call",
+  "q": "B",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

@@ -170,18 +170,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/729676/download",
+    "u": "https://xeno-canto.org/729675/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "artist": "Manuel Tacke",
-  "page": "https://xeno-canto.org/729676",
-  "type": "song, wingbeats",
+  "page": "https://xeno-canto.org/729675",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

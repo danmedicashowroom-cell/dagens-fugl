@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1161197/download",
+    "u": "https://xeno-canto.org/1091310/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Clement Bruneau",
-  "page": "https://xeno-canto.org/1161197",
-  "type": "song, atypical",
+  "artist": "Daniel Hedenbo",
+  "page": "https://xeno-canto.org/1091310",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

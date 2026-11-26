@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1166000/download",
+    "u": "https://xeno-canto.org/474679/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Mike Douglas",
-  "page": "https://xeno-canto.org/1166000",
-  "type": "begging call, song",
+  "artist": "Stein Ø. Nilsen",
+  "page": "https://xeno-canto.org/474679",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

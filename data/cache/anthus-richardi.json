@@ -160,18 +160,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1180730/download",
+    "u": "https://xeno-canto.org/1185422/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Meena Haribal",
-  "page": "https://xeno-canto.org/1180730",
-  "type": "song",
+  "artist": "Arend Wassink",
+  "page": "https://xeno-canto.org/1185422",
+  "type": "flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

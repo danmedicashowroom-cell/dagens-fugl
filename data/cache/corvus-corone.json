@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/627714/download",
+    "u": "https://xeno-canto.org/530807/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-ND 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Niels Van Doninck",
-  "page": "https://xeno-canto.org/627714",
-  "type": "song",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Jarek Matusiak",
+  "page": "https://xeno-canto.org/530807",
+  "type": "begging call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

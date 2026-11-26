@@ -161,18 +161,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1046337/download",
+    "u": "https://xeno-canto.org/420273/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "AUDEVARD Aurélien",
-  "page": "https://xeno-canto.org/1046337",
-  "type": "call, song",
+  "artist": "Steve Hampton",
+  "page": "https://xeno-canto.org/420273",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

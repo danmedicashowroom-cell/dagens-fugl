@@ -162,18 +162,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/487678/download",
+    "u": "https://xeno-canto.org/1195808/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Stanislas Wroza",
-  "page": "https://xeno-canto.org/487678",
-  "type": "call, song",
+  "artist": "David Darrell-Lambert",
+  "page": "https://xeno-canto.org/1195808",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

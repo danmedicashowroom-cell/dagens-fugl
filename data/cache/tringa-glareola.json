@@ -171,18 +171,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1191575/download",
+    "u": "https://xeno-canto.org/1168755/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Petter Westberg",
-  "page": "https://xeno-canto.org/1191575",
-  "type": "song",
+  "artist": "Stanislas Wroza",
+  "page": "https://xeno-canto.org/1168755",
+  "type": "alarm call, flight call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

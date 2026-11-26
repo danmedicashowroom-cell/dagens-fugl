@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1143678/download",
+    "u": "https://xeno-canto.org/1193427/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "artist": "Philippe_Grange",
-  "page": "https://xeno-canto.org/1143678",
-  "type": "song",
+  "license": "CC BY-NC-ND 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "artist": "Paul Pukropski",
+  "page": "https://xeno-canto.org/1193427",
+  "type": "call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1193857/download",
+    "u": "https://xeno-canto.org/726673/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "artist": "Lionel Triboulin",
-  "page": "https://xeno-canto.org/1193857",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Lars Edenius",
+  "page": "https://xeno-canto.org/726673",
   "type": "call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

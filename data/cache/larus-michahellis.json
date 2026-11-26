@@ -201,18 +201,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1070601/download",
+    "u": "https://xeno-canto.org/899528/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Lionel FREDERIC",
-  "page": "https://xeno-canto.org/1070601",
-  "type": "duet, song",
+  "artist": "Théo Trees",
+  "page": "https://xeno-canto.org/899528",
+  "type": "call, song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

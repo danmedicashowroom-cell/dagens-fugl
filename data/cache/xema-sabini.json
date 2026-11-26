@@ -171,18 +171,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/933306/download",
+    "u": "https://xeno-canto.org/135855/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Stein Ø. Nilsen",
-  "page": "https://xeno-canto.org/933306",
-  "type": "call, song",
+  "license": "CC BY-NC-ND 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "artist": "Fernand DEROUSSEN",
+  "page": "https://xeno-canto.org/135855",
+  "type": "flight call",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

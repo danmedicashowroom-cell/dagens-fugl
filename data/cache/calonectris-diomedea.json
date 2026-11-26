@@ -130,18 +130,19 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/919307/download",
+    "u": "https://xeno-canto.org/804922/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC0",
-  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "artist": "Carlo Fracasso",
-  "page": "https://xeno-canto.org/919307",
-  "type": "duet, nocturnal flight call, song",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Mathis Baudrin",
+  "page": "https://xeno-canto.org/804922",
+  "type": "song",
+  "q": "A",
   "via": "xeno-canto"
  },
- "soundVersion": 2,
+ "soundVersion": 3,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {
