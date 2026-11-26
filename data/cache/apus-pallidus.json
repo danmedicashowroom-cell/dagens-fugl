@@ -97,7 +97,59 @@
    "source": "https://www.inaturalist.org/photos/189184432",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 189184432,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/189184432/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/189184432/large.jpg",
+    "attribution": "(c) cog2022, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/189184432",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 206581624,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/206581624/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/206581624/large.jpg",
+    "attribution": "(c) Pablo Pozo, some rights reserved (CC BY-NC), uploaded by Pablo Pozo",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/206581624",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 122201266,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/122201266/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/122201266/large.jpeg",
+    "attribution": "(c) kasikog, some rights reserved (CC BY-NC), uploaded by kasikog",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/122201266",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 83385773,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/83385773/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/83385773/large.jpeg",
+    "attribution": "(c) nfeddu, some rights reserved (CC BY-NC), uploaded by nfeddu",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/83385773",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 664982,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/664982/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/664982/large.jpg",
+    "attribution": "(c) Isidro Vila Verde, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/664982",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5228695,

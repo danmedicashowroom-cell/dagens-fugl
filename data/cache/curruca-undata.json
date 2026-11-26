@@ -128,7 +128,49 @@
    "source": "https://www.inaturalist.org/photos/5703674",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 127393516,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/127393516/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/127393516/large.jpeg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/127393516",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 65350,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/65350/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/65350/large.jpg",
+    "attribution": "(c) Paul Roberts, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/65350",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 31734545,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31734545/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31734545/large.jpg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/31734545",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 155001495,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/155001495/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/155001495/large.jpg",
+    "attribution": "(c) marcos_wildlife, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/155001495",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2492949,

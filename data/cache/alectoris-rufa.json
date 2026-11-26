@@ -127,7 +127,29 @@
    "source": "https://www.inaturalist.org/photos/200447159",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 200447159,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/200447159/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/200447159/large.jpeg",
+    "attribution": "(c) Jerry Lanfear, some rights reserved (CC BY), uploaded by Jerry Lanfear",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/200447159",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 344898560,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/344898560/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/344898560/large.jpeg",
+    "attribution": "(c) Olli Pihlajamaa, some rights reserved (CC BY-NC), uploaded by Olli Pihlajamaa",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/344898560",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2474051,

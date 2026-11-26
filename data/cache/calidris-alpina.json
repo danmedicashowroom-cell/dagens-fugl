@@ -108,7 +108,49 @@
    "source": "https://www.inaturalist.org/photos/279003291",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 279003291,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/279003291/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/279003291/large.jpg",
+    "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/279003291",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 194955288,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/194955288/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/194955288/large.jpg",
+    "attribution": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/194955288",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 56009558,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/56009558/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/56009558/large.jpg",
+    "attribution": "(c) Ken Chamberlain, some rights reserved (CC BY-NC), uploaded by Ken Chamberlain",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/56009558",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 60498420,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/60498420/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/60498420/large.jpg",
+    "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/60498420",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481759,

@@ -128,7 +128,59 @@
    "source": "https://www.inaturalist.org/photos/392382609",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 392382609,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/392382609/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/392382609/large.jpg",
+    "attribution": "(c) thegreatdodo, some rights reserved (CC BY-NC), uploaded by thegreatdodo",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/392382609",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 365003856,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/365003856/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/365003856/large.jpeg",
+    "attribution": "(c) Sega Black - Sea, some rights reserved (CC BY-NC), uploaded by Sega Black - Sea",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/365003856",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 60532154,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/60532154/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/60532154/large.jpg",
+    "attribution": "(c) Aleksandr Popov / Александр Попов, some rights reserved (CC BY-NC), uploaded by Aleksandr Popov / Александр Попов",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/60532154",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 392382665,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/392382665/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/392382665/large.jpg",
+    "attribution": "(c) thegreatdodo, some rights reserved (CC BY-NC), uploaded by thegreatdodo",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/392382665",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1860636,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1860636/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1860636/large.jpg",
+    "attribution": "(c) Antonio Rodriguez Sinovas, some rights reserved (CC BY-NC), uploaded by Antonio Rodriguez Sinovas",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1860636",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2498009,

@@ -117,7 +117,59 @@
    "source": "https://www.inaturalist.org/photos/227666105",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 227666105,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/227666105/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/227666105/large.jpg",
+    "attribution": "(c) Scott, some rights reserved (CC BY-NC), uploaded by Scott",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/227666105",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 174960282,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/174960282/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174960282/large.jpeg",
+    "attribution": "(c) Isaac Lord, some rights reserved (CC BY-NC), uploaded by Isaac Lord",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/174960282",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 395312633,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/395312633/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/395312633/large.jpeg",
+    "attribution": "(c) Ronald W Smith, some rights reserved (CC BY-NC), uploaded by Ronald W Smith",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/395312633",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 240252839,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/240252839/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/240252839/large.jpeg",
+    "attribution": "(c) C. Phillips, some rights reserved (CC BY-NC), uploaded by C. Phillips",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/240252839",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 38735585,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/38735585/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/38735585/large.jpeg",
+    "attribution": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/38735585",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481209,

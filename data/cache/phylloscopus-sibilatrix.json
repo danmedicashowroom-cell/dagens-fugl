@@ -117,7 +117,49 @@
    "source": "https://www.inaturalist.org/photos/231450677",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 80987935,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/80987935/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/80987935/large.jpg",
+    "attribution": "(c) Виктор, some rights reserved (CC BY), uploaded by Виктор",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/80987935",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 67415859,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67415859/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67415859/large.jpeg",
+    "attribution": "(c) Bernardo Cecchi, some rights reserved (CC BY-NC), uploaded by Bernardo Cecchi",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/67415859",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 195097543,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195097543/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195097543/large.jpg",
+    "attribution": "(c) Светлана Шавыкина, some rights reserved (CC BY-NC), uploaded by Светлана Шавыкина",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/195097543",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 36967956,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/36967956/medium.png",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/36967956/large.png",
+    "attribution": "(c) Paolo Zucca, some rights reserved (CC BY), uploaded by Paolo Zucca",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/36967956",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 8128385,

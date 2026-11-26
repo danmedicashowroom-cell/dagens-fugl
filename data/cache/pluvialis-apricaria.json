@@ -128,7 +128,49 @@
    "source": "https://www.inaturalist.org/photos/2301068",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 2301068,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2301068/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2301068/large.jpg",
+    "attribution": "(c) Kari Pihlaviita, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2301068",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 764254506,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/764254506/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/764254506/large.jpg",
+    "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/764254506",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 419598381,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/419598381/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/419598381/large.jpg",
+    "attribution": "(c) thegreatdodo, some rights reserved (CC BY-NC), uploaded by thegreatdodo",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/419598381",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 32059732,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/32059732/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/32059732/large.jpg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/32059732",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480332,

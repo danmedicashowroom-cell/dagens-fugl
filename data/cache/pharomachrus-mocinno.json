@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/177163816",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 177163816,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/177163816/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/177163816/large.jpg",
+    "attribution": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/177163816",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 177769323,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/177769323/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/177769323/large.jpg",
+    "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/177769323",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 14398768,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/14398768/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/14398768/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/14398768",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 350694044,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/350694044/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/350694044/large.jpg",
+    "attribution": "(c) Juan Sangiovanni, some rights reserved (CC BY-NC), uploaded by Juan Sangiovanni",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/350694044",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 5472349,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5472349/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5472349/large.jpeg",
+    "attribution": "(c) Pat Deacon, some rights reserved (CC BY-NC), uploaded by Pat Deacon",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/5472349",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2496723,

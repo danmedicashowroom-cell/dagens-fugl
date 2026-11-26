@@ -56,7 +56,49 @@
    "source": "https://www.inaturalist.org/photos/320127133",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 320127133,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/320127133/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/320127133/large.jpg",
+    "attribution": "(c) Shlomi Levi, some rights reserved (CC BY-NC), uploaded by Shlomi Levi",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/320127133",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 170847232,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/170847232/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/170847232/large.jpg",
+    "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/170847232",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1864956,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1864956/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1864956/large.jpg",
+    "attribution": "(c) TheNatureWeb.Net, some rights reserved (CC BY-NC), uploaded by TheNatureWeb.Net",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1864956",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 430584568,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/430584568/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/430584568/large.jpg",
+    "attribution": "(c) Nirav J Parekh, some rights reserved (CC BY-NC), uploaded by Nirav J Parekh",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/430584568",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5229138,

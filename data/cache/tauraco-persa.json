@@ -66,7 +66,79 @@
    "source": "https://www.inaturalist.org/photos/620993139",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 620993139,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/620993139/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/620993139/large.jpg",
+    "attribution": "(c) Ricardo Rodero Henández, some rights reserved (CC BY-NC), uploaded by Ricardo Rodero Henández",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/620993139",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 593198183,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/593198183/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/593198183/large.jpg",
+    "attribution": "(c) mlanguy, some rights reserved (CC BY-NC), uploaded by mlanguy",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/593198183",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 81143084,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/81143084/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/81143084/large.jpg",
+    "attribution": "(c) Antoon De Vylder, some rights reserved (CC BY-NC), uploaded by Antoon De Vylder",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/81143084",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 64628439,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/64628439/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/64628439/large.jpg",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/64628439",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 476036345,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/476036345/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/476036345/large.jpeg",
+    "attribution": "(c) drumble22, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/476036345",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 81143068,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/81143068/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/81143068/large.jpg",
+    "attribution": "(c) Antoon De Vylder, some rights reserved (CC BY-NC), uploaded by Antoon De Vylder",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/81143068",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 137041541,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/137041541/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/137041541/large.jpg",
+    "attribution": "(c) TANAKA Juuyoh (田中十洋), some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/137041541",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2475243,

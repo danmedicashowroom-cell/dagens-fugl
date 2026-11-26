@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/233914195",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 233914195,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/233914195/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/233914195/large.jpeg",
+    "attribution": "(c) Xiaogang Zhou, some rights reserved (CC BY-NC), uploaded by Xiaogang Zhou",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/233914195",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 397071112,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/397071112/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/397071112/large.jpg",
+    "attribution": "(c) Braxton L., some rights reserved (CC BY-NC), uploaded by Braxton L.",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/397071112",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 10119705,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/10119705/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/10119705/large.jpeg",
+    "attribution": "(c) Ravi Naidu, some rights reserved (CC BY-NC), uploaded by Ravi Naidu",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/10119705",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 186390077,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/186390077/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/186390077/large.jpg",
+    "attribution": "(c) Connie Walker, some rights reserved (CC BY-NC), uploaded by Connie Walker",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/186390077",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5228034,

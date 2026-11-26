@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/83922668",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 83922668,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/83922668/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/83922668/large.jpg",
+    "attribution": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/83922668",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 223989832,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/223989832/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/223989832/large.jpg",
+    "attribution": "(c) Надежда Орлова, some rights reserved (CC BY-NC), uploaded by Надежда Орлова",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/223989832",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 138282075,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/138282075/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/138282075/large.jpg",
+    "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/138282075",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 155638683,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/155638683/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/155638683/large.jpeg",
+    "attribution": "(c) shivaprakash, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/155638683",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 12289757,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/12289757/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/12289757/large.jpeg",
+    "attribution": "(c) anukma, some rights reserved (CC BY), uploaded by anukma",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/12289757",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5793241,

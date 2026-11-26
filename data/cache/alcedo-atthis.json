@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/61266631",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 33183952,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/33183952/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/33183952/large.jpg",
+    "attribution": "(c) Frank Sengpiel, some rights reserved (CC BY), uploaded by Frank Sengpiel",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/33183952",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 332559894,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/332559894/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/332559894/large.jpg",
+    "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/332559894",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2035341,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2035341/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2035341/large.jpg",
+    "attribution": "(c) Mousam Ray, some rights reserved (CC BY-NC), uploaded by Mousam Ray",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2035341",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 12584278,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/12584278/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/12584278/large.jpg",
+    "attribution": "(c) Maurizio Bonora, some rights reserved (CC BY-NC), uploaded by Maurizio Bonora",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/12584278",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2805298,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2805298/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2805298/large.jpg",
+    "attribution": "(c) misooksun, some rights reserved (CC BY-NC), uploaded by misooksun",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2805298",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2475532,

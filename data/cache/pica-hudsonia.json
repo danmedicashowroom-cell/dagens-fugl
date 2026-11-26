@@ -96,7 +96,49 @@
    "source": "https://www.inaturalist.org/photos/111805682",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 111805682,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/111805682/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/111805682/large.jpg",
+    "attribution": "(c) Johnal Palahniuk, some rights reserved (CC BY-NC), uploaded by Johnal Palahniuk",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/111805682",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1629164,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629164/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1629164/large.jpg",
+    "attribution": "(c) Vitalii Khustochka, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1629164",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 116410560,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/116410560/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/116410560/large.jpg",
+    "attribution": "(c) Christopher J. Earle, some rights reserved (CC BY-NC), uploaded by Christopher J. Earle",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/116410560",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 107880579,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107880579/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107880579/large.jpeg",
+    "attribution": "(c) Rose Zappa, some rights reserved (CC BY), uploaded by Rose Zappa",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/107880579",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5229487,

@@ -127,7 +127,69 @@
    "source": "https://www.inaturalist.org/photos/391168486",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 391168486,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/391168486/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/391168486/large.jpg",
+    "attribution": "(c) Oscar Valencoso - Salomé Planas, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/391168486",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 391168477,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/391168477/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/391168477/large.jpg",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/391168477",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 318206037,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/318206037/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/318206037/large.jpg",
+    "attribution": "(c) cog2022, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/318206037",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 39340395,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/39340395/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/39340395/large.jpg",
+    "attribution": "(c) Иван Матершев, some rights reserved (CC BY-NC), uploaded by Иван Матершев",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/39340395",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 20013536,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/20013536/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/20013536/large.jpg",
+    "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/20013536",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 66801332,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/66801332/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/66801332/large.jpeg",
+    "attribution": "(c) Вотинцевы Елена и Сергей, some rights reserved (CC BY-NC), uploaded by Вотинцевы Елена и Сергей",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/66801332",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2492943,

@@ -96,7 +96,29 @@
    "source": "https://www.inaturalist.org/photos/52766331",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 52766331,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/large.jpg",
+    "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/52766331",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 347059863,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/347059863/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/347059863/large.jpg",
+    "attribution": "(c) Luiz Lapa, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/347059863",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481714,

@@ -107,7 +107,59 @@
    "source": "https://www.inaturalist.org/photos/195587746",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 195587746,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195587746/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195587746/large.jpg",
+    "attribution": "(c) Tomas Broucek, some rights reserved (CC BY), uploaded by Tomas Broucek",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/195587746",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2416906,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2416906/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2416906/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2416906",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 132407072,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/132407072/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/132407072/large.jpg",
+    "attribution": "(c) Kurilin M S, some rights reserved (CC BY-NC), uploaded by Kurilin M S",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/132407072",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 11092321,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/11092321/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/11092321/large.jpg",
+    "attribution": "(c) Kostas Zontanos, some rights reserved (CC BY), uploaded by Kostas Zontanos",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/11092321",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 74164830,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/74164830/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/74164830/large.jpeg",
+    "attribution": "(c) Steven Schulting, some rights reserved (CC BY-NC), uploaded by Steven Schulting",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/74164830",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2493128,

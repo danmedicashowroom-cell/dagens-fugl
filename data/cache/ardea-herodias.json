@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/65060931",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 65060931,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/65060931/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/65060931/large.jpg",
+    "attribution": "(c) Dan Roach, some rights reserved (CC BY-NC), uploaded by Dan Roach",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/65060931",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 305196303,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/305196303/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/305196303/large.jpg",
+    "attribution": "(c) Bob Oswald, some rights reserved (CC BY-NC), uploaded by Bob Oswald",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/305196303",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 255838966,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/255838966/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/255838966/large.jpeg",
+    "attribution": "(c) kitemongoose, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/255838966",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 118192929,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/118192929/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/118192929/large.jpg",
+    "attribution": "(c) Leslie S, some rights reserved (CC BY-NC), uploaded by Leslie S",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/118192929",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 283943696,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/283943696/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/283943696/large.jpg",
+    "attribution": "(c) Cathy Bester, some rights reserved (CC BY-NC), uploaded by Cathy Bester",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/283943696",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 9630752,

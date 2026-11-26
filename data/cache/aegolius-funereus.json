@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/43710040",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 43710040,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710040/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710040/large.jpg",
+    "attribution": "(c) Геннадий,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Геннадий",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/43710040",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 28652790,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28652790/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28652790/large.jpg",
+    "attribution": "(c) Геннадий,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Геннадий",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/28652790",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 629139253,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/629139253/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/629139253/large.jpg",
+    "attribution": "(c) Яковлева Полина,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Яковлева Полина",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/629139253",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 351038817,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/351038817/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/351038817/large.jpg",
+    "attribution": "(c) vyatka,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי vyatka",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/351038817",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 347830042,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/347830042/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/347830042/large.jpeg",
+    "attribution": "(c) Isakov Gennady,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Isakov Gennady",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/347830042",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5739298,

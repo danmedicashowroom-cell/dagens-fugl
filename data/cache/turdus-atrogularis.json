@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/608876660",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 608876660,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/608876660/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/608876660/large.jpg",
+    "attribution": "(c) дуплозыр, some rights reserved (CC BY-NC), uploaded by дуплозыр",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/608876660",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 103157272,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103157272/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103157272/large.jpeg",
+    "attribution": "(c) Simon Bradfield, some rights reserved (CC BY-NC), uploaded by Simon Bradfield",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/103157272",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 354950741,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/354950741/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/354950741/large.jpg",
+    "attribution": "(c) Сташиба Василий, some rights reserved (CC BY-NC), uploaded by Сташиба Василий",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/354950741",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 9171965,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/9171965/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/9171965/large.jpeg",
+    "attribution": "(c) Parham Beyhaghi, some rights reserved (CC BY-NC), uploaded by Parham Beyhaghi",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/9171965",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 43697462,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43697462/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43697462/large.jpg",
+    "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC), uploaded by Константин Самодуров",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/43697462",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 4408790,

@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/165350030",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 165350030,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/165350030/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/165350030/large.jpg",
+    "attribution": "(c) rupperrt78, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/165350030",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 374823645,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/374823645/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/374823645/large.jpg",
+    "attribution": "(c) fachrynurmallojr, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/374823645",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 250930030,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/250930030/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/250930030/large.jpeg",
+    "attribution": "(c) Max Hsieh(雁子), some rights reserved (CC BY-NC), uploaded by Max Hsieh(雁子)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/250930030",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 25837,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/25837/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/25837/large.jpg",
+    "attribution": "(c) Dhammika Heenpella, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/25837",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481840,

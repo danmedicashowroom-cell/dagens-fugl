@@ -86,7 +86,59 @@
    "source": "https://www.inaturalist.org/photos/84838910",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 84838910,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/84838910/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/84838910/large.jpeg",
+    "attribution": "(c) Rujuta Vinod, some rights reserved (CC BY-NC), uploaded by Rujuta Vinod",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/84838910",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 434420000,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/434420000/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/434420000/large.jpeg",
+    "attribution": "(c) julien CLAUDE, some rights reserved (CC BY-NC), uploaded by julien CLAUDE",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/434420000",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 108206527,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/108206527/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/108206527/large.jpg",
+    "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/108206527",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 118395827,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/118395827/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/118395827/large.jpeg",
+    "attribution": "(c) luluchouette, some rights reserved (CC BY-NC), uploaded by luluchouette",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/118395827",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 271260000,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/271260000/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/271260000/large.jpeg",
+    "attribution": "(c) Livson Thomas, some rights reserved (CC BY), uploaded by Livson Thomas",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/271260000",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481938,

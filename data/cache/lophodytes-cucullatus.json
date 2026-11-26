@@ -127,7 +127,89 @@
    "source": "https://www.inaturalist.org/photos/338791340",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 338791340,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/338791340/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/338791340/large.jpg",
+    "attribution": "(c) Jason Stovin, some rights reserved (CC BY-NC), uploaded by Jason Stovin",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/338791340",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 604065377,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/604065377/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/604065377/large.jpg",
+    "attribution": "(c) kitsun3, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/604065377",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 251512938,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/251512938/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/251512938/large.jpg",
+    "attribution": "(c) mkensinger, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/251512938",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 13682638,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13682638/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13682638/large.jpg",
+    "attribution": "(c) Ashley M Bradford, some rights reserved (CC BY-NC), uploaded by Ashley M Bradford",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/13682638",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 430925625,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/430925625/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/430925625/large.jpg",
+    "attribution": "(c) James Earles, some rights reserved (CC BY-NC), uploaded by James Earles",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/430925625",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 221584326,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/221584326/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/221584326/large.jpeg",
+    "attribution": "(c) Sue Muller, some rights reserved (CC BY-NC), uploaded by Sue Muller",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/221584326",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 365544882,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/365544882/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/365544882/large.jpg",
+    "attribution": "(c) Chris O'Donoghue, some rights reserved (CC BY), uploaded by Chris O'Donoghue",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/365544882",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 320455,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/320455/medium.JPG",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/320455/large.JPG",
+    "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/320455",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2498408,

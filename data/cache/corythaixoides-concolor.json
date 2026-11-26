@@ -36,7 +36,49 @@
    "source": "https://www.inaturalist.org/photos/131054992",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 131054992,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/131054992/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/131054992/large.jpg",
+    "attribution": "(c) meikec, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/131054992",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3820236,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3820236/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3820236/large.jpg",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3820236",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 71973536,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/71973536/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/71973536/large.jpg",
+    "attribution": "no rights reserved, uploaded by Klaus Wehrlin",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/photos/71973536",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 65735605,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/65735605/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/65735605/large.jpg",
+    "attribution": "(c) Alex Dreyer, some rights reserved (CC BY-NC), uploaded by Alex Dreyer",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/65735605",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2475259,

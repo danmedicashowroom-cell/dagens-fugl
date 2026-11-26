@@ -128,7 +128,89 @@
    "source": "https://www.inaturalist.org/photos/49357930",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 49357930,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/49357930/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/49357930/large.jpg",
+    "attribution": "no rights reserved, uploaded by Kyle Nessen",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/photos/49357930",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 59830074,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/59830074/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/59830074/large.jpg",
+    "attribution": "(c) Алина Урусова, some rights reserved (CC BY), uploaded by Алина Урусова",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/59830074",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 46092583,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/46092583/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/46092583/large.jpg",
+    "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/46092583",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 61002788,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/61002788/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/61002788/large.jpg",
+    "attribution": "(c) Corine Bliek, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/61002788",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 153906613,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/153906613/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/153906613/large.jpeg",
+    "attribution": "(c) osirisv, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/153906613",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 190267526,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/190267526/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/190267526/large.jpg",
+    "attribution": "(c) Jim & Robin Kunze, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/190267526",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 561496435,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/561496435/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/561496435/large.jpg",
+    "attribution": "(c) Isaac Krauss, some rights reserved (CC BY-NC), uploaded by Isaac Krauss",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/561496435",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 10621430,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/10621430/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/10621430/large.jpg",
+    "attribution": "(c) Parco Regionale Oglio Sud, some rights reserved (CC BY-NC), uploaded by Parco Regionale Oglio Sud",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/10621430",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480863,

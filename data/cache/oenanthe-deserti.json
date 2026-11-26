@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/591870994",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 591870994,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/591870994/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/591870994/large.jpg",
+    "attribution": "(c) Bastien Louboutin, some rights reserved (CC BY-NC), uploaded by Bastien Louboutin",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/591870994",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 348386418,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/348386418/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/348386418/large.jpeg",
+    "attribution": "(c) SP CHOUDHARY, some rights reserved (CC BY-NC), uploaded by SP CHOUDHARY",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/348386418",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 577647194,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/577647194/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/577647194/large.jpg",
+    "attribution": "(c) R.Rodrigues, some rights reserved (CC BY-NC), uploaded by R.Rodrigues",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/577647194",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 579866441,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/579866441/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/579866441/large.jpg",
+    "attribution": "(c) Daniel Eskildsen, some rights reserved (CC BY-NC), uploaded by Daniel Eskildsen",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/579866441",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 574362872,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/574362872/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/574362872/large.jpg",
+    "attribution": "(c) Mohamed Salah, some rights reserved (CC BY-NC), uploaded by Mohamed Salah",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/574362872",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5231244,

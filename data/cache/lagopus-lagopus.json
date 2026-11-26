@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/135224645",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 135224645,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135224645/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135224645/large.jpg",
+    "attribution": "(c) Игорь Двуреков, some rights reserved (CC BY-NC), uploaded by Игорь Двуреков",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/135224645",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 27365938,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/27365938/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/27365938/large.jpg",
+    "attribution": "(c) Alexander Yakovlev, some rights reserved (CC BY-NC), uploaded by Alexander Yakovlev",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/27365938",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 55063386,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/55063386/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/55063386/large.jpeg",
+    "attribution": "(c) Rachel Andres-Beck, some rights reserved (CC BY-NC), uploaded by Rachel Andres-Beck",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/55063386",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 57168370,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/57168370/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/57168370/large.jpeg",
+    "attribution": "(c) Данилова Валерия, some rights reserved (CC BY-NC), uploaded by Данилова Валерия",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/57168370",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2473421,

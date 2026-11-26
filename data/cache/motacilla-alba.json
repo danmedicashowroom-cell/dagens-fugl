@@ -127,7 +127,89 @@
    "source": "https://www.inaturalist.org/photos/39786089",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 39786089,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/39786089/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/39786089/large.jpg",
+    "attribution": "(c) ZTSurvival, some rights reserved (CC BY-NC), uploaded by ZTSurvival",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/39786089",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2653533,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2653533/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2653533/large.jpg",
+    "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/2653533",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3330790,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3330790/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3330790/large.jpg",
+    "attribution": "(c) Dr Caesar Sengupta, some rights reserved (CC BY-NC), uploaded by Dr Caesar Sengupta",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3330790",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 422290554,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/422290554/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/422290554/large.jpeg",
+    "attribution": "(c) laicathedino, some rights reserved (CC BY-NC), uploaded by laicathedino",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/422290554",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 364997402,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/364997402/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/364997402/large.jpg",
+    "attribution": "(c) saintsfc, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/364997402",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 120618948,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/120618948/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/120618948/large.jpg",
+    "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/120618948",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2757480,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2757480/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2757480/large.jpg",
+    "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2757480",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 459284114,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/459284114/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/459284114/large.jpeg",
+    "attribution": "(c) jackstannard, some rights reserved (CC BY-NC), uploaded by jackstannard",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/459284114",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 9687165,

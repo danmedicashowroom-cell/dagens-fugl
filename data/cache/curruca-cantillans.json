@@ -107,7 +107,59 @@
    "source": "https://www.inaturalist.org/photos/1852354",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 1852354,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1852354/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1852354/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1852354",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2357603,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2357603/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2357603/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2357603",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 268082934,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/268082934/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/268082934/large.jpg",
+    "attribution": "(c) zakspi294, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/268082934",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 362778635,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362778635/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362778635/large.jpg",
+    "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/362778635",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 362778579,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362778579/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362778579/large.jpg",
+    "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/362778579",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 9317615,

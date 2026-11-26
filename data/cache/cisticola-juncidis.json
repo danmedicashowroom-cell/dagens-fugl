@@ -117,7 +117,49 @@
    "source": "https://www.inaturalist.org/photos/180576291",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 52049983,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/52049983/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/52049983/large.jpg",
+    "attribution": "(c) Karim Haddad, some rights reserved (CC BY), uploaded by Karim Haddad",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/52049983",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 32875519,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/32875519/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/32875519/large.jpg",
+    "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/32875519",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 21878245,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/21878245/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/21878245/large.jpeg",
+    "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/21878245",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 108685478,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/108685478/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/108685478/large.jpeg",
+    "attribution": "(c) Kelvin Joshua Che, some rights reserved (CC BY-NC), uploaded by Kelvin Joshua Che",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/108685478",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2492822,

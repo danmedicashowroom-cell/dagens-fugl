@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/452759428",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 452759428,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/452759428/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/452759428/large.jpg",
+    "attribution": "(c) Leonid, some rights reserved (CC BY-NC), uploaded by Leonid",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/452759428",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 91785065,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/91785065/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/91785065/large.jpeg",
+    "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/91785065",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 91785140,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/91785140/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/91785140/large.jpeg",
+    "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/91785140",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 30303271,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/30303271/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/30303271/large.jpg",
+    "attribution": "(c) glebnsk, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/30303271",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2477804,

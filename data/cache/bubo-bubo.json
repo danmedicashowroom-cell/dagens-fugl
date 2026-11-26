@@ -127,7 +127,89 @@
    "source": "https://www.inaturalist.org/photos/1840610",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 1840610,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1840610/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1840610/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1840610",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1513765,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1513765/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1513765/large.jpg",
+    "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/1513765",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2398959,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2398959/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2398959/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2398959",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 329802489,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/329802489/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/329802489/large.jpg",
+    "attribution": "(c) terence zahner, some rights reserved (CC BY-NC), uploaded by terence zahner",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/329802489",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 440616937,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/440616937/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/440616937/large.jpg",
+    "attribution": "(c) Jürgen Reichel, some rights reserved (CC BY-NC), uploaded by Jürgen Reichel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/440616937",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 530211795,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/530211795/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/530211795/large.jpg",
+    "attribution": "(c) Juergen Ritterbach, some rights reserved (CC BY-NC), uploaded by Juergen Ritterbach",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/530211795",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 123634213,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/123634213/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/123634213/large.jpg",
+    "attribution": "(c) Sergio López Martín, some rights reserved (CC BY-NC), uploaded by Sergio López Martín",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/123634213",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 408096657,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/408096657/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/408096657/large.jpeg",
+    "attribution": "(c) Pascal Dubois, some rights reserved (CC BY-NC), uploaded by Pascal Dubois",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/408096657",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5959092,

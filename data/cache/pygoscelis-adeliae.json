@@ -87,7 +87,79 @@
    "source": "https://www.inaturalist.org/photos/49209619",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 49209619,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/49209619/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/49209619/large.jpg",
+    "attribution": "(c) Seig, some rights reserved (CC BY), uploaded by Seig",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/49209619",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 131555939,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/131555939/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/131555939/large.jpg",
+    "attribution": "(c) Sebastián Lescano, some rights reserved (CC BY-NC), uploaded by Sebastián Lescano",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/131555939",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 29111252,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/29111252/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/29111252/large.jpg",
+    "attribution": "(c) Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan, some rights reserved (CC BY-NC), uploaded by Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/29111252",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 29551754,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/29551754/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/29551754/large.jpg",
+    "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/29551754",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 58123081,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58123081/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58123081/large.jpg",
+    "attribution": "(c) Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan, some rights reserved (CC BY-NC), uploaded by Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/58123081",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2739336,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2739336/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2739336/large.jpg",
+    "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/2739336",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 58124891,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58124891/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58124891/large.jpg",
+    "attribution": "(c) Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan, some rights reserved (CC BY-NC), uploaded by Alan Kwok (King Lun), Ada Tai (Ah Heung) / 阿達蘭 AdAlan",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/58124891",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481663,

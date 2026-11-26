@@ -127,7 +127,79 @@
    "source": "https://www.inaturalist.org/photos/533737970",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 533737970,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/533737970/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/533737970/large.jpg",
+    "attribution": "(c) Elliot Blythman, some rights reserved (CC BY-NC), uploaded by Elliot Blythman",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/533737970",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 29449154,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/29449154/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/29449154/large.jpg",
+    "attribution": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/29449154",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 434997959,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/434997959/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/434997959/large.jpg",
+    "attribution": "(c) dirkvdl16, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/434997959",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 73510016,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/73510016/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/73510016/large.jpeg",
+    "attribution": "(c) Jack Morgan, some rights reserved (CC BY-NC), uploaded by Jack Morgan",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/73510016",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 112445203,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/112445203/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/112445203/large.jpg",
+    "attribution": "(c) I Am birdsaspoetry.com , some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/112445203",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 112445204,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/112445204/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/112445204/large.jpg",
+    "attribution": "(c) I Am birdsaspoetry.com , some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/112445204",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 74907902,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/74907902/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/74907902/large.jpg",
+    "attribution": "(c) Ian D B Moodie, some rights reserved (CC BY-NC), uploaded by Ian D B Moodie",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/74907902",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2475648,

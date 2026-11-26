@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/54389687",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 651411222,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/651411222/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/651411222/large.jpg",
+    "attribution": "(c) Tim Healy, some rights reserved (CC BY-NC), uploaded by Tim Healy",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/651411222",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 13826009,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13826009/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13826009/large.jpg",
+    "attribution": "(c) Sam Koski Jones, some rights reserved (CC BY-NC), uploaded by Sam Koski Jones",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/13826009",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 360177415,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/360177415/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/360177415/large.jpg",
+    "attribution": "(c) Cameron Eckert, some rights reserved (CC BY-NC), uploaded by Cameron Eckert",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/360177415",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 67277937,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67277937/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67277937/large.jpg",
+    "attribution": "(c) BJ Stacey, some rights reserved (CC BY-NC), uploaded by BJ Stacey",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/67277937",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2482492,

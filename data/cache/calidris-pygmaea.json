@@ -56,7 +56,59 @@
    "source": "https://www.inaturalist.org/photos/246421543",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 246421543,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/246421543/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/246421543/large.jpg",
+    "attribution": "(c) Alexander Yakovlev, some rights reserved (CC BY-NC), uploaded by Alexander Yakovlev",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/246421543",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 246421360,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/246421360/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/246421360/large.jpg",
+    "attribution": "(c) Alexander Yakovlev, some rights reserved (CC BY-NC), uploaded by Alexander Yakovlev",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/246421360",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 130053043,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/130053043/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/130053043/large.jpg",
+    "attribution": "(c) Seth Miller, some rights reserved (CC BY-NC), uploaded by Seth Miller",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/130053043",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 97672036,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/97672036/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/97672036/large.jpg",
+    "attribution": "(c) Peter Ericsson, some rights reserved (CC BY-NC), uploaded by Peter Ericsson",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/97672036",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 130053079,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/130053079/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/130053079/large.jpg",
+    "attribution": "(c) Seth Miller, some rights reserved (CC BY-NC), uploaded by Seth Miller",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/130053079",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 10658506,

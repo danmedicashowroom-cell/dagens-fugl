@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/277408147",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 277408147,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/277408147/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/277408147/large.jpg",
+    "attribution": "(c) petermcintyre, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/277408147",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 252219982,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/252219982/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/252219982/large.jpg",
+    "attribution": "(c) Davide Diana, some rights reserved (CC BY-NC), uploaded by Davide Diana",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/252219982",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 347274409,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/347274409/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/347274409/large.jpg",
+    "attribution": "(c) Davide Diana, some rights reserved (CC BY-NC), uploaded by Davide Diana",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/347274409",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 451319978,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/451319978/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/451319978/large.jpg",
+    "attribution": "(c) aep-prina, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/451319978",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 241994864,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/241994864/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/241994864/large.jpg",
+    "attribution": "(c) Марина Горбунова-Ëлкина, some rights reserved (CC BY-NC), uploaded by Марина Горбунова-Ëлкина",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/241994864",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480649,

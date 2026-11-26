@@ -96,7 +96,59 @@
    "source": "https://www.inaturalist.org/photos/240960",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 13458116,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13458116/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13458116/large.jpeg",
+    "attribution": "(c) Marco Mussita, some rights reserved (CC BY), uploaded by Marco Mussita",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/13458116",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 33337833,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/33337833/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/33337833/large.jpg",
+    "attribution": "(c) Dany Sloan, some rights reserved (CC BY-NC), uploaded by Dany Sloan",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/33337833",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 30899992,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/30899992/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/30899992/large.jpg",
+    "attribution": "(c) Marco Mussita, some rights reserved (CC BY), uploaded by Marco Mussita",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/30899992",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 12171867,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/12171867/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/12171867/large.jpeg",
+    "attribution": "(c) sitkarowan, some rights reserved (CC BY-NC), uploaded by sitkarowan",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/12171867",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 12244518,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/12244518/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/12244518/large.jpeg",
+    "attribution": "(c) Connor, some rights reserved (CC BY-NC), uploaded by Connor",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/12244518",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 4408789,

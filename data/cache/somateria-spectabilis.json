@@ -128,7 +128,59 @@
    "source": "https://www.inaturalist.org/photos/1954587",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 1954587,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954587/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954587/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1954587",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1954586,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954586/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954586/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1954586",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1954574,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954574/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954574/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1954574",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 347246150,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/347246150/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/347246150/large.jpg",
+    "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/347246150",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 167373211,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/167373211/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/167373211/large.jpeg",
+    "attribution": "(c) Maya, some rights reserved (CC BY-NC), uploaded by Maya",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/167373211",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2498350,

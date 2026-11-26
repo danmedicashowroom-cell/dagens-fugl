@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/413820293",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 413820293,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/413820293/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/413820293/large.jpeg",
+    "attribution": "(c) Emily Sonter, some rights reserved (CC BY-NC), uploaded by Emily Sonter",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/413820293",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 414004108,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/414004108/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/414004108/large.jpeg",
+    "attribution": "(c) Emily Sonter, some rights reserved (CC BY-NC), uploaded by Emily Sonter",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/414004108",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 247074416,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/247074416/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/247074416/large.jpg",
+    "attribution": "(c) lightroom, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/247074416",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 12816165,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/12816165/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/12816165/large.jpeg",
+    "attribution": "(c) Daniel, some rights reserved (CC BY-NC), uploaded by Daniel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/12816165",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 27442060,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/27442060/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/27442060/large.jpeg",
+    "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/27442060",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2487516,

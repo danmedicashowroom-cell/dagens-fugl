@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/28506485",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 28506485,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28506485/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28506485/large.jpg",
+    "attribution": "(c) ruzovdmitry, some rights reserved (CC BY-NC), uploaded by ruzovdmitry",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/28506485",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 225952,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/225952/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/225952/large.jpg",
+    "attribution": "(c) Frank Vassen, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/225952",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 68204233,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/68204233/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/68204233/large.jpg",
+    "attribution": "(c) Vyacheslav Luzanov, some rights reserved (CC BY-NC), uploaded by Vyacheslav Luzanov",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/68204233",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 88057392,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/88057392/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/88057392/large.jpeg",
+    "attribution": "(c) Olesya Deineko, some rights reserved (CC BY-NC), uploaded by Olesya Deineko",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/88057392",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 90890392,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/90890392/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/90890392/large.jpg",
+    "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/90890392",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2492601,

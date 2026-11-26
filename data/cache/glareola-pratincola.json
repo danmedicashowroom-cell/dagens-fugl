@@ -76,7 +76,39 @@
    "source": "https://www.inaturalist.org/photos/329263128",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 329263128,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/329263128/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/329263128/large.jpg",
+    "attribution": "(c) Tomasz Wilk, some rights reserved (CC BY-NC), uploaded by Tomasz Wilk",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/329263128",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 54672,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/54672/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/54672/large.jpg",
+    "attribution": "(c) Werner Witte, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/54672",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 106779732,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/106779732/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/106779732/large.jpg",
+    "attribution": "(c) josefwirth, some rights reserved (CC BY-NC), uploaded by josefwirth",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/106779732",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480757,

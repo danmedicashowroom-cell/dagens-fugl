@@ -128,7 +128,89 @@
    "source": "https://www.inaturalist.org/photos/611849733",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 611849733,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/611849733/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/611849733/large.jpg",
+    "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/611849733",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 252127822,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/252127822/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/252127822/large.jpg",
+    "attribution": "(c) Бобаченко Елена, some rights reserved (CC BY-NC), uploaded by Бобаченко Елена",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/252127822",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 57394041,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/57394041/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/57394041/large.jpg",
+    "attribution": "(c) Алина Урусова, some rights reserved (CC BY), uploaded by Алина Урусова",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/57394041",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 138567585,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/138567585/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/138567585/large.jpg",
+    "attribution": "(c) Андрей Беспалов, some rights reserved (CC BY-NC), uploaded by Андрей Беспалов",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/138567585",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 164904961,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/164904961/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/164904961/large.jpg",
+    "attribution": "(c) Jacob  Spinks, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/164904961",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 341507277,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/341507277/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/341507277/large.jpeg",
+    "attribution": "(c) موسی مزینانیان Mousa Mazinanian, some rights reserved (CC BY), uploaded by موسی مزینانیان Mousa Mazinanian",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/341507277",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 29225596,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/29225596/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/29225596/large.jpg",
+    "attribution": "(c) vladimir_m, some rights reserved (CC BY-NC), uploaded by vladimir_m",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/29225596",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 253236820,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/253236820/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/253236820/large.jpg",
+    "attribution": "(c) Наталия, some rights reserved (CC BY-NC), uploaded by Наталия",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/253236820",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480449,

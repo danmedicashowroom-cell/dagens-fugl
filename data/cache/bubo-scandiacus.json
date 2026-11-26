@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/150549757",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 597055401,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/597055401/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/597055401/large.jpg",
+    "attribution": "(c) Jacob Truetken,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Jacob Truetken",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/597055401",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 263483238,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/263483238/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/263483238/large.jpeg",
+    "attribution": "(c) Stephane Le Tirant,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Stephane Le Tirant",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/263483238",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 175457294,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/175457294/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/175457294/large.jpg",
+    "attribution": "(c) Matt Felperin,  זכויות יוצרים חלקיות (CC BY), הועלה על ידי Matt Felperin",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/175457294",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 5406649,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5406649/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5406649/large.jpg",
+    "attribution": "(c) Marv Elliott,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Marv Elliott",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/5406649",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 250238753,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/250238753/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/250238753/large.jpg",
+    "attribution": "(c) christrent,  זכויות יוצרים חלקיות (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/250238753",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5959143,

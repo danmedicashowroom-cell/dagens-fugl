@@ -128,7 +128,29 @@
    "source": "https://www.inaturalist.org/photos/119153903",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 119153903,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/119153903/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/119153903/large.jpeg",
+    "attribution": "(c) Ирина Николанвна Кудинова, some rights reserved (CC BY-NC), uploaded by Ирина Николанвна Кудинова",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/119153903",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 187719701,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/187719701/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/187719701/large.jpg",
+    "attribution": "(c) Blondinrikard Fröberg, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/187719701",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2474950,

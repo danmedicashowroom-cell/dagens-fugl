@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/58407889",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 58407889,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+    "attribution": "(c) subhashc, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/58407889",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 8007,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8007/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8007/large.jpg",
+    "attribution": "(c) Paul Joyce, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/8007",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 8008,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8008/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8008/large.jpg",
+    "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/8008",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 71688845,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/71688845/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/71688845/large.jpg",
+    "attribution": "(c) Antonio W. Salas, some rights reserved (CC BY), uploaded by Antonio W. Salas",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/71688845",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 111727254,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/111727254/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/111727254/large.jpeg",
+    "attribution": "(c) Eduardo José Freitez Gassán, some rights reserved (CC BY-NC), uploaded by Eduardo José Freitez Gassán",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/111727254",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2493744,

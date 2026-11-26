@@ -97,7 +97,59 @@
    "source": "https://www.inaturalist.org/photos/149865822",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 149865822,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg",
+    "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC), uploaded by pelagicgraf",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/149865822",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 91472207,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/91472207/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/91472207/large.jpeg",
+    "attribution": "(c) Bridget Spencer, some rights reserved (CC BY-NC), uploaded by Bridget Spencer",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/91472207",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 548480978,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/548480978/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/548480978/large.jpg",
+    "attribution": "(c) Elan Zucchetti, some rights reserved (CC BY-NC), uploaded by Elan Zucchetti",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/548480978",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 67973510,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67973510/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67973510/large.jpeg",
+    "attribution": "(c) mrprice75, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/67973510",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 169251476,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/169251476/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/169251476/large.jpg",
+    "attribution": "(c) Jason Headley, some rights reserved (CC BY-NC), uploaded by Jason Headley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/169251476",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5229230,

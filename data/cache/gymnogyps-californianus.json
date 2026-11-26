@@ -127,7 +127,79 @@
    "source": "https://www.inaturalist.org/photos/205288597",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 205288597,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/205288597/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/205288597/large.jpg",
+    "attribution": "(c) Andrea Carpio,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Andrea Carpio",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/205288597",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 379144959,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/379144959/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/379144959/large.jpg",
+    "attribution": "(c) christrent,  זכויות יוצרים חלקיות (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/379144959",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3277453,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3277453/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3277453/large.jpg",
+    "attribution": "(c) Donna Pomeroy,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Donna Pomeroy",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3277453",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 7610686,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/7610686/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/7610686/large.jpg",
+    "attribution": "(c) Rick Mandel,  זכויות יוצרים חלקיות (CC BY), הועלה על ידי Rick Mandel",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/7610686",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 30740,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/30740/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/30740/large.jpg",
+    "attribution": "(c) Chad King,  זכויות יוצרים חלקיות (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/30740",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 37991941,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/37991941/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/37991941/large.jpg",
+    "attribution": "(c) Brian J Smith,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Brian J Smith",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/37991941",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 341739199,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/341739199/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/341739199/large.jpg",
+    "attribution": "(c) christrent,  זכויות יוצרים חלקיות (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/341739199",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481920,

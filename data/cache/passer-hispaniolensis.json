@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/620387040",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 98727834,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/98727834/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/98727834/large.jpeg",
+    "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/98727834",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 32143505,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/32143505/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/32143505/large.jpg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/32143505",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 21069735,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/21069735/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/21069735/large.jpg",
+    "attribution": "(c) Tânia Araújo, some rights reserved (CC BY-NC), uploaded by Tânia Araújo",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/21069735",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 11744961,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/11744961/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/11744961/large.jpg",
+    "attribution": "(c) brian fisher, some rights reserved (CC BY-NC), uploaded by brian fisher",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/11744961",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5231209,

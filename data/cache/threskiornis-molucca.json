@@ -27,7 +27,8 @@
   "juvenile": [],
   "adult": [],
   "general": [],
-  "hero": null
+  "hero": null,
+  "curated": []
  },
  "gbif": {
   "key": 2480765,

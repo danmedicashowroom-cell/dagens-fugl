@@ -127,7 +127,69 @@
    "source": "https://www.inaturalist.org/photos/116680855",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 116680855,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/116680855/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/116680855/large.jpeg",
+    "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/116680855",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 183385257,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/183385257/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/183385257/large.jpg",
+    "attribution": "(c) Igal, some rights reserved (CC BY-NC), uploaded by Igal",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/183385257",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 770103,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/770103/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/770103/large.jpg",
+    "attribution": "(c) Rachid H, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/770103",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 770104,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/770104/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/770104/large.jpg",
+    "attribution": "(c) Rachid H, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/770104",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 770105,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/770105/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/770105/large.jpg",
+    "attribution": "(c) Rachid H, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/770105",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 770106,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/770106/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/770106/large.jpg",
+    "attribution": "(c) Rachid H, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/770106",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5231253,

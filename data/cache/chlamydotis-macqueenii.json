@@ -76,7 +76,39 @@
    "source": "https://www.inaturalist.org/photos/512781610",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 54283468,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/54283468/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/54283468/large.jpg",
+    "attribution": "(c) amohajeran, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/54283468",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 314157919,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/314157919/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/314157919/large.jpeg",
+    "attribution": "(c) Nachman bones, some rights reserved (CC BY), uploaded by Nachman bones",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/314157919",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 507917940,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/507917940/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/507917940/large.jpg",
+    "attribution": "(c) Dmitriy Yankowskiy, some rights reserved (CC BY-NC), uploaded by Dmitriy Yankowskiy",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/507917940",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2474863,

@@ -66,7 +66,49 @@
    "source": "https://www.inaturalist.org/photos/85404012",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 85404012,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/85404012/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/85404012/large.jpeg",
+    "attribution": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/85404012",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 299658479,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/299658479/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/299658479/large.jpeg",
+    "attribution": "(c) xbackzhen, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/299658479",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 76835319,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/76835319/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/76835319/large.jpeg",
+    "attribution": "(c) Marco Mussita, some rights reserved (CC BY), uploaded by Marco Mussita",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/76835319",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 257871064,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/257871064/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/257871064/large.jpeg",
+    "attribution": "(c) Jiro Iguchi, some rights reserved (CC BY), uploaded by Jiro Iguchi",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/257871064",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480810,

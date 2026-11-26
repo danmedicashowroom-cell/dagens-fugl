@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/487246494",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 388351548,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/388351548/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/388351548/large.jpg",
+    "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/388351548",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 186753628,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/186753628/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/186753628/large.jpg",
+    "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/186753628",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 28746665,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28746665/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28746665/large.jpg",
+    "attribution": "(c) Aleksey Levashkin, some rights reserved (CC BY-NC), uploaded by Aleksey Levashkin",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/28746665",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 60442642,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/60442642/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/60442642/large.jpeg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/60442642",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 62251048,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/62251048/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/62251048/large.jpg",
+    "attribution": "(c) elisabraz, some rights reserved (CC BY-NC), uploaded by elisabraz",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/62251048",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 7634625,

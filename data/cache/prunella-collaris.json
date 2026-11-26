@@ -117,7 +117,59 @@
    "source": "https://www.inaturalist.org/photos/1806727",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 475605508,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/475605508/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/475605508/large.jpeg",
+    "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/475605508",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2744491,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2744491/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2744491/large.jpg",
+    "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/2744491",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 257324511,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/257324511/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/257324511/large.jpeg",
+    "attribution": "(c) didierbas, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/257324511",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2744492,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2744492/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2744492/large.jpg",
+    "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/2744492",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 59007262,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/59007262/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/59007262/large.jpg",
+    "attribution": "(c) Alessandro, some rights reserved (CC BY-NC), uploaded by Alessandro",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/59007262",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5231770,

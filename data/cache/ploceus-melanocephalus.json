@@ -128,7 +128,49 @@
    "source": "https://www.inaturalist.org/photos/4725762",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 4725762,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/4725762/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/4725762/large.jpg",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/4725762",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 598532518,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/598532518/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/598532518/large.jpg",
+    "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/598532518",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 32104089,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/32104089/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/32104089/large.jpg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/32104089",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 26193,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/26193/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/26193/large.jpg",
+    "attribution": "(c) David Cook Wildlife Photography, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/26193",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2494070,

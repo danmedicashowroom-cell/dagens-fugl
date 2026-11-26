@@ -128,7 +128,59 @@
    "source": "https://www.inaturalist.org/photos/73516715",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 73516715,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/73516715/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/73516715/large.jpg",
+    "attribution": "(c) Frank Sengpiel, some rights reserved (CC BY), uploaded by Frank Sengpiel",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/73516715",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 194963194,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/194963194/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/194963194/large.jpg",
+    "attribution": "(c) Michel NOEL, some rights reserved (CC BY-NC), uploaded by Michel NOEL",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/194963194",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 334606225,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/334606225/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/334606225/large.jpg",
+    "attribution": "(c) Anton D., some rights reserved (CC BY-NC), uploaded by Anton D.",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/334606225",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 194963173,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/194963173/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/194963173/large.jpg",
+    "attribution": "(c) Michel NOEL, some rights reserved (CC BY-NC), uploaded by Michel NOEL",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/194963173",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 11149431,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/11149431/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/11149431/large.jpeg",
+    "attribution": "(c) ellietan, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/11149431",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 9797180,

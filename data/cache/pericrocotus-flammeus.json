@@ -96,7 +96,19 @@
    "source": "https://www.inaturalist.org/photos/65476530",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 65476530,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/65476530/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/65476530/large.jpg",
+    "attribution": "(c) makarandsaraf, some rights reserved (CC BY-NC), uploaded by makarandsaraf",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/65476530",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2486819,

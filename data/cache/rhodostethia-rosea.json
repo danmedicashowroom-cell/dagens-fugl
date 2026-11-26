@@ -97,7 +97,79 @@
    "source": "https://www.inaturalist.org/photos/55745545",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 55745545,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/55745545/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/55745545/large.jpg",
+    "attribution": "(c) alexdersu, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/55745545",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 208195,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/208195/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/208195/large.jpg",
+    "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/208195",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2509121,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2509121/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2509121/large.jpg",
+    "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2509121",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 170655425,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/170655425/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/170655425/large.jpg",
+    "attribution": "(c) frankf, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/170655425",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2503502,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2503502/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2503502/large.jpg",
+    "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2503502",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 208192,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/208192/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/208192/large.jpg",
+    "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/208192",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2514442,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2514442/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2514442/large.jpg",
+    "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2514442",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481218,

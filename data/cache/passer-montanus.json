@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/165351252",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 165351252,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/large.jpg",
+    "attribution": "(c) Дмитрий Осипов, some rights reserved (CC BY-NC), uploaded by Дмитрий Осипов",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/165351252",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 188286629,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/188286629/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/188286629/large.jpg",
+    "attribution": "(c) Ксения Соварцева, some rights reserved (CC BY-NC), uploaded by Ксения Соварцева",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/188286629",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 64439787,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/64439787/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/64439787/large.jpg",
+    "attribution": "(c) Dina Nesterkova, some rights reserved (CC BY-NC), uploaded by Dina Nesterkova",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/64439787",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 171654985,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/171654985/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/171654985/large.jpg",
+    "attribution": "(c) Cheryl Rosenfeld, some rights reserved (CC BY-NC), uploaded by Cheryl Rosenfeld",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/171654985",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 331735971,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/331735971/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/331735971/large.jpg",
+    "attribution": "(c) Ilya Burylov, some rights reserved (CC BY-NC), uploaded by Ilya Burylov",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/331735971",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5231198,

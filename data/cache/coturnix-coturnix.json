@@ -128,7 +128,59 @@
    "source": "https://www.inaturalist.org/photos/227167679",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 227167679,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/227167679/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/227167679/large.jpg",
+    "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC), uploaded by Dragonfyre",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/227167679",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 227167644,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/227167644/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/227167644/large.jpg",
+    "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC), uploaded by Dragonfyre",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/227167644",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 277758871,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/277758871/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/277758871/large.jpeg",
+    "attribution": "(c) Earl Roode, some rights reserved (CC BY-NC), uploaded by Earl Roode",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/277758871",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 50667136,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/50667136/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/50667136/large.jpeg",
+    "attribution": "(c) Marvin Molina, some rights reserved (CC BY-NC), uploaded by Marvin Molina",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/50667136",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 73100266,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/73100266/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/73100266/large.jpg",
+    "attribution": "(c) Александр Кочетков, some rights reserved (CC BY-NC), uploaded by Александр Кочетков",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/73100266",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2474156,

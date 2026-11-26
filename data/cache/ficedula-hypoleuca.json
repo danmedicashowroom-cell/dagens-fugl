@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/556162067",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 123372897,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/123372897/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/123372897/large.jpg",
+    "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/123372897",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 123372896,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/123372896/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/123372896/large.jpg",
+    "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/123372896",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3478111,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3478111/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3478111/large.jpg",
+    "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3478111",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 12116822,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/12116822/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/12116822/large.jpeg",
+    "attribution": "(c) Babajide Agboola, some rights reserved (CC BY-NC), uploaded by Babajide Agboola",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/12116822",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 53428404,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/53428404/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/53428404/large.jpg",
+    "attribution": "(c) Dmitry Kulakov, some rights reserved (CC BY), uploaded by Dmitry Kulakov",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/53428404",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2492606,

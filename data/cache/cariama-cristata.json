@@ -117,7 +117,59 @@
    "source": "https://www.inaturalist.org/photos/467050157",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 467050157,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/467050157/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/467050157/large.jpg",
+    "attribution": "(c) Mauricio Silvera, some rights reserved (CC BY-NC), uploaded by Mauricio Silvera",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/467050157",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 333695009,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/333695009/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/333695009/large.jpg",
+    "attribution": "(c) pkondrashov, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/333695009",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 467061895,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/467061895/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/467061895/large.jpg",
+    "attribution": "(c) Mauricio Silvera, some rights reserved (CC BY-NC), uploaded by Mauricio Silvera",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/467061895",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 467050230,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/467050230/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/467050230/large.jpg",
+    "attribution": "(c) Mauricio Silvera, some rights reserved (CC BY-NC), uploaded by Mauricio Silvera",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/467050230",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 16767098,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/16767098/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/16767098/large.jpg",
+    "attribution": "(c) Tanja, some rights reserved (CC BY-NC), uploaded by Tanja",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/16767098",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5228133,

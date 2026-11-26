@@ -127,7 +127,39 @@
    "source": "https://www.inaturalist.org/photos/61258110",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 61258110,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/61258110/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/61258110/large.jpg",
+    "attribution": "(c) Martin Kunz, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/61258110",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 112920289,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/112920289/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/112920289/large.jpeg",
+    "attribution": "(c) Elizaveta Volkova, some rights reserved (CC BY-NC), uploaded by Elizaveta Volkova",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/112920289",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 43705228,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43705228/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43705228/large.jpg",
+    "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/43705228",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5845582,

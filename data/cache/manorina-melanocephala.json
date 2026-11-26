@@ -127,7 +127,69 @@
    "source": "https://www.inaturalist.org/photos/68867",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 310912993,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/310912993/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/310912993/large.jpg",
+    "attribution": "(c) rodgerp, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/310912993",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 570263669,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/570263669/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/570263669/large.jpg",
+    "attribution": "(c) Elliot Blythman, some rights reserved (CC BY-NC), uploaded by Elliot Blythman",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/570263669",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 238619205,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/238619205/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/238619205/large.jpg",
+    "attribution": "(c) Suzanne B, some rights reserved (CC BY-NC), uploaded by Suzanne B",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/238619205",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 8190483,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8190483/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8190483/large.jpeg",
+    "attribution": "(c) Daniel, some rights reserved (CC BY-NC), uploaded by Daniel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/8190483",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 288784,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/288784/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/288784/large.jpg",
+    "attribution": "(c) Victor W Fazio III, some rights reserved (CC BY-NC), uploaded by Victor W Fazio III",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/288784",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 54504680,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/54504680/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/54504680/large.jpeg",
+    "attribution": "(c) Scott W. Gavins, some rights reserved (CC BY-NC), uploaded by Scott W. Gavins",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/54504680",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2487365,

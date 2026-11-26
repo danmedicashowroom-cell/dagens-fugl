@@ -127,7 +127,79 @@
    "source": "https://www.inaturalist.org/photos/103332022",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 103332022,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/large.jpg",
+    "attribution": "(c) Mikhail Ezdakov,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Mikhail Ezdakov",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/103332022",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 173307548,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/173307548/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/173307548/large.jpg",
+    "attribution": "(c) Serguei Kossenko,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Serguei Kossenko",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/173307548",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 53366590,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/53366590/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/53366590/large.jpeg",
+    "attribution": "(c) Соколков Юрий Павлович,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Соколков Юрий Павлович",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/53366590",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 104477473,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/104477473/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/104477473/large.jpg",
+    "attribution": "(c) Mikhail Nevsky,  זכויות יוצרים חלקיות (CC BY), הועלה על ידי Mikhail Nevsky",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/104477473",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 174477818,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477818/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477818/large.jpg",
+    "attribution": "(c) François-Xavier Taxil,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי François-Xavier Taxil",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/174477818",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 174477807,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477807/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477807/large.jpg",
+    "attribution": "(c) François-Xavier Taxil,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי François-Xavier Taxil",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/174477807",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 336723439,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/336723439/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/336723439/large.jpg",
+    "attribution": "(c) Соколков Юрий Павлович,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Соколков Юрий Павлович",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/336723439",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5232162,

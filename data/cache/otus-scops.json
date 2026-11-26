@@ -127,7 +127,69 @@
    "source": "https://www.inaturalist.org/photos/32019292",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 32019292,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/32019292/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/32019292/large.jpg",
+    "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/32019292",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 63349917,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/63349917/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/63349917/large.jpg",
+    "attribution": "(c) Roberto Ghiglia, some rights reserved (CC BY-NC), uploaded by Roberto Ghiglia",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/63349917",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 529771432,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/529771432/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/529771432/large.jpg",
+    "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/529771432",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 275876806,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/275876806/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/275876806/large.jpg",
+    "attribution": "(c) Светлана Медведева, some rights reserved (CC BY-NC), uploaded by Светлана Медведева",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/275876806",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 525514298,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/525514298/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/525514298/large.jpg",
+    "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/525514298",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 101330674,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/101330674/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/101330674/large.jpg",
+    "attribution": "(c) Aleksey Levashkin, some rights reserved (CC BY-NC), uploaded by Aleksey Levashkin",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/101330674",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2497701,

@@ -102,7 +102,29 @@
    "source": "https://www.inaturalist.org/photos/11099773",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 11099773,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/11099773/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/11099773/large.jpeg",
+    "attribution": "(c) Daniel, some rights reserved (CC BY-NC), uploaded by Daniel",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/11099773",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 17506363,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/17506363/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/17506363/large.jpeg",
+    "attribution": "(c) johnallcock, some rights reserved (CC BY-NC), uploaded by johnallcock",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/17506363",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480251,

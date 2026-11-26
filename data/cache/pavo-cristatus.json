@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/407381945",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 407381945,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/407381945/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/407381945/large.jpg",
+    "attribution": "(c) Sarah Stierch, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/407381945",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 103477206,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103477206/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103477206/large.jpeg",
+    "attribution": "(c) juliamarkey, some rights reserved (CC BY-NC), uploaded by juliamarkey",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/103477206",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 93844962,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/93844962/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/93844962/large.jpg",
+    "attribution": "(c) Carlos Sanchez, some rights reserved (CC BY-NC), uploaded by Carlos Sanchez",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/93844962",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 70910408,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/70910408/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/70910408/large.jpg",
+    "attribution": "(c) Becky Matsubara, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/70910408",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 9451184,

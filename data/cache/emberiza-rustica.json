@@ -127,7 +127,69 @@
    "source": "https://www.inaturalist.org/photos/684147649",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 684147649,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/684147649/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/684147649/large.jpg",
+    "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/684147649",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 335163327,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/335163327/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/335163327/large.jpg",
+    "attribution": "(c) Лида Онищенко, some rights reserved (CC BY-NC), uploaded by Лида Онищенко",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/335163327",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2616822,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2616822/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2616822/large.jpg",
+    "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/2616822",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 157877228,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/157877228/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/157877228/large.jpg",
+    "attribution": "(c) Vladimir Bryukhov, some rights reserved (CC BY-NC), uploaded by Vladimir Bryukhov",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/157877228",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2645243,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2645243/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2645243/large.jpg",
+    "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/2645243",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 526806531,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/526806531/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/526806531/large.jpg",
+    "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/526806531",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2491582,

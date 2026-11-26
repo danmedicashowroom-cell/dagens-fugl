@@ -127,7 +127,49 @@
    "source": "https://www.inaturalist.org/photos/202775885",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 202775885,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/202775885/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/202775885/large.jpeg",
+    "attribution": "(c) Gökçe Coşkun, some rights reserved (CC BY-NC), uploaded by Gökçe Coşkun",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/202775885",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 179229473,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179229473/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179229473/large.jpg",
+    "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/179229473",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 278697212,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/278697212/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/278697212/large.jpeg",
+    "attribution": "(c) pedrosanz-anapri, some rights reserved (CC BY-NC), uploaded by pedrosanz-anapri",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/278697212",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 689091970,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/689091970/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/689091970/large.jpg",
+    "attribution": "(c) Clara Herranz, some rights reserved (CC BY-NC), uploaded by Clara Herranz",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/689091970",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480389,

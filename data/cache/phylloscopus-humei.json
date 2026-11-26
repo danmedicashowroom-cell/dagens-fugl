@@ -76,7 +76,39 @@
    "source": "https://www.inaturalist.org/photos/170310402",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 170310402,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/170310402/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/170310402/large.jpg",
+    "attribution": "(c) Avinash Bhagat, some rights reserved (CC BY-NC), uploaded by Avinash Bhagat",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/170310402",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 5559203,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5559203/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5559203/large.jpg",
+    "attribution": "(c) Arnold Wijker, some rights reserved (CC BY-NC), uploaded by Arnold Wijker",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/5559203",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1852220,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1852220/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1852220/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1852220",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 7341522,

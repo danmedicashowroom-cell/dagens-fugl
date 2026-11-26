@@ -127,7 +127,89 @@
    "source": "https://www.inaturalist.org/photos/176818863",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 176818863,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/176818863/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/176818863/large.jpg",
+    "attribution": "(c) Kenneth Lorenzen, some rights reserved (CC BY-NC), uploaded by Kenneth Lorenzen",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/176818863",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 8069557,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8069557/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8069557/large.jpeg",
+    "attribution": "(c) Bernabe Jimenez, some rights reserved (CC BY-NC), uploaded by Bernabe Jimenez",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/8069557",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3031892,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031892/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031892/large.jpg",
+    "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3031892",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3031894,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031894/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031894/large.jpg",
+    "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3031894",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3031889,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031889/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031889/large.jpg",
+    "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3031889",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 11690737,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/11690737/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/11690737/large.jpg",
+    "attribution": "(c) Sergio Martínez, some rights reserved (CC BY-NC), uploaded by Sergio Martínez",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/11690737",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2372645,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2372645/medium.JPG",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2372645/large.JPG",
+    "attribution": "(c) J. Ismael Arellano Ciau, some rights reserved (CC BY-NC), uploaded by J. Ismael Arellano Ciau",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2372645",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 3031891,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031891/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3031891/large.jpg",
+    "attribution": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/3031891",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2480189,

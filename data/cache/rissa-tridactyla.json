@@ -127,7 +127,79 @@
    "source": "https://www.inaturalist.org/photos/419912377",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 419912377,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/419912377/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/419912377/large.jpg",
+    "attribution": "(c) Marion Goascoz, some rights reserved (CC BY-NC), uploaded by Marion Goascoz",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/419912377",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2718977,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2718977/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2718977/large.jpg",
+    "attribution": "(c) JimBob's Birds, some rights reserved (CC BY-NC), uploaded by JimBob's Birds",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2718977",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 13841462,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13841462/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13841462/large.jpg",
+    "attribution": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/13841462",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 150280970,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/150280970/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/150280970/large.jpg",
+    "attribution": "(c) Donald Davesne, some rights reserved (CC BY), uploaded by Donald Davesne",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/150280970",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 2718978,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2718978/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2718978/large.jpg",
+    "attribution": "(c) JimBob's Birds, some rights reserved (CC BY-NC), uploaded by JimBob's Birds",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/2718978",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 8933,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8933/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8933/large.jpg",
+    "attribution": "(c) Caleb Slemmons, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/8933",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 8935,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8935/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8935/large.jpg",
+    "attribution": "(c) Blake Matheson, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/8935",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481205,

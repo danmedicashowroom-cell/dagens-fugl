@@ -66,7 +66,59 @@
    "source": "https://www.inaturalist.org/photos/182708916",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 182708916,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/182708916/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/182708916/large.jpg",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/182708916",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 180623066,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/180623066/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/180623066/large.jpg",
+    "attribution": "(c) Thijs Valkenburg, some rights reserved (CC BY-NC), uploaded by Thijs Valkenburg",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/180623066",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 77711109,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/77711109/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/77711109/large.jpeg",
+    "attribution": "(c) abcdefgewing, some rights reserved (CC BY-NC), uploaded by abcdefgewing",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/77711109",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 1525993,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1525993/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1525993/large.jpg",
+    "attribution": "(c) Ron Knight, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/1525993",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 401986823,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/401986823/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/401986823/large.jpg",
+    "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/401986823",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5739355,

@@ -76,7 +76,59 @@
    "source": "https://www.inaturalist.org/photos/2415474",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 5941,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5941/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5941/large.jpg",
+    "attribution": "(c) Artie Kopelman, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/5941",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 73344788,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/73344788/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/73344788/large.jpeg",
+    "attribution": "(c) docprt, some rights reserved (CC BY-NC), uploaded by docprt",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/73344788",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 145460999,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/145460999/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/145460999/large.jpeg",
+    "attribution": "(c) Lawrence Haselmaier, some rights reserved (CC BY-NC), uploaded by Lawrence Haselmaier",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/145460999",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 203039038,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/203039038/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/203039038/large.jpg",
+    "attribution": "(c) Luke Foster, some rights reserved (CC BY-NC), uploaded by Luke Foster",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/203039038",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 102188283,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102188283/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102188283/large.jpg",
+    "attribution": "no rights reserved, uploaded by Tero Linjama",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/photos/102188283",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5229343,

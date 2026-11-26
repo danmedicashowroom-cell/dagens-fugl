@@ -128,7 +128,29 @@
    "source": "https://www.inaturalist.org/photos/101224790",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 139363990,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/139363990/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/139363990/large.jpg",
+    "attribution": "(c) Becky Matsubara, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/139363990",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 499560404,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/499560404/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/499560404/large.jpeg",
+    "attribution": "(c) edaphos1992, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/499560404",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2479407,

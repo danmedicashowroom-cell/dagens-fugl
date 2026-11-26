@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/369311714",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 369311714,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/369311714/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/369311714/large.jpg",
+    "attribution": "(c) Antti Henttonen, some rights reserved (CC BY-NC), uploaded by Antti Henttonen",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/369311714",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 446195236,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/446195236/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/446195236/large.jpg",
+    "attribution": "(c) Caiden, some rights reserved (CC BY-NC), uploaded by Caiden",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/446195236",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 58184530,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58184530/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58184530/large.jpg",
+    "attribution": "(c) Adrien Mauss, some rights reserved (CC BY-NC), uploaded by Adrien Mauss",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/58184530",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 361935156,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/361935156/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/361935156/large.jpeg",
+    "attribution": "(c) Росица Делчева ППМГ Сливен, some rights reserved (CC BY-NC), uploaded by Росица Делчева ППМГ Сливен",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/361935156",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 72107284,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/72107284/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/72107284/large.jpg",
+    "attribution": "(c) Fernando Romão, some rights reserved (CC BY-NC), uploaded by Fernando Romão",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/72107284",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2494686,

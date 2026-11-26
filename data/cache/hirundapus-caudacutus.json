@@ -66,7 +66,49 @@
    "source": "https://www.inaturalist.org/photos/383962539",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 383962539,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/383962539/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/383962539/large.jpg",
+    "attribution": "(c) Haitong and Nicola, some rights reserved (CC BY-NC), uploaded by Haitong and Nicola",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/383962539",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 55582926,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/55582926/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/55582926/large.jpeg",
+    "attribution": "(c) wingspanner, some rights reserved (CC BY-NC), uploaded by wingspanner",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/55582926",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 342973020,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/342973020/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/342973020/large.jpeg",
+    "attribution": "(c) Bradley J., some rights reserved (CC BY-NC), uploaded by Bradley J.",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/342973020",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 103175,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103175/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103175/large.jpg",
+    "attribution": "(c) David Cook, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/103175",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2477130,

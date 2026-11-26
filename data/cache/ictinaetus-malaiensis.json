@@ -76,7 +76,49 @@
    "source": "https://www.inaturalist.org/photos/30653128",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 227323165,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/227323165/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/227323165/large.jpeg",
+    "attribution": "(c) awayk3n, some rights reserved (CC BY), uploaded by awayk3n",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/227323165",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 28584291,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28584291/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28584291/large.jpg",
+    "attribution": "(c) Shawn O'Donnell, some rights reserved (CC BY), uploaded by Shawn O'Donnell",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/28584291",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 236187681,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/236187681/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/236187681/large.jpeg",
+    "attribution": "(c) Green Hill - Bukit Lawang (Andrea Molyneaux), some rights reserved (CC BY-NC), uploaded by Green Hill - Bukit Lawang (Andrea Molyneaux)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/236187681",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 12726520,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/12726520/medium.png",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/12726520/large.png",
+    "attribution": "(c) Larry Chen, some rights reserved (CC BY-NC), uploaded by Larry Chen",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/12726520",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 5229198,

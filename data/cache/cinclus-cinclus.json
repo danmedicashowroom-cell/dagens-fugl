@@ -117,7 +117,59 @@
    "source": "https://www.inaturalist.org/photos/82887570",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 82887570,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/82887570/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/82887570/large.jpg",
+    "attribution": "(c) \nDirk-Jan van Roest, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/82887570",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 594047326,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/594047326/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/594047326/large.jpg",
+    "attribution": "(c) Tano Caperna, some rights reserved (CC BY-NC), uploaded by Tano Caperna",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/594047326",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 594047094,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/594047094/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/594047094/large.jpg",
+    "attribution": "(c) Tano Caperna, some rights reserved (CC BY-NC), uploaded by Tano Caperna",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/594047094",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 109761356,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/109761356/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/109761356/large.jpg",
+    "attribution": "(c) Dina Nesterkova, some rights reserved (CC BY-NC), uploaded by Dina Nesterkova",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/109761356",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 279965824,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/279965824/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/279965824/large.jpg",
+    "attribution": "(c) nataliya_vikarchuk, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/279965824",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2495093,

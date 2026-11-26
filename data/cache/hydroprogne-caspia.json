@@ -127,7 +127,59 @@
    "source": "https://www.inaturalist.org/photos/486575200",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 486575200,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/large.jpg",
+    "attribution": "(c) Jef-B, some rights reserved (CC BY-NC), uploaded by Jef-B",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/486575200",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 379822481,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/379822481/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/379822481/large.jpeg",
+    "attribution": "(c) Connor, some rights reserved (CC BY-NC), uploaded by Connor",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/379822481",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 250760098,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/250760098/medium.png",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/250760098/large.png",
+    "attribution": "(c) kaynine35, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/250760098",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 490818511,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/490818511/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/490818511/large.jpeg",
+    "attribution": "(c) Liam Ragan, some rights reserved (CC BY-NC), uploaded by Liam Ragan",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/490818511",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 465585399,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/465585399/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/465585399/large.jpeg",
+    "attribution": "(c) Boris, some rights reserved (CC BY-NC), uploaded by Boris",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/465585399",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2481236,

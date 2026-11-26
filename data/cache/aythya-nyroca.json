@@ -128,7 +128,49 @@
    "source": "https://www.inaturalist.org/photos/1954492",
    "place": null,
    "date": null
-  }
+  },
+  "curated": [
+   {
+    "id": 1954492,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954492/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1954492/large.jpg",
+    "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/1954492",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 605600926,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/605600926/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/605600926/large.jpg",
+    "attribution": "(c) Gianfranco Scagnetti, some rights reserved (CC BY-NC), uploaded by Gianfranco Scagnetti",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/605600926",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 174553334,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/174553334/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174553334/large.jpeg",
+    "attribution": "(c) Julian, some rights reserved (CC BY-NC), uploaded by Julian",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/174553334",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 181828715,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/181828715/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/181828715/large.jpg",
+    "attribution": "(c) Alexis Lours, some rights reserved (CC BY), uploaded by Alexis Lours",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/photos/181828715",
+    "place": null,
+    "date": null
+   }
+  ]
  },
  "gbif": {
   "key": 2498259,
