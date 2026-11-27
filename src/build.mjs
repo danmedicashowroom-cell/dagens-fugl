@@ -2,6 +2,7 @@
 // Ingen eksterne pakker – kun Node.
 
 import fs from 'node:fs';
+import { landDa } from './land.mjs';
 import path from 'node:path';
 import {
   ROOT, DIST_DIR, SLUGS_FILE, loadSpeciesList, readCache, readJson, writeJson, slugify,
@@ -135,7 +136,8 @@ function srcset(photo, sizes) {
 function credit(photo) {
   const lic = LICENSES[photo.license] || { label: photo.license.toUpperCase(), url: '#' };
   const who = photographer(photo) ? esc(`${photo.license === 'cc0' ? 'Foto: ' : '© '}${photographer(photo)}`) : 'Fotograf ikke angivet';
-  const where = [photo.place, photo.date].filter(Boolean).map(esc).join(', ');
+  const dato = photo.date && /^\d{4}-\d{2}-\d{2}$/.test(photo.date) ? new Date(`${photo.date}T12:00:00Z`).toLocaleDateString('da-DK', { day: 'numeric', month: 'short', year: 'numeric' }) : photo.date;
+  const where = [landDa(photo.place), dato].filter(Boolean).map(esc).join(', ');
   return `<span class="credit">${who} · <a href="${lic.url}" rel="license noopener" target="_blank">${lic.label}</a> · <a href="${esc(photo.source)}" rel="noopener" target="_blank">iNaturalist</a> · vist som udsnit${where ? `<span class="where"> · ${where}</span>` : ''}</span>`;
 }
 
@@ -315,7 +317,7 @@ function whereSection(d) {
 
 function sourcesSection(d) {
   const links = [];
-  if (d.wiki) links.push(`<li><a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">Wikipedia: ${esc(d.wiki.title)}</a></li>`);
+  if (d.wiki) links.push(`<li><a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">Artiklen på ${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a></li>`);
   if (d.inat?.id) links.push(`<li><a href="https://www.inaturalist.org/taxa/${d.inat.id}" rel="noopener" target="_blank">iNaturalist: ${esc(d.names.accepted)}</a>${d.inat.observations ? ` (${nf.format(d.inat.observations)} observationer)` : ''}</li>`);
   if (d.gbif?.key) links.push(`<li><a href="https://www.gbif.org/species/${d.gbif.key}" rel="noopener" target="_blank">GBIF: ${esc(d.names.accepted)}</a></li>`);
   if (d.wikidata?.id) links.push(`<li><a href="https://www.wikidata.org/wiki/${d.wikidata.id}" rel="noopener" target="_blank">Wikidata: ${d.wikidata.id}</a></li>`);
@@ -389,7 +391,7 @@ function rangeText(idx) {
 
 function speciesBody(d, { headingTag = 'h1', kicker = '' } = {}) {
   const name = displayName(d);
-  const alt = d.names.da && d.names.en ? `<span class="alt">${esc(d.names.en)}</span>` : '';
+  const alt = '';
   const rare = rarity(d) === 'sjaelden' || rarity(d) === 'meget-sjaelden';
   const tag = rare ? '<span class="tag rare">Sjælden gæst i Danmark</span>' : d.region === 'dk' ? '<span class="tag">Dansk fugl</span>' : '<span class="tag">Udenlandsk fugl</span>';
   const hero = d.photos?.hero ? figure(d.photos.hero, name, 'hero', true) : '';
@@ -948,7 +950,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
 <p>For de øvrige arter er beskrivelsen indledningen fra <a href="https://da.wikipedia.org" rel="noopener" target="_blank">dansk Wikipedia</a>. Findes der ikke en brugbar dansk artikel, er indledningen fra engelsk Wikipedia oversat til dansk og let bearbejdet (fx omregnet til metriske mål og med danske fuglenavn, hvor de findes); oversættelsen deles under samme licens. Teksten bruges under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a> med link til artiklen. I gætteleget bruges i stedet et kort uddrag med fuglens navn skjult, også under CC BY-SA 4.0.</p>
 <p>Sammenligningerne af arter, der ligner hinanden, er skrevet med egne ord ud fra <a href="https://snl.no" rel="noopener" target="_blank">Store norske leksikon</a> og andre opslagsværker. Kilderne står under hvert par.</p>
 <h2>Navne og status – Den danske liste og Wikidata</h2>
-<p>De danske navne på arter fra Den danske liste følger listen (Olsen, K. & Sjældenhedsudvalget 2025: The Danish List: A Checklist of the Birds of Denmark. Dansk Orn. Foren. Tidsskr. 119: 105–112). Det samme gælder, om en art regnes som sjælden gæst. Gamle eller andre navne står som »også kendt som«. Øvrige danske og engelske navne kommer fra <a href="https://www.wikidata.org" rel="noopener" target="_blank">Wikidata</a> (CC0) og i enkelte tilfælde fra GBIF.</p>
+<p>De danske navne på arter fra Den danske liste følger listen (Olsen, K. & Sjældenhedsudvalget 2025, Dansk Ornitologisk Forenings Tidsskrift 119: 105–112). Det samme gælder, om en art regnes som sjælden gæst. Gamle eller andre navne står som »også kendt som«. Øvrige danske navne kommer fra <a href="https://www.wikidata.org" rel="noopener" target="_blank">Wikidata</a> (CC0) og i enkelte tilfælde fra GBIF.</p>
 <h2>Kort og sæson – GBIF</h2>
 <p>Kort og fund pr. måned bygger på <a href="https://www.gbif.org" rel="noopener" target="_blank">GBIF – Global Biodiversity Information Facility</a>, som samler registrerede fund fra naturdatabaser og citizen science i hele verden. Tallene viser, hvor og hvornår fuglen er registreret – ikke nødvendigvis hvor mange fugle der er. Baggrundskortene er © <a href="https://www.openstreetmap.org/copyright" rel="noopener" target="_blank">OpenStreetMap</a>-bidragydere og © OpenMapTiles, leveret af GBIF.</p>
 <h2>Fuglestemmer – xeno-canto og Wikimedia Commons</h2>

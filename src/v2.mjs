@@ -308,7 +308,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
   <header class="head">${kicker}
     <div class="head-name">
       <${headingTag} class="name">${esc(name)}</${headingTag}>
-      <p class="names"><i>${esc(d.names.accepted)}</i>${d.names.da && d.names.en ? `<span>${esc(d.names.en)}</span>` : ''}${tag}</p>
+      <p class="names"><i>${esc(d.names.accepted)}</i>${tag}</p>
       ${d.navnenote ? `<p class="aka-head">${esc(d.navnenote)}</p>` : (akaNames(d).length ? `<p class="aka-head">Også kendt som ${akaNames(d).map((a) => `<b>${esc(a)}</b>`).join(akaNames(d).length > 2 ? ', ' : ' og ').replace(/, (?=[^,]*$)/, ' og ')}.</p>` : '')}
       ${now ? `<p class="now now-${now.level}"><span class="dot" aria-hidden="true"></span><strong>${esc(now.text)}</strong>${now.more ? ` <span>${esc(now.more)}</span>` : ''}</p>` : ''}
     </div>
