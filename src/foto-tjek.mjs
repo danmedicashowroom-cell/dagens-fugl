@@ -29,12 +29,17 @@ for (const t of terms) {
 console.log('Annoteringer der tjekkes:', wanted.map((w) => w[2]).join(', '));
 const flagged = [];
 const taxa = [...new Set(brugt.map((x) => x.inat).filter(Boolean))];
-for (const tx of taxa) {
+for (let b = 0; b < taxa.length; b += 60) {
+  const tx = taxa.slice(b, b + 60).join(',');
   for (const [tid, vid, label] of wanted) {
-    const d = await json(`https://api.inaturalist.org/v1/observations?taxon_id=${tx}&term_id=${tid}&term_value_id=${vid}&per_page=200&only_id=false`);
-    await sleep(1100);
-    for (const o of d?.results || []) for (const ph of o.photos || []) if (ids.has(ph.id)) flagged.push({ id: ph.id, label, obs: o.id });
+    for (let page = 1; page <= 50; page++) {
+      const d = await json(`https://api.inaturalist.org/v1/observations?taxon_id=${tx}&term_id=${tid}&term_value_id=${vid}&photos=true&per_page=200&page=${page}&order_by=id`);
+      await sleep(1100);
+      for (const o of d?.results || []) for (const ph of o.photos || []) if (ids.has(ph.id)) flagged.push({ id: ph.id, label, obs: o.id });
+      if (!d || (d.results || []).length < 200) break;
+    }
   }
+  console.log(`  ${Math.min(b + 60, taxa.length)}/${taxa.length} arter tjekket, ${flagged.length} fundet`);
 }
 fs.writeFileSync('tjek/annoteret.json', JSON.stringify(flagged, null, 1));
 console.log(`Annoterede fotos i brug: ${flagged.length}`);
