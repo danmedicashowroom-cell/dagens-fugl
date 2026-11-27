@@ -143,6 +143,14 @@ const CATEGORIES = [
   { key: 'general', term: null, value: null },
 ];
 
+// Spring observationer over, der er annoteret som æg, fjer, rede, knogler, spor, ekskrementer, fældning eller død fugl
+// (iNaturalist: 22 = Evidence of Presence, 24 = Organism; 17 = Alive or Dead, 19 = Dead; 1 = Life Stage, 7 = Egg)
+function ikkeLevendeFugl(obs) {
+  return (obs.annotations || []).some((a) => (a.controlled_attribute_id === 22 && a.controlled_value_id !== 24)
+    || (a.controlled_attribute_id === 17 && a.controlled_value_id === 19)
+    || (a.controlled_attribute_id === 1 && a.controlled_value_id === 7));
+}
+
 async function inatPhotos(taxonId, seen) {
   const out = {};
   for (const c of CATEGORIES) {
@@ -153,6 +161,7 @@ async function inatPhotos(taxonId, seen) {
     const list = [];
     for (const obs of d?.results || []) {
       if (obs.taxon && obs.taxon.id !== taxonId && !obs.taxon.ancestor_ids?.includes(taxonId)) continue;
+      if (ikkeLevendeFugl(obs)) continue;
       for (const p of obs.photos || []) {
         const ph = cleanPhoto(p, obs);
         if (ph && !seen.has(ph.id)) { seen.add(ph.id); list.push(ph); break; } // ét foto pr. observation
