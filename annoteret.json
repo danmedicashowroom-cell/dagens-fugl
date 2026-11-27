@@ -1,0 +1,1442 @@
+[
+ {
+  "id": 711181815,
+  "label": "Alive or Dead: Dead",
+  "obs": 388318099
+ },
+ {
+  "id": 659185819,
+  "label": "Alive or Dead: Dead",
+  "obs": 361209334
+ },
+ {
+  "id": 585489880,
+  "label": "Alive or Dead: Dead",
+  "obs": 323564831
+ },
+ {
+  "id": 488878634,
+  "label": "Alive or Dead: Dead",
+  "obs": 271768993
+ },
+ {
+  "id": 281923519,
+  "label": "Alive or Dead: Dead",
+  "obs": 163024002
+ },
+ {
+  "id": 711181815,
+  "label": "Evidence of Presence: Feather",
+  "obs": 388318099
+ },
+ {
+  "id": 260099769,
+  "label": "Evidence of Presence: Scat",
+  "obs": 150801403
+ },
+ {
+  "id": 659185819,
+  "label": "Evidence of Presence: Bone",
+  "obs": 361209334
+ },
+ {
+  "id": 641177829,
+  "label": "Evidence of Presence: Bone",
+  "obs": 351359841
+ },
+ {
+  "id": 469239993,
+  "label": "Evidence of Presence: Construction",
+  "obs": 261214571
+ },
+ {
+  "id": 411315483,
+  "label": "Evidence of Presence: Construction",
+  "obs": 231572707
+ },
+ {
+  "id": 350135160,
+  "label": "Evidence of Presence: Construction",
+  "obs": 198630842
+ },
+ {
+  "id": 266157397,
+  "label": "Evidence of Presence: Construction",
+  "obs": 154058188
+ },
+ {
+  "id": 260099769,
+  "label": "Evidence of Presence: Construction",
+  "obs": 150801403
+ },
+ {
+  "id": 76043830,
+  "label": "Evidence of Presence: Construction",
+  "obs": 47937172
+ },
+ {
+  "id": 71688845,
+  "label": "Evidence of Presence: Construction",
+  "obs": 45215339
+ },
+ {
+  "id": 614698887,
+  "label": "Alive or Dead: Dead",
+  "obs": 338060755
+ },
+ {
+  "id": 406472093,
+  "label": "Alive or Dead: Dead",
+  "obs": 229013924
+ },
+ {
+  "id": 364764300,
+  "label": "Alive or Dead: Dead",
+  "obs": 206244573
+ },
+ {
+  "id": 203780707,
+  "label": "Alive or Dead: Dead",
+  "obs": 120480844
+ },
+ {
+  "id": 487945884,
+  "label": "Life Stage: Egg",
+  "obs": 271274576
+ },
+ {
+  "id": 77035732,
+  "label": "Life Stage: Egg",
+  "obs": 48545473
+ },
+ {
+  "id": 659686060,
+  "label": "Evidence of Presence: Feather",
+  "obs": 361471989
+ },
+ {
+  "id": 441346201,
+  "label": "Evidence of Presence: Scat",
+  "obs": 247148366
+ },
+ {
+  "id": 275561375,
+  "label": "Evidence of Presence: Scat",
+  "obs": 159491608
+ },
+ {
+  "id": 289334247,
+  "label": "Evidence of Presence: Track",
+  "obs": 167047957
+ },
+ {
+  "id": 266802618,
+  "label": "Evidence of Presence: Track",
+  "obs": 154410422
+ },
+ {
+  "id": 208895727,
+  "label": "Evidence of Presence: Track",
+  "obs": 123317836
+ },
+ {
+  "id": 636535426,
+  "label": "Evidence of Presence: Egg",
+  "obs": 348974854
+ },
+ {
+  "id": 620353503,
+  "label": "Evidence of Presence: Egg",
+  "obs": 340847979
+ },
+ {
+  "id": 127379042,
+  "label": "Evidence of Presence: Egg",
+  "obs": 77865881
+ },
+ {
+  "id": 697896235,
+  "label": "Evidence of Presence: Construction",
+  "obs": 381414989
+ },
+ {
+  "id": 659686060,
+  "label": "Evidence of Presence: Construction",
+  "obs": 361471989
+ },
+ {
+  "id": 609201232,
+  "label": "Evidence of Presence: Construction",
+  "obs": 335353866
+ },
+ {
+  "id": 586054633,
+  "label": "Evidence of Presence: Construction",
+  "obs": 323854249
+ },
+ {
+  "id": 529817494,
+  "label": "Evidence of Presence: Construction",
+  "obs": 294353911
+ },
+ {
+  "id": 482659123,
+  "label": "Evidence of Presence: Construction",
+  "obs": 268509128
+ },
+ {
+  "id": 410101130,
+  "label": "Evidence of Presence: Construction",
+  "obs": 230934612
+ },
+ {
+  "id": 127379042,
+  "label": "Evidence of Presence: Construction",
+  "obs": 77865881
+ },
+ {
+  "id": 72137625,
+  "label": "Evidence of Presence: Construction",
+  "obs": 34505694
+ },
+ {
+  "id": 6745239,
+  "label": "Evidence of Presence: Construction",
+  "obs": 5477657
+ },
+ {
+  "id": 472680896,
+  "label": "Alive or Dead: Dead",
+  "obs": 263143009
+ },
+ {
+  "id": 469337887,
+  "label": "Alive or Dead: Dead",
+  "obs": 261261930
+ },
+ {
+  "id": 446162183,
+  "label": "Alive or Dead: Dead",
+  "obs": 249574000
+ },
+ {
+  "id": 418598623,
+  "label": "Alive or Dead: Dead",
+  "obs": 235380564
+ },
+ {
+  "id": 397591795,
+  "label": "Alive or Dead: Dead",
+  "obs": 224334751
+ },
+ {
+  "id": 397590481,
+  "label": "Alive or Dead: Dead",
+  "obs": 224334122
+ },
+ {
+  "id": 333217135,
+  "label": "Alive or Dead: Dead",
+  "obs": 190121340
+ },
+ {
+  "id": 308645919,
+  "label": "Alive or Dead: Dead",
+  "obs": 177458939
+ },
+ {
+  "id": 253383354,
+  "label": "Alive or Dead: Dead",
+  "obs": 147270040
+ },
+ {
+  "id": 208343860,
+  "label": "Alive or Dead: Dead",
+  "obs": 123012323
+ },
+ {
+  "id": 206990355,
+  "label": "Alive or Dead: Dead",
+  "obs": 122263975
+ },
+ {
+  "id": 184593275,
+  "label": "Alive or Dead: Dead",
+  "obs": 109514990
+ },
+ {
+  "id": 167330512,
+  "label": "Alive or Dead: Dead",
+  "obs": 100269663
+ },
+ {
+  "id": 65441616,
+  "label": "Alive or Dead: Dead",
+  "obs": 41262155
+ },
+ {
+  "id": 57192561,
+  "label": "Alive or Dead: Dead",
+  "obs": 36199047
+ },
+ {
+  "id": 247078198,
+  "label": "Life Stage: Egg",
+  "obs": 144010263
+ },
+ {
+  "id": 1382768,
+  "label": "Life Stage: Egg",
+  "obs": 1047887
+ },
+ {
+  "id": 472680896,
+  "label": "Evidence of Presence: Feather",
+  "obs": 263143009
+ },
+ {
+  "id": 469337887,
+  "label": "Evidence of Presence: Feather",
+  "obs": 261261930
+ },
+ {
+  "id": 369722145,
+  "label": "Evidence of Presence: Scat",
+  "obs": 208940628
+ },
+ {
+  "id": 369722145,
+  "label": "Evidence of Presence: Track",
+  "obs": 208940628
+ },
+ {
+  "id": 579333007,
+  "label": "Evidence of Presence: Egg",
+  "obs": 320422786
+ },
+ {
+  "id": 62309923,
+  "label": "Evidence of Presence: Egg",
+  "obs": 37591923
+ },
+ {
+  "id": 542711797,
+  "label": "Evidence of Presence: Construction",
+  "obs": 301193929
+ },
+ {
+  "id": 501991072,
+  "label": "Alive or Dead: Dead",
+  "obs": 279545274
+ },
+ {
+  "id": 472853858,
+  "label": "Alive or Dead: Dead",
+  "obs": 263231419
+ },
+ {
+  "id": 404954911,
+  "label": "Alive or Dead: Dead",
+  "obs": 228215444
+ },
+ {
+  "id": 401865484,
+  "label": "Alive or Dead: Dead",
+  "obs": 226581970
+ },
+ {
+  "id": 387174348,
+  "label": "Alive or Dead: Dead",
+  "obs": 218779650
+ },
+ {
+  "id": 363347234,
+  "label": "Alive or Dead: Dead",
+  "obs": 205456256
+ },
+ {
+  "id": 359984216,
+  "label": "Alive or Dead: Dead",
+  "obs": 203722500
+ },
+ {
+  "id": 357391547,
+  "label": "Alive or Dead: Dead",
+  "obs": 202366367
+ },
+ {
+  "id": 298586550,
+  "label": "Alive or Dead: Dead",
+  "obs": 172033340
+ },
+ {
+  "id": 290875038,
+  "label": "Alive or Dead: Dead",
+  "obs": 167879174
+ },
+ {
+  "id": 244127713,
+  "label": "Life Stage: Egg",
+  "obs": 142404042
+ },
+ {
+  "id": 22200953,
+  "label": "Life Stage: Egg",
+  "obs": 14872905
+ },
+ {
+  "id": 518521117,
+  "label": "Evidence of Presence: Feather",
+  "obs": 288337997
+ },
+ {
+  "id": 472853858,
+  "label": "Evidence of Presence: Feather",
+  "obs": 263231419
+ },
+ {
+  "id": 717884932,
+  "label": "Evidence of Presence: Scat",
+  "obs": 391764730
+ },
+ {
+  "id": 350241850,
+  "label": "Evidence of Presence: Track",
+  "obs": 198685560
+ },
+ {
+  "id": 472853858,
+  "label": "Evidence of Presence: Bone",
+  "obs": 263231419
+ },
+ {
+  "id": 212498796,
+  "label": "Evidence of Presence: Bone",
+  "obs": 125311999
+ },
+ {
+  "id": 717884932,
+  "label": "Evidence of Presence: Egg",
+  "obs": 391764730
+ },
+ {
+  "id": 422215905,
+  "label": "Evidence of Presence: Egg",
+  "obs": 237256660
+ },
+ {
+  "id": 350241850,
+  "label": "Evidence of Presence: Egg",
+  "obs": 198685560
+ },
+ {
+  "id": 132957747,
+  "label": "Evidence of Presence: Egg",
+  "obs": 81085130
+ },
+ {
+  "id": 502617415,
+  "label": "Evidence of Presence: Construction",
+  "obs": 279874481
+ },
+ {
+  "id": 422215905,
+  "label": "Evidence of Presence: Construction",
+  "obs": 237256660
+ },
+ {
+  "id": 350241850,
+  "label": "Evidence of Presence: Construction",
+  "obs": 198685560
+ },
+ {
+  "id": 742927940,
+  "label": "Alive or Dead: Dead",
+  "obs": 404545515
+ },
+ {
+  "id": 656790328,
+  "label": "Alive or Dead: Dead",
+  "obs": 359957609
+ },
+ {
+  "id": 607034162,
+  "label": "Alive or Dead: Dead",
+  "obs": 334290962
+ },
+ {
+  "id": 440244259,
+  "label": "Alive or Dead: Dead",
+  "obs": 246586118
+ },
+ {
+  "id": 349214360,
+  "label": "Alive or Dead: Dead",
+  "obs": 198168597
+ },
+ {
+  "id": 299703093,
+  "label": "Alive or Dead: Dead",
+  "obs": 172628905
+ },
+ {
+  "id": 285315882,
+  "label": "Alive or Dead: Dead",
+  "obs": 164868374
+ },
+ {
+  "id": 270119612,
+  "label": "Alive or Dead: Dead",
+  "obs": 156228740
+ },
+ {
+  "id": 243319637,
+  "label": "Alive or Dead: Dead",
+  "obs": 141967648
+ },
+ {
+  "id": 243319518,
+  "label": "Alive or Dead: Dead",
+  "obs": 141967616
+ },
+ {
+  "id": 19672276,
+  "label": "Life Stage: Egg",
+  "obs": 13410070
+ },
+ {
+  "id": 65991573,
+  "label": "Evidence of Presence: Feather",
+  "obs": 41592036
+ },
+ {
+  "id": 24116527,
+  "label": "Evidence of Presence: Feather",
+  "obs": 16098821
+ },
+ {
+  "id": 644807841,
+  "label": "Evidence of Presence: Scat",
+  "obs": 353384670
+ },
+ {
+  "id": 133962880,
+  "label": "Evidence of Presence: Scat",
+  "obs": 81664989
+ },
+ {
+  "id": 705085732,
+  "label": "Evidence of Presence: Egg",
+  "obs": 385145129
+ },
+ {
+  "id": 542203811,
+  "label": "Evidence of Presence: Egg",
+  "obs": 300907464
+ },
+ {
+  "id": 19672276,
+  "label": "Evidence of Presence: Egg",
+  "obs": 13410070
+ },
+ {
+  "id": 684406506,
+  "label": "Evidence of Presence: Construction",
+  "obs": 374440675
+ },
+ {
+  "id": 639912784,
+  "label": "Evidence of Presence: Construction",
+  "obs": 350699011
+ },
+ {
+  "id": 609913481,
+  "label": "Evidence of Presence: Construction",
+  "obs": 335707698
+ },
+ {
+  "id": 542203811,
+  "label": "Evidence of Presence: Construction",
+  "obs": 300907464
+ },
+ {
+  "id": 398212687,
+  "label": "Evidence of Presence: Construction",
+  "obs": 224667158
+ },
+ {
+  "id": 370658248,
+  "label": "Evidence of Presence: Construction",
+  "obs": 209455960
+ },
+ {
+  "id": 430271195,
+  "label": "Evidence of Presence: Construction",
+  "obs": 203744512
+ },
+ {
+  "id": 309250172,
+  "label": "Evidence of Presence: Construction",
+  "obs": 177780550
+ },
+ {
+  "id": 279813252,
+  "label": "Evidence of Presence: Construction",
+  "obs": 161864154
+ },
+ {
+  "id": 19672276,
+  "label": "Evidence of Presence: Construction",
+  "obs": 13410070
+ },
+ {
+  "id": 392797964,
+  "label": "Alive or Dead: Dead",
+  "obs": 221785286
+ },
+ {
+  "id": 507831146,
+  "label": "Evidence of Presence: Scat",
+  "obs": 282651786
+ },
+ {
+  "id": 482850306,
+  "label": "Evidence of Presence: Scat",
+  "obs": 268612600
+ },
+ {
+  "id": 1181119,
+  "label": "Evidence of Presence: Scat",
+  "obs": 943767
+ },
+ {
+  "id": 286150410,
+  "label": "Evidence of Presence: Track",
+  "obs": 165314765
+ },
+ {
+  "id": 4383908,
+  "label": "Evidence of Presence: Track",
+  "obs": 3763181
+ },
+ {
+  "id": 613667059,
+  "label": "Evidence of Presence: Egg",
+  "obs": 337559020
+ },
+ {
+  "id": 628138856,
+  "label": "Evidence of Presence: Construction",
+  "obs": 344722756
+ },
+ {
+  "id": 585929436,
+  "label": "Evidence of Presence: Construction",
+  "obs": 312423643
+ },
+ {
+  "id": 541907585,
+  "label": "Evidence of Presence: Construction",
+  "obs": 300751506
+ },
+ {
+  "id": 507831146,
+  "label": "Evidence of Presence: Construction",
+  "obs": 282651786
+ },
+ {
+  "id": 482850306,
+  "label": "Evidence of Presence: Construction",
+  "obs": 268612600
+ },
+ {
+  "id": 337826368,
+  "label": "Evidence of Presence: Construction",
+  "obs": 192441901
+ },
+ {
+  "id": 239065057,
+  "label": "Evidence of Presence: Construction",
+  "obs": 139737916
+ },
+ {
+  "id": 712090348,
+  "label": "Alive or Dead: Dead",
+  "obs": 388782739
+ },
+ {
+  "id": 690446954,
+  "label": "Alive or Dead: Dead",
+  "obs": 377559981
+ },
+ {
+  "id": 617732201,
+  "label": "Alive or Dead: Dead",
+  "obs": 339557495
+ },
+ {
+  "id": 610700173,
+  "label": "Alive or Dead: Dead",
+  "obs": 336099348
+ },
+ {
+  "id": 580238040,
+  "label": "Alive or Dead: Dead",
+  "obs": 320883434
+ },
+ {
+  "id": 448019690,
+  "label": "Alive or Dead: Dead",
+  "obs": 250497883
+ },
+ {
+  "id": 398264843,
+  "label": "Alive or Dead: Dead",
+  "obs": 224691856
+ },
+ {
+  "id": 360450181,
+  "label": "Alive or Dead: Dead",
+  "obs": 203965996
+ },
+ {
+  "id": 308893360,
+  "label": "Alive or Dead: Dead",
+  "obs": 177591366
+ },
+ {
+  "id": 263966403,
+  "label": "Alive or Dead: Dead",
+  "obs": 152878675
+ },
+ {
+  "id": 202021795,
+  "label": "Alive or Dead: Dead",
+  "obs": 119504733
+ },
+ {
+  "id": 150645731,
+  "label": "Alive or Dead: Dead",
+  "obs": 91105616
+ },
+ {
+  "id": 690446954,
+  "label": "Evidence of Presence: Feather",
+  "obs": 377559981
+ },
+ {
+  "id": 514121372,
+  "label": "Evidence of Presence: Scat",
+  "obs": 286008481
+ },
+ {
+  "id": 676412013,
+  "label": "Evidence of Presence: Track",
+  "obs": 370264027
+ },
+ {
+  "id": 690446954,
+  "label": "Evidence of Presence: Bone",
+  "obs": 377559981
+ },
+ {
+  "id": 620301547,
+  "label": "Evidence of Presence: Construction",
+  "obs": 340822551
+ },
+ {
+  "id": 595925499,
+  "label": "Evidence of Presence: Construction",
+  "obs": 328820612
+ },
+ {
+  "id": 750081249,
+  "label": "Alive or Dead: Dead",
+  "obs": 408095845
+ },
+ {
+  "id": 673848547,
+  "label": "Alive or Dead: Dead",
+  "obs": 368917053
+ },
+ {
+  "id": 491136433,
+  "label": "Alive or Dead: Dead",
+  "obs": 273021748
+ },
+ {
+  "id": 453560021,
+  "label": "Alive or Dead: Dead",
+  "obs": 253322287
+ },
+ {
+  "id": 422279466,
+  "label": "Alive or Dead: Dead",
+  "obs": 237292567
+ },
+ {
+  "id": 414640389,
+  "label": "Alive or Dead: Dead",
+  "obs": 233321900
+ },
+ {
+  "id": 407664342,
+  "label": "Alive or Dead: Dead",
+  "obs": 229647362
+ },
+ {
+  "id": 398648443,
+  "label": "Alive or Dead: Dead",
+  "obs": 224891100
+ },
+ {
+  "id": 315673292,
+  "label": "Alive or Dead: Dead",
+  "obs": 181150337
+ },
+ {
+  "id": 306801736,
+  "label": "Alive or Dead: Dead",
+  "obs": 176468826
+ },
+ {
+  "id": 306801832,
+  "label": "Alive or Dead: Dead",
+  "obs": 176468826
+ },
+ {
+  "id": 290509984,
+  "label": "Alive or Dead: Dead",
+  "obs": 167681341
+ },
+ {
+  "id": 700072434,
+  "label": "Evidence of Presence: Feather",
+  "obs": 382544229
+ },
+ {
+  "id": 627956571,
+  "label": "Evidence of Presence: Scat",
+  "obs": 344627533
+ },
+ {
+  "id": 618425401,
+  "label": "Evidence of Presence: Scat",
+  "obs": 339899897
+ },
+ {
+  "id": 445430356,
+  "label": "Evidence of Presence: Scat",
+  "obs": 249207097
+ },
+ {
+  "id": 271372019,
+  "label": "Evidence of Presence: Track",
+  "obs": 156913990
+ },
+ {
+  "id": 4765811,
+  "label": "Evidence of Presence: Track",
+  "obs": 4030878
+ },
+ {
+  "id": 650895590,
+  "label": "Evidence of Presence: Egg",
+  "obs": 356905317
+ },
+ {
+  "id": 706268061,
+  "label": "Evidence of Presence: Construction",
+  "obs": 385774419
+ },
+ {
+  "id": 575708700,
+  "label": "Evidence of Presence: Construction",
+  "obs": 318500602
+ },
+ {
+  "id": 559260433,
+  "label": "Evidence of Presence: Construction",
+  "obs": 309892579
+ },
+ {
+  "id": 300482847,
+  "label": "Evidence of Presence: Construction",
+  "obs": 173064606
+ },
+ {
+  "id": 657288332,
+  "label": "Alive or Dead: Dead",
+  "obs": 360218452
+ },
+ {
+  "id": 308334154,
+  "label": "Alive or Dead: Dead",
+  "obs": 177292309
+ },
+ {
+  "id": 270149608,
+  "label": "Alive or Dead: Dead",
+  "obs": 156242649
+ },
+ {
+  "id": 109854940,
+  "label": "Life Stage: Egg",
+  "obs": 67916827
+ },
+ {
+  "id": 80639935,
+  "label": "Life Stage: Egg",
+  "obs": 50770379
+ },
+ {
+  "id": 698950908,
+  "label": "Evidence of Presence: Feather",
+  "obs": 381957024
+ },
+ {
+  "id": 264975564,
+  "label": "Evidence of Presence: Scat",
+  "obs": 153417721
+ },
+ {
+  "id": 367578032,
+  "label": "Evidence of Presence: Track",
+  "obs": 207787696
+ },
+ {
+  "id": 168689320,
+  "label": "Evidence of Presence: Track",
+  "obs": 101033710
+ },
+ {
+  "id": 488568756,
+  "label": "Evidence of Presence: Egg",
+  "obs": 271617743
+ },
+ {
+  "id": 109854940,
+  "label": "Evidence of Presence: Egg",
+  "obs": 67916827
+ },
+ {
+  "id": 80639935,
+  "label": "Evidence of Presence: Egg",
+  "obs": 50770379
+ },
+ {
+  "id": 627522833,
+  "label": "Evidence of Presence: Construction",
+  "obs": 344403266
+ },
+ {
+  "id": 556630222,
+  "label": "Evidence of Presence: Construction",
+  "obs": 308527308
+ },
+ {
+  "id": 487803573,
+  "label": "Evidence of Presence: Construction",
+  "obs": 271196435
+ },
+ {
+  "id": 487107994,
+  "label": "Evidence of Presence: Construction",
+  "obs": 270829134
+ },
+ {
+  "id": 382707930,
+  "label": "Evidence of Presence: Construction",
+  "obs": 216401026
+ },
+ {
+  "id": 301919822,
+  "label": "Evidence of Presence: Construction",
+  "obs": 173831300
+ },
+ {
+  "id": 264975564,
+  "label": "Evidence of Presence: Construction",
+  "obs": 153417721
+ },
+ {
+  "id": 115977699,
+  "label": "Evidence of Presence: Construction",
+  "obs": 71256420
+ },
+ {
+  "id": 95158751,
+  "label": "Evidence of Presence: Construction",
+  "obs": 59550572
+ },
+ {
+  "id": 80639935,
+  "label": "Evidence of Presence: Construction",
+  "obs": 50770379
+ },
+ {
+  "id": 77693131,
+  "label": "Evidence of Presence: Construction",
+  "obs": 48951712
+ },
+ {
+  "id": 761707059,
+  "label": "Alive or Dead: Dead",
+  "obs": 413828622
+ },
+ {
+  "id": 697655017,
+  "label": "Alive or Dead: Dead",
+  "obs": 381289144
+ },
+ {
+  "id": 624125328,
+  "label": "Alive or Dead: Dead",
+  "obs": 342703198
+ },
+ {
+  "id": 485413697,
+  "label": "Alive or Dead: Dead",
+  "obs": 269941685
+ },
+ {
+  "id": 479875775,
+  "label": "Alive or Dead: Dead",
+  "obs": 267055114
+ },
+ {
+  "id": 460175609,
+  "label": "Alive or Dead: Dead",
+  "obs": 256632028
+ },
+ {
+  "id": 424261840,
+  "label": "Alive or Dead: Dead",
+  "obs": 238313873
+ },
+ {
+  "id": 401723788,
+  "label": "Alive or Dead: Dead",
+  "obs": 226508085
+ },
+ {
+  "id": 624125328,
+  "label": "Evidence of Presence: Feather",
+  "obs": 342703198
+ },
+ {
+  "id": 535289189,
+  "label": "Evidence of Presence: Feather",
+  "obs": 297233582
+ },
+ {
+  "id": 417028765,
+  "label": "Evidence of Presence: Feather",
+  "obs": 234584113
+ },
+ {
+  "id": 409856266,
+  "label": "Evidence of Presence: Feather",
+  "obs": 230809461
+ },
+ {
+  "id": 417028765,
+  "label": "Evidence of Presence: Track",
+  "obs": 234584113
+ },
+ {
+  "id": 382755511,
+  "label": "Evidence of Presence: Construction",
+  "obs": 216423714
+ },
+ {
+  "id": 132372386,
+  "label": "Evidence of Presence: Construction",
+  "obs": 80748616
+ },
+ {
+  "id": 751188697,
+  "label": "Alive or Dead: Dead",
+  "obs": 408632783
+ },
+ {
+  "id": 634090841,
+  "label": "Alive or Dead: Dead",
+  "obs": 347739633
+ },
+ {
+  "id": 450241453,
+  "label": "Alive or Dead: Dead",
+  "obs": 251613180
+ },
+ {
+  "id": 349048969,
+  "label": "Alive or Dead: Dead",
+  "obs": 198085505
+ },
+ {
+  "id": 324367357,
+  "label": "Alive or Dead: Dead",
+  "obs": 185700201
+ },
+ {
+  "id": 316201264,
+  "label": "Alive or Dead: Dead",
+  "obs": 181454845
+ },
+ {
+  "id": 286540659,
+  "label": "Alive or Dead: Dead",
+  "obs": 165528528
+ },
+ {
+  "id": 252135846,
+  "label": "Alive or Dead: Dead",
+  "obs": 146634082
+ },
+ {
+  "id": 237158116,
+  "label": "Alive or Dead: Dead",
+  "obs": 138729739
+ },
+ {
+  "id": 224331507,
+  "label": "Alive or Dead: Dead",
+  "obs": 131792244
+ },
+ {
+  "id": 177337799,
+  "label": "Alive or Dead: Dead",
+  "obs": 105663291
+ },
+ {
+  "id": 98701592,
+  "label": "Alive or Dead: Dead",
+  "obs": 61666347
+ },
+ {
+  "id": 450241453,
+  "label": "Evidence of Presence: Feather",
+  "obs": 251613180
+ },
+ {
+  "id": 316201264,
+  "label": "Evidence of Presence: Feather",
+  "obs": 181454845
+ },
+ {
+  "id": 227146534,
+  "label": "Evidence of Presence: Feather",
+  "obs": 133360168
+ },
+ {
+  "id": 242231106,
+  "label": "Evidence of Presence: Feather",
+  "obs": 133360168
+ },
+ {
+  "id": 175292728,
+  "label": "Evidence of Presence: Feather",
+  "obs": 104585413
+ },
+ {
+  "id": 237158116,
+  "label": "Evidence of Presence: Scat",
+  "obs": 138729739
+ },
+ {
+  "id": 98701592,
+  "label": "Evidence of Presence: Bone",
+  "obs": 61666347
+ },
+ {
+  "id": 72559108,
+  "label": "Evidence of Presence: Egg",
+  "obs": 45750705
+ },
+ {
+  "id": 697058691,
+  "label": "Evidence of Presence: Construction",
+  "obs": 380980110
+ },
+ {
+  "id": 618659660,
+  "label": "Evidence of Presence: Construction",
+  "obs": 340014350
+ },
+ {
+  "id": 527037590,
+  "label": "Evidence of Presence: Construction",
+  "obs": 292845055
+ },
+ {
+  "id": 509867367,
+  "label": "Evidence of Presence: Construction",
+  "obs": 283745025
+ },
+ {
+  "id": 492560935,
+  "label": "Evidence of Presence: Construction",
+  "obs": 273941158
+ },
+ {
+  "id": 367734636,
+  "label": "Evidence of Presence: Construction",
+  "obs": 207870815
+ },
+ {
+  "id": 362316753,
+  "label": "Evidence of Presence: Construction",
+  "obs": 204948307
+ },
+ {
+  "id": 293191681,
+  "label": "Evidence of Presence: Construction",
+  "obs": 169136785
+ },
+ {
+  "id": 191194754,
+  "label": "Evidence of Presence: Construction",
+  "obs": 113159870
+ },
+ {
+  "id": 156445107,
+  "label": "Evidence of Presence: Construction",
+  "obs": 94317710
+ },
+ {
+  "id": 712623853,
+  "label": "Alive or Dead: Dead",
+  "obs": 389066122
+ },
+ {
+  "id": 710403942,
+  "label": "Alive or Dead: Dead",
+  "obs": 387927749
+ },
+ {
+  "id": 704153923,
+  "label": "Alive or Dead: Dead",
+  "obs": 384663131
+ },
+ {
+  "id": 653503694,
+  "label": "Alive or Dead: Dead",
+  "obs": 358245342
+ },
+ {
+  "id": 622090674,
+  "label": "Alive or Dead: Dead",
+  "obs": 341691374
+ },
+ {
+  "id": 607159845,
+  "label": "Alive or Dead: Dead",
+  "obs": 334350197
+ },
+ {
+  "id": 531939068,
+  "label": "Alive or Dead: Dead",
+  "obs": 295480969
+ },
+ {
+  "id": 511009681,
+  "label": "Alive or Dead: Dead",
+  "obs": 284349456
+ },
+ {
+  "id": 480703005,
+  "label": "Alive or Dead: Dead",
+  "obs": 267485520
+ },
+ {
+  "id": 457464317,
+  "label": "Alive or Dead: Dead",
+  "obs": 255284350
+ },
+ {
+  "id": 455635730,
+  "label": "Alive or Dead: Dead",
+  "obs": 254385840
+ },
+ {
+  "id": 448379880,
+  "label": "Alive or Dead: Dead",
+  "obs": 250676359
+ },
+ {
+  "id": 256046769,
+  "label": "Alive or Dead: Dead",
+  "obs": 148661658
+ },
+ {
+  "id": 253608392,
+  "label": "Alive or Dead: Dead",
+  "obs": 147388283
+ },
+ {
+  "id": 185075770,
+  "label": "Alive or Dead: Dead",
+  "obs": 109774155
+ },
+ {
+  "id": 356946060,
+  "label": "Life Stage: Egg",
+  "obs": 202137415
+ },
+ {
+  "id": 120447406,
+  "label": "Life Stage: Egg",
+  "obs": 73750937
+ },
+ {
+  "id": 457464317,
+  "label": "Evidence of Presence: Feather",
+  "obs": 255284350
+ },
+ {
+  "id": 253608392,
+  "label": "Evidence of Presence: Bone",
+  "obs": 147388283
+ },
+ {
+  "id": 516128702,
+  "label": "Evidence of Presence: Egg",
+  "obs": 287062045
+ },
+ {
+  "id": 120447406,
+  "label": "Evidence of Presence: Egg",
+  "obs": 73750937
+ },
+ {
+  "id": 676394686,
+  "label": "Evidence of Presence: Construction",
+  "obs": 370256044
+ },
+ {
+  "id": 664982928,
+  "label": "Evidence of Presence: Construction",
+  "obs": 364266630
+ },
+ {
+  "id": 600331298,
+  "label": "Evidence of Presence: Construction",
+  "obs": 330987155
+ },
+ {
+  "id": 438903302,
+  "label": "Evidence of Presence: Construction",
+  "obs": 245912210
+ },
+ {
+  "id": 426864121,
+  "label": "Evidence of Presence: Construction",
+  "obs": 239663955
+ },
+ {
+  "id": 123196245,
+  "label": "Evidence of Presence: Construction",
+  "obs": 75313436
+ },
+ {
+  "id": 118608463,
+  "label": "Evidence of Presence: Construction",
+  "obs": 72719516
+ },
+ {
+  "id": 608046974,
+  "label": "Alive or Dead: Dead",
+  "obs": 334787727
+ },
+ {
+  "id": 562610080,
+  "label": "Alive or Dead: Dead",
+  "obs": 311648778
+ },
+ {
+  "id": 322398520,
+  "label": "Alive or Dead: Dead",
+  "obs": 184671470
+ },
+ {
+  "id": 211252180,
+  "label": "Alive or Dead: Dead",
+  "obs": 124624737
+ },
+ {
+  "id": 133657666,
+  "label": "Alive or Dead: Dead",
+  "obs": 81484113
+ },
+ {
+  "id": 81805698,
+  "label": "Alive or Dead: Dead",
+  "obs": 70937610
+ },
+ {
+  "id": 111818989,
+  "label": "Alive or Dead: Dead",
+  "obs": 68975495
+ },
+ {
+  "id": 11696466,
+  "label": "Life Stage: Egg",
+  "obs": 8720256
+ },
+ {
+  "id": 694069712,
+  "label": "Evidence of Presence: Feather",
+  "obs": 379439050
+ },
+ {
+  "id": 322398520,
+  "label": "Evidence of Presence: Feather",
+  "obs": 184671470
+ },
+ {
+  "id": 694069712,
+  "label": "Evidence of Presence: Scat",
+  "obs": 379439050
+ },
+ {
+  "id": 507234685,
+  "label": "Evidence of Presence: Scat",
+  "obs": 282327352
+ },
+ {
+  "id": 11696466,
+  "label": "Evidence of Presence: Egg",
+  "obs": 8720256
+ },
+ {
+  "id": 632748466,
+  "label": "Evidence of Presence: Construction",
+  "obs": 347065599
+ },
+ {
+  "id": 591935984,
+  "label": "Evidence of Presence: Construction",
+  "obs": 326797500
+ },
+ {
+  "id": 507234685,
+  "label": "Evidence of Presence: Construction",
+  "obs": 282327352
+ },
+ {
+  "id": 11696466,
+  "label": "Evidence of Presence: Construction",
+  "obs": 8720256
+ },
+ {
+  "id": 42235011,
+  "label": "Alive or Dead: Dead",
+  "obs": 27163802
+ },
+ {
+  "id": 712462500,
+  "label": "Evidence of Presence: Construction",
+  "obs": 388969718
+ }
+]
