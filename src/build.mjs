@@ -212,8 +212,8 @@ function aboutSection(d) {
   const lang = d.wiki.lang === 'da' ? 'dansk' : 'engelsk';
   return `<section class="block" id="om">
   <h2>Om fuglen</h2>
-  <div class="prose"${d.wiki.lang !== 'da' ? ' lang="en"' : ''}><p>${esc(d.wiki.extract).replace(/\n+/g, '</p><p>')}</p></div>
-  <p class="source">Tekst fra <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${lang} Wikipedia</a> (artiklen «${esc(d.wiki.title)}»), <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a>.</p>
+  <div class="prose"><p>${esc(d.wiki.extract).replace(/\n+/g, '</p><p>')}</p></div>
+  <p class="source">${d.wiki.oversat ? 'Oversat og let bearbejdet fra' : 'Tekst fra'} <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${lang} Wikipedia</a> (artiklen «${esc(d.wiki.title)}»), <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a>.</p>
 </section>`;
 }
 
@@ -516,6 +516,7 @@ function speciesJsonLd(d, canonical) {
 }
 
 const NAVNE = readJson(path.join(ROOT, 'data', 'navne.json'), {});
+const WIKI_DA = readJson(path.join(ROOT, 'data', 'wiki-da.json'), {});
 const ANDRE_NAVNE = readJson(path.join(ROOT, 'data', 'andre-navne.json'), {});
 const NAVNENOTER = readJson(path.join(ROOT, 'data', 'navnenoter.json'), {});
 // Hyppighed på Den danske liste: VC/C/FC/S (almindelig–fåtallig), R/VR/A (sjælden–meget sjælden)
@@ -544,6 +545,11 @@ function main() {
     d.region = sp.region; // listen bestemmer altid området
     d.tekst = readJson(path.join(ROOT, 'data', 'tekster', `${sp.key}.json`), null);
     if (NAVNE[sp.key]) d.names.da = NAVNE[sp.key];
+    // Engelske Wikipedia-tekster vises kun i dansk oversættelse (data/wiki-da.json); uden oversættelse vises kun linket
+    if (d.wiki && d.wiki.lang !== 'da') {
+      if (WIKI_DA[sp.key]) d.wiki = { ...d.wiki, extract: WIKI_DA[sp.key], oversat: true };
+      else { d.wiki = { ...d.wiki, extract: null }; if (!d.tekst) console.log(`  Mangler dansk oversættelse af Wikipedia-teksten: ${sp.key} (tilføj den i data/wiki-da.json)`); }
+    }
     // Kun licenser der tillader udsnit uden krav om at dele videre under samme licens (ingen SA, ingen ND)
     if (d.photos) {
       const okPh = (x) => x && ['cc0', 'cc-by', 'cc-by-nc'].includes(x.license);
@@ -702,7 +708,7 @@ function main() {
     // Tre gæt: 1) kun lyden, 2) billedet, 3) fakta
     // Uden egen tekst: brug starten af Wikipedia-teksten, men skjul fuglens navn
     if (!d.tekst && d.wiki?.extract) {
-      const names = [d.names.da, d.names.en, d.names.accepted, ...d.names.accepted.split(' ')].filter(Boolean)
+      const names = [displayName(d), d.names.da, d.names.en, d.names.accepted, ...d.names.accepted.split(' ')].filter(Boolean)
         .sort((x, y) => y.length - x.length).map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
       const mask = new RegExp(`(${names.join('|')})\\p{L}*`, 'giu');
       const sents = d.wiki.extract.split(/(?<=\.)\s+/).slice(0, 2).join(' ').replace(mask, '…');
@@ -720,7 +726,7 @@ function main() {
       hint: hints.join(' '),
       imgCredit: ph ? creditText(ph) : null,
       imgLic: ph && LICENSES[ph.license] ? LICENSES[ph.license].url : null,
-      hintSrc: !d.tekst && d.wiki?.extract ? 'Fakta fra Wikipedia, forkortet og med fuglens navn skjult · CC BY-SA 4.0' : null,
+      hintSrc: !d.tekst && d.wiki?.extract ? `Fakta fra ${d.wiki.oversat ? 'engelsk Wikipedia, oversat,' : 'Wikipedia,'} forkortet og med fuglens navn skjult · CC BY-SA 4.0` : null,
       sound: d.sound ? { src: d.sound.src, credit: `Lyd: ${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, page: d.sound.page } : null,
       name: displayName(d),
     };
@@ -939,7 +945,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
 <p>Fotos kommer fra <a href="https://www.inaturalist.org" rel="noopener" target="_blank">iNaturalist</a>, hvor fotograferne selv vælger licens. Vi viser kun fotos med licenserne ${ALLOW_NONCOMMERCIAL ? 'CC0, CC BY og CC BY-NC. Siden er ikke-kommerciel' : 'CC0 og CC BY'}. Alle tre tillader, at fotoet vises beskåret, så længe fotografen krediteres, og det fremgår, at det er ændret. Derfor står der »vist som udsnit« ved fotoene, som ofte er beskåret til et fast format. Fotos med licenser, der forbyder bearbejdning (ND) eller kræver, at bearbejdninger deles under samme licens (SA), bruges ikke. Fotografens navn, licensen og et link til den oprindelige observation står ved hvert billede og samlet på siden <a href="${url('kreditering/')}">fotografer og optagere</a>. Licensens version fremgår af observationen på iNaturalist. Køn og alder (han, hun, ungfugl) er markeret af iNaturalist-brugerne selv og kan i sjældne tilfælde være forkert.</p>
 <h2>Tekster</h2>
 <p>Mange arter har en beskrivelse skrevet til ${esc(SITE_NAME)} – kendetegn, stemme, levested, føde og forekomst i Danmark. Teksterne er skrevet fra bunden og bygger på almindelig kendt viden om fuglene; de er ikke kopieret fra andre sider. Finder du en fejl, hører vi gerne om det.</p>
-<p>For de øvrige arter er beskrivelsen indledningen fra <a href="https://da.wikipedia.org" rel="noopener" target="_blank">dansk Wikipedia</a> – eller engelsk Wikipedia, hvis der ikke findes en dansk artikel. Teksten bruges under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a> med link til artiklen. I gætteleget bruges i stedet et kort uddrag med fuglens navn skjult, også under CC BY-SA 4.0.</p>
+<p>For de øvrige arter er beskrivelsen indledningen fra <a href="https://da.wikipedia.org" rel="noopener" target="_blank">dansk Wikipedia</a>. Findes der ikke en brugbar dansk artikel, er indledningen fra engelsk Wikipedia oversat til dansk og let bearbejdet (fx omregnet til metriske mål og med danske fuglenavn, hvor de findes); oversættelsen deles under samme licens. Teksten bruges under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a> med link til artiklen. I gætteleget bruges i stedet et kort uddrag med fuglens navn skjult, også under CC BY-SA 4.0.</p>
 <p>Sammenligningerne af arter, der ligner hinanden, er skrevet med egne ord ud fra <a href="https://snl.no" rel="noopener" target="_blank">Store norske leksikon</a> og andre opslagsværker. Kilderne står under hvert par.</p>
 <h2>Navne og status – Den danske liste og Wikidata</h2>
 <p>De danske navne på arter fra Den danske liste følger listen (Olsen, K. & Sjældenhedsudvalget 2025: The Danish List: A Checklist of the Birds of Denmark. Dansk Orn. Foren. Tidsskr. 119: 105–112). Det samme gælder, om en art regnes som sjælden gæst. Gamle eller andre navne står som »også kendt som«. Øvrige danske og engelske navne kommer fra <a href="https://www.wikidata.org" rel="noopener" target="_blank">Wikidata</a> (CC0) og i enkelte tilfælde fra GBIF.</p>

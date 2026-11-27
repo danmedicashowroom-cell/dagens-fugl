@@ -195,7 +195,7 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
     const aka = akaNames(d);
     const akaP = aka.length ? `<p class="aka">${esc(name)} kaldes også ${aka.map((a) => `<b>${esc(a)}</b>`).join(' eller ')}.</p>` : '';
     if (t) inner = parts.filter(([k]) => t[k]).map(([k, hd]) => `<h3>${hd}</h3><p>${esc(t[k])}</p>`).join('') + `<p class="src">Tekst: ${esc(SITE_NAME)}.${d.wiki ? ` Læs mere på <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>.` : ''}</p>`;
-    else if (d.wiki?.extract) inner = `<div${d.wiki.lang !== 'da' ? ' lang="en"' : ''}><p>${esc(d.wiki.extract).replace(/\n+/g, '</p><p>')}</p></div><p class="src">Tekst fra <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a>.</p>`;
+    else if (d.wiki?.extract) inner = `<div><p>${esc(d.wiki.extract).replace(/\n+/g, '</p><p>')}</p></div><p class="src">${d.wiki.oversat ? 'Oversat og let bearbejdet fra' : 'Tekst fra'} <a href="${esc(d.wiki.url)}" rel="noopener" target="_blank">${d.wiki.lang === 'da' ? 'dansk' : 'engelsk'} Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.da" rel="license noopener" target="_blank">CC BY-SA 4.0</a>.</p>`;
     else return '';
     return `<section class="sec" id="om"><h2>Om fuglen</h2><div class="prose">${inner}</div></section>`;
   }
