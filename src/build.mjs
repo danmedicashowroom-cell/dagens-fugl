@@ -1073,6 +1073,10 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
       const sLine = s ? `<li><span class="kr-k">Lyd</span> ${esc(s.artist || 'Optager ikke angivet')} · ${s.licenseUrl ? `<a href="${esc(s.licenseUrl)}" rel="license noopener" target="_blank">${esc(s.license)}</a>` : esc(s.license || '')} · <a href="${esc(s.page)}" rel="noopener" target="_blank">${esc(s.via || 'Wikimedia Commons')}</a></li>` : '';
       return `<li class="kr-row" data-s="${esc(hay)}">${ph0 ? `<img src="${esc(size(ph0, 'small'))}" alt="" loading="lazy" decoding="async" width="72" height="72">` : '<span class="kr-noimg"></span>'}<div><p class="kr-name"><a href="${url(speciesUrl(d))}">${esc(name)}</a> <i>${esc(d.names.accepted)}</i></p><ul class="kr-list">${phLines}${sLine}</ul></div></li>`;
     }).filter(Boolean);
+    // Liste over alle viste fotos – bruges af værktøjet src/foto-tjek.mjs (kontaktark og tjek for æg, fjer, reder og døde fugle)
+    const brugt = [];
+    for (const d of sorted) for (const x of [...shownPhotos(d), ...(d.region === 'dk' ? quizPhotos(d) : [])]) brugt.push({ i: x.ph.id, k: d.key, n: displayName(d), u: x.ph.medium, inat: d.inat?.id || null });
+    write('fotos-brugt.json', JSON.stringify([...new Map(brugt.map((x) => [x.i, x])).values()]));
     write('kreditering/index.html', page({
       bodyClass: 'v2s kr-page',
       title: `Kreditering af fotos og lyde | ${SITE_NAME}`,
