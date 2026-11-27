@@ -2,7 +2,8 @@
  "key": "sylvia-borin",
  "name": "Sylvia borin",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:54:11.632Z",
+ "fetchedAt": "2026-11-27T05:00:15.713Z",
+ "gbifAt": "2026-11-27T05:00:15.713Z",
  "names": {
   "da": "Havesanger",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 15302,
-  "observations": 10781
+  "observations": 10813
  },
  "photos": {
   "male": [
@@ -34,14 +35,14 @@
     "date": "2024-06-17"
    },
    {
-    "id": 40974108,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/40974108/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/40974108/large.jpg",
-    "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC)",
+    "id": 388870889,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/388870889/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/388870889/large.jpeg",
+    "attribution": "(c) Владимир Джерихов, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/26388888",
-    "place": "Асиновский р-н, Томская обл., Россия",
-    "date": "2019-06-02"
+    "source": "https://www.inaturalist.org/observations/219683164",
+    "place": "Великий Новгород, Новгородская обл., Россия, 173014",
+    "date": "2024-06-01"
    },
    {
     "id": 275969993,
@@ -55,16 +56,6 @@
    }
   ],
   "female": [
-   {
-    "id": 150024685,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/150024685/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/150024685/large.jpg",
-    "attribution": "(c) Bogdan V. Kryzhatyuk, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/90757074",
-    "place": "Ковернинский р-н, Нижегородская обл., Россия",
-    "date": "2021-06-06"
-   },
    {
     "id": 276955990,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/276955990/medium.jpg",
@@ -108,16 +99,6 @@
     "date": "2025-07-13"
    }
   ],
-  "hero": {
-   "id": 150949826,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/150949826/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/150949826/large.jpg",
-   "attribution": "(c) STŁ, some rights reserved (CC BY-NC), uploaded by STŁ",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/150949826",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 150949826,
@@ -179,26 +160,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 150949826,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/150949826/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/150949826/large.jpg",
+   "attribution": "(c) STŁ, some rights reserved (CC BY-NC), uploaded by STŁ",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/150949826",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492942,
-  "dkTotal": 119471,
+  "dkTotal": 119481,
   "dkMonths": [
    1,
    0,
    3,
    433,
-   53956,
-   37531,
+   53959,
+   37533,
    17253,
-   6094,
-   4060,
+   6095,
+   4064,
    65,
    13,
    10
   ],
-  "worldTotal": 1885019,
+  "worldTotal": 1885044,
   "topCountries": [
    {
     "code": "SE",
@@ -210,19 +201,19 @@
    },
    {
     "code": "ES",
-    "count": 185450
+    "count": 185451
    },
    {
     "code": "FI",
-    "count": 183359
+    "count": 183360
    },
    {
     "code": "FR",
-    "count": 153351
+    "count": 153354
    },
    {
     "code": "DK",
-    "count": 119471
+    "count": 119481
    },
    {
     "code": "NO",
@@ -230,7 +221,7 @@
    },
    {
     "code": "GB",
-    "count": 90448
+    "count": 90451
    },
    {
     "code": "CH",
@@ -238,7 +229,7 @@
    },
    {
     "code": "DE",
-    "count": 71114
+    "count": 71115
    },
    {
     "code": "BE",
@@ -266,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Sylviidae",
   "familyKey": 5285,
   "familyDa": "Sangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:08.806Z"
+ }
 }

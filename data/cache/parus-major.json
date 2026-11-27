@@ -2,7 +2,8 @@
  "key": "parus-major",
  "name": "Parus major",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:54.680Z",
+ "fetchedAt": "2026-11-27T04:57:52.702Z",
+ "gbifAt": "2026-11-27T04:57:52.702Z",
  "names": {
   "da": "Musvit",
   "en": "Great tit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 203153,
-  "observations": 257142
+  "observations": 258964
  },
  "photos": {
   "male": [
@@ -56,6 +57,16 @@
   ],
   "female": [
    {
+    "id": 445430356,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/445430356/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/445430356/large.jpg",
+    "attribution": "(c) Igor Shelpiakov, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/249207097",
+    "place": "Пулковская, 9к2, Московский р-н, Санкт-Петербург, Россия",
+    "date": "2024-10-19"
+   },
+   {
     "id": 247188601,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/247188601/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/247188601/large.jpeg",
@@ -74,16 +85,6 @@
     "source": "https://www.inaturalist.org/observations/350557138",
     "place": "Leiden, Fruitweg, 2321 DM Leiden, Netherlands",
     "date": "2026-04-17"
-   },
-   {
-    "id": 205426502,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/205426502/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/205426502/large.jpeg",
-    "attribution": "(c) dudblast, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/121399975",
-    "place": "San Basilio, Córdoba, Espagne",
-    "date": "2022-05-25"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2023-05-05"
    }
   ],
-  "hero": {
-   "id": 340613122,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/340613122/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/340613122/large.jpg",
-   "attribution": "(c) Oscar Valencoso - Salomé Planas, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/340613122",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 340613122,
@@ -209,74 +200,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 340613122,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/340613122/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/340613122/large.jpg",
+   "attribution": "(c) Oscar Valencoso - Salomé Planas, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/340613122",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9705453,
-  "dkTotal": 582921,
+  "dkTotal": 583589,
   "dkMonths": [
-   65339,
-   60307,
-   78523,
-   76024,
-   59206,
-   36322,
-   24424,
-   26874,
-   34357,
-   45865,
-   37423,
-   38183
+   65343,
+   60317,
+   78530,
+   76030,
+   59208,
+   36331,
+   24430,
+   26879,
+   34363,
+   45872,
+   38026,
+   38186
   ],
-  "worldTotal": 14986288,
+  "worldTotal": 14988802,
   "topCountries": [
    {
     "code": "SE",
-    "count": 2125207
+    "count": 2125225
    },
    {
     "code": "FI",
-    "count": 1999627
+    "count": 1999634
    },
    {
     "code": "FR",
-    "count": 1832811
+    "count": 1832868
    },
    {
     "code": "NL",
-    "count": 1431910
+    "count": 1431912
    },
    {
     "code": "GB",
-    "count": 1328980
+    "count": 1329066
    },
    {
     "code": "NO",
-    "count": 947542
+    "count": 947551
    },
    {
     "code": "DE",
-    "count": 941241
+    "count": 941920
    },
    {
     "code": "ES",
-    "count": 908249
+    "count": 908286
    },
    {
     "code": "DK",
-    "count": 582921
+    "count": 583589
    },
    {
     "code": "PL",
-    "count": 529811
+    "count": 529893
    },
    {
     "code": "CH",
-    "count": 350089
+    "count": 350099
    },
    {
     "code": "BE",
-    "count": 345188
+    "count": 345190
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Paridae",
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:49.814Z"
+ }
 }

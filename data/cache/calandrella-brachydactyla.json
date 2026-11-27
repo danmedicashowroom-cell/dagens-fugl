@@ -2,7 +2,8 @@
  "key": "calandrella-brachydactyla",
  "name": "Calandrella brachydactyla",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:36.176Z",
+ "fetchedAt": "2026-11-27T04:58:30.663Z",
+ "gbifAt": "2026-11-27T04:58:30.663Z",
  "names": {
   "da": "Korttået Lærke",
   "en": "Greater Short-toed Lark",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 578093,
-  "observations": 2796
+  "observations": 2811
  },
  "photos": {
   "male": [
@@ -57,16 +58,6 @@
     "date": "2014-06-20"
    }
   ],
-  "hero": {
-   "id": 8369419,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8369419/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8369419/large.jpeg",
-   "attribution": "(c) Ani Sarkisyan, some rights reserved (CC BY), uploaded by Ani Sarkisyan",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/8369419",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 8369419,
@@ -98,7 +89,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 8369419,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8369419/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8369419/large.jpeg",
+   "attribution": "(c) Ani Sarkisyan, some rights reserved (CC BY), uploaded by Ani Sarkisyan",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/8369419",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490681,
@@ -117,23 +118,23 @@
    16,
    0
   ],
-  "worldTotal": 130380,
+  "worldTotal": 130416,
   "topCountries": [
    {
     "code": "ES",
-    "count": 45642
+    "count": 45663
    },
    {
     "code": "IN",
-    "count": 15655
+    "count": 15663
    },
    {
     "code": "PT",
-    "count": 9754
+    "count": 9755
    },
    {
     "code": "FR",
-    "count": 8620
+    "count": 8623
    },
    {
     "code": "IL",
@@ -185,13 +186,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alaudidae",
   "familyKey": 7211,
   "familyDa": "Lærker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:55.766Z"
+ }
 }

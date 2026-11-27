@@ -2,7 +2,8 @@
  "key": "lanius-collurio",
  "name": "Lanius collurio",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:17.701Z",
+ "fetchedAt": "2026-11-27T04:56:14.147Z",
+ "gbifAt": "2026-11-27T04:56:14.147Z",
  "names": {
   "da": "Rødrygget tornskade",
   "en": "Red-backed Shrike",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12038,
-  "observations": 55533
+  "observations": 55712
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2026-09-12"
    },
    {
-    "id": 659593584,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/659593584/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/659593584/large.jpg",
-    "attribution": "(c) SteveM4560, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/361422311",
-    "place": "4292 Dobri dol, Bulgaria",
-    "date": "2026-05-14"
-   },
-   {
     "id": 314643426,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/314643426/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/314643426/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/180611355",
     "place": "13405 Berlin, Germany",
     "date": "2023-08-26"
+   },
+   {
+    "id": 659593584,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/659593584/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/659593584/large.jpg",
+    "attribution": "(c) SteveM4560, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/361422311",
+    "place": "4292 Dobri dol, Bulgaria",
+    "date": "2026-05-14"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2026-07-29"
    }
   ],
-  "hero": {
-   "id": 13160268,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13160268/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13160268/large.jpg",
-   "attribution": "(c) Radovan Václav, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/13160268",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 13160268,
@@ -199,42 +190,52 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 13160268,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13160268/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13160268/large.jpg",
+   "attribution": "(c) Radovan Václav, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/13160268",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 7745240,
-  "dkTotal": 100798,
+  "dkTotal": 100808,
   "dkMonths": [
    8,
    4,
    3,
    57,
    28769,
-   24318,
-   23288,
-   19265,
-   4277,
+   24319,
+   23291,
+   19266,
+   4282,
    182,
    13,
    35
   ],
-  "worldTotal": 1467051,
+  "worldTotal": 1467148,
   "topCountries": [
    {
     "code": "SE",
-    "count": 295818
+    "count": 295820
    },
    {
     "code": "FR",
-    "count": 200074
+    "count": 200082
    },
    {
     "code": "CH",
-    "count": 141016
+    "count": 141017
    },
    {
     "code": "DK",
-    "count": 100798
+    "count": 100808
    },
    {
     "code": "NL",
@@ -242,7 +243,7 @@
    },
    {
     "code": "DE",
-    "count": 81055
+    "count": 81070
    },
    {
     "code": "ZA",
@@ -254,11 +255,11 @@
    },
    {
     "code": "NO",
-    "count": 40584
+    "count": 40585
    },
    {
     "code": "PL",
-    "count": 35998
+    "count": 36004
    },
    {
     "code": "ES",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laniidae",
   "familyKey": 9315,
   "familyDa": "Tornskader",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:37.043Z"
+ }
 }

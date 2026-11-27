@@ -2,7 +2,8 @@
  "key": "locustella-fluviatilis",
  "name": "Locustella fluviatilis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:54:38.949Z",
+ "fetchedAt": "2026-11-27T05:00:46.317Z",
+ "gbifAt": "2026-11-27T05:00:46.317Z",
  "names": {
   "da": "Flodsanger",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116938,
-  "observations": 1960
+  "observations": 1963
  },
  "photos": {
   "male": [
@@ -55,28 +56,7 @@
    }
   ],
   "female": [],
-  "juvenile": [
-   {
-    "id": 295979510,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/295979510/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/295979510/large.jpg",
-    "attribution": "(c) Елена Устюжанина, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/170633334",
-    "place": "Орджоникидзевский р-н, Екатеринбург, Свердловская обл., Россия",
-    "date": "2023-07-01"
-   }
-  ],
-  "hero": {
-   "id": 133610841,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/133610841/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/133610841/large.jpeg",
-   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/133610841",
-   "place": null,
-   "date": null
-  },
+  "juvenile": [],
   "curated": [
    {
     "id": 133610841,
@@ -128,7 +108,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 133610841,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/133610841/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/133610841/large.jpeg",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/133610841",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493549,
@@ -147,7 +137,7 @@
    0,
    0
   ],
-  "worldTotal": 80200,
+  "worldTotal": 80201,
   "topCountries": [
    {
     "code": "SE",
@@ -155,11 +145,11 @@
    },
    {
     "code": "NL",
-    "count": 5643
+    "count": 5644
    },
    {
     "code": "RU",
-    "count": 5506
+    "count": 5505
    },
    {
     "code": "PL",
@@ -215,13 +205,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Locustellidae",
   "familyKey": 6100825,
   "familyDa": "Græssangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:12.062Z"
+ }
 }

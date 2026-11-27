@@ -2,7 +2,8 @@
  "key": "picus-viridis",
  "name": "Picus viridis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:49:49.231Z",
+ "fetchedAt": "2026-11-27T04:55:38.707Z",
+ "gbifAt": "2026-11-27T04:55:38.707Z",
  "names": {
   "da": "Grønspætte",
   "en": "European Green Woodpecker",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144243,
-  "observations": 39583
+  "observations": 39780
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-07-11"
    }
   ],
-  "hero": {
-   "id": 242668015,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/242668015/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/242668015/large.jpg",
-   "attribution": "(c) Andrea Poggi, some rights reserved (CC BY), uploaded by Andrea Poggi",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/242668015",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 242668015,
@@ -179,54 +170,64 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 242668015,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/242668015/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/242668015/large.jpg",
+   "attribution": "(c) Andrea Poggi, some rights reserved (CC BY), uploaded by Andrea Poggi",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/242668015",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2478523,
-  "dkTotal": 60449,
+  "dkTotal": 60493,
   "dkMonths": [
    3206,
    5055,
    11960,
    10193,
    5649,
-   3019,
+   3020,
    4501,
-   4328,
+   4329,
    3682,
    4319,
-   2639,
+   2681,
    1861
   ],
-  "worldTotal": 2837840,
+  "worldTotal": 2838176,
   "topCountries": [
    {
     "code": "FR",
-    "count": 581913
+    "count": 581930
    },
    {
     "code": "SE",
-    "count": 518370
+    "count": 518373
    },
    {
     "code": "GB",
-    "count": 328931
+    "count": 328940
    },
    {
     "code": "DE",
-    "count": 318814
+    "count": 319026
    },
    {
     "code": "CH",
-    "count": 237152
+    "count": 237155
    },
    {
     "code": "NL",
-    "count": 204612
+    "count": 204614
    },
    {
     "code": "BE",
-    "count": 183884
+    "count": 183886
    },
    {
     "code": "NO",
@@ -234,19 +235,19 @@
    },
    {
     "code": "IT",
-    "count": 74573
+    "count": 74576
    },
    {
     "code": "DK",
-    "count": 60449
+    "count": 60493
    },
    {
     "code": "CZ",
-    "count": 60132
+    "count": 60137
    },
    {
     "code": "PL",
-    "count": 30153
+    "count": 30159
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Picidae",
   "familyKey": 9333,
   "familyDa": "Spætter",
   "order": "Piciformes"
- },
- "gbifAt": "2026-11-25T22:19:34.063Z"
+ }
 }

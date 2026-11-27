@@ -2,7 +2,8 @@
  "key": "phylloscopus-collybita",
  "name": "Phylloscopus collybita",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:31.161Z",
+ "fetchedAt": "2026-11-27T04:59:33.226Z",
+ "gbifAt": "2026-11-27T04:59:33.226Z",
  "names": {
   "da": "Gransanger",
   "en": "Common Chiffchaff",
@@ -19,10 +20,30 @@
  },
  "inat": {
   "id": 117016,
-  "observations": 100443
+  "observations": 100942
  },
  "photos": {
   "male": [
+   {
+    "id": 39236443,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/39236443/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/39236443/large.jpg",
+    "attribution": "(c) Lenka Janochova, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/25342795",
+    "place": "Ostrůvek, 250 01 Brandýs nad Labem-Stará Boleslav, Česko",
+    "date": "2019-05-18"
+   },
+   {
+    "id": 680832846,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/680832846/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/680832846/large.jpg",
+    "attribution": "(c) chiarimax, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/372576162",
+    "place": "Provincia di Brescia, Italia",
+    "date": "2026-06-14"
+   },
    {
     "id": 267359599,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/267359599/medium.png",
@@ -32,26 +53,6 @@
     "source": "https://www.inaturalist.org/observations/154717051",
     "place": "Донецк",
     "date": "2023-04-11"
-   },
-   {
-    "id": 120394195,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/120394195/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/120394195/large.jpeg",
-    "attribution": "(c) Maria Emelina, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/73721289",
-    "place": "190, Ольха Снт, Московская обл., Россия, 143154",
-    "date": "2018-09-01"
-   },
-   {
-    "id": 195889084,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195889084/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195889084/large.jpeg",
-    "attribution": "(c) Rob Westerduijn, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/116063862",
-    "place": "2645 Delfgauw, Nederland",
-    "date": "2022-04-30"
    }
   ],
   "female": [
@@ -98,6 +99,16 @@
     "date": "2024-08-12"
    },
    {
+    "id": 693633791,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/693633791/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/693633791/large.jpg",
+    "attribution": "(c) frillian, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/379213702",
+    "place": "Wightwick Bank, Wolverhampton WV6 8BN, UK",
+    "date": "2026-07-07"
+   },
+   {
     "id": 309050893,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/309050893/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/309050893/large.jpeg",
@@ -106,28 +117,8 @@
     "source": "https://www.inaturalist.org/observations/177688452",
     "place": "Тавуш, Армения",
     "date": "2023-08-01"
-   },
-   {
-    "id": 312839449,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/312839449/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/312839449/large.jpg",
-    "attribution": "(c) Khetam Sounbuli, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/179670481",
-    "place": "тропинка академика Б. В. Войцеховского, Novosibirsk, Novosibirsk Oblast, RU",
-    "date": "2023-08-22"
    }
   ],
-  "hero": {
-   "id": 232289336,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/232289336/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/232289336/large.jpg",
-   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/232289336",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 232289336,
@@ -189,54 +180,64 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 232289336,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/232289336/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/232289336/large.jpg",
+   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/232289336",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493091,
-  "dkTotal": 490555,
+  "dkTotal": 490594,
   "dkMonths": [
    535,
    284,
    34452,
-   127130,
-   99325,
-   61400,
+   127136,
+   99326,
+   61406,
    42807,
-   29794,
+   29795,
    51498,
    38996,
-   3456,
+   3481,
    810
   ],
-  "worldTotal": 7784088,
+  "worldTotal": 7784432,
   "topCountries": [
    {
     "code": "NL",
-    "count": 1308788
+    "count": 1308790
    },
    {
     "code": "ES",
-    "count": 961566
+    "count": 961625
    },
    {
     "code": "FR",
-    "count": 903315
+    "count": 903359
    },
    {
     "code": "GB",
-    "count": 844062
+    "count": 844081
    },
    {
     "code": "SE",
-    "count": 836105
+    "count": 836106
    },
    {
     "code": "DK",
-    "count": 490555
+    "count": 490594
    },
    {
     "code": "DE",
-    "count": 383402
+    "count": 383442
    },
    {
     "code": "BE",
@@ -252,7 +253,7 @@
    },
    {
     "code": "PT",
-    "count": 149730
+    "count": 149765
    },
    {
     "code": "FI",
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phylloscopidae",
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:01.974Z"
+ }
 }

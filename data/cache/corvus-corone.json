@@ -2,7 +2,8 @@
  "key": "corvus-corone",
  "name": "Corvus corone",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:15.969Z",
+ "fetchedAt": "2026-11-27T04:57:10.310Z",
+ "gbifAt": "2026-11-27T04:57:10.310Z",
  "names": {
   "da": "Sortkrage",
   "en": "Carrion crow",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 204496,
-  "observations": 123848
+  "observations": 124462
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2022-07-18"
    }
   ],
-  "hero": {
-   "id": 451700759,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/451700759/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/451700759/large.jpg",
-   "attribution": "(c) Eidiu, some rights reserved (CC BY-NC), uploaded by Eidiu",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/451700759",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 451700759,
@@ -199,70 +190,80 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 451700759,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/451700759/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/451700759/large.jpg",
+   "attribution": "(c) Eidiu, some rights reserved (CC BY-NC), uploaded by Eidiu",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/451700759",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9409796,
-  "dkTotal": 102723,
+  "dkTotal": 102922,
   "dkMonths": [
-   9116,
+   9117,
    7912,
-   12125,
-   14752,
+   12129,
+   14759,
    12455,
    5958,
    5715,
    5521,
-   7012,
-   10902,
-   6074,
+   7015,
+   10907,
+   6253,
    5075
   ],
-  "worldTotal": 6461027,
+  "worldTotal": 6462115,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1784099
+    "count": 1784266
    },
    {
     "code": "FR",
-    "count": 1210917
+    "count": 1210968
    },
    {
     "code": "NL",
-    "count": 1040248
+    "count": 1040259
    },
    {
     "code": "DE",
-    "count": 695943
+    "count": 696487
    },
    {
     "code": "ES",
-    "count": 408383
+    "count": 408391
    },
    {
     "code": "BE",
-    "count": 310328
+    "count": 310332
    },
    {
     "code": "CH",
-    "count": 272100
+    "count": 272110
    },
    {
     "code": "PT",
-    "count": 170165
+    "count": 170169
    },
    {
     "code": "JP",
-    "count": 114185
+    "count": 114204
    },
    {
     "code": "DK",
-    "count": 102723
+    "count": 102922
    },
    {
     "code": "AT",
-    "count": 64030
+    "count": 64050
    },
    {
     "code": "FI",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:44.000Z"
+ }
 }

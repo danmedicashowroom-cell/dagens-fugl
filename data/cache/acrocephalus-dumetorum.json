@@ -2,7 +2,8 @@
  "key": "acrocephalus-dumetorum",
  "name": "Acrocephalus dumetorum",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:55:02.199Z",
+ "fetchedAt": "2026-11-27T05:01:10.613Z",
+ "gbifAt": "2026-11-27T05:01:10.613Z",
  "names": {
   "da": "Buskrørsanger",
   "en": "Blyth’s Reed Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116797,
-  "observations": 15152
+  "observations": 15221
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
     "date": "2024-08-13"
    },
    {
-    "id": 530335108,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/530335108/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/530335108/large.jpg",
-    "attribution": "(c) Мария Пахлеванова, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/294634532",
-    "place": "Moskva, RU",
-    "date": "2025-07-02"
-   },
-   {
     "id": 310734272,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/310734272/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/310734272/large.jpeg",
@@ -106,18 +97,18 @@
     "source": "https://www.inaturalist.org/observations/178560932",
     "place": "г. Новочебоксарск, Чувашская Респ., Россия",
     "date": "2023-08-15"
+   },
+   {
+    "id": 530335108,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/530335108/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/530335108/large.jpg",
+    "attribution": "(c) Мария Пахлеванова, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/294634532",
+    "place": "Moskva, RU",
+    "date": "2025-07-02"
    }
   ],
-  "hero": {
-   "id": 79630739,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/79630739/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/79630739/large.jpeg",
-   "attribution": "(c) Olavi60, some rights reserved (CC BY-NC), uploaded by Olavi60",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/79630739",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 79630739,
@@ -169,7 +160,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 79630739,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/79630739/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/79630739/large.jpeg",
+   "attribution": "(c) Olavi60, some rights reserved (CC BY-NC), uploaded by Olavi60",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/79630739",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493145,
@@ -188,11 +189,11 @@
    0,
    0
   ],
-  "worldTotal": 335794,
+  "worldTotal": 335826,
   "topCountries": [
    {
     "code": "IN",
-    "count": 219516
+    "count": 219524
    },
    {
     "code": "SE",
@@ -204,7 +205,7 @@
    },
    {
     "code": "RU",
-    "count": 21843
+    "count": 21865
    },
    {
     "code": "EE",
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Acrocephalidae",
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:14.229Z"
+ }
 }

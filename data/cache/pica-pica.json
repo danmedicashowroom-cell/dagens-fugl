@@ -2,7 +2,8 @@
  "key": "pica-pica",
  "name": "Pica pica",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:52.040Z",
+ "fetchedAt": "2026-11-27T04:56:44.976Z",
+ "gbifAt": "2026-11-27T04:56:44.976Z",
  "names": {
   "da": "Husskade",
   "en": "Eurasian Magpie",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 891696,
-  "observations": 188930
+  "observations": 189994
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2016-10-09"
    },
    {
-    "id": 487155809,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/487155809/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/487155809/large.jpeg",
-    "attribution": "(c) timspot58, some rights reserved (CC BY-NC)",
+    "id": 67413666,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67413666/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67413666/large.jpeg",
+    "attribution": "(c) reddad, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/270855409",
-    "place": "PHRV+MV Decoy Hide, Gloucester GL2 7BT, UK",
-    "date": "2025-04-16"
+    "source": "https://www.inaturalist.org/observations/42456928",
+    "place": "Untergrombach, Bruchsal, DE-BW, Germany",
+    "date": "2020-04-16"
    }
   ],
   "female": [
@@ -98,16 +99,6 @@
     "date": "2020-05-04"
    },
    {
-    "id": 200084212,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/200084212/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/200084212/large.jpg",
-    "attribution": "(c) Khalid Alastad, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/118425928",
-    "place": "London, UK",
-    "date": "2022-05-12"
-   },
-   {
     "id": 130771798,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/130771798/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/130771798/large.jpg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/79823526",
     "place": "Burgos, España",
     "date": "2021-05-19"
+   },
+   {
+    "id": 646567350,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/646567350/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/646567350/large.jpg",
+    "attribution": "(c) Lukáš Pivoňka, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/354430176",
+    "place": "Břevnovský klášter, 169 00 Praha-Praha 6, Česko",
+    "date": "2025-06-28"
    }
   ],
-  "hero": {
-   "id": 103446096,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103446096/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103446096/large.jpg",
-   "attribution": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/103446096",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 270119612,
@@ -169,74 +160,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 270119612,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/270119612/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/270119612/large.jpg",
+   "attribution": "(c) Li Jianong, some rights reserved (CC BY-NC), uploaded by Li Jianong",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/270119612",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5229490,
-  "dkTotal": 369277,
+  "dkTotal": 369761,
   "dkMonths": [
-   44563,
-   35413,
-   42880,
-   39288,
+   44574,
+   35425,
+   42887,
+   39290,
    33857,
-   24378,
+   24380,
    19219,
    19806,
-   23704,
-   30103,
-   27588,
+   23708,
+   30109,
+   28028,
    28405
   ],
-  "worldTotal": 8842541,
+  "worldTotal": 8844122,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1605346
+    "count": 1605471
    },
    {
     "code": "FR",
-    "count": 1103685
+    "count": 1103720
    },
    {
     "code": "SE",
-    "count": 985649
+    "count": 985652
    },
    {
     "code": "NL",
-    "count": 941690
+    "count": 941693
    },
    {
     "code": "ES",
-    "count": 730283
+    "count": 730338
    },
    {
     "code": "NO",
-    "count": 680932
+    "count": 680938
    },
    {
     "code": "DE",
-    "count": 606069
+    "count": 606407
    },
    {
     "code": "DK",
-    "count": 369277
+    "count": 369761
    },
    {
     "code": "FI",
-    "count": 289291
+    "count": 289293
    },
    {
     "code": "BE",
-    "count": 237090
+    "count": 237096
    },
    {
     "code": "IT",
-    "count": 163406
+    "count": 163426
    },
    {
     "code": "CH",
-    "count": 122423
+    "count": 122424
    }
   ]
  },
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:41.858Z"
+ }
 }

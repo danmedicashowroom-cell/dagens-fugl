@@ -2,7 +2,8 @@
  "key": "poecile-palustris",
  "name": "Poecile palustris",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:12.141Z",
+ "fetchedAt": "2026-11-27T04:58:10.102Z",
+ "gbifAt": "2026-11-27T04:58:10.102Z",
  "names": {
   "da": "Sumpmejse",
   "en": "Marsh Tit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144809,
-  "observations": 28566
+  "observations": 28838
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2026-06-17"
    }
   ],
-  "hero": {
-   "id": 340559353,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/340559353/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/340559353/large.jpg",
-   "attribution": "(c) Vulpes_podšitá, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/340559353",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 254663383,
@@ -118,26 +109,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 254663383,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/254663383/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/254663383/large.jpg",
+   "attribution": "(c) Luigi Andena, some rights reserved (CC BY-NC), uploaded by Luigi Andena",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/254663383",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2487843,
-  "dkTotal": 164681,
+  "dkTotal": 164915,
   "dkMonths": [
-   23307,
+   23308,
    19757,
-   24420,
-   19274,
-   9383,
-   5682,
-   5775,
+   24422,
+   19277,
+   9384,
+   5684,
+   5776,
    8444,
    9537,
-   11827,
-   12872,
-   14356
+   11831,
+   13091,
+   14357
   ],
-  "worldTotal": 1643485,
+  "worldTotal": 1643926,
   "topCountries": [
    {
     "code": "SE",
@@ -145,15 +146,15 @@
    },
    {
     "code": "FR",
-    "count": 295985
+    "count": 296001
    },
    {
     "code": "DE",
-    "count": 177063
+    "count": 177151
    },
    {
     "code": "DK",
-    "count": 164681
+    "count": 164915
    },
    {
     "code": "NO",
@@ -161,15 +162,15 @@
    },
    {
     "code": "GB",
-    "count": 83882
+    "count": 83892
    },
    {
     "code": "CH",
-    "count": 64872
+    "count": 64874
    },
    {
     "code": "KR",
-    "count": 39220
+    "count": 39236
    },
    {
     "code": "NL",
@@ -177,15 +178,15 @@
    },
    {
     "code": "IT",
-    "count": 26485
+    "count": 26491
    },
    {
     "code": "PL",
-    "count": 24821
+    "count": 24829
    },
    {
     "code": "CN",
-    "count": 21083
+    "count": 21084
    }
   ]
  },
@@ -205,13 +206,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Paridae",
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:53.905Z"
+ }
 }

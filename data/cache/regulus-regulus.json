@@ -2,7 +2,8 @@
  "key": "regulus-regulus",
  "name": "Regulus regulus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:33.344Z",
+ "fetchedAt": "2026-11-27T04:57:28.102Z",
+ "gbifAt": "2026-11-27T04:57:28.102Z",
  "names": {
   "da": "Fuglekonge",
   "en": "Goldcrest",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 793469,
-  "observations": 35456
+  "observations": 35707
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-05-23"
    }
   ],
-  "hero": {
-   "id": 339460964,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/339460964/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/339460964/large.jpg",
-   "attribution": "(c) Cliff Watkinson, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/339460964",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 340630943,
@@ -159,30 +150,40 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 340630943,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/340630943/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/340630943/large.jpg",
+   "attribution": "(c) gailhampshire, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/340630943",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2484596,
-  "dkTotal": 174695,
+  "dkTotal": 174830,
   "dkMonths": [
-   16122,
+   16125,
    11477,
-   18939,
-   18886,
+   18941,
+   18890,
    9384,
-   5507,
+   5508,
    3510,
    4808,
-   15598,
-   39705,
-   18338,
+   15602,
+   39710,
+   18454,
    12296
   ],
-  "worldTotal": 4240906,
+  "worldTotal": 4241236,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1355795
+    "count": 1355796
    },
    {
     "code": "FI",
@@ -190,15 +191,15 @@
    },
    {
     "code": "GB",
-    "count": 464685
+    "count": 464706
    },
    {
     "code": "PL",
-    "count": 322801
+    "count": 322807
    },
    {
     "code": "NL",
-    "count": 278859
+    "count": 278862
    },
    {
     "code": "NO",
@@ -206,11 +207,11 @@
    },
    {
     "code": "DK",
-    "count": 174695
+    "count": 174830
    },
    {
     "code": "FR",
-    "count": 170267
+    "count": 170290
    },
    {
     "code": "AX",
@@ -218,7 +219,7 @@
    },
    {
     "code": "DE",
-    "count": 90275
+    "count": 90321
    },
    {
     "code": "BE",
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Regulidae",
   "familyKey": 5279,
   "familyDa": "Fuglekonger",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:47.709Z"
+ }
 }

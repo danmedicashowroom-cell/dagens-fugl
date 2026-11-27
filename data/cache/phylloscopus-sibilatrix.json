@@ -2,7 +2,8 @@
  "key": "phylloscopus-sibilatrix",
  "name": "Phylloscopus sibilatrix",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:20.119Z",
+ "fetchedAt": "2026-11-27T04:59:18.843Z",
+ "gbifAt": "2026-11-27T04:59:18.843Z",
  "names": {
   "da": "Skovsanger",
   "en": "Wood Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117048,
-  "observations": 9124
+  "observations": 9163
  },
  "photos": {
   "male": [
@@ -56,16 +57,6 @@
   ],
   "female": [
    {
-    "id": 287052566,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/287052566/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/287052566/large.jpeg",
-    "attribution": "(c) Gianluca Congi🪶🦆🌲, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/165805978",
-    "place": "Parco Nazionale della Sila",
-    "date": "2023-06-05"
-   },
-   {
     "id": 392896038,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/392896038/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/392896038/large.jpeg",
@@ -78,16 +69,6 @@
   ],
   "juvenile": [
    {
-    "id": 639750756,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/639750756/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/639750756/large.jpg",
-    "attribution": "(c) mushka2311, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/350617988",
-    "place": "Сади \"Еврика\", Горішні Плавні, Полтавська область, Україна",
-    "date": "2024-06-07"
-   },
-   {
     "id": 536530044,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/536530044/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/536530044/large.jpg",
@@ -96,6 +77,16 @@
     "source": "https://www.inaturalist.org/observations/297893075",
     "place": "Бирюлёвский дендропарк, Москва, Россия",
     "date": "2025-07-14"
+   },
+   {
+    "id": 639750756,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/639750756/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/639750756/large.jpg",
+    "attribution": "(c) mushka2311, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/350617988",
+    "place": "Сади \"Еврика\", Горішні Плавні, Полтавська область, Україна",
+    "date": "2024-06-07"
    },
    {
     "id": 110038425,
@@ -108,16 +99,6 @@
     "date": "2015-06-09"
    }
   ],
-  "hero": {
-   "id": 231450677,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/231450677/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/231450677/large.jpg",
-   "attribution": "(c) Steve Garvie, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/231450677",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 80987935,
@@ -159,16 +140,26 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 80987935,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/80987935/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/80987935/large.jpg",
+   "attribution": "(c) Виктор, some rights reserved (CC BY), uploaded by Виктор",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/80987935",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 8128385,
-  "dkTotal": 32617,
+  "dkTotal": 32618,
   "dkMonths": [
    0,
    0,
    0,
-   3706,
+   3707,
    19408,
    6707,
    876,
@@ -178,7 +169,7 @@
    0,
    1
   ],
-  "worldTotal": 542577,
+  "worldTotal": 542601,
   "topCountries": [
    {
     "code": "SE",
@@ -190,11 +181,11 @@
    },
    {
     "code": "FR",
-    "count": 39143
+    "count": 39145
    },
    {
     "code": "DK",
-    "count": 32617
+    "count": 32618
    },
    {
     "code": "NO",
@@ -206,11 +197,11 @@
    },
    {
     "code": "RU",
-    "count": 19628
+    "count": 19635
    },
    {
     "code": "DE",
-    "count": 17330
+    "count": 17328
    },
    {
     "code": "EE",
@@ -218,7 +209,7 @@
    },
    {
     "code": "PL",
-    "count": 15871
+    "count": 15873
    },
    {
     "code": "CH",
@@ -246,13 +237,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phylloscopidae",
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:00.587Z"
+ }
 }

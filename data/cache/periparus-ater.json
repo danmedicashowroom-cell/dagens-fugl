@@ -2,7 +2,8 @@
  "key": "periparus-ater",
  "name": "Periparus ater",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:06.004Z",
+ "fetchedAt": "2026-11-27T04:58:04.683Z",
+ "gbifAt": "2026-11-27T04:58:04.683Z",
  "names": {
   "da": "Sortmejse",
   "en": "Coal tit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144823,
-  "observations": 49537
+  "observations": 49834
  },
  "photos": {
   "male": [
@@ -44,27 +45,17 @@
     "date": "2021-06-26"
    },
    {
-    "id": 184336598,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/184336598/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/184336598/large.jpeg",
-    "attribution": "(c) Coby Meester, some rights reserved (CC BY-NC)",
+    "id": 341644494,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/341644494/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/341644494/large.jpeg",
+    "attribution": "(c) matteo571, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/109376546",
-    "place": "Kiischpelt, Luxemburg",
-    "date": "2022-03-24"
+    "source": "https://www.inaturalist.org/observations/194369759",
+    "place": "38123 Sopramonte TN, Italia",
+    "date": "2023-12-19"
    }
   ],
   "female": [
-   {
-    "id": 510638415,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/510638415/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/510638415/large.jpg",
-    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/284150288",
-    "place": "46880 Bocairente, Valencia, España",
-    "date": "2025-05-25"
-   },
    {
     "id": 667678929,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/667678929/medium.jpg",
@@ -76,14 +67,24 @@
     "date": "2026-05-27"
    },
    {
-    "id": 682028188,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/682028188/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/682028188/large.jpg",
+    "id": 510638415,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/510638415/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/510638415/large.jpg",
     "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/373204309",
+    "source": "https://www.inaturalist.org/observations/284150288",
+    "place": "46880 Bocairente, Valencia, España",
+    "date": "2025-05-25"
+   },
+   {
+    "id": 678783697,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/678783697/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/678783697/large.jpg",
+    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/371509553",
     "place": "Alicante, España",
-    "date": "2026-06-19"
+    "date": "2026-06-13"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2019-07-25"
    }
   ],
-  "hero": {
-   "id": 436734934,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/436734934/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/436734934/large.jpg",
-   "attribution": "(c) Luiz Lapa, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/436734934",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 436734934,
@@ -209,30 +200,40 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 436734934,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/436734934/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/436734934/large.jpg",
+   "attribution": "(c) Luiz Lapa, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/436734934",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2487871,
-  "dkTotal": 126569,
+  "dkTotal": 126646,
   "dkMonths": [
    11132,
    11520,
-   17325,
-   19246,
+   17329,
+   19248,
    13164,
-   6969,
+   6971,
    5468,
    6758,
-   10560,
-   12340,
-   6091,
+   10562,
+   12341,
+   6157,
    5946
   ],
-  "worldTotal": 2868291,
+  "worldTotal": 2868693,
   "topCountries": [
    {
     "code": "GB",
-    "count": 481497
+    "count": 481536
    },
    {
     "code": "SE",
@@ -240,19 +241,19 @@
    },
    {
     "code": "FI",
-    "count": 264025
+    "count": 264026
    },
    {
     "code": "FR",
-    "count": 241635
+    "count": 241651
    },
    {
     "code": "ES",
-    "count": 227705
+    "count": 227720
    },
    {
     "code": "NO",
-    "count": 221511
+    "count": 221512
    },
    {
     "code": "CH",
@@ -260,15 +261,15 @@
    },
    {
     "code": "DK",
-    "count": 126569
+    "count": 126646
    },
    {
     "code": "DE",
-    "count": 125966
+    "count": 126006
    },
    {
     "code": "PT",
-    "count": 67133
+    "count": 67136
    },
    {
     "code": "BE",
@@ -276,7 +277,7 @@
    },
    {
     "code": "PL",
-    "count": 36153
+    "count": 36169
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Paridae",
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:52.953Z"
+ }
 }

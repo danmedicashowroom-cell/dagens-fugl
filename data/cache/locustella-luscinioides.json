@@ -2,7 +2,8 @@
  "key": "locustella-luscinioides",
  "name": "Locustella luscinioides",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:54:44.206Z",
+ "fetchedAt": "2026-11-27T05:00:51.770Z",
+ "gbifAt": "2026-11-27T05:00:51.770Z",
  "names": {
   "da": "Savisanger",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116940,
-  "observations": 3175
+  "observations": 3188
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2024-08-18"
    }
   ],
-  "hero": {
-   "id": 123410763,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/123410763/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/123410763/large.jpeg",
-   "attribution": "(c) Михаил Анурьев, some rights reserved (CC BY-NC), uploaded by Михаил Анурьев",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/123410763",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 123410763,
@@ -158,7 +149,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 123410763,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/123410763/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/123410763/large.jpeg",
+   "attribution": "(c) Михаил Анурьев, some rights reserved (CC BY-NC), uploaded by Михаил Анурьев",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/123410763",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493551,
@@ -177,7 +178,7 @@
    0,
    0
   ],
-  "worldTotal": 209883,
+  "worldTotal": 209889,
   "topCountries": [
    {
     "code": "ES",
@@ -197,7 +198,7 @@
    },
    {
     "code": "FR",
-    "count": 19467
+    "count": 19468
    },
    {
     "code": "PL",
@@ -213,11 +214,11 @@
    },
    {
     "code": "BE",
-    "count": 6751
+    "count": 6752
    },
    {
     "code": "PT",
-    "count": 6179
+    "count": 6180
    },
    {
     "code": "CZ",
@@ -245,13 +246,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Locustellidae",
   "familyKey": 6100825,
   "familyDa": "Græssangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:12.529Z"
+ }
 }

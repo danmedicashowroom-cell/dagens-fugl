@@ -2,7 +2,8 @@
  "key": "merops-apiaster",
  "name": "Merops apiaster",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:49:28.448Z",
+ "fetchedAt": "2026-11-27T04:55:14.143Z",
+ "gbifAt": "2026-11-27T04:55:14.143Z",
  "names": {
   "da": "Biæder",
   "en": "European Bee-eater",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 2191,
-  "observations": 38358
+  "observations": 38462
  },
  "photos": {
   "male": [
@@ -66,24 +67,24 @@
     "date": "2026-05-23"
    },
    {
-    "id": 215065074,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/215065074/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/215065074/large.jpeg",
-    "attribution": "(c) Gianluca Congi🪶🦆🌲, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/126734035",
-    "place": "Sila",
-    "date": "2022-07-15"
+    "id": 109714184,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/109714184/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/109714184/large.jpeg",
+    "attribution": "(c) erichbadenhorst, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/67842234",
+    "place": "Durbanville, Cape Town, 7551, South Africa",
+    "date": "2021-01-10"
    },
    {
-    "id": 385865375,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/385865375/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/385865375/large.jpeg",
-    "attribution": "(c) Gianluca Congi🪶🦆🌲, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/218075092",
-    "place": "Sila Grande",
-    "date": "2024-05-24"
+    "id": 556101008,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/556101008/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/556101008/large.jpg",
+    "attribution": "(c) David Barros Cardona, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/308249358",
+    "place": "Cádiz, España",
+    "date": "2024-04-20"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2026-08-16"
    }
   ],
-  "hero": {
-   "id": 70043412,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/70043412/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/70043412/large.jpeg",
-   "attribution": "(c) brugorraiztelefonicanet, some rights reserved (CC BY-NC), uploaded by brugorraiztelefonicanet",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/70043412",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 70043412,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 70043412,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/70043412/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/70043412/large.jpeg",
+   "attribution": "(c) brugorraiztelefonicanet, some rights reserved (CC BY-NC), uploaded by brugorraiztelefonicanet",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/70043412",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2475443,
@@ -228,23 +229,23 @@
    0,
    1
   ],
-  "worldTotal": 818941,
+  "worldTotal": 819040,
   "topCountries": [
    {
     "code": "ES",
-    "count": 239239
+    "count": 239271
    },
    {
     "code": "ZA",
-    "count": 109059
+    "count": 109072
    },
    {
     "code": "FR",
-    "count": 107158
+    "count": 107163
    },
    {
     "code": "PT",
-    "count": 56224
+    "count": 56240
    },
    {
     "code": "IL",
@@ -260,7 +261,7 @@
    },
    {
     "code": "IT",
-    "count": 19939
+    "count": 19947
    },
    {
     "code": "BG",
@@ -268,15 +269,15 @@
    },
    {
     "code": "NL",
-    "count": 10707
+    "count": 10708
    },
    {
     "code": "RU",
-    "count": 9659
+    "count": 9665
    },
    {
     "code": "DE",
-    "count": 9364
+    "count": 9367
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Meropidae",
   "familyKey": 9320,
   "familyDa": "Biædere",
   "order": "Coraciiformes"
- },
- "gbifAt": "2026-11-25T22:19:29.794Z"
+ }
 }

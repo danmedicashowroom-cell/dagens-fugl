@@ -2,7 +2,8 @@
  "key": "lanius-minor",
  "name": "Lanius minor",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:22.721Z",
+ "fetchedAt": "2026-11-27T04:56:19.329Z",
+ "gbifAt": "2026-11-27T04:56:19.329Z",
  "names": {
   "da": "Rosenbrystet tornskade",
   "en": "Lesser Grey Shrike",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12054,
-  "observations": 5016
+  "observations": 5041
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2025-07-24"
    },
    {
-    "id": 84200341,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/84200341/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/84200341/large.jpeg",
-    "attribution": "(c) Kudaibergen Amirekul, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/52956528",
-    "place": "Южно-Казахстанская область, Казахстан",
-    "date": "2020-07-12"
-   },
-   {
     "id": 30144347,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/30144347/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/30144347/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/19581905",
     "place": "Crimea, UA",
     "date": "2016-07-26"
+   },
+   {
+    "id": 370075708,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/370075708/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/370075708/large.jpeg",
+    "attribution": "(c) olexandrzhmurko, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/209133661",
+    "place": "Скадовськ, Херсонська область, Україна",
+    "date": "2019-07-24"
    }
   ],
   "juvenile": [
@@ -108,26 +109,16 @@
     "date": "2024-06-24"
    },
    {
-    "id": 304707810,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/304707810/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/304707810/large.jpg",
-    "attribution": "(c) Ярослав Матлаев, some rights reserved (CC BY-NC)",
+    "id": 411385668,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/411385668/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/411385668/large.jpg",
+    "attribution": "(c) Gabi Rusu, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/175337666",
-    "place": "Антрацитовский район, Луганская область, Украина",
-    "date": "2023-07-27"
+    "source": "https://www.inaturalist.org/observations/231610672",
+    "place": "Ozun, Romania",
+    "date": "2024-07-23"
    }
   ],
-  "hero": {
-   "id": 1916826,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1916826/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1916826/large.jpg",
-   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/1916826",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 1916826,
@@ -169,7 +160,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 1916826,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1916826/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1916826/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/1916826",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492854,
@@ -188,11 +189,11 @@
    0,
    0
   ],
-  "worldTotal": 104738,
+  "worldTotal": 104749,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 28076
+    "count": 28077
    },
    {
     "code": "TR",
@@ -200,7 +201,7 @@
    },
    {
     "code": "NA",
-    "count": 6139
+    "count": 6140
    },
    {
     "code": "SE",
@@ -208,7 +209,7 @@
    },
    {
     "code": "GR",
-    "count": 5357
+    "count": 5358
    },
    {
     "code": "IL",
@@ -236,7 +237,7 @@
    },
    {
     "code": "RO",
-    "count": 2599
+    "count": 2600
    }
   ]
  },
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laniidae",
   "familyKey": 9315,
   "familyDa": "Tornskader",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:37.564Z"
+ }
 }

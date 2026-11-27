@@ -2,7 +2,8 @@
  "key": "cecropis-daurica",
  "name": "Cecropis daurica",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:09.501Z",
+ "fetchedAt": "2026-11-27T04:59:06.010Z",
+ "gbifAt": "2026-11-27T04:59:06.010Z",
  "names": {
   "da": "Rødrygget Svale",
   "en": "Eastern Red-rumped Swallow",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144792,
-  "observations": 9401
+  "observations": 9468
  },
  "photos": {
   "male": [
@@ -78,16 +79,6 @@
     "date": "2022-10-09"
    }
   ],
-  "hero": {
-   "id": 237607388,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/237607388/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/237607388/large.jpg",
-   "attribution": "(c) Parth Kansara, some rights reserved (CC BY), uploaded by Parth Kansara",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/237607388",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 237607388,
@@ -129,7 +120,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 237607388,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/237607388/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/237607388/large.jpg",
+   "attribution": "(c) Parth Kansara, some rights reserved (CC BY), uploaded by Parth Kansara",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/237607388",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9717283,
@@ -148,23 +149,23 @@
    0,
    0
   ],
-  "worldTotal": 424333,
+  "worldTotal": 424365,
   "topCountries": [
    {
     "code": "IN",
-    "count": 204541
+    "count": 204550
    },
    {
     "code": "TW",
-    "count": 108375
+    "count": 108379
    },
    {
     "code": "CN",
-    "count": 27472
+    "count": 27479
    },
    {
     "code": "TH",
-    "count": 16999
+    "count": 17001
    },
    {
     "code": "ES",
@@ -180,11 +181,11 @@
    },
    {
     "code": "JP",
-    "count": 4828
+    "count": 4829
    },
    {
     "code": "ID",
-    "count": 4270
+    "count": 4271
    },
    {
     "code": "PT",
@@ -192,11 +193,11 @@
    },
    {
     "code": "KR",
-    "count": 3246
+    "count": 3250
    },
    {
     "code": "PH",
-    "count": 2975
+    "count": 2976
    }
   ]
  },
@@ -216,13 +217,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Hirundinidae",
   "familyKey": 5248,
   "familyDa": "Svaler",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:59.339Z"
+ }
 }

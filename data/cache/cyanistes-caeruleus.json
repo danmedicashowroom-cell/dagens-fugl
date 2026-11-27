@@ -2,7 +2,8 @@
  "key": "cyanistes-caeruleus",
  "name": "Cyanistes caeruleus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:49.247Z",
+ "fetchedAt": "2026-11-27T04:57:46.243Z",
+ "gbifAt": "2026-11-27T04:57:46.243Z",
  "names": {
   "da": "Blåmejse",
   "en": "Eurasian blue tit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144849,
-  "observations": 171663
+  "observations": 172922
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2023-01-15"
    },
    {
-    "id": 66259432,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/66259432/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/66259432/large.jpeg",
-    "attribution": "(c) Jana Tautz, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/41761752",
-    "place": "34414 Warburg, Deutschland",
-    "date": "2019-04-09"
-   },
-   {
     "id": 464724983,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464724983/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464724983/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/258949600",
     "place": "Seerosenweiher, Lans, Austria",
     "date": "2025-01-19"
+   },
+   {
+    "id": 583529383,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/583529383/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/583529383/large.jpg",
+    "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/322553394",
+    "place": "Norfolk, UK",
+    "date": "2025-10-19"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2021-05-22"
    }
   ],
-  "hero": {
-   "id": 41677354,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/41677354/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/41677354/large.jpeg",
-   "attribution": "(c) rorygardner79, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/41677354",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 41677354,
@@ -179,74 +170,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 41677354,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/41677354/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/41677354/large.jpeg",
+   "attribution": "(c) rorygardner79, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/41677354",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2487879,
-  "dkTotal": 459035,
+  "dkTotal": 459614,
   "dkMonths": [
-   55937,
-   47133,
-   59392,
-   56925,
-   38192,
-   23603,
-   16987,
-   21292,
-   29774,
-   41341,
-   34176,
-   34219
+   55944,
+   47142,
+   59398,
+   56930,
+   38195,
+   23610,
+   16988,
+   21295,
+   29776,
+   41346,
+   34705,
+   34221
   ],
-  "worldTotal": 11973833,
+  "worldTotal": 11975596,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1996759
+    "count": 1996769
    },
    {
     "code": "GB",
-    "count": 1642250
+    "count": 1642392
    },
    {
     "code": "FR",
-    "count": 1472321
+    "count": 1472375
    },
    {
     "code": "FI",
-    "count": 1255880
+    "count": 1255883
    },
    {
     "code": "NL",
-    "count": 1180123
+    "count": 1180130
    },
    {
     "code": "DE",
-    "count": 826670
+    "count": 827180
    },
    {
     "code": "NO",
-    "count": 777117
+    "count": 777121
    },
    {
     "code": "ES",
-    "count": 670189
+    "count": 670215
    },
    {
     "code": "DK",
-    "count": 459035
+    "count": 459614
    },
    {
     "code": "BE",
-    "count": 260379
+    "count": 260383
    },
    {
     "code": "PL",
-    "count": 234777
+    "count": 234805
    },
    {
     "code": "CH",
-    "count": 226552
+    "count": 226553
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Paridae",
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:49.291Z"
+ }
 }

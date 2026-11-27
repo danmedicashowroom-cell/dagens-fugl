@@ -2,7 +2,8 @@
  "key": "phylloscopus-proregulus",
  "name": "Phylloscopus proregulus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:41.384Z",
+ "fetchedAt": "2026-11-27T04:59:44.381Z",
+ "gbifAt": "2026-11-27T04:59:44.381Z",
  "names": {
   "da": "Fuglekongesanger",
   "en": "Pallas's Leaf Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117041,
-  "observations": 3255
+  "observations": 3290
  },
  "photos": {
   "male": [
@@ -67,16 +68,6 @@
     "date": "2025-11-08"
    }
   ],
-  "hero": {
-   "id": 598094178,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/598094178/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/598094178/large.jpg",
-   "attribution": "(c) Vyacheslav Luzanov, some rights reserved (CC BY-NC), uploaded by Vyacheslav Luzanov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/598094178",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 598094178,
@@ -138,7 +129,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 598094178,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/598094178/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/598094178/large.jpg",
+   "attribution": "(c) Vyacheslav Luzanov, some rights reserved (CC BY-NC), uploaded by Vyacheslav Luzanov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/598094178",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493090,
@@ -157,11 +158,11 @@
    302,
    61
   ],
-  "worldTotal": 79506,
+  "worldTotal": 79523,
   "topCountries": [
    {
     "code": "CN",
-    "count": 27176
+    "count": 27183
    },
    {
     "code": "SE",
@@ -173,19 +174,19 @@
    },
    {
     "code": "NL",
-    "count": 8200
+    "count": 8201
    },
    {
     "code": "TW",
-    "count": 5368
+    "count": 5370
    },
    {
     "code": "RU",
-    "count": 3033
+    "count": 3037
    },
    {
     "code": "GB",
-    "count": 2989
+    "count": 2990
    },
    {
     "code": "DK",
@@ -201,7 +202,7 @@
    },
    {
     "code": "FR",
-    "count": 1221
+    "count": 1222
    },
    {
     "code": "BE",
@@ -225,13 +226,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phylloscopidae",
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:03.240Z"
+ }
 }

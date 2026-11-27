@@ -2,7 +2,8 @@
  "key": "lanius-senator",
  "name": "Lanius senator",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:28.453Z",
+ "fetchedAt": "2026-11-27T04:56:26.251Z",
+ "gbifAt": "2026-11-27T04:56:26.251Z",
  "names": {
   "da": "Rødhovedet tornskade",
   "en": "Woodchat Shrike",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12039,
-  "observations": 12048
+  "observations": 12072
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2025-07-08"
    }
   ],
-  "hero": {
-   "id": 376219537,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/376219537/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/376219537/large.jpeg",
-   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/376219537",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 376219537,
@@ -199,7 +190,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 376219537,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/376219537/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/376219537/large.jpeg",
+   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/376219537",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492867,
@@ -218,15 +219,15 @@
    12,
    0
   ],
-  "worldTotal": 330435,
+  "worldTotal": 330490,
   "topCountries": [
    {
     "code": "ES",
-    "count": 162336
+    "count": 162373
    },
    {
     "code": "FR",
-    "count": 36908
+    "count": 36918
    },
    {
     "code": "PT",
@@ -246,7 +247,7 @@
    },
    {
     "code": "NL",
-    "count": 7754
+    "count": 7757
    },
    {
     "code": "MA",
@@ -262,7 +263,7 @@
    },
    {
     "code": "IT",
-    "count": 2990
+    "count": 2992
    },
    {
     "code": "CY",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laniidae",
   "familyKey": 9315,
   "familyDa": "Tornskader",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:38.045Z"
+ }
 }

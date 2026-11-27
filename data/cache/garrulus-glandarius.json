@@ -2,7 +2,8 @@
  "key": "garrulus-glandarius",
  "name": "Garrulus glandarius",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:46.495Z",
+ "fetchedAt": "2026-11-27T04:56:39.205Z",
+ "gbifAt": "2026-11-27T04:56:39.205Z",
  "names": {
   "da": "Skovskade",
   "en": "Eurasian Jay",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 8088,
-  "observations": 112671
+  "observations": 113420
  },
  "photos": {
   "male": [
@@ -34,6 +35,16 @@
     "date": "2024-05-14"
    },
    {
+    "id": 764279415,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/764279415/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/764279415/large.jpg",
+    "attribution": "(c) Саша, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415094887",
+    "place": "Тула, Тульская обл., Россия, 300021",
+    "date": "2026-11-14"
+   },
+   {
     "id": 262780881,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/262780881/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/262780881/large.jpeg",
@@ -42,16 +53,6 @@
     "source": "https://www.inaturalist.org/observations/152237197",
     "place": "Софиевская Борщаговка, Киевская область, Украина, 08131",
     "date": "2023-03-25"
-   },
-   {
-    "id": 472060605,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/472060605/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/472060605/large.jpeg",
-    "attribution": "(c) Rob Westerduijn, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/262835994",
-    "place": "Voorburg, Nederland",
-    "date": "2025-02-22"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2022-08-03"
    }
   ],
-  "hero": {
-   "id": 168146456,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/168146456/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/168146456/large.jpg",
-   "attribution": "(c) Luc Viatour, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/168146456",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 384775597,
@@ -159,54 +150,64 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 384775597,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/384775597/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/384775597/large.jpg",
+   "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/384775597",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5229493,
-  "dkTotal": 240480,
+  "dkTotal": 240785,
   "dkMonths": [
-   23492,
+   23493,
    17866,
-   22970,
-   27037,
+   22973,
+   27042,
    20691,
-   12835,
+   12837,
    8842,
    11383,
    25516,
-   32613,
-   20289,
+   32617,
+   20579,
    16886
   ],
-  "worldTotal": 4597275,
+  "worldTotal": 4598354,
   "topCountries": [
    {
     "code": "FR",
-    "count": 686365
+    "count": 686389
    },
    {
     "code": "NL",
-    "count": 626868
+    "count": 626874
    },
    {
     "code": "SE",
-    "count": 550196
+    "count": 550198
    },
    {
     "code": "GB",
-    "count": 425240
+    "count": 425285
    },
    {
     "code": "DE",
-    "count": 415100
+    "count": 415397
    },
    {
     "code": "DK",
-    "count": 240480
+    "count": 240785
    },
    {
     "code": "ES",
-    "count": 198917
+    "count": 198931
    },
    {
     "code": "NO",
@@ -214,19 +215,19 @@
    },
    {
     "code": "FI",
-    "count": 173444
+    "count": 173447
    },
    {
     "code": "BE",
-    "count": 151894
+    "count": 151895
    },
    {
     "code": "PT",
-    "count": 111374
+    "count": 111382
    },
    {
     "code": "IT",
-    "count": 98942
+    "count": 98962
    }
   ]
  },
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:41.237Z"
+ }
 }

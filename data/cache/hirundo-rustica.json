@@ -2,7 +2,8 @@
  "key": "hirundo-rustica",
  "name": "Hirundo rustica",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:04.393Z",
+ "fetchedAt": "2026-11-27T04:59:00.273Z",
+ "gbifAt": "2026-11-27T04:59:00.273Z",
  "names": {
   "da": "Landsvale",
   "en": "Barn Swallow",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 11901,
-  "observations": 246475
+  "observations": 247008
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2024-04-15"
    },
    {
-    "id": 552853465,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/552853465/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/552853465/large.jpg",
-    "attribution": "(c) lastovka, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/306559667",
-    "place": "Jennersdorf, Österreich",
-    "date": "2025-08-12"
-   },
-   {
     "id": 714989284,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/714989284/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/714989284/large.jpg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/390286037",
     "place": "Jennersdorf, Österreich",
     "date": "2026-08-11"
+   },
+   {
+    "id": 552853465,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/552853465/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/552853465/large.jpg",
+    "attribution": "(c) lastovka, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/306559667",
+    "place": "Jennersdorf, Österreich",
+    "date": "2025-08-12"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2024-07-13"
    }
   ],
-  "hero": {
-   "id": 122469139,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/122469139/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/122469139/large.jpg",
-   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/122469139",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 122469139,
@@ -209,58 +200,68 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 122469139,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/122469139/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/122469139/large.jpg",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/122469139",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9515886,
-  "dkTotal": 444525,
+  "dkTotal": 444586,
   "dkMonths": [
    8,
    1,
    320,
-   64698,
-   107671,
-   61396,
-   59320,
-   76764,
-   70969,
+   64700,
+   107672,
+   61403,
+   59338,
+   76774,
+   70992,
    2649,
    638,
    1
   ],
-  "worldTotal": 16988754,
+  "worldTotal": 16989288,
   "topCountries": [
    {
     "code": "US",
-    "count": 7151908
+    "count": 7151987
    },
    {
     "code": "ES",
-    "count": 1373856
+    "count": 1373870
    },
    {
     "code": "CA",
-    "count": 948345
+    "count": 948363
    },
    {
     "code": "SE",
-    "count": 774588
+    "count": 774592
    },
    {
     "code": "GB",
-    "count": 681390
+    "count": 681402
    },
    {
     "code": "FR",
-    "count": 612274
+    "count": 612286
    },
    {
     "code": "FI",
-    "count": 454396
+    "count": 454397
    },
    {
     "code": "DK",
-    "count": 444525
+    "count": 444586
    },
    {
     "code": "NL",
@@ -268,15 +269,15 @@
    },
    {
     "code": "ZA",
-    "count": 360811
+    "count": 360823
    },
    {
     "code": "NO",
-    "count": 345984
+    "count": 345985
    },
    {
     "code": "TW",
-    "count": 314372
+    "count": 314386
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Hirundinidae",
   "familyKey": 5248,
   "familyDa": "Svaler",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:58.642Z"
+ }
 }

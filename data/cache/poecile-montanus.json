@@ -2,7 +2,8 @@
  "key": "poecile-montanus",
  "name": "Poecile montanus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:17.631Z",
+ "fetchedAt": "2026-11-27T04:58:17.216Z",
+ "gbifAt": "2026-11-27T04:58:17.216Z",
  "names": {
   "da": "Fyrremejse",
   "en": "Willow Tit",
@@ -19,20 +20,10 @@
  },
  "inat": {
   "id": 144812,
-  "observations": 35977
+  "observations": 36228
  },
  "photos": {
   "male": [
-   {
-    "id": 31264690,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31264690/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31264690/large.jpg",
-    "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/20255260",
-    "place": "Асиновский р-н, Томская обл., Россия",
-    "date": "2019-02-09"
-   },
    {
     "id": 189799398,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/189799398/medium.jpg",
@@ -42,6 +33,16 @@
     "source": "https://www.inaturalist.org/observations/112364647",
     "place": "Приморский р-н, Санкт-Петербург, Россия",
     "date": "2022-04-21"
+   },
+   {
+    "id": 31264690,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31264690/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31264690/large.jpg",
+    "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/20255260",
+    "place": "Асиновский р-н, Томская обл., Россия",
+    "date": "2019-02-09"
    },
    {
     "id": 576487709,
@@ -108,16 +109,6 @@
     "date": "2024-06-03"
    }
   ],
-  "hero": {
-   "id": 458622888,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/458622888/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/458622888/large.jpg",
-   "attribution": "(c) Leonid, some rights reserved (CC BY-NC), uploaded by Leonid",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/458622888",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 458622888,
@@ -199,11 +190,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 458622888,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/458622888/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/458622888/large.jpg",
+   "attribution": "(c) Leonid, some rights reserved (CC BY-NC), uploaded by Leonid",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/458622888",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2487866,
-  "dkTotal": 8866,
+  "dkTotal": 8869,
   "dkMonths": [
    656,
    772,
@@ -215,42 +216,42 @@
    508,
    569,
    1244,
-   469,
+   472,
    308
   ],
-  "worldTotal": 1420243,
+  "worldTotal": 1420485,
   "topCountries": [
    {
     "code": "FI",
-    "count": 412275
+    "count": 412282
    },
    {
     "code": "SE",
-    "count": 378008
+    "count": 378009
    },
    {
     "code": "NO",
-    "count": 245757
+    "count": 245758
    },
    {
     "code": "DE",
-    "count": 56533
+    "count": 56547
    },
    {
     "code": "CH",
-    "count": 54525
+    "count": 54526
    },
    {
     "code": "RU",
-    "count": 54271
+    "count": 54466
    },
    {
     "code": "GB",
-    "count": 46118
+    "count": 46119
    },
    {
     "code": "FR",
-    "count": 40305
+    "count": 40308
    },
    {
     "code": "BE",
@@ -266,7 +267,7 @@
    },
    {
     "code": "EE",
-    "count": 10091
+    "count": 10092
    }
   ]
  },
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Paridae",
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:54.408Z"
+ }
 }

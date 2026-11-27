@@ -2,7 +2,8 @@
  "key": "delichon-urbicum",
  "name": "Delichon urbicum",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:14.908Z",
+ "fetchedAt": "2026-11-27T04:59:12.646Z",
+ "gbifAt": "2026-11-27T04:59:12.646Z",
  "names": {
   "da": "Bysvale",
   "en": "Common House Martin",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 64705,
-  "observations": 39372
+  "observations": 39459
  },
  "photos": {
   "male": [],
@@ -87,16 +88,6 @@
     "date": "2018-07-15"
    }
   ],
-  "hero": {
-   "id": 323621902,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/323621902/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/323621902/large.jpg",
-   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/323621902",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 323621902,
@@ -138,34 +129,44 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 323621902,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/323621902/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/323621902/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/323621902",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2489214,
-  "dkTotal": 199715,
+  "dkTotal": 199760,
   "dkMonths": [
    1,
    1,
    35,
-   13568,
+   13569,
    49196,
-   38558,
-   34281,
-   41370,
-   22527,
+   38563,
+   34300,
+   41378,
+   22539,
    55,
    69,
    1
   ],
-  "worldTotal": 2787305,
+  "worldTotal": 2787448,
   "topCountries": [
    {
     "code": "ES",
-    "count": 421093
+    "count": 421099
    },
    {
     "code": "GB",
-    "count": 362990
+    "count": 362995
    },
    {
     "code": "SE",
@@ -173,19 +174,19 @@
    },
    {
     "code": "FR",
-    "count": 280966
+    "count": 280974
    },
    {
     "code": "DK",
-    "count": 199715
+    "count": 199760
    },
    {
     "code": "DE",
-    "count": 195899
+    "count": 195923
    },
    {
     "code": "PT",
-    "count": 128079
+    "count": 128080
    },
    {
     "code": "NO",
@@ -225,13 +226,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Hirundinidae",
   "familyKey": 5248,
   "familyDa": "Svaler",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:59.781Z"
+ }
 }

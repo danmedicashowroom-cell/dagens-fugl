@@ -2,7 +2,8 @@
  "key": "remiz-pendulinus",
  "name": "Remiz pendulinus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:43.826Z",
+ "fetchedAt": "2026-11-27T04:57:40.814Z",
+ "gbifAt": "2026-11-27T04:57:40.814Z",
  "names": {
   "da": "Pungmejse",
   "en": "Eurasian Penduline Tit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13676,
-  "observations": 9017
+  "observations": 9060
  },
  "photos": {
   "male": [
@@ -76,14 +77,14 @@
     "date": "2026-05-28"
    },
    {
-    "id": 702719731,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/702719731/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/702719731/large.jpg",
-    "attribution": "(c) vadmese, some rights reserved (CC BY-NC)",
+    "id": 104332191,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/104332191/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/104332191/large.jpeg",
+    "attribution": "(c) centauri, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/383926292",
-    "place": "Hajdú-Bihar, HU",
-    "date": "2026-05-30"
+    "source": "https://www.inaturalist.org/observations/64854389",
+    "place": "Evciler, 06705 Çankaya/Ankara, Türkiye",
+    "date": "2018-03-20"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2022-10-09"
    }
   ],
-  "hero": {
-   "id": 606114054,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/606114054/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/606114054/large.jpg",
-   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/606114054",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 606114054,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 606114054,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/606114054/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/606114054/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/606114054",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2487385,
@@ -198,7 +199,7 @@
    14,
    18
   ],
-  "worldTotal": 271259,
+  "worldTotal": 271275,
   "topCountries": [
    {
     "code": "ES",
@@ -206,7 +207,7 @@
    },
    {
     "code": "FR",
-    "count": 32133
+    "count": 32134
    },
    {
     "code": "SE",
@@ -214,11 +215,11 @@
    },
    {
     "code": "PL",
-    "count": 15260
+    "count": 15261
    },
    {
     "code": "RU",
-    "count": 7489
+    "count": 7498
    },
    {
     "code": "TR",
@@ -230,7 +231,7 @@
    },
    {
     "code": "DE",
-    "count": 6996
+    "count": 6998
    },
    {
     "code": "IL",
@@ -242,7 +243,7 @@
    },
    {
     "code": "IT",
-    "count": 5542
+    "count": 5543
    },
    {
     "code": "UA",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Remizidae",
   "familyKey": 9344,
   "familyDa": "Pungmejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:48.682Z"
+ }
 }

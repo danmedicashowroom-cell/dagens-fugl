@@ -2,7 +2,8 @@
  "key": "panurus-biarmicus",
  "name": "Panurus biarmicus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:23.039Z",
+ "fetchedAt": "2026-11-27T04:58:24.972Z",
+ "gbifAt": "2026-11-27T04:58:24.972Z",
  "names": {
   "da": "Skægmejse",
   "en": "Bearded Reeding",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117000,
-  "observations": 6172
+  "observations": 6217
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2022-08-09"
    }
   ],
-  "hero": {
-   "id": 393848014,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393848014/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393848014/large.jpg",
-   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/393848014",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 393848014,
@@ -209,13 +200,23 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 393848014,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393848014/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393848014/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/393848014",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493367,
-  "dkTotal": 81150,
+  "dkTotal": 81196,
   "dkMonths": [
-   4449,
+   4451,
    2748,
    4695,
    9513,
@@ -225,10 +226,10 @@
    6720,
    6480,
    13173,
-   6716,
+   6760,
    3598
   ],
-  "worldTotal": 589413,
+  "worldTotal": 589482,
   "topCountries": [
    {
     "code": "SE",
@@ -240,15 +241,15 @@
    },
    {
     "code": "DK",
-    "count": 81150
+    "count": 81196
    },
    {
     "code": "GB",
-    "count": 43298
+    "count": 43306
    },
    {
     "code": "FR",
-    "count": 27280
+    "count": 27282
    },
    {
     "code": "PL",
@@ -268,7 +269,7 @@
    },
    {
     "code": "DE",
-    "count": 12135
+    "count": 12139
    },
    {
     "code": "NO",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Panuridae",
   "familyKey": 6100802,
   "familyDa": null,
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:54.899Z"
+ }
 }

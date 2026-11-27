@@ -2,7 +2,8 @@
  "key": "upupa-epops",
  "name": "Upupa epops",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:49:38.703Z",
+ "fetchedAt": "2026-11-27T04:55:25.819Z",
+ "gbifAt": "2026-11-27T04:55:25.819Z",
  "names": {
   "da": "Hærfugl",
   "en": "Eurasian Hoopoe",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 20969,
-  "observations": 55200
+  "observations": 55511
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2011-07-04"
    }
   ],
-  "hero": {
-   "id": 60494705,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/60494705/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/60494705/large.jpg",
-   "attribution": "(c) Andrej Chudý, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/60494705",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 761956945,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 761956945,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/761956945/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/761956945/large.jpg",
+   "attribution": "(c) Антон Волков, some rights reserved (CC BY-NC), uploaded by Антон Волков",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/761956945",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2498415,
@@ -208,39 +209,39 @@
    218,
    143
   ],
-  "worldTotal": 1292377,
+  "worldTotal": 1292529,
   "topCountries": [
    {
     "code": "ES",
-    "count": 331928
+    "count": 331960
    },
    {
     "code": "FR",
-    "count": 191197
+    "count": 191208
    },
    {
     "code": "IN",
-    "count": 162230
+    "count": 162269
    },
    {
     "code": "PT",
-    "count": 97295
+    "count": 97297
    },
    {
     "code": "IL",
-    "count": 58622
+    "count": 58626
    },
    {
     "code": "ZA",
-    "count": 36509
+    "count": 36513
    },
    {
     "code": "CN",
-    "count": 32862
+    "count": 32878
    },
    {
     "code": "AE",
-    "count": 30594
+    "count": 30604
    },
    {
     "code": "TR",
@@ -248,7 +249,7 @@
    },
    {
     "code": "TH",
-    "count": 20619
+    "count": 20623
    },
    {
     "code": "GR",
@@ -256,7 +257,7 @@
    },
    {
     "code": "TW",
-    "count": 17484
+    "count": 17485
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Upupidae",
   "familyKey": 5293,
   "familyDa": "Hærfugle",
   "order": "Bucerotiformes"
- },
- "gbifAt": "2026-11-25T22:19:33.009Z"
+ }
 }

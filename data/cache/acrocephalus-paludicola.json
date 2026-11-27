@@ -2,7 +2,8 @@
  "key": "acrocephalus-paludicola",
  "name": "Acrocephalus paludicola",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:54:50.954Z",
+ "fetchedAt": "2026-11-27T05:00:59.112Z",
+ "gbifAt": "2026-11-27T05:00:59.112Z",
  "names": {
   "da": "Vandsanger",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117181,
-  "observations": 204
+  "observations": 207
  },
  "photos": {
   "male": [],
@@ -57,16 +58,6 @@
     "date": "2003-08-25"
    }
   ],
-  "hero": {
-   "id": 310653073,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/310653073/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/310653073/large.jpg",
-   "attribution": "(c) ulysse_lafond, some rights reserved (CC BY-NC), uploaded by ulysse_lafond",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/310653073",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 310653073,
@@ -108,7 +99,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 310653073,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/310653073/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/310653073/large.jpg",
+   "attribution": "(c) ulysse_lafond, some rights reserved (CC BY-NC), uploaded by ulysse_lafond",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/310653073",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493114,
@@ -127,11 +128,11 @@
    0,
    0
   ],
-  "worldTotal": 22073,
+  "worldTotal": 22075,
   "topCountries": [
    {
     "code": "FR",
-    "count": 8574
+    "count": 8575
    },
    {
     "code": "ES",
@@ -143,7 +144,7 @@
    },
    {
     "code": "NL",
-    "count": 3192
+    "count": 3193
    },
    {
     "code": "BE",
@@ -195,13 +196,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Acrocephalidae",
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:13.119Z"
+ }
 }

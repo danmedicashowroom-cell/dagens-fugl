@@ -2,7 +2,8 @@
  "key": "coloeus-monedula",
  "name": "Coloeus monedula",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:04.903Z",
+ "fetchedAt": "2026-11-27T04:56:58.108Z",
+ "gbifAt": "2026-11-27T04:56:58.108Z",
  "names": {
   "da": "Allike",
   "en": "Western Jackdaw",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 336399,
-  "observations": 111608
+  "observations": 112306
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2022-06-01"
    },
    {
-    "id": 465212101,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/465212101/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/465212101/large.jpeg",
-    "attribution": "(c) Fatih AKKOC, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/259055375",
-    "place": "Sümer, 26140 Odunpazarı/Eskişehir, Türkiye",
-    "date": "2025-01-20"
-   },
-   {
     "id": 724088086,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/724088086/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/724088086/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/394933851",
     "place": "General Balan, Sibiu, România",
     "date": "2026-08-27"
+   },
+   {
+    "id": 465212101,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/465212101/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/465212101/large.jpeg",
+    "attribution": "(c) Fatih AKKOC, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/259055375",
+    "place": "Sümer, 26140 Odunpazarı/Eskişehir, Türkiye",
+    "date": "2025-01-20"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2019-07-12"
    }
   ],
-  "hero": {
-   "id": 189714380,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/189714380/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/189714380/large.jpg",
-   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/189714380",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 189714380,
@@ -209,74 +200,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 189714380,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/189714380/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/189714380/large.jpg",
+   "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/189714380",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 6100954,
-  "dkTotal": 348220,
+  "dkTotal": 348775,
   "dkMonths": [
-   36619,
-   31846,
-   48675,
-   40107,
+   36628,
+   31864,
+   48685,
+   40111,
    34281,
-   20186,
-   12705,
-   14896,
+   20187,
+   12707,
+   14897,
    21058,
-   38047,
-   26947,
+   38049,
+   27455,
    22724
   ],
-  "worldTotal": 5190123,
+  "worldTotal": 5191363,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1282993
+    "count": 1283070
    },
    {
     "code": "SE",
-    "count": 872881
+    "count": 872884
    },
    {
     "code": "NL",
-    "count": 732293
+    "count": 732314
    },
    {
     "code": "DK",
-    "count": 348220
+    "count": 348775
    },
    {
     "code": "FR",
-    "count": 338978
+    "count": 339004
    },
    {
     "code": "BE",
-    "count": 230162
+    "count": 230163
    },
    {
     "code": "FI",
-    "count": 203908
+    "count": 203914
    },
    {
     "code": "DE",
-    "count": 201043
+    "count": 201211
    },
    {
     "code": "NO",
-    "count": 199884
+    "count": 199889
    },
    {
     "code": "ES",
-    "count": 182362
+    "count": 182377
    },
    {
     "code": "IE",
-    "count": 71536
+    "count": 71553
    },
    {
     "code": "PL",
-    "count": 67207
+    "count": 67254
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:42.961Z"
+ }
 }

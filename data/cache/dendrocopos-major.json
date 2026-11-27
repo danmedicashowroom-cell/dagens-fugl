@@ -2,7 +2,8 @@
  "key": "dendrocopos-major",
  "name": "Dendrocopos major",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:00.252Z",
+ "fetchedAt": "2026-11-27T04:55:54.978Z",
+ "gbifAt": "2026-11-27T04:55:54.978Z",
  "names": {
   "da": "Stor flagspætte",
   "en": "Great Spotted Woodpecker",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 17871,
-  "observations": 159146
+  "observations": 160130
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-08-09"
    }
   ],
-  "hero": {
-   "id": 259132621,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/259132621/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/259132621/large.jpeg",
-   "attribution": "(c) Elio Giacone, some rights reserved (CC BY-NC), uploaded by Elio Giacone",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/259132621",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 259132621,
@@ -209,50 +200,60 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 259132621,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/259132621/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/259132621/large.jpeg",
+   "attribution": "(c) Elio Giacone, some rights reserved (CC BY-NC), uploaded by Elio Giacone",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/259132621",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2477968,
-  "dkTotal": 365977,
+  "dkTotal": 366313,
   "dkMonths": [
-   36609,
+   36611,
    35018,
-   48262,
-   44428,
+   48266,
+   44433,
    34985,
-   29410,
+   29414,
    19612,
-   22733,
-   23276,
-   27529,
-   22570,
-   21478
+   22736,
+   23277,
+   27531,
+   22884,
+   21479
   ],
-  "worldTotal": 5783988,
+  "worldTotal": 5785400,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1090522
+    "count": 1090533
    },
    {
     "code": "NL",
-    "count": 805701
+    "count": 805710
    },
    {
     "code": "FR",
-    "count": 570527
+    "count": 570550
    },
    {
     "code": "DE",
-    "count": 524141
+    "count": 524537
    },
    {
     "code": "GB",
-    "count": 506639
+    "count": 506669
    },
    {
     "code": "DK",
-    "count": 365977
+    "count": 366313
    },
    {
     "code": "NO",
@@ -260,23 +261,23 @@
    },
    {
     "code": "FI",
-    "count": 299957
+    "count": 299965
    },
    {
     "code": "ES",
-    "count": 200975
+    "count": 201000
    },
    {
     "code": "BE",
-    "count": 195298
+    "count": 195302
    },
    {
     "code": "CH",
-    "count": 143219
+    "count": 143221
    },
    {
     "code": "RU",
-    "count": 119568
+    "count": 119902
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Picidae",
   "familyKey": 9333,
   "familyDa": "Spætter",
   "order": "Piciformes"
- },
- "gbifAt": "2026-11-25T22:19:35.400Z"
+ }
 }

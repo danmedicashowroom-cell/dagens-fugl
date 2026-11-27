@@ -2,7 +2,8 @@
  "key": "curruca-nisoria",
  "name": "Curruca nisoria",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:54:27.900Z",
+ "fetchedAt": "2026-11-27T05:00:34.299Z",
+ "gbifAt": "2026-11-27T05:00:34.299Z",
  "names": {
   "da": "Høgesanger",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 1289488,
-  "observations": 2203
+  "observations": 2210
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2020-09-01"
    }
   ],
-  "hero": {
-   "id": 211458488,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/211458488/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/211458488/large.jpeg",
-   "attribution": "(c) sooloovey, some rights reserved (CC BY-NC), uploaded by sooloovey",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/211458488",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 211458488,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 211458488,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/211458488/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/211458488/large.jpeg",
+   "attribution": "(c) sooloovey, some rights reserved (CC BY-NC), uploaded by sooloovey",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/211458488",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492955,
@@ -208,7 +209,7 @@
    197,
    35
   ],
-  "worldTotal": 89408,
+  "worldTotal": 89411,
   "topCountries": [
    {
     "code": "SE",
@@ -220,7 +221,7 @@
    },
    {
     "code": "NL",
-    "count": 5311
+    "count": 5312
    },
    {
     "code": "PL",
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Sylviidae",
   "familyKey": 5285,
   "familyDa": "Sangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:10.761Z"
+ }
 }

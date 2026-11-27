@@ -2,7 +2,8 @@
  "key": "corvus-corax",
  "name": "Corvus corax",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:27.981Z",
+ "fetchedAt": "2026-11-27T04:57:22.052Z",
+ "gbifAt": "2026-11-27T04:57:22.052Z",
  "names": {
   "da": "Ravn",
   "en": "Northern Raven",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 8010,
-  "observations": 198475
+  "observations": 199573
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2025-04-17"
    }
   ],
-  "hero": {
-   "id": 54389687,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/54389687/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/54389687/large.jpg",
-   "attribution": "(c) arbyreed, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/54389687",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 651411222,
@@ -169,34 +160,44 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 651411222,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/651411222/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/651411222/large.jpg",
+   "attribution": "(c) Tim Healy, some rights reserved (CC BY-NC), uploaded by Tim Healy",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/651411222",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2482492,
-  "dkTotal": 293807,
+  "dkTotal": 294171,
   "dkMonths": [
-   27466,
+   27467,
    28694,
    41217,
    38863,
-   25257,
+   25258,
    13413,
    14121,
-   18716,
+   18717,
    22872,
-   24969,
-   19795,
-   18363
+   24972,
+   20152,
+   18364
   ],
-  "worldTotal": 11832782,
+  "worldTotal": 11834007,
   "topCountries": [
    {
     "code": "US",
-    "count": 6339261
+    "count": 6339577
    },
    {
     "code": "CA",
-    "count": 2360779
+    "count": 2360857
    },
    {
     "code": "SE",
@@ -204,11 +205,11 @@
    },
    {
     "code": "DK",
-    "count": 293807
+    "count": 294171
    },
    {
     "code": "ES",
-    "count": 279451
+    "count": 279465
    },
    {
     "code": "NO",
@@ -216,15 +217,15 @@
    },
    {
     "code": "GB",
-    "count": 239677
+    "count": 239692
    },
    {
     "code": "DE",
-    "count": 162903
+    "count": 163006
    },
    {
     "code": "FR",
-    "count": 155006
+    "count": 155020
    },
    {
     "code": "FI",
@@ -232,37 +233,37 @@
    },
    {
     "code": "RU",
-    "count": 91028
+    "count": 91200
    },
    {
     "code": "CH",
-    "count": 74918
+    "count": 74920
    }
   ]
  },
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1099362/download",
+    "u": "https://xeno-canto.org/1196855/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Romuald Mikusek",
-  "page": "https://xeno-canto.org/1099362",
-  "type": "call, flight call",
+  "artist": "Petter Westberg",
+  "page": "https://xeno-canto.org/1196855",
+  "type": "call",
   "q": "A",
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:47.132Z"
+ }
 }

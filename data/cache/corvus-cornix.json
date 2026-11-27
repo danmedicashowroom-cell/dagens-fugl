@@ -2,7 +2,8 @@
  "key": "corvus-cornix",
  "name": "Corvus cornix",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:51:21.633Z",
+ "fetchedAt": "2026-11-27T04:57:15.885Z",
+ "gbifAt": "2026-11-27T04:57:15.885Z",
  "names": {
   "da": "Gråkrage",
   "en": "Hooded Crow",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144757,
-  "observations": 152569
+  "observations": 153593
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2022-03-23"
    },
    {
-    "id": 345483879,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/345483879/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/345483879/large.jpeg",
-    "attribution": "(c) barilan_school, some rights reserved (CC BY-NC)",
+    "id": 131345697,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/131345697/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/131345697/large.jpeg",
+    "attribution": "(c) Анна Метёлкина, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/196260483",
-    "place": "בית ספר בר אילן, כפר יונה, ישראל",
-    "date": "2023-12-27"
+    "source": "https://www.inaturalist.org/observations/80152327",
+    "place": "Центральный р-н, Тверь, Тверская обл., Россия",
+    "date": "2021-05-24"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2026-08-27"
    }
   ],
-  "hero": {
-   "id": 114176979,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/114176979/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/114176979/large.jpg",
-   "attribution": "(c) hedera.baltica, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/114176979",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 258102890,
@@ -179,74 +170,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 258102890,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/258102890/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/258102890/large.jpg",
+   "attribution": "(c) Сильченко Иван Владимирович, some rights reserved (CC BY-NC), uploaded by Сильченко Иван Владимирович",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/258102890",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2482515,
-  "dkTotal": 649771,
+  "dkTotal": 650474,
   "dkMonths": [
-   69200,
-   59643,
-   77493,
-   73076,
+   69206,
+   59650,
+   77501,
+   73077,
    64021,
-   45158,
+   45163,
    38352,
-   38386,
-   40995,
-   53414,
-   45504,
-   44158
+   38387,
+   41002,
+   53425,
+   46159,
+   44160
   ],
-  "worldTotal": 4510909,
+  "worldTotal": 4512597,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1195418
+    "count": 1195429
    },
    {
     "code": "NO",
-    "count": 802722
+    "count": 802741
    },
    {
     "code": "DK",
-    "count": 649771
+    "count": 650474
    },
    {
     "code": "FI",
-    "count": 253306
+    "count": 253313
    },
    {
     "code": "IT",
-    "count": 216132
+    "count": 216179
    },
    {
     "code": "RU",
-    "count": 196119
+    "count": 196545
    },
    {
     "code": "IL",
-    "count": 140152
+    "count": 140166
    },
    {
     "code": "DE",
-    "count": 123636
+    "count": 123714
    },
    {
     "code": "IE",
-    "count": 88874
+    "count": 88891
    },
    {
     "code": "TR",
-    "count": 86800
+    "count": 86846
    },
    {
     "code": "PL",
-    "count": 86101
+    "count": 86156
    },
    {
     "code": "GB",
-    "count": 64809
+    "count": 64814
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:44.530Z"
+ }
 }

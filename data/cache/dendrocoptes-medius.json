@@ -2,7 +2,8 @@
  "key": "dendrocoptes-medius",
  "name": "Dendrocoptes medius",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:06.314Z",
+ "fetchedAt": "2026-11-27T04:56:01.309Z",
+ "gbifAt": "2026-11-27T04:56:01.309Z",
  "names": {
   "da": "Mellemflagspætte",
   "en": "Middle Spotted Woodpecker",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 792985,
-  "observations": 15082
+  "observations": 15216
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2020-07-04"
    },
    {
-    "id": 736331184,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/736331184/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/736331184/large.jpg",
-    "attribution": "(c) Diboan Tremelo, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/401206518",
-    "place": "23460 Royère-de-Vassivière, France",
-    "date": "2026-06-07"
-   },
-   {
     "id": 731868048,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/731868048/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/731868048/large.jpg",
@@ -116,19 +107,29 @@
     "source": "https://www.inaturalist.org/observations/398930425",
     "place": "Oberdöbling, 1190 Wien, Österreich",
     "date": "2026-06-27"
+   },
+   {
+    "id": 736331184,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/736331184/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/736331184/large.jpg",
+    "attribution": "(c) Diboan Tremelo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/401206518",
+    "place": "23460 Royère-de-Vassivière, France",
+    "date": "2026-06-07"
    }
   ],
+  "curated": [],
   "hero": {
-   "id": 76207,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/76207/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/76207/large.jpg",
-   "attribution": "(c) Margrit, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/76207",
-   "place": null,
-   "date": null
-  },
-  "curated": []
+   "id": 586336293,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/586336293/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/586336293/large.jpg",
+   "attribution": "(c) Андрей Радыгин, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/observations/323996074",
+   "place": "Заволжский р-н, Тверь, Тверская обл., Россия",
+   "date": "2025-10-30"
+  }
  },
  "gbif": {
   "key": 8773033,
@@ -147,19 +148,19 @@
    58,
    286
   ],
-  "worldTotal": 326289,
+  "worldTotal": 326450,
   "topCountries": [
    {
     "code": "FR",
-    "count": 81619
+    "count": 81624
    },
    {
     "code": "NL",
-    "count": 77224
+    "count": 77226
    },
    {
     "code": "DE",
-    "count": 47481
+    "count": 47537
    },
    {
     "code": "CH",
@@ -167,11 +168,11 @@
    },
    {
     "code": "RU",
-    "count": 11137
+    "count": 11193
    },
    {
     "code": "PL",
-    "count": 10851
+    "count": 10860
    },
    {
     "code": "BE",
@@ -183,7 +184,7 @@
    },
    {
     "code": "CZ",
-    "count": 6575
+    "count": 6581
    },
    {
     "code": "ES",
@@ -191,11 +192,11 @@
    },
    {
     "code": "GR",
-    "count": 4030
+    "count": 4032
    },
    {
     "code": "UA",
-    "count": 3879
+    "count": 3884
    }
   ]
  },
@@ -215,13 +216,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Picidae",
   "familyKey": 9333,
   "familyDa": "Spætter",
   "order": "Piciformes"
- },
- "gbifAt": "2026-11-25T22:19:36.041Z"
+ }
 }

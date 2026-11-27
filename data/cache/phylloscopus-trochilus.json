@@ -2,7 +2,8 @@
  "key": "phylloscopus-trochilus",
  "name": "Phylloscopus trochilus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:26.022Z",
+ "fetchedAt": "2026-11-27T04:59:26.281Z",
+ "gbifAt": "2026-11-27T04:59:26.281Z",
  "names": {
   "da": "Løvsanger",
   "en": "Willow Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117055,
-  "observations": 35458
+  "observations": 35546
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2020-04-27"
    },
    {
-    "id": 274932900,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/274932900/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/274932900/large.jpg",
+    "id": 381761084,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/381761084/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/381761084/large.jpg",
     "attribution": "(c) Константин Самодуров, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/159133570",
+    "source": "https://www.inaturalist.org/observations/215896303",
     "place": "Асиновский р-н, Томская обл., Россия",
-    "date": "2023-04-30"
+    "date": "2024-05-10"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2026-09-10"
    }
   ],
-  "hero": {
-   "id": 165631422,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg",
-   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/165631422",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 165631422,
@@ -209,26 +200,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 165631422,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg",
+   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/165631422",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493052,
-  "dkTotal": 233666,
+  "dkTotal": 233697,
   "dkMonths": [
    0,
    3,
    8,
-   53144,
+   53147,
    89261,
-   38516,
-   13245,
-   25140,
-   13558,
+   38521,
+   13251,
+   25143,
+   13572,
    656,
    24,
    4
   ],
-  "worldTotal": 5303431,
+  "worldTotal": 5303515,
   "topCountries": [
    {
     "code": "SE",
@@ -236,7 +237,7 @@
    },
    {
     "code": "FI",
-    "count": 1121652
+    "count": 1121653
    },
    {
     "code": "NO",
@@ -244,27 +245,27 @@
    },
    {
     "code": "ES",
-    "count": 341594
+    "count": 341601
    },
    {
     "code": "NL",
-    "count": 336410
+    "count": 336411
    },
    {
     "code": "GB",
-    "count": 332588
+    "count": 332594
    },
    {
     "code": "DK",
-    "count": 233666
+    "count": 233697
    },
    {
     "code": "FR",
-    "count": 180872
+    "count": 180877
    },
    {
     "code": "DE",
-    "count": 85846
+    "count": 85849
    },
    {
     "code": "BE",
@@ -272,7 +273,7 @@
    },
    {
     "code": "PL",
-    "count": 62632
+    "count": 62633
    },
    {
     "code": "ZA",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phylloscopidae",
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:01.390Z"
+ }
 }

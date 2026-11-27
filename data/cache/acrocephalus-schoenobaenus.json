@@ -2,7 +2,8 @@
  "key": "acrocephalus-schoenobaenus",
  "name": "Acrocephalus schoenobaenus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:54:56.439Z",
+ "fetchedAt": "2026-11-27T05:01:04.591Z",
+ "gbifAt": "2026-11-27T05:01:04.591Z",
  "names": {
   "da": "Sivsanger",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116804,
-  "observations": 19179
+  "observations": 19240
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-08-09"
    }
   ],
-  "hero": {
-   "id": 522886635,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/522886635/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/522886635/large.jpg",
-   "attribution": "(c) David Kaliss, some rights reserved (CC BY-NC), uploaded by David Kaliss",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/522886635",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 522886635,
@@ -209,18 +200,28 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 522886635,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/522886635/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/522886635/large.jpg",
+   "attribution": "(c) David Kaliss, some rights reserved (CC BY-NC), uploaded by David Kaliss",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/522886635",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493129,
-  "dkTotal": 62427,
+  "dkTotal": 62431,
   "dkMonths": [
    0,
    0,
    1,
-   6508,
-   30959,
-   13019,
+   6510,
+   30960,
+   13020,
    7255,
    3397,
    1199,
@@ -228,7 +229,7 @@
    1,
    4
   ],
-  "worldTotal": 1979160,
+  "worldTotal": 1979200,
   "topCountries": [
    {
     "code": "FI",
@@ -236,27 +237,27 @@
    },
    {
     "code": "SE",
-    "count": 389367
+    "count": 389368
    },
    {
     "code": "NL",
-    "count": 353753
+    "count": 353754
    },
    {
     "code": "GB",
-    "count": 191396
+    "count": 191406
    },
    {
     "code": "FR",
-    "count": 115393
+    "count": 115395
    },
    {
     "code": "DK",
-    "count": 62427
+    "count": 62431
    },
    {
     "code": "PL",
-    "count": 59179
+    "count": 59180
    },
    {
     "code": "ES",
@@ -276,7 +277,7 @@
    },
    {
     "code": "DE",
-    "count": 18897
+    "count": 18900
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Acrocephalidae",
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:13.797Z"
+ }
 }

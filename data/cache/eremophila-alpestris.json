@@ -2,7 +2,8 @@
  "key": "eremophila-alpestris",
  "name": "Eremophila alpestris",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:52.613Z",
+ "fetchedAt": "2026-11-27T04:58:48.773Z",
+ "gbifAt": "2026-11-27T04:58:48.773Z",
  "names": {
   "da": "Bjerglærke",
   "en": "Horned Lark",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7294,
-  "observations": 32616
+  "observations": 32715
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2021-05-11"
    }
   ],
-  "hero": {
-   "id": 183478476,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/183478476/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/183478476/large.jpg",
-   "attribution": "(c) Pat Farris, some rights reserved (CC BY), uploaded by Pat Farris",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/183478476",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 183478476,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 183478476,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/183478476/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/183478476/large.jpg",
+   "attribution": "(c) Pat Farris, some rights reserved (CC BY), uploaded by Pat Farris",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/183478476",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9415596,
-  "dkTotal": 19978,
+  "dkTotal": 19990,
   "dkMonths": [
    2162,
    1769,
@@ -224,19 +225,19 @@
    12,
    1,
    509,
-   8148,
-   2658,
+   8150,
+   2668,
    1311
   ],
-  "worldTotal": 1849714,
+  "worldTotal": 1849809,
   "topCountries": [
    {
     "code": "US",
-    "count": 1433398
+    "count": 1433442
    },
    {
     "code": "CA",
-    "count": 260076
+    "count": 260081
    },
    {
     "code": "SE",
@@ -244,11 +245,11 @@
    },
    {
     "code": "NL",
-    "count": 26179
+    "count": 26183
    },
    {
     "code": "DK",
-    "count": 19978
+    "count": 19990
    },
    {
     "code": "NO",
@@ -256,27 +257,27 @@
    },
    {
     "code": "MX",
-    "count": 10993
+    "count": 10994
    },
    {
     "code": "IN",
-    "count": 6849
+    "count": 6851
    },
    {
     "code": "GB",
-    "count": 6137
+    "count": 6142
    },
    {
     "code": "MN",
-    "count": 5653
+    "count": 5655
    },
    {
     "code": "RU",
-    "count": 5562
+    "count": 5571
    },
    {
     "code": "DE",
-    "count": 4519
+    "count": 4522
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alaudidae",
   "familyKey": 7211,
   "familyDa": "Lærker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:57.678Z"
+ }
 }

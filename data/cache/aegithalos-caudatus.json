@@ -2,7 +2,8 @@
  "key": "aegithalos-caudatus",
  "name": "Aegithalos caudatus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:54:00.178Z",
+ "fetchedAt": "2026-11-27T05:00:03.111Z",
+ "gbifAt": "2026-11-27T05:00:03.111Z",
  "names": {
   "da": "Halemejse",
   "en": "Long-tailed Tit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7278,
-  "observations": 84936
+  "observations": 85494
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2024-06-01"
    }
   ],
-  "hero": {
-   "id": 115550098,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/large.jpg",
-   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/115550098",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 115550098,
@@ -189,38 +180,48 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 115550098,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/large.jpg",
+   "attribution": "(c) Luca Boscain, some rights reserved (CC BY-NC), uploaded by Luca Boscain",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/115550098",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2495000,
-  "dkTotal": 118772,
+  "dkTotal": 118887,
   "dkMonths": [
    13793,
    14048,
-   20728,
-   14380,
+   20731,
+   14382,
    8743,
-   3889,
+   3891,
    2265,
    3490,
    6163,
-   12402,
-   9667,
+   12404,
+   9773,
    9153
   ],
-  "worldTotal": 3546046,
+  "worldTotal": 3546659,
   "topCountries": [
    {
     "code": "GB",
-    "count": 745998
+    "count": 746061
    },
    {
     "code": "NL",
-    "count": 523155
+    "count": 523158
    },
    {
     "code": "FR",
-    "count": 401578
+    "count": 401595
    },
    {
     "code": "SE",
@@ -228,11 +229,11 @@
    },
    {
     "code": "ES",
-    "count": 324453
+    "count": 324479
    },
    {
     "code": "DE",
-    "count": 178969
+    "count": 179105
    },
    {
     "code": "FI",
@@ -240,19 +241,19 @@
    },
    {
     "code": "DK",
-    "count": 118772
+    "count": 118887
    },
    {
     "code": "BE",
-    "count": 117923
+    "count": 117928
    },
    {
     "code": "IT",
-    "count": 79006
+    "count": 79015
    },
    {
     "code": "PL",
-    "count": 66124
+    "count": 66136
    },
    {
     "code": "PT",
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Aegithalidae",
   "familyKey": 2878,
   "familyDa": "Halemejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:07.544Z"
+ }
 }

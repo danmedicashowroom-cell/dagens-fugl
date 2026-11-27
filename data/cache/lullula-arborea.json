@@ -2,7 +2,8 @@
  "key": "lullula-arborea",
  "name": "Lullula arborea",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:41.467Z",
+ "fetchedAt": "2026-11-27T04:58:36.955Z",
+ "gbifAt": "2026-11-27T04:58:36.955Z",
  "names": {
   "da": "Hedelærke",
   "en": "Woodlark",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7363,
-  "observations": 10120
+  "observations": 10143
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2026-05-29"
    },
    {
-    "id": 473624547,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/473624547/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/473624547/large.jpeg",
-    "attribution": "(c) Maxime Fousse, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/263621630",
-    "place": "Planet’air Hangar 610, Chambley, 54470, 54470, 54470 Dommartin-la-Chaussée, France",
-    "date": "2025-02-21"
-   },
-   {
     "id": 356773327,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/356773327/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/356773327/large.jpeg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/202049507",
     "place": "19 Buchberg, Deutschland",
     "date": "2024-03-09"
+   },
+   {
+    "id": 473624547,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/473624547/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/473624547/large.jpeg",
+    "attribution": "(c) Maxime Fousse, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/263621630",
+    "place": "Planet’air Hangar 610, Chambley, 54470, 54470, 54470 Dommartin-la-Chaussée, France",
+    "date": "2025-02-21"
    }
   ],
   "female": [
@@ -98,16 +99,6 @@
     "date": "2013-06-05"
    }
   ],
-  "hero": {
-   "id": 2421482,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2421482/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2421482/large.jpg",
-   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/2421482",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 2421482,
@@ -179,15 +170,25 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 2421482,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2421482/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2421482/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/2421482",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490604,
-  "dkTotal": 49172,
+  "dkTotal": 49174,
   "dkMonths": [
    221,
    601,
-   12517,
+   12518,
    10322,
    6815,
    3762,
@@ -195,14 +196,14 @@
    369,
    3155,
    9699,
-   66,
+   67,
    98
   ],
-  "worldTotal": 935298,
+  "worldTotal": 935320,
   "topCountries": [
    {
     "code": "FR",
-    "count": 223516
+    "count": 223519
    },
    {
     "code": "SE",
@@ -210,19 +211,19 @@
    },
    {
     "code": "NL",
-    "count": 139905
+    "count": 139908
    },
    {
     "code": "ES",
-    "count": 122105
+    "count": 122107
    },
    {
     "code": "PT",
-    "count": 55684
+    "count": 55686
    },
    {
     "code": "DK",
-    "count": 49172
+    "count": 49174
    },
    {
     "code": "BE",
@@ -234,7 +235,7 @@
    },
    {
     "code": "DE",
-    "count": 17257
+    "count": 17259
    },
    {
     "code": "CH",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alaudidae",
   "familyKey": 7211,
   "familyDa": "Lærker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:56.228Z"
+ }
 }

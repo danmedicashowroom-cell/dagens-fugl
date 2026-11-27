@@ -2,7 +2,8 @@
  "key": "lophophanes-cristatus",
  "name": "Lophophanes cristatus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:52:00.292Z",
+ "fetchedAt": "2026-11-27T04:57:58.221Z",
+ "gbifAt": "2026-11-27T04:57:58.221Z",
  "names": {
   "da": "Topmejse",
   "en": "European Crested Tit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144830,
-  "observations": 18690
+  "observations": 18789
  },
  "photos": {
   "male": [
@@ -34,6 +35,16 @@
     "date": "2021-07-14"
    },
    {
+    "id": 285881266,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/285881266/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/285881266/large.jpeg",
+    "attribution": "(c) jansson, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/165171724",
+    "place": "99820 Hörselberg-Hainich, Deutschland",
+    "date": "2023-05-28"
+   },
+   {
     "id": 135028168,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135028168/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135028168/large.jpeg",
@@ -42,16 +53,6 @@
     "source": "https://www.inaturalist.org/observations/82278470",
     "place": "Alcoy, Alicante, España",
     "date": "2021-06-09"
-   },
-   {
-    "id": 550799599,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/550799599/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/550799599/large.jpg",
-    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/305482068",
-    "place": "Alicante, España",
-    "date": "2025-08-10"
    }
   ],
   "female": [
@@ -108,26 +109,16 @@
     "date": "2026-04-26"
    },
    {
-    "id": 305115682,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/305115682/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/305115682/large.jpg",
+    "id": 700695887,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/700695887/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/700695887/large.jpg",
     "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/175561646",
+    "source": "https://www.inaturalist.org/observations/382866119",
     "place": "Alicante, España",
-    "date": "2023-07-28"
+    "date": "2026-07-18"
    }
   ],
-  "hero": {
-   "id": 323017422,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/323017422/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/323017422/large.jpg",
-   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/323017422",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 323017422,
@@ -189,26 +180,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 323017422,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/323017422/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/323017422/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/323017422",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2487883,
-  "dkTotal": 51720,
+  "dkTotal": 51758,
   "dkMonths": [
-   4853,
+   4854,
    4290,
    5812,
-   5948,
+   5949,
    4741,
    2892,
    3020,
    3150,
    3904,
    6257,
-   3720,
+   3756,
    3097
   ],
-  "worldTotal": 1403762,
+  "worldTotal": 1403886,
   "topCountries": [
    {
     "code": "SE",
@@ -216,11 +217,11 @@
    },
    {
     "code": "FR",
-    "count": 222149
+    "count": 222159
    },
    {
     "code": "ES",
-    "count": 143732
+    "count": 143734
    },
    {
     "code": "NL",
@@ -228,11 +229,11 @@
    },
    {
     "code": "FI",
-    "count": 134446
+    "count": 134448
    },
    {
     "code": "DE",
-    "count": 84566
+    "count": 84595
    },
    {
     "code": "NO",
@@ -244,7 +245,7 @@
    },
    {
     "code": "DK",
-    "count": 51720
+    "count": 51758
    },
    {
     "code": "BE",
@@ -252,11 +253,11 @@
    },
    {
     "code": "PT",
-    "count": 39119
+    "count": 39120
    },
    {
     "code": "PL",
-    "count": 33572
+    "count": 33575
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Paridae",
   "familyKey": 9327,
   "familyDa": "Mejser",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:50.249Z"
+ }
 }

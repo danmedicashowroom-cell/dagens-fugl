@@ -2,7 +2,8 @@
  "key": "nucifraga-caryocatactes",
  "name": "Nucifraga caryocatactes",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:59.063Z",
+ "fetchedAt": "2026-11-27T04:56:50.852Z",
+ "gbifAt": "2026-11-27T04:56:50.852Z",
  "names": {
   "da": "Nøddekrige",
   "en": "Northern Nutcracker",
@@ -14,12 +15,12 @@
  "wiki": {
   "lang": "da",
   "title": "Nøddekrige",
-  "extract": "Nøddekrigen er en kragefugl på størrelse med Skovskaden. Den yngler i områder med nåleskov i det sydlige Norge og Sverige, i Centraleuropa, i det nordlige Rusland og Sibirien til Stillehavskysten, i Japan og i et område ned gennem Kina til Himalaya. Fuglen er en sjælden træk- og vintergæst i Danmark. På den danske rødliste 2019 angives at den som uddød som ynglefugl i Danmark.",
+  "extract": "Nøddekrigen er en kragefugl på størrelse med skovskaden. Den yngler i områder med nåleskov i det sydlige Norge og Sverige, i Centraleuropa, i det nordlige Rusland og Sibirien til Stillehavskysten, i Japan og i et område ned gennem Kina til Himalaya. Fuglen er en sjælden træk- og vintergæst i Danmark. På den danske rødliste 2019 angives at den som uddød som ynglefugl i Danmark.",
   "url": "https://da.wikipedia.org/wiki/N%C3%B8ddekrige"
  },
  "inat": {
   "id": 204552,
-  "observations": 11269
+  "observations": 11382
  },
  "photos": {
   "male": [
@@ -77,16 +78,6 @@
     "date": "2025-07-09"
    }
   ],
-  "hero": {
-   "id": 28580558,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28580558/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28580558/large.jpg",
-   "attribution": "(c) Alpsdake, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/28580558",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 28461524,
@@ -108,11 +99,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 28461524,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28461524/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28461524/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/28461524",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2482613,
-  "dkTotal": 5660,
+  "dkTotal": 5661,
   "dkMonths": [
    309,
    356,
@@ -123,11 +124,11 @@
    174,
    281,
    1046,
-   1954,
-   748,
+   1953,
+   750,
    209
   ],
-  "worldTotal": 404481,
+  "worldTotal": 404578,
   "topCountries": [
    {
     "code": "SE",
@@ -139,27 +140,27 @@
    },
    {
     "code": "CH",
-    "count": 39393
+    "count": 39397
    },
    {
     "code": "FI",
-    "count": 31575
+    "count": 31576
    },
    {
     "code": "FR",
-    "count": 29592
+    "count": 29594
    },
    {
     "code": "AT",
-    "count": 16067
+    "count": 16071
    },
    {
     "code": "IT",
-    "count": 9561
+    "count": 9565
    },
    {
     "code": "RU",
-    "count": 9062
+    "count": 9091
    },
    {
     "code": "EE",
@@ -167,15 +168,15 @@
    },
    {
     "code": "DE",
-    "count": 6106
+    "count": 6127
    },
    {
     "code": "DK",
-    "count": 5660
+    "count": 5661
    },
    {
     "code": "NL",
-    "count": 4130
+    "count": 4132
    }
   ]
  },
@@ -195,13 +196,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:19:42.453Z"
+ }
 }

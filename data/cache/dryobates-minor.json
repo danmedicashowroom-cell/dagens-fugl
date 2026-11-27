@@ -2,7 +2,8 @@
  "key": "dryobates-minor",
  "name": "Dryobates minor",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:50:11.965Z",
+ "fetchedAt": "2026-11-27T04:56:07.347Z",
+ "gbifAt": "2026-11-27T04:56:07.347Z",
  "names": {
   "da": "Lille flagspætte",
   "en": "Lesser Spotted Woodpecker",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 792977,
-  "observations": 17819
+  "observations": 17929
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2026-04-05"
    },
    {
-    "id": 601234895,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/601234895/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/601234895/large.jpg",
-    "attribution": "(c) Денис Елин, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/331424677",
-    "place": "Свердловская обл., Россия, 620007",
-    "date": "2025-12-20"
-   },
-   {
     "id": 366532861,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/366532861/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/366532861/large.jpg",
@@ -52,19 +43,19 @@
     "source": "https://www.inaturalist.org/observations/207231627",
     "place": "Восточный административный округ, Москва, Россия",
     "date": "2024-04-14"
+   },
+   {
+    "id": 601234895,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/601234895/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/601234895/large.jpg",
+    "attribution": "(c) Денис Елин, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/331424677",
+    "place": "Свердловская обл., Россия, 620007",
+    "date": "2025-12-20"
    }
   ],
   "female": [
-   {
-    "id": 584235929,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584235929/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584235929/large.jpg",
-    "attribution": "(c) Aistė Špokaitė, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/322910950",
-    "place": "Kalnų Park, Vilnius, Vilnius Region, LT",
-    "date": "2025-10-24"
-   },
    {
     "id": 609701201,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/609701201/medium.jpg",
@@ -74,6 +65,16 @@
     "source": "https://www.inaturalist.org/observations/335602431",
     "place": "Киров, Кировская обл., Россия",
     "date": "2024-02-25"
+   },
+   {
+    "id": 584235929,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584235929/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584235929/large.jpg",
+    "attribution": "(c) Aistė Špokaitė, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/322910950",
+    "place": "Kalnų Park, Vilnius, Vilnius Region, LT",
+    "date": "2025-10-24"
    },
    {
     "id": 608635632,
@@ -108,26 +109,16 @@
     "date": "2026-02-15"
    },
    {
-    "id": 40520858,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/40520858/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/40520858/large.jpeg",
-    "attribution": "(c) Enrico Castello, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/26114845",
-    "place": "Città Metropolitana di Torino, Italia",
-    "date": "2019-05-31"
+    "id": 210075412,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/210075412/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/210075412/large.jpg",
+    "attribution": "(c) ismellnude, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/123969115",
+    "place": "Talsi, Latvia",
+    "date": "2022-06-29"
    }
   ],
-  "hero": {
-   "id": 121294439,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/large.jpg",
-   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/121294439",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 121294439,
@@ -169,11 +160,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 121294439,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/large.jpg",
+   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/121294439",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9015784,
-  "dkTotal": 12672,
+  "dkTotal": 12674,
   "dkMonths": [
    407,
    1093,
@@ -185,18 +186,18 @@
    525,
    581,
    529,
-   332,
+   334,
    247
   ],
-  "worldTotal": 761824,
+  "worldTotal": 761913,
   "topCountries": [
    {
     "code": "SE",
-    "count": 303545
+    "count": 303546
    },
    {
     "code": "FR",
-    "count": 94368
+    "count": 94372
    },
    {
     "code": "NO",
@@ -204,11 +205,11 @@
    },
    {
     "code": "NL",
-    "count": 46343
+    "count": 46344
    },
    {
     "code": "ES",
-    "count": 31367
+    "count": 31371
    },
    {
     "code": "CH",
@@ -220,23 +221,23 @@
    },
    {
     "code": "FI",
-    "count": 25511
+    "count": 25512
    },
    {
     "code": "DE",
-    "count": 21790
+    "count": 21798
    },
    {
     "code": "RU",
-    "count": 18790
+    "count": 18836
    },
    {
     "code": "GB",
-    "count": 15045
+    "count": 15046
    },
    {
     "code": "DK",
-    "count": 12672
+    "count": 12674
    }
   ]
  },
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Picidae",
   "familyKey": 9333,
   "familyDa": "Spætter",
   "order": "Piciformes"
- },
- "gbifAt": "2026-11-25T22:19:36.613Z"
+ }
 }

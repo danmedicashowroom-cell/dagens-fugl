@@ -2,7 +2,8 @@
  "key": "phylloscopus-fuscatus",
  "name": "Phylloscopus fuscatus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:54.700Z",
+ "fetchedAt": "2026-11-27T04:59:57.244Z",
+ "gbifAt": "2026-11-27T04:59:57.244Z",
  "names": {
   "da": "Brun Løvsanger",
   "en": "Dusky Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117022,
-  "observations": 3302
+  "observations": 3332
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2025-08-07"
    }
   ],
-  "hero": {
-   "id": 457442054,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/457442054/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/457442054/large.jpg",
-   "attribution": "(c) johnlerond, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/457442054",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 457442054,
@@ -168,7 +159,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 457442054,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/457442054/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/457442054/large.jpg",
+   "attribution": "(c) johnlerond, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/457442054",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493075,
@@ -187,19 +188,19 @@
    213,
    44
   ],
-  "worldTotal": 126315,
+  "worldTotal": 126331,
   "topCountries": [
    {
     "code": "CN",
-    "count": 18350
+    "count": 18355
    },
    {
     "code": "HK",
-    "count": 17121
+    "count": 17125
    },
    {
     "code": "IN",
-    "count": 16480
+    "count": 16481
    },
    {
     "code": "TH",
@@ -207,11 +208,11 @@
    },
    {
     "code": "TW",
-    "count": 15729
+    "count": 15732
    },
    {
     "code": "NL",
-    "count": 7794
+    "count": 7795
    },
    {
     "code": "SE",
@@ -223,7 +224,7 @@
    },
    {
     "code": "RU",
-    "count": 2638
+    "count": 2639
    },
    {
     "code": "MN",
@@ -255,13 +256,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phylloscopidae",
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:04.233Z"
+ }
 }

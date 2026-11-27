@@ -2,7 +2,8 @@
  "key": "phylloscopus-inornatus",
  "name": "Phylloscopus inornatus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:53:36.295Z",
+ "fetchedAt": "2026-11-27T04:59:38.517Z",
+ "gbifAt": "2026-11-27T04:59:38.517Z",
  "names": {
   "da": "Hvidbrynet løvsanger",
   "en": "Yellow-browed Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117028,
-  "observations": 5907
+  "observations": 6002
  },
  "photos": {
   "male": [
@@ -47,6 +48,16 @@
   "female": [],
   "juvenile": [
    {
+    "id": 763879100,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/763879100/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/763879100/large.jpg",
+    "attribution": "(c) morodunka, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/414897324",
+    "place": "Новый Уренгой, Ямало-Ненецкий автономный округ, Россия",
+    "date": "2026-07-26"
+   },
+   {
     "id": 29193927,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/29193927/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/29193927/large.jpg",
@@ -57,16 +68,6 @@
     "date": "2014-06-24"
    }
   ],
-  "hero": {
-   "id": 2781613,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2781613/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2781613/large.jpg",
-   "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/2781613",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 2781613,
@@ -78,7 +79,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 2781613,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2781613/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2781613/large.jpg",
+   "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/2781613",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493095,
@@ -97,23 +108,23 @@
    197,
    1
   ],
-  "worldTotal": 293780,
+  "worldTotal": 293817,
   "topCountries": [
    {
     "code": "NL",
-    "count": 40430
+    "count": 40431
    },
    {
     "code": "TH",
-    "count": 35936
+    "count": 35941
    },
    {
     "code": "CN",
-    "count": 30268
+    "count": 30275
    },
    {
     "code": "TW",
-    "count": 29153
+    "count": 29167
    },
    {
     "code": "SE",
@@ -121,7 +132,7 @@
    },
    {
     "code": "HK",
-    "count": 22141
+    "count": 22144
    },
    {
     "code": "GB",
@@ -137,7 +148,7 @@
    },
    {
     "code": "VN",
-    "count": 8063
+    "count": 8064
    },
    {
     "code": "DK",
@@ -165,13 +176,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phylloscopidae",
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:02.804Z"
+ }
 }
