@@ -1,0 +1,31 @@
+name: Gem resultat af fototjek på en gren
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'Kørsels-id fra »Tjek fotos«'
+        required: true
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  gem:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: foto-tjek
+          path: tjek
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Læg på grenen foto-tjek
+        run: |
+          cd tjek
+          git init -q -b foto-tjek
+          git config user.name "github-actions[bot]"
+          git config user.email "41898338+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -qm "Resultat af fototjek"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" foto-tjek
