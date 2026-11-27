@@ -2,7 +2,8 @@
  "key": "sterna-paradisaea",
  "name": "Sterna paradisaea",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:46:40.744Z",
+ "fetchedAt": "2026-11-27T04:11:29.350Z",
+ "gbifAt": "2026-11-27T04:11:29.350Z",
  "names": {
   "da": "Havterne",
   "en": "Arctic Tern",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4449,
-  "observations": 12124
+  "observations": 12151
  },
  "photos": {
   "male": [
@@ -68,16 +69,6 @@
     "date": "2023-10-13"
    },
    {
-    "id": 330726763,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/330726763/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/330726763/large.jpg",
-    "attribution": "(c) alexander_semenov, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/188882986",
-    "place": "Loukhskiy rayon, RU-KI, RU",
-    "date": "2021-06-29"
-   },
-   {
     "id": 327865100,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/327865100/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/327865100/large.jpeg",
@@ -86,18 +77,18 @@
     "source": "https://www.inaturalist.org/observations/187475220",
     "place": "Великий Новгород, Новгородская обл., Россия",
     "date": "2023-10-14"
+   },
+   {
+    "id": 330726763,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/330726763/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/330726763/large.jpg",
+    "attribution": "(c) alexander_semenov, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/188882986",
+    "place": "Loukhskiy rayon, RU-KI, RU",
+    "date": "2021-06-29"
    }
   ],
-  "hero": {
-   "id": 149865822,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg",
-   "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC), uploaded by pelagicgraf",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/149865822",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 149865822,
@@ -149,26 +140,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 149865822,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg",
+   "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC), uploaded by pelagicgraf",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/149865822",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5229230,
-  "dkTotal": 79786,
+  "dkTotal": 79825,
   "dkMonths": [
    21,
    3,
    50,
-   10739,
+   10741,
    19500,
-   13033,
-   21368,
-   11177,
-   2826,
+   13035,
+   21399,
+   11180,
+   2827,
    507,
    180,
    8
   ],
-  "worldTotal": 803377,
+  "worldTotal": 803441,
   "topCountries": [
    {
     "code": "SE",
@@ -176,15 +177,15 @@
    },
    {
     "code": "FI",
-    "count": 133834
+    "count": 133835
    },
    {
     "code": "US",
-    "count": 112993
+    "count": 112999
    },
    {
     "code": "DK",
-    "count": 79786
+    "count": 79825
    },
    {
     "code": "NO",
@@ -192,11 +193,11 @@
    },
    {
     "code": "GB",
-    "count": 50996
+    "count": 50997
    },
    {
     "code": "IS",
-    "count": 47577
+    "count": 47579
    },
    {
     "code": "CA",
@@ -208,7 +209,7 @@
    },
    {
     "code": "EE",
-    "count": 10405
+    "count": 10407
    },
    {
     "code": "NL",
@@ -216,7 +217,7 @@
    },
    {
     "code": "DE",
-    "count": 6961
+    "count": 6965
    }
   ]
  },
@@ -236,13 +237,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:08.564Z"
+ }
 }

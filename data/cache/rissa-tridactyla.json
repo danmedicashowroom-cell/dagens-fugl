@@ -2,7 +2,8 @@
  "key": "rissa-tridactyla",
  "name": "Rissa tridactyla",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:44:55.707Z",
+ "fetchedAt": "2026-11-27T04:09:39.894Z",
+ "gbifAt": "2026-11-27T04:09:39.894Z",
  "names": {
   "da": "Ride",
   "en": "Black-legged Kittiwake",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4494,
-  "observations": 18023
+  "observations": 18114
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2025-11-22"
    }
   ],
-  "hero": {
-   "id": 419912377,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/419912377/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/419912377/large.jpg",
-   "attribution": "(c) Marion Goascoz, some rights reserved (CC BY-NC), uploaded by Marion Goascoz",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/419912377",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 419912377,
@@ -199,46 +190,56 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 419912377,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/419912377/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/419912377/large.jpg",
+   "attribution": "(c) Marion Goascoz, some rights reserved (CC BY-NC), uploaded by Marion Goascoz",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/419912377",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481205,
-  "dkTotal": 63517,
+  "dkTotal": 63653,
   "dkMonths": [
-   5849,
-   3859,
+   5850,
+   3860,
    2627,
    3395,
    5573,
    2461,
    4058,
    6018,
-   6259,
-   11823,
-   8638,
-   2919
+   6263,
+   11830,
+   8760,
+   2920
   ],
-  "worldTotal": 1078449,
+  "worldTotal": 1078787,
   "topCountries": [
    {
     "code": "GB",
-    "count": 368979
+    "count": 369054
    },
    {
     "code": "US",
-    "count": 145185
+    "count": 145197
    },
    {
     "code": "CA",
-    "count": 97545
+    "count": 97552
    },
    {
     "code": "NO",
-    "count": 81741
+    "count": 81769
    },
    {
     "code": "DK",
-    "count": 63517
+    "count": 63653
    },
    {
     "code": "SE",
@@ -246,11 +247,11 @@
    },
    {
     "code": "NL",
-    "count": 39748
+    "count": 39752
    },
    {
     "code": "BE",
-    "count": 37589
+    "count": 37590
    },
    {
     "code": "IE",
@@ -258,15 +259,15 @@
    },
    {
     "code": "FR",
-    "count": 32388
+    "count": 32396
    },
    {
     "code": "DE",
-    "count": 26245
+    "count": 26247
    },
    {
     "code": "IS",
-    "count": 25791
+    "count": 25829
    }
   ]
  },
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:54.661Z"
+ }
 }

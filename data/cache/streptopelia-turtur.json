@@ -2,7 +2,8 @@
  "key": "streptopelia-turtur",
  "name": "Streptopelia turtur",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:52.917Z",
+ "fetchedAt": "2026-11-27T04:12:45.021Z",
+ "gbifAt": "2026-11-27T04:12:45.021Z",
  "names": {
   "da": "Turteldue",
   "en": "European turtle dove",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 2938,
-  "observations": 13005
+  "observations": 13044
  },
  "photos": {
   "male": [
@@ -88,26 +89,16 @@
     "date": "2026-10-07"
    },
    {
-    "id": 423009249,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/423009249/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/423009249/large.jpeg",
-    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
+    "id": 749466891,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/749466891/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/749466891/large.jpg",
+    "attribution": "(c) DACANA, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/237669697",
-    "place": "Valencia, España",
-    "date": "2024-08-24"
+    "source": "https://www.inaturalist.org/observations/407793618",
+    "place": "23639 Jaén, España",
+    "date": "2026-08-23"
    }
   ],
-  "hero": {
-   "id": 463964274,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/463964274/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/463964274/large.jpg",
-   "attribution": "(c) Tobias Polzer, some rights reserved (CC BY-NC), uploaded by Tobias Polzer",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/463964274",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 463964274,
@@ -159,7 +150,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 463964274,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/463964274/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/463964274/large.jpg",
+   "attribution": "(c) Tobias Polzer, some rights reserved (CC BY-NC), uploaded by Tobias Polzer",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/463964274",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2495708,
@@ -178,11 +179,11 @@
    42,
    3
   ],
-  "worldTotal": 687231,
+  "worldTotal": 687248,
   "topCountries": [
    {
     "code": "FR",
-    "count": 250332
+    "count": 250338
    },
    {
     "code": "ES",
@@ -194,7 +195,7 @@
    },
    {
     "code": "IL",
-    "count": 35544
+    "count": 35545
    },
    {
     "code": "NL",
@@ -210,11 +211,11 @@
    },
    {
     "code": "DE",
-    "count": 14912
+    "count": 14913
    },
    {
     "code": "IT",
-    "count": 13359
+    "count": 13360
    },
    {
     "code": "SE",
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Columbidae",
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- },
- "gbifAt": "2026-11-25T22:19:17.821Z"
+ }
 }

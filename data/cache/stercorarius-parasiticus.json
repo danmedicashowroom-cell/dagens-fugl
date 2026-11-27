@@ -2,7 +2,8 @@
  "key": "stercorarius-parasiticus",
  "name": "Stercorarius parasiticus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:44:38.565Z",
+ "fetchedAt": "2026-11-27T04:09:20.406Z",
+ "gbifAt": "2026-11-27T04:09:20.406Z",
  "names": {
   "da": "Almindelig kjove",
   "en": "Parasitic Jaeger",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4489,
-  "observations": 7959
+  "observations": 7991
  },
  "photos": {
   "male": [],
@@ -37,16 +38,6 @@
   ],
   "juvenile": [
    {
-    "id": 594249752,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/594249752/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/594249752/large.jpg",
-    "attribution": "(c) ewransky, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/327985153",
-    "place": "Impound",
-    "date": "2025-11-23"
-   },
-   {
     "id": 26682428,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/26682428/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/26682428/large.jpg",
@@ -55,6 +46,16 @@
     "source": "https://www.inaturalist.org/observations/17530117",
     "place": "North Slope, AK, USA",
     "date": "2018-07-14"
+   },
+   {
+    "id": 767878786,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/767878786/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/767878786/large.jpg",
+    "attribution": "(c) FABIENNE et PATRICK THIBAUT, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/416908908",
+    "place": "Svalbard, Svalbard et Jan Mayen",
+    "date": "2018-08-23"
    },
    {
     "id": 52498803,
@@ -67,16 +68,6 @@
     "date": "2019-09-05"
    }
   ],
-  "hero": {
-   "id": 247492,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/247492/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/247492/large.jpg",
-   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/247492",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 247492,
@@ -128,11 +119,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 247492,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/247492/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/247492/large.jpg",
+   "attribution": "(c) Mark Rosenstein, some rights reserved (CC BY-NC), uploaded by Mark Rosenstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/247492",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481621,
-  "dkTotal": 54027,
+  "dkTotal": 54049,
   "dkMonths": [
    13,
    5,
@@ -141,13 +142,13 @@
    8286,
    1649,
    4457,
-   12381,
-   16067,
-   5792,
+   12382,
+   16085,
+   5795,
    103,
    32
   ],
-  "worldTotal": 468571,
+  "worldTotal": 468615,
   "topCountries": [
    {
     "code": "SE",
@@ -155,11 +156,11 @@
    },
    {
     "code": "US",
-    "count": 84025
+    "count": 84029
    },
    {
     "code": "DK",
-    "count": 54027
+    "count": 54049
    },
    {
     "code": "NO",
@@ -171,11 +172,11 @@
    },
    {
     "code": "CA",
-    "count": 24390
+    "count": 24391
    },
    {
     "code": "IS",
-    "count": 18285
+    "count": 18287
    },
    {
     "code": "FI",
@@ -183,7 +184,7 @@
    },
    {
     "code": "SJ",
-    "count": 12190
+    "count": 12193
    },
    {
     "code": "NL",
@@ -195,7 +196,7 @@
    },
    {
     "code": "ES",
-    "count": 7726
+    "count": 7732
    }
   ]
  },
@@ -215,13 +216,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Stercorariidae",
   "familyKey": 9347,
   "familyDa": "Kjover",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:52.864Z"
+ }
 }

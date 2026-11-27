@@ -2,7 +2,8 @@
  "key": "larus-glaucoides",
  "name": "Larus glaucoides",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:45:56.715Z",
+ "fetchedAt": "2026-11-27T04:10:39.613Z",
+ "gbifAt": "2026-11-27T04:10:39.613Z",
  "names": {
   "da": "Hvidvinget måge",
   "en": "Iceland Gull",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4361,
-  "observations": 13756
+  "observations": 13799
  },
  "photos": {
   "male": [],
@@ -57,26 +58,16 @@
     "date": "2024-01-05"
    },
    {
-    "id": 596003690,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/596003690/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/596003690/large.jpg",
-    "attribution": "(c) Michael G. Shepard, some rights reserved (CC BY-NC)",
+    "id": 339519294,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/339519294/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/339519294/large.jpeg",
+    "attribution": "(c) seabirder, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/328858606",
-    "place": "Clover Point, Victoria, BC, Canada",
-    "date": "2003-01-23"
+    "source": "https://www.inaturalist.org/observations/193284018",
+    "place": "Nimmo's Pier, Galway, Ireland",
+    "date": "2022-02-27"
    }
   ],
-  "hero": {
-   "id": 111301421,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/111301421/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/111301421/large.jpg",
-   "attribution": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/111301421",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 111301421,
@@ -148,7 +139,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 111301421,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/111301421/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/111301421/large.jpg",
+   "attribution": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/111301421",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481156,
@@ -167,23 +168,23 @@
    117,
    291
   ],
-  "worldTotal": 457095,
+  "worldTotal": 457162,
   "topCountries": [
    {
     "code": "CA",
-    "count": 198294
+    "count": 198325
    },
    {
     "code": "US",
-    "count": 172806
+    "count": 172830
    },
    {
     "code": "IS",
-    "count": 20932
+    "count": 20934
    },
    {
     "code": "NL",
-    "count": 15246
+    "count": 15247
    },
    {
     "code": "NO",
@@ -191,7 +192,7 @@
    },
    {
     "code": "GB",
-    "count": 11474
+    "count": 11475
    },
    {
     "code": "SE",
@@ -203,7 +204,7 @@
    },
    {
     "code": "GL",
-    "count": 3041
+    "count": 3046
    },
    {
     "code": "ES",
@@ -235,13 +236,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:02.221Z"
+ }
 }

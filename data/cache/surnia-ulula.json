@@ -2,7 +2,8 @@
  "key": "surnia-ulula",
  "name": "Surnia ulula",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:32.066Z",
+ "fetchedAt": "2026-11-27T04:13:20.944Z",
+ "gbifAt": "2026-11-27T04:13:20.944Z",
  "names": {
   "da": "Høgeugle",
   "en": "Hawk Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 20372,
-  "observations": 4625
+  "observations": 4646
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "1980-06-28"
    }
   ],
-  "hero": {
-   "id": 22530903,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/22530903/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/22530903/large.jpg",
-   "attribution": "(c) Terry Gray, some rights reserved (CC BY-NC), uploaded by Terry Gray",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/22530903",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 22530903,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 22530903,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/22530903/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/22530903/large.jpg",
+   "attribution": "(c) Terry Gray, some rights reserved (CC BY-NC), uploaded by Terry Gray",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/22530903",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2497894,
-  "dkTotal": 4132,
+  "dkTotal": 4146,
   "dkMonths": [
    1008,
    717,
@@ -225,10 +226,10 @@
    0,
    24,
    217,
-   736,
+   750,
    771
   ],
-  "worldTotal": 98242,
+  "worldTotal": 98264,
   "topCountries": [
    {
     "code": "SE",
@@ -244,7 +245,7 @@
    },
    {
     "code": "DK",
-    "count": 4132
+    "count": 4146
    },
    {
     "code": "NL",
@@ -252,15 +253,15 @@
    },
    {
     "code": "CA",
-    "count": 2070
+    "count": 2073
    },
    {
     "code": "RU",
-    "count": 1831
+    "count": 1835
    },
    {
     "code": "US",
-    "count": 1635
+    "count": 1636
    },
    {
     "code": "EE",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:23.664Z"
+ }
 }

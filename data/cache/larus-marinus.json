@@ -2,7 +2,8 @@
  "key": "larus-marinus",
  "name": "Larus marinus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:46:08.101Z",
+ "fetchedAt": "2026-11-27T04:10:52.060Z",
+ "gbifAt": "2026-11-27T04:10:52.060Z",
  "names": {
   "da": "Svartbag",
   "en": "Great Black-backed Gull",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4368,
-  "observations": 50120
+  "observations": 50385
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2015-10-10"
    }
   ],
-  "hero": {
-   "id": 179379095,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179379095/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179379095/large.jpeg",
-   "attribution": "(c) Alex Shure, some rights reserved (CC BY-NC), uploaded by Alex Shure",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/179379095",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 179379095,
@@ -209,74 +200,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 179379095,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179379095/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179379095/large.jpeg",
+   "attribution": "(c) Alex Shure, some rights reserved (CC BY-NC), uploaded by Alex Shure",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/179379095",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481172,
-  "dkTotal": 307255,
+  "dkTotal": 307550,
   "dkMonths": [
-   33736,
+   33739,
    24549,
-   27431,
+   27437,
    24481,
-   22978,
-   20176,
-   25008,
-   31037,
-   26831,
-   27596,
-   22093,
-   20678
+   22979,
+   20182,
+   25051,
+   31050,
+   26845,
+   27612,
+   22284,
+   20680
   ],
-  "worldTotal": 4772517,
+  "worldTotal": 4773106,
   "topCountries": [
    {
     "code": "US",
-    "count": 1826415
+    "count": 1826521
    },
    {
     "code": "CA",
-    "count": 726542
+    "count": 726593
    },
    {
     "code": "NO",
-    "count": 473125
+    "count": 473130
    },
    {
     "code": "SE",
-    "count": 471514
+    "count": 471516
    },
    {
     "code": "GB",
-    "count": 462648
+    "count": 462692
    },
    {
     "code": "DK",
-    "count": 307255
+    "count": 307550
    },
    {
     "code": "FI",
-    "count": 71144
+    "count": 71146
    },
    {
     "code": "FR",
-    "count": 70444
+    "count": 70475
    },
    {
     "code": "NL",
-    "count": 67951
+    "count": 67963
    },
    {
     "code": "IE",
-    "count": 46359
+    "count": 46370
    },
    {
     "code": "IS",
-    "count": 44575
+    "count": 44579
    },
    {
     "code": "BE",
-    "count": 44066
+    "count": 44068
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:03.186Z"
+ }
 }

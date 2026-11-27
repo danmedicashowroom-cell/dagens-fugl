@@ -2,7 +2,8 @@
  "key": "chlidonias-niger",
  "name": "Chlidonias niger",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:46:51.721Z",
+ "fetchedAt": "2026-11-27T04:11:40.229Z",
+ "gbifAt": "2026-11-27T04:11:40.229Z",
  "names": {
   "da": "Sortterne",
   "en": "Black Tern",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4512,
-  "observations": 20467
+  "observations": 20515
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2024-08-26"
    },
    {
-    "id": 544600140,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/544600140/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/544600140/large.jpg",
-    "attribution": "(c) Sam Shutt, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/302197926",
-    "place": "East Lothian, Scotland, GB",
-    "date": "2025-07-29"
-   },
-   {
     "id": 401689541,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/401689541/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/401689541/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/226492363",
     "place": "Long Nanny,Beadnell Bay Bird Sanctuary, Beadnell, Alnwick NE66 3DF, UK",
     "date": "2024-06-30"
+   },
+   {
+    "id": 544600140,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/544600140/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/544600140/large.jpg",
+    "attribution": "(c) Sam Shutt, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/302197926",
+    "place": "East Lothian, Scotland, GB",
+    "date": "2025-07-29"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2024-08-25"
    }
   ],
-  "hero": {
-   "id": 3789202,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3789202/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3789202/large.jpeg",
-   "attribution": "(c) David Yeany, some rights reserved (CC BY-NC), uploaded by David Yeany",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/3789202",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 3789202,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 3789202,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3789202/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3789202/large.jpeg",
+   "attribution": "(c) David Yeany, some rights reserved (CC BY-NC), uploaded by David Yeany",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/3789202",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481119,
-  "dkTotal": 26086,
+  "dkTotal": 26090,
   "dkMonths": [
    0,
    0,
@@ -221,22 +222,22 @@
    814,
    8444,
    3423,
-   5495,
-   7330,
+   5496,
+   7333,
    372,
    86,
    23,
    0
   ],
-  "worldTotal": 751190,
+  "worldTotal": 751220,
   "topCountries": [
    {
     "code": "US",
-    "count": 294659
+    "count": 294664
    },
    {
     "code": "CA",
-    "count": 96451
+    "count": 96456
    },
    {
     "code": "SE",
@@ -248,11 +249,11 @@
    },
    {
     "code": "FR",
-    "count": 26944
+    "count": 26945
    },
    {
     "code": "DK",
-    "count": 26086
+    "count": 26090
    },
    {
     "code": "GB",
@@ -260,7 +261,7 @@
    },
    {
     "code": "ES",
-    "count": 20680
+    "count": 20681
    },
    {
     "code": "BE",
@@ -276,7 +277,7 @@
    },
    {
     "code": "RU",
-    "count": 8802
+    "count": 8813
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:09.586Z"
+ }
 }

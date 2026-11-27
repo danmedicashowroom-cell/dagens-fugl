@@ -2,7 +2,8 @@
  "key": "columba-palumbus",
  "name": "Columba palumbus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:41.177Z",
+ "fetchedAt": "2026-11-27T04:12:31.120Z",
+ "gbifAt": "2026-11-27T04:12:31.120Z",
  "names": {
   "da": "Ringdue",
   "en": "Common Wood Pigeon",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3048,
-  "observations": 192234
+  "observations": 192975
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2026-03-27"
    }
   ],
-  "hero": {
-   "id": 108521205,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/108521205/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/108521205/large.jpg",
-   "attribution": "(c) hedera.baltica, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/108521205",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 152647880,
@@ -189,74 +180,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 152647880,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/152647880/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/152647880/large.jpg",
+   "attribution": "(c) Alexis Lours, some rights reserved (CC BY), uploaded by Alexis Lours",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/152647880",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2495455,
-  "dkTotal": 724088,
+  "dkTotal": 724809,
   "dkMonths": [
-   60391,
-   55923,
-   92890,
-   98217,
+   60404,
+   55952,
+   92903,
+   98223,
    80120,
-   56940,
-   50248,
-   52346,
-   48428,
-   55704,
-   35812,
+   56946,
+   50254,
+   52350,
+   48432,
+   55706,
+   36450,
    37003
   ],
-  "worldTotal": 10344790,
+  "worldTotal": 10346263,
   "topCountries": [
    {
     "code": "GB",
-    "count": 2131618
+    "count": 2131742
    },
    {
     "code": "FR",
-    "count": 1464650
+    "count": 1464698
    },
    {
     "code": "SE",
-    "count": 1155563
+    "count": 1155570
    },
    {
     "code": "NL",
-    "count": 997946
+    "count": 997953
    },
    {
     "code": "ES",
-    "count": 832762
+    "count": 832799
    },
    {
     "code": "DE",
-    "count": 747515
+    "count": 747859
    },
    {
     "code": "DK",
-    "count": 724088
+    "count": 724809
    },
    {
     "code": "NO",
-    "count": 456574
+    "count": 456579
    },
    {
     "code": "BE",
-    "count": 439702
+    "count": 439705
    },
    {
     "code": "CH",
-    "count": 232510
+    "count": 232518
    },
    {
     "code": "PT",
-    "count": 232262
+    "count": 232272
    },
    {
     "code": "FI",
-    "count": 143766
+    "count": 143767
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Columbidae",
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- },
- "gbifAt": "2026-11-25T22:19:16.578Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "larus-canus",
  "name": "Larus canus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:45:25.077Z",
+ "fetchedAt": "2026-11-27T04:10:09.787Z",
+ "gbifAt": "2026-11-27T04:10:09.787Z",
  "names": {
   "da": "Stormmåge",
   "en": "Common Gull",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4356,
-  "observations": 48726
+  "observations": 49075
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2023-05-13"
    },
    {
-    "id": 729672082,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/729672082/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/729672082/large.jpg",
-    "attribution": "(c) Vladimir Mishonov, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/397812924",
-    "place": "Pieršamajski rajon, Viciebsk, Viciebskaja voblasć, Belarus",
-    "date": "2026-09-06"
-   },
-   {
     "id": 523512549,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/523512549/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/523512549/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/290989801",
     "place": "Shetland Islands, Scotland, GB",
     "date": "2024-06-22"
+   },
+   {
+    "id": 714041524,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/714041524/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/714041524/large.jpg",
+    "attribution": "(c) Ben Robinson, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/389797537",
+    "place": "Dublin City, Co. Dublin, Ireland",
+    "date": "2026-08-09"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2010-06-17"
    }
   ],
-  "hero": {
-   "id": 167424428,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/167424428/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/167424428/large.jpeg",
-   "attribution": "(c) anna_parkhaeva, some rights reserved (CC BY-NC), uploaded by anna_parkhaeva",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/167424428",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 167424428,
@@ -199,74 +190,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 167424428,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/167424428/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/167424428/large.jpeg",
+   "attribution": "(c) anna_parkhaeva, some rights reserved (CC BY-NC), uploaded by anna_parkhaeva",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/167424428",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 7982160,
-  "dkTotal": 448303,
+  "dkTotal": 448678,
   "dkMonths": [
-   53165,
+   53168,
    43972,
-   52549,
-   42498,
+   52555,
+   42499,
    32219,
-   39388,
-   30984,
-   29059,
-   27639,
-   32488,
-   27807,
-   33398
+   39390,
+   31006,
+   29063,
+   27643,
+   32503,
+   28124,
+   33399
   ],
-  "worldTotal": 3551576,
+  "worldTotal": 3552209,
   "topCountries": [
    {
     "code": "SE",
-    "count": 976440
+    "count": 976461
    },
    {
     "code": "NO",
-    "count": 636787
+    "count": 636796
    },
    {
     "code": "DK",
-    "count": 448303
+    "count": 448678
    },
    {
     "code": "GB",
-    "count": 442651
+    "count": 442698
    },
    {
     "code": "FI",
-    "count": 288133
+    "count": 288143
    },
    {
     "code": "NL",
-    "count": 211256
+    "count": 211268
    },
    {
     "code": "BE",
-    "count": 107352
+    "count": 107353
    },
    {
     "code": "DE",
-    "count": 97669
+    "count": 97674
    },
    {
     "code": "RU",
-    "count": 60009
+    "count": 60133
    },
    {
     "code": "EE",
-    "count": 45689
+    "count": 45691
    },
    {
     "code": "FR",
-    "count": 45620
+    "count": 45626
    },
    {
     "code": "PL",
-    "count": 33614
+    "count": 33621
    }
   ]
  },
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:57.230Z"
+ }
 }

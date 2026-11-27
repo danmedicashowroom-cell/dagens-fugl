@@ -2,7 +2,8 @@
  "key": "bubo-bubo",
  "name": "Bubo bubo",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:20.996Z",
+ "fetchedAt": "2026-11-27T04:13:10.609Z",
+ "gbifAt": "2026-11-27T04:13:10.609Z",
  "names": {
   "da": "Stor hornugle",
   "en": "Eurasian Eagle-owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 20059,
-  "observations": 8027
+  "observations": 8068
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2025-11-28"
    },
    {
-    "id": 120683833,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/120683833/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/120683833/large.jpeg",
-    "attribution": "(c) Mirko Tomasi, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/73883370",
-    "place": "Lombardia, IT",
-    "date": "2021-04-13"
-   },
-   {
     "id": 257260232,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/257260232/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/257260232/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/149307844",
     "place": "Kalmyk, RU",
     "date": "2020-06-07"
+   },
+   {
+    "id": 120683833,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/120683833/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/120683833/large.jpeg",
+    "attribution": "(c) Mirko Tomasi, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/73883370",
+    "place": "Lombardia, IT",
+    "date": "2021-04-13"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2023-07-01"
    }
   ],
-  "hero": {
-   "id": 1840610,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1840610/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1840610/large.jpg",
-   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/1840610",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 1840610,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 1840610,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1840610/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1840610/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/1840610",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5959092,
-  "dkTotal": 4836,
+  "dkTotal": 4837,
   "dkMonths": [
    554,
    788,
@@ -225,18 +226,18 @@
    132,
    117,
    137,
-   144,
+   145,
    129
   ],
-  "worldTotal": 193152,
+  "worldTotal": 193191,
   "topCountries": [
    {
     "code": "FR",
-    "count": 39760
+    "count": 39765
    },
    {
     "code": "ES",
-    "count": 37990
+    "count": 37994
    },
    {
     "code": "FI",
@@ -248,27 +249,27 @@
    },
    {
     "code": "NL",
-    "count": 14779
+    "count": 14780
    },
    {
     "code": "DE",
-    "count": 9385
+    "count": 9403
    },
    {
     "code": "DK",
-    "count": 4836
+    "count": 4837
    },
    {
     "code": "RU",
-    "count": 3424
+    "count": 3425
    },
    {
     "code": "AT",
-    "count": 3332
+    "count": 3334
    },
    {
     "code": "IL",
-    "count": 2900
+    "count": 2901
    },
    {
     "code": "CH",
@@ -276,7 +277,7 @@
    },
    {
     "code": "PT",
-    "count": 2675
+    "count": 2677
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:22.162Z"
+ }
 }

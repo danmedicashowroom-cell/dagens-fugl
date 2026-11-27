@@ -2,7 +2,8 @@
  "key": "strix-aluco",
  "name": "Strix aluco",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:38.058Z",
+ "fetchedAt": "2026-11-27T04:13:26.928Z",
+ "gbifAt": "2026-11-27T04:13:26.928Z",
  "names": {
   "da": "Natugle",
   "en": "Tawny owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 19898,
-  "observations": 25027
+  "observations": 25171
  },
  "photos": {
   "male": [
@@ -108,26 +109,16 @@
     "date": "2021-04-10"
    },
    {
-    "id": 656873963,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/656873963/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/656873963/large.jpg",
-    "attribution": "(c) Timo Leistner, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/360001645",
-    "place": "07 Jena, Germany",
-    "date": "2026-05-10"
+    "id": 515083485,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/515083485/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/515083485/large.jpg",
+    "attribution": "(c) Paul Werner Süss, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/286509297",
+    "place": "Laxenburg, Österreich",
+    "date": "2025-06-01"
    }
   ],
-  "hero": {
-   "id": 451350360,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/451350360/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/451350360/large.jpg",
-   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/451350360",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 451350360,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 451350360,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/451350360/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/451350360/large.jpg",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/451350360",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9282206,
-  "dkTotal": 66412,
+  "dkTotal": 66483,
   "dkMonths": [
    7079,
    6551,
@@ -224,31 +225,31 @@
    2749,
    3703,
    5033,
-   4645,
-   5155,
+   4648,
+   5223,
    4744
   ],
-  "worldTotal": 1088089,
+  "worldTotal": 1088292,
   "topCountries": [
    {
     "code": "SE",
-    "count": 304873
+    "count": 304875
    },
    {
     "code": "FR",
-    "count": 152158
+    "count": 152176
    },
    {
     "code": "GB",
-    "count": 102067
+    "count": 102080
    },
    {
     "code": "FI",
-    "count": 97641
+    "count": 97643
    },
    {
     "code": "DK",
-    "count": 66412
+    "count": 66483
    },
    {
     "code": "NO",
@@ -256,7 +257,7 @@
    },
    {
     "code": "NL",
-    "count": 58106
+    "count": 58107
    },
    {
     "code": "BE",
@@ -264,19 +265,19 @@
    },
    {
     "code": "ES",
-    "count": 46602
+    "count": 46612
    },
    {
     "code": "CH",
-    "count": 39765
+    "count": 39766
    },
    {
     "code": "DE",
-    "count": 30988
+    "count": 31038
    },
    {
     "code": "PT",
-    "count": 15895
+    "count": 15897
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:24.255Z"
+ }
 }

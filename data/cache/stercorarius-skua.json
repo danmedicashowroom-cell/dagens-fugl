@@ -2,7 +2,8 @@
  "key": "stercorarius-skua",
  "name": "Stercorarius skua",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:44:50.473Z",
+ "fetchedAt": "2026-11-27T04:09:32.922Z",
+ "gbifAt": "2026-11-27T04:09:32.922Z",
  "names": {
   "da": "Storkjove",
   "en": "Great Skua",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144297,
-  "observations": 2351
+  "observations": 2357
  },
  "photos": {
   "male": [
@@ -77,16 +78,6 @@
     "date": "2022-06-29"
    }
   ],
-  "hero": {
-   "id": 19762,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/19762/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/19762/large.jpg",
-   "attribution": "(c) Ulrich Latzenhofer, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/19762",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 81343065,
@@ -148,11 +139,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 81343065,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/81343065/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/81343065/large.jpeg",
+   "attribution": "(c) Pedro Valenzuela, some rights reserved (CC BY-NC), uploaded by Pedro Valenzuela",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/81343065",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481618,
-  "dkTotal": 14686,
+  "dkTotal": 14691,
   "dkMonths": [
    185,
    50,
@@ -162,12 +163,12 @@
    311,
    985,
    2367,
-   3986,
-   3831,
-   817,
+   3987,
+   3834,
+   818,
    296
   ],
-  "worldTotal": 177944,
+  "worldTotal": 177972,
   "topCountries": [
    {
     "code": "GB",
@@ -183,15 +184,15 @@
    },
    {
     "code": "DK",
-    "count": 14686
+    "count": 14691
    },
    {
     "code": "ES",
-    "count": 13683
+    "count": 13704
    },
    {
     "code": "PT",
-    "count": 9859
+    "count": 9861
    },
    {
     "code": "FR",
@@ -235,13 +236,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Stercorariidae",
   "familyKey": 9347,
   "familyDa": "Kjover",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:54.150Z"
+ }
 }

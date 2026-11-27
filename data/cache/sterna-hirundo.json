@@ -2,7 +2,8 @@
  "key": "sterna-hirundo",
  "name": "Sterna hirundo",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:46:35.322Z",
+ "fetchedAt": "2026-11-27T04:11:23.222Z",
+ "gbifAt": "2026-11-27T04:11:23.223Z",
  "names": {
   "da": "Fjordterne",
   "en": "Common Tern",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4450,
-  "observations": 72366
+  "observations": 72543
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2022-07-06"
    }
   ],
-  "hero": {
-   "id": 8318331,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8318331/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8318331/large.jpg",
-   "attribution": "(c) Bill Keim, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/8318331",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 8318331,
@@ -189,11 +180,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 8318331,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8318331/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8318331/large.jpg",
+   "attribution": "(c) Bill Keim, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/8318331",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9367409,
-  "dkTotal": 133573,
+  "dkTotal": 133592,
   "dkMonths": [
    28,
    1,
@@ -201,42 +202,42 @@
    10669,
    27468,
    17211,
-   30384,
-   32687,
-   13533,
-   1303,
+   30391,
+   32692,
+   13539,
+   1304,
    67,
    10
   ],
-  "worldTotal": 3006009,
+  "worldTotal": 3006302,
   "topCountries": [
    {
     "code": "US",
-    "count": 613308
+    "count": 613438
    },
    {
     "code": "SE",
-    "count": 487435
+    "count": 487445
    },
    {
     "code": "NL",
-    "count": 310472
+    "count": 310477
    },
    {
     "code": "CA",
-    "count": 265070
+    "count": 265076
    },
    {
     "code": "FI",
-    "count": 218301
+    "count": 218302
    },
    {
     "code": "GB",
-    "count": 205750
+    "count": 205775
    },
    {
     "code": "DK",
-    "count": 133573
+    "count": 133592
    },
    {
     "code": "NO",
@@ -244,7 +245,7 @@
    },
    {
     "code": "FR",
-    "count": 109058
+    "count": 109060
    },
    {
     "code": "BE",
@@ -252,11 +253,11 @@
    },
    {
     "code": "ES",
-    "count": 47564
+    "count": 47595
    },
    {
     "code": "ZA",
-    "count": 37038
+    "count": 37039
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:08.045Z"
+ }
 }

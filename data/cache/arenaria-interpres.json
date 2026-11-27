@@ -2,7 +2,8 @@
  "key": "arenaria-interpres",
  "name": "Arenaria interpres",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:44:15.278Z",
+ "fetchedAt": "2026-11-27T04:08:55.239Z",
+ "gbifAt": "2026-11-27T04:08:55.239Z",
  "names": {
   "da": "Stenvender",
   "en": "Ruddy Turnstone",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3938,
-  "observations": 76782
+  "observations": 77344
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2025-08-19"
    },
    {
-    "id": 82457662,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/82457662/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/82457662/large.jpeg",
-    "attribution": "(c) Jarkko Peltoniemi, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/51883916",
-    "place": "85100 Kalajoki, Suomi",
-    "date": "2020-07-01"
-   },
-   {
     "id": 503774330,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/503774330/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/503774330/large.jpg",
@@ -52,19 +43,19 @@
     "source": "https://www.inaturalist.org/observations/280487979",
     "place": "东港市, 丹东市, 辽宁省, CN",
     "date": "2025-05-12"
+   },
+   {
+    "id": 420996355,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/420996355/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/420996355/large.jpg",
+    "attribution": "(c) Luis Agosto, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/236628086",
+    "place": "Westerly, RI, USA",
+    "date": "2024-08-10"
    }
   ],
   "female": [
-   {
-    "id": 741800574,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/741800574/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/741800574/large.jpg",
-    "attribution": "(c) Sloane Hauck, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/403979422",
-    "place": "Fisherman's Path, NC, US",
-    "date": "2026-09-27"
-   },
    {
     "id": 567721466,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/567721466/medium.jpg",
@@ -74,6 +65,16 @@
     "source": "https://www.inaturalist.org/observations/314323925",
     "place": "Kashid, Maharashtra, India",
     "date": "2025-03-06"
+   },
+   {
+    "id": 741800574,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/741800574/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/741800574/large.jpg",
+    "attribution": "(c) Sloane Hauck, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/403979422",
+    "place": "Fisherman's Path, NC, US",
+    "date": "2026-09-27"
    },
    {
     "id": 227163837,
@@ -118,16 +119,6 @@
     "date": "2026-08-31"
    }
   ],
-  "hero": {
-   "id": 57282715,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/57282715/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/57282715/large.jpeg",
-   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/57282715",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 57282715,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 57282715,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/57282715/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/57282715/large.jpeg",
+   "attribution": "(c) John Clough, some rights reserved (CC BY-NC), uploaded by John Clough",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/57282715",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481776,
-  "dkTotal": 59210,
+  "dkTotal": 59263,
   "dkMonths": [
    4142,
    2658,
@@ -221,26 +222,26 @@
    1504,
    6841,
    912,
-   6871,
-   16120,
+   6884,
+   16128,
    8433,
    4541,
-   2641,
+   2673,
    2476
   ],
-  "worldTotal": 2054069,
+  "worldTotal": 2054512,
   "topCountries": [
    {
     "code": "US",
-    "count": 756969
+    "count": 757073
    },
    {
     "code": "NL",
-    "count": 191016
+    "count": 191031
    },
    {
     "code": "GB",
-    "count": 174387
+    "count": 174422
    },
    {
     "code": "SE",
@@ -248,27 +249,27 @@
    },
    {
     "code": "CA",
-    "count": 80616
+    "count": 80622
    },
    {
     "code": "ES",
-    "count": 76703
+    "count": 76771
    },
    {
     "code": "AU",
-    "count": 66218
+    "count": 66224
    },
    {
     "code": "PT",
-    "count": 63672
+    "count": 63694
    },
    {
     "code": "DK",
-    "count": 59210
+    "count": 59263
    },
    {
     "code": "FR",
-    "count": 53447
+    "count": 53478
    },
    {
     "code": "NO",
@@ -276,7 +277,7 @@
    },
    {
     "code": "TW",
-    "count": 25718
+    "count": 25719
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:48.500Z"
+ }
 }

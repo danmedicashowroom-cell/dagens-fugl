@@ -2,7 +2,8 @@
  "key": "columba-livia",
  "name": "Columba livia",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:29.596Z",
+ "fetchedAt": "2026-11-27T04:12:20.167Z",
+ "gbifAt": "2026-11-27T04:12:20.167Z",
  "names": {
   "da": "Klippedue",
   "en": "Rock Dove",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3017,
-  "observations": 475933
+  "observations": 479845
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2022-05-31"
    }
   ],
-  "hero": {
-   "id": 466776975,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/466776975/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/466776975/large.jpg",
-   "attribution": "(c) Birds of Gilgit-Baltistan, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/466776975",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 137179216,
@@ -209,74 +200,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 137179216,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/137179216/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/137179216/large.jpg",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/137179216",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2495414,
-  "dkTotal": 48060,
+  "dkTotal": 48115,
   "dkMonths": [
    5889,
-   3518,
-   4137,
+   3519,
+   4138,
    4394,
    4889,
    3854,
    4253,
    4470,
    4023,
-   3381,
-   2561,
+   3382,
+   2613,
    2651
   ],
-  "worldTotal": 15342374,
+  "worldTotal": 15344495,
   "topCountries": [
    {
     "code": "US",
-    "count": 6631194
+    "count": 6631670
    },
    {
     "code": "CA",
-    "count": 1599474
+    "count": 1599599
    },
    {
     "code": "IN",
-    "count": 1036313
+    "count": 1036367
    },
    {
     "code": "GB",
-    "count": 677132
+    "count": 677215
    },
    {
     "code": "ES",
-    "count": 555611
+    "count": 555670
    },
    {
     "code": "AU",
-    "count": 489815
+    "count": 489886
    },
    {
     "code": "SE",
-    "count": 355912
+    "count": 355916
    },
    {
     "code": "PT",
-    "count": 255564
+    "count": 255591
    },
    {
     "code": "FR",
-    "count": 253249
+    "count": 253289
    },
    {
     "code": "DE",
-    "count": 190065
+    "count": 190158
    },
    {
     "code": "AR",
-    "count": 151083
+    "count": 151103
    },
    {
     "code": "BR",
-    "count": 149216
+    "count": 149250
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Columbidae",
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- },
- "gbifAt": "2026-11-25T22:19:15.569Z"
+ }
 }

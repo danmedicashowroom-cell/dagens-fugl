@@ -2,7 +2,8 @@
  "key": "asio-otus",
  "name": "Asio otus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:43.611Z",
+ "fetchedAt": "2026-11-27T04:13:33.014Z",
+ "gbifAt": "2026-11-27T04:13:33.014Z",
  "names": {
   "da": "Skovhornugle",
   "en": "Long-eared Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 20307,
-  "observations": 24492
+  "observations": 24639
  },
  "photos": {
   "male": [
@@ -108,26 +109,16 @@
     "date": "2011-06-07"
    },
    {
-    "id": 629272755,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/629272755/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/629272755/large.jpg",
-    "attribution": "(c) Markus Traud, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/345309380",
-    "place": "Frankfurt-Süd, Deutschland",
-    "date": "2026-03-21"
+    "id": 402805876,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/402805876/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/402805876/large.jpg",
+    "attribution": "(c) Alla Verkhozina, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/227081817",
+    "place": "улица Фаворского, Иркутск, Иркутская область, RU",
+    "date": "2024-07-04"
    }
   ],
-  "hero": {
-   "id": 133553640,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/133553640/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/133553640/large.jpg",
-   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/133553640",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 133553640,
@@ -209,26 +200,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 133553640,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/133553640/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/133553640/large.jpg",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/133553640",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2497306,
-  "dkTotal": 25529,
+  "dkTotal": 25537,
   "dkMonths": [
    3434,
    2660,
-   2925,
-   1986,
-   2330,
+   2926,
+   1987,
+   2331,
    4189,
    2058,
-   504,
+   505,
    351,
    1482,
-   1835,
-   1673
+   1838,
+   1674
   ],
-  "worldTotal": 486252,
+  "worldTotal": 486336,
   "topCountries": [
    {
     "code": "SE",
@@ -236,19 +237,19 @@
    },
    {
     "code": "NL",
-    "count": 88379
+    "count": 88380
    },
    {
     "code": "FR",
-    "count": 46927
+    "count": 46928
    },
    {
     "code": "FI",
-    "count": 30473
+    "count": 30475
    },
    {
     "code": "DK",
-    "count": 25529
+    "count": 25537
    },
    {
     "code": "BE",
@@ -256,19 +257,19 @@
    },
    {
     "code": "ES",
-    "count": 20036
+    "count": 20038
    },
    {
     "code": "CA",
-    "count": 17838
+    "count": 17841
    },
    {
     "code": "DE",
-    "count": 16705
+    "count": 16733
    },
    {
     "code": "CH",
-    "count": 15539
+    "count": 15540
    },
    {
     "code": "NO",
@@ -276,7 +277,7 @@
    },
    {
     "code": "RU",
-    "count": 8301
+    "count": 8313
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:24.871Z"
+ }
 }

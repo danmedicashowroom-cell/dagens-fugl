@@ -2,7 +2,8 @@
  "key": "apus-apus",
  "name": "Apus apus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:49:10.850Z",
+ "fetchedAt": "2026-11-27T04:14:00.733Z",
+ "gbifAt": "2026-11-27T04:14:00.733Z",
  "names": {
   "da": "Mursejler",
   "en": "Common Swift",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 6638,
-  "observations": 38601
+  "observations": 38674
  },
  "photos": {
   "male": [
@@ -108,16 +109,6 @@
     "date": "2011-07-21"
    }
   ],
-  "hero": {
-   "id": 40612214,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/large.jpg",
-   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/40612214",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 40612214,
@@ -199,42 +190,52 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 40612214,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/large.jpg",
+   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/40612214",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5228676,
-  "dkTotal": 190488,
+  "dkTotal": 190518,
   "dkMonths": [
    1,
    0,
    9,
    461,
-   52219,
-   47680,
-   44219,
-   33928,
-   11777,
+   52221,
+   47687,
+   44233,
+   33931,
+   11781,
    124,
    22,
    2
   ],
-  "worldTotal": 3305361,
+  "worldTotal": 3305451,
   "topCountries": [
    {
     "code": "GB",
-    "count": 494128
+    "count": 494134
    },
    {
     "code": "SE",
-    "count": 480130
+    "count": 480132
    },
    {
     "code": "ES",
-    "count": 355078
+    "count": 355091
    },
    {
     "code": "FR",
-    "count": 331610
+    "count": 331615
    },
    {
     "code": "NL",
@@ -242,15 +243,15 @@
    },
    {
     "code": "DK",
-    "count": 190488
+    "count": 190518
    },
    {
     "code": "DE",
-    "count": 181711
+    "count": 181721
    },
    {
     "code": "NO",
-    "count": 148108
+    "count": 148109
    },
    {
     "code": "FI",
@@ -258,7 +259,7 @@
    },
    {
     "code": "CH",
-    "count": 102758
+    "count": 102759
    },
    {
     "code": "BE",
@@ -266,7 +267,7 @@
    },
    {
     "code": "PT",
-    "count": 84963
+    "count": 84965
    }
   ]
  },
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Apodidae",
   "familyKey": 2993,
   "familyDa": "Sejlere",
   "order": "Apodiformes"
- },
- "gbifAt": "2026-11-25T22:19:27.922Z"
+ }
 }

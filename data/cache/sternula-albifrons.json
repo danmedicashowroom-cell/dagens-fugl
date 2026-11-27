@@ -2,7 +2,8 @@
  "key": "sternula-albifrons",
  "name": "Sternula albifrons",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:46:46.137Z",
+ "fetchedAt": "2026-11-27T04:11:34.864Z",
+ "gbifAt": "2026-11-27T04:11:34.864Z",
  "names": {
   "da": "Dværgterne",
   "en": "Little Tern",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144529,
-  "observations": 12731
+  "observations": 12773
  },
  "photos": {
   "male": [
@@ -78,16 +79,6 @@
     "date": "2022-06-29"
    }
   ],
-  "hero": {
-   "id": 359001673,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/359001673/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/359001673/large.jpg",
-   "attribution": "(c) PotMart186, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/359001673",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 359001681,
@@ -109,26 +100,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 359001681,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/359001681/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/359001681/large.jpg",
+   "attribution": "(c) Andrey Gulivanov, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/359001681",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5789279,
-  "dkTotal": 50124,
+  "dkTotal": 50147,
   "dkMonths": [
    9,
    0,
    0,
    3884,
    13039,
-   9892,
-   15535,
-   7183,
+   9894,
+   15555,
+   7184,
    241,
    7,
    0,
    1
   ],
-  "worldTotal": 524976,
+  "worldTotal": 525030,
   "topCountries": [
    {
     "code": "SE",
@@ -136,27 +137,27 @@
    },
    {
     "code": "AU",
-    "count": 65662
+    "count": 65672
    },
    {
     "code": "DK",
-    "count": 50124
+    "count": 50147
    },
    {
     "code": "TW",
-    "count": 44157
+    "count": 44158
    },
    {
     "code": "ES",
-    "count": 41040
+    "count": 41041
    },
    {
     "code": "FR",
-    "count": 38358
+    "count": 38360
    },
    {
     "code": "GB",
-    "count": 31368
+    "count": 31372
    },
    {
     "code": "PT",
@@ -172,11 +173,11 @@
    },
    {
     "code": "TH",
-    "count": 7380
+    "count": 7381
    },
    {
     "code": "PL",
-    "count": 7066
+    "count": 7067
    }
   ]
  },
@@ -196,13 +197,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:09.149Z"
+ }
 }

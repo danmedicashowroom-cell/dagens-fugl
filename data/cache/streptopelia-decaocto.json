@@ -2,7 +2,8 @@
  "key": "streptopelia-decaocto",
  "name": "Streptopelia decaocto",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:46.936Z",
+ "fetchedAt": "2026-11-27T04:12:38.305Z",
+ "gbifAt": "2026-11-27T04:12:38.305Z",
  "names": {
   "da": "Tyrkerdue",
   "en": "Eurasian Collared Dove",
@@ -11,15 +12,10 @@
  "wikidata": {
   "id": "Q54696"
  },
- "wiki": {
-  "lang": "da",
-  "title": "Tyrkerdue",
-  "extract": "Tyrkerduen er en slank lille due, der er udbredt i Europa og Asien samt introduceret til dele af Nordamerika, Japan og de Caribiske øer. Artens oprindelige udbredelsesområde menes at være Sydasien, men den har siden spredt sig via Tyrkiet til Europa. Den ynglede første gang i 1950 i Danmark, hvor den nu er almindelig mange steder i nærheden af menneskelig bebyggelse.",
-  "url": "https://da.wikipedia.org/wiki/Tyrkerdue"
- },
+ "wiki": null,
  "inat": {
   "id": 2969,
-  "observations": 180839
+  "observations": 181776
  },
  "photos": {
   "male": [
@@ -108,26 +104,16 @@
     "date": "2023-07-16"
    },
    {
-    "id": 515517070,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/515517070/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/515517070/large.jpg",
-    "attribution": "(c) Luna Caelo, some rights reserved (CC BY-NC)",
+    "id": 665233762,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/665233762/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/665233762/large.jpg",
+    "attribution": "(c) rodo.berrendo, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/286736991",
-    "place": "Salt Lake County, US-UT, US",
-    "date": "2025-04-18"
+    "source": "https://www.inaturalist.org/observations/364297829",
+    "place": "Belenes Nte., Zapopan, Jal., México",
+    "date": "2026-05-20"
    }
   ],
-  "hero": {
-   "id": 100117501,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/100117501/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/100117501/large.jpg",
-   "attribution": "(c) mattecasti, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/100117501",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 100117501,
@@ -189,54 +175,64 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 100117501,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/100117501/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/100117501/large.jpg",
+   "attribution": "(c) mattecasti, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/100117501",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2495696,
-  "dkTotal": 147722,
+  "dkTotal": 147819,
   "dkMonths": [
-   14318,
-   10833,
-   13884,
-   17744,
+   14319,
+   10837,
+   13885,
+   17745,
    19367,
-   12769,
+   12770,
    11827,
    12473,
-   10647,
-   8845,
-   7020,
+   10648,
+   8850,
+   7103,
    7944
   ],
-  "worldTotal": 9546695,
+  "worldTotal": 9547291,
   "topCountries": [
    {
     "code": "US",
-    "count": 3975037
+    "count": 3975131
    },
    {
     "code": "FR",
-    "count": 1020343
+    "count": 1020378
    },
    {
     "code": "GB",
-    "count": 625674
+    "count": 625694
    },
    {
     "code": "ES",
-    "count": 600528
+    "count": 600570
    },
    {
     "code": "NL",
-    "count": 435674
+    "count": 435676
    },
    {
     "code": "IN",
-    "count": 305714
+    "count": 305732
    },
    {
     "code": "PT",
-    "count": 270071
+    "count": 270084
    },
    {
     "code": "SE",
@@ -244,11 +240,11 @@
    },
    {
     "code": "CA",
-    "count": 222982
+    "count": 222998
    },
    {
     "code": "DE",
-    "count": 216633
+    "count": 216687
    },
    {
     "code": "BE",
@@ -256,7 +252,7 @@
    },
    {
     "code": "MX",
-    "count": 175734
+    "count": 175778
    }
   ]
  },
@@ -276,13 +272,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Columbidae",
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- },
- "gbifAt": "2026-11-25T22:19:17.270Z"
+ }
 }

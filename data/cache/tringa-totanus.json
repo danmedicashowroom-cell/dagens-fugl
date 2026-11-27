@@ -2,7 +2,8 @@
  "key": "tringa-totanus",
  "name": "Tringa totanus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:43:27.456Z",
+ "fetchedAt": "2026-11-27T04:08:11.592Z",
+ "gbifAt": "2026-11-27T04:08:11.592Z",
  "names": {
   "da": "Rødben",
   "en": "Common Redshank",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3879,
-  "observations": 47749
+  "observations": 47978
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2023-07-02"
    }
   ],
-  "hero": {
-   "id": 52766331,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/large.jpg",
-   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/52766331",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 52766331,
@@ -118,42 +109,52 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 52766331,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/52766331/large.jpg",
+   "attribution": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/52766331",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481714,
-  "dkTotal": 281670,
+  "dkTotal": 281804,
   "dkMonths": [
-   13845,
+   13846,
    9241,
-   16520,
-   48657,
+   16523,
+   48666,
    46043,
-   26957,
-   37586,
-   39885,
-   16823,
-   10317,
-   7669,
+   26962,
+   37621,
+   39896,
+   16833,
+   10321,
+   7725,
    8014
   ],
-  "worldTotal": 2931433,
+  "worldTotal": 2931717,
   "topCountries": [
    {
     "code": "NL",
-    "count": 561513
+    "count": 561516
    },
    {
     "code": "SE",
-    "count": 521486
+    "count": 521491
    },
    {
     "code": "GB",
-    "count": 462055
+    "count": 462108
    },
    {
     "code": "DK",
-    "count": 281670
+    "count": 281804
    },
    {
     "code": "NO",
@@ -161,11 +162,11 @@
    },
    {
     "code": "ES",
-    "count": 123734
+    "count": 123746
    },
    {
     "code": "FR",
-    "count": 112836
+    "count": 112843
    },
    {
     "code": "BE",
@@ -173,19 +174,19 @@
    },
    {
     "code": "IN",
-    "count": 55336
+    "count": 55341
    },
    {
     "code": "TW",
-    "count": 54572
+    "count": 54579
    },
    {
     "code": "PT",
-    "count": 54560
+    "count": 54570
    },
    {
     "code": "IS",
-    "count": 47016
+    "count": 47017
    }
   ]
  },
@@ -205,13 +206,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:42.588Z"
+ }
 }

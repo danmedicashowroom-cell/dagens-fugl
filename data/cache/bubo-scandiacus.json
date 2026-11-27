@@ -2,7 +2,8 @@
  "key": "bubo-scandiacus",
  "name": "Bubo scandiacus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:26.815Z",
+ "fetchedAt": "2026-11-27T04:13:15.920Z",
+ "gbifAt": "2026-11-27T04:13:15.920Z",
  "names": {
   "da": "Sneugle",
   "en": "Snowy Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144594,
-  "observations": 12783
+  "observations": 12790
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2023-11-17"
    },
    {
-    "id": 615861379,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/615861379/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/615861379/large.jpg",
-    "attribution": "(c) Jace, some rights reserved (CC BY-NC)",
+    "id": 22168151,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/22168151/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/22168151/large.jpg",
+    "attribution": "(c) Brennan Obermayer, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/338631227",
-    "place": "Park Point, Duluth, MN 55802, USA",
-    "date": "2026-02-14"
+    "source": "https://www.inaturalist.org/observations/14850651",
+    "place": "Lennox and Addington, CA-ON, CA",
+    "date": "2016-02-27"
    }
   ],
   "female": [
@@ -108,32 +109,22 @@
     "date": "2012-08-03"
    },
    {
-    "id": 103933088,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103933088/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103933088/large.jpg",
-    "attribution": "(c) ewransky, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/64630962",
-    "place": "Oberlin, OH 44074, USA",
-    "date": "2020-11-08"
+    "id": 453617466,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/453617466/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/453617466/large.jpeg",
+    "attribution": "(c) Matthew StClair, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/253350925",
+    "place": "Erie County, US-PA, US",
+    "date": "2024-11-27"
    }
   ],
-  "hero": {
-   "id": 150549757,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/large.jpg",
-   "attribution": "(c) Patrick Randall, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/150549757",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 597055401,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/597055401/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/597055401/large.jpg",
-    "attribution": "(c) Jacob Truetken,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Jacob Truetken",
+    "attribution": "(c) Jacob Truetken, some rights reserved (CC BY-NC), uploaded by Jacob Truetken",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/597055401",
     "place": null,
@@ -143,7 +134,7 @@
     "id": 263483238,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/263483238/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/263483238/large.jpeg",
-    "attribution": "(c) Stephane Le Tirant,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Stephane Le Tirant",
+    "attribution": "(c) Stephane Le Tirant, some rights reserved (CC BY-NC), uploaded by Stephane Le Tirant",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/263483238",
     "place": null,
@@ -153,7 +144,7 @@
     "id": 175457294,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/175457294/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/175457294/large.jpg",
-    "attribution": "(c) Matt Felperin,  זכויות יוצרים חלקיות (CC BY), הועלה על ידי Matt Felperin",
+    "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
     "license": "cc-by",
     "source": "https://www.inaturalist.org/photos/175457294",
     "place": null,
@@ -163,7 +154,7 @@
     "id": 5406649,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5406649/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5406649/large.jpg",
-    "attribution": "(c) Marv Elliott,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Marv Elliott",
+    "attribution": "(c) Marv Elliott, some rights reserved (CC BY-NC), uploaded by Marv Elliott",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/5406649",
     "place": null,
@@ -173,13 +164,23 @@
     "id": 250238753,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/250238753/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/250238753/large.jpg",
-    "attribution": "(c) christrent,  זכויות יוצרים חלקיות (CC BY-NC)",
+    "attribution": "(c) christrent, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/250238753",
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 597055401,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/597055401/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/597055401/large.jpg",
+   "attribution": "(c) Jacob Truetken, some rights reserved (CC BY-NC), uploaded by Jacob Truetken",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/597055401",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5959143,
@@ -198,15 +199,15 @@
    8,
    274
   ],
-  "worldTotal": 267495,
+  "worldTotal": 267511,
   "topCountries": [
    {
     "code": "US",
-    "count": 141108
+    "count": 141116
    },
    {
     "code": "CA",
-    "count": 113931
+    "count": 113933
    },
    {
     "code": "SE",
@@ -218,7 +219,7 @@
    },
    {
     "code": "RU",
-    "count": 1292
+    "count": 1296
    },
    {
     "code": "BE",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:22.687Z"
+ }
 }

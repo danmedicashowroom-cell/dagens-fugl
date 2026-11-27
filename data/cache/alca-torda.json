@@ -2,7 +2,8 @@
  "key": "alca-torda",
  "name": "Alca torda",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:07.533Z",
+ "fetchedAt": "2026-11-27T04:11:57.104Z",
+ "gbifAt": "2026-11-27T04:11:57.104Z",
  "names": {
   "da": "Alk",
   "en": "Razorbill",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4501,
-  "observations": 12562
+  "observations": 12629
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
     "date": "2014-04-22"
    }
   ],
-  "hero": {
-   "id": 135801313,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135801313/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135801313/large.jpeg",
-   "attribution": "(c) António Terra, some rights reserved (CC BY-NC), uploaded by António Terra",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/135801313",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 135801313,
@@ -169,30 +160,40 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 135801313,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135801313/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135801313/large.jpeg",
+   "attribution": "(c) António Terra, some rights reserved (CC BY-NC), uploaded by António Terra",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/135801313",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 8277073,
-  "dkTotal": 60850,
+  "dkTotal": 61380,
   "dkMonths": [
    5304,
    3216,
-   3017,
+   3018,
    3070,
    3267,
    2151,
    2466,
    2455,
    3714,
-   13250,
-   12400,
+   13254,
+   12925,
    6434
   ],
-  "worldTotal": 719415,
+  "worldTotal": 720034,
   "topCountries": [
    {
     "code": "GB",
-    "count": 145629
+    "count": 145639
    },
    {
     "code": "SE",
@@ -200,7 +201,7 @@
    },
    {
     "code": "US",
-    "count": 98884
+    "count": 98886
    },
    {
     "code": "NO",
@@ -208,31 +209,31 @@
    },
    {
     "code": "DK",
-    "count": 60850
+    "count": 61380
    },
    {
     "code": "CA",
-    "count": 53047
+    "count": 53085
    },
    {
     "code": "FI",
-    "count": 32799
+    "count": 32800
    },
    {
     "code": "NL",
-    "count": 24670
+    "count": 24678
    },
    {
     "code": "FR",
-    "count": 16950
+    "count": 16959
    },
    {
     "code": "IE",
-    "count": 14720
+    "count": 14721
    },
    {
     "code": "ES",
-    "count": 13766
+    "count": 13779
    },
    {
     "code": "BE",
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alcidae",
   "familyKey": 2985,
   "familyDa": "Alkefugl",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:11.418Z"
+ }
 }

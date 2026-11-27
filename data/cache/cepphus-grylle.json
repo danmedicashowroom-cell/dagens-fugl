@@ -2,7 +2,8 @@
  "key": "cepphus-grylle",
  "name": "Cepphus grylle",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:12.748Z",
+ "fetchedAt": "2026-11-27T04:12:02.732Z",
+ "gbifAt": "2026-11-27T04:12:02.732Z",
  "names": {
   "da": "Tejst",
   "en": "Black Guillemot",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4418,
-  "observations": 11439
+  "observations": 11505
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2026-02-14"
    }
   ],
-  "hero": {
-   "id": 195013918,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195013918/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195013918/large.jpeg",
-   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/195013918",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 195013918,
@@ -178,26 +169,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 195013918,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195013918/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195013918/large.jpeg",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/195013918",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481312,
-  "dkTotal": 34452,
+  "dkTotal": 34506,
   "dkMonths": [
    1697,
    1649,
-   2436,
+   2437,
    3556,
    5566,
    2218,
    2829,
    3023,
    3014,
-   4210,
-   2930,
+   4211,
+   2982,
    1268
   ],
-  "worldTotal": 661790,
+  "worldTotal": 661904,
   "topCountries": [
    {
     "code": "SE",
@@ -205,7 +206,7 @@
    },
    {
     "code": "CA",
-    "count": 136899
+    "count": 136914
    },
    {
     "code": "NO",
@@ -213,11 +214,11 @@
    },
    {
     "code": "US",
-    "count": 93188
+    "count": 93205
    },
    {
     "code": "GB",
-    "count": 37959
+    "count": 37977
    },
    {
     "code": "FI",
@@ -225,23 +226,23 @@
    },
    {
     "code": "DK",
-    "count": 34452
+    "count": 34506
    },
    {
     "code": "IS",
-    "count": 26087
+    "count": 26089
    },
    {
     "code": "SJ",
-    "count": 14915
+    "count": 14916
    },
    {
     "code": "IE",
-    "count": 11727
+    "count": 11728
    },
    {
     "code": "NL",
-    "count": 11576
+    "count": 11578
    },
    {
     "code": "IM",
@@ -265,13 +266,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alcidae",
   "familyKey": 2985,
   "familyDa": "Alkefugl",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:11.842Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "larus-argentatus",
  "name": "Larus argentatus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:45:39.423Z",
+ "fetchedAt": "2026-11-27T04:10:21.532Z",
+ "gbifAt": "2026-11-27T04:10:21.532Z",
  "names": {
   "da": "Sølvmåge",
   "en": "European Herring Gull",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 204533,
-  "observations": 89496
+  "observations": 90105
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2020-01-03"
    },
    {
-    "id": 703828754,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/703828754/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/703828754/large.jpg",
-    "attribution": "(c) snugmassif_the_observer, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/384491140",
-    "place": "1043 DV Amsterdam, Netherlands",
-    "date": "2026-07-24"
-   },
-   {
     "id": 83029658,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/83029658/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/83029658/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/52237644",
     "place": "56700 Hennebont, France",
     "date": "2020-07-07"
+   },
+   {
+    "id": 703828754,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/703828754/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/703828754/large.jpg",
+    "attribution": "(c) snugmassif_the_observer, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/384491140",
+    "place": "1043 DV Amsterdam, Netherlands",
+    "date": "2026-07-24"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2023-05-21"
    }
   ],
-  "hero": {
-   "id": 198439202,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/198439202/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/198439202/large.jpeg",
-   "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC), uploaded by Andrew Thompson",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/198439202",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 198439202,
@@ -209,62 +200,72 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 198439202,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/198439202/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/198439202/large.jpeg",
+   "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC), uploaded by Andrew Thompson",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/198439202",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481139,
-  "dkTotal": 621225,
+  "dkTotal": 621812,
   "dkMonths": [
-   65892,
-   52458,
-   56538,
-   50614,
-   46860,
-   90857,
-   54866,
-   46180,
-   37960,
-   42331,
-   36429,
-   37335
+   65905,
+   52488,
+   56544,
+   50615,
+   46861,
+   90860,
+   54885,
+   46187,
+   37973,
+   42352,
+   36900,
+   37337
   ],
-  "worldTotal": 8169873,
+  "worldTotal": 8170942,
   "topCountries": [
    {
     "code": "BE",
-    "count": 1691654
+    "count": 1691659
    },
    {
     "code": "GB",
-    "count": 1299631
+    "count": 1299818
    },
    {
     "code": "NL",
-    "count": 884503
+    "count": 884540
    },
    {
     "code": "FR",
-    "count": 853800
+    "count": 853855
    },
    {
     "code": "SE",
-    "count": 835841
+    "count": 835849
    },
    {
     "code": "NO",
-    "count": 695741
+    "count": 695755
    },
    {
     "code": "DK",
-    "count": 621225
+    "count": 621812
    },
    {
     "code": "FI",
-    "count": 538811
+    "count": 538816
    },
    {
     "code": "DE",
-    "count": 175599
+    "count": 175634
    },
    {
     "code": "US",
@@ -272,11 +273,11 @@
    },
    {
     "code": "IE",
-    "count": 84127
+    "count": 84157
    },
    {
     "code": "PL",
-    "count": 47428
+    "count": 47454
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:00.466Z"
+ }
 }

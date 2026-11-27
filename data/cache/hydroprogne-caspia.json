@@ -2,7 +2,8 @@
  "key": "hydroprogne-caspia",
  "name": "Hydroprogne caspia",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:46:19.162Z",
+ "fetchedAt": "2026-11-27T04:11:03.152Z",
+ "gbifAt": "2026-11-27T04:11:03.152Z",
  "names": {
   "da": "Rovterne",
   "en": "Caspian Tern",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144537,
-  "observations": 48854
+  "observations": 49031
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-06-22"
    }
   ],
-  "hero": {
-   "id": 486575200,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/large.jpg",
-   "attribution": "(c) Jef-B, some rights reserved (CC BY-NC), uploaded by Jef-B",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/486575200",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 486575200,
@@ -179,11 +170,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 486575200,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/486575200/large.jpg",
+   "attribution": "(c) Jef-B, some rights reserved (CC BY-NC), uploaded by Jef-B",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/486575200",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481236,
-  "dkTotal": 38859,
+  "dkTotal": 38860,
   "dkMonths": [
    1,
    0,
@@ -191,22 +192,22 @@
    2594,
    2826,
    3641,
-   11594,
+   11595,
    15777,
    2295,
    96,
    0,
    0
   ],
-  "worldTotal": 2301323,
+  "worldTotal": 2301456,
   "topCountries": [
    {
     "code": "US",
-    "count": 1274488
+    "count": 1274559
    },
    {
     "code": "CA",
-    "count": 204063
+    "count": 204065
    },
    {
     "code": "SE",
@@ -214,7 +215,7 @@
    },
    {
     "code": "AU",
-    "count": 175306
+    "count": 175325
    },
    {
     "code": "FI",
@@ -222,15 +223,15 @@
    },
    {
     "code": "NZ",
-    "count": 48767
+    "count": 48772
    },
    {
     "code": "DK",
-    "count": 38859
+    "count": 38860
    },
    {
     "code": "ZA",
-    "count": 36467
+    "count": 36472
    },
    {
     "code": "NL",
@@ -238,15 +239,15 @@
    },
    {
     "code": "MX",
-    "count": 28000
+    "count": 28002
    },
    {
     "code": "TW",
-    "count": 26423
+    "count": 26429
    },
    {
     "code": "ES",
-    "count": 19508
+    "count": 19511
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:06.325Z"
+ }
 }

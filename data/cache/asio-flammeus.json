@@ -2,7 +2,8 @@
  "key": "asio-flammeus",
  "name": "Asio flammeus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:49.120Z",
+ "fetchedAt": "2026-11-27T04:13:38.206Z",
+ "gbifAt": "2026-11-27T04:13:38.206Z",
  "names": {
   "da": "Mosehornugle",
   "en": "Short-eared Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 20315,
-  "observations": 18569
+  "observations": 18708
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2023-03-04"
    },
    {
-    "id": 362150646,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362150646/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362150646/large.jpeg",
-    "attribution": "(c) smokey_scissortail, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/204860897",
-    "place": "Richmond, BC V7B, Canada",
-    "date": "2024-03-31"
-   },
-   {
     "id": 344026134,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/344026134/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/344026134/large.jpg",
@@ -52,19 +43,19 @@
     "source": "https://www.inaturalist.org/observations/195538145",
     "place": "Blackman, MI, USA",
     "date": "2024-01-01"
+   },
+   {
+    "id": 362150646,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362150646/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362150646/large.jpeg",
+    "attribution": "(c) smokey_scissortail, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/204860897",
+    "place": "Richmond, BC V7B, Canada",
+    "date": "2024-03-31"
    }
   ],
   "female": [
-   {
-    "id": 461607723,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/461607723/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/461607723/large.jpg",
-    "attribution": "(c) ewransky, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/257336671",
-    "place": "Ohio, US",
-    "date": "2024-12-30"
-   },
    {
     "id": 736814871,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/736814871/medium.jpg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/107640950",
     "place": "Indiana, US",
     "date": "2022-02-27"
+   },
+   {
+    "id": 260524659,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/260524659/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/260524659/large.jpg",
+    "attribution": "(c) nancylightfoot, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/151027813",
+    "place": "Indiana, US",
+    "date": "2023-03-12"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2023-07-11"
    }
   ],
-  "hero": {
-   "id": 464246803,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464246803/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464246803/large.jpg",
-   "attribution": "(c) Deborah Freeman, some rights reserved (CC BY-NC), uploaded by Deborah Freeman",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/464246803",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 464246803,
@@ -179,50 +170,60 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 464246803,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464246803/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464246803/large.jpg",
+   "attribution": "(c) Deborah Freeman, some rights reserved (CC BY-NC), uploaded by Deborah Freeman",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/464246803",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2497295,
-  "dkTotal": 27689,
+  "dkTotal": 27702,
   "dkMonths": [
    2227,
    2807,
    3447,
    5237,
-   4602,
+   4601,
    883,
    379,
    183,
    884,
    4016,
-   1744,
+   1758,
    1169
   ],
-  "worldTotal": 509133,
+  "worldTotal": 509241,
   "topCountries": [
    {
     "code": "US",
-    "count": 165744
+    "count": 165779
    },
    {
     "code": "SE",
-    "count": 69266
+    "count": 69267
    },
    {
     "code": "GB",
-    "count": 44237
+    "count": 44243
    },
    {
     "code": "CA",
-    "count": 40323
+    "count": 40336
    },
    {
     "code": "NL",
-    "count": 32932
+    "count": 32935
    },
    {
     "code": "DK",
-    "count": 27689
+    "count": 27702
    },
    {
     "code": "NO",
@@ -238,15 +239,15 @@
    },
    {
     "code": "FR",
-    "count": 12125
+    "count": 12128
    },
    {
     "code": "ES",
-    "count": 8279
+    "count": 8286
    },
    {
     "code": "RU",
-    "count": 5972
+    "count": 5982
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:25.302Z"
+ }
 }

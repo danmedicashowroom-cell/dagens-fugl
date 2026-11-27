@@ -2,7 +2,8 @@
  "key": "actitis-hypoleucos",
  "name": "Actitis hypoleucos",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:44:09.387Z",
+ "fetchedAt": "2026-11-27T04:08:49.337Z",
+ "gbifAt": "2026-11-27T04:08:49.337Z",
  "names": {
   "da": "Mudderklire",
   "en": "Common Sandpiper",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3978,
-  "observations": 68528
+  "observations": 68927
  },
  "photos": {
   "male": [
@@ -108,26 +109,16 @@
     "date": "2023-10-18"
    },
    {
-    "id": 687670735,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/687670735/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/687670735/large.jpg",
-    "attribution": "(c) Elena Koval, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/376121879",
-    "place": "Выборгский р-н, Ленинградская обл., Россия",
-    "date": "2026-06-27"
+    "id": 52212900,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/52212900/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/52212900/large.jpeg",
+    "attribution": "no rights reserved",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/observations/33252435",
+    "place": "Tsuha, Ōgimi, Kunigami District, Okinawa 905-1318, Japan",
+    "date": "2019-09-22"
    }
   ],
-  "hero": {
-   "id": 405355875,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/405355875/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/405355875/large.jpg",
-   "attribution": "(c) Sergey Pisarevskiy, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/405355875",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 274057322,
@@ -189,26 +180,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 274057322,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/274057322/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/274057322/large.jpg",
+   "attribution": "(c) vyatka, some rights reserved (CC BY-NC), uploaded by vyatka",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/274057322",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481800,
-  "dkTotal": 150020,
+  "dkTotal": 150051,
   "dkMonths": [
    65,
    40,
    46,
    9352,
-   35153,
+   35154,
    3260,
-   39479,
-   50420,
+   39501,
+   50428,
    11451,
    632,
    47,
    64
   ],
-  "worldTotal": 2803512,
+  "worldTotal": 2803777,
   "topCountries": [
    {
     "code": "SE",
@@ -216,7 +217,7 @@
    },
    {
     "code": "ES",
-    "count": 255130
+    "count": 255157
    },
    {
     "code": "NO",
@@ -224,7 +225,7 @@
    },
    {
     "code": "IN",
-    "count": 206376
+    "count": 206391
    },
    {
     "code": "NL",
@@ -232,23 +233,23 @@
    },
    {
     "code": "GB",
-    "count": 173280
+    "count": 173281
    },
    {
     "code": "FR",
-    "count": 171268
+    "count": 171286
    },
    {
     "code": "TW",
-    "count": 154906
+    "count": 154927
    },
    {
     "code": "DK",
-    "count": 150020
+    "count": 150051
    },
    {
     "code": "PT",
-    "count": 86824
+    "count": 86832
    },
    {
     "code": "BE",
@@ -256,7 +257,7 @@
    },
    {
     "code": "FI",
-    "count": 58453
+    "count": 58454
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:47.998Z"
+ }
 }

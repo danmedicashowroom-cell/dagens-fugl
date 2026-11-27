@@ -2,7 +2,8 @@
  "key": "phalaropus-lobatus",
  "name": "Phalaropus lobatus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:44:21.240Z",
+ "fetchedAt": "2026-11-27T04:09:01.143Z",
+ "gbifAt": "2026-11-27T04:09:01.143Z",
  "names": {
   "da": "Odinshane",
   "en": "Red-necked Phalarope",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3959,
-  "observations": 17833
+  "observations": 17898
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2024-07-19"
    },
    {
-    "id": 148497340,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/148497340/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/148497340/large.jpg",
-    "attribution": "(c) Donald Davesne, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/89894244",
-    "place": "Suðurland, Islande",
-    "date": "2021-07-23"
+    "id": 356459841,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/356459841/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/356459841/large.jpg",
+    "attribution": "(c) Ken Mateik, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/201887375",
+    "place": "Sonoma County, CA, USA",
+    "date": "2007-05-20"
    }
   ],
   "female": [
@@ -76,14 +77,14 @@
     "date": "2018-05-20"
    },
    {
-    "id": 201111101,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/201111101/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/201111101/large.jpeg",
-    "attribution": "(c) Patricia, some rights reserved (CC BY-NC)",
+    "id": 146878852,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/146878852/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/146878852/large.jpeg",
+    "attribution": "(c) Andrew Thompson, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/118993726",
-    "place": "Forest Grove, OR 97116, USA",
-    "date": "2022-05-27"
+    "source": "https://www.inaturalist.org/observations/88977626",
+    "place": "Shetland Islands, UK",
+    "date": "2009-06-04"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2023-07-19"
    }
   ],
-  "hero": {
-   "id": 438438392,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/438438392/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/438438392/large.jpeg",
-   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/438438392",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 438438392,
@@ -189,11 +180,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 438438392,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/438438392/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/438438392/large.jpeg",
+   "attribution": "(c) Yinan Li, some rights reserved (CC BY-NC), uploaded by Yinan Li",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/438438392",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5739290,
-  "dkTotal": 5909,
+  "dkTotal": 5910,
   "dkMonths": [
    2,
    0,
@@ -201,22 +202,22 @@
    19,
    575,
    543,
-   444,
+   445,
    2795,
    1415,
    107,
    3,
    0
   ],
-  "worldTotal": 454823,
+  "worldTotal": 454864,
   "topCountries": [
    {
     "code": "US",
-    "count": 239027
+    "count": 239042
    },
    {
     "code": "CA",
-    "count": 42936
+    "count": 42941
    },
    {
     "code": "SE",
@@ -224,11 +225,11 @@
    },
    {
     "code": "NL",
-    "count": 27668
+    "count": 27669
    },
    {
     "code": "IS",
-    "count": 18826
+    "count": 18827
    },
    {
     "code": "NO",
@@ -236,11 +237,11 @@
    },
    {
     "code": "TW",
-    "count": 9275
+    "count": 9276
    },
    {
     "code": "DK",
-    "count": 5909
+    "count": 5910
    },
    {
     "code": "FI",
@@ -248,7 +249,7 @@
    },
    {
     "code": "RU",
-    "count": 4017
+    "count": 4023
    },
    {
     "code": "GB",
@@ -256,7 +257,7 @@
    },
    {
     "code": "MX",
-    "count": 2780
+    "count": 2781
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:48.928Z"
+ }
 }

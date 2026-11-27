@@ -2,7 +2,8 @@
  "key": "aegolius-funereus",
  "name": "Aegolius funereus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:54.357Z",
+ "fetchedAt": "2026-11-27T04:13:43.744Z",
+ "gbifAt": "2026-11-27T04:13:43.744Z",
  "names": {
   "da": "Perleugle",
   "en": "Boreal Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 20359,
-  "observations": 2168
+  "observations": 2179
  },
  "photos": {
   "male": [
@@ -56,16 +57,6 @@
   ],
   "female": [
    {
-    "id": 637686181,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/637686181/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/637686181/large.jpg",
-    "attribution": "(c) Merja Karhunen, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/349560112",
-    "place": "Lapland, Lapland, FI",
-    "date": "2026-04-13"
-   },
-   {
     "id": 450870892,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/450870892/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/450870892/large.jpeg",
@@ -74,6 +65,16 @@
     "source": "https://www.inaturalist.org/observations/251927007",
     "place": "Володарский р-н, Нижегородская обл., Россия",
     "date": "2023-05-30"
+   },
+   {
+    "id": 637686181,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/637686181/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/637686181/large.jpg",
+    "attribution": "(c) Merja Karhunen, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/349560112",
+    "place": "Lapland, Lapland, FI",
+    "date": "2026-04-13"
    },
    {
     "id": 280394062,
@@ -108,26 +109,16 @@
     "date": "2016-06-27"
    },
    {
-    "id": 218524657,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/218524657/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/218524657/large.jpg",
-    "attribution": "(c) Lars Falkdalen Lindahl, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/128641579",
-    "place": "Åre Municipality, Sweden",
-    "date": "2010-08-11"
+    "id": 511466875,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/511466875/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/511466875/large.jpg",
+    "attribution": "(c) Vasily Kalinichenko, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/284589172",
+    "place": "Володарский р-н, Нижегородская обл., Россия",
+    "date": "2025-05-24"
    }
   ],
-  "hero": {
-   "id": 43710040,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710040/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710040/large.jpg",
-   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/43710040",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 43710040,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 43710040,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710040/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710040/large.jpg",
+   "attribution": "(c) Геннадий,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Геннадий",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/43710040",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5739298,
@@ -198,7 +199,7 @@
    44,
    10
   ],
-  "worldTotal": 305427,
+  "worldTotal": 305430,
   "topCountries": [
    {
     "code": "FI",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:25.970Z"
+ }
 }

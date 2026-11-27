@@ -2,7 +2,8 @@
  "key": "tachymarptis-melba",
  "name": "Tachymarptis melba",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:49:17.721Z",
+ "fetchedAt": "2026-11-27T04:14:08.984Z",
+ "gbifAt": "2026-11-27T04:14:08.984Z",
  "names": {
   "da": "Alpesejler",
   "en": "Alpine Swift",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 72516,
-  "observations": 7591
+  "observations": 7619
  },
  "photos": {
   "male": [],
@@ -46,14 +47,14 @@
     "date": "2024-07-07"
    },
    {
-    "id": 229146776,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/229146776/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/229146776/large.jpeg",
-    "attribution": "(c) Gianluca Congi🪶🦆🌲, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/134434660",
-    "place": "San Giovanni in Fiore",
-    "date": "2022-09-10"
+    "id": 529303322,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/529303322/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/529303322/large.jpg",
+    "attribution": "(c) Valentin Moser, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/294084157",
+    "place": "Basel-Vorstaedte, Basel, Switzerland",
+    "date": "2025-06-18"
    }
   ],
   "adult": [
@@ -88,16 +89,6 @@
     "date": "2024-04-30"
    }
   ],
-  "hero": {
-   "id": 189480813,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/189480813/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/189480813/large.jpg",
-   "attribution": "no rights reserved, uploaded by Paulo Caseirito",
-   "license": "cc0",
-   "source": "https://www.inaturalist.org/photos/189480813",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 189480813,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 189480813,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/189480813/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/189480813/large.jpg",
+   "attribution": "no rights reserved, uploaded by Paulo Caseirito",
+   "license": "cc0",
+   "source": "https://www.inaturalist.org/photos/189480813",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2477411,
@@ -198,7 +199,7 @@
    49,
    0
   ],
-  "worldTotal": 279135,
+  "worldTotal": 279146,
   "topCountries": [
    {
     "code": "ES",
@@ -206,7 +207,7 @@
    },
    {
     "code": "ZA",
-    "count": 45737
+    "count": 45740
    },
    {
     "code": "FR",
@@ -226,7 +227,7 @@
    },
    {
     "code": "IN",
-    "count": 12096
+    "count": 12098
    },
    {
     "code": "CH",
@@ -234,7 +235,7 @@
    },
    {
     "code": "IT",
-    "count": 10531
+    "count": 10533
    },
    {
     "code": "BG",
@@ -242,11 +243,11 @@
    },
    {
     "code": "PT",
-    "count": 7135
+    "count": 7136
    },
    {
     "code": "HR",
-    "count": 2840
+    "count": 2841
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Apodidae",
   "familyKey": 2993,
   "familyDa": "Sejlere",
   "order": "Apodiformes"
- },
- "gbifAt": "2026-11-25T22:19:28.346Z"
+ }
 }

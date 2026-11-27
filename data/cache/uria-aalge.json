@@ -2,7 +2,8 @@
  "key": "uria-aalge",
  "name": "Uria aalge",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:02.296Z",
+ "fetchedAt": "2026-11-27T04:11:51.781Z",
+ "gbifAt": "2026-11-27T04:11:51.781Z",
  "names": {
   "da": "Lomvie",
   "en": "Common Murre",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4519,
-  "observations": 29533
+  "observations": 29998
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2024-11-04"
    },
    {
-    "id": 304614455,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/304614455/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/304614455/large.jpeg",
-    "attribution": "(c) John Eppler, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/175287410",
-    "place": "Langanesbyggð, Iceland",
-    "date": "2023-07-07"
-   },
-   {
     "id": 284011365,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/284011365/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/284011365/large.jpg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/164162111",
     "place": "Fife, Regno Unito",
     "date": "2019-07-12"
+   },
+   {
+    "id": 304614455,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/304614455/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/304614455/large.jpeg",
+    "attribution": "(c) John Eppler, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/175287410",
+    "place": "Langanesbyggð, Iceland",
+    "date": "2023-07-07"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2026-08-02"
    }
   ],
-  "hero": {
-   "id": 349231658,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/349231658/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/349231658/large.jpeg",
-   "attribution": "(c) cassiia, some rights reserved (CC BY-NC), uploaded by cassiia",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/349231658",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 349231658,
@@ -189,11 +180,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 349231658,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/349231658/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/349231658/large.jpeg",
+   "attribution": "(c) cassiia, some rights reserved (CC BY-NC), uploaded by cassiia",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/349231658",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481342,
-  "dkTotal": 57167,
+  "dkTotal": 57263,
   "dkMonths": [
    4492,
    3786,
@@ -205,42 +206,42 @@
    3133,
    5763,
    12488,
-   9080,
+   9176,
    2940
   ],
-  "worldTotal": 1461455,
+  "worldTotal": 1461690,
   "topCountries": [
    {
     "code": "GB",
-    "count": 520775
+    "count": 520790
    },
    {
     "code": "US",
-    "count": 277337
+    "count": 277408
    },
    {
     "code": "SE",
-    "count": 167716
+    "count": 167717
    },
    {
     "code": "NL",
-    "count": 109324
+    "count": 109328
    },
    {
     "code": "NO",
-    "count": 84750
+    "count": 84751
    },
    {
     "code": "CA",
-    "count": 69620
+    "count": 69654
    },
    {
     "code": "DK",
-    "count": 57167
+    "count": 57263
    },
    {
     "code": "IE",
-    "count": 42349
+    "count": 42350
    },
    {
     "code": "BE",
@@ -248,15 +249,15 @@
    },
    {
     "code": "FR",
-    "count": 30634
+    "count": 30641
    },
    {
     "code": "DE",
-    "count": 23779
+    "count": 23781
    },
    {
     "code": "IS",
-    "count": 9589
+    "count": 9590
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alcidae",
   "familyKey": 2985,
   "familyDa": "Alkefugl",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:10.736Z"
+ }
 }

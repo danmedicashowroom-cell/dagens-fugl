@@ -2,7 +2,8 @@
  "key": "athene-noctua",
  "name": "Athene noctua",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:48:15.512Z",
+ "fetchedAt": "2026-11-27T04:13:01.634Z",
+ "gbifAt": "2026-11-27T04:13:01.634Z",
  "names": {
   "da": "Kirkeugle",
   "en": "Little Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 19998,
-  "observations": 21281
+  "observations": 21363
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2018-06-08"
    },
    {
-    "id": 593536412,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/593536412/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/593536412/large.jpg",
-    "attribution": "(c) jeremytaylor, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/327603282",
-    "place": "Motueka, New Zealand",
-    "date": "2018-01-12"
-   },
-   {
     "id": 542141468,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/542141468/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/542141468/large.jpg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/300873734",
     "place": "53370 Boulay-les-Ifs, France",
     "date": "2014-06-19"
+   },
+   {
+    "id": 743518096,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/743518096/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/743518096/large.jpg",
+    "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/404841900",
+    "place": "Zaragoza, ES-AR, ES",
+    "date": "2025-08-07"
    }
   ],
-  "hero": {
-   "id": 238739562,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/238739562/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/238739562/large.jpg",
-   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/238739562",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 238739562,
@@ -159,16 +150,26 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 238739562,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/238739562/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/238739562/large.jpg",
+   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/238739562",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2497266,
-  "dkTotal": 1998,
+  "dkTotal": 1997,
   "dkMonths": [
    144,
    153,
    267,
-   379,
+   378,
    296,
    226,
    201,
@@ -178,7 +179,7 @@
    41,
    24
   ],
-  "worldTotal": 663892,
+  "worldTotal": 663999,
   "topCountries": [
    {
     "code": "NL",
@@ -186,15 +187,15 @@
    },
    {
     "code": "ES",
-    "count": 116041
+    "count": 116046
    },
    {
     "code": "FR",
-    "count": 106128
+    "count": 106142
    },
    {
     "code": "GB",
-    "count": 51637
+    "count": 51643
    },
    {
     "code": "BE",
@@ -202,23 +203,23 @@
    },
    {
     "code": "PT",
-    "count": 36979
+    "count": 36982
    },
    {
     "code": "IT",
-    "count": 21190
+    "count": 21200
    },
    {
     "code": "DE",
-    "count": 13916
+    "count": 13932
    },
    {
     "code": "TR",
-    "count": 12300
+    "count": 12304
    },
    {
     "code": "IL",
-    "count": 10961
+    "count": 10966
    },
    {
     "code": "GR",
@@ -226,7 +227,7 @@
    },
    {
     "code": "BG",
-    "count": 5491
+    "count": 5492
    }
   ]
  },
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:21.675Z"
+ }
 }

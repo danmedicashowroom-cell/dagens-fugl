@@ -2,7 +2,8 @@
  "key": "glaucidium-passerinum",
  "name": "Glaucidium passerinum",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:49:00.200Z",
+ "fetchedAt": "2026-11-27T04:13:48.983Z",
+ "gbifAt": "2026-11-27T04:13:48.983Z",
  "names": {
   "da": "Spurveugle",
   "en": "Eurasian Pygmy Owlet",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 19848,
-  "observations": 3228
+  "observations": 3267
  },
  "photos": {
   "male": [
@@ -118,22 +119,12 @@
     "date": "2020-07-10"
    }
   ],
-  "hero": {
-   "id": 103332022,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/large.jpg",
-   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/103332022",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 103332022,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/large.jpg",
-    "attribution": "(c) Mikhail Ezdakov,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Mikhail Ezdakov",
+    "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/103332022",
     "place": null,
@@ -143,7 +134,7 @@
     "id": 173307548,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/173307548/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/173307548/large.jpg",
-    "attribution": "(c) Serguei Kossenko,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Serguei Kossenko",
+    "attribution": "(c) Serguei Kossenko, some rights reserved (CC BY-NC), uploaded by Serguei Kossenko",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/173307548",
     "place": null,
@@ -153,7 +144,7 @@
     "id": 53366590,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/53366590/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/53366590/large.jpeg",
-    "attribution": "(c) Соколков Юрий Павлович,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Соколков Юрий Павлович",
+    "attribution": "(c) Соколков Юрий Павлович, some rights reserved (CC BY-NC), uploaded by Соколков Юрий Павлович",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/53366590",
     "place": null,
@@ -163,7 +154,7 @@
     "id": 104477473,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/104477473/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/104477473/large.jpg",
-    "attribution": "(c) Mikhail Nevsky,  זכויות יוצרים חלקיות (CC BY), הועלה על ידי Mikhail Nevsky",
+    "attribution": "(c) Mikhail Nevsky, some rights reserved (CC BY), uploaded by Mikhail Nevsky",
     "license": "cc-by",
     "source": "https://www.inaturalist.org/photos/104477473",
     "place": null,
@@ -173,7 +164,7 @@
     "id": 174477818,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477818/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477818/large.jpg",
-    "attribution": "(c) François-Xavier Taxil,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי François-Xavier Taxil",
+    "attribution": "(c) François-Xavier Taxil, some rights reserved (CC BY-NC), uploaded by François-Xavier Taxil",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/174477818",
     "place": null,
@@ -183,7 +174,7 @@
     "id": 174477807,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477807/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/174477807/large.jpg",
-    "attribution": "(c) François-Xavier Taxil,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי François-Xavier Taxil",
+    "attribution": "(c) François-Xavier Taxil, some rights reserved (CC BY-NC), uploaded by François-Xavier Taxil",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/174477807",
     "place": null,
@@ -193,13 +184,23 @@
     "id": 336723439,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/336723439/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/336723439/large.jpg",
-    "attribution": "(c) Соколков Юрий Павлович,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Соколков Юрий Павлович",
+    "attribution": "(c) Соколков Юрий Павлович, some rights reserved (CC BY-NC), uploaded by Соколков Юрий Павлович",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/336723439",
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 103332022,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/103332022/large.jpg",
+   "attribution": "(c) Mikhail Ezdakov, some rights reserved (CC BY-NC), uploaded by Mikhail Ezdakov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/103332022",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5232162,
@@ -218,7 +219,7 @@
    496,
    195
   ],
-  "worldTotal": 226812,
+  "worldTotal": 226845,
   "topCountries": [
    {
     "code": "SE",
@@ -226,7 +227,7 @@
    },
    {
     "code": "FI",
-    "count": 83826
+    "count": 83829
    },
    {
     "code": "NO",
@@ -234,11 +235,11 @@
    },
    {
     "code": "FR",
-    "count": 13801
+    "count": 13804
    },
    {
     "code": "CH",
-    "count": 4896
+    "count": 4897
    },
    {
     "code": "EE",
@@ -246,7 +247,7 @@
    },
    {
     "code": "RU",
-    "count": 2821
+    "count": 2842
    },
    {
     "code": "DK",
@@ -254,11 +255,11 @@
    },
    {
     "code": "DE",
-    "count": 1775
+    "count": 1776
    },
    {
     "code": "AT",
-    "count": 1491
+    "count": 1493
    },
    {
     "code": "NL",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:19:26.497Z"
+ }
 }

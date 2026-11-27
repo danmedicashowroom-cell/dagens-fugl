@@ -2,7 +2,8 @@
  "key": "tringa-ochropus",
  "name": "Tringa ochropus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:43:45.649Z",
+ "fetchedAt": "2026-11-27T04:08:30.934Z",
+ "gbifAt": "2026-11-27T04:08:30.934Z",
  "names": {
   "da": "Svaleklire",
   "en": "Green Sandpiper",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3885,
-  "observations": 29659
+  "observations": 29803
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
     "date": "2023-02-08"
    }
   ],
-  "hero": {
-   "id": 262067607,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/262067607/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/262067607/large.jpg",
-   "attribution": "(c) Gabi Rusu, some rights reserved (CC BY-NC), uploaded by Gabi Rusu",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/262067607",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 262067607,
@@ -179,26 +170,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 262067607,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/262067607/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/262067607/large.jpg",
+   "attribution": "(c) Gabi Rusu, some rights reserved (CC BY-NC), uploaded by Gabi Rusu",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/262067607",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481728,
-  "dkTotal": 100530,
+  "dkTotal": 100551,
   "dkMonths": [
    768,
    551,
    2393,
-   24272,
+   24273,
    4953,
-   13684,
-   24788,
-   23830,
+   13686,
+   24797,
+   23834,
    3586,
    646,
-   452,
-   478
+   456,
+   479
   ],
-  "worldTotal": 1685572,
+  "worldTotal": 1685701,
   "topCountries": [
    {
     "code": "SE",
@@ -206,7 +207,7 @@
    },
    {
     "code": "ES",
-    "count": 147903
+    "count": 147904
    },
    {
     "code": "NL",
@@ -214,19 +215,19 @@
    },
    {
     "code": "FR",
-    "count": 127563
+    "count": 127574
    },
    {
     "code": "GB",
-    "count": 120587
+    "count": 120597
    },
    {
     "code": "IN",
-    "count": 111093
+    "count": 111102
    },
    {
     "code": "DK",
-    "count": 100530
+    "count": 100551
    },
    {
     "code": "BE",
@@ -242,11 +243,11 @@
    },
    {
     "code": "DE",
-    "count": 37388
+    "count": 37404
    },
    {
     "code": "PT",
-    "count": 36505
+    "count": 36508
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:46.394Z"
+ }
 }

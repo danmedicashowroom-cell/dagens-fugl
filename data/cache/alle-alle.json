@@ -2,7 +2,8 @@
  "key": "alle-alle",
  "name": "Alle alle",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:17.851Z",
+ "fetchedAt": "2026-11-27T04:12:08.512Z",
+ "gbifAt": "2026-11-27T04:12:08.512Z",
  "names": {
   "da": "Søkonge",
   "en": "Little Auk",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4524,
-  "observations": 2089
+  "observations": 2096
  },
  "photos": {
   "male": [
@@ -57,16 +58,6 @@
     "date": "2021-01-16"
    }
   ],
-  "hero": {
-   "id": 101346159,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/101346159/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/101346159/large.jpeg",
-   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/101346159",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 101346159,
@@ -148,11 +139,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 101346159,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/101346159/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/101346159/large.jpeg",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/101346159",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481299,
-  "dkTotal": 10646,
+  "dkTotal": 10668,
   "dkMonths": [
    1063,
    862,
@@ -164,10 +165,10 @@
    4,
    38,
    3043,
-   4155,
+   4177,
    1092
   ],
-  "worldTotal": 126482,
+  "worldTotal": 126509,
   "topCountries": [
    {
     "code": "NO",
@@ -183,15 +184,15 @@
    },
    {
     "code": "CA",
-    "count": 15376
+    "count": 15377
    },
    {
     "code": "DK",
-    "count": 10646
+    "count": 10668
    },
    {
     "code": "SJ",
-    "count": 9182
+    "count": 9183
    },
    {
     "code": "GB",
@@ -203,7 +204,7 @@
    },
    {
     "code": "GL",
-    "count": 4354
+    "count": 4355
    },
    {
     "code": "BE",
@@ -211,7 +212,7 @@
    },
    {
     "code": "FR",
-    "count": 637
+    "count": 639
    },
    {
     "code": "IS",
@@ -235,13 +236,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alcidae",
   "familyKey": 2985,
   "familyDa": "Alkefugl",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:14.479Z"
+ }
 }

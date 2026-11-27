@@ -2,7 +2,8 @@
  "key": "fratercula-arctica",
  "name": "Fratercula arctica",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:22.736Z",
+ "fetchedAt": "2026-11-27T04:12:13.744Z",
+ "gbifAt": "2026-11-27T04:12:13.744Z",
  "names": {
   "da": "Lunde",
   "en": "Atlantic Puffin",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4504,
-  "observations": 17919
+  "observations": 18021
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2021-08-22"
    }
   ],
-  "hero": {
-   "id": 63139388,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/large.jpg",
-   "attribution": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/63139388",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 63139388,
@@ -158,7 +149,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 63139388,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/63139388/large.jpg",
+   "attribution": "(c) Paul Steeves, some rights reserved (CC BY-NC), uploaded by Paul Steeves",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/63139388",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481353,
@@ -177,27 +178,27 @@
    153,
    62
   ],
-  "worldTotal": 295319,
+  "worldTotal": 295346,
   "topCountries": [
    {
     "code": "GB",
-    "count": 145819
+    "count": 145824
    },
    {
     "code": "US",
-    "count": 29562
+    "count": 29576
    },
    {
     "code": "NO",
-    "count": 24852
+    "count": 24851
    },
    {
     "code": "CA",
-    "count": 21899
+    "count": 21904
    },
    {
     "code": "IS",
-    "count": 20298
+    "count": 20301
    },
    {
     "code": "FO",
@@ -225,7 +226,7 @@
    },
    {
     "code": "FR",
-    "count": 2788
+    "count": 2789
    }
   ]
  },
@@ -245,13 +246,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Alcidae",
   "familyKey": 2985,
   "familyDa": "Alkefugl",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:15.114Z"
+ }
 }

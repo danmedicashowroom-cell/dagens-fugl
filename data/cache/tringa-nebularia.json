@@ -2,7 +2,8 @@
  "key": "tringa-nebularia",
  "name": "Tringa nebularia",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:43:39.488Z",
+ "fetchedAt": "2026-11-27T04:08:25.168Z",
+ "gbifAt": "2026-11-27T04:08:25.168Z",
  "names": {
   "da": "Hvidklire",
   "en": "Common Greenshank",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 3878,
-  "observations": 39204
+  "observations": 39454
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2021-07-24"
    }
   ],
-  "hero": {
-   "id": 52660452,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/52660452/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/52660452/large.jpg",
-   "attribution": "(c) Ximo Galarza, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/52660452",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 482209177,
@@ -179,26 +170,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 482209177,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/482209177/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/482209177/large.jpg",
+   "attribution": "(c) floris_heemskerk, some rights reserved (CC BY-NC), uploaded by floris_heemskerk",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/482209177",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481726,
-  "dkTotal": 192255,
+  "dkTotal": 192311,
   "dkMonths": [
    117,
    55,
    194,
-   19054,
+   19055,
    27816,
-   11430,
-   45685,
-   54014,
-   24425,
-   9259,
+   11431,
+   45716,
+   54024,
+   24435,
+   9262,
    102,
    91
   ],
-  "worldTotal": 2105003,
+  "worldTotal": 2105252,
   "topCountries": [
    {
     "code": "SE",
@@ -206,7 +207,7 @@
    },
    {
     "code": "DK",
-    "count": 192255
+    "count": 192311
    },
    {
     "code": "NO",
@@ -214,35 +215,35 @@
    },
    {
     "code": "TW",
-    "count": 127395
+    "count": 127411
    },
    {
     "code": "ES",
-    "count": 125086
+    "count": 125121
    },
    {
     "code": "GB",
-    "count": 122055
+    "count": 122061
    },
    {
     "code": "AU",
-    "count": 100655
+    "count": 100667
    },
    {
     "code": "FR",
-    "count": 81548
+    "count": 81556
    },
    {
     "code": "NL",
-    "count": 80926
+    "count": 80927
    },
    {
     "code": "IN",
-    "count": 68098
+    "count": 68105
    },
    {
     "code": "ZA",
-    "count": 63451
+    "count": 63456
    },
    {
     "code": "BE",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Scolopacidae",
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:45.924Z"
+ }
 }

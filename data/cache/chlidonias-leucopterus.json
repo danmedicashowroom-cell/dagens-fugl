@@ -2,7 +2,8 @@
  "key": "chlidonias-leucopterus",
  "name": "Chlidonias leucopterus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:46:57.139Z",
+ "fetchedAt": "2026-11-27T04:11:46.067Z",
+ "gbifAt": "2026-11-27T04:11:46.067Z",
  "names": {
   "da": "Hvidvinget terne",
   "en": "White-winged Tern",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4514,
-  "observations": 6104
+  "observations": 6131
  },
  "photos": {
   "male": [
@@ -78,16 +79,6 @@
     "date": "2020-09-04"
    }
   ],
-  "hero": {
-   "id": 112901711,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/112901711/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/112901711/large.jpg",
-   "attribution": "(c) Ренат Рахматуллин, some rights reserved (CC BY-NC), uploaded by Ренат Рахматуллин",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/112901711",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 112901711,
@@ -169,7 +160,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 112901711,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/112901711/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/112901711/large.jpg",
+   "attribution": "(c) Ренат Рахматуллин, some rights reserved (CC BY-NC), uploaded by Ренат Рахматуллин",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/112901711",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481120,
@@ -188,11 +189,11 @@
    4,
    0
   ],
-  "worldTotal": 170533,
+  "worldTotal": 170562,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 22305
+    "count": 22306
    },
    {
     "code": "AU",
@@ -200,11 +201,11 @@
    },
    {
     "code": "NL",
-    "count": 11550
+    "count": 11551
    },
    {
     "code": "TW",
-    "count": 10126
+    "count": 10129
    },
    {
     "code": "SE",
@@ -212,27 +213,27 @@
    },
    {
     "code": "IL",
-    "count": 8759
+    "count": 8760
    },
    {
     "code": "CN",
-    "count": 4827
+    "count": 4828
    },
    {
     "code": "TR",
-    "count": 4498
+    "count": 4499
    },
    {
     "code": "PL",
-    "count": 4187
+    "count": 4195
    },
    {
     "code": "KE",
-    "count": 4158
+    "count": 4159
    },
    {
     "code": "RU",
-    "count": 3947
+    "count": 3954
    },
    {
     "code": "TH",
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:19:10.244Z"
+ }
 }

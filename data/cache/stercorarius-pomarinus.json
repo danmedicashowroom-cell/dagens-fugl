@@ -2,7 +2,8 @@
  "key": "stercorarius-pomarinus",
  "name": "Stercorarius pomarinus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:44:33.301Z",
+ "fetchedAt": "2026-11-27T04:09:14.248Z",
+ "gbifAt": "2026-11-27T04:09:14.248Z",
  "names": {
   "da": "Mellemkjove",
   "en": "Pomarine Skua",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4491,
-  "observations": 3827
+  "observations": 3836
  },
  "photos": {
   "male": [],
@@ -68,16 +69,6 @@
     "date": "2017-04-09"
    },
    {
-    "id": 67324708,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67324708/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67324708/large.jpg",
-    "attribution": "(c) William Stephens, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/42402989",
-    "place": "Svalbard, Svalbard and Jan Mayen",
-    "date": "2017-07-21"
-   },
-   {
     "id": 532467525,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/532467525/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/532467525/large.jpg",
@@ -86,18 +77,18 @@
     "source": "https://www.inaturalist.org/observations/295760617",
     "place": "Mayo, IE",
     "date": "2025-07-06"
+   },
+   {
+    "id": 67324708,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67324708/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67324708/large.jpg",
+    "attribution": "(c) William Stephens, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/42402989",
+    "place": "Svalbard, Svalbard and Jan Mayen",
+    "date": "2017-07-21"
    }
   ],
-  "hero": {
-   "id": 2950828,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2950828/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2950828/large.jpg",
-   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/2950828",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 2950828,
@@ -159,11 +150,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 2950828,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2950828/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2950828/large.jpg",
+   "attribution": "(c) Nigel Voaden, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/2950828",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481609,
-  "dkTotal": 3859,
+  "dkTotal": 3860,
   "dkMonths": [
    102,
    13,
@@ -174,15 +175,15 @@
    77,
    232,
    886,
-   1428,
+   1429,
    637,
    120
   ],
-  "worldTotal": 125604,
+  "worldTotal": 125622,
   "topCountries": [
    {
     "code": "US",
-    "count": 50495
+    "count": 50508
    },
    {
     "code": "SE",
@@ -202,15 +203,15 @@
    },
    {
     "code": "AU",
-    "count": 4333
+    "count": 4334
    },
    {
     "code": "ES",
-    "count": 4224
+    "count": 4225
    },
    {
     "code": "DK",
-    "count": 3859
+    "count": 3860
    },
    {
     "code": "NL",
@@ -226,7 +227,7 @@
    },
    {
     "code": "SJ",
-    "count": 1391
+    "count": 1392
    }
   ]
  },
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Stercorariidae",
   "familyKey": 9347,
   "familyDa": "Kjover",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:50.241Z"
+ }
 }

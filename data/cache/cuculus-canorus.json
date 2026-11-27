@@ -2,7 +2,8 @@
  "key": "cuculus-canorus",
  "name": "Cuculus canorus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:47:59.989Z",
+ "fetchedAt": "2026-11-27T04:12:50.573Z",
+ "gbifAt": "2026-11-27T04:12:50.573Z",
  "names": {
   "da": "Gøg",
   "en": "Common Cuckoo",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 1907,
-  "observations": 32965
+  "observations": 33073
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2018-08-04"
    }
   ],
-  "hero": {
-   "id": 380547488,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/380547488/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/380547488/large.jpg",
-   "attribution": "(c) Oleg, some rights reserved (CC BY-NC), uploaded by Oleg",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/380547488",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 380547488,
@@ -199,26 +190,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 380547488,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/380547488/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/380547488/large.jpg",
+   "attribution": "(c) Oleg, some rights reserved (CC BY-NC), uploaded by Oleg",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/380547488",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231918,
-  "dkTotal": 169479,
+  "dkTotal": 169489,
   "dkMonths": [
    1,
    0,
    5,
    2642,
-   95740,
-   54849,
+   95742,
+   54856,
    11958,
-   4038,
+   4039,
    130,
    41,
    3,
    1
   ],
-  "worldTotal": 2256816,
+  "worldTotal": 2256865,
   "topCountries": [
    {
     "code": "SE",
@@ -230,11 +231,11 @@
    },
    {
     "code": "FR",
-    "count": 306588
+    "count": 306591
    },
    {
     "code": "DK",
-    "count": 169479
+    "count": 169489
    },
    {
     "code": "CH",
@@ -242,15 +243,15 @@
    },
    {
     "code": "GB",
-    "count": 126235
+    "count": 126236
    },
    {
     "code": "DE",
-    "count": 117153
+    "count": 117155
    },
    {
     "code": "ES",
-    "count": 102578
+    "count": 102579
    },
    {
     "code": "FI",
@@ -266,7 +267,7 @@
    },
    {
     "code": "RU",
-    "count": 31022
+    "count": 31037
    }
   ]
  },
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Cuculidae",
   "familyKey": 9309,
   "familyDa": "Gøge",
   "order": "Cuculiformes"
- },
- "gbifAt": "2026-11-25T22:19:18.519Z"
+ }
 }

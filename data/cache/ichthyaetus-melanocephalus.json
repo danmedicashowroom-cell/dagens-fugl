@@ -2,7 +2,8 @@
  "key": "ichthyaetus-melanocephalus",
  "name": "Ichthyaetus melanocephalus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:45:19.966Z",
+ "fetchedAt": "2026-11-27T04:10:04.278Z",
+ "gbifAt": "2026-11-27T04:10:04.278Z",
  "names": {
   "da": "Sorthovedet måge",
   "en": "Mediterranean Gull",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144517,
-  "observations": 13633
+  "observations": 13736
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2022-08-19"
    }
   ],
-  "hero": {
-   "id": 65316,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/65316/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/65316/large.jpg",
-   "attribution": "(c) Vitaliy Khustochka, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/65316",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 65316,
@@ -169,7 +160,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 65316,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/65316/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/65316/large.jpg",
+   "attribution": "(c) Vitaliy Khustochka, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/65316",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 8151548,
@@ -188,15 +189,15 @@
    475,
    372
   ],
-  "worldTotal": 783719,
+  "worldTotal": 783861,
   "topCountries": [
    {
     "code": "FR",
-    "count": 170620
+    "count": 170636
    },
    {
     "code": "GB",
-    "count": 148011
+    "count": 148021
    },
    {
     "code": "NL",
@@ -208,11 +209,11 @@
    },
    {
     "code": "ES",
-    "count": 92089
+    "count": 92132
    },
    {
     "code": "PT",
-    "count": 45240
+    "count": 45283
    },
    {
     "code": "DK",
@@ -224,11 +225,11 @@
    },
    {
     "code": "IT",
-    "count": 14723
+    "count": 14729
    },
    {
     "code": "TR",
-    "count": 8019
+    "count": 8021
    },
    {
     "code": "IE",
@@ -236,7 +237,7 @@
    },
    {
     "code": "GR",
-    "count": 6812
+    "count": 6817
    }
   ]
  },
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Laridae",
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:18:56.713Z"
+ }
 }
