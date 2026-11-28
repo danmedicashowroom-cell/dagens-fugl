@@ -519,6 +519,8 @@ function speciesJsonLd(d, canonical) {
 
 const NAVNE = readJson(path.join(ROOT, 'data', 'navne.json'), {});
 const WIKI_DA = readJson(path.join(ROOT, 'data', 'wiki-da.json'), {});
+const LYDE_FRAVALGT = new Set(fs.existsSync(path.join(ROOT, 'data', 'lyde-fravalgt.txt'))
+  ? fs.readFileSync(path.join(ROOT, 'data', 'lyde-fravalgt.txt'), 'utf8').split('\n').map((l) => l.replace(/#.*/, '').trim()).filter(Boolean) : []);
 const ANDRE_NAVNE = readJson(path.join(ROOT, 'data', 'andre-navne.json'), {});
 const NAVNENOTER = readJson(path.join(ROOT, 'data', 'navnenoter.json'), {});
 // Hyppighed på Den danske liste: VC/C/FC/S (almindelig–fåtallig), R/VR/A (sjælden–meget sjælden)
@@ -547,6 +549,7 @@ function main() {
     d.region = sp.region; // listen bestemmer altid området
     d.tekst = readJson(path.join(ROOT, 'data', 'tekster', `${sp.key}.json`), null);
     if (NAVNE[sp.key]) d.names.da = NAVNE[sp.key];
+    if (d.sound?.page && LYDE_FRAVALGT.has(String(d.sound.page).match(/(\d+)\/?$/)?.[1])) d.sound = null; // fravalgt lyd – hentes på ny om natten
     // Engelske Wikipedia-tekster vises kun i dansk oversættelse (data/wiki-da.json); uden oversættelse vises kun linket
     if (d.wiki && d.wiki.lang !== 'da') {
       if (WIKI_DA[sp.key]) d.wiki = { ...d.wiki, extract: WIKI_DA[sp.key], oversat: true };
@@ -1016,7 +1019,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
       title: `Fuglequiz – kan du kende de danske fugle? | ${SITE_NAME}`,
       description: `Quiz om de danske fugle i fire sværhedsgrader. Gæt fuglen ud fra billede eller stemme, eller find billedet ud fra navnet. Alle arter fra Den danske liste.`,
       canonical: abs('quiz/'),
-      body: `<section class="fq wrap" id="fq" data-mail="${esc(CONTACT_EMAIL)}">
+      body: `<section class="fq wrap" id="fq" data-mail="${esc(CONTACT_EMAIL)}" data-fb="${esc(SIGNUP_URL || '')}">
   <div class="fq-setup" id="fq-setup">
     <p class="kicker">Fuglequiz</p>
     <h1>Kan du kende de danske fugle?</h1>

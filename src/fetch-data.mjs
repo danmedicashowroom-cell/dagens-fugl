@@ -222,6 +222,10 @@ function xcLicense(u) {
 }
 const secs = (t) => { const p = String(t || '').split(':').map(Number); return p.length === 2 ? p[0] * 60 + p[1] : NaN; };
 
+const LYDE_FRAVALGT = new Set(fs.existsSync(path.join(ROOT, 'data', 'lyde-fravalgt.txt'))
+  ? fs.readFileSync(path.join(ROOT, 'data', 'lyde-fravalgt.txt'), 'utf8').split('\n').map((l) => l.replace(/#.*/, '').trim()).filter(Boolean) : []);
+const lydFravalgt = (snd) => !!snd?.page && LYDE_FRAVALGT.has(String(snd.page).match(/(\d+)\/?$/)?.[1]);
+
 async function xenoCantoSound(sciName, region) {
   if (!XC_KEY) return undefined; // ingen nøgle → spring over
   const GRADE = { A: 5, B: 4, C: 3, D: 2, E: 1 };
@@ -229,7 +233,7 @@ async function xenoCantoSound(sciName, region) {
   // Først kun A-optagelser; findes der ingen brugbare, hentes alle, og den bedste klasse vælges.
   for (const query of [`sp:"${sciName}" q:A`, `sp:"${sciName}"`]) {
     const d = await getJson(`https://xeno-canto.org/api/3/recordings?query=${q(query)}&per_page=100&key=${q(XC_KEY)}`, { allow404: true });
-    ok = (d?.recordings || []).filter((r) => r.file && xcLicense(r.lic) && GRADE[r.q]);
+    ok = (d?.recordings || []).filter((r) => r.file && xcLicense(r.lic) && GRADE[r.q] && !LYDE_FRAVALGT.has(String(r.id)));
     if (ok.length) break;
   }
   // Xeno-cantos egen kvalitetsvurdering (A er bedst, E dårligst) vejer tungest: kun optagelser i den
@@ -426,7 +430,7 @@ async function main() {
 
   // Hent lyd til arter, der endnu ikke har været tjekket (let – kun ét kald pr. art).
   const SOUND_FETCH = Number(process.env.SOUND_FETCH || 700);
-  const noSound = list.map((sp) => ({ sp, d: readCache(sp.key) })).filter(({ d }) => d && (d.soundVersion || 0) < SOUND_VERSION).slice(0, SOUND_FETCH);
+  const noSound = list.map((sp) => ({ sp, d: readCache(sp.key) })).filter(({ d }) => d && ((d.soundVersion || 0) < SOUND_VERSION || lydFravalgt(d.sound))).slice(0, SOUND_FETCH);
   if (!XC_KEY) console.log('Ingen XC_KEY – bruger kun Wikimedia Commons til lyd.');
   let found = 0;
   for (const { sp, d } of noSound) {

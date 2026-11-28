@@ -409,7 +409,7 @@ body.v2s .cmp-intro .lead { margin: 0; font-size: 1.1rem; max-width: 64ch; }
 }
 
 /* ---- Fuglequiz (/quiz/) ---- */
-.fq { max-width: 860px; padding-top: 32px; padding-bottom: 48px; scroll-margin-top: 12px; }
+.fq { padding-top: 32px; padding-bottom: 48px; scroll-margin-top: 12px; }
 .fq h1 { margin: 6px 0 10px; }
 .fq-group { border: 0; padding: 0; margin: 28px 0 0; }
 .fq-group legend { font-weight: 600; margin-bottom: 10px; padding: 0; }
@@ -429,7 +429,7 @@ body.v2s .cmp-intro .lead { margin: 0; font-size: 1.1rem; max-width: 64ch; }
 .fq-progress { height: 4px; background: var(--surface2); border-radius: 4px; margin: 8px 0 22px; overflow: hidden; }
 .fq-progress span { display: block; height: 100%; background: var(--accent); transition: width .3s; }
 .fq-q { margin: 0 0 16px; }
-.fq-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; border-radius: var(--r-lg, 16px); background: var(--surface2); display: block; }
+.fq-photo img { width: 100%; aspect-ratio: 16 / 9; object-fit: contain; border-radius: var(--r-lg, 16px); background: var(--surface2); display: block; }
 .fq-sound { padding: 28px 20px; border: 1px solid var(--line); border-radius: var(--r-lg, 16px); background: var(--surface); }
 .fq-sound audio { width: 100%; }
 .fq-credit { margin: 8px 0 0; }
@@ -487,4 +487,14 @@ body.v2s .cmp-intro .lead { margin: 0; font-size: 1.1rem; max-width: 64ch; }
 .fq-imgname i { color: var(--muted); font-size: .8rem; }
 
 .fq-imgopt.right .fq-imgname b { color: var(--accent); }
-.fq-report { display: inline-block; margin-top: 8px; font-size: .82rem; color: var(--muted); }
+
+.fq-note { margin: 0 0 10px; font-size: .9rem; color: var(--muted); }
+.fq-fb { margin-top: 10px; }
+.fq-fb-open { background: none; border: 0; padding: 0; color: var(--muted); font: .86rem var(--sans); text-decoration: underline; cursor: pointer; }
+.fq-fb-form { display: grid; gap: 10px; margin-top: 4px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.fq-fb-kinds { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .92rem; }
+.fq-fb-kinds input { accent-color: var(--accent); }
+.fq-fb-form input[type=text] { min-height: 42px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--text); font: .95rem var(--sans); }
+.fq-fb-form .btn { justify-self: start; }
+.fq-fb-tak { margin: 6px 0 0; font-size: .9rem; color: var(--muted); }
+@media (min-width: 761px) { .fq-opts { grid-template-columns: repeat(4, minmax(0, 1fr)); } .fq-opts.n6 { grid-template-columns: repeat(3, minmax(0, 1fr)); } .fq-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } .fq-grid.n6 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

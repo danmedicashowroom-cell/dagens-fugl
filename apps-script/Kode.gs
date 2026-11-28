@@ -43,6 +43,7 @@ function url_() { return ScriptApp.getService().getUrl(); }
 function doPost(e) {
   var p = (e && e.parameter) || {};
   if (p.website) return json_({ ok: true }); // honningkrukke mod robotter
+  if (p.a === 'feedback') return feedback_(p);
   // Tidsfælde: formularen på siden sender hvor længe den har været åben (ms). Robotter, der poster direkte, mangler den eller er for hurtige.
   var ms = Number(p.t || 0);
   if (!ms || ms < 2500) return json_({ ok: true });
@@ -71,6 +72,30 @@ function doPost(e) {
     sendConfirm_(email, token);
     return json_({ ok: true });
   } finally { lock.releaseLock(); }
+}
+
+// Feedback fra fuglequizzen: gemmes i fanen »Feedback« og sendes til Dagens Fugl-mailboksen.
+// Højst 30 pr. døgn i alt, så formularen ikke kan bruges til spam.
+function feedback_(p) {
+  var ms = Number(p.t || 0);
+  if (!ms || ms < 1500) return json_({ ok: true });
+  var props = PropertiesService.getScriptProperties();
+  var day = Utilities.formatDate(new Date(), 'Europe/Copenhagen', 'yyyy-MM-dd');
+  var n = props.getProperty('FB_DAY') === day ? Number(props.getProperty('FB_N') || 0) : 0;
+  if (n >= 30) return json_({ ok: true });
+  props.setProperty('FB_DAY', day); props.setProperty('FB_N', String(n + 1));
+  var cut = function (v, max) { return String(v || '').replace(/[\u0000-\u001f]+/g, ' ').slice(0, max); };
+  var row = [new Date(), cut(p.kind, 40), cut(p.art, 80), cut(p.medie, 200), cut(p.besked, 1000), cut(p.side, 200)];
+  var ss = sheet_().getParent();
+  var sh = ss.getSheetByName('Feedback') || ss.insertSheet('Feedback');
+  if (sh.getLastRow() === 0) sh.appendRow(['tidspunkt', 'type', 'art', 'foto/lyd', 'besked', 'side']);
+  sh.appendRow(row);
+  MailApp.sendEmail({
+    to: Session.getEffectiveUser().getEmail(), name: NAME,
+    subject: 'Quiz-feedback: ' + row[1] + (row[2] ? ' – ' + row[2] : ''),
+    body: 'Type: ' + row[1] + '\nArt: ' + row[2] + '\nFoto/lyd: ' + row[3] + '\nBesked: ' + (row[4] || '(ingen)') + '\nSide: ' + row[5]
+  });
+  return json_({ ok: true });
 }
 
 // Højst 40 bekræftelsesmails pr. døgn i alt – beskytter Gmail-kvoten, hvis nogen spammer formularen

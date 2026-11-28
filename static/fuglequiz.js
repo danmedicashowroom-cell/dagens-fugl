@@ -127,6 +127,7 @@
     var h = $('fq-q');
     if (q.t === 'foto') {
       h.textContent = 'Hvilken fugl er det?';
+      if (q.lydFejl) media.appendChild(el('p', 'fq-note', 'Lyden kunne ikke hentes, så her er et billede i stedet. Fejlen er meldt.'));
       var fr = el('div', 'fq-photo'); var img = el('img'); img.src = q.photo.u; img.alt = 'Fuglen du skal gætte'; fr.appendChild(img);
       media.appendChild(fr); media.appendChild(credit(q.photo, false));
     } else if (q.t === 'lyd') {
@@ -135,6 +136,15 @@
       var box = el('div', 'fq-sound'); box.appendChild(au); media.appendChild(box);
       media.appendChild(credit(q.sp.snd, false, 'Lyd: '));
       setTimeout(function () { var p = au.play(); if (p && p.catch) p.catch(function () {}); }, 50);
+      // Kan lyden ikke hentes, skiftes spørgsmålet til et billede af samme fugl, og fejlen meldes automatisk
+      var failed = false;
+      var fail = function () {
+        if (failed || answered || qs[qi] !== q) return; failed = true;
+        sendFb({ kind: 'Lyden kunne ikke afspilles (automatisk)', art: q.sp.n + ' (' + q.sp.k + ')', medie: q.sp.snd.u });
+        q.t = 'foto'; q.photo = photoOf(q.sp, cfg.lv); q.lydFejl = true; show();
+      };
+      au.addEventListener('error', fail);
+      setTimeout(function () { if (au.readyState < 1 && au.networkState !== 1) fail(); else if (au.readyState < 1) setTimeout(function () { if (au.readyState < 1) fail(); }, 7000); }, 8000);
     } else {
       h.textContent = 'Hvilket billede viser ' + q.sp.n.toLowerCase() + '?';
     }
@@ -175,6 +185,45 @@
     root.scrollIntoView({ block: 'start', behavior: 'smooth' });
   }
 
+  // ---- Feedback direkte fra quizzen (gemmes og sendes til Dagens Fugl) ----
+  var FB = root.getAttribute('data-fb');
+  function sendFb(o) {
+    if (!FB) return Promise.resolve();
+    var body = new URLSearchParams({ a: 'feedback', t: String(Date.now() - (window.__fqT || 0)), kind: o.kind || '', art: o.art || '', medie: o.medie || '', besked: o.besked || '', side: location.pathname, website: '' });
+    return fetch(FB, { method: 'POST', body: body, mode: 'no-cors' }).catch(function () {});
+  }
+  function fbBox(q) {
+    var wrap = el('div', 'fq-fb');
+    var open = el('button', 'fq-fb-open', 'Noget galt med spørgsmålet? Giv feedback'); open.type = 'button';
+    wrap.appendChild(open);
+    open.addEventListener('click', function () {
+      open.remove();
+      var f = el('form', 'fq-fb-form');
+      var kinds = q.t === 'lyd' ? ['Lyden virker ikke', 'Der er ingen fuglestemme at høre', 'Det er ikke den art', 'Andet']
+        : q.t === 'navn' ? ['Et af billederne er dårligt', 'Et billede viser ikke den art', 'Andet']
+        : ['Dårligt billede (fx æg, fjer eller ingen fugl)', 'Billedet viser ikke den art', 'Andet'];
+      var ch = el('div', 'fq-fb-kinds');
+      kinds.forEach(function (k, i) {
+        var l = el('label'); var r = el('input'); r.type = 'radio'; r.name = 'kind'; r.value = k; if (!i) r.checked = true;
+        l.appendChild(r); l.appendChild(document.createTextNode(' ' + k)); ch.appendChild(l);
+      });
+      f.appendChild(ch);
+      var t = el('input'); t.type = 'text'; t.name = 'besked'; t.maxLength = 500; t.placeholder = 'Uddyb gerne (valgfrit)'; t.setAttribute('aria-label', 'Uddybning');
+      f.appendChild(t);
+      var b = el('button', 'btn', 'Send'); b.type = 'submit'; f.appendChild(b);
+      f.addEventListener('submit', function (e) {
+        e.preventDefault(); b.disabled = true;
+        var medie = q.t === 'lyd' ? q.sp.snd.u : q.t === 'foto' ? 'foto ' + q.photo.i : q.opts.map(function (o, i) { return o.n + ': foto ' + q.photos[i].i; }).join('; ');
+        sendFb({ kind: f.kind.value, art: q.sp.n + ' (' + q.sp.k + ')', medie: medie, besked: t.value.trim() }).then(function () {
+          f.replaceWith(el('p', 'fq-fb-tak', 'Tak! Din feedback er sendt.'));
+        });
+      });
+      wrap.appendChild(f);
+      t.focus({ preventScroll: true });
+    });
+    return wrap;
+  }
+
   function reveal(ok, text) {
     var q = qs[qi];
     answered = true;
@@ -187,13 +236,7 @@
     p.appendChild(spLink(q.sp));
     p.appendChild(document.createTextNode('.'));
     fb.appendChild(p);
-    var mail = root.getAttribute('data-mail');
-    var pics = q.t === 'foto' ? [[q.sp, q.photo]] : q.t === 'navn' ? q.opts.map(function (o, i) { return [o, q.photos[i]]; }) : [];
-    if (mail && pics.length) {
-      var r = el('a', 'fq-report', q.t === 'navn' ? 'Er et af billederne dårligt? Sig til' : 'Er billedet dårligt? Sig til');
-      r.href = 'mailto:' + mail + '?subject=' + encodeURIComponent('Dårligt billede i fuglequizzen') + '&body=' + encodeURIComponent('Hvilket billede er dårligt, og hvorfor?\n\n' + pics.map(function (x) { return x[0].n + ': foto ' + x[1].i; }).join('\n'));
-      fb.appendChild(r);
-    }
+    fb.appendChild(fbBox(q));
     var media = $('fq-media');
     var cr = media.querySelector('.fq-credit');
     if (cr) cr.replaceWith(q.t === 'lyd' ? credit(q.sp.snd, true, 'Lyd: ') : credit(q.photo, true));
@@ -255,6 +298,7 @@
   }
 
   function start(c) {
+    window.__fqT = Date.now();
     cfg = c; qs = build(c); qi = 0; score = 0; wrongs = [];
     if (!qs.length) { bestEl.textContent = 'Der er ingen spørgsmål med disse valg.'; return; }
     setup.hidden = true; end.hidden = true; play.hidden = false;
