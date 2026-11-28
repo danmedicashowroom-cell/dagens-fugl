@@ -228,7 +228,7 @@
    0,
    1
   ],
-  "worldTotal": 32433,
+  "worldTotal": 32439,
   "topCountries": [
    {
     "code": "ES",
@@ -236,11 +236,11 @@
    },
    {
     "code": "GR",
-    "count": 7561
+    "count": 7562
    },
    {
     "code": "FR",
-    "count": 4633
+    "count": 4634
    },
    {
     "code": "CY",
@@ -268,7 +268,7 @@
    },
    {
     "code": "MG",
-    "count": 301
+    "count": 302
    },
    {
     "code": "GB",
@@ -303,5 +303,6 @@
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:43.700Z"
 }

@@ -158,11 +158,11 @@
    0,
    0
   ],
-  "worldTotal": 3978,
+  "worldTotal": 3979,
   "topCountries": [
    {
     "code": "FR",
-    "count": 2358
+    "count": 2359
    },
    {
     "code": "IT",
@@ -233,5 +233,6 @@
   "familyKey": 5285,
   "familyDa": "Sangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:04.846Z"
 }

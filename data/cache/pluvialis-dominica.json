@@ -218,19 +218,19 @@
    5,
    0
   ],
-  "worldTotal": 246240,
+  "worldTotal": 246264,
   "topCountries": [
    {
     "code": "US",
-    "count": 155543
+    "count": 155557
    },
    {
     "code": "CA",
-    "count": 50596
+    "count": 50600
    },
    {
     "code": "AR",
-    "count": 7359
+    "count": 7361
    },
    {
     "code": "BR",
@@ -242,7 +242,7 @@
    },
    {
     "code": "NL",
-    "count": 3586
+    "count": 3589
    },
    {
     "code": "GB",
@@ -262,7 +262,7 @@
    },
    {
     "code": "SE",
-    "count": 1047
+    "count": 1048
    },
    {
     "code": "MX",
@@ -293,5 +293,6 @@
   "familyKey": 2480210,
   "familyDa": "Brokfugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:56.898Z"
 }

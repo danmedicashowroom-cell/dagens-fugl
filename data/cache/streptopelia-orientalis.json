@@ -218,31 +218,31 @@
    0,
    1
   ],
-  "worldTotal": 540013,
+  "worldTotal": 540189,
   "topCountries": [
    {
     "code": "TW",
-    "count": 154586
+    "count": 154620
    },
    {
     "code": "JP",
-    "count": 115688
+    "count": 115716
    },
    {
     "code": "KR",
-    "count": 88197
+    "count": 88218
    },
    {
     "code": "IN",
-    "count": 72232
+    "count": 72236
    },
    {
     "code": "CN",
-    "count": 55118
+    "count": 55137
    },
    {
     "code": "NP",
-    "count": 13314
+    "count": 13315
    },
    {
     "code": "BT",
@@ -250,11 +250,11 @@
    },
    {
     "code": "RU",
-    "count": 5851
+    "count": 5860
    },
    {
     "code": "SE",
-    "count": 4934
+    "count": 4982
    },
    {
     "code": "HK",
@@ -293,5 +293,6 @@
   "familyKey": 5233,
   "familyDa": "Duer",
   "order": "Columbiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:55.551Z"
 }

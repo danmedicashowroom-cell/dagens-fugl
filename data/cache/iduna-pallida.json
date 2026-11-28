@@ -116,7 +116,7 @@
    0,
    0
   ],
-  "worldTotal": 106407,
+  "worldTotal": 106408,
   "topCountries": [
    {
     "code": "IL",
@@ -156,7 +156,7 @@
    },
    {
     "code": "IR",
-    "count": 1578
+    "count": 1577
    },
    {
     "code": "EG",
@@ -191,5 +191,6 @@
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:52.157Z"
 }

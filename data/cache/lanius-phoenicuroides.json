@@ -228,7 +228,7 @@
    356,
    0
   ],
-  "worldTotal": 25866,
+  "worldTotal": 25874,
   "topCountries": [
    {
     "code": "AE",
@@ -240,11 +240,11 @@
    },
    {
     "code": "KE",
-    "count": 1719
+    "count": 1721
    },
    {
     "code": "OM",
-    "count": 1622
+    "count": 1623
    },
    {
     "code": "NL",
@@ -264,11 +264,11 @@
    },
    {
     "code": "IN",
-    "count": 1045
+    "count": 1046
    },
    {
     "code": "SA",
-    "count": 909
+    "count": 910
    },
    {
     "code": "IR",
@@ -276,7 +276,7 @@
    },
    {
     "code": "UZ",
-    "count": 633
+    "count": 635
    }
   ]
  },
@@ -303,5 +303,6 @@
   "familyKey": 9315,
   "familyDa": "Tornskader",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:44.670Z"
 }

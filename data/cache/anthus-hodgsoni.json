@@ -2,7 +2,8 @@
  "key": "anthus-hodgsoni",
  "name": "Anthus hodgsoni",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:39.795Z",
+ "fetchedAt": "2026-11-28T03:54:02.421Z",
+ "gbifAt": "2026-11-28T03:54:02.421Z",
  "names": {
   "da": "Tajgapiber",
   "en": "Olive-backed Pipit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13724,
-  "observations": 8928
+  "observations": 9006
  },
  "photos": {
   "male": [
@@ -47,6 +48,16 @@
   "female": [],
   "juvenile": [
    {
+    "id": 735874315,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/735874315/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/735874315/large.jpg",
+    "attribution": "(c) belovaeyoga, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/400956971",
+    "place": "Yelizovsky District, Kamchatka Krai, RU",
+    "date": "2026-08-20"
+   },
+   {
     "id": 46169102,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/46169102/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/46169102/large.jpg",
@@ -55,16 +66,6 @@
     "source": "https://www.inaturalist.org/observations/29579032",
     "place": "Novosibirskiy rayon, RU-NS, RU",
     "date": "2019-07-26"
-   },
-   {
-    "id": 690707296,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/690707296/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/690707296/large.jpg",
-    "attribution": "(c) Алексей и Елизавета Романовы (Уральский птицезыр), some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/377693787",
-    "place": "Кировский р-н, Екатеринбург, Свердловская обл., Россия",
-    "date": "2026-07-03"
    },
    {
     "id": 539534889,
@@ -77,16 +78,6 @@
     "date": "2025-07-17"
    }
   ],
-  "hero": {
-   "id": 131708891,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/131708891/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/131708891/large.jpg",
-   "attribution": "(c) Griha Hasanov, some rights reserved (CC BY), uploaded by Griha Hasanov",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/131708891",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 131708891,
@@ -118,7 +109,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 131708891,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/131708891/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/131708891/large.jpg",
+   "attribution": "(c) Griha Hasanov, some rights reserved (CC BY), uploaded by Griha Hasanov",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/131708891",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490244,
@@ -137,15 +138,15 @@
    15,
    0
   ],
-  "worldTotal": 151391,
+  "worldTotal": 151427,
   "topCountries": [
    {
     "code": "CN",
-    "count": 30283
+    "count": 30293
    },
    {
     "code": "IN",
-    "count": 26917
+    "count": 26919
    },
    {
     "code": "TW",
@@ -153,11 +154,11 @@
    },
    {
     "code": "HK",
-    "count": 14044
+    "count": 14054
    },
    {
     "code": "NP",
-    "count": 8327
+    "count": 8328
    },
    {
     "code": "TH",
@@ -165,11 +166,11 @@
    },
    {
     "code": "KR",
-    "count": 7638
+    "count": 7640
    },
    {
     "code": "JP",
-    "count": 5671
+    "count": 5673
    },
    {
     "code": "BT",
@@ -177,7 +178,7 @@
    },
    {
     "code": "RU",
-    "count": 3406
+    "count": 3407
    },
    {
     "code": "NL",
@@ -205,13 +206,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:42.513Z"
+ }
 }

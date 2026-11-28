@@ -2,7 +2,8 @@
  "key": "muscicapa-striata",
  "name": "Muscicapa striata",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:56:51.120Z",
+ "fetchedAt": "2026-11-28T03:52:10.473Z",
+ "gbifAt": "2026-11-28T03:52:10.473Z",
  "names": {
   "da": "Grå fluesnapper",
   "en": "Spotted Flycatcher",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12971,
-  "observations": 44637
+  "observations": 44795
  },
  "photos": {
   "male": [
@@ -76,14 +77,14 @@
     "date": "2026-07-11"
    },
    {
-    "id": 132957747,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/132957747/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/132957747/large.jpeg",
-    "attribution": "no rights reserved",
-    "license": "cc0",
-    "source": "https://www.inaturalist.org/observations/81085130",
-    "place": "Smaliavichy District, Belarus",
-    "date": "2021-05-31"
+    "id": 459250244,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/459250244/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/459250244/large.jpeg",
+    "attribution": "(c) Wojtek Wlach, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/256212998",
+    "place": "Tychy, Polska",
+    "date": "2010-07-18"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2025-07-06"
    }
   ],
-  "hero": {
-   "id": 341486440,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/341486440/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/341486440/large.jpeg",
-   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/341486440",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 341486440,
@@ -179,46 +170,56 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 341486440,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/341486440/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/341486440/large.jpeg",
+   "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC), uploaded by Valia Pavlou",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/341486440",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492576,
-  "dkTotal": 50826,
+  "dkTotal": 50830,
   "dkMonths": [
    1,
    0,
    1,
    168,
    19124,
-   8192,
+   8193,
    5101,
    10297,
-   7759,
-   106,
+   7762,
+   107,
    25,
    2
   ],
-  "worldTotal": 1457628,
+  "worldTotal": 1457705,
   "topCountries": [
    {
     "code": "SE",
-    "count": 278937
+    "count": 278939
    },
    {
     "code": "FI",
-    "count": 161012
+    "count": 161066
    },
    {
     "code": "ES",
-    "count": 144244
+    "count": 144201
    },
    {
     "code": "GB",
-    "count": 106083
+    "count": 106085
    },
    {
     "code": "FR",
-    "count": 91003
+    "count": 91008
    },
    {
     "code": "NO",
@@ -230,11 +231,11 @@
    },
    {
     "code": "ZA",
-    "count": 52915
+    "count": 52916
    },
    {
     "code": "DK",
-    "count": 50826
+    "count": 50830
    },
    {
     "code": "CH",
@@ -242,11 +243,11 @@
    },
    {
     "code": "DE",
-    "count": 46129
+    "count": 46132
    },
    {
     "code": "RU",
-    "count": 24098
+    "count": 24120
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:27.626Z"
+ }
 }

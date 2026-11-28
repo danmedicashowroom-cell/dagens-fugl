@@ -2,7 +2,8 @@
  "key": "linaria-flavirostris",
  "name": "Linaria flavirostris",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:00:27.154Z",
+ "fetchedAt": "2026-11-28T03:55:45.291Z",
+ "gbifAt": "2026-11-28T03:55:45.291Z",
  "names": {
   "da": "Bjergirisk",
   "en": "Twite",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 558633,
-  "observations": 2277
+  "observations": 2293
  },
  "photos": {
   "male": [
@@ -68,16 +69,6 @@
     "date": "2022-06-22"
    }
   ],
-  "hero": {
-   "id": 109526950,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/109526950/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/109526950/large.jpg",
-   "attribution": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/109526950",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 109526950,
@@ -129,26 +120,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 109526950,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/109526950/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/109526950/large.jpg",
+   "attribution": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/109526950",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 7668711,
-  "dkTotal": 61990,
+  "dkTotal": 62070,
   "dkMonths": [
-   9345,
+   9346,
    6015,
    6088,
-   4254,
+   4255,
    330,
    7,
    1,
    2,
    33,
-   16083,
-   12707,
+   16087,
+   12781,
    7089
   ],
-  "worldTotal": 324105,
+  "worldTotal": 324193,
   "topCountries": [
    {
     "code": "SE",
@@ -160,7 +161,7 @@
    },
    {
     "code": "DK",
-    "count": 61990
+    "count": 62070
    },
    {
     "code": "GB",
@@ -168,11 +169,11 @@
    },
    {
     "code": "NL",
-    "count": 15983
+    "count": 15984
    },
    {
     "code": "CN",
-    "count": 2954
+    "count": 2955
    },
    {
     "code": "IN",
@@ -180,7 +181,7 @@
    },
    {
     "code": "DE",
-    "count": 2535
+    "count": 2536
    },
    {
     "code": "BE",
@@ -192,7 +193,7 @@
    },
    {
     "code": "FI",
-    "count": 1495
+    "count": 1496
    },
    {
     "code": "GE",
@@ -216,13 +217,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:53.725Z"
+ }
 }

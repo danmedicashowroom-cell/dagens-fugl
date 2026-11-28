@@ -2,7 +2,8 @@
  "key": "ficedula-hypoleuca",
  "name": "Ficedula hypoleuca",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:57:32.613Z",
+ "fetchedAt": "2026-11-28T03:52:50.140Z",
+ "gbifAt": "2026-11-28T03:52:50.140Z",
  "names": {
   "da": "Broget fluesnapper",
   "en": "European Pied Flycatcher",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 204512,
-  "observations": 33850
+  "observations": 33913
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 289334247,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/289334247/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/289334247/large.jpeg",
-    "attribution": "(c) I Vombat, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/167047957",
-    "place": "СНТ «Жаворонок»",
-    "date": "2023-06-12"
-   },
-   {
     "id": 744859710,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/744859710/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/744859710/large.jpg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/337066000",
     "place": "Киров, Кировская обл., Россия",
     "date": "2022-06-25"
+   },
+   {
+    "id": 46927540,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/46927540/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/46927540/large.jpg",
+    "attribution": "(c) Kholodnyak Svetlana, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/30050269",
+    "place": "Кондопожский р-н, Респ. Карелия, Россия",
+    "date": "2019-07-29"
    }
   ],
-  "hero": {
-   "id": 556162067,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/556162067/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/556162067/large.jpg",
-   "attribution": "(c) ViiruPesonen, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/556162067",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 123372897,
@@ -179,30 +170,40 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 123372897,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/123372897/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/123372897/large.jpg",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/123372897",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492606,
-  "dkTotal": 43968,
+  "dkTotal": 43979,
   "dkMonths": [
    0,
    0,
    0,
-   5956,
-   22960,
+   5957,
+   22965,
    3246,
    532,
-   6509,
-   4588,
+   6524,
+   4598,
    95,
    6,
    2
   ],
-  "worldTotal": 2626793,
+  "worldTotal": 2626965,
   "topCountries": [
    {
     "code": "FI",
-    "count": 931985
+    "count": 932099
    },
    {
     "code": "SE",
@@ -210,7 +211,7 @@
    },
    {
     "code": "ES",
-    "count": 275070
+    "count": 275072
    },
    {
     "code": "NO",
@@ -222,15 +223,15 @@
    },
    {
     "code": "FR",
-    "count": 100201
+    "count": 100205
    },
    {
     "code": "DK",
-    "count": 43968
+    "count": 43979
    },
    {
     "code": "PT",
-    "count": 40440
+    "count": 40442
    },
    {
     "code": "CH",
@@ -238,15 +239,15 @@
    },
    {
     "code": "GB",
-    "count": 36452
+    "count": 36454
    },
    {
     "code": "DE",
-    "count": 33091
+    "count": 33094
    },
    {
     "code": "RU",
-    "count": 27035
+    "count": 27057
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:31.605Z"
+ }
 }

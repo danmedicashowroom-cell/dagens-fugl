@@ -2,7 +2,8 @@
  "key": "fringilla-montifringilla",
  "name": "Fringilla montifringilla",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:59:41.942Z",
+ "fetchedAt": "2026-11-28T03:55:05.603Z",
+ "gbifAt": "2026-11-28T03:55:05.603Z",
  "names": {
   "da": "Kvækerfinke",
   "en": "Brambling",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 10069,
-  "observations": 29126
+  "observations": 29314
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2023-11-26"
    },
    {
-    "id": 701443933,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/701443933/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/701443933/large.jpg",
-    "attribution": "(c) Mario Acquarone, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/383253937",
-    "place": "9023, Norway",
-    "date": "2026-07-20"
-   },
-   {
     "id": 710853086,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/710853086/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/710853086/large.jpg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/386611698",
     "place": "Bø I Vesterålen",
     "date": "2026-07-30"
+   },
+   {
+    "id": 701443933,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/701443933/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/701443933/large.jpg",
+    "attribution": "(c) Mario Acquarone, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/383253937",
+    "place": "9023, Norway",
+    "date": "2026-07-20"
    }
   ],
-  "hero": {
-   "id": 43710488,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710488/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710488/large.jpg",
-   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/43710488",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 43710488,
@@ -189,30 +180,40 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 43710488,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710488/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43710488/large.jpg",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/43710488",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2494441,
-  "dkTotal": 120689,
+  "dkTotal": 120890,
   "dkMonths": [
-   19228,
-   15404,
-   16241,
-   15239,
+   19234,
+   15406,
+   16246,
+   15241,
    2898,
    390,
    20,
    106,
-   7177,
-   21898,
-   11305,
+   7179,
+   21902,
+   11495,
    10742
   ],
-  "worldTotal": 1816560,
+  "worldTotal": 1816956,
   "topCountries": [
    {
     "code": "SE",
-    "count": 591053
+    "count": 591057
    },
    {
     "code": "NO",
@@ -220,43 +221,43 @@
    },
    {
     "code": "FI",
-    "count": 201355
+    "count": 201401
    },
    {
     "code": "FR",
-    "count": 143900
+    "count": 143903
    },
    {
     "code": "DK",
-    "count": 120689
+    "count": 120890
    },
    {
     "code": "NL",
-    "count": 104389
+    "count": 104390
    },
    {
     "code": "DE",
-    "count": 68717
+    "count": 68743
    },
    {
     "code": "GB",
-    "count": 59700
+    "count": 59703
    },
    {
     "code": "BE",
-    "count": 55424
+    "count": 55425
    },
    {
     "code": "CN",
-    "count": 21196
+    "count": 21202
    },
    {
     "code": "ES",
-    "count": 21175
+    "count": 21182
    },
    {
     "code": "RU",
-    "count": 19580
+    "count": 19612
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:48.784Z"
+ }
 }

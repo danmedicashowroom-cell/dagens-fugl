@@ -198,27 +198,27 @@
    19,
    0
   ],
-  "worldTotal": 1301824,
+  "worldTotal": 1302056,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 402656
+    "count": 402767
    },
    {
     "code": "IN",
-    "count": 204661
+    "count": 204670
    },
    {
     "code": "TW",
-    "count": 126675
+    "count": 126679
    },
    {
     "code": "ES",
-    "count": 125915
+    "count": 125918
    },
    {
     "code": "PT",
-    "count": 70802
+    "count": 70810
    },
    {
     "code": "IL",
@@ -226,19 +226,19 @@
    },
    {
     "code": "KE",
-    "count": 34502
+    "count": 34508
    },
    {
     "code": "CN",
-    "count": 27554
+    "count": 27561
    },
    {
     "code": "GR",
-    "count": 22826
+    "count": 22829
    },
    {
     "code": "TH",
-    "count": 19339
+    "count": 19341
    },
    {
     "code": "LK",
@@ -246,7 +246,7 @@
    },
    {
     "code": "TZ",
-    "count": 16840
+    "count": 16853
    }
   ]
  },
@@ -259,5 +259,6 @@
   "familyKey": 5248,
   "familyDa": "Svaler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:56.316Z"
 }

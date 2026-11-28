@@ -148,7 +148,7 @@
    0,
    0
   ],
-  "worldTotal": 4691,
+  "worldTotal": 4695,
   "topCountries": [
    {
     "code": "AE",
@@ -156,7 +156,7 @@
    },
    {
     "code": "MA",
-    "count": 914
+    "count": 919
    },
    {
     "code": "KW",
@@ -168,7 +168,7 @@
    },
    {
     "code": "OM",
-    "count": 171
+    "count": 170
    },
    {
     "code": "EG",
@@ -223,5 +223,6 @@
   "familyKey": 5225,
   "familyDa": "Natravne",
   "order": "Caprimulgiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:33.611Z"
 }

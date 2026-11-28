@@ -2,7 +2,8 @@
  "key": "turdus-iliacus",
  "name": "Turdus iliacus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:56:27.956Z",
+ "fetchedAt": "2026-11-28T03:51:48.752Z",
+ "gbifAt": "2026-11-28T03:51:48.752Z",
  "names": {
   "da": "Vindrossel",
   "en": "Redwing",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12749,
-  "observations": 29952
+  "observations": 30245
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2025-06-07"
    },
    {
-    "id": 19102805,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/19102805/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/19102805/large.jpeg",
-    "attribution": "(c) Leonardo Ancillotto, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/13107200",
-    "place": "Þjóðvegur, Vík, Islanda",
-    "date": "2018-05-31"
-   },
-   {
     "id": 110674170,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/110674170/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/110674170/large.jpeg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/68362811",
     "place": "Öngulsstadir III 601, Akureyri, Iceland",
     "date": "2014-07-27"
+   },
+   {
+    "id": 58823969,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/58823969/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/58823969/large.jpeg",
+    "attribution": "(c) Марина Горбунова-Ëлкина, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/37137644",
+    "place": "Лужский р-н, Ленинградская обл., Россия",
+    "date": "2015-05-21"
    }
   ],
-  "hero": {
-   "id": 28746692,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28746692/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28746692/large.jpg",
-   "attribution": "(c) Aleksey Levashkin, some rights reserved (CC BY-NC), uploaded by Aleksey Levashkin",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/28746692",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 28746692,
@@ -159,42 +150,52 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 28746692,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28746692/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28746692/large.jpg",
+   "attribution": "(c) Aleksey Levashkin, some rights reserved (CC BY-NC), uploaded by Aleksey Levashkin",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/28746692",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490781,
-  "dkTotal": 129946,
+  "dkTotal": 130161,
   "dkMonths": [
-   15917,
+   15920,
    7062,
-   12648,
-   17805,
+   12649,
+   17815,
    1402,
    157,
    10,
    12,
-   2024,
-   37430,
-   21902,
-   13566
+   2025,
+   37439,
+   22094,
+   13568
   ],
-  "worldTotal": 2265808,
+  "worldTotal": 2266302,
   "topCountries": [
    {
     "code": "SE",
-    "count": 494604
+    "count": 494605
    },
    {
     "code": "NO",
-    "count": 339386
+    "count": 339387
    },
    {
     "code": "GB",
-    "count": 338211
+    "count": 338273
    },
    {
     "code": "FI",
-    "count": 337373
+    "count": 337457
    },
    {
     "code": "NL",
@@ -202,31 +203,31 @@
    },
    {
     "code": "DK",
-    "count": 129946
+    "count": 130161
    },
    {
     "code": "FR",
-    "count": 109058
+    "count": 109072
    },
    {
     "code": "IS",
-    "count": 72957
+    "count": 72970
    },
    {
     "code": "BE",
-    "count": 66192
+    "count": 66193
    },
    {
     "code": "DE",
-    "count": 43298
+    "count": 43362
    },
    {
     "code": "ES",
-    "count": 34685
+    "count": 34688
    },
    {
     "code": "RU",
-    "count": 26359
+    "count": 26371
    }
   ]
  },
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Turdidae",
   "familyKey": 5290,
   "familyDa": "Drosler",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:25.294Z"
+ }
 }

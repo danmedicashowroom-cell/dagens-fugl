@@ -188,27 +188,27 @@
    0,
    0
   ],
-  "worldTotal": 320848,
+  "worldTotal": 320934,
   "topCountries": [
    {
     "code": "ES",
-    "count": 181189
+    "count": 181225
    },
    {
     "code": "IL",
-    "count": 34541
+    "count": 34543
    },
    {
     "code": "PT",
-    "count": 27571
+    "count": 27595
    },
    {
     "code": "TR",
-    "count": 11562
+    "count": 11565
    },
    {
     "code": "GR",
-    "count": 10355
+    "count": 10361
    },
    {
     "code": "BG",
@@ -220,7 +220,7 @@
    },
    {
     "code": "CY",
-    "count": 5847
+    "count": 5848
    },
    {
     "code": "MT",
@@ -228,11 +228,11 @@
    },
    {
     "code": "MA",
-    "count": 3801
+    "count": 3806
    },
    {
     "code": "TN",
-    "count": 2938
+    "count": 2941
    },
    {
     "code": "IR",
@@ -263,5 +263,6 @@
   "familyKey": 5264,
   "familyDa": "Spurve",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:22.459Z"
 }

@@ -177,19 +177,19 @@
    0,
    0
   ],
-  "worldTotal": 504870,
+  "worldTotal": 504970,
   "topCountries": [
    {
     "code": "IN",
-    "count": 201779
+    "count": 201781
    },
    {
     "code": "ZA",
-    "count": 183351
+    "count": 183366
    },
    {
     "code": "KE",
-    "count": 25755
+    "count": 25774
    },
    {
     "code": "LK",
@@ -201,7 +201,7 @@
    },
    {
     "code": "TZ",
-    "count": 7894
+    "count": 7897
    },
    {
     "code": "NG",
@@ -209,7 +209,7 @@
    },
    {
     "code": "MA",
-    "count": 6039
+    "count": 6057
    },
    {
     "code": "GH",
@@ -221,11 +221,11 @@
    },
    {
     "code": "UG",
-    "count": 4318
+    "count": 4319
    },
    {
     "code": "ES",
-    "count": 3382
+    "count": 3405
    }
   ]
  },
@@ -252,5 +252,6 @@
   "familyKey": 2993,
   "familyDa": "Sejlere",
   "order": "Apodiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:35.981Z"
 }

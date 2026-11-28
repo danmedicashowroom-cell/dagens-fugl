@@ -2,7 +2,8 @@
  "key": "oenanthe-oenanthe",
  "name": "Oenanthe oenanthe",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:07.374Z",
+ "fetchedAt": "2026-11-28T03:53:24.836Z",
+ "gbifAt": "2026-11-28T03:53:24.836Z",
  "names": {
   "da": "Stenpikker",
   "en": "Northern Wheatear",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12822,
-  "observations": 53215
+  "observations": 53340
  },
  "photos": {
   "male": [
@@ -34,37 +35,27 @@
     "date": "2021-05-17"
    },
    {
-    "id": 349048969,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/349048969/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/349048969/large.jpeg",
-    "attribution": "(c) Scott F Smith, some rights reserved (CC BY-NC)",
+    "id": 483991953,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/483991953/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/483991953/large.jpg",
+    "attribution": "(c) James N. Stuart, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/198085505",
-    "place": "Summit Camp, Greenland",
-    "date": "2011-05-06"
+    "source": "https://www.inaturalist.org/observations/269165581",
+    "place": "Rio Communities, NM 87002, USA",
+    "date": "2025-04-07"
    },
    {
-    "id": 286540659,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/286540659/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/286540659/large.jpg",
-    "attribution": "(c) legally_blob, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/165528528",
-    "place": "Grønlands Nationalpark, Tunu, GL",
-    "date": "2023-06-04"
+    "id": 565757163,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/565757163/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/565757163/large.jpg",
+    "attribution": "(c) SteveM4560, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/313294120",
+    "place": "Pomorie, Bulgaria",
+    "date": "2025-09-10"
    }
   ],
   "female": [
-   {
-    "id": 485084654,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/485084654/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/485084654/large.jpg",
-    "attribution": "(c) Pierre Corbrion, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/269768040",
-    "place": "66760 Porté-Puymorens, France",
-    "date": "2024-08-24"
-   },
    {
     "id": 68878758,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/68878758/medium.jpg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/360844413",
     "place": "Otmuchów, Polska",
     "date": "2026-05-03"
+   },
+   {
+    "id": 644697067,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/644697067/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/644697067/large.jpg",
+    "attribution": "(c) Lydia Brühwasser, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/353313481",
+    "place": "Arzl, Innsbruck, Austria",
+    "date": "2026-04-24"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2026-09-09"
    }
   ],
-  "hero": {
-   "id": 67410847,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67410847/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67410847/large.jpeg",
-   "attribution": "(c) nfeddu, some rights reserved (CC BY-NC), uploaded by nfeddu",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/67410847",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 67410847,
@@ -209,30 +200,40 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 67410847,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67410847/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67410847/large.jpeg",
+   "attribution": "(c) nfeddu, some rights reserved (CC BY-NC), uploaded by nfeddu",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/67410847",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231240,
-  "dkTotal": 112524,
+  "dkTotal": 112558,
   "dkMonths": [
    0,
    18,
    615,
-   16868,
+   16871,
    36427,
    2557,
-   2537,
-   19520,
-   26484,
-   7389,
+   2543,
+   19526,
+   26502,
+   7391,
    48,
    3
   ],
-  "worldTotal": 1895462,
+  "worldTotal": 1895641,
   "topCountries": [
    {
     "code": "SE",
-    "count": 427790
+    "count": 427792
    },
    {
     "code": "NL",
@@ -240,31 +241,31 @@
    },
    {
     "code": "NO",
-    "count": 213965
+    "count": 213966
    },
    {
     "code": "GB",
-    "count": 178055
+    "count": 178062
    },
    {
     "code": "FR",
-    "count": 131266
+    "count": 131281
    },
    {
     "code": "ES",
-    "count": 119507
+    "count": 119528
    },
    {
     "code": "DK",
-    "count": 112524
+    "count": 112558
    },
    {
     "code": "CH",
-    "count": 66302
+    "count": 66303
    },
    {
     "code": "FI",
-    "count": 55490
+    "count": 55508
    },
    {
     "code": "BE",
@@ -272,11 +273,11 @@
    },
    {
     "code": "DE",
-    "count": 30017
+    "count": 30026
    },
    {
     "code": "PT",
-    "count": 24316
+    "count": 24318
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:37.116Z"
+ }
 }

@@ -228,19 +228,19 @@
    1,
    0
   ],
-  "worldTotal": 2968633,
+  "worldTotal": 2968784,
   "topCountries": [
    {
     "code": "US",
-    "count": 2077592
+    "count": 2077663
    },
    {
     "code": "CA",
-    "count": 882994
+    "count": 883073
    },
    {
     "code": "SE",
-    "count": 2251
+    "count": 2252
    },
    {
     "code": "PM",
@@ -303,5 +303,6 @@
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:51.605Z"
 }

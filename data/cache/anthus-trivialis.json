@@ -2,7 +2,8 @@
  "key": "anthus-trivialis",
  "name": "Anthus trivialis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:34.275Z",
+ "fetchedAt": "2026-11-28T03:53:53.013Z",
+ "gbifAt": "2026-11-28T03:53:53.013Z",
  "names": {
   "da": "Skovpiber",
   "en": "Tree Pipit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13711,
-  "observations": 35978
+  "observations": 36170
  },
  "photos": {
   "male": [
@@ -108,26 +109,16 @@
     "date": "2026-06-08"
    },
    {
-    "id": 534284856,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/534284856/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/534284856/large.jpg",
-    "attribution": "(c) Ирина Рогова, some rights reserved (CC BY-NC)",
+    "id": 717371474,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/717371474/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/717371474/large.jpg",
+    "attribution": "(c) Sylvain G, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/296708278",
-    "place": "Гатчинский р-н, Ленинградская обл., Россия",
-    "date": "2025-07-09"
+    "source": "https://www.inaturalist.org/observations/391504694",
+    "place": "09110 Montaillou, France",
+    "date": "2026-08-15"
    }
   ],
-  "hero": {
-   "id": 329702724,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/329702724/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/329702724/large.jpg",
-   "attribution": "(c) Alejandro Ocampo, some rights reserved (CC BY-NC), uploaded by Alejandro Ocampo",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/329702724",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 329702724,
@@ -209,26 +200,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 329702724,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/329702724/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/329702724/large.jpg",
+   "attribution": "(c) Alejandro Ocampo, some rights reserved (CC BY-NC), uploaded by Alejandro Ocampo",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/329702724",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490246,
-  "dkTotal": 105566,
+  "dkTotal": 105589,
   "dkMonths": [
    1,
    0,
    5,
-   18177,
+   18180,
    32671,
-   14129,
+   14134,
    5721,
-   14686,
-   18609,
+   14687,
+   18623,
    1455,
    12,
    2
   ],
-  "worldTotal": 1752665,
+  "worldTotal": 1752781,
   "topCountries": [
    {
     "code": "SE",
@@ -236,11 +237,11 @@
    },
    {
     "code": "FI",
-    "count": 207229
+    "count": 207268
    },
    {
     "code": "FR",
-    "count": 174255
+    "count": 174261
    },
    {
     "code": "NL",
@@ -252,7 +253,7 @@
    },
    {
     "code": "DK",
-    "count": 105566
+    "count": 105589
    },
    {
     "code": "NO",
@@ -268,15 +269,15 @@
    },
    {
     "code": "ES",
-    "count": 41978
+    "count": 41980
    },
    {
     "code": "RU",
-    "count": 41547
+    "count": 41574
    },
    {
     "code": "DE",
-    "count": 37400
+    "count": 37402
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:39.614Z"
+ }
 }

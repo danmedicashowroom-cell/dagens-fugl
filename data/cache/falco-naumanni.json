@@ -208,27 +208,27 @@
    0,
    0
   ],
-  "worldTotal": 224017,
+  "worldTotal": 224090,
   "topCountries": [
    {
     "code": "ES",
-    "count": 129520
+    "count": 129528
    },
    {
     "code": "ZA",
-    "count": 22848
+    "count": 22849
    },
    {
     "code": "FR",
-    "count": 14644
+    "count": 14646
    },
    {
     "code": "PT",
-    "count": 11129
+    "count": 11172
    },
    {
     "code": "IL",
-    "count": 7704
+    "count": 7705
    },
    {
     "code": "GR",
@@ -244,7 +244,7 @@
    },
    {
     "code": "KE",
-    "count": 2218
+    "count": 2220
    },
    {
     "code": "MA",
@@ -256,7 +256,7 @@
    },
    {
     "code": "RU",
-    "count": 1374
+    "count": 1375
    }
   ]
  },
@@ -283,5 +283,6 @@
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:43.187Z"
 }

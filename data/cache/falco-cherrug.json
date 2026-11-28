@@ -218,31 +218,31 @@
    9,
    12
   ],
-  "worldTotal": 8317,
+  "worldTotal": 8225,
   "topCountries": [
    {
     "code": "RU",
-    "count": 2372
+    "count": 2367
    },
    {
     "code": "KZ",
-    "count": 1286
+    "count": 1268
    },
    {
     "code": "UA",
     "count": 795
    },
    {
-    "code": "MN",
-    "count": 586
+    "code": "HU",
+    "count": 574
    },
    {
-    "code": "HU",
-    "count": 585
+    "code": "MN",
+    "count": 548
    },
    {
     "code": "CN",
-    "count": 448
+    "count": 430
    },
    {
     "code": "DK",
@@ -293,5 +293,6 @@
   "familyKey": 5240,
   "familyDa": "Falke",
   "order": "Falconiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:44.201Z"
 }

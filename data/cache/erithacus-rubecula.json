@@ -2,7 +2,8 @@
  "key": "erithacus-rubecula",
  "name": "Erithacus rubecula",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:56:58.222Z",
+ "fetchedAt": "2026-11-28T03:52:15.966Z",
+ "gbifAt": "2026-11-28T03:52:15.966Z",
  "names": {
   "da": "Rødhals",
   "en": "European robin",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13094,
-  "observations": 199102
+  "observations": 200367
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2022-10-02"
    },
    {
-    "id": 182756745,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/182756745/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/182756745/large.jpeg",
-    "attribution": "(c) VitordaSilva, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/108536490",
-    "place": "4405-685 Vila Nova de Gaia, Portugal",
-    "date": "2022-03-13"
+    "id": 625716296,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/625716296/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/625716296/large.jpg",
+    "attribution": "(c) nicandra711ph, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/343493305",
+    "place": "Berenbostel, 30827 Garbsen, Deutschland",
+    "date": "2026-03-17"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2026-06-23"
    }
   ],
-  "hero": {
-   "id": 104940884,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/104940884/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/104940884/large.jpeg",
-   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/104940884",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 104940884,
@@ -209,74 +200,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 104940884,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/104940884/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/104940884/large.jpeg",
+   "attribution": "(c) naturpel, some rights reserved (CC BY-NC), uploaded by naturpel",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/104940884",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492462,
-  "dkTotal": 390031,
+  "dkTotal": 390519,
   "dkMonths": [
-   41114,
-   27537,
-   43445,
-   63016,
-   30707,
-   20940,
-   10708,
-   9334,
-   25377,
-   49058,
-   40392,
-   28276
+   41116,
+   27543,
+   43451,
+   63035,
+   30714,
+   20945,
+   10710,
+   9338,
+   25402,
+   49084,
+   40826,
+   28277
   ],
-  "worldTotal": 11819473,
+  "worldTotal": 11821766,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1843699
+    "count": 1843975
    },
    {
     "code": "SE",
-    "count": 1763022
+    "count": 1763023
    },
    {
     "code": "FR",
-    "count": 1553217
+    "count": 1553347
    },
    {
     "code": "ES",
-    "count": 1179599
+    "count": 1179695
    },
    {
     "code": "NL",
-    "count": 1075952
+    "count": 1075959
    },
    {
     "code": "DE",
-    "count": 675628
+    "count": 676099
    },
    {
     "code": "FI",
-    "count": 572642
+    "count": 573211
    },
    {
     "code": "NO",
-    "count": 560115
+    "count": 560119
    },
    {
     "code": "DK",
-    "count": 390031
+    "count": 390519
    },
    {
     "code": "PL",
-    "count": 315354
+    "count": 315359
    },
    {
     "code": "BE",
-    "count": 304957
+    "count": 304966
    },
    {
     "code": "CH",
-    "count": 299114
+    "count": 299118
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:28.456Z"
+ }
 }

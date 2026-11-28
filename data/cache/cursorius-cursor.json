@@ -198,11 +198,11 @@
    2,
    0
   ],
-  "worldTotal": 19617,
+  "worldTotal": 19626,
   "topCountries": [
    {
     "code": "ES",
-    "count": 3606
+    "count": 3610
    },
    {
     "code": "IL",
@@ -222,7 +222,7 @@
    },
    {
     "code": "SE",
-    "count": 951
+    "count": 953
    },
    {
     "code": "CV",
@@ -234,7 +234,7 @@
    },
    {
     "code": "OM",
-    "count": 562
+    "count": 564
    },
    {
     "code": "NL",
@@ -273,5 +273,6 @@
   "familyKey": 5245,
   "familyDa": "Ørkenløbere & braksvaler",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:13.720Z"
 }

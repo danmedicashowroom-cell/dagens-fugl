@@ -168,15 +168,15 @@
    0,
    0
   ],
-  "worldTotal": 23719,
+  "worldTotal": 23724,
   "topCountries": [
    {
     "code": "TW",
-    "count": 8229
+    "count": 8230
    },
    {
     "code": "CN",
-    "count": 5385
+    "count": 5387
    },
    {
     "code": "KR",
@@ -184,7 +184,7 @@
    },
    {
     "code": "JP",
-    "count": 2670
+    "count": 2672
    },
    {
     "code": "HK",
@@ -243,5 +243,6 @@
   "familyKey": 5290,
   "familyDa": "Drosler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:08.099Z"
 }

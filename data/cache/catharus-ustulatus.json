@@ -218,27 +218,27 @@
    0,
    0
   ],
-  "worldTotal": 2327958,
+  "worldTotal": 2328018,
   "topCountries": [
    {
     "code": "US",
-    "count": 1611260
+    "count": 1611289
    },
    {
     "code": "CA",
-    "count": 531639
+    "count": 531660
    },
    {
     "code": "CO",
-    "count": 58466
+    "count": 58469
    },
    {
     "code": "CR",
-    "count": 45183
+    "count": 45185
    },
    {
     "code": "EC",
-    "count": 23091
+    "count": 23093
    },
    {
     "code": "PA",
@@ -246,7 +246,7 @@
    },
    {
     "code": "MX",
-    "count": 11687
+    "count": 11689
    },
    {
     "code": "GT",
@@ -262,11 +262,11 @@
    },
    {
     "code": "HN",
-    "count": 3664
+    "count": 3665
    },
    {
     "code": "NI",
-    "count": 2449
+    "count": 2450
    }
   ]
  },
@@ -293,5 +293,6 @@
   "familyKey": 5290,
   "familyDa": "Drosler",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:08.576Z"
 }

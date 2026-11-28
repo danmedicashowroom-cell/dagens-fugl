@@ -198,11 +198,11 @@
    0,
    0
   ],
-  "worldTotal": 243463,
+  "worldTotal": 243473,
   "topCountries": [
    {
     "code": "US",
-    "count": 178726
+    "count": 178732
    },
    {
     "code": "CA",
@@ -234,7 +234,7 @@
    },
    {
     "code": "PE",
-    "count": 109
+    "count": 110
    },
    {
     "code": "NI",
@@ -242,7 +242,7 @@
    },
    {
     "code": "GT",
-    "count": 83
+    "count": 84
    },
    {
     "code": "GB",
@@ -273,5 +273,6 @@
   "familyKey": 9309,
   "familyDa": "Gøge",
   "order": "Cuculiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:54.639Z"
 }

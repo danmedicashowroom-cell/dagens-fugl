@@ -178,55 +178,55 @@
    0,
    0
   ],
-  "worldTotal": 1171250,
+  "worldTotal": 1171467,
   "topCountries": [
    {
     "code": "ES",
-    "count": 330002
+    "count": 330043
    },
    {
     "code": "PT",
-    "count": 201083
+    "count": 201185
    },
    {
     "code": "FR",
-    "count": 156194
+    "count": 156219
    },
    {
     "code": "ZA",
-    "count": 119652
+    "count": 119654
    },
    {
     "code": "IN",
-    "count": 100548
+    "count": 100550
    },
    {
     "code": "TW",
-    "count": 48629
+    "count": 48630
    },
    {
     "code": "IT",
-    "count": 26012
+    "count": 26027
    },
    {
     "code": "JP",
-    "count": 14152
+    "count": 14153
    },
    {
     "code": "NL",
-    "count": 14099
+    "count": 14108
    },
    {
     "code": "TH",
-    "count": 13973
+    "count": 13974
    },
    {
     "code": "IL",
-    "count": 13157
+    "count": 13158
    },
    {
     "code": "GR",
-    "count": 9178
+    "count": 9180
    }
   ]
  },
@@ -253,5 +253,6 @@
   "familyKey": 9293,
   "familyDa": "Cistussangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:50.268Z"
 }

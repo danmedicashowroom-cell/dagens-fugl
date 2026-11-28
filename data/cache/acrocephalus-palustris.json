@@ -2,7 +2,8 @@
  "key": "acrocephalus-palustris",
  "name": "Acrocephalus palustris",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:55:13.525Z",
+ "fetchedAt": "2026-11-28T03:50:38.271Z",
+ "gbifAt": "2026-11-28T03:50:38.271Z",
  "names": {
   "da": "Kærsanger",
   "en": "Marsh Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116802,
-  "observations": 9368
+  "observations": 9398
  },
  "photos": {
   "male": [
@@ -54,18 +55,7 @@
     "date": "2023-06-06"
    }
   ],
-  "female": [
-   {
-    "id": 202021795,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/202021795/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/202021795/large.jpeg",
-    "attribution": "(c) Ярослав, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/119504733",
-    "place": "республика Удмуртия, Россия, 426038",
-    "date": "2022-05-30"
-   }
-  ],
+  "female": [],
   "juvenile": [
    {
     "id": 702048120,
@@ -78,16 +68,6 @@
     "date": "2026-07-20"
    },
    {
-    "id": 46540714,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/46540714/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/46540714/large.jpg",
-    "attribution": "(c) Nelly Semenova, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/29808801",
-    "place": "Северо-Западный административный округ, Москва, Россия",
-    "date": "2019-07-29"
-   },
-   {
     "id": 698291397,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/698291397/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/698291397/large.jpg",
@@ -96,18 +76,18 @@
     "source": "https://www.inaturalist.org/observations/381617171",
     "place": "Павловский р-н, Нижегородская обл., Россия",
     "date": "2026-07-14"
+   },
+   {
+    "id": 46540714,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/46540714/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/46540714/large.jpg",
+    "attribution": "(c) Nelly Semenova, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/29808801",
+    "place": "Северо-Западный административный округ, Москва, Россия",
+    "date": "2019-07-29"
    }
   ],
-  "hero": {
-   "id": 42253420,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/42253420/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/42253420/large.jpeg",
-   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/42253420",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 42253420,
@@ -169,18 +149,28 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 42253420,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/42253420/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/42253420/large.jpeg",
+   "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC), uploaded by Jakob Fahr",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/42253420",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493136,
-  "dkTotal": 82177,
+  "dkTotal": 82179,
   "dkMonths": [
    0,
    0,
    0,
    3,
-   26243,
-   43965,
+   26244,
+   43966,
    9046,
    2619,
    207,
@@ -188,7 +178,7 @@
    3,
    3
   ],
-  "worldTotal": 710861,
+  "worldTotal": 710880,
   "topCountries": [
    {
     "code": "SE",
@@ -196,7 +186,7 @@
    },
    {
     "code": "DK",
-    "count": 82177
+    "count": 82179
    },
    {
     "code": "BE",
@@ -204,7 +194,7 @@
    },
    {
     "code": "NL",
-    "count": 47333
+    "count": 47334
    },
    {
     "code": "CH",
@@ -216,7 +206,7 @@
    },
    {
     "code": "DE",
-    "count": 32763
+    "count": 32764
    },
    {
     "code": "FR",
@@ -232,11 +222,11 @@
    },
    {
     "code": "FI",
-    "count": 18581
+    "count": 18582
    },
    {
     "code": "RU",
-    "count": 11829
+    "count": 11841
    }
   ]
  },
@@ -256,13 +246,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Acrocephalidae",
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:15.599Z"
+ }
 }

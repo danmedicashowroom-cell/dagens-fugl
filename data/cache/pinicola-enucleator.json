@@ -2,7 +2,8 @@
  "key": "pinicola-enucleator",
  "name": "Pinicola enucleator",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:00:03.715Z",
+ "fetchedAt": "2026-11-28T03:55:28.531Z",
+ "gbifAt": "2026-11-28T03:55:28.531Z",
  "names": {
   "da": "Krognæb",
   "en": "Pine Grosbeak",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9771,
-  "observations": 15471
+  "observations": 15641
  },
  "photos": {
   "male": [
@@ -66,6 +67,16 @@
     "date": "2026-01-06"
    },
    {
+    "id": 765289835,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/765289835/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/765289835/large.jpg",
+    "attribution": "(c) Яковлева Полина, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415593579",
+    "place": "г. Каменск-Уральский, Свердловская обл., Россия",
+    "date": "2026-11-19"
+   },
+   {
     "id": 179835654,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/179835654/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/179835654/large.jpg",
@@ -74,16 +85,6 @@
     "source": "https://www.inaturalist.org/observations/106979987",
     "place": "Village Green Park, Ottawa, ON, CA",
     "date": "2022-02-18"
-   },
-   {
-    "id": 113568454,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/113568454/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/113568454/large.jpg",
-    "attribution": "(c) bykvaejki75, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/69919927",
-    "place": "Мамонтовский р-н, Алтайский край, Россия",
-    "date": "2021-02-18"
    }
   ],
   "juvenile": [
@@ -108,26 +109,16 @@
     "date": "2023-11-20"
    },
    {
-    "id": 248174548,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/248174548/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/248174548/large.jpg",
-    "attribution": "(c) Татьяна Абазова, some rights reserved (CC BY-NC)",
+    "id": 325246372,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/325246372/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/325246372/large.jpeg",
+    "attribution": "(c) Dave Drum, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/144580652",
-    "place": "г. Первоуральск, Свердловская обл., Россия",
-    "date": "2022-12-15"
+    "source": "https://www.inaturalist.org/observations/186149146",
+    "place": "Grassy Top Mountain, Washington 99119",
+    "date": "2023-10-03"
    }
   ],
-  "hero": {
-   "id": 605372797,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/605372797/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/605372797/large.jpg",
-   "attribution": "(c) Vasily Kalinichenko, some rights reserved (CC BY-NC), uploaded by Vasily Kalinichenko",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/605372797",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 605372797,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 605372797,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/605372797/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/605372797/large.jpg",
+   "attribution": "(c) Vasily Kalinichenko, some rights reserved (CC BY-NC), uploaded by Vasily Kalinichenko",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/605372797",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2494771,
@@ -228,15 +229,15 @@
    927,
    66
   ],
-  "worldTotal": 513358,
+  "worldTotal": 513454,
   "topCountries": [
    {
     "code": "CA",
-    "count": 250626
+    "count": 250643
    },
    {
     "code": "US",
-    "count": 131363
+    "count": 131375
    },
    {
     "code": "SE",
@@ -244,7 +245,7 @@
    },
    {
     "code": "FI",
-    "count": 28458
+    "count": 28462
    },
    {
     "code": "NO",
@@ -252,7 +253,7 @@
    },
    {
     "code": "RU",
-    "count": 4483
+    "count": 4546
    },
    {
     "code": "DK",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:51.340Z"
+ }
 }

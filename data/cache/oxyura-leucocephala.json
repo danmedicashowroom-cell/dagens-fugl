@@ -228,11 +228,11 @@
    0,
    0
   ],
-  "worldTotal": 57048,
+  "worldTotal": 57066,
   "topCountries": [
    {
     "code": "ES",
-    "count": 39588
+    "count": 39592
    },
    {
     "code": "IL",
@@ -244,11 +244,11 @@
    },
    {
     "code": "TR",
-    "count": 2130
+    "count": 2131
    },
    {
     "code": "DZ",
-    "count": 1107
+    "count": 1119
    },
    {
     "code": "RU",
@@ -303,5 +303,6 @@
   "familyKey": 2986,
   "familyDa": "Andefugle",
   "order": "Anseriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:42.106Z"
 }

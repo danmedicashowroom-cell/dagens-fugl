@@ -2,7 +2,8 @@
  "key": "coccothraustes-coccothraustes",
  "name": "Coccothraustes coccothraustes",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:59:47.583Z",
+ "fetchedAt": "2026-11-28T03:55:11.002Z",
+ "gbifAt": "2026-11-28T03:55:11.002Z",
  "names": {
   "da": "Kernebider",
   "en": "Hawfinch",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9801,
-  "observations": 34244
+  "observations": 34424
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2024-08-05"
    }
   ],
-  "hero": {
-   "id": 113175106,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/113175106/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/113175106/large.jpg",
-   "attribution": "(c) Александр, some rights reserved (CC BY-NC-SA), uploaded by Александр",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/113175106",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 28617721,
@@ -209,26 +200,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 28617721,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28617721/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28617721/large.jpg",
+   "attribution": "(c) Геннадий, some rights reserved (CC BY-NC), uploaded by Геннадий",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/28617721",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2494329,
-  "dkTotal": 110438,
+  "dkTotal": 110518,
   "dkMonths": [
-   13465,
-   12912,
-   18158,
-   15967,
+   13469,
+   12915,
+   18162,
+   15970,
    14869,
-   6767,
+   6770,
    2857,
-   2148,
+   2150,
    2594,
    6790,
-   5894,
+   5956,
    7955
   ],
-  "worldTotal": 1458825,
+  "worldTotal": 1459189,
   "topCountries": [
    {
     "code": "SE",
@@ -236,11 +237,11 @@
    },
    {
     "code": "FR",
-    "count": 198248
+    "count": 198257
    },
    {
     "code": "DE",
-    "count": 148737
+    "count": 148840
    },
    {
     "code": "NL",
@@ -248,35 +249,35 @@
    },
    {
     "code": "DK",
-    "count": 110438
+    "count": 110518
    },
    {
     "code": "NO",
-    "count": 100153
+    "count": 100154
    },
    {
     "code": "ES",
-    "count": 59014
+    "count": 59018
    },
    {
     "code": "PL",
-    "count": 34047
+    "count": 34076
    },
    {
     "code": "CZ",
-    "count": 29133
+    "count": 29136
    },
    {
     "code": "RU",
-    "count": 27078
+    "count": 27120
    },
    {
     "code": "CH",
-    "count": 25453
+    "count": 25455
    },
    {
     "code": "BE",
-    "count": 25041
+    "count": 25042
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:49.242Z"
+ }
 }

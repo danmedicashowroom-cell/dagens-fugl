@@ -228,15 +228,15 @@
    13,
    11
   ],
-  "worldTotal": 1455747,
+  "worldTotal": 1455808,
   "topCountries": [
    {
     "code": "US",
-    "count": 862860
+    "count": 862881
    },
    {
     "code": "CA",
-    "count": 587609
+    "count": 587649
    },
    {
     "code": "JP",
@@ -248,7 +248,7 @@
    },
    {
     "code": "RU",
-    "count": 625
+    "count": 627
    },
    {
     "code": "DK",
@@ -303,5 +303,6 @@
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:25.332Z"
 }

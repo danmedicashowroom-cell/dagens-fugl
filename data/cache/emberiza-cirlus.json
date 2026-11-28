@@ -208,19 +208,19 @@
    28,
    2
   ],
-  "worldTotal": 613848,
+  "worldTotal": 613891,
   "topCountries": [
    {
     "code": "FR",
-    "count": 273539
+    "count": 273555
    },
    {
     "code": "ES",
-    "count": 187129
+    "count": 187138
    },
    {
     "code": "PT",
-    "count": 38602
+    "count": 38604
    },
    {
     "code": "CH",
@@ -228,11 +228,11 @@
    },
    {
     "code": "IT",
-    "count": 20277
+    "count": 20280
    },
    {
     "code": "GR",
-    "count": 18833
+    "count": 18838
    },
    {
     "code": "TR",
@@ -244,11 +244,11 @@
    },
    {
     "code": "DE",
-    "count": 5914
+    "count": 5919
    },
    {
     "code": "BG",
-    "count": 4815
+    "count": 4816
    },
    {
     "code": "HR",
@@ -283,5 +283,6 @@
   "familyKey": 9608,
   "familyDa": "Værlinger",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:28.188Z"
 }

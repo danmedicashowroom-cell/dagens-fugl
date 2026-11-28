@@ -2,7 +2,8 @@
  "key": "hippolais-icterina",
  "name": "Hippolais icterina",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:55:24.127Z",
+ "fetchedAt": "2026-11-28T03:50:49.060Z",
+ "gbifAt": "2026-11-28T03:50:49.060Z",
  "names": {
   "da": "Gulbug",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116918,
-  "observations": 5825
+  "observations": 5838
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2026-05-17"
    },
    {
-    "id": 135677348,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135677348/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135677348/large.jpg",
-    "attribution": "(c) Andrey Gulivanov, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/82652328",
-    "place": "Парк Лесотехнической академии, Санкт-Петербург, Россия",
-    "date": "2021-06-11"
-   },
-   {
     "id": 389317317,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/389317317/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/389317317/large.jpeg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/219923353",
     "place": "Великий Новгород, Новгородская обл., Россия, 173014",
     "date": "2024-06-02"
+   },
+   {
+    "id": 135677348,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135677348/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135677348/large.jpg",
+    "attribution": "(c) Andrey Gulivanov, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/82652328",
+    "place": "Парк Лесотехнической академии, Санкт-Петербург, Россия",
+    "date": "2021-06-11"
    }
   ],
   "female": [],
@@ -77,26 +78,16 @@
     "date": "2024-07-23"
    },
    {
-    "id": 301463880,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/301463880/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/301463880/large.jpg",
-    "attribution": "(c) Анна Салтыкова, some rights reserved (CC BY-NC)",
+    "id": 720601532,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/720601532/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/720601532/large.jpg",
+    "attribution": "(c) yara2012, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/173586420",
-    "place": "Ступинский р-н, Московская обл., Россия",
-    "date": "2023-07-12"
+    "source": "https://www.inaturalist.org/observations/393157876",
+    "place": "Саратовская обл., Россия, 413821",
+    "date": "2026-08-21"
    }
   ],
-  "hero": {
-   "id": 100390771,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/100390771/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/100390771/large.jpg",
-   "attribution": "(c) Radovan Václav, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/100390771",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 100390771,
@@ -148,26 +139,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 100390771,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/100390771/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/100390771/large.jpg",
+   "attribution": "(c) Radovan Václav, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/100390771",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493220,
-  "dkTotal": 74396,
+  "dkTotal": 74403,
   "dkMonths": [
    0,
    0,
    0,
    4,
    31231,
-   28826,
-   9058,
-   4896,
+   28830,
+   9060,
+   4897,
    316,
    1,
    0,
    2
   ],
-  "worldTotal": 541384,
+  "worldTotal": 541397,
   "topCountries": [
    {
     "code": "SE",
@@ -175,7 +176,7 @@
    },
    {
     "code": "DK",
-    "count": 74396
+    "count": 74403
    },
    {
     "code": "NL",
@@ -191,11 +192,11 @@
    },
    {
     "code": "DE",
-    "count": 21701
+    "count": 21702
    },
    {
     "code": "FI",
-    "count": 16828
+    "count": 16830
    },
    {
     "code": "PL",
@@ -207,7 +208,7 @@
    },
    {
     "code": "RU",
-    "count": 8868
+    "count": 8871
    },
    {
     "code": "FR",
@@ -235,13 +236,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Acrocephalidae",
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:16.804Z"
+ }
 }

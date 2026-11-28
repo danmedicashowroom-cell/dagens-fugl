@@ -2,7 +2,8 @@
  "key": "motacilla-cinerea",
  "name": "Motacilla cinerea",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:59:24.682Z",
+ "fetchedAt": "2026-11-28T03:54:48.057Z",
+ "gbifAt": "2026-11-28T03:54:48.058Z",
  "names": {
   "da": "Bjergvipstjert",
   "en": "Grey Wagtail",
@@ -19,20 +20,10 @@
  },
  "inat": {
   "id": 13688,
-  "observations": 54698
+  "observations": 55091
  },
  "photos": {
   "male": [
-   {
-    "id": 743682095,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/743682095/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/743682095/large.jpg",
-    "attribution": "(c) ☮️Momo🇵🇸Proske🏳️‍🌈🏳️‍⚧️, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/404922271",
-    "place": "Rheinland-Pfalz, DE",
-    "date": "2026-10-01"
-   },
    {
     "id": 129685830,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/129685830/medium.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/69641395",
     "place": "Praha 12, Česko",
     "date": "2021-02-11"
+   },
+   {
+    "id": 674385735,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/674385735/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/674385735/large.jpg",
+    "attribution": "(c) dktaro, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/369175892",
+    "place": "本州, 町田市, 東京都, JP",
+    "date": "2026-06-07"
    }
   ],
   "female": [
@@ -108,26 +109,16 @@
     "date": "2025-07-08"
    },
    {
-    "id": 68343277,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/68343277/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/68343277/large.jpeg",
-    "attribution": "(c) Chris Harold, some rights reserved (CC BY-NC)",
+    "id": 287147148,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/287147148/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/287147148/large.jpeg",
+    "attribution": "(c) phobos35, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/43041675",
-    "place": "48210 Sainte-Enimie, France",
-    "date": "2020-04-24"
+    "source": "https://www.inaturalist.org/observations/165854584",
+    "place": "Cergy, France",
+    "date": "2023-05-29"
    }
   ],
-  "hero": {
-   "id": 849468,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/849468/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/849468/large.jpg",
-   "attribution": "(c) kellyr115, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/849468",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 849468,
@@ -159,13 +150,23 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 849468,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/849468/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/849468/large.jpg",
+   "attribution": "(c) kellyr115, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/849468",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490310,
-  "dkTotal": 79963,
+  "dkTotal": 79999,
   "dkMonths": [
-   4125,
+   4126,
    3114,
    11492,
    8174,
@@ -174,15 +175,15 @@
    1632,
    1817,
    13012,
-   19361,
-   4744,
+   19363,
+   4777,
    2821
   ],
-  "worldTotal": 2177441,
+  "worldTotal": 2177770,
   "topCountries": [
    {
     "code": "GB",
-    "count": 296619
+    "count": 296647
    },
    {
     "code": "SE",
@@ -190,27 +191,27 @@
    },
    {
     "code": "ES",
-    "count": 208793
+    "count": 208817
    },
    {
     "code": "FR",
-    "count": 204748
+    "count": 204767
    },
    {
     "code": "IN",
-    "count": 146838
+    "count": 146848
    },
    {
     "code": "TW",
-    "count": 139391
+    "count": 139414
    },
    {
     "code": "PT",
-    "count": 102516
+    "count": 102519
    },
    {
     "code": "NL",
-    "count": 98912
+    "count": 98914
    },
    {
     "code": "NO",
@@ -218,15 +219,15 @@
    },
    {
     "code": "DK",
-    "count": 79963
+    "count": 79999
    },
    {
     "code": "BE",
-    "count": 72953
+    "count": 72954
    },
    {
     "code": "DE",
-    "count": 65944
+    "count": 66011
    }
   ]
  },
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:46.795Z"
+ }
 }

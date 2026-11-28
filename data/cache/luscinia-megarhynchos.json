@@ -2,7 +2,8 @@
  "key": "luscinia-megarhynchos",
  "name": "Luscinia megarhynchos",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:57:09.634Z",
+ "fetchedAt": "2026-11-28T03:52:27.200Z",
+ "gbifAt": "2026-11-28T03:52:27.200Z",
  "names": {
   "da": "Sydlig nattergal",
   "en": "Common Nightingale",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13079,
-  "observations": 18112
+  "observations": 18165
  },
  "photos": {
   "male": [
@@ -56,16 +57,6 @@
   ],
   "female": [
    {
-    "id": 511009681,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/511009681/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/511009681/large.jpg",
-    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/284349456",
-    "place": "Valencia, España",
-    "date": "2025-05-26"
-   },
-   {
     "id": 710243006,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/710243006/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/710243006/large.jpg",
@@ -88,16 +79,6 @@
     "date": "2026-09-10"
    },
    {
-    "id": 704153923,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/704153923/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/704153923/large.jpg",
-    "attribution": "(c) franciscodocampo, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/384663131",
-    "place": "Avda. de Beiramar 1, Vigo, 36202 Vigo, Pontevedra, España",
-    "date": "2026-07-24"
-   },
-   {
     "id": 341306769,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/341306769/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/341306769/large.jpeg",
@@ -106,18 +87,18 @@
     "source": "https://www.inaturalist.org/observations/194206183",
     "place": "42520 Malleval, France",
     "date": "2009-06-17"
+   },
+   {
+    "id": 547966711,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/547966711/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/547966711/large.jpg",
+    "attribution": "(c) carrierlolo, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/303990742",
+    "place": "Rhône-Alpes, FR",
+    "date": "2025-08-05"
    }
   ],
-  "hero": {
-   "id": 389920621,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/389920621/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/389920621/large.jpg",
-   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/389920621",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 389920621,
@@ -199,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 389920621,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/389920621/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/389920621/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/389920621",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 7660710,
@@ -218,15 +209,15 @@
    1,
    0
   ],
-  "worldTotal": 1326023,
+  "worldTotal": 1326065,
   "topCountries": [
    {
     "code": "FR",
-    "count": 424794
+    "count": 424796
    },
    {
     "code": "ES",
-    "count": 333127
+    "count": 333128
    },
    {
     "code": "NL",
@@ -238,11 +229,11 @@
    },
    {
     "code": "DE",
-    "count": 82218
+    "count": 82222
    },
    {
     "code": "PT",
-    "count": 59499
+    "count": 59523
    },
    {
     "code": "BE",
@@ -258,7 +249,7 @@
    },
    {
     "code": "IT",
-    "count": 17791
+    "count": 17795
    },
    {
     "code": "GR",
@@ -286,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:29.385Z"
+ }
 }

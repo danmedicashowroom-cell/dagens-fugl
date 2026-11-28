@@ -2,7 +2,8 @@
  "key": "anthus-campestris",
  "name": "Anthus campestris",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:55.736Z",
+ "fetchedAt": "2026-11-28T03:54:19.025Z",
+ "gbifAt": "2026-11-28T03:54:19.025Z",
  "names": {
   "da": "Markpiber",
   "en": "Tawny Pipit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13712,
-  "observations": 5699
+  "observations": 5741
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2021-05-07"
    },
    {
-    "id": 667642790,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/667642790/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/667642790/large.jpg",
-    "attribution": "(c) Евгений Попов, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/365667167",
-    "place": "Ясненский р-н, Оренбургская обл., Россия",
-    "date": "2026-05-24"
-   },
-   {
     "id": 311671405,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/311671405/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/311671405/large.jpeg",
@@ -108,26 +99,16 @@
     "date": "2025-08-10"
    },
    {
-    "id": 423286861,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/423286861/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/423286861/large.jpg",
-    "attribution": "(c) euqirneto, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/237810093",
-    "place": "Los Tremellos, Burgos, España",
-    "date": "2024-08-11"
+    "id": 352255586,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/352255586/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/352255586/large.jpg",
+    "attribution": "(c) Riccardo Molajoli, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/199721217",
+    "place": "Vado di Pezza",
+    "date": "2021-08-23"
    }
   ],
-  "hero": {
-   "id": 650037342,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/650037342/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/650037342/large.jpg",
-   "attribution": "(c) Johannes S., some rights reserved (CC BY), uploaded by Johannes S.",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/650037342",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 650037342,
@@ -209,7 +190,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 650037342,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/650037342/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/650037342/large.jpg",
+   "attribution": "(c) Johannes Anton Salcher, some rights reserved (CC BY), uploaded by Johannes Anton Salcher",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/650037342",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490274,
@@ -228,19 +219,19 @@
    0,
    0
   ],
-  "worldTotal": 192254,
+  "worldTotal": 192277,
   "topCountries": [
    {
     "code": "FR",
-    "count": 46496
+    "count": 46503
    },
    {
     "code": "ES",
-    "count": 32767
+    "count": 32773
    },
    {
     "code": "IN",
-    "count": 19124
+    "count": 19126
    },
    {
     "code": "SE",
@@ -252,7 +243,7 @@
    },
    {
     "code": "PT",
-    "count": 7031
+    "count": 7033
    },
    {
     "code": "IL",
@@ -296,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:44.076Z"
+ }
 }

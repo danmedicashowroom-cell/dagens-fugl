@@ -2,7 +2,8 @@
  "key": "passer-montanus",
  "name": "Passer montanus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:23.716Z",
+ "fetchedAt": "2026-11-28T03:53:42.072Z",
+ "gbifAt": "2026-11-28T03:53:42.072Z",
  "names": {
   "da": "Skovspurv",
   "en": "Eurasian Tree Sparrow",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13851,
-  "observations": 163604
+  "observations": 164793
  },
  "photos": {
   "male": [
@@ -76,14 +77,14 @@
     "date": "2021-05-01"
    },
    {
-    "id": 578683796,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/578683796/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/578683796/large.jpg",
-    "attribution": "(c) Nick Carter, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/320096364",
-    "place": "Agios Nikolaos, Greece",
-    "date": "2025-10-02"
+    "id": 106440976,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/106440976/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/106440976/large.jpeg",
+    "attribution": "(c) Altavia Kamila Putri, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/66074436",
+    "place": "Kabupaten Kubu Raya, Kalimantan Barat, Indonesia",
+    "date": "2020-12-01"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2025-06-27"
    }
   ],
-  "hero": {
-   "id": 165351252,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/large.jpg",
-   "attribution": "(c) Дмитрий Осипов, some rights reserved (CC BY-NC), uploaded by Дмитрий Осипов",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/165351252",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 165351252,
@@ -179,74 +170,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 165351252,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/large.jpg",
+   "attribution": "(c) Дмитрий Осипов, some rights reserved (CC BY-NC), uploaded by Дмитрий Осипов",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/165351252",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231198,
-  "dkTotal": 221777,
+  "dkTotal": 221983,
   "dkMonths": [
-   26272,
-   19011,
-   21352,
+   26273,
+   19014,
+   21354,
    20426,
-   20561,
-   17058,
-   16096,
+   20562,
+   17060,
+   16097,
    16293,
    15142,
-   19469,
-   14791,
+   19476,
+   14980,
    15241
   ],
-  "worldTotal": 4515429,
+  "worldTotal": 4516499,
   "topCountries": [
    {
     "code": "SE",
-    "count": 694586
+    "count": 694593
    },
    {
     "code": "TW",
-    "count": 555802
+    "count": 555848
    },
    {
     "code": "NO",
-    "count": 335864
+    "count": 335866
    },
    {
     "code": "DE",
-    "count": 296324
+    "count": 296369
    },
    {
     "code": "ES",
-    "count": 284096
+    "count": 284101
    },
    {
     "code": "DK",
-    "count": 221777
+    "count": 221983
    },
    {
     "code": "FI",
-    "count": 162169
+    "count": 162312
    },
    {
     "code": "JP",
-    "count": 154392
+    "count": 154463
    },
    {
     "code": "NL",
-    "count": 146835
+    "count": 146836
    },
    {
     "code": "GB",
-    "count": 136510
+    "count": 136513
    },
    {
     "code": "RU",
-    "count": 128924
+    "count": 129225
    },
    {
     "code": "CN",
-    "count": 127852
+    "count": 127906
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Passeridae",
   "familyKey": 5264,
   "familyDa": "Spurve",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:38.675Z"
+ }
 }

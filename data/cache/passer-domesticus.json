@@ -2,7 +2,8 @@
  "key": "passer-domesticus",
  "name": "Passer domesticus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:18.422Z",
+ "fetchedAt": "2026-11-28T03:53:36.831Z",
+ "gbifAt": "2026-11-28T03:53:36.831Z",
  "names": {
   "da": "Gråspurv",
   "en": "House Sparrow",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13858,
-  "observations": 581581
+  "observations": 585031
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2022-07-09"
    },
    {
-    "id": 7393761,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/7393761/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/7393761/large.jpeg",
-    "attribution": "(c) amandaandmike, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/5925501",
-    "place": "Upper East Side, New York, NY, USA",
-    "date": "2017-04-23"
-   },
-   {
     "id": 251362637,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/251362637/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/251362637/large.jpeg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/146231812",
     "place": "Comunidad de Madrid, ES-MD-MD, ES",
     "date": "2023-01-09"
+   },
+   {
+    "id": 188813127,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/188813127/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/188813127/large.jpg",
+    "attribution": "(c) Абакумов Николай Викторович, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/111819801",
+    "place": "Павлово, Нижегородская обл., Россия",
+    "date": "2022-04-17"
    }
   ],
   "female": [
@@ -76,14 +77,14 @@
     "date": "2022-04-07"
    },
    {
-    "id": 472853858,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/472853858/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/472853858/large.jpg",
-    "attribution": "(c) Mickey, some rights reserved (CC BY-NC)",
+    "id": 195340755,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195340755/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195340755/large.jpeg",
+    "attribution": "(c) marrequena09, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/263231419",
-    "place": "Al Shorouk City, El Shorouk, Cairo Governorate, Egypt",
-    "date": "2022-05-04"
+    "source": "https://www.inaturalist.org/observations/115739186",
+    "place": "La Barceloneta, Barcelona, Spain",
+    "date": "2021-08-11"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2022-09-10"
    }
   ],
-  "hero": {
-   "id": 4608133,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/large.jpg",
-   "attribution": "(c) Ximo Galarza, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/4608133",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 136543105,
@@ -199,74 +190,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 136543105,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/136543105/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/136543105/large.jpeg",
+   "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/136543105",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231190,
-  "dkTotal": 155974,
+  "dkTotal": 156110,
   "dkMonths": [
    16361,
    11763,
-   14642,
+   14646,
    16591,
-   18561,
-   15811,
-   13382,
+   18562,
+   15813,
+   13384,
    11848,
    9688,
-   10743,
-   8001,
+   10744,
+   8127,
    8497
   ],
-  "worldTotal": 26519291,
+  "worldTotal": 26521553,
   "topCountries": [
    {
     "code": "US",
-    "count": 13500255
+    "count": 13500953
    },
    {
     "code": "CA",
-    "count": 2053462
+    "count": 2053559
    },
    {
     "code": "ES",
-    "count": 1325312
+    "count": 1325405
    },
    {
     "code": "FR",
-    "count": 1280823
+    "count": 1280877
    },
    {
     "code": "GB",
-    "count": 990093
+    "count": 990143
    },
    {
     "code": "NL",
-    "count": 731238
+    "count": 731242
    },
    {
     "code": "AU",
-    "count": 676859
+    "count": 676926
    },
    {
     "code": "DE",
-    "count": 599639
+    "count": 599849
    },
    {
     "code": "IN",
-    "count": 472749
+    "count": 472768
    },
    {
     "code": "PT",
-    "count": 446759
+    "count": 446870
    },
    {
     "code": "SE",
-    "count": 421394
+    "count": 421400
    },
    {
     "code": "NO",
-    "count": 420699
+    "count": 420710
    }
   ]
  },
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Passeridae",
   "familyKey": 5264,
   "familyDa": "Spurve",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:38.063Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "anthus-spinoletta",
  "name": "Anthus spinoletta",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:50.396Z",
+ "fetchedAt": "2026-11-28T03:54:13.896Z",
+ "gbifAt": "2026-11-28T03:54:13.896Z",
  "names": {
   "da": "Bjergpiber",
   "en": "Water Pipit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13713,
-  "observations": 13127
+  "observations": 13232
  },
  "photos": {
   "male": [
@@ -77,26 +78,16 @@
     "date": "2022-06-30"
    },
    {
-    "id": 614698887,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/614698887/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/614698887/large.jpg",
-    "attribution": "(c) Emmanuel Pritzer, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/338060755",
-    "place": "06430 Tende, France",
-    "date": "2025-08-04"
+    "id": 628611698,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/628611698/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/628611698/large.jpg",
+    "attribution": "(c) euqirneto, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/344971892",
+    "place": "Burgos, España",
+    "date": "2026-03-21"
    }
   ],
-  "hero": {
-   "id": 3225661,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3225661/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3225661/large.jpg",
-   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/3225661",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 3225661,
@@ -138,11 +129,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 3225661,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/3225661/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/3225661/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/3225661",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490255,
-  "dkTotal": 11034,
+  "dkTotal": 11049,
   "dkMonths": [
    2775,
    1866,
@@ -154,10 +155,10 @@
    2,
    6,
    1052,
-   2379,
+   2394,
    1630
   ],
-  "worldTotal": 537998,
+  "worldTotal": 538091,
   "topCountries": [
    {
     "code": "CH",
@@ -165,11 +166,11 @@
    },
    {
     "code": "FR",
-    "count": 88535
+    "count": 88546
    },
    {
     "code": "ES",
-    "count": 71771
+    "count": 71785
    },
    {
     "code": "NL",
@@ -181,11 +182,11 @@
    },
    {
     "code": "IT",
-    "count": 19668
+    "count": 19677
    },
    {
     "code": "GB",
-    "count": 18243
+    "count": 18244
    },
    {
     "code": "IL",
@@ -193,11 +194,11 @@
    },
    {
     "code": "DE",
-    "count": 14168
+    "count": 14184
    },
    {
     "code": "AT",
-    "count": 13654
+    "count": 13661
    },
    {
     "code": "SE",
@@ -205,7 +206,7 @@
    },
    {
     "code": "DK",
-    "count": 11034
+    "count": 11049
    }
   ]
  },
@@ -225,13 +226,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:43.576Z"
+ }
 }

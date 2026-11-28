@@ -2,7 +2,8 @@
  "key": "prunella-modularis",
  "name": "Prunella modularis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:12.956Z",
+ "fetchedAt": "2026-11-28T03:53:30.509Z",
+ "gbifAt": "2026-11-28T03:53:30.509Z",
  "names": {
   "da": "Jernspurv",
   "en": "Dunnock",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13988,
-  "observations": 46971
+  "observations": 47236
  },
  "photos": {
   "male": [
@@ -44,17 +45,27 @@
     "date": "2021-04-16"
    },
    {
-    "id": 67941057,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67941057/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67941057/large.jpeg",
-    "attribution": "(c) Pavel Kacl, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/42790583",
-    "place": "266 01 Beroun, Česko",
-    "date": "2020-04-18"
+    "id": 370385855,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/370385855/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/370385855/large.jpg",
+    "attribution": "(c) Sym, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/209298255",
+    "place": "Paderborn, DE-NW, DE",
+    "date": "2024-04-06"
    }
   ],
   "female": [
+   {
+    "id": 764994370,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/764994370/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/764994370/large.jpg",
+    "attribution": "(c) maximus_minae_, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415448996",
+    "place": "Francheville Le Haut, 69340 Lyon, France",
+    "date": "2026-11-18"
+   },
    {
     "id": 181414479,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/181414479/medium.jpeg",
@@ -74,16 +85,6 @@
     "source": "https://www.inaturalist.org/observations/201161888",
     "place": "Leicestershire, UK",
     "date": "2023-05-16"
-   },
-   {
-    "id": 646338835,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/646338835/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/646338835/large.jpg",
-    "attribution": "(c) Åge Blomstadli, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/354289757",
-    "place": "Drangedal, Norge",
-    "date": "2026-04-26"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2024-02-17"
    }
   ],
-  "hero": {
-   "id": 409496277,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/409496277/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/409496277/large.jpg",
-   "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/409496277",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 409496277,
@@ -199,70 +190,80 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 409496277,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/409496277/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/409496277/large.jpg",
+   "attribution": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/409496277",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231763,
-  "dkTotal": 218388,
+  "dkTotal": 218483,
   "dkMonths": [
    8242,
    6573,
-   35513,
-   56392,
-   31652,
-   16962,
-   7707,
-   5473,
-   18513,
-   19415,
-   6600,
+   35521,
+   56397,
+   31654,
+   16966,
+   7708,
+   5475,
+   18524,
+   19419,
+   6661,
    5282
   ],
-  "worldTotal": 4272414,
+  "worldTotal": 4272928,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1089939
+    "count": 1090026
    },
    {
     "code": "FR",
-    "count": 542616
+    "count": 542660
    },
    {
     "code": "SE",
-    "count": 530421
+    "count": 530423
    },
    {
     "code": "NL",
-    "count": 502450
+    "count": 502454
    },
    {
     "code": "FI",
-    "count": 242905
+    "count": 243046
    },
    {
     "code": "DK",
-    "count": 218388
+    "count": 218483
    },
    {
     "code": "DE",
-    "count": 197931
+    "count": 198018
    },
    {
     "code": "BE",
-    "count": 194093
+    "count": 194097
    },
    {
     "code": "NO",
-    "count": 165609
+    "count": 165610
    },
    {
     "code": "ES",
-    "count": 131749
+    "count": 131753
    },
    {
     "code": "NZ",
-    "count": 113648
+    "count": 113652
    },
    {
     "code": "CH",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Prunellidae",
   "familyKey": 5273,
   "familyDa": "Jernspurve",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:37.553Z"
+ }
 }

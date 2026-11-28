@@ -208,11 +208,11 @@
    0,
    0
   ],
-  "worldTotal": 55993,
+  "worldTotal": 55997,
   "topCountries": [
    {
     "code": "GR",
-    "count": 15594
+    "count": 15597
    },
    {
     "code": "IL",
@@ -220,7 +220,7 @@
    },
    {
     "code": "TR",
-    "count": 10382
+    "count": 10383
    },
    {
     "code": "CY",
@@ -283,5 +283,6 @@
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:17.759Z"
 }

@@ -188,7 +188,7 @@
    0,
    0
   ],
-  "worldTotal": 60394,
+  "worldTotal": 60404,
   "topCountries": [
    {
     "code": "AU",
@@ -200,7 +200,7 @@
    },
    {
     "code": "CN",
-    "count": 4574
+    "count": 4576
    },
    {
     "code": "JP",
@@ -212,15 +212,15 @@
    },
    {
     "code": "RU",
-    "count": 2805
+    "count": 2806
    },
    {
     "code": "SG",
-    "count": 2626
+    "count": 2628
    },
    {
     "code": "KR",
-    "count": 2176
+    "count": 2180
    },
    {
     "code": "HK",
@@ -228,7 +228,7 @@
    },
    {
     "code": "MN",
-    "count": 2014
+    "count": 2015
    },
    {
     "code": "ID",
@@ -263,5 +263,6 @@
   "familyKey": 2993,
   "familyDa": "Sejlere",
   "order": "Apodiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:34.712Z"
 }

@@ -167,7 +167,7 @@
    251,
    132
   ],
-  "worldTotal": 9961,
+  "worldTotal": 9965,
   "topCountries": [
    {
     "code": "CN",
@@ -175,7 +175,7 @@
    },
    {
     "code": "SE",
-    "count": 2149
+    "count": 2151
    },
    {
     "code": "KR",
@@ -191,7 +191,7 @@
    },
    {
     "code": "RU",
-    "count": 607
+    "count": 609
    },
    {
     "code": "MN",
@@ -242,5 +242,6 @@
   "familyKey": 5273,
   "familyDa": "Jernspurve",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:22.058Z"
 }

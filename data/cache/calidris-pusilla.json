@@ -188,15 +188,15 @@
    0,
    0
   ],
-  "worldTotal": 1078792,
+  "worldTotal": 1078828,
   "topCountries": [
    {
     "code": "US",
-    "count": 788580
+    "count": 788600
    },
    {
     "code": "CA",
-    "count": 214208
+    "count": 214222
    },
    {
     "code": "PR",
@@ -204,7 +204,7 @@
    },
    {
     "code": "CR",
-    "count": 5317
+    "count": 5318
    },
    {
     "code": "PE",
@@ -224,7 +224,7 @@
    },
    {
     "code": "MX",
-    "count": 3402
+    "count": 3403
    },
    {
     "code": "BB",
@@ -263,5 +263,6 @@
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:12.383Z"
 }

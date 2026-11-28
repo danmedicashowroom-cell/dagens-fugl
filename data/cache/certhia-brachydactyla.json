@@ -2,7 +2,8 @@
  "key": "certhia-brachydactyla",
  "name": "Certhia brachydactyla",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:55:45.762Z",
+ "fetchedAt": "2026-11-28T03:51:12.828Z",
+ "gbifAt": "2026-11-28T03:51:12.828Z",
  "names": {
   "da": "Korttået træløber",
   "en": "Short-toed Treecreeper",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7462,
-  "observations": 19525
+  "observations": 19629
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2023-07-06"
    },
    {
-    "id": 534427534,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/534427534/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/534427534/large.jpg",
-    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/296782661",
-    "place": "Alicante, España",
-    "date": "2025-07-10"
-   },
-   {
     "id": 454892666,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/454892666/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/454892666/large.jpeg",
@@ -84,19 +75,19 @@
     "source": "https://www.inaturalist.org/observations/254009276",
     "place": "Alicante, España",
     "date": "2024-12-03"
+   },
+   {
+    "id": 534427534,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/534427534/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/534427534/large.jpg",
+    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/296782661",
+    "place": "Alicante, España",
+    "date": "2025-07-10"
    }
   ],
   "juvenile": [
-   {
-    "id": 392797964,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/392797964/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/392797964/large.jpg",
-    "attribution": "(c) gerardbertrand, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/221785286",
-    "place": "Route de Villechétive, Dixmont, Bourgogne-Franche-Comté, FR",
-    "date": "2024-06-10"
-   },
    {
     "id": 570018497,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/570018497/medium.jpg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/235747716",
     "place": "Alicante, España",
     "date": "2016-08-14"
+   },
+   {
+    "id": 699028676,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/699028676/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/699028676/large.jpg",
+    "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/381999888",
+    "place": "Alicante, España",
+    "date": "2026-07-16"
    }
   ],
-  "hero": {
-   "id": 6260571,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/6260571/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/6260571/large.jpg",
-   "attribution": "(c) Ina Siebert, some rights reserved (CC BY-NC), uploaded by Ina Siebert",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/6260571",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 6260571,
@@ -159,42 +150,52 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 6260571,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/6260571/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/6260571/large.jpg",
+   "attribution": "(c) Ina Siebert, some rights reserved (CC BY-NC), uploaded by Ina Siebert",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/6260571",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 7806848,
-  "dkTotal": 53583,
+  "dkTotal": 53633,
   "dkMonths": [
    4561,
    5795,
    10337,
    8248,
    5975,
-   3195,
-   2134,
-   2482,
+   3196,
+   2135,
+   2483,
    2977,
    3032,
-   2558,
+   2605,
    2271
   ],
-  "worldTotal": 1979431,
+  "worldTotal": 1979595,
   "topCountries": [
    {
     "code": "NL",
-    "count": 614203
+    "count": 614206
    },
    {
     "code": "FR",
-    "count": 423467
+    "count": 423479
    },
    {
     "code": "ES",
-    "count": 310281
+    "count": 310288
    },
    {
     "code": "DE",
-    "count": 169922
+    "count": 169992
    },
    {
     "code": "BE",
@@ -202,7 +203,7 @@
    },
    {
     "code": "PT",
-    "count": 102861
+    "count": 102869
    },
    {
     "code": "CH",
@@ -210,15 +211,15 @@
    },
    {
     "code": "DK",
-    "count": 53583
+    "count": 53633
    },
    {
     "code": "IT",
-    "count": 29753
+    "count": 29759
    },
    {
     "code": "PL",
-    "count": 19180
+    "count": 19181
    },
    {
     "code": "CZ",
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Certhiidae",
   "familyKey": 5227,
   "familyDa": "Træløbere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:19.456Z"
+ }
 }

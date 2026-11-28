@@ -198,19 +198,19 @@
    90,
    0
   ],
-  "worldTotal": 295109,
+  "worldTotal": 295196,
   "topCountries": [
    {
     "code": "AI",
-    "count": 118051
+    "count": 118060
    },
    {
     "code": "US",
-    "count": 36297
+    "count": 36308
    },
    {
     "code": "AU",
-    "count": 25949
+    "count": 25951
    },
    {
     "code": "BQ",
@@ -218,11 +218,11 @@
    },
    {
     "code": "BR",
-    "count": 11509
+    "count": 11516
    },
    {
     "code": "MF",
-    "count": 9856
+    "count": 9864
    },
    {
     "code": "PR",
@@ -230,11 +230,11 @@
    },
    {
     "code": "VI",
-    "count": 4798
+    "count": 4799
    },
    {
     "code": "TW",
-    "count": 4791
+    "count": 4792
    },
    {
     "code": "CO",
@@ -242,11 +242,11 @@
    },
    {
     "code": "VG",
-    "count": 2833
+    "count": 2834
    },
    {
     "code": "SX",
-    "count": 2465
+    "count": 2468
    }
   ]
  },
@@ -273,5 +273,6 @@
   "familyKey": 9351,
   "familyDa": "Suler",
   "order": "Suliformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:30.928Z"
 }

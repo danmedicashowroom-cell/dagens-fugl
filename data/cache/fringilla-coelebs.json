@@ -2,7 +2,8 @@
  "key": "fringilla-coelebs",
  "name": "Fringilla coelebs",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:59:36.206Z",
+ "fetchedAt": "2026-11-28T03:54:59.431Z",
+ "gbifAt": "2026-11-28T03:54:59.431Z",
  "names": {
   "da": "Bogfinke",
   "en": "Eurasian Chaffinch",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 10070,
-  "observations": 213898
+  "observations": 214919
  },
  "photos": {
   "male": [
@@ -88,26 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 211434258,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/211434258/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/211434258/large.jpeg",
-    "attribution": "(c) Daniel Capilla, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/124725155",
-    "place": "Parque Forestal de Gibralfaro, Málaga, España",
-    "date": "2022-07-04"
-   },
-   {
-    "id": 528046889,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/528046889/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/528046889/large.jpg",
-    "attribution": "(c) Ramunė Vakarė, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/293381525",
-    "place": "Eičiai, 73145 Tauragės r. sav., Lietuva",
-    "date": "2025-06-28"
-   },
-   {
     "id": 602505877,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/602505877/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/602505877/large.jpg",
@@ -116,18 +97,28 @@
     "source": "https://www.inaturalist.org/observations/332046485",
     "place": "Франківський район, Львів, Львівська область, Україна, 79000",
     "date": "2017-05-11"
+   },
+   {
+    "id": 142061463,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/142061463/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/142061463/large.jpeg",
+    "attribution": "(c) Александр Васильев, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/86251912",
+    "place": "Новгородский р-н, Новгородская обл., Россия",
+    "date": "2021-07-09"
+   },
+   {
+    "id": 233607040,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/233607040/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/233607040/large.jpeg",
+    "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/128319912",
+    "place": "Pietroasa, RO-BH, RO",
+    "date": "2022-07-26"
    }
   ],
-  "hero": {
-   "id": 151143058,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/151143058/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/151143058/large.jpg",
-   "attribution": "(c) Jonny Andrews, some rights reserved (CC BY-NC), uploaded by Jonny Andrews",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/151143058",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 151143058,
@@ -189,74 +180,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 151143058,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/151143058/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/151143058/large.jpg",
+   "attribution": "(c) Jonny Andrews, some rights reserved (CC BY-NC), uploaded by Jonny Andrews",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/151143058",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2494422,
-  "dkTotal": 541546,
+  "dkTotal": 542109,
   "dkMonths": [
-   44981,
-   38038,
-   77564,
-   82662,
-   73720,
-   50302,
+   44985,
+   38044,
+   77572,
+   82666,
+   73721,
+   50312,
    25041,
-   14310,
-   30916,
-   44937,
-   30079,
-   28904
+   14312,
+   30922,
+   44942,
+   30599,
+   28905
   ],
-  "worldTotal": 11277514,
+  "worldTotal": 11279161,
   "topCountries": [
    {
     "code": "FR",
-    "count": 1822145
+    "count": 1822230
    },
    {
     "code": "SE",
-    "count": 1327011
+    "count": 1327014
    },
    {
     "code": "NL",
-    "count": 1151997
+    "count": 1152002
    },
    {
     "code": "GB",
-    "count": 1095968
+    "count": 1096051
    },
    {
     "code": "ES",
-    "count": 838680
+    "count": 838722
    },
    {
     "code": "DE",
-    "count": 680884
+    "count": 681223
    },
    {
     "code": "FI",
-    "count": 626962
+    "count": 627079
    },
    {
     "code": "CH",
-    "count": 579278
+    "count": 579284
    },
    {
     "code": "NO",
-    "count": 564673
+    "count": 564674
    },
    {
     "code": "DK",
-    "count": 541546
+    "count": 542109
    },
    {
     "code": "BE",
-    "count": 364813
+    "count": 364814
    },
    {
     "code": "NZ",
-    "count": 258181
+    "count": 258209
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:48.235Z"
+ }
 }

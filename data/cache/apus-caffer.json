@@ -158,11 +158,11 @@
    0,
    0
   ],
-  "worldTotal": 197154,
+  "worldTotal": 197237,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 169068
+    "count": 169145
    },
    {
     "code": "KE",
@@ -170,7 +170,7 @@
    },
    {
     "code": "UG",
-    "count": 3649
+    "count": 3654
    },
    {
     "code": "TZ",
@@ -233,5 +233,6 @@
   "familyKey": 2993,
   "familyDa": "Sejlere",
   "order": "Apodiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:35.563Z"
 }

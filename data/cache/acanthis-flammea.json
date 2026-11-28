@@ -2,7 +2,8 @@
  "key": "acanthis-flammea",
  "name": "Acanthis flammea",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:00:32.193Z",
+ "fetchedAt": "2026-11-28T03:55:50.667Z",
+ "gbifAt": "2026-11-28T03:55:50.667Z",
  "names": {
   "da": "Gråsisken",
   "en": "Redpoll",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 145300,
-  "observations": 47090
+  "observations": 47340
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2009-08-14"
    }
   ],
-  "hero": {
-   "id": 226173,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/226173/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/226173/large.jpg",
-   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/226173",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 226173,
@@ -209,58 +200,68 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 226173,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/226173/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/226173/large.jpg",
+   "attribution": "(c) Bill Bouton, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/226173",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231630,
-  "dkTotal": 125087,
+  "dkTotal": 125347,
   "dkMonths": [
-   11145,
-   8229,
+   11147,
+   8231,
    12508,
-   17161,
+   17162,
    13898,
    7362,
-   6386,
-   3049,
-   4504,
-   15763,
-   15272,
+   6387,
+   3051,
+   4505,
+   15764,
+   15528,
    9753
   ],
-  "worldTotal": 3309950,
+  "worldTotal": 3312717,
   "topCountries": [
    {
     "code": "SE",
-    "count": 899656
+    "count": 899657
    },
    {
     "code": "FI",
-    "count": 597827
+    "count": 600136
    },
    {
     "code": "CA",
-    "count": 504752
+    "count": 504756
    },
    {
     "code": "US",
-    "count": 395389
+    "count": 395413
    },
    {
     "code": "NO",
-    "count": 308811
+    "count": 308812
    },
    {
     "code": "GB",
-    "count": 131464
+    "count": 131467
    },
    {
     "code": "DK",
-    "count": 125087
+    "count": 125347
    },
    {
     "code": "NZ",
-    "count": 57473
+    "count": 57480
    },
    {
     "code": "AX",
@@ -268,15 +269,15 @@
    },
    {
     "code": "NL",
-    "count": 38600
+    "count": 38601
    },
    {
     "code": "IS",
-    "count": 36836
+    "count": 36837
    },
    {
     "code": "RU",
-    "count": 35899
+    "count": 36010
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:54.365Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "ficedula-albicollis",
  "name": "Ficedula albicollis",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:57:38.219Z",
+ "fetchedAt": "2026-11-28T03:52:55.788Z",
+ "gbifAt": "2026-11-28T03:52:55.788Z",
  "names": {
   "da": "Hvidhalset fluesnapper",
   "en": "Collared Flycatcher",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13133,
-  "observations": 4619
+  "observations": 4647
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2026-03-29"
    },
    {
-    "id": 40138482,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/40138482/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/40138482/large.jpg",
-    "attribution": "(c) romanvrbicek, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/25881935",
-    "place": "Rýmařov, Česko",
-    "date": "2019-05-24"
-   },
-   {
     "id": 648575216,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/648575216/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/648575216/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/355645761",
     "place": "Buda Landscape Protection Area, Budapest 2071 Solymár köz, 1037 Hungary",
     "date": "2026-04-26"
+   },
+   {
+    "id": 40138482,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/40138482/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/40138482/large.jpg",
+    "attribution": "(c) romanvrbicek, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/25881935",
+    "place": "Rýmařov, Česko",
+    "date": "2019-05-24"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2026-07-11"
    }
   ],
-  "hero": {
-   "id": 28506485,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28506485/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28506485/large.jpg",
-   "attribution": "(c) ruzovdmitry, some rights reserved (CC BY-NC), uploaded by ruzovdmitry",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/28506485",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 28506485,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 28506485,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28506485/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28506485/large.jpg",
+   "attribution": "(c) ruzovdmitry, some rights reserved (CC BY-NC), uploaded by ruzovdmitry",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/28506485",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492601,
@@ -198,7 +199,7 @@
    0,
    0
   ],
-  "worldTotal": 209360,
+  "worldTotal": 209365,
   "topCountries": [
    {
     "code": "SE",
@@ -222,7 +223,7 @@
    },
    {
     "code": "FR",
-    "count": 3663
+    "count": 3664
    },
    {
     "code": "TR",
@@ -230,7 +231,7 @@
    },
    {
     "code": "DE",
-    "count": 3302
+    "count": 3303
    },
    {
     "code": "GR",
@@ -238,7 +239,7 @@
    },
    {
     "code": "RU",
-    "count": 2808
+    "count": 2810
    },
    {
     "code": "HU",
@@ -246,7 +247,7 @@
    },
    {
     "code": "AT",
-    "count": 1768
+    "count": 1769
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:32.028Z"
+ }
 }

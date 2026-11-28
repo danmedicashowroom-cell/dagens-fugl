@@ -143,55 +143,55 @@
    0,
    0
   ],
-  "worldTotal": 825981,
+  "worldTotal": 826424,
   "topCountries": [
    {
     "code": "US",
-    "count": 295485
+    "count": 295690
    },
    {
     "code": "AU",
-    "count": 120260
+    "count": 120293
    },
    {
     "code": "NZ",
-    "count": 75038
+    "count": 75079
    },
    {
     "code": "IN",
-    "count": 31464
+    "count": 31466
    },
    {
     "code": "ZA",
-    "count": 28719
+    "count": 28737
    },
    {
     "code": "MX",
-    "count": 24111
+    "count": 24133
    },
    {
     "code": "AR",
-    "count": 21642
+    "count": 21645
    },
    {
     "code": "CL",
-    "count": 21287
+    "count": 21291
    },
    {
     "code": "TH",
-    "count": 13863
+    "count": 13866
    },
    {
     "code": "CR",
-    "count": 12078
+    "count": 12080
    },
    {
     "code": "BR",
-    "count": 9268
+    "count": 9272
    },
    {
     "code": "PE",
-    "count": 9150
+    "count": 9152
    }
   ]
  },
@@ -204,5 +204,6 @@
   "familyKey": 2480210,
   "familyDa": "Brokfugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:02.507Z"
 }

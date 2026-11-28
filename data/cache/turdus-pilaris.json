@@ -2,7 +2,8 @@
  "key": "turdus-pilaris",
  "name": "Turdus pilaris",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:56:39.114Z",
+ "fetchedAt": "2026-11-28T03:51:59.622Z",
+ "gbifAt": "2026-11-28T03:51:59.622Z",
  "names": {
   "da": "Sjagger",
   "en": "Fieldfare",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12707,
-  "observations": 106238
+  "observations": 106775
  },
  "photos": {
   "male": [
@@ -66,14 +67,14 @@
     "date": "2025-08-02"
    },
    {
-    "id": 135247520,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/135247520/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/135247520/large.jpeg",
-    "attribution": "(c) Pavel Borodin, some rights reserved (CC BY)",
+    "id": 747466941,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/747466941/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/747466941/large.jpg",
+    "attribution": "(c) Edoardo Nardelli, some rights reserved (CC BY)",
     "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/82406313",
-    "place": "Новосибирская обл., Россия, 630090",
-    "date": "2021-06-10"
+    "source": "https://www.inaturalist.org/observations/406805103",
+    "place": "Helsinki, Uusimaa, FI",
+    "date": "2026-10-07"
    },
    {
     "id": 618399363,
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 362529130,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362529130/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362529130/large.jpeg",
-    "attribution": "(c) Татьяна Богданова, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/205059369",
-    "place": "Невский р-н, Санкт-Петербург, Россия",
-    "date": "2024-03-30"
-   },
-   {
     "id": 127379444,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/127379444/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/127379444/large.jpg",
@@ -106,6 +97,16 @@
     "source": "https://www.inaturalist.org/observations/77868381",
     "place": "г. Сортавала, Респ. Карелия, Россия",
     "date": "2014-06-29"
+   },
+   {
+    "id": 362529130,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/362529130/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/362529130/large.jpeg",
+    "attribution": "(c) Татьяна Богданова, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/205059369",
+    "place": "Невский р-н, Санкт-Петербург, Россия",
+    "date": "2024-03-30"
    },
    {
     "id": 132171699,
@@ -118,16 +119,6 @@
     "date": "2021-05-28"
    }
   ],
-  "hero": {
-   "id": 171598598,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/171598598/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/171598598/large.jpg",
-   "attribution": "(c) Михаил Голомысов, some rights reserved (CC BY), uploaded by Михаил Голомысов",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/171598598",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 171598598,
@@ -209,74 +200,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 171598598,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/171598598/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/171598598/large.jpg",
+   "attribution": "(c) Михаил Голомысов, some rights reserved (CC BY), uploaded by Михаил Голомысов",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/171598598",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490737,
-  "dkTotal": 263260,
+  "dkTotal": 263636,
   "dkMonths": [
-   52852,
-   33570,
-   25469,
-   26847,
-   11213,
+   52861,
+   33577,
+   25482,
+   26848,
+   11214,
    5145,
    2470,
-   2396,
+   2397,
    4931,
-   27957,
-   36671,
-   33668
+   27965,
+   37022,
+   33674
   ],
-  "worldTotal": 3179553,
+  "worldTotal": 3180482,
   "topCountries": [
    {
     "code": "SE",
-    "count": 881971
+    "count": 881979
    },
    {
     "code": "NO",
-    "count": 501304
+    "count": 501311
    },
    {
     "code": "FI",
-    "count": 363919
+    "count": 364035
    },
    {
     "code": "DK",
-    "count": 263260
+    "count": 263636
    },
    {
     "code": "GB",
-    "count": 199394
+    "count": 199441
    },
    {
     "code": "DE",
-    "count": 176707
+    "count": 176834
    },
    {
     "code": "RU",
-    "count": 148809
+    "count": 148975
    },
    {
     "code": "FR",
-    "count": 141432
+    "count": 141438
    },
    {
     "code": "NL",
-    "count": 113681
+    "count": 113683
    },
    {
     "code": "CH",
-    "count": 68772
+    "count": 68773
    },
    {
     "code": "BE",
-    "count": 67008
+    "count": 67009
    },
    {
     "code": "PL",
-    "count": 48186
+    "count": 48204
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Turdidae",
   "familyKey": 5290,
   "familyDa": "Drosler",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:26.562Z"
+ }
 }

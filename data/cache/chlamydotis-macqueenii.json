@@ -127,11 +127,11 @@
    0,
    0
   ],
-  "worldTotal": 4150,
+  "worldTotal": 4152,
   "topCountries": [
    {
     "code": "IL",
-    "count": 2393
+    "count": 2396
    },
    {
     "code": "AE",
@@ -147,7 +147,7 @@
    },
    {
     "code": "IR",
-    "count": 150
+    "count": 151
    },
    {
     "code": "IN",
@@ -202,5 +202,6 @@
   "familyKey": 9610,
   "familyDa": "Trapper",
   "order": "Otidiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:52.979Z"
 }

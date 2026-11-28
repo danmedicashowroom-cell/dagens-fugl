@@ -2,7 +2,8 @@
  "key": "anthus-petrosus",
  "name": "Anthus petrosus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:44.863Z",
+ "fetchedAt": "2026-11-28T03:54:08.642Z",
+ "gbifAt": "2026-11-28T03:54:08.642Z",
  "names": {
   "da": "Skærpiber",
   "en": "European Rock Pipit",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13734,
-  "observations": 7527
+  "observations": 7600
  },
  "photos": {
   "male": [
@@ -77,16 +78,6 @@
     "date": "2025-07-28"
    }
   ],
-  "hero": {
-   "id": 9036,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/9036/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/9036/large.jpg",
-   "attribution": "(c) Paul Roberts, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/9036",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 9036,
@@ -118,13 +109,23 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 9036,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/9036/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/9036/large.jpg",
+   "attribution": "(c) Paul Roberts, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/9036",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490275,
-  "dkTotal": 68860,
+  "dkTotal": 68940,
   "dkMonths": [
-   9376,
+   9378,
    6544,
    7718,
    2561,
@@ -132,12 +133,12 @@
    189,
    172,
    243,
-   8903,
-   17405,
-   9637,
+   8910,
+   17410,
+   9706,
    5752
   ],
-  "worldTotal": 594573,
+  "worldTotal": 594706,
   "topCountries": [
    {
     "code": "NO",
@@ -149,23 +150,23 @@
    },
    {
     "code": "GB",
-    "count": 114055
+    "count": 114071
    },
    {
     "code": "DK",
-    "count": 68860
+    "count": 68940
    },
    {
     "code": "NL",
-    "count": 55131
+    "count": 55138
    },
    {
     "code": "IE",
-    "count": 16813
+    "count": 16818
    },
    {
     "code": "FR",
-    "count": 15992
+    "count": 16011
    },
    {
     "code": "IM",
@@ -177,7 +178,7 @@
    },
    {
     "code": "DE",
-    "count": 5355
+    "count": 5358
    },
    {
     "code": "BE",
@@ -205,13 +206,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:43.147Z"
+ }
 }

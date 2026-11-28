@@ -2,7 +2,8 @@
  "key": "carduelis-carduelis",
  "name": "Carduelis carduelis",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:01:07.617Z",
+ "fetchedAt": "2026-11-28T03:56:23.607Z",
+ "gbifAt": "2026-11-28T03:56:23.607Z",
  "names": {
   "da": "Stillids",
   "en": "European Goldfinch",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9398,
-  "observations": 132019
+  "observations": 132674
  },
  "photos": {
   "male": [
@@ -44,14 +45,14 @@
     "date": "2025-06-21"
    },
    {
-    "id": 592196278,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/592196278/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/592196278/large.jpg",
-    "attribution": "(c) Владимир Пенькевич (Vladimir Penkevich), some rights reserved (CC BY-NC)",
+    "id": 45008653,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/45008653/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/45008653/large.jpg",
+    "attribution": "(c) Markus Wolf, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/326927697",
-    "place": "Смиловичи, \"Парк Смиловичи\". Минская область, Беларусь",
-    "date": "2025-11-17"
+    "source": "https://www.inaturalist.org/observations/28856464",
+    "place": "Hessen, DE",
+    "date": "2019-07-14"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2023-06-28"
    }
   ],
-  "hero": {
-   "id": 369311714,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/369311714/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/369311714/large.jpg",
-   "attribution": "(c) Antti Henttonen, some rights reserved (CC BY-NC), uploaded by Antti Henttonen",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/369311714",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 369311714,
@@ -179,74 +170,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 369311714,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/369311714/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/369311714/large.jpg",
+   "attribution": "(c) Antti Henttonen, some rights reserved (CC BY-NC), uploaded by Antti Henttonen",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/369311714",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2494686,
-  "dkTotal": 259885,
+  "dkTotal": 260108,
   "dkMonths": [
    18156,
    14984,
    25824,
-   37351,
+   37353,
    30723,
-   19937,
-   20376,
-   19023,
-   18858,
-   26290,
-   15936,
-   12373
+   19942,
+   20384,
+   19028,
+   18864,
+   26294,
+   16128,
+   12374
   ],
-  "worldTotal": 6956694,
+  "worldTotal": 6957594,
   "topCountries": [
    {
     "code": "GB",
-    "count": 1254591
+    "count": 1254647
    },
    {
     "code": "ES",
-    "count": 1051872
+    "count": 1051913
    },
    {
     "code": "FR",
-    "count": 811439
+    "count": 811467
    },
    {
     "code": "SE",
-    "count": 735671
+    "count": 735673
    },
    {
     "code": "NL",
-    "count": 568964
+    "count": 568967
    },
    {
     "code": "DE",
-    "count": 359282
+    "count": 359487
    },
    {
     "code": "DK",
-    "count": 259885
+    "count": 260108
    },
    {
     "code": "PT",
-    "count": 249914
+    "count": 249969
    },
    {
     "code": "AU",
-    "count": 243454
+    "count": 243476
    },
    {
     "code": "NO",
-    "count": 201715
+    "count": 201717
    },
    {
     "code": "NZ",
-    "count": 174057
+    "count": 174070
    },
    {
     "code": "CH",
-    "count": 164874
+    "count": 164877
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:57.432Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "bombycilla-garrulus",
  "name": "Bombycilla garrulus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:55:29.056Z",
+ "fetchedAt": "2026-11-28T03:50:56.086Z",
+ "gbifAt": "2026-11-28T03:50:56.086Z",
  "names": {
   "da": "Silkehale",
   "en": "Bohemian Waxwing",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7429,
-  "observations": 42828
+  "observations": 43251
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2012-09-16"
    }
   ],
-  "hero": {
-   "id": 59611753,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/59611753/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/59611753/large.jpeg",
-   "attribution": "(c) Илья Сухов, some rights reserved (CC BY-NC), uploaded by Илья Сухов",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/59611753",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 59611753,
@@ -199,62 +190,72 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 59611753,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/59611753/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/59611753/large.jpeg",
+   "attribution": "(c) Илья Сухов, some rights reserved (CC BY-NC), uploaded by Илья Сухов",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/59611753",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2484605,
-  "dkTotal": 73575,
+  "dkTotal": 73664,
   "dkMonths": [
-   13866,
+   13868,
    9573,
-   7235,
-   4135,
+   7237,
+   4138,
    1021,
    2,
    9,
    2,
    0,
-   6200,
-   18960,
-   12526
+   6204,
+   19051,
+   12529
   ],
-  "worldTotal": 1162965,
+  "worldTotal": 1163394,
   "topCountries": [
    {
     "code": "SE",
-    "count": 421454
+    "count": 421457
    },
    {
     "code": "CA",
-    "count": 184675
+    "count": 184699
    },
    {
     "code": "FI",
-    "count": 169348
+    "count": 169394
    },
    {
     "code": "NO",
-    "count": 97576
+    "count": 97579
    },
    {
     "code": "US",
-    "count": 77766
+    "count": 77777
    },
    {
     "code": "DK",
-    "count": 73575
+    "count": 73664
    },
    {
     "code": "RU",
-    "count": 38753
+    "count": 38980
    },
    {
     "code": "NL",
-    "count": 32012
+    "count": 32014
    },
    {
     "code": "GB",
-    "count": 21003
+    "count": 21008
    },
    {
     "code": "EE",
@@ -262,7 +263,7 @@
    },
    {
     "code": "DE",
-    "count": 7156
+    "count": 7158
    },
    {
     "code": "BE",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Bombycillidae",
   "familyKey": 5215,
   "familyDa": "Silkehaler",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:17.703Z"
+ }
 }

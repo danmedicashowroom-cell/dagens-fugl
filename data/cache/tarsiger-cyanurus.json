@@ -2,7 +2,8 @@
  "key": "tarsiger-cyanurus",
  "name": "Tarsiger cyanurus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:57:20.584Z",
+ "fetchedAt": "2026-11-28T03:52:38.504Z",
+ "gbifAt": "2026-11-28T03:52:38.504Z",
  "names": {
   "da": "Blåstjert",
   "en": "Red-flanked Bluetail",
@@ -19,10 +20,20 @@
  },
  "inat": {
   "id": 210941,
-  "observations": 6469
+  "observations": 6561
  },
  "photos": {
   "male": [
+   {
+    "id": 766293183,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/766293183/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/766293183/large.jpg",
+    "attribution": "(c) Matt Felperin, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/415702640",
+    "place": "Great Falls Park, McLean, VA, US",
+    "date": "2026-11-19"
+   },
    {
     "id": 228625487,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/228625487/medium.jpeg",
@@ -42,16 +53,6 @@
     "source": "https://www.inaturalist.org/observations/19198163",
     "place": "Березовский р-н, Красноярский край, Россия",
     "date": "2017-08-02"
-   },
-   {
-    "id": 243648144,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/243648144/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/243648144/large.jpg",
-    "attribution": "(c) Wang.QG, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/142141054",
-    "place": "中国浙江省杭州市杭州植物园",
-    "date": "2021-12-27"
    }
   ],
   "female": [
@@ -76,14 +77,14 @@
     "date": "2019-04-07"
    },
    {
-    "id": 253050147,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/253050147/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/253050147/large.jpg",
-    "attribution": "(c) Stargazer, some rights reserved (CC BY-NC)",
+    "id": 608765710,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/608765710/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/608765710/large.jpg",
+    "attribution": "(c) Tim Frye, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/147095742",
-    "place": "会昌县, 赣州市, 江西省, CN",
-    "date": "2023-01-22"
+    "source": "https://www.inaturalist.org/observations/335136171",
+    "place": "Potomac, MD, USA",
+    "date": "2026-01-17"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2006-07-27"
    }
   ],
-  "hero": {
-   "id": 244039552,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/244039552/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/244039552/large.jpg",
-   "attribution": "(c) ansonw38, some rights reserved (CC BY-NC), uploaded by ansonw38",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/244039552",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 244039552,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 244039552,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/244039552/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/244039552/large.jpg",
+   "attribution": "(c) ansonw38, some rights reserved (CC BY-NC), uploaded by ansonw38",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/244039552",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492509,
@@ -208,23 +209,23 @@
    7,
    0
   ],
-  "worldTotal": 75416,
+  "worldTotal": 75462,
   "topCountries": [
    {
     "code": "CN",
-    "count": 22106
+    "count": 22123
    },
    {
     "code": "JP",
-    "count": 9331
+    "count": 9344
    },
    {
     "code": "TW",
-    "count": 8345
+    "count": 8350
    },
    {
     "code": "FI",
-    "count": 5348
+    "count": 5349
    },
    {
     "code": "SE",
@@ -244,11 +245,11 @@
    },
    {
     "code": "US",
-    "count": 3250
+    "count": 3251
    },
    {
     "code": "RU",
-    "count": 2839
+    "count": 2847
    },
    {
     "code": "GB",
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:30.510Z"
+ }
 }

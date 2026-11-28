@@ -168,15 +168,15 @@
    0,
    0
   ],
-  "worldTotal": 30772,
+  "worldTotal": 30781,
   "topCountries": [
    {
     "code": "FR",
-    "count": 9489
+    "count": 9491
    },
    {
     "code": "TR",
-    "count": 6008
+    "count": 6012
    },
    {
     "code": "IT",
@@ -184,7 +184,7 @@
    },
    {
     "code": "ES",
-    "count": 3827
+    "count": 3829
    },
    {
     "code": "GR",
@@ -243,5 +243,6 @@
   "familyKey": 9339,
   "familyDa": "Egentlige Stormfugle",
   "order": "Procellariiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:27.799Z"
 }

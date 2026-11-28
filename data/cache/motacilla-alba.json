@@ -2,7 +2,8 @@
  "key": "motacilla-alba",
  "name": "Motacilla alba",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:59:30.723Z",
+ "fetchedAt": "2026-11-28T03:54:54.066Z",
+ "gbifAt": "2026-11-28T03:54:54.066Z",
  "names": {
   "da": "Vipstjert",
   "en": "White Wagtail",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13695,
-  "observations": 211597
+  "observations": 212638
  },
  "photos": {
   "male": [
@@ -56,6 +57,16 @@
   ],
   "female": [
    {
+    "id": 765952885,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/765952885/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/765952885/large.jpg",
+    "attribution": "(c) Вадим Рыбаков, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415943279",
+    "place": "Центральный р-н, Тверь, Тверская обл., Россия",
+    "date": "2026-11-20"
+   },
+   {
     "id": 610632578,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/610632578/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/610632578/large.jpg",
@@ -74,16 +85,6 @@
     "source": "https://www.inaturalist.org/observations/376530570",
     "place": "Frihamnen, 115 56 Stockholm, Sweden",
     "date": "2026-06-29"
-   },
-   {
-    "id": 634785061,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/634785061/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/634785061/large.jpg",
-    "attribution": "(c) m-polzin, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/348092154",
-    "place": "18 Güstrow, Deutschland",
-    "date": "2026-04-07"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2025-12-10"
    }
   ],
-  "hero": {
-   "id": 39786089,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/39786089/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/39786089/large.jpg",
-   "attribution": "(c) ZTSurvival, some rights reserved (CC BY-NC), uploaded by ZTSurvival",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/39786089",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 39786089,
@@ -209,46 +200,56 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 39786089,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/39786089/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/39786089/large.jpg",
+   "attribution": "(c) ZTSurvival, some rights reserved (CC BY-NC), uploaded by ZTSurvival",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/39786089",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9687165,
-  "dkTotal": 464079,
+  "dkTotal": 464135,
   "dkMonths": [
    373,
    1057,
-   54569,
-   99075,
+   54574,
+   99085,
    70390,
-   49612,
-   48471,
-   51983,
-   60886,
-   27166,
+   49617,
+   48485,
+   51986,
+   60903,
+   27168,
    147,
    283
   ],
-  "worldTotal": 7349660,
+  "worldTotal": 7350606,
   "topCountries": [
    {
     "code": "SE",
-    "count": 1011712
+    "count": 1011724
    },
    {
     "code": "GB",
-    "count": 813374
+    "count": 813469
    },
    {
     "code": "ES",
-    "count": 738385
+    "count": 738466
    },
    {
     "code": "FR",
-    "count": 583564
+    "count": 583600
    },
    {
     "code": "NO",
-    "count": 529932
+    "count": 529938
    },
    {
     "code": "NL",
@@ -256,27 +257,27 @@
    },
    {
     "code": "DK",
-    "count": 464079
+    "count": 464135
    },
    {
     "code": "DE",
-    "count": 331471
+    "count": 331527
    },
    {
     "code": "FI",
-    "count": 244134
+    "count": 244194
    },
    {
     "code": "PT",
-    "count": 233285
+    "count": 233319
    },
    {
     "code": "CH",
-    "count": 194734
+    "count": 194740
    },
    {
     "code": "TW",
-    "count": 151918
+    "count": 151950
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:47.426Z"
+ }
 }

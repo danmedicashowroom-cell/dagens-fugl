@@ -228,7 +228,7 @@
    67,
    0
   ],
-  "worldTotal": 117840,
+  "worldTotal": 117894,
   "topCountries": [
    {
     "code": "IL",
@@ -244,15 +244,15 @@
    },
    {
     "code": "IN",
-    "count": 9011
+    "count": 9015
    },
    {
     "code": "KE",
-    "count": 5850
+    "count": 5862
    },
    {
     "code": "MN",
-    "count": 4600
+    "count": 4601
    },
    {
     "code": "KW",
@@ -260,15 +260,15 @@
    },
    {
     "code": "OM",
-    "count": 3343
+    "count": 3348
    },
    {
     "code": "RU",
-    "count": 3338
+    "count": 3346
    },
    {
     "code": "IR",
-    "count": 3073
+    "count": 3074
    },
    {
     "code": "CY",
@@ -276,7 +276,7 @@
    },
    {
     "code": "SE",
-    "count": 2992
+    "count": 2996
    }
   ]
  },
@@ -303,5 +303,6 @@
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:20.286Z"
 }

@@ -157,15 +157,15 @@
    0,
    0
   ],
-  "worldTotal": 166003,
+  "worldTotal": 166054,
   "topCountries": [
    {
     "code": "US",
-    "count": 96190
+    "count": 96221
    },
    {
     "code": "AQ",
-    "count": 21780
+    "count": 21781
    },
    {
     "code": "CA",
@@ -173,11 +173,11 @@
    },
    {
     "code": "AU",
-    "count": 8105
+    "count": 8106
    },
    {
     "code": "CL",
-    "count": 5308
+    "count": 5309
    },
    {
     "code": "GS",
@@ -185,7 +185,7 @@
    },
    {
     "code": "AR",
-    "count": 1817
+    "count": 1818
    },
    {
     "code": "ZZ",
@@ -193,7 +193,7 @@
    },
    {
     "code": "ES",
-    "count": 1543
+    "count": 1550
    },
    {
     "code": "HM",
@@ -201,11 +201,11 @@
    },
    {
     "code": "FK",
-    "count": 1363
+    "count": 1368
    },
    {
     "code": "PT",
-    "count": 1263
+    "count": 1265
    }
   ]
  },
@@ -232,5 +232,6 @@
   "familyKey": 5249,
   "familyDa": "Stormsvaler",
   "order": "Procellariiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:26.168Z"
 }

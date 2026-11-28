@@ -208,15 +208,15 @@
    0,
    0
   ],
-  "worldTotal": 64480,
+  "worldTotal": 64494,
   "topCountries": [
    {
     "code": "IN",
-    "count": 49240
+    "count": 49242
    },
    {
     "code": "RU",
-    "count": 8199
+    "count": 8208
    },
    {
     "code": "SE",
@@ -228,7 +228,7 @@
    },
    {
     "code": "KZ",
-    "count": 718
+    "count": 719
    },
    {
     "code": "GB",
@@ -283,5 +283,6 @@
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:51.530Z"
 }

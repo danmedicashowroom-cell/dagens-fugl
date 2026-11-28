@@ -156,15 +156,15 @@
    0,
    0
   ],
-  "worldTotal": 109931,
+  "worldTotal": 109939,
   "topCountries": [
    {
     "code": "TW",
-    "count": 44178
+    "count": 44181
    },
    {
     "code": "SG",
-    "count": 11987
+    "count": 11992
    },
    {
     "code": "US",
@@ -172,19 +172,19 @@
    },
    {
     "code": "CN",
-    "count": 6614
+    "count": 6615
    },
    {
     "code": "PH",
-    "count": 6509
+    "count": 6516
    },
    {
     "code": "TH",
-    "count": 4838
+    "count": 4839
    },
    {
     "code": "MY",
-    "count": 4278
+    "count": 4279
    },
    {
     "code": "HK",
@@ -192,7 +192,7 @@
    },
    {
     "code": "RU",
-    "count": 2595
+    "count": 2596
    },
    {
     "code": "KR",
@@ -204,7 +204,7 @@
    },
    {
     "code": "NO",
-    "count": 1979
+    "count": 1978
    }
   ]
  },
@@ -231,5 +231,6 @@
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:03.626Z"
 }

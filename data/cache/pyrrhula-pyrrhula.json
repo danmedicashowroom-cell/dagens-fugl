@@ -2,7 +2,8 @@
  "key": "pyrrhula-pyrrhula",
  "name": "Pyrrhula pyrrhula",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:59:52.843Z",
+ "fetchedAt": "2026-11-28T03:55:16.599Z",
+ "gbifAt": "2026-11-28T03:55:16.599Z",
  "names": {
   "da": "Dompap",
   "en": "Eurasian Bullfinch",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9462,
-  "observations": 87777
+  "observations": 88327
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2011-09-12"
    },
    {
-    "id": 146288927,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/146288927/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/146288927/large.jpg",
-    "attribution": "(c) Константин Герасимов, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/88648346",
-    "place": "Сыктывдинский р-н, Респ. Коми, Россия",
-    "date": "2021-07-25"
-   },
-   {
     "id": 284558197,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/284558197/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/284558197/large.jpg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/164462789",
     "place": "Протвино, Московская обл., Россия",
     "date": "2023-05-29"
+   },
+   {
+    "id": 146288927,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/146288927/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/146288927/large.jpg",
+    "attribution": "(c) Константин Герасимов, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/88648346",
+    "place": "Сыктывдинский р-н, Респ. Коми, Россия",
+    "date": "2021-07-25"
    }
   ],
-  "hero": {
-   "id": 342258029,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/342258029/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/342258029/large.jpeg",
-   "attribution": "(c) yury-redkin, some rights reserved (CC BY-NC), uploaded by yury-redkin",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/342258029",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 342258029,
@@ -209,54 +200,64 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 342258029,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/342258029/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/342258029/large.jpeg",
+   "attribution": "(c) yury-redkin, some rights reserved (CC BY-NC), uploaded by yury-redkin",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/342258029",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2494543,
-  "dkTotal": 266424,
+  "dkTotal": 266758,
   "dkMonths": [
-   35101,
-   32681,
-   38059,
-   27875,
+   35104,
+   32690,
+   38067,
+   27879,
    18581,
-   11895,
+   11897,
    9955,
-   11068,
+   11070,
    9259,
-   22655,
-   24828,
-   24381
+   22656,
+   25135,
+   24384
   ],
-  "worldTotal": 3091719,
+  "worldTotal": 3092760,
   "topCountries": [
    {
     "code": "SE",
-    "count": 824509
+    "count": 824510
    },
    {
     "code": "FI",
-    "count": 399035
+    "count": 399332
    },
    {
     "code": "NO",
-    "count": 375625
+    "count": 375626
    },
    {
     "code": "GB",
-    "count": 289911
+    "count": 289928
    },
    {
     "code": "DK",
-    "count": 266424
+    "count": 266758
    },
    {
     "code": "DE",
-    "count": 196352
+    "count": 196402
    },
    {
     "code": "FR",
-    "count": 186953
+    "count": 186961
    },
    {
     "code": "NL",
@@ -264,11 +265,11 @@
    },
    {
     "code": "RU",
-    "count": 102793
+    "count": 103057
    },
    {
     "code": "ES",
-    "count": 42108
+    "count": 42112
    },
    {
     "code": "CH",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:49.821Z"
+ }
 }

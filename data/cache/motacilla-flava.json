@@ -2,7 +2,8 @@
  "key": "motacilla-flava",
  "name": "Motacilla flava",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:59:13.238Z",
+ "fetchedAt": "2026-11-28T03:54:37.488Z",
+ "gbifAt": "2026-11-28T03:54:37.488Z",
  "names": {
   "da": "Gul vipstjert",
   "en": "Western Yellow Wagtail",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 204545,
-  "observations": 51577
+  "observations": 51791
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2018-07-19"
    }
   ],
-  "hero": {
-   "id": 393839170,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393839170/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393839170/large.jpg",
-   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/393839170",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 393839170,
@@ -209,58 +200,68 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 393839170,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393839170/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393839170/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/393839170",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9701857,
-  "dkTotal": 151579,
+  "dkTotal": 151631,
   "dkMonths": [
    0,
    0,
    6,
-   14758,
-   54036,
-   13722,
-   12768,
-   33861,
-   21943,
+   14761,
+   54037,
+   13724,
+   12782,
+   33872,
+   21965,
    399,
    4,
    3
   ],
-  "worldTotal": 2108663,
+  "worldTotal": 2108888,
   "topCountries": [
    {
     "code": "SE",
-    "count": 428405
+    "count": 428409
    },
    {
     "code": "ES",
-    "count": 258277
+    "count": 258314
    },
    {
     "code": "FR",
-    "count": 192726
+    "count": 192737
    },
    {
     "code": "DK",
-    "count": 151579
+    "count": 151631
    },
    {
     "code": "GB",
-    "count": 129571
+    "count": 129573
    },
    {
     "code": "NL",
-    "count": 104927
+    "count": 104929
    },
    {
     "code": "FI",
-    "count": 95454
+    "count": 95460
    },
    {
     "code": "IN",
-    "count": 93487
+    "count": 93495
    },
    {
     "code": "NO",
@@ -268,11 +269,11 @@
    },
    {
     "code": "BE",
-    "count": 83789
+    "count": 83794
    },
    {
     "code": "DE",
-    "count": 71989
+    "count": 71993
    },
    {
     "code": "PT",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Motacillidae",
   "familyKey": 5257,
   "familyDa": "Vipstjerte & pibere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:45.842Z"
+ }
 }

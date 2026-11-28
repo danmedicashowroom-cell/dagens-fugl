@@ -157,11 +157,11 @@
    52,
    0
   ],
-  "worldTotal": 198013,
+  "worldTotal": 198020,
   "topCountries": [
    {
     "code": "US",
-    "count": 150581
+    "count": 150586
    },
    {
     "code": "CA",
@@ -197,7 +197,7 @@
    },
    {
     "code": "GB",
-    "count": 506
+    "count": 507
    },
    {
     "code": "PY",
@@ -232,5 +232,6 @@
   "familyKey": 5282,
   "familyDa": "Sneppefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:03.758Z"
 }

@@ -86,7 +86,7 @@
    0,
    0
   ],
-  "worldTotal": 21795,
+  "worldTotal": 21796,
   "topCountries": [
    {
     "code": "TH",
@@ -94,7 +94,7 @@
    },
    {
     "code": "CN",
-    "count": 3249
+    "count": 3250
    },
    {
     "code": "KH",
@@ -161,5 +161,6 @@
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:02.938Z"
 }

@@ -147,7 +147,7 @@
    0,
    0
   ],
-  "worldTotal": 6963,
+  "worldTotal": 6962,
   "topCountries": [
    {
     "code": "ZA",
@@ -175,7 +175,7 @@
    },
    {
     "code": "SN",
-    "count": 291
+    "count": 290
    },
    {
     "code": "MG",
@@ -222,5 +222,6 @@
   "familyKey": 9342,
   "familyDa": "Vandhøns",
   "order": "Gruiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:56.321Z"
 }

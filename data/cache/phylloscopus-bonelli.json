@@ -198,11 +198,11 @@
    0,
    0
   ],
-  "worldTotal": 316910,
+  "worldTotal": 316911,
   "topCountries": [
    {
     "code": "FR",
-    "count": 109525
+    "count": 109533
    },
    {
     "code": "ES",
@@ -214,7 +214,7 @@
    },
    {
     "code": "PT",
-    "count": 10863
+    "count": 10864
    },
    {
     "code": "AT",
@@ -226,7 +226,7 @@
    },
    {
     "code": "MA",
-    "count": 2867
+    "count": 2859
    },
    {
     "code": "NL",
@@ -273,5 +273,6 @@
   "familyKey": 6100963,
   "familyDa": "Løvsangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:57.245Z"
 }

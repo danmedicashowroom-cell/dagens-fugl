@@ -148,7 +148,7 @@
    8,
    398
   ],
-  "worldTotal": 15400,
+  "worldTotal": 15409,
   "topCountries": [
    {
     "code": "SJ",
@@ -164,7 +164,7 @@
    },
    {
     "code": "SE",
-    "count": 1262
+    "count": 1263
    },
    {
     "code": "GL",
@@ -180,7 +180,7 @@
    },
    {
     "code": "NO",
-    "count": 333
+    "count": 341
    },
    {
     "code": "RU",
@@ -223,5 +223,6 @@
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:18.387Z"
 }

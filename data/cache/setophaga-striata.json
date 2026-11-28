@@ -198,15 +198,15 @@
    0,
    0
   ],
-  "worldTotal": 994085,
+  "worldTotal": 994124,
   "topCountries": [
    {
     "code": "US",
-    "count": 786592
+    "count": 786621
    },
    {
     "code": "CA",
-    "count": 174910
+    "count": 174916
    },
    {
     "code": "CO",
@@ -273,5 +273,6 @@
   "familyKey": 5263,
   "familyDa": "Amerikanske sangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:29.618Z"
 }

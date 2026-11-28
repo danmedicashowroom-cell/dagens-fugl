@@ -2,7 +2,8 @@
  "key": "saxicola-rubicola",
  "name": "Saxicola rubicola",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:58:02.047Z",
+ "fetchedAt": "2026-11-28T03:53:19.587Z",
+ "gbifAt": "2026-11-28T03:53:19.587Z",
  "names": {
   "da": "Sortstrubet bynkefugl",
   "en": "European Stonechat",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 201192,
-  "observations": 69520
+  "observations": 70002
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2022-08-08"
    }
   ],
-  "hero": {
-   "id": 393828349,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393828349/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393828349/large.jpg",
-   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/393828349",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 393828349,
@@ -199,11 +190,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 393828349,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/393828349/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/393828349/large.jpg",
+   "attribution": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/393828349",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 4408759,
-  "dkTotal": 69872,
+  "dkTotal": 69910,
   "dkMonths": [
    1621,
    1673,
@@ -215,30 +216,30 @@
    5126,
    5056,
    7943,
-   2076,
+   2114,
    1148
   ],
-  "worldTotal": 2551784,
+  "worldTotal": 2552149,
   "topCountries": [
    {
     "code": "NL",
-    "count": 729284
+    "count": 729288
    },
    {
     "code": "ES",
-    "count": 463513
+    "count": 463561
    },
    {
     "code": "GB",
-    "count": 291024
+    "count": 291083
    },
    {
     "code": "FR",
-    "count": 285361
+    "count": 285418
    },
    {
     "code": "PT",
-    "count": 204167
+    "count": 204252
    },
    {
     "code": "BE",
@@ -246,15 +247,15 @@
    },
    {
     "code": "DK",
-    "count": 69872
+    "count": 69910
    },
    {
     "code": "DE",
-    "count": 66375
+    "count": 66387
    },
    {
     "code": "IL",
-    "count": 51575
+    "count": 51595
    },
    {
     "code": "SE",
@@ -266,7 +267,7 @@
    },
    {
     "code": "IE",
-    "count": 28546
+    "count": 28550
    }
   ]
  },
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:36.475Z"
+ }
 }

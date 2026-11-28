@@ -198,15 +198,15 @@
    8,
    241
   ],
-  "worldTotal": 299245,
+  "worldTotal": 299272,
   "topCountries": [
    {
     "code": "US",
-    "count": 228464
+    "count": 228485
    },
    {
     "code": "CA",
-    "count": 61414
+    "count": 61419
    },
    {
     "code": "MX",
@@ -214,7 +214,7 @@
    },
    {
     "code": "NL",
-    "count": 2104
+    "count": 2103
    },
    {
     "code": "JP",
@@ -242,7 +242,7 @@
    },
    {
     "code": "SE",
-    "count": 342
+    "count": 343
    },
    {
     "code": "ES",
@@ -273,5 +273,6 @@
   "familyKey": 9312,
   "familyDa": "Lommer",
   "order": "Gaviiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:56:52.236Z"
 }

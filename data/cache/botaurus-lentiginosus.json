@@ -158,15 +158,15 @@
    0,
    0
   ],
-  "worldTotal": 423315,
+  "worldTotal": 423371,
   "topCountries": [
    {
     "code": "US",
-    "count": 294579
+    "count": 294629
    },
    {
     "code": "CA",
-    "count": 125871
+    "count": 125877
    },
    {
     "code": "MX",
@@ -233,5 +233,6 @@
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:33.102Z"
 }

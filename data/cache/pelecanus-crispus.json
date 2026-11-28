@@ -187,11 +187,11 @@
    2,
    0
   ],
-  "worldTotal": 51725,
+  "worldTotal": 51752,
   "topCountries": [
    {
     "code": "GR",
-    "count": 11951
+    "count": 11952
    },
    {
     "code": "IN",
@@ -199,23 +199,23 @@
    },
    {
     "code": "BG",
-    "count": 6209
+    "count": 6210
    },
    {
     "code": "TR",
-    "count": 5619
+    "count": 5623
    },
    {
     "code": "RO",
-    "count": 4353
+    "count": 4354
    },
    {
     "code": "RU",
-    "count": 2178
+    "count": 2187
    },
    {
     "code": "AL",
-    "count": 1682
+    "count": 1688
    },
    {
     "code": "KZ",
@@ -235,7 +235,7 @@
    },
    {
     "code": "ME",
-    "count": 1001
+    "count": 1003
    }
   ]
  },
@@ -262,5 +262,6 @@
   "familyKey": 9329,
   "familyDa": "Pelikaner",
   "order": "Pelecaniformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:32.336Z"
 }

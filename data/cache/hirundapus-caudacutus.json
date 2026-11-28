@@ -127,15 +127,15 @@
    0,
    0
   ],
-  "worldTotal": 82616,
+  "worldTotal": 82630,
   "topCountries": [
    {
     "code": "AU",
-    "count": 74456
+    "count": 74469
    },
    {
     "code": "CN",
-    "count": 2418
+    "count": 2419
    },
    {
     "code": "TW",
@@ -202,5 +202,6 @@
   "familyKey": 2993,
   "familyDa": "Sejlere",
   "order": "Apodiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:34.230Z"
 }

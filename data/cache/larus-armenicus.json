@@ -167,7 +167,7 @@
    0,
    0
   ],
-  "worldTotal": 99376,
+  "worldTotal": 99377,
   "topCountries": [
    {
     "code": "AM",
@@ -175,7 +175,7 @@
    },
    {
     "code": "IL",
-    "count": 20429
+    "count": 20430
    },
    {
     "code": "TR",
@@ -242,5 +242,6 @@
   "familyKey": 9316,
   "familyDa": "Mågefugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:24.424Z"
 }

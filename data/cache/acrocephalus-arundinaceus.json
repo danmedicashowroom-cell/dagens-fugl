@@ -2,7 +2,8 @@
  "key": "acrocephalus-arundinaceus",
  "name": "Acrocephalus arundinaceus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:55:18.667Z",
+ "fetchedAt": "2026-11-28T03:50:43.644Z",
+ "gbifAt": "2026-11-28T03:50:43.644Z",
  "names": {
   "da": "Drosselrørsanger",
   "en": "Great Reed Warbler",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 204456,
-  "observations": 11112
+  "observations": 11167
  },
  "photos": {
   "male": [
@@ -88,26 +89,16 @@
     "date": "2026-07-26"
    },
    {
-    "id": 345717775,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/345717775/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/345717775/large.jpeg",
-    "attribution": "(c) Jakob Fahr, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/196377201",
-    "place": "West Macedonia Region, Greece",
-    "date": "2023-07-21"
+    "id": 147251294,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/147251294/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/147251294/large.jpg",
+    "attribution": "(c) Attila Oláh, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/89185404",
+    "place": "North Bačka District, Serbia",
+    "date": "2021-07-30"
    }
   ],
-  "hero": {
-   "id": 195587746,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195587746/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195587746/large.jpg",
-   "attribution": "(c) Tomas Broucek, some rights reserved (CC BY), uploaded by Tomas Broucek",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/195587746",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 195587746,
@@ -159,7 +150,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 195587746,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/195587746/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/195587746/large.jpg",
+   "attribution": "(c) Tomas Broucek, some rights reserved (CC BY), uploaded by Tomas Broucek",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/195587746",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2493128,
@@ -178,7 +179,7 @@
    0,
    1
   ],
-  "worldTotal": 480547,
+  "worldTotal": 480558,
   "topCountries": [
    {
     "code": "ES",
@@ -206,7 +207,7 @@
    },
    {
     "code": "DE",
-    "count": 20690
+    "count": 20692
    },
    {
     "code": "IL",
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Acrocephalidae",
   "familyKey": 6101019,
   "familyDa": "Rørsangere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:16.100Z"
+ }
 }

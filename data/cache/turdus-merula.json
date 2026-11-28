@@ -2,7 +2,8 @@
  "key": "turdus-merula",
  "name": "Turdus merula",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:56:33.558Z",
+ "fetchedAt": "2026-11-28T03:51:53.917Z",
+ "gbifAt": "2026-11-28T03:51:53.917Z",
  "names": {
   "da": "Solsort",
   "en": "Common Blackbird",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12716,
-  "observations": 271001
+  "observations": 272326
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 238560671,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/238560671/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/238560671/large.jpg",
-    "attribution": "(c) Shaun Lee, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/139475151",
-    "place": "Wai O Taiki Bay, Auckland, New Zealand",
-    "date": "2022-10-21"
-   },
-   {
     "id": 77803171,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/77803171/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/77803171/large.jpeg",
@@ -116,18 +107,18 @@
     "source": "https://www.inaturalist.org/observations/118215281",
     "place": "Basel, Schweiz,Kleinbasel",
     "date": "2022-05-22"
+   },
+   {
+    "id": 714917576,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/714917576/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/714917576/large.jpg",
+    "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/390241467",
+    "place": "1^ Via Esino, 60126 Torrette AN, Italia",
+    "date": "2026-08-11"
    }
   ],
-  "hero": {
-   "id": 356885346,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/356885346/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/356885346/large.jpg",
-   "attribution": "(c) Luiz Lapa, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/356885346",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 356885346,
@@ -189,74 +180,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 356885346,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/356885346/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/356885346/large.jpg",
+   "attribution": "(c) Luiz Lapa, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/356885346",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490719,
-  "dkTotal": 697714,
+  "dkTotal": 698539,
   "dkMonths": [
-   76916,
-   57657,
-   73871,
-   84179,
-   89662,
-   68038,
-   50057,
-   29325,
-   24942,
-   46850,
-   47245,
-   48812
+   76935,
+   57689,
+   73889,
+   84189,
+   89667,
+   68049,
+   50064,
+   29331,
+   24948,
+   46870,
+   47990,
+   48823
   ],
-  "worldTotal": 14601608,
+  "worldTotal": 14604805,
   "topCountries": [
    {
     "code": "FR",
-    "count": 2096647
+    "count": 2096737
    },
    {
     "code": "GB",
-    "count": 1837760
+    "count": 1837900
    },
    {
     "code": "SE",
-    "count": 1439233
+    "count": 1439242
    },
    {
     "code": "NL",
-    "count": 1394088
+    "count": 1394094
    },
    {
     "code": "ES",
-    "count": 1256959
+    "count": 1257056
    },
    {
     "code": "DE",
-    "count": 981191
+    "count": 981682
    },
    {
     "code": "AU",
-    "count": 738254
+    "count": 738339
    },
    {
     "code": "NO",
-    "count": 734466
+    "count": 734468
    },
    {
     "code": "DK",
-    "count": 697714
+    "count": 698539
    },
    {
     "code": "CH",
-    "count": 469022
+    "count": 469024
    },
    {
     "code": "PT",
-    "count": 465004
+    "count": 465061
    },
    {
     "code": "BE",
-    "count": 419180
+    "count": 419183
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Turdidae",
   "familyKey": 5290,
   "familyDa": "Drosler",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:25.746Z"
+ }
 }

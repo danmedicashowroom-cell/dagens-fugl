@@ -167,7 +167,7 @@
    0,
    0
   ],
-  "worldTotal": 12691,
+  "worldTotal": 12690,
   "topCountries": [
    {
     "code": "IL",
@@ -179,7 +179,7 @@
    },
    {
     "code": "GR",
-    "count": 1974
+    "count": 1973
    },
    {
     "code": "CY",
@@ -242,5 +242,6 @@
   "familyKey": 5285,
   "familyDa": "Sangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:58:05.384Z"
 }

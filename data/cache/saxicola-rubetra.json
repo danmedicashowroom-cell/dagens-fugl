@@ -2,7 +2,8 @@
  "key": "saxicola-rubetra",
  "name": "Saxicola rubetra",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:57:56.296Z",
+ "fetchedAt": "2026-11-28T03:53:12.793Z",
+ "gbifAt": "2026-11-28T03:53:12.793Z",
  "names": {
   "da": "Bynkefugl",
   "en": "Whinchat",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12908,
-  "observations": 35777
+  "observations": 35874
  },
  "photos": {
   "male": [
@@ -98,36 +99,26 @@
     "date": "2025-07-27"
    },
    {
-    "id": 301610401,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/301610401/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/301610401/large.jpg",
-    "attribution": "(c) Ирина Рогова, some rights reserved (CC BY-NC)",
+    "id": 297446943,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/297446943/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/297446943/large.jpg",
+    "attribution": "(c) Антон Михайлов, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/173668186",
-    "place": "Красносельский р-н, Санкт-Петербург, Россия",
-    "date": "2023-07-18"
+    "source": "https://www.inaturalist.org/observations/171416488",
+    "place": "Новгородский р-н, Новгородская обл., Россия",
+    "date": "2023-07-06"
    },
    {
-    "id": 684886080,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/684886080/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/684886080/large.jpg",
-    "attribution": "(c) vyatka, some rights reserved (CC BY-NC)",
+    "id": 719026168,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/719026168/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/719026168/large.jpg",
+    "attribution": "(c) Gabi Rusu, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/374690649",
-    "place": "Slobodskoy rayon, RU-KV, RU",
-    "date": "2026-06-23"
+    "source": "https://www.inaturalist.org/observations/392351054",
+    "place": "Reci, Romania",
+    "date": "2026-08-17"
    }
   ],
-  "hero": {
-   "id": 64026043,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/64026043/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/64026043/large.jpeg",
-   "attribution": "(c) Mourad Harzallah, some rights reserved (CC BY), uploaded by Mourad Harzallah",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/64026043",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 64026043,
@@ -199,26 +190,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 64026043,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/64026043/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/64026043/large.jpeg",
+   "attribution": "(c) Mourad Harzallah, some rights reserved (CC BY), uploaded by Mourad Harzallah",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/64026043",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492521,
-  "dkTotal": 72311,
+  "dkTotal": 72328,
   "dkMonths": [
    1,
    6,
    3,
-   5361,
+   5362,
    31249,
    10348,
    5046,
-   11694,
-   8291,
+   11698,
+   8304,
    217,
    23,
    13
   ],
-  "worldTotal": 1191297,
+  "worldTotal": 1191368,
   "topCountries": [
    {
     "code": "SE",
@@ -230,11 +231,11 @@
    },
    {
     "code": "FI",
-    "count": 89901
+    "count": 89907
    },
    {
     "code": "FR",
-    "count": 86052
+    "count": 86061
    },
    {
     "code": "CH",
@@ -246,7 +247,7 @@
    },
    {
     "code": "DK",
-    "count": 72311
+    "count": 72328
    },
    {
     "code": "GB",
@@ -258,11 +259,11 @@
    },
    {
     "code": "RU",
-    "count": 32790
+    "count": 32818
    },
    {
     "code": "DE",
-    "count": 27517
+    "count": 27518
    },
    {
     "code": "BE",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:33.776Z"
+ }
 }

@@ -188,27 +188,27 @@
    36,
    0
   ],
-  "worldTotal": 1654737,
+  "worldTotal": 1654891,
   "topCountries": [
    {
     "code": "ES",
-    "count": 634069
+    "count": 634111
    },
    {
     "code": "FR",
-    "count": 262823
+    "count": 262863
    },
    {
     "code": "GB",
-    "count": 259253
+    "count": 259257
    },
    {
     "code": "NL",
-    "count": 161579
+    "count": 161621
    },
    {
     "code": "PT",
-    "count": 109544
+    "count": 109550
    },
    {
     "code": "BE",
@@ -216,19 +216,19 @@
    },
    {
     "code": "IT",
-    "count": 39876
+    "count": 39879
    },
    {
     "code": "IL",
-    "count": 33550
+    "count": 33552
    },
    {
     "code": "TR",
-    "count": 23887
+    "count": 23894
    },
    {
     "code": "GR",
-    "count": 23601
+    "count": 23603
    },
    {
     "code": "CY",
@@ -236,7 +236,7 @@
    },
    {
     "code": "MA",
-    "count": 4114
+    "count": 4115
    }
   ]
  },
@@ -263,5 +263,6 @@
   "familyKey": 6100900,
   "familyDa": null,
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:56.740Z"
 }

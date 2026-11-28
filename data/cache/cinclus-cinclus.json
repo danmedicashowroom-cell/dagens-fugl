@@ -2,7 +2,8 @@
  "key": "cinclus-cinclus",
  "name": "Cinclus cinclus",
  "region": "dk",
- "fetchedAt": "2026-11-17T19:56:10.739Z",
+ "fetchedAt": "2026-11-28T03:51:30.130Z",
+ "gbifAt": "2026-11-28T03:51:30.130Z",
  "names": {
   "da": "Vandstær",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 7647,
-  "observations": 19086
+  "observations": 19204
  },
  "photos": {
   "male": [
@@ -108,16 +109,6 @@
     "date": "2022-05-05"
    }
   ],
-  "hero": {
-   "id": 82887570,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/82887570/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/82887570/large.jpg",
-   "attribution": "(c) \nDirk-Jan van Roest, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/82887570",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 82887570,
@@ -169,13 +160,23 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 82887570,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/82887570/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/82887570/large.jpg",
+   "attribution": "(c) \nDirk-Jan van Roest, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/82887570",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2495093,
-  "dkTotal": 43734,
+  "dkTotal": 43824,
   "dkMonths": [
-   11213,
+   11215,
    9112,
    6274,
    582,
@@ -185,58 +186,58 @@
    8,
    15,
    1835,
-   7335,
-   7217
+   7422,
+   7218
   ],
-  "worldTotal": 732010,
+  "worldTotal": 732215,
   "topCountries": [
    {
     "code": "SE",
-    "count": 216972
+    "count": 216973
    },
    {
     "code": "NO",
-    "count": 89467
+    "count": 89468
    },
    {
     "code": "FR",
-    "count": 76299
+    "count": 76307
    },
    {
     "code": "GB",
-    "count": 56759
+    "count": 56779
    },
    {
     "code": "CH",
-    "count": 49683
+    "count": 49686
    },
    {
     "code": "FI",
-    "count": 47468
+    "count": 47470
    },
    {
     "code": "DK",
-    "count": 43734
+    "count": 43824
    },
    {
     "code": "ES",
-    "count": 32689
+    "count": 32695
    },
    {
     "code": "DE",
-    "count": 25411
+    "count": 25444
    },
    {
     "code": "AT",
-    "count": 14758
+    "count": 14765
    },
    {
     "code": "NL",
-    "count": 12785
+    "count": 12786
    },
    {
     "code": "IT",
-    "count": 12760
+    "count": 12767
    }
   ]
  },
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Cinclidae",
   "familyKey": 9290,
   "familyDa": "Vandstære",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:20.900Z"
+ }
 }

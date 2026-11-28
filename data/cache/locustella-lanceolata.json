@@ -137,7 +137,7 @@
    1,
    1
   ],
-  "worldTotal": 11109,
+  "worldTotal": 11110,
   "topCountries": [
    {
     "code": "TH",
@@ -157,7 +157,7 @@
    },
    {
     "code": "SE",
-    "count": 701
+    "count": 702
    },
    {
     "code": "TW",
@@ -212,5 +212,6 @@
   "familyKey": 6100825,
   "familyDa": "Græssangere",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:53.747Z"
 }

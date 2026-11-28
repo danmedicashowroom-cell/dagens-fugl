@@ -102,11 +102,11 @@
    0,
    0
   ],
-  "worldTotal": 12071,
+  "worldTotal": 12079,
   "topCountries": [
    {
     "code": "CN",
-    "count": 6320
+    "count": 6326
    },
    {
     "code": "MN",
@@ -177,5 +177,6 @@
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:49.246Z"
 }

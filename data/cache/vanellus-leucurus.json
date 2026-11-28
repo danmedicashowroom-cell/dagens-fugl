@@ -158,7 +158,7 @@
    0,
    0
   ],
-  "worldTotal": 28616,
+  "worldTotal": 28618,
   "topCountries": [
    {
     "code": "IN",
@@ -178,7 +178,7 @@
    },
    {
     "code": "SE",
-    "count": 1071
+    "count": 1073
    },
    {
     "code": "IL",
@@ -233,5 +233,6 @@
   "familyKey": 2480210,
   "familyDa": "Brokfugle",
   "order": "Charadriiformes"
- }
+ },
+ "gbifAt": "2026-11-28T03:57:01.560Z"
 }
