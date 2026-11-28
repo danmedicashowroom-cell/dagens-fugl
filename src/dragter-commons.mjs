@@ -23,6 +23,7 @@ async function api(params) {
   return null;
 }
 const dl = JSON.parse(fs.readFileSync('data/danske-liste.json', 'utf8'));
+const DONE = fs.existsSync('data/dragter.json') ? JSON.parse(fs.readFileSync('data/dragter.json', 'utf8')) : {};
 const species = [];
 for (const k of Object.keys(dl)) {
   const f = `data/cache/${k}.json`;
@@ -55,7 +56,8 @@ for (const sp of species) {
       for (const m of r?.query?.categorymembers || []) if (/\.(jpe?g|png)$/i.test(m.title)) files.set(m.title, season);
     }
   }
-  for (const phrase of ['breeding plumage', 'summer plumage', 'winter plumage', 'non-breeding plumage']) {
+  if (DONE[sp.k]) continue;
+  for (const phrase of ['breeding plumage', 'summer plumage', 'winter plumage', 'non-breeding plumage', 'Prachtkleid', 'Schlichtkleid', 'Brutkleid', 'Winterkleid', 'zomerkleed', 'winterkleed', 'broedkleed', 'sommerdragt', 'vinterdragt', 'yngledragt']) {
     const r = await api({ action: 'query', list: 'search', srnamespace: '6', srlimit: '50', srsearch: `"${sp.sci}" "${phrase}"` });
     for (const m of r?.query?.search || []) if (/\.(jpe?g|png)$/i.test(m.title) && !files.has(m.title)) files.set(m.title, null);
   }
@@ -73,8 +75,8 @@ for (const sp of species) {
       if (!txt.toLowerCase().includes(sp.sci.toLowerCase()) && !txt.toLowerCase().includes(sp.sci.toLowerCase().replace(' ', '_'))) continue;
       let season = files.get(p.title);
       if (!season) {
-        const w = /non-?breeding|winter plumage|basic plumage|eclipse/i.test(txt);
-        const b = /(?<!non-?)breeding plumage|summer plumage|nuptial|alternate plumage/i.test(txt);
+        const w = /non-?breeding|winter plumage|basic plumage|eclipse|schlichtkleid|winterkleid|winterkleed|vinterdragt/i.test(txt);
+        const b = /(?<!non-?)breeding plumage|summer plumage|nuptial|alternate plumage|prachtkleid|brutkleid|zomerkleed|broedkleed|sommerdragt|yngledragt/i.test(txt);
         if (w === b) continue;
         season = w ? 'vinter' : 'sommer';
       }
