@@ -46,35 +46,45 @@ for (const sp of species) {
     if (cats.length) break;
   }
   const res = {};
+  // Filer fra dragt-kategorier + fritekstsøgning i filbeskrivelserne
+  const files = new Map(); // titel -> sæson fra kategori (eller null)
   for (const [season, re, not] of SEASON) {
-    let sc = cats.filter((c) => re.test(c) && !(not && not.test(c)));
-    // et niveau dybere (fx »… in breeding plumage (males)«)
-    for (const c of [...sc]) {
-      const r = await api({ action: 'query', list: 'categorymembers', cmtitle: c, cmtype: 'subcat', cmlimit: '100' });
-      sc.push(...(r?.query?.categorymembers || []).map((x) => x.title));
-    }
-    const files = new Set();
+    const sc = cats.filter((c) => re.test(c) && !(not && not.test(c)));
     for (const c of sc) {
       const r = await api({ action: 'query', list: 'categorymembers', cmtitle: c, cmtype: 'file', cmlimit: '200' });
-      for (const m of r?.query?.categorymembers || []) if (/\.(jpe?g|png)$/i.test(m.title)) files.add(m.title);
-      
+      for (const m of r?.query?.categorymembers || []) if (/\.(jpe?g|png)$/i.test(m.title)) files.set(m.title, season);
     }
-    const cand = [];
-    const list = [...files];
-    for (let i = 0; i < list.length; i += 40) {
-      const r = await api({ action: 'query', titles: list.slice(i, i + 40).join('|'), prop: 'imageinfo|categories', iiprop: 'url|size|extmetadata', iiurlwidth: '800', clcategories: 'Category:Quality images|Category:Featured pictures on Wikimedia Commons|Category:Valued images', cllimit: '500' });
-      for (const p of r?.query?.pages || []) {
-        const ii = p.imageinfo?.[0]; if (!ii) continue;
-        const m = ii.extmetadata || {};
-        const lic = m.LicenseShortName?.value || '';
-        if (!LIC_OK(lic)) continue;
-        if (ii.width < 800) continue;
-        const q = (p.categories || []).length;
-        cand.push({ t: p.title, u: ii.thumburl, page: ii.descriptionurl, w: ii.width, artist: plain(m.Artist?.value).slice(0, 80), lic, licUrl: m.LicenseUrl?.value || '', q });
+  }
+  for (const phrase of ['breeding plumage', 'summer plumage', 'winter plumage', 'non-breeding plumage']) {
+    const r = await api({ action: 'query', list: 'search', srnamespace: '6', srlimit: '50', srsearch: `"${sp.sci}" "${phrase}"` });
+    for (const m of r?.query?.search || []) if (/\.(jpe?g|png)$/i.test(m.title) && !files.has(m.title)) files.set(m.title, null);
+  }
+  const cand = { sommer: [], vinter: [] };
+  const list = [...files.keys()];
+  for (let i = 0; i < list.length; i += 40) {
+    const r = await api({ action: 'query', titles: list.slice(i, i + 40).join('|'), prop: 'imageinfo|categories', iiprop: 'url|size|extmetadata', iiurlwidth: '800', clcategories: 'Category:Quality images|Category:Featured pictures on Wikimedia Commons|Category:Valued images', cllimit: '500' });
+    for (const p of r?.query?.pages || []) {
+      const ii = p.imageinfo?.[0]; if (!ii) continue;
+      const m = ii.extmetadata || {};
+      const lic = m.LicenseShortName?.value || '';
+      if (!LIC_OK(lic) || ii.width < 800) continue;
+      // Arten skal stå i titel eller beskrivelse, og dragten skal kunne afgøres entydigt
+      const txt = `${p.title} ${plain(m.ImageDescription?.value)} ${plain(m.Categories?.value)}`;
+      if (!txt.toLowerCase().includes(sp.sci.toLowerCase()) && !txt.toLowerCase().includes(sp.sci.toLowerCase().replace(' ', '_'))) continue;
+      let season = files.get(p.title);
+      if (!season) {
+        const w = /non-?breeding|winter plumage|basic plumage|eclipse/i.test(txt);
+        const b = /(?<!non-?)breeding plumage|summer plumage|nuptial|alternate plumage/i.test(txt);
+        if (w === b) continue;
+        season = w ? 'vinter' : 'sommer';
       }
+      if (/\b(egg|nest|dead|skin|specimen|museum|juvenile|chick|captive|zoo)\b/i.test(txt)) continue;
+      cand[season].push({ t: p.title, u: ii.thumburl, page: ii.descriptionurl, w: ii.width, artist: plain(m.Artist?.value).slice(0, 80), lic, licUrl: m.LicenseUrl?.value || '', q: (p.categories || []).length });
     }
-    cand.sort((a, b) => b.q - a.q || b.w - a.w);
-    if (cand.length) res[season] = cand.slice(0, 4);
+  }
+  for (const season of ['sommer', 'vinter']) {
+    cand[season].sort((a, b) => b.q - a.q || b.w - a.w);
+    if (cand[season].length) res[season] = cand[season].slice(0, 4);
   }
   if (res.sommer && res.vinter) out[sp.k] = res;
   const i = species.indexOf(sp); if (i % 25 === 0) console.log(`  ${i}/${species.length} arter tjekket, ${Object.keys(out).length} med begge dragter, ${FAILED} fejlede kald`);
