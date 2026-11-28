@@ -229,35 +229,36 @@ const lydFravalgt = (snd) => !!snd?.page && LYDE_FRAVALGT.has(String(snd.page).m
 async function xenoCantoSound(sciName, region) {
   if (!XC_KEY) return undefined; // ingen nøgle → spring over
   const GRADE = { A: 5, B: 4, C: 3, D: 2, E: 1 };
-  let ok = [];
-  // Først kun A-optagelser; findes der ingen brugbare, hentes alle, og den bedste klasse vælges.
-  for (const query of [`sp:"${sciName}" q:A`, `sp:"${sciName}"`]) {
-    const d = await getJson(`https://xeno-canto.org/api/3/recordings?query=${q(query)}&per_page=100&key=${q(XC_KEY)}`, { allow404: true });
-    ok = (d?.recordings || []).filter((r) => r.file && xcLicense(r.lic) && GRADE[r.q] && !LYDE_FRAVALGT.has(String(r.id)));
-    if (ok.length) break;
+  const usable = (d) => (d?.recordings || []).filter((r) => r.file && xcLicense(r.lic) && GRADE[r.q] && !LYDE_FRAVALGT.has(String(r.id)));
+  // Først kun A-optagelser; mangler der sang eller kald blandt dem, hentes alle optagelser også.
+  let ok = usable(await getJson(`https://xeno-canto.org/api/3/recordings?query=${q(`sp:"${sciName}" q:A`)}&per_page=100&key=${q(XC_KEY)}`, { allow404: true }));
+  const isSong = (r) => /song/i.test(r.type || '');
+  const isCall = (r) => /call/i.test(r.type || '') && !/song/i.test(r.type || '');
+  if (!ok.length || !ok.some(isSong) || !ok.some(isCall)) {
+    const all = usable(await getJson(`https://xeno-canto.org/api/3/recordings?query=${q(`sp:"${sciName}"`)}&per_page=100&key=${q(XC_KEY)}`, { allow404: true }));
+    const seen = new Set(ok.map((r) => r.id));
+    ok = ok.concat(all.filter((r) => !seen.has(r.id)));
   }
   // Xeno-cantos egen kvalitetsvurdering (A er bedst, E dårligst) vejer tungest: kun optagelser i den
-  // bedste klasse, der findes for arten, kommer i betragtning. Derefter: få baggrundsarter, passende længde, nærhed.
-  const top = Math.max(0, ...ok.map((r) => GRADE[r.q]));
-  const scored = ok
-    .filter((r) => GRADE[r.q] === top)
-    .map((r) => {
-      const len = secs(r.length);
-      const type = String(r.type || '').toLowerCase();
-      const bg = Array.isArray(r.also) ? r.also.filter(Boolean).length : 0;
-      let score = 0;
-      if (/song/.test(type)) score += 1; // sang foretrækkes en anelse, men aldrig frem for bedre kvalitet
-      if (bg === 0) score += 2; else if (bg <= 1) score += 1;
-      if (len >= 8 && len <= 60) score += 2; else if (len > 60 && len <= 120) score += 1;
-      if (region === 'dk' && NEAR.has(r.cnt)) score += 1;
-      return { r, score };
-    })
-    .sort((a, b) => b.score - a.score);
-  const best = scored[0]?.r;
-  if (!best) return null;
-  const file = best.file.startsWith('//') ? `https:${best.file}` : best.file;
-  return {
-    src: [{ u: file, type: 'audio/mpeg' }],
+  // bedste klasse, der findes, kommer i betragtning. Derefter: få baggrundsarter, passende længde, nærhed.
+  const pickBest = (list, preferSong) => {
+    const top = Math.max(0, ...list.map((r) => GRADE[r.q]));
+    return list
+      .filter((r) => GRADE[r.q] === top)
+      .map((r) => {
+        const len = secs(r.length);
+        const bg = Array.isArray(r.also) ? r.also.filter(Boolean).length : 0;
+        let score = 0;
+        if (preferSong && isSong(r)) score += 1; // sang foretrækkes en anelse, men aldrig frem for bedre kvalitet
+        if (bg === 0) score += 2; else if (bg <= 1) score += 1;
+        if (len >= 8 && len <= 60) score += 2; else if (len > 60 && len <= 120) score += 1;
+        if (region === 'dk' && NEAR.has(r.cnt)) score += 1;
+        return { r, score };
+      })
+      .sort((a, b) => b.score - a.score)[0]?.r || null;
+  };
+  const toSound = (best, kind) => best && ({
+    src: [{ u: best.file.startsWith('//') ? `https:${best.file}` : best.file, type: 'audio/mpeg' }],
     license: xcLicense(best.lic),
     licenseUrl: best.lic?.startsWith('//') ? `https:${best.lic}` : best.lic || null,
     artist: best.rec || null,
@@ -265,7 +266,19 @@ async function xenoCantoSound(sciName, region) {
     type: best.type || null,
     q: best.q || null,
     via: 'xeno-canto',
-  };
+    ...(kind ? { kind } : {}),
+  });
+  const best = pickBest(ok, true);
+  if (!best) return null;
+  const main = toSound(best);
+  // Både sang og kald, når de findes (vises hver for sig på artssiden og i lydquizzen)
+  const kinds = [];
+  const song = pickBest(ok.filter(isSong), true);
+  const call = pickBest(ok.filter(isCall), false);
+  if (song) kinds.push(toSound(song, 'sang'));
+  if (call) kinds.push(toSound(call, 'kald'));
+  if (kinds.length) main.kinds = kinds;
+  return main;
 }
 
 async function findSound(sciName, region) {
@@ -275,7 +288,7 @@ async function findSound(sciName, region) {
   const c = await commonsSound(sciName);
   return c ? { ...c, via: 'Wikimedia Commons' } : null;
 }
-const SOUND_VERSION = XC_KEY ? 3 : 1; // 3: bedste kvalitetsklasse fra xeno-canto (A før B osv.)
+const SOUND_VERSION = XC_KEY ? 4 : 1; // 4: både bedste sang og bedste kald (3: bedste kvalitetsklasse)
 
 // ---------- GBIF ----------
 async function gbifKey(sciName, fromWikidata, altName) {

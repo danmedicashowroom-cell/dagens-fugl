@@ -16,11 +16,11 @@
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
   function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
-  function cfgKey(c) { return c.lv + '-' + c.type + '-' + c.n + (c.write ? '-w' : ''); }
+  function cfgKey(c) { return c.lv + '-' + c.type + (c.type === 'lyd' && c.lyd !== 'begge' ? '-' + c.lyd : '') + '-' + c.n + (c.write ? '-w' : ''); }
 
   function readForm() {
     var f = new FormData(form);
-    var c = { lv: f.get('lv') === 'fejl' ? 'fejl' : Number(f.get('lv')), type: f.get('type'), n: Number(f.get('n')), write: !!writeBox.checked };
+    var c = { lyd: f.get('lyd') || 'begge', lv: f.get('lv') === 'fejl' ? 'fejl' : Number(f.get('lv')), type: f.get('type'), n: Number(f.get('n')), write: !!writeBox.checked };
     if (c.lv === 4 && c.type !== 'navn') c.write = true;
     if (c.type === 'navn') c.write = false;
     return c;
@@ -39,6 +39,7 @@
     fejlOption();
     var c = readForm();
     writeWrap.hidden = c.type === 'navn';
+    var lw = document.getElementById('fq-lyd-wrap'); if (lw) lw.hidden = !(c.type === 'lyd' || c.type === 'blandet');
     writeBox.disabled = c.lv === 4;
     if (c.lv === 4) writeBox.checked = true;
     var best = load()[cfgKey(c)];
@@ -82,6 +83,13 @@
     add(others, k);
     return out;
   }
+  // Sang og kald: hver art har op til to optagelser (snds); ældre data har kun én (snd)
+  function soundsOf(sp, kind) {
+    var all = sp.snds && sp.snds.length ? sp.snds : (sp.snd ? [sp.snd] : []);
+    if (!kind || kind === 'begge') return all;
+    return all.filter(function (x) { return x.kind === kind; });
+  }
+  function kindLabel(sp, x) { return x.kind === 'kald' ? 'Kald' : x.kind === 'sang' ? (sp.pas ? 'Sang' : 'Stemme') : ''; }
   function photoOf(sp, lv) {
     var ok = sp.p.filter(function (p) { return lv >= 3 || !p.j; });
     return pick(ok.length ? ok : sp.p);
@@ -91,14 +99,16 @@
     var lvn = c.lv === 'fejl' ? 3 : c.lv;
     var pool = poolFor(c.lv);
     var dpool = c.lv === 'fejl' ? poolFor(3) : pool;
-    var withSnd = pool.filter(function (x) { return x.snd; });
+    var kindOk = function (x) { return soundsOf(x, c.lyd).length > 0; };
+    var withSnd = pool.filter(kindOk);
     var src = c.type === 'lyd' ? withSnd : pool;
     var chosen = c.lv === 'fejl' ? shuffle(src).slice(0, c.n) : weightedPick(src, c.n);
     var k = lvn >= 3 ? 5 : 3;
     return chosen.map(function (sp) {
       var t = c.type;
-      if (t === 'blandet') t = pick(sp.snd ? ['foto', 'lyd', 'navn'] : ['foto', 'navn']);
+      if (t === 'blandet') t = pick(kindOk(sp) ? ['foto', 'lyd', 'navn'] : ['foto', 'navn']);
       var q = { sp: sp, t: t, write: c.write && t !== 'navn' };
+      if (t === 'lyd') q.snd = pick(soundsOf(sp, c.lyd));
       if (t === 'foto') q.photo = photoOf(sp, lvn);
       if (!q.write) q.opts = shuffle([sp].concat(distractors(sp, dpool, k, lvn, false)));
       if (t === 'navn') q.photos = q.opts.map(function (o) { return photoOf(o, lvn); });
@@ -160,23 +170,24 @@
       var fr = el('div', 'fq-photo'); var img = el('img'); img.src = q.photo.u; img.alt = 'Fuglen du skal gætte'; fr.appendChild(img);
       media.appendChild(fr); media.appendChild(credit(q.photo, false));
     } else if (q.t === 'lyd') {
-      h.textContent = 'Hvilken fugl er det, du hører?';
+      h.textContent = q.snd.kind === 'kald' ? 'Hvilken fugl kalder?' : q.snd.kind === 'sang' && q.sp.pas ? 'Hvilken fugl synger?' : 'Hvilken fugl er det, du hører?';
+      var kl = kindLabel(q.sp, q.snd); if (kl) media.appendChild(el('p', 'fq-kind', kl));
       var box = el('div', 'fq-sound');
       var pl = el('div', 'player'); pl.setAttribute('data-player', '');
       var pb = el('button', 'play'); pb.type = 'button'; pb.setAttribute('aria-label', 'Afspil lyden');
       pb.innerHTML = '<svg class="i-play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
       var tr = el('div', 'track'); tr.setAttribute('aria-hidden', 'true'); tr.appendChild(el('span'));
       pl.appendChild(pb); pl.appendChild(tr); pl.appendChild(el('span', 'time', '0:00'));
-      var au = el('audio'); au.controls = true; au.preload = 'none'; au.src = q.sp.snd.u;
+      var au = el('audio'); au.controls = true; au.preload = 'none'; au.src = q.snd.u;
       box.appendChild(pl); box.appendChild(au); media.appendChild(box);
       if (window.dfPlayer) window.dfPlayer(pl);
-      media.appendChild(credit(q.sp.snd, false, 'Lyd: '));
+      media.appendChild(credit(q.snd, false, 'Lyd: '));
       setTimeout(function () { var p = au.play(); if (p && p.catch) p.catch(function () {}); }, 50);
       // Kan lyden ikke hentes, skiftes spørgsmålet til et billede af samme fugl, og fejlen meldes automatisk
       var failed = false;
       var fail = function () {
         if (failed || answered || qs[qi] !== q) return; failed = true;
-        sendFb({ kind: 'Lyden kunne ikke afspilles (automatisk)', art: q.sp.n + ' (' + q.sp.k + ')', medie: q.sp.snd.u });
+        sendFb({ kind: 'Lyden kunne ikke afspilles (automatisk)', art: q.sp.n + ' (' + q.sp.k + ')', medie: q.snd.u });
         q.t = 'foto'; q.photo = photoOf(q.sp, cfg.lv === 'fejl' ? 3 : cfg.lv); q.lydFejl = true; show();
       };
       au.addEventListener('error', fail);
@@ -249,7 +260,7 @@
       var b = el('button', 'btn', 'Send'); b.type = 'submit'; f.appendChild(b);
       f.addEventListener('submit', function (e) {
         e.preventDefault(); b.disabled = true;
-        var medie = q.t === 'lyd' ? q.sp.snd.u : q.t === 'foto' ? 'foto ' + q.photo.i : q.opts.map(function (o, i) { return o.n + ': foto ' + q.photos[i].i; }).join('; ');
+        var medie = q.t === 'lyd' ? q.snd.u : q.t === 'foto' ? 'foto ' + q.photo.i : q.opts.map(function (o, i) { return o.n + ': foto ' + q.photos[i].i; }).join('; ');
         sendFb({ kind: f.kind.value, art: q.sp.n + ' (' + q.sp.k + ')', medie: medie, besked: t.value.trim() }).then(function () {
           f.replaceWith(el('p', 'fq-fb-tak', 'Tak! Din feedback er sendt.'));
         });
@@ -315,7 +326,7 @@
     fb.appendChild(fbBox(q));
     var media = $('fq-media');
     var cr = media.querySelector('.fq-credit');
-    if (cr) cr.replaceWith(q.t === 'lyd' ? credit(q.sp.snd, true, 'Lyd: ') : credit(q.photo, true));
+    if (cr) cr.replaceWith(q.t === 'lyd' ? credit(q.snd, true, 'Lyd: ') : credit(q.photo, true));
     $('fq-score').textContent = score + ' rigtige';
     var nx = $('fq-next'); nx.hidden = false; nx.textContent = qi + 1 < qs.length ? 'Næste' : 'Se resultat'; nx.focus({ preventScroll: true });
   }

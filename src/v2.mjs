@@ -177,16 +177,23 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
   function sound(d) {
     const so = d.sound;
     if (!so?.src?.length) return '';
-    const lic = so.licenseUrl ? `<a href="${esc(so.licenseUrl)}" rel="license noopener" target="_blank">${esc(so.license)}</a>` : esc(so.license);
-    return `<section class="sec card-sec" id="lyd">
-  <h2>Hør den</h2>
+    const passer = d.taxon?.order === 'Passeriformes';
+    const list = so.kinds?.length ? so.kinds : [so];
+    const one = (x, label) => {
+      const lic = x.licenseUrl ? `<a href="${esc(x.licenseUrl)}" rel="license noopener" target="_blank">${esc(x.license)}</a>` : esc(x.license);
+      const what = label || (x.type && lydType(x.type, d.taxon?.order) ? cap(lydType(x.type, d.taxon?.order)) : '');
+      return `<div class="snd">${list.length > 1 ? `<h3 class="snd-h">${esc(label)}</h3>` : ''}
   <div class="player" data-player>
-    <button type="button" class="play" aria-label="Afspil lyden">${I.play}</button>
+    <button type="button" class="play" aria-label="Afspil ${esc((label || 'lyden').toLowerCase())}">${I.play}</button>
     <div class="track" aria-hidden="true"><span></span></div>
     <span class="time" aria-live="off">0:00</span>
   </div>
-  <audio controls preload="none">${so.src.map((x) => `<source src="${esc(x.u)}"${x.type && x.type !== 'application/ogg' ? ` type="${esc(x.type)}"` : ''}>`).join('')}</audio>
-  <p class="src">${so.type && lydType(so.type, d.taxon?.order) ? `${esc(cap(lydType(so.type, d.taxon?.order)))}. ` : ''}Optaget af ${esc(so.artist || 'ukendt')}, ${lic}, via <a href="${esc(so.page)}" rel="noopener" target="_blank">${esc(so.via || 'Wikimedia Commons')}</a>.</p>
+  <audio controls preload="none">${x.src.map((y) => `<source src="${esc(y.u)}"${y.type && y.type !== 'application/ogg' ? ` type="${esc(y.type)}"` : ''}>`).join('')}</audio>
+  <p class="src">${list.length === 1 && what ? `${esc(what)}. ` : ''}Optaget af ${esc(x.artist || 'ukendt')}, ${lic}, via <a href="${esc(x.page)}" rel="noopener" target="_blank">${esc(x.via || 'Wikimedia Commons')}</a>.</p></div>`;
+    };
+    return `<section class="sec card-sec" id="lyd">
+  <h2>Hør den</h2>
+  ${list.map((x) => one(x, x.kind === 'kald' ? 'Kald' : x.kind === 'sang' ? (passer ? 'Sang' : 'Stemme') : '')).join('\n  ')}
 </section>`;
   }
 

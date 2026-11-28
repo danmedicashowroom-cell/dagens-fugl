@@ -512,3 +512,6 @@ body.v2s .cmp-intro .lead { margin: 0; font-size: 1.1rem; max-width: 64ch; }
 .fq-cmp tr:first-child th { border-top: 0; color: var(--muted); font-weight: 600; }
 .fq-cmp th { font-weight: 600; width: 22%; }
 .pgrid.pseason { margin-top: 20px; }
+.snd + .snd { margin-top: 18px; } .snd-h { font-size: 1rem; margin: 0 0 8px; }
+.fq-choices.n3 { grid-template-columns: repeat(3, minmax(0, 200px)); }
+.fq-kind { display: inline-block; margin: 0 0 10px; padding: 3px 12px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: .85rem; font-weight: 600; }

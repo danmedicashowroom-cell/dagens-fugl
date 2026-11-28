@@ -559,6 +559,7 @@ function main() {
       d.photos[s] = [{ id: `commons:${c.titel}`, medium: c.u, large: thumb(1280), sizes: { small: thumb(240), medium: c.u, large: thumb(1280) }, attribution: c.artist, license: licKey, licLabel: c.lic, licUrl: c.licUrl, source: c.page, via: 'Wikimedia Commons' }];
     }
     if (d.sound?.page && LYDE_FRAVALGT.has(String(d.sound.page).match(/(\d+)\/?$/)?.[1])) d.sound = null; // fravalgt lyd – hentes på ny om natten
+    if (d.sound?.kinds) { d.sound.kinds = d.sound.kinds.filter((x) => !LYDE_FRAVALGT.has(String(x.page).match(/(\d+)\/?$/)?.[1])); if (!d.sound.kinds.length) delete d.sound.kinds; }
     // Engelske Wikipedia-tekster vises kun i dansk oversættelse (data/wiki-da.json); uden oversættelse vises kun linket
     if (d.wiki && d.wiki.lang !== 'da') {
       if (WIKI_DA[sp.key]) d.wiki = { ...d.wiki, extract: WIKI_DA[sp.key], oversat: true };
@@ -1013,8 +1014,10 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     const qdata = dk.map((d) => {
       const photos = quizPhotos(d)
         .map(({ ph, k }) => ({ u: ph.medium, c: `${whoShort(ph)} · ${licLabel(ph.license)} · iNaturalist · vist som udsnit`, s: ph.source, i: ph.id, ...(k === 'juvenile' ? { j: 1 } : {}) }));
-      const s = d.sound?.src?.[0]?.u ? { u: d.sound.src[0].u, c: `${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, s: d.sound.page } : null;
-      return { k: d.key, n: displayName(d), a: akaNames(d), sci: d.names.accepted, l: level(d), f: d.taxon?.family || d.names.accepted.split(' ')[0], g: d.names.accepted.split(' ')[0], u: url(speciesUrl(d)), p: photos, ...(s ? { snd: s } : {}), ...(d.tekst?.kendetegn ? { kt: d.tekst.kendetegn } : {}), ...(d.tekst?.stemme ? { st: d.tekst.stemme } : {}), ...(d.tekst?.forveksling ? { fv: d.tekst.forveksling } : {}) };
+      const sx = (x) => ({ u: x.src[0].u, c: `${x.artist || 'ukendt'} · ${x.license} · ${x.via || 'Wikimedia Commons'}`, s: x.page, ...(x.kind ? { kind: x.kind } : {}) });
+      const s = d.sound?.src?.[0]?.u ? sx(d.sound) : null;
+      const snds = (d.sound?.kinds || []).filter((x) => x.src?.[0]?.u).map(sx);
+      return { k: d.key, n: displayName(d), a: akaNames(d), sci: d.names.accepted, l: level(d), f: d.taxon?.family || d.names.accepted.split(' ')[0], g: d.names.accepted.split(' ')[0], u: url(speciesUrl(d)), p: photos, ...(s ? { snd: s } : {}), ...(snds.length ? { snds } : {}), ...(d.taxon?.order === 'Passeriformes' ? { pas: 1 } : {}), ...(d.tekst?.kendetegn ? { kt: d.tekst.kendetegn } : {}), ...(d.tekst?.stemme ? { st: d.tekst.stemme } : {}), ...(d.tekst?.forveksling ? { fv: d.tekst.forveksling } : {}) };
     }).filter((x) => x.p.length);
     // Forvekslingspar (fra sammenligningssiderne) – vises efter svaret: »sådan kender du dem fra hinanden«
     const inQuiz = new Set(qdata.map((x) => x.k));
@@ -1043,6 +1046,9 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
       </div></fieldset>
       <fieldset class="fq-group"><legend>Type</legend><div class="fq-choices">
         ${[['foto', 'Foto', 'Hvilken fugl er på billedet?'], ['lyd', 'Lyd', 'Hvilken fugl synger eller kalder?'], ['navn', 'Navn', 'Find billedet af fuglen'], ['blandet', 'Blandet', 'Lidt af det hele']].map(([v, l, t], i) => `<label class="fq-choice"><input type="radio" name="type" value="${v}"${i === 0 ? ' checked' : ''}><span><b>${l}</b><small>${t}</small></span></label>`).join('')}
+      </div></fieldset>
+      <fieldset class="fq-group" id="fq-lyd-wrap" hidden><legend>Lyd</legend><div class="fq-choices n3">
+        ${[['begge', 'Begge', 'Sang og kald'], ['sang', 'Sang', 'Sang og stemme'], ['kald', 'Kald', 'Kald og advarsler']].map(([v, l, t], i) => `<label class="fq-choice"><input type="radio" name="lyd" value="${v}"${i === 0 ? ' checked' : ''}><span><b>${l}</b><small>${t}</small></span></label>`).join('')}
       </div></fieldset>
       <fieldset class="fq-group"><legend>Antal spørgsmål</legend><div class="fq-choices n">
         ${[10, 20].map((n, i) => `<label class="fq-choice"><input type="radio" name="n" value="${n}"${i === 0 ? ' checked' : ''}><span><b>${n}</b></span></label>`).join('')}
