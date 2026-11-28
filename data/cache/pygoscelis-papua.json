@@ -253,9 +253,43 @@
   "page": "https://xeno-canto.org/875609",
   "type": "begging call, call, song",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/875609/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "artist": "steve",
+    "page": "https://xeno-canto.org/875609",
+    "type": "begging call, call, song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1079177/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Meena Haribal",
+    "page": "https://xeno-canto.org/1079177",
+    "type": "call, duet",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

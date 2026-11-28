@@ -260,22 +260,8 @@
    }
   ]
  },
- "sound": {
-  "src": [
-   {
-    "u": "https://xeno-canto.org/694989/download",
-    "type": "audio/mpeg"
-   }
-  ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Romuald Mikusek",
-  "page": "https://xeno-canto.org/694989",
-  "type": "call, song",
-  "q": "A",
-  "via": "xeno-canto"
- },
- "soundVersion": 3,
+ "sound": null,
+ "soundVersion": 4,
  "photoVersion": 3,
  "refetchedFor": "2026-11-21b",
  "warnings": [],

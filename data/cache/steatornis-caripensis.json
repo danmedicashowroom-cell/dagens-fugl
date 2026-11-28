@@ -222,9 +222,43 @@
   "page": "https://xeno-canto.org/354928",
   "type": "call, song",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/354928/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "GABRIEL LEITE",
+    "page": "https://xeno-canto.org/354928",
+    "type": "call, song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1193800/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Juan Freile",
+    "page": "https://xeno-canto.org/1193800",
+    "type": "aberrant, call, clicking sounds and calls",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

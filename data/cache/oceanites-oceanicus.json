@@ -222,9 +222,43 @@
   "page": "https://xeno-canto.org/863025",
   "type": "song, song at night during breeding season. Individual singing under a rock.",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/863025/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Kevin Guille",
+    "page": "https://xeno-canto.org/863025",
+    "type": "song, song at night during breeding season. Individual singing under a rock.",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/882200/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Fabrice Schmitt",
+    "page": "https://xeno-canto.org/882200",
+    "type": "alarm call, call",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

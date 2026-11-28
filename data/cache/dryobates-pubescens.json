@@ -253,9 +253,43 @@
   "page": "https://xeno-canto.org/89855",
   "type": "call, song",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/89855/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-ND 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.5/",
+    "artist": "Thomas G. Graves",
+    "page": "https://xeno-canto.org/89855",
+    "type": "call, song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1165447/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Don Profota",
+    "page": "https://xeno-canto.org/1165447",
+    "type": "call",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

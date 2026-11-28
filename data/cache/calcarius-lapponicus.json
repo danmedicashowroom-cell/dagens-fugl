@@ -284,19 +284,21 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1168672/download",
+    "u": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Calcarius_lapponicus_30352.wav/Calcarius_lapponicus_30352.wav.mp3",
     "type": "audio/mpeg"
+   },
+   {
+    "u": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Calcarius_lapponicus_30352.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "type": "audio/wav"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Stanislas Wroza",
-  "page": "https://xeno-canto.org/1168672",
-  "type": "song",
-  "q": "A",
-  "via": "xeno-canto"
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "artist": "Thomas Koffel",
+  "page": "https://commons.wikimedia.org/wiki/File:Calcarius_lapponicus_30352.wav",
+  "via": "Wikimedia Commons"
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

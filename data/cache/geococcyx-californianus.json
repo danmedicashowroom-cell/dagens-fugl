@@ -239,9 +239,43 @@
   "page": "https://xeno-canto.org/884929",
   "type": "song",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/884929/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Mark McClelland",
+    "page": "https://xeno-canto.org/884929",
+    "type": "song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/511258/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Bobby Wilcox",
+    "page": "https://xeno-canto.org/511258",
+    "type": "call, bill rattle",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

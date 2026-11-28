@@ -264,19 +264,53 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1146873/download",
+    "u": "https://xeno-canto.org/1196981/download",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-ND 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Joost van Bruggen",
-  "page": "https://xeno-canto.org/1146873",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "artist": "Thierry THOMAS",
+  "page": "https://xeno-canto.org/1196981",
   "type": "call",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/704310/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "artist": "Elias A. Ryberg",
+    "page": "https://xeno-canto.org/704310",
+    "type": "call, song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1196981/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Thierry THOMAS",
+    "page": "https://xeno-canto.org/1196981",
+    "type": "call",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

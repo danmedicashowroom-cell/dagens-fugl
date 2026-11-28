@@ -207,9 +207,43 @@
   "page": "https://xeno-canto.org/990418",
   "type": "alarm call, begging call, Person jogging on gravel",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/334446/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "artist": "Marc Anderson",
+    "page": "https://xeno-canto.org/334446",
+    "type": "call, song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/990418/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Nick Talbot",
+    "page": "https://xeno-canto.org/990418",
+    "type": "alarm call, begging call, Person jogging on gravel",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

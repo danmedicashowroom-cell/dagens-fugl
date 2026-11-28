@@ -284,19 +284,17 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1189425/download",
+    "u": "https://upload.wikimedia.org/wikipedia/commons/4/48/Oriolus_oriolus_-_Eurasian_Golden_Oriole_XC431707.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Tahvo Repo",
-  "page": "https://xeno-canto.org/1189425",
-  "type": "song",
-  "q": "A",
-  "via": "xeno-canto"
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Joost van Bruggen",
+  "page": "https://commons.wikimedia.org/wiki/File:Oriolus_oriolus_-_Eurasian_Golden_Oriole_XC431707.mp3",
+  "via": "Wikimedia Commons"
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

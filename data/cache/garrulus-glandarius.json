@@ -234,19 +234,17 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1088903/download",
+    "u": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Garrulus_glandarius_-_Eurasian_Jay_XC461843.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Mats Olsson",
-  "page": "https://xeno-canto.org/1088903",
-  "type": "subsong",
-  "q": "A",
-  "via": "xeno-canto"
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "page": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_-_Eurasian_Jay_XC461843.mp3",
+  "via": "Wikimedia Commons"
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

@@ -283,9 +283,43 @@
   "page": "https://xeno-canto.org/674858",
   "type": "song",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/674858/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "artist": "Albert Lastukhin",
+    "page": "https://xeno-canto.org/674858",
+    "type": "song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/380277/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "artist": "Andrew Spencer",
+    "page": "https://xeno-canto.org/380277",
+    "type": "call",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "warnings": [],
  "taxon": {

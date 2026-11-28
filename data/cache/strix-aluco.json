@@ -284,19 +284,53 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1195653/download",
+    "u": "https://xeno-canto.org/1196914/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Thierry THOMAS",
-  "page": "https://xeno-canto.org/1195653",
-  "type": "duet, song",
+  "artist": "Jouke Altenburg",
+  "page": "https://xeno-canto.org/1196914",
+  "type": "call, song",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1196914/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Jouke Altenburg",
+    "page": "https://xeno-canto.org/1196914",
+    "type": "call, song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1196000/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "artist": "E Adler",
+    "page": "https://xeno-canto.org/1196000",
+    "type": "call",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

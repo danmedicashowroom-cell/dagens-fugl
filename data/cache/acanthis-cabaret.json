@@ -84,19 +84,17 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/132608/download",
+    "u": "https://upload.wikimedia.org/wikipedia/commons/6/63/Acanthis_cabaret_-_Lesser_Redpoll_XC482789.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "type": "audio/mpeg"
    }
   ],
-  "license": "CC BY-NC-SA 3.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "artist": "Jarek Matusiak",
-  "page": "https://xeno-canto.org/132608",
-  "type": "song",
-  "q": "A",
-  "via": "xeno-canto"
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Pascal Christe",
+  "page": "https://commons.wikimedia.org/wiki/File:Acanthis_cabaret_-_Lesser_Redpoll_XC482789.mp3",
+  "via": "Wikimedia Commons"
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 3,
  "refetchedFor": "2026-11-21b",
  "warnings": [],

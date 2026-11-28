@@ -274,9 +274,27 @@
   "page": "https://xeno-canto.org/1042791",
   "type": "begging call",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1042791/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "artist": "Sonothèque ADVL",
+    "page": "https://xeno-canto.org/1042791",
+    "type": "begging call",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

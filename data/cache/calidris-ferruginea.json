@@ -274,9 +274,27 @@
   "page": "https://xeno-canto.org/1041776",
   "type": "flight call",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1041776/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "artist": "David Darrell-Lambert",
+    "page": "https://xeno-canto.org/1041776",
+    "type": "flight call",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

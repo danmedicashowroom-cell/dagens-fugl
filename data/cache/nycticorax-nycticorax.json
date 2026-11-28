@@ -284,19 +284,53 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1194784/download",
+    "u": "https://xeno-canto.org/1196925/download",
     "type": "audio/mpeg"
    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Vandousselaere Patrick",
-  "page": "https://xeno-canto.org/1194784",
-  "type": "nocturnal flight call",
+  "artist": "Thierry THOMAS",
+  "page": "https://xeno-canto.org/1196925",
+  "type": "call, flight call, wind",
   "q": "A",
-  "via": "xeno-canto"
+  "via": "xeno-canto",
+  "kinds": [
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1067625/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Pedro Rinaldi",
+    "page": "https://xeno-canto.org/1067625",
+    "type": "song",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "sang"
+   },
+   {
+    "src": [
+     {
+      "u": "https://xeno-canto.org/1196925/download",
+      "type": "audio/mpeg"
+     }
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "artist": "Thierry THOMAS",
+    "page": "https://xeno-canto.org/1196925",
+    "type": "call, flight call, wind",
+    "q": "A",
+    "via": "xeno-canto",
+    "kind": "kald"
+   }
+  ]
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

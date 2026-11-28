@@ -251,22 +251,8 @@
    }
   ]
  },
- "sound": {
-  "src": [
-   {
-    "u": "https://xeno-canto.org/1000530/download",
-    "type": "audio/mpeg"
-   }
-  ],
-  "license": "CC BY-NC-ND 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Joost van Bruggen",
-  "page": "https://xeno-canto.org/1000530",
-  "type": "song",
-  "q": "A",
-  "via": "xeno-canto"
- },
- "soundVersion": 3,
+ "sound": null,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],

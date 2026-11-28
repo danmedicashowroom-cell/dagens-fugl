@@ -284,19 +284,21 @@
  "sound": {
   "src": [
    {
-    "u": "https://xeno-canto.org/1167229/download",
+    "u": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Parus_major_-_Great_Tit_XC129643.ogg/Parus_major_-_Great_Tit_XC129643.ogg.mp3",
     "type": "audio/mpeg"
+   },
+   {
+    "u": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Parus_major_-_Great_Tit_XC129643.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "type": "application/ogg"
    }
   ],
-  "license": "CC BY-NC-SA 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "artist": "Stanislas Wroza",
-  "page": "https://xeno-canto.org/1167229",
-  "type": "call, song, melodious call",
-  "q": "A",
-  "via": "xeno-canto"
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Gavin Vella",
+  "page": "https://commons.wikimedia.org/wiki/File:Parus_major_-_Great_Tit_XC129643.ogg",
+  "via": "Wikimedia Commons"
  },
- "soundVersion": 3,
+ "soundVersion": 4,
  "photoVersion": 4,
  "refetchedFor": null,
  "warnings": [],
