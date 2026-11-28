@@ -36,6 +36,7 @@ const LICENSES = {
   'cc-by-sa': { label: 'CC BY-SA', url: 'https://creativecommons.org/licenses/by-sa/4.0/deed.da' },
   'cc-by-nc': { label: 'CC BY-NC', url: 'https://creativecommons.org/licenses/by-nc/4.0/deed.da' },
   'cc-by-nc-sa': { label: 'CC BY-NC-SA', url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.da' },
+  'pd': { label: 'Public domain', url: 'https://creativecommons.org/publicdomain/mark/1.0/deed.da' },
 };
 
 function todayISO(date = new Date()) {
@@ -65,7 +66,7 @@ const PHOTO_BY_ID = new Map();
 function creditText(ph) {
   const lic = LICENSES[ph.license];
   const who = photographer(ph) ? `${ph.license === 'cc0' ? '' : '© '}${photographer(ph)}` : 'Fotograf ikke angivet';
-  return `Foto: ${who} · ${lic ? lic.label : ph.license.toUpperCase()} · iNaturalist · vist som udsnit`;
+  return `Foto: ${who} · ${ph.licLabel || (lic ? lic.label : ph.license.toUpperCase())} · ${ph.via || 'iNaturalist'} · vist som udsnit`;
 }
 function creditThumbs(html) {
   let uncredited = 0;
@@ -128,7 +129,7 @@ function thumb(photo) {
 }
 
 // iNaturalist har fotos i flere størrelser: small 240, medium 500, large 1024, original op til 2048 px.
-const size = (photo, s) => photo.medium.replace('/medium.', `/${s}.`);
+const size = (photo, s) => photo.sizes?.[s] || photo.medium.replace('/medium.', `/${s}.`);
 function srcset(photo, sizes) {
   return sizes.map(([s, w]) => `${esc(size(photo, s))} ${w}w`).join(', ');
 }
@@ -138,7 +139,7 @@ function credit(photo) {
   const who = photographer(photo) ? esc(`${photo.license === 'cc0' ? 'Foto: ' : '© '}${photographer(photo)}`) : 'Fotograf ikke angivet';
   const dato = photo.date && /^\d{4}-\d{2}-\d{2}$/.test(photo.date) ? new Date(`${photo.date}T12:00:00Z`).toLocaleDateString('da-DK', { day: 'numeric', month: 'short', year: 'numeric' }) : photo.date;
   const where = [landDa(photo.place), dato].filter(Boolean).map(esc).join(', ');
-  return `<span class="credit">${who} · <a href="${lic.url}" rel="license noopener" target="_blank">${lic.label}</a> · <a href="${esc(photo.source)}" rel="noopener" target="_blank">iNaturalist</a> · vist som udsnit${where ? `<span class="where"> · ${where}</span>` : ''}</span>`;
+  return `<span class="credit">${who} · <a href="${esc(photo.licUrl || lic.url)}" rel="license noopener" target="_blank">${esc(photo.licLabel || lic.label)}</a> · <a href="${esc(photo.source)}" rel="noopener" target="_blank">${esc(photo.via || 'iNaturalist')}</a> · vist som udsnit${where ? `<span class="where"> · ${where}</span>` : ''}</span>`;
 }
 
 function figure(photo, alt, cls = '', eager = false) {
@@ -519,6 +520,7 @@ function speciesJsonLd(d, canonical) {
 
 const NAVNE = readJson(path.join(ROOT, 'data', 'navne.json'), {});
 const WIKI_DA = readJson(path.join(ROOT, 'data', 'wiki-da.json'), {});
+const DRAGTER = readJson(path.join(ROOT, 'data', 'dragter.json'), {});
 const LYDE_FRAVALGT = new Set(fs.existsSync(path.join(ROOT, 'data', 'lyde-fravalgt.txt'))
   ? fs.readFileSync(path.join(ROOT, 'data', 'lyde-fravalgt.txt'), 'utf8').split('\n').map((l) => l.replace(/#.*/, '').trim()).filter(Boolean) : []);
 const ANDRE_NAVNE = readJson(path.join(ROOT, 'data', 'andre-navne.json'), {});
@@ -549,6 +551,13 @@ function main() {
     d.region = sp.region; // listen bestemmer altid området
     d.tekst = readJson(path.join(ROOT, 'data', 'tekster', `${sp.key}.json`), null);
     if (NAVNE[sp.key]) d.names.da = NAVNE[sp.key];
+    // Sommer- og vinterdragt fra Wikimedia Commons (håndplukket, kun CC0/public domain/CC BY) – data/dragter.json
+    if (DRAGTER[sp.key] && d.photos) for (const s of ['sommer', 'vinter']) {
+      const c = DRAGTER[sp.key][s]; if (!c) continue;
+      const licKey = /^cc0/i.test(c.lic) ? 'cc0' : /public domain|^pd/i.test(c.lic) ? 'pd' : 'cc-by';
+      const thumb = (w) => c.u.replace(/\/\d+px-/, `/${w}px-`);
+      d.photos[s] = [{ id: `commons:${c.titel}`, medium: c.u, large: thumb(1280), sizes: { small: thumb(240), medium: c.u, large: thumb(1280) }, attribution: c.artist, license: licKey, licLabel: c.lic, licUrl: c.licUrl, source: c.page, via: 'Wikimedia Commons' }];
+    }
     if (d.sound?.page && LYDE_FRAVALGT.has(String(d.sound.page).match(/(\d+)\/?$/)?.[1])) d.sound = null; // fravalgt lyd – hentes på ny om natten
     // Engelske Wikipedia-tekster vises kun i dansk oversættelse (data/wiki-da.json); uden oversættelse vises kun linket
     if (d.wiki && d.wiki.lang !== 'da') {
@@ -975,6 +984,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     if (!groups.length) groups = [['adult', 'Voksen'], ['general', 'Andre']].map(([k, l]) => ({ k, l, ph: (p[k] || []).slice(0, 4) })).filter((g) => g.ph.length);
     const out = []; const seen = new Set();
     if (p.hero) { out.push({ ph: p.hero, k: 'hero', l: 'Hovedbillede' }); seen.add(p.hero.id); }
+    for (const [k, l] of [['sommer', 'Sommerdragt'], ['vinter', 'Vinterdragt']]) if (p[k]?.length) groups.push({ k, l, ph: p[k].slice(0, 1) });
     for (const g of groups) for (const ph of g.ph) if (!seen.has(ph.id)) { seen.add(ph.id); out.push({ ph, k: g.k, l: g.l }); }
     return out;
   }
