@@ -2,15 +2,11 @@
 import json, os, re, sys, glob, urllib.request, io
 import openpyxl
 UA = {'User-Agent': 'dagensfugl.dk (dagensfugl1@gmail.com)'}
-page = urllib.request.urlopen(urllib.request.Request('https://figshare.com/s/b990722d72a26b5bfead', headers=UA)).read().decode('utf8', 'ignore')
-ids = re.findall(r'ndownloader/files/(\d+)', page)
-print('fil-id:', ids[:6])
-data = None
-for fid in dict.fromkeys(ids):
-    url = f'https://figshare.com/ndownloader/files/{fid}?private_link=b990722d72a26b5bfead'
-    b = urllib.request.urlopen(urllib.request.Request(url, headers=UA)).read()
-    print(fid, len(b))
-    if len(b) > 15_000_000: data = b; break
+files = json.loads(urllib.request.urlopen(urllib.request.Request('https://api.figshare.com/v2/articles/16586228/files', headers=UA)).read())
+print([(f['name'], f['size']) for f in files])
+f = next(f for f in files if 'dataset 1' in f['name'].lower() and f['name'].endswith('.xlsx'))
+data = urllib.request.urlopen(urllib.request.Request(f['download_url'], headers=UA)).read()
+print('hentet', len(data))
 wb = openpyxl.load_workbook(io.BytesIO(data), read_only=True, data_only=True)
 print(wb.sheetnames)
 want = {}
