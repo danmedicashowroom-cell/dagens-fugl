@@ -1,0 +1,23 @@
+name: Hent AVONET-data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  hent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install openpyxl >/dev/null
+      - run: python tools/avonet.py
+      - name: Læg på grenen avonet
+        run: |
+          cd tjek
+          git init -q -b avonet
+          git config user.name "github-actions[bot]"
+          git config user.email "41898338+github-actions[bot]@users.noreply.github.com"
+          git add avonet.json && git commit -qm "AVONET"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" avonet
