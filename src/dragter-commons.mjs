@@ -5,14 +5,21 @@ import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 const UA = 'dagensfugl.dk dragter (dagensfugl1@gmail.com)';
 const API = 'https://commons.wikimedia.org/w/api.php';
-let DBG = 0;
+let DBG = 0; let FAILED = 0;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function api(params) {
   const u = `${API}?format=json&formatversion=2&${new URLSearchParams(params)}`;
-  for (let t = 0; t < 4; t++) {
-    try { const r = await fetch(u, { headers: { 'User-Agent': UA, 'Api-User-Agent': UA } }); if (r.ok) return r.json(); if (DBG++ < 5) console.log('HTTP', r.status, u.slice(0, 160)); } catch (e) { if (DBG++ < 5) console.log('fejl', e.message); }
-    await sleep(2000 * (t + 1));
+  await sleep(900); // Commons tillader ikke mange kald i træk
+  for (let t = 0; t < 6; t++) {
+    try {
+      const r = await fetch(u + '&maxlag=5', { headers: { 'User-Agent': UA, 'Api-User-Agent': UA } });
+      if (r.ok) { const j = await r.json(); if (!j.error) return j; }
+      const wait = Number(r.headers.get('retry-after') || 0) * 1000 || 15000 * (t + 1);
+      if (DBG++ < 10) console.log('HTTP', r.status, 'venter', wait / 1000, 's');
+      await sleep(wait);
+    } catch (e) { if (DBG++ < 10) console.log('fejl', e.message); await sleep(5000); }
   }
+  FAILED++;
   return null;
 }
 const dl = JSON.parse(fs.readFileSync('data/danske-liste.json', 'utf8'));
@@ -37,9 +44,7 @@ for (const sp of species) {
     const r = await api({ action: 'query', list: 'categorymembers', cmtitle: `Category:${name}`, cmtype: 'subcat', cmlimit: '500' });
     cats = (r?.query?.categorymembers || []).map((c) => c.title);
     if (cats.length) break;
-    await sleep(300);
   }
-  if (species.indexOf(sp) < 3) console.log(sp.k, 'kategorier:', cats.slice(0, 40).join(' | '));
   const res = {};
   for (const [season, re, not] of SEASON) {
     let sc = cats.filter((c) => re.test(c) && !(not && not.test(c)));
@@ -52,7 +57,7 @@ for (const sp of species) {
     for (const c of sc) {
       const r = await api({ action: 'query', list: 'categorymembers', cmtitle: c, cmtype: 'file', cmlimit: '200' });
       for (const m of r?.query?.categorymembers || []) if (/\.(jpe?g|png)$/i.test(m.title)) files.add(m.title);
-      await sleep(200);
+      
     }
     const cand = [];
     const list = [...files];
@@ -67,13 +72,13 @@ for (const sp of species) {
         const q = (p.categories || []).length;
         cand.push({ t: p.title, u: ii.thumburl, page: ii.descriptionurl, w: ii.width, artist: plain(m.Artist?.value).slice(0, 80), lic, licUrl: m.LicenseUrl?.value || '', q });
       }
-      await sleep(300);
     }
     cand.sort((a, b) => b.q - a.q || b.w - a.w);
     if (cand.length) res[season] = cand.slice(0, 4);
   }
   if (res.sommer && res.vinter) out[sp.k] = res;
-  if (Object.keys(out).length % 10 === 0) console.log(`  ${sp.k}: ${Object.keys(out).length} arter med begge dragter`);
+  const i = species.indexOf(sp); if (i % 25 === 0) console.log(`  ${i}/${species.length} arter tjekket, ${Object.keys(out).length} med begge dragter, ${FAILED} fejlede kald`);
+  if (Object.keys(res).length) console.log(`    ${sp.k}: ${Object.keys(res).map((x) => x + ' ' + res[x].length).join(', ')}`);
 }
 fs.writeFileSync('tjek/dragter.json', JSON.stringify(out, null, 1));
 console.log(`Arter med både sommer- og vinterdragt: ${Object.keys(out).length}`);
