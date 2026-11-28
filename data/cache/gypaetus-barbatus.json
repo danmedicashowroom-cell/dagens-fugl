@@ -2,7 +2,8 @@
  "key": "gypaetus-barbatus",
  "name": "Gypaetus barbatus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:02:24.741Z",
+ "fetchedAt": "2026-11-28T04:41:53.110Z",
+ "gbifAt": "2026-11-28T04:41:53.110Z",
  "names": {
   "da": "Lammegrib",
   "en": "Bearded vulture",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5379,
-  "observations": 8383
+  "observations": 8436
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-11-10"
    }
   ],
-  "hero": {
-   "id": 277408147,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/277408147/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/277408147/large.jpg",
-   "attribution": "(c) petermcintyre, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/277408147",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 277408147,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 277408147,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/277408147/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/277408147/large.jpg",
+   "attribution": "(c) petermcintyre, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/277408147",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480649,
@@ -198,19 +199,19 @@
    0,
    0
   ],
-  "worldTotal": 105777,
+  "worldTotal": 105802,
   "topCountries": [
    {
     "code": "FR",
-    "count": 30764
+    "count": 30772
    },
    {
     "code": "AT",
-    "count": 18444
+    "count": 18445
    },
    {
     "code": "ES",
-    "count": 17397
+    "count": 17401
    },
    {
     "code": "IN",
@@ -222,11 +223,11 @@
    },
    {
     "code": "IT",
-    "count": 3005
+    "count": 3010
    },
    {
     "code": "CN",
-    "count": 2797
+    "count": 2799
    },
    {
     "code": "ZA",
@@ -246,7 +247,7 @@
    },
    {
     "code": "MN",
-    "count": 1653
+    "count": 1654
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:04.178Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "strix-nebulosa",
  "name": "Strix nebulosa",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:04:34.809Z",
+ "fetchedAt": "2026-11-28T04:43:57.259Z",
+ "gbifAt": "2026-11-28T04:43:57.259Z",
  "names": {
   "da": "Lapugle",
   "en": "Great Grey Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 19890,
-  "observations": 7700
+  "observations": 7714
  },
  "photos": {
   "male": [
@@ -118,22 +119,12 @@
     "date": "2022-06-25"
    }
   ],
-  "hero": {
-   "id": 6542744,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/6542744/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/6542744/large.jpg",
-   "attribution": "(c) Fyn Kynd, some rights reserved (CC BY-SA), uploaded by Fyn Kynd",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/6542744",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 43082526,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43082526/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43082526/large.jpg",
-    "attribution": "(c) Alexey Zyryanov,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Alexey Zyryanov",
+    "attribution": "(c) Alexey Zyryanov, some rights reserved (CC BY-NC), uploaded by Alexey Zyryanov",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/43082526",
     "place": null,
@@ -143,7 +134,7 @@
     "id": 356101008,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/356101008/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/356101008/large.jpg",
-    "attribution": "(c) jamesbot,  זכויות יוצרים חלקיות (CC BY-NC)",
+    "attribution": "(c) jamesbot, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/356101008",
     "place": null,
@@ -153,7 +144,7 @@
     "id": 13664698,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13664698/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13664698/large.jpg",
-    "attribution": "(c) Donna Pomeroy,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Donna Pomeroy",
+    "attribution": "(c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/13664698",
     "place": null,
@@ -163,7 +154,7 @@
     "id": 251483404,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/251483404/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/251483404/large.jpg",
-    "attribution": "(c) jim22lawrence,  זכויות יוצרים חלקיות (CC BY-NC)",
+    "attribution": "(c) jim22lawrence, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/251483404",
     "place": null,
@@ -173,7 +164,7 @@
     "id": 107175703,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107175703/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107175703/large.jpg",
-    "attribution": "(c) Andrew Bazdyrev,  זכויות יוצרים חלקיות (CC BY), הועלה על ידי Andrew Bazdyrev",
+    "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY), uploaded by Andrew Bazdyrev",
     "license": "cc-by",
     "source": "https://www.inaturalist.org/photos/107175703",
     "place": null,
@@ -183,7 +174,7 @@
     "id": 251819015,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/251819015/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/251819015/large.jpg",
-    "attribution": "(c) Цемко Елизавета,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Цемко Елизавета",
+    "attribution": "(c) Цемко Елизавета, some rights reserved (CC BY-NC), uploaded by Цемко Елизавета",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/251819015",
     "place": null,
@@ -193,13 +184,23 @@
     "id": 28430082,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/28430082/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/28430082/large.jpg",
-    "attribution": "(c) Aleksey Levashkin,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Aleksey Levashkin",
+    "attribution": "(c) Aleksey Levashkin, some rights reserved (CC BY-NC), uploaded by Aleksey Levashkin",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/28430082",
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 43082526,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/43082526/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/43082526/large.jpg",
+   "attribution": "(c) Alexey Zyryanov, some rights reserved (CC BY-NC), uploaded by Alexey Zyryanov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/43082526",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2497522,
@@ -218,7 +219,7 @@
    0,
    0
   ],
-  "worldTotal": 40884,
+  "worldTotal": 40905,
   "topCountries": [
    {
     "code": "SE",
@@ -226,19 +227,19 @@
    },
    {
     "code": "FI",
-    "count": 7492
+    "count": 7500
    },
    {
     "code": "US",
-    "count": 3274
+    "count": 3280
    },
    {
     "code": "CA",
-    "count": 2715
+    "count": 2719
    },
    {
     "code": "RU",
-    "count": 2326
+    "count": 2327
    },
    {
     "code": "NO",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:21:22.409Z"
+ }
 }

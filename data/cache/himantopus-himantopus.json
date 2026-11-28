@@ -1,8 +1,9 @@
 {
  "key": "himantopus-himantopus",
  "name": "Himantopus himantopus",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:03:57.292Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:43:18.197Z",
+ "gbifAt": "2026-11-28T04:43:18.197Z",
  "names": {
   "da": "Stylteløber",
   "en": "Black-winged Stilt",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4835,
-  "observations": 66310
+  "observations": 66778
  },
  "photos": {
   "male": [
@@ -66,24 +67,24 @@
     "date": "2022-06-08"
    },
    {
-    "id": 574678670,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/574678670/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/574678670/large.jpg",
+    "id": 235084849,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/235084849/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/235084849/large.jpg",
     "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/318000396",
-    "place": "Parque del Guadalhorce, Churriana, 29004 Málaga, Spain",
-    "date": "2018-12-27"
+    "source": "https://www.inaturalist.org/observations/137624290",
+    "place": "Málaga, Andalucía, Spain",
+    "date": "2022-09-30"
    },
    {
-    "id": 649581775,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/649581775/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/649581775/large.jpg",
-    "attribution": "(c) Maëlys, some rights reserved (CC BY-NC)",
+    "id": 98916256,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/98916256/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/98916256/large.jpg",
+    "attribution": "(c) djhird, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/356205327",
-    "place": "Parc naturel régional de Camargue, Mas du pont de Rousty, RD 570, 13200 Arles, France",
-    "date": "2026-04-27"
+    "source": "https://www.inaturalist.org/observations/61790279",
+    "place": "Málaga, Andalucía, Spain",
+    "date": "2020-09-22"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2020-06-25"
    }
   ],
-  "hero": {
-   "id": 20455456,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/20455456/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/20455456/large.jpg",
-   "attribution": "(c) Paolo Zucca, some rights reserved (CC BY), uploaded by Paolo Zucca",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/20455456",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 20455456,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 20455456,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/20455456/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/20455456/large.jpg",
+   "attribution": "(c) Paolo Zucca, some rights reserved (CC BY), uploaded by Paolo Zucca",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/20455456",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5229126,
@@ -228,27 +229,27 @@
    1,
    0
   ],
-  "worldTotal": 1438707,
+  "worldTotal": 1438990,
   "topCountries": [
    {
     "code": "ES",
-    "count": 234324
+    "count": 234337
    },
    {
     "code": "IN",
-    "count": 225226
+    "count": 225267
    },
    {
     "code": "TW",
-    "count": 156947
+    "count": 156965
    },
    {
     "code": "FR",
-    "count": 125905
+    "count": 125912
    },
    {
     "code": "ZA",
-    "count": 111870
+    "count": 111883
    },
    {
     "code": "NL",
@@ -256,27 +257,27 @@
    },
    {
     "code": "PT",
-    "count": 67373
+    "count": 67395
    },
    {
     "code": "IL",
-    "count": 44915
+    "count": 44921
    },
    {
     "code": "AU",
-    "count": 36949
+    "count": 36950
    },
    {
     "code": "TH",
-    "count": 34602
+    "count": 34605
    },
    {
     "code": "AE",
-    "count": 27917
+    "count": 27924
    },
    {
     "code": "CN",
-    "count": 19971
+    "count": 19980
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Recurvirostridae",
   "familyKey": 4287244,
   "familyDa": "Stylteløbere & klyder",
   "order": "Charadriiformes"
- },
- "gbifAt": "2026-11-25T22:21:17.239Z"
+ }
 }

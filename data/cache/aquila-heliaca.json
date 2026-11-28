@@ -1,8 +1,9 @@
 {
  "key": "aquila-heliaca",
  "name": "Aquila heliaca",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:02:55.140Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:42:20.581Z",
+ "gbifAt": "2026-11-28T04:42:20.581Z",
  "names": {
   "da": "Kejserørn",
   "en": "Eastern Imperial Eagle",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5071,
-  "observations": 6954
+  "observations": 6999
  },
  "photos": {
   "male": [
@@ -108,26 +109,16 @@
     "date": "2025-03-06"
    },
    {
-    "id": 592273024,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/592273024/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/592273024/large.jpg",
-    "attribution": "(c) Paul Ha, some rights reserved (CC BY-NC)",
+    "id": 609272332,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/609272332/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/609272332/large.jpg",
+    "attribution": "(c) Marija Bučar, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/326971125",
-    "place": "South Korea",
-    "date": "2025-11-16"
+    "source": "https://www.inaturalist.org/observations/335389724",
+    "place": "Croatia",
+    "date": "2026-01-18"
    }
   ],
-  "hero": {
-   "id": 129874502,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/129874502/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/129874502/large.jpeg",
-   "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY), uploaded by Andrew Bazdyrev",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/129874502",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 129874502,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 129874502,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/129874502/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/129874502/large.jpeg",
+   "attribution": "(c) Andrew Bazdyrev, some rights reserved (CC BY), uploaded by Andrew Bazdyrev",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/129874502",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480500,
@@ -228,27 +229,27 @@
    0,
    9
   ],
-  "worldTotal": 55547,
+  "worldTotal": 55569,
   "topCountries": [
    {
     "code": "IN",
-    "count": 8504
+    "count": 8505
    },
    {
     "code": "RU",
-    "count": 8190
+    "count": 8193
    },
    {
     "code": "IL",
-    "count": 6181
+    "count": 6183
    },
    {
     "code": "HU",
-    "count": 4076
+    "count": 4078
    },
    {
     "code": "OM",
-    "count": 3641
+    "count": 3642
    },
    {
     "code": "TR",
@@ -256,7 +257,7 @@
    },
    {
     "code": "AT",
-    "count": 2129
+    "count": 2130
    },
    {
     "code": "SE",
@@ -264,15 +265,15 @@
    },
    {
     "code": "IR",
-    "count": 1572
+    "count": 1575
    },
    {
     "code": "SK",
-    "count": 1561
+    "count": 1564
    },
    {
     "code": "HK",
-    "count": 1508
+    "count": 1509
    },
    {
     "code": "KZ",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:06.929Z"
+ }
 }

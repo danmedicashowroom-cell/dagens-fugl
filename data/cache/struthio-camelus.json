@@ -2,7 +2,8 @@
  "key": "struthio-camelus",
  "name": "Struthio camelus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:05:53.772Z",
+ "fetchedAt": "2026-11-28T04:45:15.091Z",
+ "gbifAt": "2026-11-28T04:45:15.091Z",
  "names": {
   "da": "Struds",
   "en": "Common ostrich",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 20526,
-  "observations": 16393
+  "observations": 16594
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2019-12-16"
    }
   ],
-  "hero": {
-   "id": 256201078,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/256201078/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/256201078/large.jpg",
-   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/256201078",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 256201078,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 256201078,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/256201078/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/256201078/large.jpg",
+   "attribution": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/256201078",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2495150,
@@ -228,31 +229,31 @@
    0,
    0
   ],
-  "worldTotal": 142387,
+  "worldTotal": 142439,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 89417
+    "count": 89443
    },
    {
     "code": "KE",
-    "count": 18115
+    "count": 18125
    },
    {
     "code": "NA",
-    "count": 13443
+    "count": 13448
    },
    {
     "code": "TZ",
-    "count": 11848
+    "count": 11854
    },
    {
     "code": "BW",
-    "count": 5047
+    "count": 5050
    },
    {
     "code": "ZW",
-    "count": 887
+    "count": 889
    },
    {
     "code": "AU",
@@ -264,7 +265,7 @@
    },
    {
     "code": "MA",
-    "count": 239
+    "count": 240
    },
    {
     "code": "SZ",
@@ -272,7 +273,7 @@
    },
    {
     "code": "US",
-    "count": 143
+    "count": 144
    },
    {
     "code": "IL",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Struthionidae",
   "familyKey": 9349,
   "familyDa": "Strudsefamilien",
   "order": "Struthioniformes"
- },
- "gbifAt": "2026-11-25T22:21:33.429Z"
+ }
 }

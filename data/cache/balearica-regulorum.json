@@ -2,7 +2,8 @@
  "key": "balearica-regulorum",
  "name": "Balearica regulorum",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:05:59.278Z",
+ "fetchedAt": "2026-11-28T04:45:20.522Z",
+ "gbifAt": "2026-11-28T04:45:20.522Z",
  "names": {
   "da": "Grå krontrane",
   "en": "Grey Crowned Crane",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 53,
-  "observations": 6551
+  "observations": 6597
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2021-07-20"
    }
   ],
-  "hero": {
-   "id": 261339008,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/261339008/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/261339008/large.jpg",
-   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/261339008",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 261339008,
@@ -178,7 +169,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 261339008,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/261339008/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/261339008/large.jpg",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/261339008",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5228229,
@@ -197,23 +198,23 @@
    0,
    0
   ],
-  "worldTotal": 77040,
+  "worldTotal": 77056,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 33155
+    "count": 33158
    },
    {
     "code": "KE",
-    "count": 20480
+    "count": 20484
    },
    {
     "code": "UG",
-    "count": 8702
+    "count": 8703
    },
    {
     "code": "TZ",
-    "count": 7238
+    "count": 7245
    },
    {
     "code": "ZM",
@@ -245,7 +246,7 @@
    },
    {
     "code": "BW",
-    "count": 210
+    "count": 211
    }
   ]
  },
@@ -265,13 +266,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Gruidae",
   "familyKey": 9313,
   "familyDa": "Traner",
   "order": "Gruiformes"
- },
- "gbifAt": "2026-11-25T22:21:33.857Z"
+ }
 }

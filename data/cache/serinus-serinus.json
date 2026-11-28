@@ -2,7 +2,8 @@
  "key": "serinus-serinus",
  "name": "Serinus serinus",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:01:14.185Z",
+ "fetchedAt": "2026-11-28T04:41:13.862Z",
+ "gbifAt": "2026-11-28T04:41:13.862Z",
  "names": {
   "da": "Gulirisk",
   "en": "European Serin",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9236,
-  "observations": 41464
+  "observations": 41574
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
   ],
   "juvenile": [
    {
-    "id": 298586550,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/298586550/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/298586550/large.jpg",
-    "attribution": "(c) Patricia Morales, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/172033340",
-    "place": "Las Cuevas de Soria, Soria, España",
-    "date": "2023-07-09"
-   },
-   {
     "id": 231702283,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/231702283/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/231702283/large.jpeg",
@@ -108,26 +99,26 @@
     "date": "2022-08-18"
    },
    {
-    "id": 576799240,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/576799240/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/576799240/large.jpg",
+    "id": 420034838,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/420034838/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/420034838/large.jpeg",
     "attribution": "(c) Pep Cantó, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/319105748",
-    "place": "Alicante, España",
-    "date": "2025-10-03"
+    "source": "https://www.inaturalist.org/observations/236118824",
+    "place": "Alcoy, Alicante, España",
+    "date": "2024-08-16"
+   },
+   {
+    "id": 705549058,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/705549058/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/705549058/large.jpg",
+    "attribution": "(c) euqirneto, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/385398577",
+    "place": "Tarragona, España",
+    "date": "2026-07-15"
    }
   ],
-  "hero": {
-   "id": 71763707,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/71763707/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/71763707/large.jpg",
-   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC), uploaded by brian fisher",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/71763707",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 71763707,
@@ -179,17 +170,27 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 71763707,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/71763707/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/71763707/large.jpg",
+   "attribution": "(c) brian fisher, some rights reserved (CC BY-NC), uploaded by brian fisher",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/71763707",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2494200,
-  "dkTotal": 6633,
+  "dkTotal": 6634,
   "dkMonths": [
    18,
    14,
    195,
    1845,
-   2733,
+   2734,
    963,
    437,
    126,
@@ -198,31 +199,31 @@
    67,
    1
   ],
-  "worldTotal": 1927318,
+  "worldTotal": 1927417,
   "topCountries": [
    {
     "code": "ES",
-    "count": 938843
+    "count": 938884
    },
    {
     "code": "FR",
-    "count": 325334
+    "count": 325346
    },
    {
     "code": "PT",
-    "count": 245621
+    "count": 245629
    },
    {
     "code": "CH",
-    "count": 91206
+    "count": 91207
    },
    {
     "code": "DE",
-    "count": 79627
+    "count": 79630
    },
    {
     "code": "IT",
-    "count": 55556
+    "count": 55573
    },
    {
     "code": "SE",
@@ -230,7 +231,7 @@
    },
    {
     "code": "PL",
-    "count": 18774
+    "count": 18775
    },
    {
     "code": "CZ",
@@ -238,11 +239,11 @@
    },
    {
     "code": "MA",
-    "count": 14864
+    "count": 14866
    },
    {
     "code": "NL",
-    "count": 14817
+    "count": 14819
    },
    {
     "code": "TR",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:58.069Z"
+ }
 }

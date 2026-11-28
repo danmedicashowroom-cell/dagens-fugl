@@ -1,8 +1,9 @@
 {
  "key": "ardeola-ralloides",
  "name": "Ardeola ralloides",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:05:17.393Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:44:38.748Z",
+ "gbifAt": "2026-11-28T04:44:38.748Z",
  "names": {
   "da": "Tophejre",
   "en": "Squacco Heron",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4994,
-  "observations": 13326
+  "observations": 13449
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2026-07-26"
    }
   ],
-  "hero": {
-   "id": 107830578,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107830578/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107830578/large.jpg",
-   "attribution": "(c) josefwirth, some rights reserved (CC BY-NC), uploaded by josefwirth",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/107830578",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 107830578,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 107830578,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/107830578/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/107830578/large.jpg",
+   "attribution": "(c) josefwirth, some rights reserved (CC BY-NC), uploaded by josefwirth",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/107830578",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480906,
@@ -198,7 +199,7 @@
    255,
    0
   ],
-  "worldTotal": 279352,
+  "worldTotal": 279403,
   "topCountries": [
    {
     "code": "ES",
@@ -206,23 +207,23 @@
    },
    {
     "code": "ZA",
-    "count": 35730
+    "count": 35733
    },
    {
     "code": "IL",
-    "count": 28206
+    "count": 28210
    },
    {
     "code": "FR",
-    "count": 19400
+    "count": 19403
    },
    {
     "code": "GR",
-    "count": 10686
+    "count": 10706
    },
    {
     "code": "TR",
-    "count": 9018
+    "count": 9019
    },
    {
     "code": "BW",
@@ -230,23 +231,23 @@
    },
    {
     "code": "KE",
-    "count": 8021
+    "count": 8022
    },
    {
     "code": "AE",
-    "count": 7000
+    "count": 7004
    },
    {
     "code": "NL",
-    "count": 6883
+    "count": 6884
    },
    {
     "code": "IT",
-    "count": 6849
+    "count": 6852
    },
    {
     "code": "GM",
-    "count": 6242
+    "count": 6244
    }
   ]
  },
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ardeidae",
   "familyKey": 3685,
   "familyDa": "Hejre",
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:21:26.778Z"
+ }
 }

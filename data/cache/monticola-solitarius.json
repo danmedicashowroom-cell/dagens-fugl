@@ -2,7 +2,8 @@
  "key": "monticola-solitarius",
  "name": "Monticola solitarius",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:03:05.051Z",
+ "fetchedAt": "2026-11-28T04:42:30.763Z",
+ "gbifAt": "2026-11-28T04:42:30.763Z",
  "names": {
   "da": "Blådrossel",
   "en": "Blue Rock Thrush",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13141,
-  "observations": 19176
+  "observations": 19316
  },
  "photos": {
   "male": [
@@ -108,26 +109,16 @@
     "date": "2023-02-27"
    },
    {
-    "id": 589322452,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/589322452/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/589322452/large.jpg",
-    "attribution": "(c) Татьяна Химера, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/325485985",
-    "place": "Какегава, Сидзуока 436-0079, Япония",
-    "date": "2025-08-17"
+    "id": 337338706,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/337338706/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/337338706/large.jpeg",
+    "attribution": "(c) Marco Mussita, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/192192700",
+    "place": "Midori Ward, Saitama, Japan",
+    "date": "2023-11-26"
    }
   ],
-  "hero": {
-   "id": 247607732,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/247607732/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/247607732/large.jpg",
-   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/247607732",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 247607732,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 247607732,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/247607732/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/247607732/large.jpg",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/247607732",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490955,
@@ -208,55 +209,55 @@
    0,
    0
   ],
-  "worldTotal": 303223,
+  "worldTotal": 303302,
   "topCountries": [
    {
     "code": "ES",
-    "count": 75278
+    "count": 75283
    },
    {
     "code": "TW",
-    "count": 52129
+    "count": 52142
    },
    {
     "code": "JP",
-    "count": 32397
+    "count": 32420
    },
    {
     "code": "IN",
-    "count": 18810
+    "count": 18813
    },
    {
     "code": "FR",
-    "count": 15224
+    "count": 15225
    },
    {
     "code": "PT",
-    "count": 14965
+    "count": 14968
    },
    {
     "code": "GR",
-    "count": 10105
+    "count": 10108
    },
    {
     "code": "TH",
-    "count": 7858
+    "count": 7859
    },
    {
     "code": "IT",
-    "count": 7732
+    "count": 7734
    },
    {
     "code": "KR",
-    "count": 7185
+    "count": 7188
    },
    {
     "code": "IL",
-    "count": 6201
+    "count": 6202
    },
    {
     "code": "CN",
-    "count": 5595
+    "count": 5599
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:10.066Z"
+ }
 }

@@ -1,8 +1,9 @@
 {
  "key": "neophron-percnopterus",
  "name": "Neophron percnopterus",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:02:44.424Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:42:09.472Z",
+ "gbifAt": "2026-11-28T04:42:09.472Z",
  "names": {
   "da": "Ådselgrib",
   "en": "Egyptian Vulture",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5361,
-  "observations": 7605
+  "observations": 7646
  },
  "photos": {
   "male": [
@@ -88,16 +89,6 @@
     "date": "2022-11-05"
    }
   ],
-  "hero": {
-   "id": 339497104,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/339497104/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/339497104/large.jpeg",
-   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/339497104",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 339497104,
@@ -139,7 +130,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 339497104,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/339497104/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/339497104/large.jpeg",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/339497104",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480696,
@@ -158,19 +159,19 @@
    0,
    0
   ],
-  "worldTotal": 183672,
+  "worldTotal": 183683,
   "topCountries": [
    {
     "code": "ES",
-    "count": 82565
+    "count": 82569
    },
    {
     "code": "IN",
-    "count": 34272
+    "count": 34273
    },
    {
     "code": "FR",
-    "count": 14491
+    "count": 14495
    },
    {
     "code": "IL",
@@ -190,7 +191,7 @@
    },
    {
     "code": "NP",
-    "count": 3032
+    "count": 3033
    },
    {
     "code": "OM",
@@ -226,13 +227,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:05.667Z"
+ }
 }

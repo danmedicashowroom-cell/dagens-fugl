@@ -1,8 +1,9 @@
 {
  "key": "calonectris-diomedea",
  "name": "Calonectris diomedea",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:05:07.086Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:44:28.823Z",
+ "gbifAt": "2026-11-28T04:44:28.823Z",
  "names": {
   "da": "Skopolis Skråpe",
   "en": "Scopoli's Shearwater",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 509656,
-  "observations": 2067
+  "observations": 2082
  },
  "photos": {
   "male": [],
@@ -47,16 +48,6 @@
     "date": "2009-09-16"
    }
   ],
-  "hero": {
-   "id": 121566757,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/121566757/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/121566757/large.jpeg",
-   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/121566757",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 121566757,
@@ -128,7 +119,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 121566757,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/121566757/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/121566757/large.jpeg",
+   "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/121566757",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481521,
@@ -147,23 +148,23 @@
    0,
    0
   ],
-  "worldTotal": 311932,
+  "worldTotal": 311962,
   "topCountries": [
    {
     "code": "PT",
-    "count": 159229
+    "count": 159231
    },
    {
     "code": "ES",
-    "count": 75182
+    "count": 75199
    },
    {
     "code": "US",
-    "count": 39424
+    "count": 39431
    },
    {
     "code": "FR",
-    "count": 10938
+    "count": 10940
    },
    {
     "code": "IT",
@@ -187,7 +188,7 @@
    },
    {
     "code": "CA",
-    "count": 1501
+    "count": 1502
    },
    {
     "code": "ZA",
@@ -215,13 +216,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Procellariidae",
   "familyKey": 9339,
   "familyDa": "Egentlige Stormfugle",
   "order": "Procellariiformes"
- },
- "gbifAt": "2026-11-25T22:21:25.455Z"
+ }
 }

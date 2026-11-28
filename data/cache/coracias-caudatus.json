@@ -2,7 +2,8 @@
  "key": "coracias-caudatus",
  "name": "Coracias caudatus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:15.425Z",
+ "fetchedAt": "2026-11-28T04:45:37.468Z",
+ "gbifAt": "2026-11-28T04:45:37.468Z",
  "names": {
   "da": "Lillabrystet Ellekrage",
   "en": "Lilac-breasted Roller",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 2269,
-  "observations": 10037
+  "observations": 10097
  },
  "photos": {
   "male": [
@@ -78,16 +79,6 @@
     "date": "2018-02-14"
    },
    {
-    "id": 598550993,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/598550993/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/598550993/large.jpg",
-    "attribution": "(c) Jeanette Zitzer, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/330121104",
-    "place": "Kruger-Nationalpark, Bushbuckridge, Mpumalanga, ZA",
-    "date": "2025-12-06"
-   },
-   {
     "id": 320967052,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/320967052/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/320967052/large.jpg",
@@ -98,16 +89,6 @@
     "date": "2023-08-26"
    }
   ],
-  "hero": {
-   "id": 689801400,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/689801400/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/689801400/large.jpg",
-   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/689801400",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 689801400,
@@ -189,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 689801400,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/689801400/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/689801400/large.jpg",
+   "attribution": "(c) Rails and roadtrips, some rights reserved (CC BY-NC), uploaded by Rails and roadtrips",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/689801400",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2475360,
@@ -208,27 +199,27 @@
    0,
    0
   ],
-  "worldTotal": 208960,
+  "worldTotal": 209042,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 102467
+    "count": 102490
    },
    {
     "code": "KE",
-    "count": 27555
+    "count": 27562
    },
    {
     "code": "TZ",
-    "count": 17421
+    "count": 17424
    },
    {
     "code": "NA",
-    "count": 16120
+    "count": 16128
    },
    {
     "code": "BW",
-    "count": 15633
+    "count": 15640
    },
    {
     "code": "ZW",
@@ -236,11 +227,11 @@
    },
    {
     "code": "ZM",
-    "count": 7123
+    "count": 7133
    },
    {
     "code": "MZ",
-    "count": 3948
+    "count": 3949
    },
    {
     "code": "UG",
@@ -252,7 +243,7 @@
    },
    {
     "code": "ET",
-    "count": 1588
+    "count": 1595
    },
    {
     "code": "SZ",
@@ -276,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Coraciidae",
   "familyKey": 9307,
   "familyDa": "Ellekrager",
   "order": "Coraciiformes"
- },
- "gbifAt": "2026-11-25T22:21:35.601Z"
+ }
 }

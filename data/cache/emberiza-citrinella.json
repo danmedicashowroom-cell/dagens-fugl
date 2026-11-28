@@ -2,7 +2,8 @@
  "key": "emberiza-citrinella",
  "name": "Emberiza citrinella",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:01:48.024Z",
+ "fetchedAt": "2026-11-28T04:41:42.729Z",
+ "gbifAt": "2026-11-28T04:41:42.729Z",
  "names": {
   "da": "Gulspurv",
   "en": "Yellowhammer",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9195,
-  "observations": 60660
+  "observations": 60878
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2026-06-22"
    }
   ],
-  "hero": {
-   "id": 500177041,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/500177041/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/500177041/large.jpg",
-   "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/500177041",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 500177041,
@@ -209,26 +200,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 500177041,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/500177041/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/500177041/large.jpg",
+   "attribution": "(c) Diego González Dopico, some rights reserved (CC BY), uploaded by Diego González Dopico",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/500177041",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2491534,
-  "dkTotal": 348723,
+  "dkTotal": 348878,
   "dkMonths": [
-   20702,
-   20653,
-   43299,
-   50022,
-   55340,
-   40867,
-   34047,
+   20706,
+   20654,
+   43307,
+   50024,
+   55342,
+   40872,
+   34048,
    16228,
-   12999,
-   24893,
-   16537,
+   13000,
+   24899,
+   16663,
    13055
   ],
-  "worldTotal": 3707166,
+  "worldTotal": 3707643,
   "topCountries": [
    {
     "code": "SE",
@@ -240,43 +241,43 @@
    },
    {
     "code": "DK",
-    "count": 348723
+    "count": 348878
    },
    {
     "code": "FI",
-    "count": 321817
+    "count": 321928
    },
    {
     "code": "FR",
-    "count": 292855
+    "count": 292860
    },
    {
     "code": "DE",
-    "count": 272621
+    "count": 272700
    },
    {
     "code": "NL",
-    "count": 260420
+    "count": 260421
    },
    {
     "code": "GB",
-    "count": 239908
+    "count": 239915
    },
    {
     "code": "CH",
-    "count": 163853
+    "count": 163855
    },
    {
     "code": "NZ",
-    "count": 93231
+    "count": 93248
    },
    {
     "code": "PL",
-    "count": 73957
+    "count": 73964
    },
    {
     "code": "CZ",
-    "count": 66838
+    "count": 66841
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Emberizidae",
   "familyKey": 9608,
   "familyDa": "Værlinger",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:03.164Z"
+ }
 }

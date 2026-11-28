@@ -2,7 +2,8 @@
  "key": "bucorvus-leadbeateri",
  "name": "Bucorvus leadbeateri",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:10.656Z",
+ "fetchedAt": "2026-11-28T04:45:32.540Z",
+ "gbifAt": "2026-11-28T04:45:32.540Z",
  "names": {
   "da": "Sydlig Hornravn",
   "en": "Southern Ground Hornbill",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 144281,
-  "observations": 5080
+  "observations": 5116
  },
  "photos": {
   "male": [
@@ -34,6 +35,16 @@
     "date": "2025-01-11"
    },
    {
+    "id": 766360699,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/766360699/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/766360699/large.jpg",
+    "attribution": "(c) cgbb2004, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/416152097",
+    "place": "Hwange, ZW-MN, ZW",
+    "date": "2026-11-07"
+   },
+   {
     "id": 628475104,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/628475104/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/628475104/large.jpg",
@@ -42,28 +53,18 @@
     "source": "https://www.inaturalist.org/observations/344901470",
     "place": "Tanzania",
     "date": "2025-09-06"
-   },
-   {
-    "id": 417211011,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/417211011/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/417211011/large.jpeg",
-    "attribution": "(c) Wren, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/234662649",
-    "place": "Ehlanzeni District Municipality, South Africa",
-    "date": "2024-07-21"
    }
   ],
   "female": [
    {
-    "id": 471386297,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/471386297/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/471386297/large.jpg",
-    "attribution": "(c) Kobus Lubbe, some rights reserved (CC BY-NC)",
+    "id": 609257771,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/609257771/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/609257771/large.jpg",
+    "attribution": "(c) Ryan Woodrow, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/262384297",
-    "place": "Kruger National Park, ZA-MP-EH, ZA-MP, ZA",
-    "date": "2025-02-12"
+    "source": "https://www.inaturalist.org/observations/335381755",
+    "place": "Kruger National Park, South Africa",
+    "date": "2025-09-18"
    },
    {
     "id": 750054746,
@@ -76,14 +77,14 @@
     "date": "2025-11-29"
    },
    {
-    "id": 609257771,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/609257771/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/609257771/large.jpg",
-    "attribution": "(c) Ryan Woodrow, some rights reserved (CC BY-NC)",
+    "id": 471386297,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/471386297/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/471386297/large.jpg",
+    "attribution": "(c) Kobus Lubbe, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/335381755",
-    "place": "Kruger National Park, South Africa",
-    "date": "2025-09-18"
+    "source": "https://www.inaturalist.org/observations/262384297",
+    "place": "Kruger National Park, ZA-MP-EH, ZA-MP, ZA",
+    "date": "2025-02-12"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2024-12-02"
    }
   ],
-  "hero": {
-   "id": 110940806,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/110940806/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/110940806/large.jpg",
-   "attribution": "(c) Dean Walton, some rights reserved (CC BY-NC), uploaded by Dean Walton",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/110940806",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 110940806,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 110940806,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/110940806/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/110940806/large.jpg",
+   "attribution": "(c) Dean Walton, some rights reserved (CC BY-NC), uploaded by Dean Walton",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/110940806",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2476041,
@@ -208,27 +209,27 @@
    0,
    0
   ],
-  "worldTotal": 51741,
+  "worldTotal": 51767,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 28890
+    "count": 28902
    },
    {
     "code": "TZ",
-    "count": 5688
+    "count": 5690
    },
    {
     "code": "KE",
-    "count": 4534
+    "count": 4538
    },
    {
     "code": "BW",
-    "count": 3950
+    "count": 3957
    },
    {
     "code": "ZW",
-    "count": 3595
+    "count": 3596
    },
    {
     "code": "ZM",
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Bucorvidae",
   "familyKey": 5704,
   "familyDa": null,
   "order": "Bucerotiformes"
- },
- "gbifAt": "2026-11-25T22:21:35.086Z"
+ }
 }

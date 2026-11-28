@@ -2,7 +2,8 @@
  "key": "phoeniconaias-minor",
  "name": "Phoeniconaias minor",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:48.327Z",
+ "fetchedAt": "2026-11-28T04:46:13.232Z",
+ "gbifAt": "2026-11-28T04:46:13.232Z",
  "names": {
   "da": "Lille Flamingo",
   "en": "Lesser Flamingo",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4259,
-  "observations": 4903
+  "observations": 4924
  },
  "photos": {
   "male": [
@@ -67,16 +68,6 @@
     "date": "2022-03-01"
    }
   ],
-  "hero": {
-   "id": 89723844,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/89723844/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/89723844/large.jpg",
-   "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/89723844",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 89723844,
@@ -148,7 +139,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 89723844,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/89723844/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/89723844/large.jpg",
+   "attribution": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/89723844",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2481104,
@@ -167,11 +168,11 @@
    1,
    0
   ],
-  "worldTotal": 61820,
+  "worldTotal": 61832,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 25855
+    "count": 25857
    },
    {
     "code": "IN",
@@ -179,15 +180,15 @@
    },
    {
     "code": "KE",
-    "count": 7287
+    "count": 7292
    },
    {
     "code": "TZ",
-    "count": 5471
+    "count": 5472
    },
    {
     "code": "NA",
-    "count": 4769
+    "count": 4770
    },
    {
     "code": "ES",
@@ -195,7 +196,7 @@
    },
    {
     "code": "FR",
-    "count": 764
+    "count": 765
    },
    {
     "code": "UG",
@@ -215,7 +216,7 @@
    },
    {
     "code": "BW",
-    "count": 334
+    "count": 336
    }
   ]
  },
@@ -235,13 +236,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phoenicopteridae",
   "familyKey": 5269,
   "familyDa": null,
   "order": "Phoenicopteriformes"
- },
- "gbifAt": "2026-11-25T22:21:39.311Z"
+ }
 }

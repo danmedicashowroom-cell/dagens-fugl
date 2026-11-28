@@ -1,8 +1,9 @@
 {
  "key": "emberiza-cia",
  "name": "Emberiza cia",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:05:22.598Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:44:44.293Z",
+ "gbifAt": "2026-11-28T04:44:44.293Z",
  "names": {
   "da": "Klippeværling",
   "en": "Rock Bunting",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9193,
-  "observations": 9168
+  "observations": 9214
  },
  "photos": {
   "male": [
@@ -66,16 +67,6 @@
     "date": "2020-11-30"
    },
    {
-    "id": 464741466,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464741466/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464741466/large.jpeg",
-    "attribution": "(c) Ilgın Ertan Gürol, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/258958519",
-    "place": "Selçuk/İzmir, Türkiye",
-    "date": "2025-01-19"
-   },
-   {
     "id": 102037520,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102037520/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102037520/large.jpeg",
@@ -84,6 +75,16 @@
     "source": "https://www.inaturalist.org/observations/63566488",
     "place": "Jaén, Spain",
     "date": "2018-06-26"
+   },
+   {
+    "id": 464741466,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/464741466/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/464741466/large.jpeg",
+    "attribution": "(c) Ilgın Ertan Gürol, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/258958519",
+    "place": "Selçuk/İzmir, Türkiye",
+    "date": "2025-01-19"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2023-02-22"
    }
   ],
-  "hero": {
-   "id": 1939341,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939341/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939341/large.jpg",
-   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/1939341",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 1939341,
@@ -199,7 +190,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 1939341,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939341/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1939341/large.jpg",
+   "attribution": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/1939341",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2491498,
@@ -218,15 +219,15 @@
    0,
    0
   ],
-  "worldTotal": 269263,
+  "worldTotal": 269299,
   "topCountries": [
    {
     "code": "ES",
-    "count": 115491
+    "count": 115509
    },
    {
     "code": "FR",
-    "count": 38509
+    "count": 38514
    },
    {
     "code": "CH",
@@ -242,7 +243,7 @@
    },
    {
     "code": "IT",
-    "count": 10848
+    "count": 10853
    },
    {
     "code": "TR",
@@ -250,7 +251,7 @@
    },
    {
     "code": "GE",
-    "count": 3060
+    "count": 3061
    },
    {
     "code": "MA",
@@ -258,7 +259,7 @@
    },
    {
     "code": "AM",
-    "count": 2668
+    "count": 2669
    },
    {
     "code": "DE",
@@ -286,13 +287,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Emberizidae",
   "familyKey": 9608,
   "familyDa": "Værlinger",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:27.465Z"
+ }
 }

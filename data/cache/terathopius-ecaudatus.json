@@ -2,7 +2,8 @@
  "key": "terathopius-ecaudatus",
  "name": "Terathopius ecaudatus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:07:01.392Z",
+ "fetchedAt": "2026-11-28T04:46:25.831Z",
+ "gbifAt": "2026-11-28T04:46:25.831Z",
  "names": {
   "da": "Gøglerørn",
   "en": "Bateleur",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5231,
-  "observations": 5852
+  "observations": 5888
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2026-09-08"
    },
    {
-    "id": 576981598,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/576981598/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/576981598/large.jpg",
-    "attribution": "(c) wout123, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/319203143",
-    "place": "Kruger National Park",
-    "date": "2025-10-04"
-   },
-   {
     "id": 726049430,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/726049430/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/726049430/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/395941935",
     "place": "Mossel Bay, Western Cape, ZA",
     "date": "2024-05-20"
+   },
+   {
+    "id": 576981598,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/576981598/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/576981598/large.jpg",
+    "attribution": "(c) wout123, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/319203143",
+    "place": "Kruger National Park",
+    "date": "2025-10-04"
    }
   ],
   "female": [
@@ -76,14 +77,14 @@
     "date": "2026-01-28"
    },
    {
-    "id": 617741777,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/617741777/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/617741777/large.jpg",
-    "attribution": "(c) mkparis, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/339573438",
-    "place": "Ehlanzeni District Municipality, Afrique du Sud",
-    "date": "2026-01-30"
+    "id": 565711645,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/565711645/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/565711645/large.jpg",
+    "attribution": "(c) avocat, some rights reserved (CC BY)",
+    "license": "cc-by",
+    "source": "https://www.inaturalist.org/observations/313272674",
+    "place": "Masindi, Uganda",
+    "date": "2025-08-14"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2023-08-29"
    }
   ],
-  "hero": {
-   "id": 261340111,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/261340111/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/261340111/large.jpg",
-   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/261340111",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 261340111,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 261340111,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/261340111/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/261340111/large.jpg",
+   "attribution": "(c) Wayne and Pam Osborn, some rights reserved (CC BY-NC), uploaded by Wayne and Pam Osborn",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/261340111",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480377,
@@ -228,23 +229,23 @@
    0,
    0
   ],
-  "worldTotal": 118496,
+  "worldTotal": 118521,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 59115
+    "count": 59129
    },
    {
     "code": "KE",
-    "count": 13606
+    "count": 13611
    },
    {
     "code": "TZ",
-    "count": 9474
+    "count": 9475
    },
    {
     "code": "BW",
-    "count": 7362
+    "count": 7365
    },
    {
     "code": "UG",
@@ -252,7 +253,7 @@
    },
    {
     "code": "NA",
-    "count": 5330
+    "count": 5331
    },
    {
     "code": "ZW",
@@ -268,7 +269,7 @@
    },
    {
     "code": "GH",
-    "count": 1463
+    "count": 1464
    },
    {
     "code": "GM",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:40.639Z"
+ }
 }

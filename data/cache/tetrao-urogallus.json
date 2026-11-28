@@ -2,7 +2,8 @@
  "key": "tetrao-urogallus",
  "name": "Tetrao urogallus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:04:08.638Z",
+ "fetchedAt": "2026-11-28T04:43:29.391Z",
+ "gbifAt": "2026-11-28T04:43:29.391Z",
  "names": {
   "da": "Tjur",
   "en": "Western capercaillie",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 1026,
-  "observations": 4991
+  "observations": 5017
  },
  "photos": {
   "male": [
@@ -88,6 +89,16 @@
   ],
   "juvenile": [
    {
+    "id": 658455090,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/658455090/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/658455090/large.jpg",
+    "attribution": "(c) Галина Катанова, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/360829693",
+    "place": "Вожегодский р-н, Вологодская обл., Россия",
+    "date": "2024-05-31"
+   },
+   {
     "id": 329233710,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/329233710/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/329233710/large.jpeg",
@@ -96,16 +107,6 @@
     "source": "https://www.inaturalist.org/observations/188159389",
     "place": "Аскизский р-н, Респ. Хакасия, Россия",
     "date": "2023-07-11"
-   },
-   {
-    "id": 531939068,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/531939068/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/531939068/large.jpg",
-    "attribution": "(c) Kaarle, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/295480969",
-    "place": "Kainuu, FI-OU, FI",
-    "date": "2025-07-05"
    },
    {
     "id": 14583919,
@@ -118,16 +119,6 @@
     "date": "1997-08-13"
    }
   ],
-  "hero": {
-   "id": 92441326,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/92441326/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/92441326/large.jpeg",
-   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/92441326",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 92440929,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 92440929,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/92440929/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/92440929/large.jpeg",
+   "attribution": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/92440929",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2473577,
@@ -228,7 +229,7 @@
    0,
    0
   ],
-  "worldTotal": 242783,
+  "worldTotal": 242820,
   "topCountries": [
    {
     "code": "SE",
@@ -236,7 +237,7 @@
    },
    {
     "code": "FI",
-    "count": 30662
+    "count": 30687
    },
    {
     "code": "NO",
@@ -248,7 +249,7 @@
    },
    {
     "code": "FR",
-    "count": 11235
+    "count": 11236
    },
    {
     "code": "EE",
@@ -256,11 +257,11 @@
    },
    {
     "code": "AT",
-    "count": 5538
+    "count": 5539
    },
    {
     "code": "RU",
-    "count": 4876
+    "count": 4882
    },
    {
     "code": "CH",
@@ -272,7 +273,7 @@
    },
    {
     "code": "DE",
-    "count": 1192
+    "count": 1191
    },
    {
     "code": "UA",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phasianidae",
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- },
- "gbifAt": "2026-11-25T22:21:18.863Z"
+ }
 }

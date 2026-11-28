@@ -2,7 +2,8 @@
  "key": "strix-uralensis",
  "name": "Strix uralensis",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:04:39.974Z",
+ "fetchedAt": "2026-11-28T04:44:03.064Z",
+ "gbifAt": "2026-11-28T04:44:03.064Z",
  "names": {
   "da": "Slagugle",
   "en": "Ural Owl",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 19910,
-  "observations": 8608
+  "observations": 8670
  },
  "photos": {
   "male": [
@@ -34,24 +35,24 @@
     "date": "2025-06-26"
    },
    {
-    "id": 401723788,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/401723788/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/401723788/large.jpeg",
-    "attribution": "(c) Ярослав, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/226508085",
-    "place": "Pеспублика, Пенсионер Ижевск, республика Удмуртия, Россия, 426038",
-    "date": "2024-06-24"
+    "id": 345665867,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/345665867/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/345665867/large.jpg",
+    "attribution": "no rights reserved",
+    "license": "cc0",
+    "source": "https://www.inaturalist.org/observations/196352034",
+    "place": "ул. Ленина 19Е, г. Нефтекамск, Респ. Башкортостан, Россия",
+    "date": "2023-12-04"
    },
    {
-    "id": 64816795,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/64816795/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/64816795/large.jpeg",
-    "attribution": "(c) Denis Ivanov, some rights reserved (CC BY-NC)",
+    "id": 129579708,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/129579708/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/129579708/large.jpeg",
+    "attribution": "(c) Sergey Birds-n-roll, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/40883194",
-    "place": "Vysokogorskiy rayon, RU-TT, RU",
-    "date": "2020-03-28"
+    "source": "https://www.inaturalist.org/observations/79130646",
+    "place": "Нижегородский р-н, Нижний Новгород, Нижегородская обл., Россия",
+    "date": "2021-05-16"
    }
   ],
   "female": [
@@ -76,14 +77,14 @@
     "date": "2018-05-07"
    },
    {
-    "id": 460175609,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/460175609/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/460175609/large.jpg",
-    "attribution": "(c) Shumik A, some rights reserved (CC BY-NC)",
+    "id": 226009352,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/226009352/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/226009352/large.jpeg",
+    "attribution": "(c) Василий Егоров, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/256632028",
-    "place": "Суземский р-н, Брянская обл., Россия",
-    "date": "2011-12-01"
+    "source": "https://www.inaturalist.org/observations/132729093",
+    "place": "Местоположение: 55,843314, 37,592842",
+    "date": "2022-06-19"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2019-05-28"
    }
   ],
-  "hero": {
-   "id": 31507926,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31507926/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31507926/large.jpg",
-   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/31507926",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 31507926,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 31507926,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31507926/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31507926/large.jpg",
+   "attribution": "(c) Алексей Эбель, some rights reserved (CC BY-NC), uploaded by Алексей Эбель",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/31507926",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2497509,
@@ -208,19 +209,19 @@
    0,
    0
   ],
-  "worldTotal": 158209,
+  "worldTotal": 158286,
   "topCountries": [
    {
     "code": "FI",
-    "count": 114827
+    "count": 114863
    },
    {
     "code": "SE",
-    "count": 26875
+    "count": 26879
    },
    {
     "code": "RU",
-    "count": 7257
+    "count": 7285
    },
    {
     "code": "EE",
@@ -228,15 +229,15 @@
    },
    {
     "code": "JP",
-    "count": 879
+    "count": 880
    },
    {
     "code": "UA",
-    "count": 775
+    "count": 777
    },
    {
     "code": "RO",
-    "count": 293
+    "count": 294
    },
    {
     "code": "PL",
@@ -252,11 +253,11 @@
    },
    {
     "code": "SI",
-    "count": 152
+    "count": 153
    },
    {
     "code": "CN",
-    "count": 93
+    "count": 94
    }
   ]
  },
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Strigidae",
   "familyKey": 9348,
   "familyDa": "Egentlige ugler",
   "order": "Strigiformes"
- },
- "gbifAt": "2026-11-25T22:21:22.844Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "calcarius-lapponicus",
  "name": "Calcarius lapponicus",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:01:30.481Z",
+ "fetchedAt": "2026-11-28T04:41:26.196Z",
+ "gbifAt": "2026-11-28T04:41:26.196Z",
  "names": {
   "da": "Lapværling",
   "en": "Lapland Longspur",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 116840,
-  "observations": 8198
+  "observations": 8246
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2016-10-19"
    },
    {
-    "id": 120642433,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/120642433/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/120642433/large.jpg",
-    "attribution": "(c) Cameron Eckert, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/73859265",
-    "place": "Carcross, YT Y0B, Canada",
-    "date": "2021-04-11"
-   },
-   {
     "id": 353267277,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/353267277/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/353267277/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/200248865",
     "place": "Indiana, US",
     "date": "2024-02-17"
+   },
+   {
+    "id": 120642433,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/120642433/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/120642433/large.jpg",
+    "attribution": "(c) Cameron Eckert, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/73859265",
+    "place": "Carcross, YT Y0B, Canada",
+    "date": "2021-04-11"
    }
   ],
   "female": [
@@ -76,14 +77,14 @@
     "date": "2025-05-17"
    },
    {
-    "id": 51091826,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/51091826/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/51091826/large.jpeg",
-    "attribution": "(c) davidenrique, some rights reserved (CC BY-NC-SA)",
-    "license": "cc-by-nc-sa",
-    "source": "https://www.inaturalist.org/observations/32567182",
-    "place": "Division No. 15, AB, Canada",
-    "date": "2015-10-04"
+    "id": 351651296,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/351651296/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/351651296/large.jpeg",
+    "attribution": "(c) Duncan Woolston, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/199403638",
+    "place": "New Hampton, NY 10958, USA",
+    "date": "2024-02-15"
    }
   ],
   "juvenile": [
@@ -118,16 +119,6 @@
     "date": "2018-11-17"
    }
   ],
-  "hero": {
-   "id": 31194127,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31194127/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31194127/large.jpeg",
-   "attribution": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Muis Redwood",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/31194127",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 31194127,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 31194127,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/31194127/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/31194127/large.jpeg",
+   "attribution": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Muis Redwood",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/31194127",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2491678,
-  "dkTotal": 9311,
+  "dkTotal": 9312,
   "dkMonths": [
    428,
    390,
@@ -225,18 +226,18 @@
    12,
    1704,
    3742,
-   998,
+   999,
    280
   ],
-  "worldTotal": 414993,
+  "worldTotal": 415029,
   "topCountries": [
    {
     "code": "US",
-    "count": 207213
+    "count": 207228
    },
    {
     "code": "CA",
-    "count": 70713
+    "count": 70722
    },
    {
     "code": "SE",
@@ -248,15 +249,15 @@
    },
    {
     "code": "FI",
-    "count": 9870
+    "count": 9871
    },
    {
     "code": "DK",
-    "count": 9311
+    "count": 9312
    },
    {
     "code": "GB",
-    "count": 7529
+    "count": 7530
    },
    {
     "code": "NL",
@@ -264,15 +265,15 @@
    },
    {
     "code": "RU",
-    "count": 3137
+    "count": 3139
    },
    {
     "code": "BE",
-    "count": 2402
+    "count": 2404
    },
    {
     "code": "FR",
-    "count": 2153
+    "count": 2155
    },
    {
     "code": "GL",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Calcariidae",
   "familyKey": 6101141,
   "familyDa": "Sporeværlinger",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:01.499Z"
+ }
 }

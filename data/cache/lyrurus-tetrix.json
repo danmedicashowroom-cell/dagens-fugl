@@ -1,8 +1,9 @@
 {
  "key": "lyrurus-tetrix",
  "name": "Lyrurus tetrix",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:04:14.411Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:43:35.594Z",
+ "gbifAt": "2026-11-28T04:43:35.594Z",
  "names": {
   "da": "Urfugl",
   "en": "Black Grouse",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 1289697,
-  "observations": 11589
+  "observations": 11634
  },
  "photos": {
   "male": [
@@ -98,36 +99,26 @@
     "date": "2021-06-16"
    },
    {
-    "id": 322398520,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/322398520/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/322398520/large.jpeg",
-    "attribution": "(c) qoi, some rights reserved (CC BY-NC)",
+    "id": 695146669,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/695146669/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/695146669/large.jpg",
+    "attribution": "(c) Marie Tarrant, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/184671470",
-    "place": "Пермский край, Россия, 618708",
-    "date": "2023-07-13"
+    "source": "https://www.inaturalist.org/observations/379995733",
+    "place": "Moor House - Upper Teesdale National Nature Reserve, Widdybank Farm Langdon Beck, Forest-in-Teesdale, Barnard Castle DL12 0HQ, UK",
+    "date": "2026-07-10"
    },
    {
-    "id": 211252180,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/211252180/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/211252180/large.jpeg",
-    "attribution": "(c) Nicola Gilio, some rights reserved (CC BY-NC)",
+    "id": 455696351,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/455696351/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/455696351/large.jpeg",
+    "attribution": "(c) Борняков Григорий, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/124624737",
-    "place": "28842 Bognanco, Province of Verbano-Cusio-Ossola, Italy",
-    "date": "2022-07-02"
+    "source": "https://www.inaturalist.org/observations/254412694",
+    "place": "Орловский р-н, Кировская обл., Россия",
+    "date": "2024-12-07"
    }
   ],
-  "hero": {
-   "id": 61329120,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/61329120/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/61329120/large.jpg",
-   "attribution": "(c) Tatyana Zarubo, some rights reserved (CC BY-NC), uploaded by Tatyana Zarubo",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/61329120",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 61329120,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 61329120,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/61329120/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/61329120/large.jpg",
+   "attribution": "(c) Tatyana Zarubo, some rights reserved (CC BY-NC), uploaded by Tatyana Zarubo",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/61329120",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2473682,
@@ -228,7 +229,7 @@
    18,
    13
   ],
-  "worldTotal": 433627,
+  "worldTotal": 433684,
   "topCountries": [
    {
     "code": "SE",
@@ -236,7 +237,7 @@
    },
    {
     "code": "FI",
-    "count": 72809
+    "count": 72832
    },
    {
     "code": "NO",
@@ -244,11 +245,11 @@
    },
    {
     "code": "FR",
-    "count": 35632
+    "count": 35634
    },
    {
     "code": "CH",
-    "count": 33232
+    "count": 33234
    },
    {
     "code": "GB",
@@ -264,15 +265,15 @@
    },
    {
     "code": "RU",
-    "count": 9576
+    "count": 9598
    },
    {
     "code": "DE",
-    "count": 4630
+    "count": 4631
    },
    {
     "code": "AT",
-    "count": 3273
+    "count": 3274
    },
    {
     "code": "BE",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phasianidae",
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- },
- "gbifAt": "2026-11-25T22:21:19.610Z"
+ }
 }

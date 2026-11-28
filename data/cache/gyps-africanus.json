@@ -2,7 +2,8 @@
  "key": "gyps-africanus",
  "name": "Gyps africanus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:07:06.496Z",
+ "fetchedAt": "2026-11-28T04:46:30.999Z",
+ "gbifAt": "2026-11-28T04:46:30.999Z",
  "names": {
   "da": "Hvidrygget grib",
   "en": "White-backed Vulture",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5363,
-  "observations": 9676
+  "observations": 9733
  },
  "photos": {
   "male": [
@@ -57,26 +58,16 @@
     "date": "2025-12-05"
    },
    {
-    "id": 159334512,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/159334512/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/159334512/large.jpeg",
-    "attribution": "(c) Joseph Heymans, some rights reserved (CC BY-NC)",
+    "id": 767086928,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/767086928/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/767086928/large.jpg",
+    "attribution": "(c) simonescrase, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/95941297",
-    "place": "Atherstone NR, Maroela camp, Bosveld, South Africa",
-    "date": "2021-09-21"
+    "source": "https://www.inaturalist.org/observations/416511478",
+    "place": "uMkhanyakude District Municipality, South Africa",
+    "date": "2026-11-22"
    }
   ],
-  "hero": {
-   "id": 150470465,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/150470465/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/150470465/large.jpg",
-   "attribution": "(c) Ian White, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/150470465",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 5326294,
@@ -138,7 +129,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 5326294,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/5326294/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/5326294/large.jpg",
+   "attribution": "(c) Martin Grimm, some rights reserved (CC BY-NC), uploaded by Martin Grimm",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/5326294",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 9487001,
@@ -157,19 +158,19 @@
    0,
    0
   ],
-  "worldTotal": 143711,
+  "worldTotal": 143742,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 69120
+    "count": 69138
    },
    {
     "code": "KE",
-    "count": 16057
+    "count": 16062
    },
    {
     "code": "TZ",
-    "count": 10742
+    "count": 10745
    },
    {
     "code": "NA",
@@ -177,7 +178,7 @@
    },
    {
     "code": "BW",
-    "count": 9027
+    "count": 9032
    },
    {
     "code": "ZW",
@@ -225,13 +226,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:41.307Z"
+ }
 }

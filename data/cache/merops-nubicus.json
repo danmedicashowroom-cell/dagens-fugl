@@ -2,7 +2,8 @@
  "key": "merops-nubicus",
  "name": "Merops nubicus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:22.472Z",
+ "fetchedAt": "2026-11-28T04:45:44.033Z",
+ "gbifAt": "2026-11-28T04:45:44.033Z",
  "names": {
   "da": "Bee-eater Karminbiæder",
   "en": "Northern Carmine Bee-eater",
@@ -19,22 +20,12 @@
  },
  "inat": {
   "id": 2220,
-  "observations": 827
+  "observations": 839
  },
  "photos": {
   "male": [],
   "female": [],
   "juvenile": [
-   {
-    "id": 594008701,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/594008701/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/594008701/large.jpg",
-    "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/327848640",
-    "place": "tsavo east, Kenya",
-    "date": "2025-11-05"
-   },
    {
     "id": 53183447,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/53183447/medium.jpeg",
@@ -44,6 +35,16 @@
     "source": "https://www.inaturalist.org/observations/33833858",
     "place": "Rufiji, Tanzania",
     "date": "2018-06-28"
+   },
+   {
+    "id": 594008701,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/594008701/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/594008701/large.jpg",
+    "attribution": "(c) Phil Benstead, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/327848640",
+    "place": "tsavo east, Kenya",
+    "date": "2025-11-05"
    }
   ],
   "adult": [
@@ -78,22 +79,12 @@
     "date": "2024-07-17"
    }
   ],
-  "hero": {
-   "id": 13860219,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13860219/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13860219/large.jpg",
-   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/13860219",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 13860219,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13860219/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13860219/large.jpg",
-    "attribution": "(c) Nik Borrow,  זכויות יוצרים חלקיות (CC BY-NC)",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/13860219",
     "place": null,
@@ -103,7 +94,7 @@
     "id": 242776730,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/242776730/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/242776730/large.jpg",
-    "attribution": "(c) Niall Perrins,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Niall Perrins",
+    "attribution": "(c) Niall Perrins, some rights reserved (CC BY-NC), uploaded by Niall Perrins",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/242776730",
     "place": null,
@@ -113,7 +104,7 @@
     "id": 181694473,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/181694473/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/181694473/large.jpg",
-    "attribution": "(c) Nik Borrow,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Nik Borrow",
+    "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/181694473",
     "place": null,
@@ -123,7 +114,7 @@
     "id": 236016909,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/236016909/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/236016909/large.jpeg",
-    "attribution": "(c) Michael Leidel,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Michael Leidel",
+    "attribution": "(c) Michael Leidel, some rights reserved (CC BY-NC), uploaded by Michael Leidel",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/236016909",
     "place": null,
@@ -133,7 +124,7 @@
     "id": 445329983,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/445329983/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/445329983/large.jpg",
-    "attribution": "(c) Carlo,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Carlo",
+    "attribution": "(c) Carlo, some rights reserved (CC BY-NC), uploaded by Carlo",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/445329983",
     "place": null,
@@ -143,7 +134,7 @@
     "id": 175159676,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/175159676/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/175159676/large.jpeg",
-    "attribution": "(c) David M. Gascoigne,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי David M. Gascoigne",
+    "attribution": "(c) David M. Gascoigne, some rights reserved (CC BY-NC), uploaded by David M. Gascoigne",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/175159676",
     "place": null,
@@ -153,13 +144,23 @@
     "id": 440923742,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/440923742/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/440923742/large.jpg",
-    "attribution": "(c) Carlo,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Carlo",
+    "attribution": "(c) Carlo, some rights reserved (CC BY-NC), uploaded by Carlo",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/photos/440923742",
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 13860219,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13860219/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13860219/large.jpg",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/13860219",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2475396,
@@ -178,7 +179,7 @@
    1,
    1
   ],
-  "worldTotal": 12298,
+  "worldTotal": 12300,
   "topCountries": [
    {
     "code": "KE",
@@ -186,7 +187,7 @@
    },
    {
     "code": "ET",
-    "count": 2099
+    "count": 2100
    },
    {
     "code": "UG",
@@ -246,13 +247,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Meropidae",
   "familyKey": 9320,
   "familyDa": "Biædere",
   "order": "Coraciiformes"
- },
- "gbifAt": "2026-11-25T22:21:36.651Z"
+ }
 }

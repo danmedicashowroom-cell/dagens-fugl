@@ -2,7 +2,8 @@
  "key": "spinus-spinus",
  "name": "Spinus spinus",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:01:21.814Z",
+ "fetchedAt": "2026-11-28T04:41:19.672Z",
+ "gbifAt": "2026-11-28T04:41:19.672Z",
  "names": {
   "da": "Grønsisken",
   "en": null,
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 145303,
-  "observations": 42838
+  "observations": 43150
  },
  "photos": {
   "male": [
@@ -34,6 +35,16 @@
     "date": "2022-12-20"
    },
    {
+    "id": 256282448,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/256282448/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/256282448/large.jpg",
+    "attribution": "(c) Michael Butler, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/148786470",
+    "place": "Marathon, ON, Canada",
+    "date": "2010-04-12"
+   },
+   {
     "id": 269033451,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/269033451/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/269033451/large.jpg",
@@ -42,16 +53,6 @@
     "source": "https://www.inaturalist.org/observations/155625343",
     "place": "Ленинский р-н, Екатеринбург, Свердловская обл., Россия",
     "date": "2023-04-19"
-   },
-   {
-    "id": 599792209,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/599792209/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/599792209/large.jpg",
-    "attribution": "(c) vlada_makarova, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/330725119",
-    "place": "Дзержинский р-н, Пермь, Пермский край, Россия",
-    "date": "2025-05-01"
    }
   ],
   "female": [
@@ -108,26 +109,16 @@
     "date": "2025-09-07"
    },
    {
-    "id": 274916089,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/274916089/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/274916089/large.jpeg",
-    "attribution": "(c) Alexandra Richter, some rights reserved (CC BY-NC)",
+    "id": 713723670,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/713723670/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/713723670/large.jpg",
+    "attribution": "(c) Bluecross, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/159124068",
-    "place": "Mittweida, Deutschland",
-    "date": "2023-03-01"
+    "source": "https://www.inaturalist.org/observations/389632891",
+    "place": "Uusimaa, Southern Finland, Finland",
+    "date": "2026-08-09"
    }
   ],
-  "hero": {
-   "id": 458846447,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/458846447/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/458846447/large.jpg",
-   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/458846447",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 458846447,
@@ -169,26 +160,36 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 458846447,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/458846447/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/458846447/large.jpg",
+   "attribution": "(c) caroline legg, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/458846447",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 6092830,
-  "dkTotal": 215910,
+  "dkTotal": 216156,
   "dkMonths": [
-   23224,
-   23466,
-   35825,
-   23416,
+   23225,
+   23467,
+   35832,
+   23421,
    8282,
    2616,
    2126,
    2191,
-   23430,
-   37443,
-   18576,
+   23438,
+   37446,
+   18807,
    15260
   ],
-  "worldTotal": 3295296,
+  "worldTotal": 3295820,
   "topCountries": [
    {
     "code": "SE",
@@ -196,7 +197,7 @@
    },
    {
     "code": "FI",
-    "count": 418895
+    "count": 418938
    },
    {
     "code": "NO",
@@ -204,23 +205,23 @@
    },
    {
     "code": "GB",
-    "count": 240376
+    "count": 240384
    },
    {
     "code": "DK",
-    "count": 215910
+    "count": 216156
    },
    {
     "code": "FR",
-    "count": 195215
+    "count": 195223
    },
    {
     "code": "DE",
-    "count": 140515
+    "count": 140588
    },
    {
     "code": "NL",
-    "count": 138123
+    "count": 138124
    },
    {
     "code": "ES",
@@ -228,7 +229,7 @@
    },
    {
     "code": "PL",
-    "count": 69223
+    "count": 69240
    },
    {
     "code": "BE",
@@ -236,7 +237,7 @@
    },
    {
     "code": "RU",
-    "count": 39374
+    "count": 39457
    }
   ]
  },
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Fringillidae",
   "familyKey": 5242,
   "familyDa": "Finker",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:20:58.520Z"
+ }
 }

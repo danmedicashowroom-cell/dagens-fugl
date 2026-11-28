@@ -2,7 +2,8 @@
  "key": "lagopus-muta",
  "name": "Lagopus muta",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:04:19.468Z",
+ "fetchedAt": "2026-11-28T04:43:41.306Z",
+ "gbifAt": "2026-11-28T04:43:41.306Z",
  "names": {
   "da": "Fjeldrype",
   "en": "Rock Ptarmigan",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 949,
-  "observations": 6794
+  "observations": 6819
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2018-08-12"
    }
   ],
-  "hero": {
-   "id": 45166074,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166074/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166074/large.jpg",
-   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/45166074",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 45166074,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 45166074,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166074/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/45166074/large.jpg",
+   "attribution": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/45166074",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5227679,
@@ -228,11 +229,11 @@
    0,
    0
   ],
-  "worldTotal": 132323,
+  "worldTotal": 132339,
   "topCountries": [
    {
     "code": "FR",
-    "count": 21785
+    "count": 21788
    },
    {
     "code": "NO",
@@ -240,7 +241,7 @@
    },
    {
     "code": "IS",
-    "count": 19619
+    "count": 19624
    },
    {
     "code": "CH",
@@ -260,15 +261,15 @@
    },
    {
     "code": "GB",
-    "count": 4261
+    "count": 4262
    },
    {
     "code": "SJ",
-    "count": 3578
+    "count": 3579
    },
    {
     "code": "AT",
-    "count": 3509
+    "count": 3510
    },
    {
     "code": "GL",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Phasianidae",
   "familyKey": 9331,
   "familyDa": "Fasanfugle",
   "order": "Galliformes"
- },
- "gbifAt": "2026-11-25T22:21:20.511Z"
+ }
 }

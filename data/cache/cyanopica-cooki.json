@@ -2,7 +2,8 @@
  "key": "cyanopica-cooki",
  "name": "Cyanopica cooki",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:03:29.630Z",
+ "fetchedAt": "2026-11-28T04:42:52.714Z",
+ "gbifAt": "2026-11-28T04:42:52.714Z",
  "names": {
   "da": "Ibererblåskade",
   "en": "Iberian Magpie",
@@ -19,22 +20,12 @@
  },
  "inat": {
   "id": 339684,
-  "observations": 7017
+  "observations": 7051
  },
  "photos": {
   "male": [],
   "female": [],
   "juvenile": [
-   {
-    "id": 285315882,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/285315882/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/285315882/large.jpeg",
-    "attribution": "(c) Cristina Olivares Collado, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/164868374",
-    "place": "Aulario DC, 14014, Córdoba, España",
-    "date": "2023-05-31"
-   },
    {
     "id": 523850783,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/523850783/medium.jpg",
@@ -46,14 +37,24 @@
     "date": "2025-06-20"
    },
    {
-    "id": 656790328,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/656790328/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/656790328/large.jpg",
-    "attribution": "(c) saulolophus_sp, some rights reserved (CC BY-NC)",
+    "id": 564945988,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/564945988/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/564945988/large.jpg",
+    "attribution": "(c) Angel, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/359957609",
-    "place": "Comunidad de Madrid, ES-MD-MD, ES",
-    "date": "2025-06-18"
+    "source": "https://www.inaturalist.org/observations/312872937",
+    "place": "Cañada de las Jarillas, Colmenar Viejo, España",
+    "date": "2025-08-25"
+   },
+   {
+    "id": 551862070,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/551862070/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/551862070/large.jpg",
+    "attribution": "(c) Ricardo Rodero Henández, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/306044961",
+    "place": "Madrid, España",
+    "date": "2025-08-06"
    }
   ],
   "adult": [
@@ -68,36 +69,26 @@
     "date": "2023-03-05"
    },
    {
-    "id": 79443686,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/79443686/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/79443686/large.jpeg",
-    "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+    "id": 205121000,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/205121000/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/205121000/large.jpg",
+    "attribution": "(c) poblado_verde_en_acción, some rights reserved (CC BY)",
     "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/50032641",
-    "place": "Faro, Faro, Portugal",
-    "date": "2020-06-16"
+    "source": "https://www.inaturalist.org/observations/121227937",
+    "place": "Calle de la Tejera, Moralzarzal, Madrid, ES",
+    "date": "2022-06-11"
    },
    {
-    "id": 651716829,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/651716829/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/651716829/large.jpg",
-    "attribution": "(c) cgbb2004, some rights reserved (CC BY-NC)",
+    "id": 456361326,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/456361326/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/456361326/large.jpg",
+    "attribution": "(c) Susanne Vogel, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/357331320",
-    "place": "Cáceres, Spain",
-    "date": "2026-04-22"
+    "source": "https://www.inaturalist.org/observations/254743695",
+    "place": "29200 Antequera, Málaga, Spain",
+    "date": "2024-12-10"
    }
   ],
-  "hero": {
-   "id": 268681418,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/268681418/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/268681418/large.jpeg",
-   "attribution": "(c) Angel, some rights reserved (CC BY-NC), uploaded by Angel",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/268681418",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 268681418,
@@ -169,7 +160,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 268681418,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/268681418/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/268681418/large.jpeg",
+   "attribution": "(c) Angel, some rights reserved (CC BY-NC), uploaded by Angel",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/268681418",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5844936,
@@ -188,15 +189,15 @@
    1,
    0
   ],
-  "worldTotal": 209559,
+  "worldTotal": 209579,
   "topCountries": [
    {
     "code": "ES",
-    "count": 113725
+    "count": 113730
    },
    {
     "code": "PT",
-    "count": 95757
+    "count": 95773
    },
    {
     "code": "BE",
@@ -217,10 +218,6 @@
    {
     "code": "DE",
     "count": 2
-   },
-   {
-    "code": "CN",
-    "count": 1
    },
    {
     "code": "FR",
@@ -244,13 +241,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:12.342Z"
+ }
 }

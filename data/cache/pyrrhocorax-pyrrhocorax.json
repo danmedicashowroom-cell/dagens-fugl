@@ -2,7 +2,8 @@
  "key": "pyrrhocorax-pyrrhocorax",
  "name": "Pyrrhocorax pyrrhocorax",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:03:17.458Z",
+ "fetchedAt": "2026-11-28T04:42:41.072Z",
+ "gbifAt": "2026-11-28T04:42:41.072Z",
  "names": {
   "da": "Alpekrage",
   "en": "Red-billed Chough",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 8349,
-  "observations": 11041
+  "observations": 11120
  },
  "photos": {
   "male": [
@@ -78,16 +79,6 @@
     "date": "2008-06-03"
    }
   ],
-  "hero": {
-   "id": 167222978,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/167222978/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/167222978/large.jpeg",
-   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/167222978",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 167222978,
@@ -139,7 +130,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 167222978,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/167222978/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/167222978/large.jpeg",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/167222978",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2482552,
@@ -158,19 +159,19 @@
    0,
    0
   ],
-  "worldTotal": 275748,
+  "worldTotal": 275768,
   "topCountries": [
    {
     "code": "ES",
-    "count": 116329
+    "count": 116332
    },
    {
     "code": "FR",
-    "count": 47029
+    "count": 47033
    },
    {
     "code": "GB",
-    "count": 23928
+    "count": 23931
    },
    {
     "code": "IM",
@@ -178,15 +179,15 @@
    },
    {
     "code": "IE",
-    "count": 9779
+    "count": 9780
    },
    {
     "code": "IN",
-    "count": 9630
+    "count": 9631
    },
    {
     "code": "CN",
-    "count": 8989
+    "count": 8991
    },
    {
     "code": "PT",
@@ -226,13 +227,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Corvidae",
   "familyKey": 5235,
   "familyDa": "Kragefugle",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:11.267Z"
+ }
 }

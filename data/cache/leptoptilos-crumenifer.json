@@ -2,7 +2,8 @@
  "key": "leptoptilos-crumenifer",
  "name": "Leptoptilos crumenifer",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:43.559Z",
+ "fetchedAt": "2026-11-28T04:46:06.300Z",
+ "gbifAt": "2026-11-28T04:46:06.300Z",
  "names": {
   "da": "Marabustork",
   "en": "Marabou Stork",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 201031,
-  "observations": 8267
+  "observations": 8324
  },
  "photos": {
   "male": [
@@ -87,16 +88,6 @@
     "date": "2023-12-29"
    }
   ],
-  "hero": {
-   "id": 606612148,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/606612148/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/606612148/large.jpg",
-   "attribution": "(c) ugqira52-, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/606612148",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 606612148,
@@ -178,74 +169,84 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 606612148,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/606612148/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/606612148/large.jpg",
+   "attribution": "(c) ugqira52-, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/606612148",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
-  "key": 2481946,
-  "dkTotal": 0,
+  "key": 9772663,
+  "dkTotal": 2,
   "dkMonths": [
    0,
    0,
    0,
    0,
    0,
+   1,
    0,
    0,
    0,
-   0,
-   0,
+   1,
    0,
    0
   ],
-  "worldTotal": 23481,
+  "worldTotal": 78699,
   "topCountries": [
    {
-    "code": "ZA",
-    "count": 13203
-   },
-   {
     "code": "KE",
-    "count": 4563
-   },
-   {
-    "code": "ZW",
-    "count": 1560
-   },
-   {
-    "code": "NA",
-    "count": 1300
-   },
-   {
-    "code": "BW",
-    "count": 1149
-   },
-   {
-    "code": "SZ",
-    "count": 735
-   },
-   {
-    "code": "MZ",
-    "count": 253
-   },
-   {
-    "code": "ZM",
-    "count": 233
+    "count": 20983
    },
    {
     "code": "UG",
-    "count": 167
+    "count": 12479
    },
    {
-    "code": "MW",
-    "count": 60
+    "code": "TZ",
+    "count": 11831
    },
    {
-    "code": "US",
-    "count": 26
+    "code": "ZA",
+    "count": 10123
+   },
+   {
+    "code": "BW",
+    "count": 5888
    },
    {
     "code": "ET",
-    "count": 20
+    "count": 4637
+   },
+   {
+    "code": "ZM",
+    "count": 3525
+   },
+   {
+    "code": "ZW",
+    "count": 3106
+   },
+   {
+    "code": "NA",
+    "count": 1996
+   },
+   {
+    "code": "GM",
+    "count": 922
+   },
+   {
+    "code": "MZ",
+    "count": 602
+   },
+   {
+    "code": "RW",
+    "count": 364
    }
   ]
  },
@@ -265,13 +266,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Ciconiidae",
   "familyKey": 9289,
   "familyDa": "Storke",
   "order": "Ciconiiformes"
- },
- "gbifAt": "2026-11-25T22:21:38.783Z"
+ }
 }

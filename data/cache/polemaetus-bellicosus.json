@@ -2,7 +2,8 @@
  "key": "polemaetus-bellicosus",
  "name": "Polemaetus bellicosus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:07:11.375Z",
+ "fetchedAt": "2026-11-28T04:46:35.847Z",
+ "gbifAt": "2026-11-28T04:46:35.847Z",
  "names": {
   "da": "Kampørn",
   "en": "Martial Eagle",
@@ -19,20 +20,10 @@
  },
  "inat": {
   "id": 5344,
-  "observations": 4694
+  "observations": 4723
  },
  "photos": {
   "male": [
-   {
-    "id": 134372035,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/134372035/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/134372035/large.jpeg",
-    "attribution": "(c) magdastlucia, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/81906319",
-    "place": "iSimangaliso, South Africa",
-    "date": "2021-06-05"
-   },
    {
     "id": 754588909,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/754588909/medium.jpg",
@@ -40,7 +31,7 @@
     "attribution": "(c) christiaandevries, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/observations/410340671",
-    "place": null,
+    "place": "Kuntaur, Gambia",
     "date": "2026-02-07"
    },
    {
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/344409259",
     "place": "Gambia",
     "date": "2026-03-17"
+   },
+   {
+    "id": 102376774,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102376774/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102376774/large.jpeg",
+    "attribution": "(c) Simon Bradfield, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/63755411",
+    "place": "Tendaba, The Gambia",
+    "date": "2020-01-18"
    }
   ],
   "female": [
@@ -62,7 +63,7 @@
     "attribution": "(c) Eliana Donna Vagabonda, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/observations/395435220",
-    "place": "Kenya",
+    "place": "Samburu National Reserve, Kenya",
     "date": "2026-07-13"
    }
   ],
@@ -94,20 +95,10 @@
     "attribution": "(c) Stuart Shearer, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
     "source": "https://www.inaturalist.org/observations/11018959",
-    "place": "Chiredzi, ZW-MV, ZW",
+    "place": "Near Swimuwini, South Gonarezhou National Park",
     "date": "2014-09-27"
    }
   ],
-  "hero": {
-   "id": 372073926,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/372073926/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/372073926/large.jpg",
-   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/372073926",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 372073926,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 372073926,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/372073926/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/372073926/large.jpg",
+   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/372073926",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480426,
@@ -208,15 +209,15 @@
    0,
    0
   ],
-  "worldTotal": 58209,
+  "worldTotal": 58222,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 31952
+    "count": 31959
    },
    {
     "code": "KE",
-    "count": 9512
+    "count": 9515
    },
    {
     "code": "TZ",
@@ -232,7 +233,7 @@
    },
    {
     "code": "BW",
-    "count": 2046
+    "count": 2047
    },
    {
     "code": "ZW",
@@ -240,7 +241,7 @@
    },
    {
     "code": "ZM",
-    "count": 1413
+    "count": 1414
    },
    {
     "code": "MW",
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:41.850Z"
+ }
 }

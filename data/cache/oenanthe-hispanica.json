@@ -1,8 +1,9 @@
 {
  "key": "oenanthe-hispanica",
  "name": "Oenanthe hispanica",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:05:37.632Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:44:59.579Z",
+ "gbifAt": "2026-11-28T04:44:59.579Z",
  "names": {
   "da": "Middelhavsstenpikker",
   "en": "Western Black-eared Wheatear",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 12825,
-  "observations": 2239
+  "observations": 2240
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-06-30"
    }
   ],
-  "hero": {
-   "id": 450221410,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/450221410/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/450221410/large.jpeg",
-   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/450221410",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 450221410,
@@ -209,7 +200,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 450221410,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/450221410/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/450221410/large.jpeg",
+   "attribution": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/450221410",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231235,
@@ -228,15 +229,15 @@
    149,
    194
   ],
-  "worldTotal": 111551,
+  "worldTotal": 111564,
   "topCountries": [
    {
     "code": "ES",
-    "count": 36476
+    "count": 36479
    },
    {
     "code": "GR",
-    "count": 15829
+    "count": 15831
    },
    {
     "code": "IL",
@@ -244,19 +245,19 @@
    },
    {
     "code": "TR",
-    "count": 10426
+    "count": 10427
    },
    {
     "code": "PT",
-    "count": 5259
+    "count": 5262
    },
    {
     "code": "FR",
-    "count": 4951
+    "count": 4953
    },
    {
     "code": "MA",
-    "count": 3356
+    "count": 3357
    },
    {
     "code": "CY",
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:29.552Z"
+ }
 }

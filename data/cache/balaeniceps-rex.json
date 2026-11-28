@@ -2,7 +2,8 @@
  "key": "balaeniceps-rex",
  "name": "Balaeniceps rex",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:38.527Z",
+ "fetchedAt": "2026-11-28T04:46:00.113Z",
+ "gbifAt": "2026-11-28T04:46:00.113Z",
  "names": {
   "da": "Træskonæb",
   "en": "Shoebill",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 4338,
-  "observations": 638
+  "observations": 640
  },
  "photos": {
   "male": [
@@ -88,26 +89,16 @@
     "date": "2023-03-15"
    },
    {
-    "id": 257766974,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/257766974/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/257766974/large.jpeg",
-    "attribution": "(c) Tommy Andriollo, some rights reserved (CC BY)",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/observations/149577462",
+    "id": 375031611,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/375031611/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/375031611/large.jpg",
+    "attribution": "(c) Johnny Giese, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/212213949",
     "place": "Uganda",
-    "date": "2023-02-04"
+    "date": "2022-11-25"
    }
   ],
-  "hero": {
-   "id": 46952988,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/46952988/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/46952988/large.jpg",
-   "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/46952988",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 46952988,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 46952988,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/46952988/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/46952988/large.jpg",
+   "attribution": "(c) Nik Borrow,  זכויות יוצרים חלקיות (CC BY-NC), הועלה על ידי Nik Borrow",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/46952988",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480347,
@@ -262,13 +263,13 @@
  },
  "sound": null,
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Balaenicipitidae",
   "familyKey": 4287242,
   "familyDa": null,
   "order": "Pelecaniformes"
- },
- "gbifAt": "2026-11-25T22:21:38.343Z"
+ }
 }

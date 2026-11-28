@@ -1,8 +1,9 @@
 {
  "key": "merops-persicus",
  "name": "Merops persicus",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:05:48.755Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:45:10.067Z",
+ "gbifAt": "2026-11-28T04:45:10.067Z",
  "names": {
   "da": "Grøn Biæder",
   "en": "Blue-cheeked Bee-eater",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 2245,
-  "observations": 3742
+  "observations": 3773
  },
  "photos": {
   "male": [
@@ -42,16 +43,6 @@
     "source": "https://www.inaturalist.org/observations/8706838",
     "place": "Uganda - Bushenyi",
     "date": "2017-04-09"
-   },
-   {
-    "id": 612501523,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/612501523/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/612501523/large.jpg",
-    "attribution": "(c) Vilas Sapte, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/336990394",
-    "place": "Nandore, Maharashtra, India",
-    "date": "2025-11-01"
    }
   ],
   "female": [],
@@ -87,16 +78,6 @@
     "date": "2026-09-20"
    }
   ],
-  "hero": {
-   "id": 131752926,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/131752926/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/131752926/large.jpg",
-   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
-   "license": "cc-by",
-   "source": "https://www.inaturalist.org/photos/131752926",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 131752926,
@@ -168,7 +149,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 131752926,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/131752926/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/131752926/large.jpg",
+   "attribution": "(c) egorbirder, some rights reserved (CC BY)",
+   "license": "cc-by",
+   "source": "https://www.inaturalist.org/photos/131752926",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2475419,
@@ -187,11 +178,11 @@
    0,
    0
   ],
-  "worldTotal": 77742,
+  "worldTotal": 77760,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 12374
+    "count": 12375
    },
    {
     "code": "IN",
@@ -199,7 +190,7 @@
    },
    {
     "code": "AE",
-    "count": 7970
+    "count": 7974
    },
    {
     "code": "IL",
@@ -211,7 +202,7 @@
    },
    {
     "code": "TZ",
-    "count": 2627
+    "count": 2629
    },
    {
     "code": "KE",
@@ -219,11 +210,11 @@
    },
    {
     "code": "SN",
-    "count": 2228
+    "count": 2229
    },
    {
     "code": "MA",
-    "count": 2193
+    "count": 2198
    },
    {
     "code": "OM",
@@ -255,13 +246,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Meropidae",
   "familyKey": 9320,
   "familyDa": "Biædere",
   "order": "Coraciiformes"
- },
- "gbifAt": "2026-11-25T22:21:32.609Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "lamprotornis-superbus",
  "name": "Lamprotornis superbus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:27.221Z",
+ "fetchedAt": "2026-11-28T04:45:48.795Z",
+ "gbifAt": "2026-11-28T04:45:48.795Z",
  "names": {
   "da": "Trefarvet Glansstær",
   "en": "Superb Starling",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 14939,
-  "observations": 5198
+  "observations": 5227
  },
  "photos": {
   "male": [
@@ -34,16 +35,6 @@
     "date": "2026-01-31"
    },
    {
-    "id": 607171759,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/607171759/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/607171759/large.jpg",
-    "attribution": "(c) olliesaunders, some rights reserved (CC BY-SA)",
-    "license": "cc-by-sa",
-    "source": "https://www.inaturalist.org/observations/334355393",
-    "place": "Kajiado South, KE-KJ, KE",
-    "date": "2026-01-11"
-   },
-   {
     "id": 622813910,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/622813910/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/622813910/large.jpg",
@@ -52,6 +43,16 @@
     "source": "https://www.inaturalist.org/observations/342050120",
     "place": "Loisaba Conservancy, Laikipia Plateau, Kenya",
     "date": "2026-01-29"
+   },
+   {
+    "id": 315297250,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/315297250/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/315297250/large.jpg",
+    "attribution": "(c) Deb Peak, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/180955019",
+    "place": "Kajiado South, Kajiado, Kajiado, KE",
+    "date": "2023-08-26"
    }
   ],
   "female": [
@@ -88,16 +89,6 @@
     "date": "2018-08-21"
    },
    {
-    "id": 269714734,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/269714734/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/269714734/large.jpg",
-    "attribution": "(c) Alex R, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/156001807",
-    "place": "Meru, Tanzania",
-    "date": "2020-06-12"
-   },
-   {
     "id": 460212476,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/460212476/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/460212476/large.jpeg",
@@ -106,18 +97,18 @@
     "source": "https://www.inaturalist.org/observations/256651728",
     "place": "Central, Kenya",
     "date": "2024-07-28"
+   },
+   {
+    "id": 269714734,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/269714734/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/269714734/large.jpg",
+    "attribution": "(c) Alex R, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/156001807",
+    "place": "Meru, Tanzania",
+    "date": "2020-06-12"
    }
   ],
-  "hero": {
-   "id": 329009302,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/329009302/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/329009302/large.jpg",
-   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/329009302",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 329009302,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 329009302,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/329009302/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/329009302/large.jpg",
+   "attribution": "(c) Marc Henrion, some rights reserved (CC BY-NC), uploaded by Marc Henrion",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/329009302",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2489075,
@@ -198,19 +199,19 @@
    0,
    0
   ],
-  "worldTotal": 77391,
+  "worldTotal": 77410,
   "topCountries": [
    {
     "code": "KE",
-    "count": 51380
+    "count": 51388
    },
    {
     "code": "TZ",
-    "count": 20455
+    "count": 20463
    },
    {
     "code": "ET",
-    "count": 3574
+    "count": 3575
    },
    {
     "code": "UG",
@@ -237,12 +238,12 @@
     "count": 31
    },
    {
-    "code": "BE",
-    "count": 20
+    "code": "MY",
+    "count": 21
    },
    {
-    "code": "MY",
-    "count": 19
+    "code": "BE",
+    "count": 20
    },
    {
     "code": "US",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Sturnidae",
   "familyKey": 9350,
   "familyDa": "Stære",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:37.195Z"
+ }
 }

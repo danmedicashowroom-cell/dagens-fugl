@@ -1,8 +1,9 @@
 {
  "key": "montifringilla-nivalis",
  "name": "Montifringilla nivalis",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:05:32.550Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:44:54.519Z",
+ "gbifAt": "2026-11-28T04:44:54.519Z",
  "names": {
   "da": "Snefinke",
   "en": "White-winged Snowfinch",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 204544,
-  "observations": 3086
+  "observations": 3104
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2025-06-01"
    }
   ],
-  "hero": {
-   "id": 246371416,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/246371416/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/246371416/large.jpeg",
-   "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC), uploaded by Dragonfyre",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/246371416",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 246371416,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 246371416,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/246371416/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/246371416/large.jpeg",
+   "attribution": "(c) Dragonfyre, some rights reserved (CC BY-NC), uploaded by Dragonfyre",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/246371416",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2492371,
@@ -198,15 +199,15 @@
    0,
    0
   ],
-  "worldTotal": 46024,
+  "worldTotal": 46036,
   "topCountries": [
    {
     "code": "CH",
-    "count": 16929
+    "count": 16931
    },
    {
     "code": "FR",
-    "count": 12059
+    "count": 12061
    },
    {
     "code": "ES",
@@ -214,11 +215,11 @@
    },
    {
     "code": "AT",
-    "count": 3803
+    "count": 3805
    },
    {
     "code": "IT",
-    "count": 3255
+    "count": 3258
    },
    {
     "code": "TR",
@@ -226,7 +227,7 @@
    },
    {
     "code": "MN",
-    "count": 966
+    "count": 970
    },
    {
     "code": "DE",
@@ -234,7 +235,7 @@
    },
    {
     "code": "IR",
-    "count": 374
+    "count": 373
    },
    {
     "code": "RU",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Passeridae",
   "familyKey": 5264,
   "familyDa": "Spurve",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:28.667Z"
+ }
 }

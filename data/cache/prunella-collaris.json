@@ -1,8 +1,9 @@
 {
  "key": "prunella-collaris",
  "name": "Prunella collaris",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:05:27.718Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:44:49.567Z",
+ "gbifAt": "2026-11-28T04:44:49.567Z",
  "names": {
   "da": "Alpejernspurv",
   "en": "Alpine Accentor",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13996,
-  "observations": 6874
+  "observations": 6935
  },
  "photos": {
   "male": [
@@ -78,16 +79,6 @@
   ],
   "juvenile": [
    {
-    "id": 711181815,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/711181815/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/711181815/large.jpg",
-    "attribution": "(c) Valia Pavlou, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/388318099",
-    "place": "Switzerland",
-    "date": "2025-08-27"
-   },
-   {
     "id": 437513201,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/437513201/medium.jpeg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/437513201/large.jpeg",
@@ -106,18 +97,18 @@
     "source": "https://www.inaturalist.org/observations/253304233",
     "place": "Alicante, España",
     "date": "2024-11-27"
+   },
+   {
+    "id": 589359507,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/589359507/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/589359507/large.jpg",
+    "attribution": "(c) Wolfgang Bittermann, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/325504566",
+    "place": "Lienz, Österreich",
+    "date": "2019-07-09"
    }
   ],
-  "hero": {
-   "id": 1806727,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/1806727/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/1806727/large.jpg",
-   "attribution": "(c) Paco Gómez, some rights reserved (CC BY-SA)",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/1806727",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 475605508,
@@ -169,7 +160,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 475605508,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/475605508/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/475605508/large.jpeg",
+   "attribution": "(c) Attila Steiner, some rights reserved (CC BY-NC), uploaded by Attila Steiner",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/475605508",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5231770,
@@ -188,23 +189,23 @@
    1,
    1
   ],
-  "worldTotal": 98284,
+  "worldTotal": 98313,
   "topCountries": [
    {
     "code": "CH",
-    "count": 29350
+    "count": 29352
    },
    {
     "code": "FR",
-    "count": 24832
+    "count": 24840
    },
    {
     "code": "ES",
-    "count": 13674
+    "count": 13680
    },
    {
     "code": "IT",
-    "count": 4695
+    "count": 4697
    },
    {
     "code": "AT",
@@ -216,11 +217,11 @@
    },
    {
     "code": "TW",
-    "count": 2571
+    "count": 2574
    },
    {
     "code": "CN",
-    "count": 1408
+    "count": 1409
    },
    {
     "code": "DE",
@@ -236,7 +237,7 @@
    },
    {
     "code": "PT",
-    "count": 864
+    "count": 866
    }
   ]
  },
@@ -256,13 +257,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Prunellidae",
   "familyKey": 5273,
   "familyDa": "Jernspurve",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:28.242Z"
+ }
 }

@@ -2,7 +2,8 @@
  "key": "plectrophenax-nivalis",
  "name": "Plectrophenax nivalis",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:01:37.160Z",
+ "fetchedAt": "2026-11-28T04:41:31.489Z",
+ "gbifAt": "2026-11-28T04:41:31.489Z",
  "names": {
   "da": "Snespurv",
   "en": "Snow Bunting",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 117059,
-  "observations": 20222
+  "observations": 20370
  },
  "photos": {
   "male": [
@@ -34,6 +35,16 @@
     "date": "2025-05-03"
    },
    {
+    "id": 765807926,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/765807926/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/765807926/large.jpg",
+    "attribution": "(c) alanvannorman, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/415870077",
+    "place": "Utqiagvik, AK 99723, USA",
+    "date": "2022-06-08"
+   },
+   {
     "id": 67423123,
     "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/67423123/medium.jpg",
     "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/67423123/large.jpg",
@@ -42,16 +53,6 @@
     "source": "https://www.inaturalist.org/observations/42462782",
     "place": "Longyearbyen, Svalbard and Jan Mayen",
     "date": "2017-07-26"
-   },
-   {
-    "id": 35367136,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/35367136/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/35367136/large.jpeg",
-    "attribution": "(c) Lada Malek, some rights reserved (CC BY-NC)",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/22819650",
-    "place": "Thunder Bay, ON, Canada",
-    "date": "2019-04-14"
    }
   ],
   "female": [
@@ -118,16 +119,6 @@
     "date": "2022-07-30"
    }
   ],
-  "hero": {
-   "id": 113763306,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/113763306/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/113763306/large.jpeg",
-   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/113763306",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 113763306,
@@ -209,11 +200,21 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 113763306,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/113763306/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/113763306/large.jpeg",
+   "attribution": "(c) Pavel Shukov, some rights reserved (CC BY-NC), uploaded by Pavel Shukov",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/113763306",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2491719,
-  "dkTotal": 45867,
+  "dkTotal": 45958,
   "dkMonths": [
    8226,
    6237,
@@ -224,19 +225,19 @@
    7,
    5,
    658,
-   6324,
-   11507,
-   5973
+   6326,
+   11595,
+   5974
   ],
-  "worldTotal": 890358,
+  "worldTotal": 890609,
   "topCountries": [
    {
     "code": "US",
-    "count": 261655
+    "count": 261731
    },
    {
     "code": "CA",
-    "count": 257104
+    "count": 257138
    },
    {
     "code": "SE",
@@ -244,7 +245,7 @@
    },
    {
     "code": "DK",
-    "count": 45867
+    "count": 45958
    },
    {
     "code": "NO",
@@ -252,19 +253,19 @@
    },
    {
     "code": "NL",
-    "count": 39886
+    "count": 39887
    },
    {
     "code": "GB",
-    "count": 23889
+    "count": 23902
    },
    {
     "code": "IS",
-    "count": 16680
+    "count": 16682
    },
    {
     "code": "FI",
-    "count": 14062
+    "count": 14063
    },
    {
     "code": "SJ",
@@ -272,11 +273,11 @@
    },
    {
     "code": "RU",
-    "count": 7018
+    "count": 7030
    },
    {
     "code": "FR",
-    "count": 5635
+    "count": 5642
    }
   ]
  },
@@ -296,13 +297,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Calcariidae",
   "familyKey": 6101141,
   "familyDa": "Sporeværlinger",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:02.054Z"
+ }
 }

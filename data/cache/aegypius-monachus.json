@@ -2,7 +2,8 @@
  "key": "aegypius-monachus",
  "name": "Aegypius monachus",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:02:36.511Z",
+ "fetchedAt": "2026-11-28T04:42:03.367Z",
+ "gbifAt": "2026-11-28T04:42:03.367Z",
  "names": {
   "da": "Munkegrib",
   "en": "Cinereous Vulture",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 5382,
-  "observations": 12081
+  "observations": 12201
  },
  "photos": {
   "male": [],
@@ -57,26 +58,16 @@
     "date": "2026-08-06"
    },
    {
-    "id": 300482847,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/300482847/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/300482847/large.jpg",
-    "attribution": "(c) Natalya Andreyenkova, some rights reserved (CC BY-NC)",
+    "id": 716803571,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/716803571/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/716803571/large.jpg",
+    "attribution": "(c) oculuscircaeti, some rights reserved (CC BY-NC)",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/observations/173064606",
-    "place": "Kosh-Agachskiy rayon, RU-GA, RU",
-    "date": "2023-06-10"
+    "source": "https://www.inaturalist.org/observations/391208660",
+    "place": "Salzburg, AT",
+    "date": "2026-08-12"
    }
   ],
-  "hero": {
-   "id": 192396793,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/192396793/medium.jpeg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/192396793/large.jpeg",
-   "attribution": "(c) rociomar, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/192396793",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 192396793,
@@ -158,7 +149,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 192396793,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/192396793/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/192396793/large.jpeg",
+   "attribution": "(c) rociomar, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/192396793",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 5229165,
@@ -177,31 +178,31 @@
    0,
    0
   ],
-  "worldTotal": 365700,
+  "worldTotal": 365731,
   "topCountries": [
    {
     "code": "MN",
-    "count": 145876
+    "count": 145877
    },
    {
     "code": "ES",
-    "count": 100408
+    "count": 100416
    },
    {
     "code": "KR",
-    "count": 48578
+    "count": 48583
    },
    {
     "code": "CN",
-    "count": 21977
+    "count": 21978
    },
    {
     "code": "FR",
-    "count": 10735
+    "count": 10738
    },
    {
     "code": "PT",
-    "count": 9020
+    "count": 9022
    },
    {
     "code": "IN",
@@ -213,7 +214,7 @@
    },
    {
     "code": "RU",
-    "count": 3010
+    "count": 3017
    },
    {
     "code": "TR",
@@ -245,13 +246,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:05.166Z"
+ }
 }

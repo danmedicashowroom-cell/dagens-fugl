@@ -2,11 +2,12 @@
  "key": "haliaeetus-vocifer",
  "name": "Haliaeetus vocifer",
  "region": "verden",
- "fetchedAt": "2026-11-17T20:06:56.214Z",
+ "fetchedAt": "2026-11-28T04:46:20.405Z",
+ "gbifAt": "2026-11-28T04:46:20.405Z",
  "names": {
   "da": "Afrikansk Flodørn",
   "en": "African Fish Eagle",
-  "accepted": "Haliaeetus vocifer"
+  "accepted": "Icthyophaga vocifer"
  },
  "wikidata": {
   "id": "Q217497"
@@ -18,93 +19,124 @@
   "url": "https://en.wikipedia.org/wiki/African_fish_eagle"
  },
  "inat": {
-  "id": 5308,
-  "observations": 0
+  "id": 1505670,
+  "observations": 12021
  },
  "photos": {
-  "male": [],
-  "female": [],
-  "juvenile": [],
-  "adult": [],
-  "general": [],
-  "hero": {
-   "id": 2195485,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2195485/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2195485/large.jpg",
-   "attribution": "(c) shams, some rights reserved (CC BY-NC)",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/2195485",
-   "place": null,
-   "date": null
-  },
+  "male": [
+   {
+    "id": 56446179,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/56446179/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/56446179/large.jpg",
+    "attribution": "(c) pelagicgraf, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/35772328",
+    "place": "Chobe District, Botsuana",
+    "date": "2017-04-13"
+   },
+   {
+    "id": 732541911,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/732541911/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/732541911/large.jpg",
+    "attribution": "(c) Farai Malvin Mainato, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/399282716",
+    "place": "X237+QM Iapf Songo base, Chief Sinangatenkes Village, Zimbabwe",
+    "date": "2026-09-11"
+   },
+   {
+    "id": 584727432,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/584727432/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/584727432/large.jpg",
+    "attribution": "(c) MB, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/323152602",
+    "place": "Kruger Park, South Africa",
+    "date": "2025-10-26"
+   }
+  ],
+  "female": [
+   {
+    "id": 61445961,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/61445961/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/61445961/large.jpeg",
+    "attribution": "(c) kipara, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/38642795",
+    "place": "Amboseli National Park, Loitoktok District, Rift Valley, Kenya",
+    "date": "2020-02-01"
+   },
+   {
+    "id": 483120077,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/483120077/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/483120077/large.jpeg",
+    "attribution": "(c) heathersperling, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/268752100",
+    "place": "Karas Region, Namibia",
+    "date": "2025-04-05"
+   }
+  ],
+  "juvenile": [
+   {
+    "id": 53183352,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/53183352/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/53183352/large.jpeg",
+    "attribution": "(c) Joni Overbosch, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/33833820",
+    "place": "Rufiji, Tanzania",
+    "date": "2018-06-28"
+   },
+   {
+    "id": 187119922,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/187119922/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/187119922/large.jpeg",
+    "attribution": "(c) Lara Antoniades, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/110886932",
+    "place": "Kaingu Safari Lodge, Namwala Game Management Area, Lusaka, Zambia",
+    "date": "2013-08-26"
+   },
+   {
+    "id": 427250797,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/427250797/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/427250797/large.jpeg",
+    "attribution": "(c) Tomas Chipiri Buruwate, some rights reserved (CC BY-NC)",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/observations/239858432",
+    "place": "Mueda, Mozambique",
+    "date": "2024-09-04"
+   }
+  ],
   "curated": [
    {
-    "id": 2195485,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/2195485/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/2195485/large.jpg",
-    "attribution": "(c) shams, some rights reserved (CC BY-NC)",
+    "id": 502617404,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/502617404/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/502617404/large.jpeg",
+    "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/photos/2195485",
+    "source": "https://www.inaturalist.org/photos/502617404",
     "place": null,
     "date": null
    },
    {
-    "id": 190286350,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/190286350/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/190286350/large.jpeg",
-    "attribution": "(c) Jan Ebr &amp; Ivana Ebrová, some rights reserved (CC BY), uploaded by Jan Ebr &amp; Ivana Ebrová",
-    "license": "cc-by",
-    "source": "https://www.inaturalist.org/photos/190286350",
+    "id": 568727989,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/568727989/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/568727989/large.jpg",
+    "attribution": "(c) leekelai, some rights reserved (CC BY-NC), uploaded by leekelai",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/568727989",
     "place": null,
     "date": null
    },
    {
-    "id": 217605951,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/217605951/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/217605951/large.jpg",
-    "attribution": "(c) Matheen Mohammed Abdul, some rights reserved (CC BY-NC), uploaded by Matheen Mohammed Abdul",
+    "id": 306479046,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/306479046/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/306479046/large.jpeg",
+    "attribution": "(c) Richard Johnstone, some rights reserved (CC BY-NC), uploaded by Richard Johnstone",
     "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/photos/217605951",
-    "place": null,
-    "date": null
-   },
-   {
-    "id": 57766905,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/57766905/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/57766905/large.jpeg",
-    "attribution": "(c) Mwangi wa Gitau, some rights reserved (CC BY-NC), uploaded by Mwangi wa Gitau",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/photos/57766905",
-    "place": null,
-    "date": null
-   },
-   {
-    "id": 29893795,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/29893795/medium.jpeg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/29893795/large.jpeg",
-    "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/photos/29893795",
-    "place": null,
-    "date": null
-   },
-   {
-    "id": 8447232,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8447232/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8447232/large.jpg",
-    "attribution": "(c) gediminas, some rights reserved (CC BY-NC), uploaded by gediminas",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/photos/8447232",
-    "place": null,
-    "date": null
-   },
-   {
-    "id": 285481527,
-    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/285481527/medium.jpg",
-    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/285481527/large.jpg",
-    "attribution": "(c) John Gale, some rights reserved (CC BY-NC), uploaded by John Gale",
-    "license": "cc-by-nc",
-    "source": "https://www.inaturalist.org/photos/285481527",
+    "source": "https://www.inaturalist.org/photos/306479046",
     "place": null,
     "date": null
    },
@@ -117,8 +149,38 @@
     "source": "https://www.inaturalist.org/photos/235507319",
     "place": null,
     "date": null
+   },
+   {
+    "id": 13402714,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/13402714/medium.jpeg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/13402714/large.jpeg",
+    "attribution": "(c) copper, some rights reserved (CC BY-NC), uploaded by copper",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/13402714",
+    "place": null,
+    "date": null
+   },
+   {
+    "id": 8447232,
+    "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/8447232/medium.jpg",
+    "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/8447232/large.jpg",
+    "attribution": "(c) gediminas, some rights reserved (CC BY-NC), uploaded by gediminas",
+    "license": "cc-by-nc",
+    "source": "https://www.inaturalist.org/photos/8447232",
+    "place": null,
+    "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 502617404,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/502617404/medium.jpeg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/502617404/large.jpeg",
+   "attribution": "(c) Alex Rebelo, some rights reserved (CC BY-NC), uploaded by Alex Rebelo",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/502617404",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2480454,
@@ -137,23 +199,23 @@
    0,
    0
   ],
-  "worldTotal": 252011,
+  "worldTotal": 252068,
   "topCountries": [
    {
     "code": "ZA",
-    "count": 153089
+    "count": 153119
    },
    {
     "code": "KE",
-    "count": 25137
+    "count": 25139
    },
    {
     "code": "BW",
-    "count": 13571
+    "count": 13582
    },
    {
     "code": "UG",
-    "count": 11429
+    "count": 11431
    },
    {
     "code": "ZW",
@@ -161,15 +223,15 @@
    },
    {
     "code": "ZM",
-    "count": 8391
+    "count": 8395
    },
    {
     "code": "TZ",
-    "count": 7580
+    "count": 7583
    },
    {
     "code": "NA",
-    "count": 5899
+    "count": 5902
    },
    {
     "code": "ET",
@@ -185,33 +247,19 @@
    },
    {
     "code": "MW",
-    "count": 1691
+    "count": 1692
    }
   ]
  },
- "sound": {
-  "src": [
-   {
-    "u": "https://xeno-canto.org/890670/download",
-    "type": "audio/mpeg"
-   }
-  ],
-  "license": "CC BY-NC-ND 4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "artist": "Marc Anderson",
-  "page": "https://xeno-canto.org/890670",
-  "type": "duet, song",
-  "q": "A",
-  "via": "xeno-canto"
- },
+ "sound": null,
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Accipitridae",
   "familyKey": 2877,
   "familyDa": "Glenter, ørne & høge",
   "order": "Accipitriformes"
- },
- "gbifAt": "2026-11-25T22:21:40.148Z"
+ }
 }

@@ -1,8 +1,9 @@
 {
  "key": "monticola-saxatilis",
  "name": "Monticola saxatilis",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:03:11.035Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:42:35.979Z",
+ "gbifAt": "2026-11-28T04:42:35.979Z",
  "names": {
   "da": "Stendrossel",
   "en": "Common Rock Thrush",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 13140,
-  "observations": 3081
+  "observations": 3103
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2025-07-31"
    }
   ],
-  "hero": {
-   "id": 740387467,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/740387467/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/740387467/large.jpg",
-   "attribution": "(c) Emanuele Santarelli, some rights reserved (CC BY-SA), uploaded by Emanuele Santarelli",
-   "license": "cc-by-sa",
-   "source": "https://www.inaturalist.org/photos/740387467",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 370305039,
@@ -179,7 +170,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 370305039,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/370305039/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/370305039/large.jpg",
+   "attribution": "(c) cog2022, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/370305039",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2490956,
@@ -198,15 +199,15 @@
    0,
    0
   ],
-  "worldTotal": 64137,
+  "worldTotal": 64143,
   "topCountries": [
    {
     "code": "FR",
-    "count": 13607
+    "count": 13608
    },
    {
     "code": "ES",
-    "count": 12186
+    "count": 12187
    },
    {
     "code": "CH",
@@ -230,7 +231,7 @@
    },
    {
     "code": "IT",
-    "count": 1287
+    "count": 1288
    },
    {
     "code": "NL",
@@ -266,13 +267,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Muscicapidae",
   "familyKey": 9322,
   "familyDa": "Fluesnappere",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:10.841Z"
+ }
 }

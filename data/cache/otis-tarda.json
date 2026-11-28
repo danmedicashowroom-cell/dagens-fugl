@@ -1,8 +1,9 @@
 {
  "key": "otis-tarda",
  "name": "Otis tarda",
- "region": "verden",
- "fetchedAt": "2026-11-17T20:03:39.750Z",
+ "region": "dk",
+ "fetchedAt": "2026-11-28T04:43:02.676Z",
+ "gbifAt": "2026-11-28T04:43:02.676Z",
  "names": {
   "da": "Stortrappe",
   "en": "Great Bustard",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 77,
-  "observations": 3799
+  "observations": 3811
  },
  "photos": {
   "male": [
@@ -98,16 +99,6 @@
     "date": "2024-08-06"
    }
   ],
-  "hero": {
-   "id": 102883570,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/102883570/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/102883570/large.jpg",
-   "attribution": "(c) Andrej Chudý, some rights reserved (CC BY-NC-SA)",
-   "license": "cc-by-nc-sa",
-   "source": "https://www.inaturalist.org/photos/102883570",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 524096554,
@@ -149,7 +140,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 524096554,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/524096554/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/524096554/large.jpg",
+   "attribution": "(c) podani, some rights reserved (CC BY-NC)",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/524096554",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2474921,
@@ -168,19 +169,19 @@
    0,
    0
   ],
-  "worldTotal": 64555,
+  "worldTotal": 64584,
   "topCountries": [
    {
     "code": "ES",
-    "count": 43873
+    "count": 43875
    },
    {
     "code": "PT",
-    "count": 7104
+    "count": 7125
    },
    {
     "code": "DE",
-    "count": 3090
+    "count": 3092
    },
    {
     "code": "NL",
@@ -188,7 +189,7 @@
    },
    {
     "code": "HU",
-    "count": 2061
+    "count": 2064
    },
    {
     "code": "UA",
@@ -196,7 +197,7 @@
    },
    {
     "code": "AT",
-    "count": 1091
+    "count": 1092
    },
    {
     "code": "CN",
@@ -236,13 +237,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Otididae",
   "familyKey": 9610,
   "familyDa": "Trapper",
   "order": "Otidiformes"
- },
- "gbifAt": "2026-11-25T22:21:13.437Z"
+ }
 }

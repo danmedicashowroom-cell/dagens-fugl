@@ -2,7 +2,8 @@
  "key": "emberiza-hortulana",
  "name": "Emberiza hortulana",
  "region": "dk",
- "fetchedAt": "2026-11-17T20:01:55.934Z",
+ "fetchedAt": "2026-11-28T04:41:47.982Z",
+ "gbifAt": "2026-11-28T04:41:47.982Z",
  "names": {
   "da": "Hortulan",
   "en": "Ortolan Bunting",
@@ -19,7 +20,7 @@
  },
  "inat": {
   "id": 9196,
-  "observations": 6018
+  "observations": 6041
  },
  "photos": {
   "male": [
@@ -118,16 +119,6 @@
     "date": "2023-09-14"
    }
   ],
-  "hero": {
-   "id": 14066719,
-   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/14066719/medium.jpg",
-   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/14066719/large.jpg",
-   "attribution": "(c) Tânia Araújo, some rights reserved (CC BY-NC), uploaded by Tânia Araújo",
-   "license": "cc-by-nc",
-   "source": "https://www.inaturalist.org/photos/14066719",
-   "place": null,
-   "date": null
-  },
   "curated": [
    {
     "id": 14066719,
@@ -189,7 +180,17 @@
     "place": null,
     "date": null
    }
-  ]
+  ],
+  "hero": {
+   "id": 14066719,
+   "medium": "https://inaturalist-open-data.s3.amazonaws.com/photos/14066719/medium.jpg",
+   "large": "https://inaturalist-open-data.s3.amazonaws.com/photos/14066719/large.jpg",
+   "attribution": "(c) Tânia Araújo, some rights reserved (CC BY-NC), uploaded by Tânia Araújo",
+   "license": "cc-by-nc",
+   "source": "https://www.inaturalist.org/photos/14066719",
+   "place": null,
+   "date": null
+  }
  },
  "gbif": {
   "key": 2491482,
@@ -208,7 +209,7 @@
    0,
    0
   ],
-  "worldTotal": 165927,
+  "worldTotal": 165941,
   "topCountries": [
    {
     "code": "SE",
@@ -216,7 +217,7 @@
    },
    {
     "code": "FR",
-    "count": 23935
+    "count": 23939
    },
    {
     "code": "ES",
@@ -224,7 +225,7 @@
    },
    {
     "code": "FI",
-    "count": 12177
+    "count": 12178
    },
    {
     "code": "IL",
@@ -244,7 +245,7 @@
    },
    {
     "code": "RU",
-    "count": 4561
+    "count": 4565
    },
    {
     "code": "DE",
@@ -276,13 +277,13 @@
   "via": "xeno-canto"
  },
  "soundVersion": 3,
- "photoVersion": 3,
+ "photoVersion": 4,
+ "refetchedFor": null,
  "warnings": [],
  "taxon": {
   "family": "Emberizidae",
   "familyKey": 9608,
   "familyDa": "Værlinger",
   "order": "Passeriformes"
- },
- "gbifAt": "2026-11-25T22:21:03.667Z"
+ }
 }
