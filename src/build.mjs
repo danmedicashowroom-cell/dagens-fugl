@@ -1076,6 +1076,64 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
     extraUrls.push({ loc: abs('quiz/'), freq: 'monthly' });
   }
 
+  // --- »Hvad så jeg?«: forslag til arter ud fra sted, størrelse, farver og måned ---
+  {
+    const AV = readJson(path.join(ROOT, 'data', 'avonet.json'), {});
+    const HAB = [
+      ['have', 'Have, park eller by', /\bhave|haver\b|park|\bby\b|byer|bebyg|gård|foderbræt|landsby/i, ['Human Modified']],
+      ['skov', 'Skov', /skov|plantage|lund|træer/i, ['Forest', 'Woodland']],
+      ['soe', 'Sø, å eller mose', /\bsø|søer|\bå\b|åer|vandløb|mose|vådområde|damme?\b|engsø/i, ['Wetland', 'Riverine']],
+      ['roer', 'Rørskov', /rørskov|tagrør|\bsiv\b|rørsump/i, []],
+      ['kyst', 'Kyst, strand eller fjord', /kyst|strand|fjord|vade|lagune|klint|tidevand/i, ['Coastal', 'Rock']],
+      ['hav', 'Hav', /\bhav(et|s)?\b|åbent vand|havet|offshore/i, ['Marine']],
+      ['mark', 'Mark eller eng', /\bmark|marker|\beng\b|enge\b|græs|ager|overdrev|landbrug/i, ['Grassland']],
+      ['krat', 'Hede, krat eller klit', /hede|krat|klit|buske|lyng/i, ['Shrubland', 'Desert']],
+    ];
+    const COL = [['sort', /\bsort|sorte\b/i], ['hvid', /\bhvid|hvide\b/i], ['graa', /\bgrå|gråt?\b|grålig/i], ['brun', /\bbrun|brunt|brune|brunlig/i], ['roed', /\brød|rødt|røde|rust|orange|teglrød/i], ['gul', /\bgul|gult|gule|gullig/i], ['groen', /\bgrøn|grønt|grønne|grønlig|oliven/i], ['blaa', /\bblå|blåt|blålig/i]];
+    const sizeCls = (g) => (g == null ? null : g <= 35 ? 1 : g <= 150 ? 2 : g <= 600 ? 3 : g <= 2000 ? 4 : 5);
+    const items = species.filter((d) => d.region === 'dk' && d.photos?.hero && DL_STATUS[d.key]).map((d) => {
+      const t = d.tekst || {};
+      const where = [t.kort_levested, t.levested, t.i_danmark].filter(Boolean).join(' ');
+      const av = AV[d.key] || {};
+      const hab = HAB.filter(([k, , re, avh]) => re.test(where) || avh.includes(av.habitat)).map(([k]) => k);
+      const look = [t.kendetegn, t.han, t.hun].filter(Boolean).join(' ');
+      const col = COL.filter(([, re]) => re.test(look)).map(([k]) => k);
+      const m = d.gbif?.dkMonths || [];
+      const mx = Math.max(1, ...m);
+      const h = DL_STATUS[d.key]?.h;
+      const ph = homeDD(d).photos.hero;
+      return { k: d.key, n: displayName(d), u: url(speciesUrl(d)), i: size(ph, 'small'), s: sizeCls(av.mass), g: av.mass ? Math.round(av.mass) : null, h: hab, c: col, m: m.length === 12 ? m.map((x) => Math.round((100 * x) / mx)) : null, r: ['R', 'VR', 'A'].includes(h) || !!rarity(d) ? 1 : 0, f: Math.round(Math.log10(1 + (d.gbif?.dkTotal || 0)) * 10) / 10, kt: t.kendetegn || '' };
+    });
+    write('hvad-saa-jeg.json', JSON.stringify(items));
+    const chips = (name, list, multi) => list.map(([v, l]) => `<label class="fq-choice hs-chip"><input type="${multi ? 'checkbox' : 'radio'}" name="${name}" value="${v}"><span><b>${esc(l)}</b></span></label>`).join('');
+    const MONTHS = ['januar', 'februar', 'marts', 'april', 'maj', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'december'];
+    write('hvad-saa-jeg/index.html', page({
+      bodyClass: 'v2s hs-page',
+      title: `Hvad så jeg? Find fuglen ud fra sted, størrelse og farver | ${SITE_NAME}`,
+      description: 'Har du set en fugl, du ikke kender? Vælg hvor du så den, hvor stor den var, og hvilke farver den havde, og få forslag blandt de danske fugle.',
+      canonical: abs('hvad-saa-jeg/'),
+      body: `<section class="fq hs wrap" id="hs">
+  <p class="kicker">Hvad så jeg?</p>
+  <h1>Find fuglen, du så</h1>
+  <p class="lede">Vælg det, du husker – du behøver ikke udfylde det hele. Forslagene opdateres med det samme.</p>
+  <form id="hs-form" onsubmit="return false">
+    <fieldset class="fq-group"><legend>Hvor så du den?</legend><div class="fq-choices hs-wrap">${chips('h', HAB.map(([k, l]) => [k, l]), true)}</div></fieldset>
+    <fieldset class="fq-group"><legend>Hvor stor var den?</legend><div class="fq-choices hs-wrap">${chips('s', [['1', 'Som en spurv eller mindre'], ['2', 'Som en solsort'], ['3', 'Som en due eller krage'], ['4', 'Som en and eller måge'], ['5', 'Som en gås eller større']], false)}</div></fieldset>
+    <fieldset class="fq-group"><legend>Hvilke farver lagde du mærke til?</legend><div class="fq-choices hs-wrap">${chips('c', [['sort', 'Sort'], ['hvid', 'Hvid'], ['graa', 'Grå'], ['brun', 'Brun'], ['roed', 'Rød eller orange'], ['gul', 'Gul'], ['groen', 'Grøn'], ['blaa', 'Blå']], true)}</div></fieldset>
+    <fieldset class="fq-group"><legend>Hvornår?</legend><div class="hs-row"><select name="m" id="hs-m" aria-label="Måned"><option value="">Ved ikke</option>${MONTHS.map((x, i) => `<option value="${i}">${x[0].toUpperCase() + x.slice(1)}</option>`).join('')}</select>
+      <label class="fq-check"><input type="checkbox" name="r" id="hs-r"> Medtag sjældne gæster</label>
+      <button type="reset" class="btn" id="hs-reset">Nulstil</button></div></fieldset>
+  </form>
+  <h2 class="hs-h" id="hs-h" aria-live="polite"></h2>
+  <ul class="hs-list" id="hs-list"></ul>
+  <noscript><p>Siden kræver JavaScript.</p></noscript>
+  <p class="src">Størrelse ud fra fuglenes vægt i AVONET (Tobias m.fl. 2022, Ecology Letters, CC BY 4.0). Levested og farver ud fra Dagens Fugls egne artstekster og AVONET. Hvornår ud fra danske fund på GBIF. Forslagene er en hjælp, ikke et facit – se altid artssiden og sammenlign billeder og lyd.</p>
+</section>
+<script src="${url('hvad-saa-jeg.js')}?v=${Date.now().toString(36)}" defer></script>`,
+    }));
+    extraUrls.push({ loc: abs('hvad-saa-jeg/'), freq: 'monthly' });
+  }
+
   // --- Kreditering af alle fotos og lyde ---
   {
     let nPh = 0; let nSnd = 0;

@@ -515,3 +515,19 @@ body.v2s .cmp-intro .lead { margin: 0; font-size: 1.1rem; max-width: 64ch; }
 .snd + .snd { margin-top: 18px; } .snd-h { font-size: 1rem; margin: 0 0 8px; }
 .fq-choices.n3 { grid-template-columns: repeat(3, minmax(0, 200px)); }
 .fq-kind { display: inline-block; margin: 0 0 10px; padding: 3px 12px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: .85rem; font-weight: 600; }
+/* ---- Hvad så jeg? ---- */
+.hs-wrap { display: flex; flex-wrap: wrap; gap: 8px; }
+.hs-chip span { flex-direction: row; padding: 10px 16px; border-radius: 999px; }
+.hs-chip b { font-weight: 500; }
+.hs-row { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.hs-row select { min-height: 44px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text); font: 1rem var(--sans); }
+.hs-row .fq-check { margin: 0; }
+.hs-h { margin: 36px 0 14px; font-size: 1.25rem; }
+.hs-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.hs-list li { margin: 0; }
+.hs-list a { display: flex; gap: 14px; padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); text-decoration: none; color: var(--text); height: 100%; box-sizing: border-box; }
+.hs-list a:hover { border-color: var(--accent); }
+.hs-list img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex: none; background: var(--surface2); }
+.hs-list span { display: flex; flex-direction: column; gap: 4px; }
+.hs-kt { font-size: .88rem; color: var(--muted); line-height: 1.4; }
+.hs-why { font-size: .8rem; color: var(--accent); }
