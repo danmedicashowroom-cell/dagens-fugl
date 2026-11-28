@@ -139,24 +139,27 @@ ${CF_BEACON ? `<script defer src="https://static.cloudflareinsights.com/beacon.m
   const wildFirst = (arr) => [...arr].sort((a, b) => (a.captive ? 1 : 0) - (b.captive ? 1 : 0));
 
   const GROUPS = [['male', 'Han', 'han'], ['female', 'Hun', 'hun'], ['juvenile', 'Ungfugl', 'ungfugl']];
+  const SEASONS = [['sommer', 'Sommerdragt'], ['vinter', 'Vinterdragt']];
   function plumage(d) {
     const p = d.photos || {};
     const name = displayName(d);
     let groups = GROUPS.map(([k, label, tk]) => ({ label, text: d.tekst?.[tk], photos: wildFirst(p[k] || []) })).filter((g) => g.photos.length);
     if (!groups.length) groups = [['adult', 'Voksen'], ['general', 'Flere billeder']].map(([k, label]) => ({ label, photos: p[k] || [] })).filter((g) => g.photos.length);
-    if (!groups.length) return '';
-    const cards = groups.map((g) => {
+    const seasons = SEASONS.map(([k, label]) => ({ label, photos: p[k] || [] })).filter((g) => g.photos.length);
+    if (!groups.length && !seasons.length) return '';
+    const card = (g) => {
       const [main, ...rest] = g.photos;
       const thumbs = rest.slice(0, 3).map((ph) => `<figure class="thumb"><img src="${esc(size(ph, 'small'))}" alt="${esc(`${name}, ${g.label.toLowerCase()}`)}" loading="lazy" decoding="async" width="72" height="72"><figcaption class="sr">${credit(ph)}</figcaption></figure>`).join('');
       return `<article class="pcard">
   ${fig(main, `${name}, ${g.label.toLowerCase()}`, 'pimg')}
   <div class="pbody"><h3>${g.label}</h3>${g.text ? `<p>${esc(g.text)}</p>` : ''}${thumbs ? `<div class="thumbs" aria-label="Flere billeder">${thumbs}</div>` : ''}</div>
 </article>`;
-    }).join('');
+    };
     return `<section class="sec" id="fjerdragt">
   <h2>Fjerdragt</h2>
-  <div class="pgrid n${groups.length}">${cards}</div>
-  <p class="src">Fotos via iNaturalist. Køn og alder er angivet af iNaturalist-brugere. Klik på et billede for at se det stort.</p>
+  ${groups.length ? `<div class="pgrid n${groups.length}">${groups.map(card).join('')}</div>` : ''}
+  ${seasons.length ? `<div class="pgrid n${seasons.length} pseason">${seasons.map(card).join('')}</div>` : ''}
+  <p class="src">Fotos via iNaturalist. Køn og alder er angivet af iNaturalist-brugere.${seasons.length ? ' Sommer- og vinterdragt er fra Wikimedia Commons.' : ''} Klik på et billede for at se det stort.</p>
 </section>`;
   }
 

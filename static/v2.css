@@ -511,3 +511,4 @@ body.v2s .cmp-intro .lead { margin: 0; font-size: 1.1rem; max-width: 64ch; }
 .fq-cmp th, .fq-cmp td { text-align: left; vertical-align: top; padding: 6px 10px 6px 0; border-top: 1px solid var(--line); }
 .fq-cmp tr:first-child th { border-top: 0; color: var(--muted); font-weight: 600; }
 .fq-cmp th { font-weight: 600; width: 22%; }
+.pgrid.pseason { margin-top: 20px; }
