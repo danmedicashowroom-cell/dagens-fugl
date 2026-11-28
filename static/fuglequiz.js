@@ -132,8 +132,15 @@
       media.appendChild(fr); media.appendChild(credit(q.photo, false));
     } else if (q.t === 'lyd') {
       h.textContent = 'Hvilken fugl er det, du hører?';
+      var box = el('div', 'fq-sound');
+      var pl = el('div', 'player'); pl.setAttribute('data-player', '');
+      var pb = el('button', 'play'); pb.type = 'button'; pb.setAttribute('aria-label', 'Afspil lyden');
+      pb.innerHTML = '<svg class="i-play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
+      var tr = el('div', 'track'); tr.setAttribute('aria-hidden', 'true'); tr.appendChild(el('span'));
+      pl.appendChild(pb); pl.appendChild(tr); pl.appendChild(el('span', 'time', '0:00'));
       var au = el('audio'); au.controls = true; au.preload = 'none'; au.src = q.sp.snd.u;
-      var box = el('div', 'fq-sound'); box.appendChild(au); media.appendChild(box);
+      box.appendChild(pl); box.appendChild(au); media.appendChild(box);
+      if (window.dfPlayer) window.dfPlayer(pl);
       media.appendChild(credit(q.sp.snd, false, 'Lyd: '));
       setTimeout(function () { var p = au.play(); if (p && p.catch) p.catch(function () {}); }, 50);
       // Kan lyden ikke hentes, skiftes spørgsmålet til et billede af samme fugl, og fejlen meldes automatisk

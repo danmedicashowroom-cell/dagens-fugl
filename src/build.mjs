@@ -1114,7 +1114,7 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
   write('mine/index.html', v2().minePage());
 
   // --- Sammenlign fugle der ligner hinanden ---
-  const CMP_PAGES = PAIRS.length ? sammenlignPages(PAIRS, { esc, url, abs, size, credit, displayName, page: v2().page, SITE_NAME, photoOf: (d) => homeDD(d).photos?.hero }) : [];
+  const CMP_PAGES = PAIRS.length ? sammenlignPages(PAIRS, { esc, url, abs, size, credit, displayName, page: v2().page, SITE_NAME, photoOf: (d) => homeDD(d).photos?.hero, dragter: (d) => { const seen = new Set(); return shownPhotos(d).filter((x) => x.k !== 'hero' && !seen.has(x.l) && seen.add(x.l)); } }) : [];
   for (const pg of CMP_PAGES) write(pg.path, pg.html);
 
   // --- sitemap og robots ---

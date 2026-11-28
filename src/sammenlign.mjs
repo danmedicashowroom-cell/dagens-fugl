@@ -8,7 +8,8 @@ export function loadPairs(readJson, file, byKey) {
 }
 
 export function sammenlignPages(pairs, h) {
-  const { esc, url, abs, size, credit, displayName, page, SITE_NAME, photoOf } = h;
+  const { esc, url, abs, size, credit, displayName, page, SITE_NAME, photoOf, dragter } = h;
+  const PLAY = '<svg class="i-play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg><svg class="i-pause" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
   const nm = (d) => displayName(d);
   const lc = (s) => s.charAt(0).toLowerCase() + s.slice(1);
   const cmpUrl = (d) => `sammenlign/${d.slug}/`;
@@ -31,6 +32,13 @@ export function sammenlignPages(pairs, h) {
   </form>`;
   }
 
+  // Små billeder af de dragter, der findes (han, hun, ungfugl …) – samme udvalg som på artssiden
+  function dragtRow(d) {
+    const xs = dragter ? dragter(d) : [];
+    if (!xs.length) return '';
+    return `<ul class="cmp-dragter" aria-label="Dragter">${xs.map(({ ph, l }) => `<li><a href="${url(`fugle/${d.slug}/#fjerdragt`)}"><img src="${esc(size(ph, 'small'))}" alt="${esc(nm(d))}, ${esc(l.toLowerCase())}" loading="lazy" width="96" height="96" title="${esc(credit(ph).replace(/<[^>]+>/g, ''))}"><span>${esc(l)}</span></a></li>`).join('')}</ul>`;
+  }
+
   function bird(d, focal) {
     const ph = photoOf(d);
     const so = d.sound?.src?.length ? d.sound : null;
@@ -38,7 +46,9 @@ export function sammenlignPages(pairs, h) {
     return `<div class="cmp-bird${focal ? ' focal' : ''}">
     ${ph ? `<figure><img src="${esc(ph.medium)}" srcset="${esc(ph.medium)} 500w, ${esc(size(ph, 'large'))} 1024w" sizes="(min-width: 1100px) 540px, (min-width: 700px) 45vw, 100vw" alt="${esc(nm(d))}" loading="lazy" decoding="async"><figcaption>${credit(ph)}</figcaption></figure>` : '<div class="cmp-noimg" aria-hidden="true"></div>'}
     <p class="cmp-name"><a href="${url(`fugle/${d.slug}/`)}">${esc(nm(d))}</a> <i>${esc(d.names.accepted)}</i></p>
-    ${so ? `<audio controls preload="none" aria-label="Lyd: ${esc(nm(d))}">${so.src.map((x) => `<source src="${esc(x.u)}"${x.type && x.type !== 'application/ogg' ? ` type="${esc(x.type)}"` : ''}>`).join('')}</audio>
+    ${dragtRow(d)}
+    ${so ? `<div class="player" data-player><button type="button" class="play" aria-label="Afspil lyden af ${esc(lc(nm(d)))}">${PLAY}</button><div class="track" aria-hidden="true"><span></span></div><span class="time" aria-live="off">0:00</span></div>
+    <audio controls preload="none" aria-label="Lyd: ${esc(nm(d))}">${so.src.map((x) => `<source src="${esc(x.u)}"${x.type && x.type !== 'application/ogg' ? ` type="${esc(x.type)}"` : ''}>`).join('')}</audio>
     <p class="cmp-credit">Optaget af ${esc(so.artist || 'ukendt')}, ${lic}, via <a href="${esc(so.page)}" rel="noopener" target="_blank">${esc(so.via || 'xeno-canto')}</a>.</p>` : '<p class="cmp-credit">Ingen lydoptagelse.</p>'}
     ${!focal && bySlug.has(d.slug) ? `<p class="cmp-more"><a href="${url(cmpUrl(d))}">Sammenlign ${esc(lc(nm(d)))} →</a></p>` : ''}
   </div>`;

@@ -498,3 +498,9 @@ body.v2s .cmp-intro .lead { margin: 0; font-size: 1.1rem; max-width: 64ch; }
 .fq-fb-form .btn { justify-self: start; }
 .fq-fb-tak { margin: 6px 0 0; font-size: .9rem; color: var(--muted); }
 @media (min-width: 761px) { .fq-opts { grid-template-columns: repeat(4, minmax(0, 1fr)); } .fq-opts.n6 { grid-template-columns: repeat(3, minmax(0, 1fr)); } .fq-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } .fq-grid.n6 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.fq-sound { padding: 22px 24px; }
+.cmp-dragter { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 10px 0 12px; }
+.cmp-dragter li { margin: 0; }
+.cmp-dragter a { display: flex; flex-direction: column; align-items: center; gap: 4px; text-decoration: none; color: var(--muted); font-size: .8rem; }
+.cmp-dragter img { width: 72px; height: 72px; object-fit: cover; border-radius: 10px; background: var(--surface2); }
+.cmp-bird .player { margin: 8px 0 4px; }

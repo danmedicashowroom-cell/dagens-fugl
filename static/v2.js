@@ -93,8 +93,8 @@
   }
 
   // ---- Lydafspiller ----
-  document.querySelectorAll('[data-player]').forEach(function (pl) {
-    var audio = pl.parentNode.querySelector('audio');
+  window.dfPlayer = function (pl) {
+    var audio = pl.nextElementSibling && pl.nextElementSibling.tagName === 'AUDIO' ? pl.nextElementSibling : pl.parentNode.querySelector('audio');
     var btn = pl.querySelector('.play');
     var fill = pl.querySelector('.track span');
     var time = pl.querySelector('.time');
@@ -116,7 +116,8 @@
     if (srcs.length) srcs[srcs.length - 1].addEventListener('error', function () {
       pl.hidden = true; audio.style.display = 'block';
     });
-  });
+  };
+  document.querySelectorAll('[data-player]').forEach(window.dfPlayer);
 
   // ---- Mine fugle ----
   var mine = document.getElementById('mine-v2');
