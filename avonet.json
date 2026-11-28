@@ -1,0 +1,6896 @@
+{
+"accipiter-nisus": {
+"mass": 220.8,
+"wing": 207.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"aegypius-monachus": {
+"mass": 9320.6,
+"wing": 734.2,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"aquila-adalberti": {
+"mass": 2958,
+"wing": 592.5,
+"habitat": "Woodland",
+"density": 1,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"aquila-chrysaetos": {
+"mass": 4248,
+"wing": 603.1,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"aquila-fasciata": {
+"mass": 1936.5,
+"wing": 486.8,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"aquila-heliaca": {
+"mass": 3125.2,
+"wing": 582.2,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"aquila-nipalensis": {
+"mass": 2714.3,
+"wing": 559.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"buteo-buteo": {
+"mass": 759.1,
+"wing": 383.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"buteo-jamaicensis": {
+"mass": 1101.2,
+"wing": 402.8,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"buteo-lagopus": {
+"mass": 949.8,
+"wing": 428.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"buteo-rufinus": {
+"mass": 1166.2,
+"wing": 447.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"circaetus-gallicus": {
+"mass": 1699.1,
+"wing": 537,
+"habitat": "Woodland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"circus-aeruginosus": {
+"mass": 704.1,
+"wing": 405.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"circus-cyaneus": {
+"mass": 393,
+"wing": 352.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"circus-hudsonius": {
+"mass": 393,
+"wing": 360.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"circus-macrourus": {
+"mass": 384.4,
+"wing": 351.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"circus-pygargus": {
+"mass": 310.8,
+"wing": 362.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"clanga-clanga": {
+"mass": 2154.3,
+"wing": 510.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"clanga-pomarina": {
+"mass": 1359.4,
+"wing": 459.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"elanus-caeruleus": {
+"mass": 259.8,
+"wing": 286.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"gypaetus-barbatus": {
+"mass": 5695,
+"wing": 760.6,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"gyps-africanus": {
+"mass": 5433,
+"wing": 578.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"gyps-fulvus": {
+"mass": 7436,
+"wing": 687.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"haliaeetus-albicilla": {
+"mass": 4729.3,
+"wing": 599.5,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"haliaeetus-leucocephalus": {
+"mass": 4700.6,
+"wing": 601.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"harpia-harpyja": {
+"mass": 4800,
+"wing": 569.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"hieraaetus-pennatus": {
+"mass": 823.8,
+"wing": 361.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"ictinaetus-malaiensis": {
+"mass": 1028,
+"wing": 552.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"melierax-canorus": {
+"mass": 663.3,
+"wing": 353,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"milvus-migrans": {
+"mass": 734.1,
+"wing": 457.4,
+"habitat": "Woodland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Aerial"
+},
+"milvus-milvus": {
+"mass": 1071.8,
+"wing": 481.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"neophron-percnopterus": {
+"mass": 2082,
+"wing": 490.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Scavenger",
+"lifestyle": "Generalist"
+},
+"pernis-apivorus": {
+"mass": 754.4,
+"wing": 407.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"pernis-ptilorhynchus": {
+"mass": 1141.1,
+"wing": 413.6,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"polemaetus-bellicosus": {
+"mass": 3964.5,
+"wing": 571.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"spilornis-cheela": {
+"mass": 597.7,
+"wing": 373.7,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"terathopius-ecaudatus": {
+"mass": 2200,
+"wing": 500.4,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"pandion-haliaetus": {
+"mass": 1483.2,
+"wing": 468.4,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sagittarius-serpentarius": {
+"mass": 4017,
+"wing": 615.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Terrestrial"
+},
+"aix-galericulata": {
+"mass": 567,
+"wing": 222.2,
+"habitat": "Forest",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Generalist"
+},
+"aix-sponsa": {
+"mass": 657.6,
+"wing": 220.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"alopochen-aegyptiaca": {
+"mass": 1873,
+"wing": 356,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"anas-acuta": {
+"mass": 944.6,
+"wing": 256.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"anas-crecca": {
+"mass": 341.9,
+"wing": 178.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"anas-platyrhynchos": {
+"mass": 843.4,
+"wing": 263.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"anas-rubripes": {
+"mass": 1241,
+"wing": 267.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"anser-albifrons": {
+"mass": 2506.4,
+"wing": 408.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"anser-anser": {
+"mass": 3302.4,
+"wing": 435.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"anser-brachyrhynchus": {
+"mass": 2642,
+"wing": 432.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"anser-erythropus": {
+"mass": 1755.5,
+"wing": 369,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"anser-fabalis": {
+"mass": 2754.7,
+"wing": 452.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"anser-indicus": {
+"mass": 2212.6,
+"wing": 437.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"anser-rossii": {
+"mass": 1636,
+"wing": 346,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"anser-serrirostris": {
+"mass": 2668,
+"wing": 432.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"aythya-affinis": {
+"mass": 819.5,
+"wing": 198.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"aythya-collaris": {
+"mass": 704.6,
+"wing": 194.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"aythya-ferina": {
+"mass": 823,
+"wing": 208.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"aythya-fuligula": {
+"mass": 701.2,
+"wing": 196.9,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"aythya-marila": {
+"mass": 1005.4,
+"wing": 213.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"aythya-nyroca": {
+"mass": 574,
+"wing": 182.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"branta-bernicla": {
+"mass": 1277.9,
+"wing": 319.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"branta-canadensis": {
+"mass": 2811.7,
+"wing": 422.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"branta-leucopsis": {
+"mass": 1684,
+"wing": 381.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"branta-ruficollis": {
+"mass": 1226.5,
+"wing": 345.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"bucephala-clangula": {
+"mass": 918.6,
+"wing": 208.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"clangula-hyemalis": {
+"mass": 871,
+"wing": 215.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"cygnus-atratus": {
+"mass": 5623.2,
+"wing": 459.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"cygnus-buccinator": {
+"mass": 11071.1,
+"wing": 625.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"cygnus-columbianus": {
+"mass": 6378,
+"wing": 538.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"cygnus-cygnus": {
+"mass": 9350,
+"wing": 582,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"cygnus-olor": {
+"mass": 10682,
+"wing": 581.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"histrionicus-histrionicus": {
+"mass": 561.6,
+"wing": 194,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"lophodytes-cucullatus": {
+"mass": 613.8,
+"wing": 186.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"mareca-americana": {
+"mass": 754.6,
+"wing": 253.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"mareca-penelope": {
+"mass": 770,
+"wing": 250.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"mareca-strepera": {
+"mass": 915.6,
+"wing": 251.3,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"marmaronetta-angustirostris": {
+"mass": 477,
+"wing": 200.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"melanitta-americana": {
+"mass": 1117,
+"wing": 220,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"melanitta-deglandi": {
+"mass": 1800.2,
+"wing": 270,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"melanitta-fusca": {
+"mass": 1800.2,
+"wing": 259.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"melanitta-nigra": {
+"mass": 1050,
+"wing": 221.1,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"melanitta-perspicillata": {
+"mass": 1096.3,
+"wing": 226.3,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"melanitta-stejnegeri": {
+"mass": 1800.2,
+"wing": 267.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"mergellus-albellus": {
+"mass": 608.6,
+"wing": 187.3,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"mergus-merganser": {
+"mass": 1451,
+"wing": 270.8,
+"habitat": "Riverine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"mergus-serrator": {
+"mass": 1015.2,
+"wing": 233.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"netta-rufina": {
+"mass": 1118,
+"wing": 258.3,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"oxyura-jamaicensis": {
+"mass": 608.2,
+"wing": 139.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"oxyura-leucocephala": {
+"mass": 661.1,
+"wing": 148.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"polysticta-stelleri": {
+"mass": 806.8,
+"wing": 203.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"sibirionetta-formosa": {
+"mass": 434,
+"wing": 206,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"somateria-mollissima": {
+"mass": 2060.9,
+"wing": 280.2,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"somateria-spectabilis": {
+"mass": 1616.7,
+"wing": 266.3,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"spatula-clypeata": {
+"mass": 612.6,
+"wing": 226.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"spatula-discors": {
+"mass": 359.4,
+"wing": 178.3,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"spatula-querquedula": {
+"mass": 325.6,
+"wing": 188.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"tadorna-ferruginea": {
+"mass": 1235,
+"wing": 355.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"tadorna-tadorna": {
+"mass": 1146.8,
+"wing": 313.9,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"chauna-torquata": {
+"mass": 4400,
+"wing": 517,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Terrestrial"
+},
+"apteryx-mantelli": {
+"mass": 2320.5,
+"wing": 0.1,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"buceros-bicornis": {
+"mass": 2790.8,
+"wing": 509.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"ocyceros-birostris": {
+"mass": 375,
+"wing": 212.3,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"bucorvus-leadbeateri": {
+"mass": 3743.6,
+"wing": 534.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"upupa-epops": {
+"mass": 66.9,
+"wing": 142.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"apus-affinis": {
+"mass": 22.6,
+"wing": 126.5,
+"habitat": "Human Modified",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"apus-apus": {
+"mass": 37.6,
+"wing": 161.3,
+"habitat": "Human Modified",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"apus-caffer": {
+"mass": 22.1,
+"wing": 144.8,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"apus-pacificus": {
+"mass": 39.4,
+"wing": 173,
+"habitat": "Woodland",
+"density": 1,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"apus-pallidus": {
+"mass": 41.9,
+"wing": 166.8,
+"habitat": "Rock",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"hirundapus-caudacutus": {
+"mass": 95.5,
+"wing": 206,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"caprimulgus-aegyptius": {
+"mass": 77.3,
+"wing": 200.8,
+"habitat": "Desert",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"caprimulgus-europaeus": {
+"mass": 67,
+"wing": 180.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"chordeiles-minor": {
+"mass": 79.3,
+"wing": 192.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"nyctibius-griseus": {
+"mass": 172,
+"wing": 256.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"podargus-strigoides": {
+"mass": 308,
+"wing": 228.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"steatornis-caripensis": {
+"mass": 408,
+"wing": 308.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"archilochus-colubris": {
+"mass": 3.1,
+"wing": 40.7,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Nectarivore",
+"lifestyle": "Generalist"
+},
+"calypte-anna": {
+"mass": 4.2,
+"wing": 49,
+"habitat": "Woodland",
+"density": 2,
+"migration": 2,
+"trophic": "Nectarivore",
+"lifestyle": "Aerial"
+},
+"ensifera-ensifera": {
+"mass": 11.2,
+"wing": 76.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Nectarivore",
+"lifestyle": "Aerial"
+},
+"selasphorus-rufus": {
+"mass": 3.5,
+"wing": 40.7,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Nectarivore",
+"lifestyle": "Aerial"
+},
+"cariama-cristata": {
+"mass": 1400,
+"wing": 357.1,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"casuarius-casuarius": {
+"mass": 44000,
+"wing": 300.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Terrestrial"
+},
+"dromaius-novaehollandiae": {
+"mass": 34093.3,
+"wing": 124.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"cathartes-aura": {
+"mass": 1518.2,
+"wing": 508.5,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 2,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"coragyps-atratus": {
+"mass": 1881.7,
+"wing": 410.1,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 2,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"gymnogyps-californianus": {
+"mass": 8442.7,
+"wing": 788,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"sarcoramphus-papa": {
+"mass": 3400,
+"wing": 508.2,
+"habitat": "Forest",
+"density": 3,
+"migration": 1,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"vultur-gryphus": {
+"mass": 11236.1,
+"wing": 789.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Scavenger",
+"lifestyle": "Terrestrial"
+},
+"alca-torda": {
+"mass": 726,
+"wing": 209.3,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"alle-alle": {
+"mass": 180.7,
+"wing": 115.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"cepphus-grylle": {
+"mass": 378,
+"wing": 154,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"fratercula-arctica": {
+"mass": 593,
+"wing": 163.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"fratercula-cirrhata": {
+"mass": 774.4,
+"wing": 194.1,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"fratercula-corniculata": {
+"mass": 536.1,
+"wing": 185.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"uria-aalge": {
+"mass": 991.9,
+"wing": 196.3,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"uria-lomvia": {
+"mass": 964,
+"wing": 206.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"burhinus-oedicnemus": {
+"mass": 459,
+"wing": 233.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"charadrius-hiaticula": {
+"mass": 64,
+"wing": 126,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"charadrius-vociferus": {
+"mass": 96.4,
+"wing": 158.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"pluvialis-apricaria": {
+"mass": 214,
+"wing": 181.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"pluvialis-dominica": {
+"mass": 151.5,
+"wing": 181.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"pluvialis-fulva": {
+"mass": 134.9,
+"wing": 159,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"pluvialis-squatarola": {
+"mass": 250,
+"wing": 184.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"vanellus-chilensis": {
+"mass": 327,
+"wing": 226,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"vanellus-gregarius": {
+"mass": 224.5,
+"wing": 200.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"vanellus-leucurus": {
+"mass": 132,
+"wing": 171.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"vanellus-spinosus": {
+"mass": 188,
+"wing": 196.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"vanellus-vanellus": {
+"mass": 218.4,
+"wing": 222.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"cursorius-cursor": {
+"mass": 138,
+"wing": 151.5,
+"habitat": "Desert",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"glareola-maldivarum": {
+"mass": 75.2,
+"wing": 176.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"glareola-nordmanni": {
+"mass": 97.2,
+"wing": 196,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"glareola-pratincola": {
+"mass": 84.9,
+"wing": 181.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"haematopus-ostralegus": {
+"mass": 526,
+"wing": 250.3,
+"habitat": "Coastal",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"hydrophasianus-chirurgus": {
+"mass": 160,
+"wing": 194.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"chlidonias-hybrida": {
+"mass": 83.7,
+"wing": 231.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"chlidonias-leucopterus": {
+"mass": 54.2,
+"wing": 208.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"chlidonias-niger": {
+"mass": 65.3,
+"wing": 201.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"chroicocephalus-genei": {
+"mass": 281,
+"wing": 300.8,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"chroicocephalus-philadelphia": {
+"mass": 210.7,
+"wing": 259.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Aerial"
+},
+"chroicocephalus-ridibundus": {
+"mass": 284,
+"wing": 291.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"creagrus-furcatus": {
+"mass": 687,
+"wing": 409,
+"habitat": "Marine",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"gelochelidon-nilotica": {
+"mass": 218.3,
+"wing": 307.7,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Aerial"
+},
+"hydrocoloeus-minutus": {
+"mass": 118,
+"wing": 218.9,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"hydroprogne-caspia": {
+"mass": 655,
+"wing": 410.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"ichthyaetus-audouinii": {
+"mass": 535,
+"wing": 394.4,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"ichthyaetus-ichthyaetus": {
+"mass": 1378.8,
+"wing": 470.8,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"ichthyaetus-melanocephalus": {
+"mass": 256,
+"wing": 302.4,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"larus-argentatus": {
+"mass": 1091,
+"wing": 429,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"larus-armenicus": {
+"mass": 867,
+"wing": 430.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"larus-cachinnans": {
+"mass": 1111.9,
+"wing": 427.2,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"larus-canus": {
+"mass": 412.5,
+"wing": 351,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"larus-delawarensis": {
+"mass": 516.3,
+"wing": 366,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"larus-fuscus": {
+"mass": 762.4,
+"wing": 412.2,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"larus-glaucescens": {
+"mass": 1056.5,
+"wing": 411.8,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"larus-glaucoides": {
+"mass": 693.3,
+"wing": 395.8,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"larus-hyperboreus": {
+"mass": 1529,
+"wing": 463,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"larus-marinus": {
+"mass": 1649.7,
+"wing": 478.2,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"larus-michahellis": {
+"mass": 1111.9,
+"wing": 422.8,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"leucophaeus-atricilla": {
+"mass": 307.4,
+"wing": 298.4,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"leucophaeus-pipixcan": {
+"mass": 280,
+"wing": 279.4,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"onychoprion-anaethetus": {
+"mass": 119.4,
+"wing": 273.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"pagophila-eburnea": {
+"mass": 550,
+"wing": 333.4,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"rhodostethia-rosea": {
+"mass": 187,
+"wing": 251.2,
+"habitat": "Coastal",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"rissa-tridactyla": {
+"mass": 416,
+"wing": 301,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"rynchops-niger": {
+"mass": 297.7,
+"wing": 365.7,
+"habitat": "Riverine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sterna-dougallii": {
+"mass": 112,
+"wing": 223.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sterna-hirundo": {
+"mass": 129.2,
+"wing": 253.3,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sterna-paradisaea": {
+"mass": 110,
+"wing": 262.7,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sternula-albifrons": {
+"mass": 57,
+"wing": 169.6,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"thalasseus-bengalensis": {
+"mass": 209,
+"wing": 293.2,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"thalasseus-elegans": {
+"mass": 260,
+"wing": 296.6,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"thalasseus-sandvicensis": {
+"mass": 199.8,
+"wing": 288.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"xema-sabini": {
+"mass": 198,
+"wing": 265,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"himantopus-himantopus": {
+"mass": 176.8,
+"wing": 225.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"recurvirostra-avosetta": {
+"mass": 304,
+"wing": 217.9,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"actitis-hypoleucos": {
+"mass": 48,
+"wing": 109.9,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"actitis-macularius": {
+"mass": 40.4,
+"wing": 100.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"arenaria-interpres": {
+"mass": 136,
+"wing": 148.8,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"bartramia-longicauda": {
+"mass": 158.9,
+"wing": 159,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"calidris-acuminata": {
+"mass": 66.1,
+"wing": 128.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-alba": {
+"mass": 51.7,
+"wing": 119.6,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-alpina": {
+"mass": 51.9,
+"wing": 115.1,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-bairdii": {
+"mass": 41,
+"wing": 121.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-canutus": {
+"mass": 141.9,
+"wing": 164.4,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-falcinellus": {
+"mass": 37.1,
+"wing": 99.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-ferruginea": {
+"mass": 58.1,
+"wing": 129,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-fuscicollis": {
+"mass": 43,
+"wing": 118.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-himantopus": {
+"mass": 57.2,
+"wing": 126.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-maritima": {
+"mass": 65.1,
+"wing": 121,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-melanotos": {
+"mass": 79.7,
+"wing": 125.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-minuta": {
+"mass": 21.1,
+"wing": 93.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-pugnax": {
+"mass": 131.7,
+"wing": 163.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-pusilla": {
+"mass": 27.5,
+"wing": 92.7,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-pygmaea": {
+"mass": 31.7,
+"wing": 99.4,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-ruficollis": {
+"mass": 26.8,
+"wing": 99.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calidris-subruficollis": {
+"mass": 62.1,
+"wing": 128.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"calidris-temminckii": {
+"mass": 23,
+"wing": 96.7,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"gallinago-gallinago": {
+"mass": 112.9,
+"wing": 127.9,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"gallinago-media": {
+"mass": 170,
+"wing": 141,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"limnodromus-scolopaceus": {
+"mass": 104.4,
+"wing": 145.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"limosa-haemastica": {
+"mass": 253.3,
+"wing": 210.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"limosa-lapponica": {
+"mass": 291.7,
+"wing": 210.1,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"limosa-limosa": {
+"mass": 288.4,
+"wing": 215.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"lymnocryptes-minimus": {
+"mass": 50.1,
+"wing": 105.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"numenius-arquata": {
+"mass": 803,
+"wing": 292.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"numenius-phaeopus": {
+"mass": 364.6,
+"wing": 233,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"phalaropus-fulicarius": {
+"mass": 55.6,
+"wing": 126.3,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"phalaropus-lobatus": {
+"mass": 36.7,
+"wing": 109,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"phalaropus-tricolor": {
+"mass": 59.4,
+"wing": 127.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"scolopax-rusticola": {
+"mass": 308.3,
+"wing": 192.4,
+"habitat": "Forest",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"tringa-erythropus": {
+"mass": 158,
+"wing": 163.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"tringa-flavipes": {
+"mass": 77.5,
+"wing": 152.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"tringa-glareola": {
+"mass": 62.1,
+"wing": 124,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"tringa-melanoleuca": {
+"mass": 161.7,
+"wing": 194.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"tringa-nebularia": {
+"mass": 187,
+"wing": 185.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"tringa-ochropus": {
+"mass": 71.4,
+"wing": 137.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"tringa-stagnatilis": {
+"mass": 77.5,
+"wing": 133.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"tringa-totanus": {
+"mass": 129,
+"wing": 156.9,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"xenus-cinereus": {
+"mass": 78.8,
+"wing": 127.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"stercorarius-longicaudus": {
+"mass": 287.9,
+"wing": 301.7,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"stercorarius-parasiticus": {
+"mass": 444.3,
+"wing": 310.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"stercorarius-pomarinus": {
+"mass": 692.5,
+"wing": 350.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"stercorarius-skua": {
+"mass": 1338.2,
+"wing": 394.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"anastomus-lamelligerus": {
+"mass": 1081,
+"wing": 393.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"anastomus-oscitans": {
+"mass": 1590,
+"wing": 397,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"ciconia-ciconia": {
+"mass": 3445.8,
+"wing": 565.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"ciconia-nigra": {
+"mass": 2926,
+"wing": 529.5,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"ephippiorhynchus-senegalensis": {
+"mass": 6158.7,
+"wing": 617.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"jabiru-mycteria": {
+"mass": 5996.3,
+"wing": 640.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"leptoptilos-crumenifer": {
+"mass": 6067.9,
+"wing": 708.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"mycteria-leucocephala": {
+"mass": 3180,
+"wing": 474.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"colius-striatus": {
+"mass": 51.1,
+"wing": 94.8,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"columba-livia": {
+"mass": 354.2,
+"wing": 219.6,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"columba-oenas": {
+"mass": 290.8,
+"wing": 214.8,
+"habitat": "Woodland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"columba-palumbus": {
+"mass": 490,
+"wing": 246.4,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"streptopelia-decaocto": {
+"mass": 149,
+"wing": 174.6,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"streptopelia-orientalis": {
+"mass": 232.9,
+"wing": 176.5,
+"habitat": "Woodland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"streptopelia-turtur": {
+"mass": 132,
+"wing": 170.7,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"zenaida-macroura": {
+"mass": 118.9,
+"wing": 144.4,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"alcedo-atthis": {
+"mass": 31.1,
+"wing": 73.3,
+"habitat": "Riverine",
+"density": 2,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Insessorial"
+},
+"ceryle-rudis": {
+"mass": 84.4,
+"wing": 136.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Insessorial"
+},
+"dacelo-novaeguineae": {
+"mass": 333.8,
+"wing": 216.1,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"halcyon-senegalensis": {
+"mass": 73.4,
+"wing": 99.4,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"halcyon-smyrnensis": {
+"mass": 91.4,
+"wing": 113.2,
+"habitat": "Human Modified",
+"density": 2,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"megaceryle-alcyon": {
+"mass": 148,
+"wing": 158.8,
+"habitat": "Riverine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Insessorial"
+},
+"coracias-benghalensis": {
+"mass": 157.5,
+"wing": 180.1,
+"habitat": "Human Modified",
+"density": 2,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"coracias-caudatus": {
+"mass": 110,
+"wing": 161.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"coracias-garrulus": {
+"mass": 146,
+"wing": 190.8,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"eurystomus-orientalis": {
+"mass": 143,
+"wing": 186.2,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"merops-apiaster": {
+"mass": 56.6,
+"wing": 143.8,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"merops-nubicus": {
+"mass": 42.4,
+"wing": 145.2,
+"habitat": "Grassland",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"merops-persicus": {
+"mass": 49.3,
+"wing": 153.8,
+"habitat": "Desert",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"momotus-momota": {
+"mass": 115,
+"wing": 142.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"clamator-glandarius": {
+"mass": 143,
+"wing": 194,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"coccyzus-americanus": {
+"mass": 64,
+"wing": 143.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"coccyzus-erythropthalmus": {
+"mass": 50.9,
+"wing": 136.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"crotophaga-ani": {
+"mass": 110.1,
+"wing": 144,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"cuculus-canorus": {
+"mass": 111.4,
+"wing": 192,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"geococcyx-californianus": {
+"mass": 376,
+"wing": 181,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"guira-guira": {
+"mass": 141,
+"wing": 173.6,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"eurypyga-helias": {
+"mass": 210,
+"wing": 216.5,
+"habitat": "Wetland",
+"density": 2,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"caracara-plancus": {
+"mass": 1078.6,
+"wing": 380,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"falco-cherrug": {
+"mass": 961.2,
+"wing": 378.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Generalist"
+},
+"falco-columbarius": {
+"mass": 188.5,
+"wing": 199.6,
+"habitat": "Woodland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"falco-eleonorae": {
+"mass": 390,
+"wing": 311.9,
+"habitat": "Coastal",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Aerial"
+},
+"falco-naumanni": {
+"mass": 152.1,
+"wing": 229.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"falco-peregrinus": {
+"mass": 760,
+"wing": 314.7,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"falco-rusticolus": {
+"mass": 1431.7,
+"wing": 368,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"falco-sparverius": {
+"mass": 114.6,
+"wing": 182.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"falco-subbuteo": {
+"mass": 208.2,
+"wing": 260.7,
+"habitat": "Woodland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"falco-tinnunculus": {
+"mass": 183.2,
+"wing": 241.8,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"falco-vespertinus": {
+"mass": 151.5,
+"wing": 237.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"milvago-chimachima": {
+"mass": 315.2,
+"wing": 285.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"galbula-ruficauda": {
+"mass": 26.5,
+"wing": 78.3,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"alectura-lathami": {
+"mass": 2333.1,
+"wing": 289.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"numida-meleagris": {
+"mass": 1299,
+"wing": 253.8,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"callipepla-californica": {
+"mass": 165.7,
+"wing": 108.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"colinus-virginianus": {
+"mass": 171.9,
+"wing": 109.8,
+"habitat": "Human Modified",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"alectoris-chukar": {
+"mass": 502.1,
+"wing": 153.8,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"alectoris-graeca": {
+"mass": 594.1,
+"wing": 155.7,
+"habitat": "Rock",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"alectoris-rufa": {
+"mass": 527.9,
+"wing": 155.3,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"chrysolophus-pictus": {
+"mass": 555.2,
+"wing": 177.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"coturnix-coturnix": {
+"mass": 96.3,
+"wing": 106.2,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"gallus-gallus": {
+"mass": 751.7,
+"wing": 218.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"lagopus-lagopus": {
+"mass": 566.9,
+"wing": 195.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"lagopus-muta": {
+"mass": 535.3,
+"wing": 188.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"lophophorus-impejanus": {
+"mass": 2066.5,
+"wing": 286.2,
+"habitat": "Forest",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"lyrurus-tetrix": {
+"mass": 1068.7,
+"wing": 240.5,
+"habitat": "Forest",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Terrestrial"
+},
+"meleagris-gallopavo": {
+"mass": 5791.4,
+"wing": 448.8,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"pavo-cristatus": {
+"mass": 4154.8,
+"wing": 445.2,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"perdix-perdix": {
+"mass": 405.3,
+"wing": 151.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"phasianus-colchicus": {
+"mass": 1120.3,
+"wing": 231.6,
+"habitat": "Human Modified",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"pternistis-swainsonii": {
+"mass": 597.1,
+"wing": 186.5,
+"habitat": "Grassland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"tetrao-urogallus": {
+"mass": 2716.6,
+"wing": 347.3,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Generalist"
+},
+"tetrastes-bonasia": {
+"mass": 429,
+"wing": 169.4,
+"habitat": "Woodland",
+"density": 1,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Generalist"
+},
+"gavia-adamsii": {
+"mass": 4944.3,
+"wing": 371.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"gavia-arctica": {
+"mass": 2251.1,
+"wing": 285.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"gavia-immer": {
+"mass": 4956.8,
+"wing": 365.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"gavia-pacifica": {
+"mass": 2251.1,
+"wing": 291.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"gavia-stellata": {
+"mass": 1486,
+"wing": 275.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"aramus-guarauna": {
+"mass": 1080,
+"wing": 241.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"antigone-canadensis": {
+"mass": 4296.2,
+"wing": 477.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"balearica-regulorum": {
+"mass": 3772,
+"wing": 569,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"grus-americana": {
+"mass": 5826,
+"wing": 605.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"grus-grus": {
+"mass": 5500,
+"wing": 540.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"grus-japonensis": {
+"mass": 8786,
+"wing": 616,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"leucogeranus-leucogeranus": {
+"mass": 5913.4,
+"wing": 579.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"crex-crex": {
+"mass": 154.9,
+"wing": 137,
+"habitat": "Grassland",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"fulica-atra": {
+"mass": 717.1,
+"wing": 198.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Generalist"
+},
+"fulica-cristata": {
+"mass": 826,
+"wing": 212,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Aquatic"
+},
+"gallinula-chloropus": {
+"mass": 339.6,
+"wing": 165.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"porphyrio-alleni": {
+"mass": 138.7,
+"wing": 152.6,
+"habitat": "Wetland",
+"density": 2,
+"migration": 3,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Terrestrial"
+},
+"porphyrio-porphyrio": {
+"mass": 773.9,
+"wing": 234.9,
+"habitat": "Wetland",
+"density": 2,
+"migration": 1,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Terrestrial"
+},
+"porzana-porzana": {
+"mass": 87.1,
+"wing": 112.9,
+"habitat": "Wetland",
+"density": 1,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"rallus-aquaticus": {
+"mass": 110.7,
+"wing": 114.1,
+"habitat": "Wetland",
+"density": 1,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"zapornia-parva": {
+"mass": 49.7,
+"wing": 100.9,
+"habitat": "Wetland",
+"density": 1,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"zapornia-pusilla": {
+"mass": 35.4,
+"wing": 84.4,
+"habitat": "Wetland",
+"density": 1,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"corythaixoides-concolor": {
+"mass": 258,
+"wing": 215.4,
+"habitat": "Grassland",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"tauraco-persa": {
+"mass": 306,
+"wing": 177.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"opisthocomus-hoazin": {
+"mass": 696,
+"wing": 322,
+"habitat": "Riverine",
+"density": 2,
+"migration": 1,
+"trophic": "Herbivore terrestrial",
+"lifestyle": "Insessorial"
+},
+"chlamydotis-macqueenii": {
+"mass": 1501.3,
+"wing": 383.4,
+"habitat": "Desert",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"otis-tarda": {
+"mass": 6759.9,
+"wing": 550.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"tetrax-tetrax": {
+"mass": 833.5,
+"wing": 239.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"acrocephalus-agricola": {
+"mass": 9.6,
+"wing": 55.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"acrocephalus-arundinaceus": {
+"mass": 30,
+"wing": 95.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"acrocephalus-dumetorum": {
+"mass": 11.2,
+"wing": 62.1,
+"habitat": "Wetland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"acrocephalus-melanopogon": {
+"mass": 10.9,
+"wing": 56.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"acrocephalus-paludicola": {
+"mass": 11.6,
+"wing": 62.1,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"acrocephalus-palustris": {
+"mass": 11.5,
+"wing": 68.6,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"acrocephalus-schoenobaenus": {
+"mass": 11.8,
+"wing": 65.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"acrocephalus-scirpaceus": {
+"mass": 12.3,
+"wing": 67.1,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"hippolais-icterina": {
+"mass": 13.2,
+"wing": 77.9,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"hippolais-polyglotta": {
+"mass": 11,
+"wing": 66.2,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"iduna-caligata": {
+"mass": 8.9,
+"wing": 59.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"iduna-opaca": {
+"mass": 9,
+"wing": 68.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"iduna-pallida": {
+"mass": 9,
+"wing": 64.9,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"aegithalos-caudatus": {
+"mass": 8.6,
+"wing": 63.1,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"alauda-arvensis": {
+"mass": 37.3,
+"wing": 106.7,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"alaudala-rufescens": {
+"mass": 24.1,
+"wing": 86.1,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"calandrella-brachydactyla": {
+"mass": 21.1,
+"wing": 93.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"chersophilus-duponti": {
+"mass": 39.4,
+"wing": 95.7,
+"habitat": "Grassland",
+"density": 2,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"eremophila-alpestris": {
+"mass": 33.3,
+"wing": 108.1,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"galerida-cristata": {
+"mass": 42.7,
+"wing": 103.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"galerida-theklae": {
+"mass": 38.2,
+"wing": 98.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"lullula-arborea": {
+"mass": 26.9,
+"wing": 94.2,
+"habitat": "Woodland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"melanocorypha-bimaculata": {
+"mass": 54.1,
+"wing": 116.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"melanocorypha-calandra": {
+"mass": 61.6,
+"wing": 124,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"gymnorhina-tibicen": {
+"mass": 284.9,
+"wing": 256.6,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"bombycilla-cedrorum": {
+"mass": 31.6,
+"wing": 95.4,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"bombycilla-garrulus": {
+"mass": 54.4,
+"wing": 116.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"calcarius-lapponicus": {
+"mass": 27.8,
+"wing": 94.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"plectrophenax-nivalis": {
+"mass": 42.2,
+"wing": 107.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"pericrocotus-flammeus": {
+"mass": 23.3,
+"wing": 87.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"cardinalis-cardinalis": {
+"mass": 42.6,
+"wing": 93.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"passerina-ciris": {
+"mass": 15.5,
+"wing": 69.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"passerina-cyanea": {
+"mass": 14.7,
+"wing": 64.8,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"pheucticus-ludovicianus": {
+"mass": 42,
+"wing": 101.3,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"piranga-olivacea": {
+"mass": 28.2,
+"wing": 92.6,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"certhia-brachydactyla": {
+"mass": 8.2,
+"wing": 62.1,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"certhia-familiaris": {
+"mass": 9,
+"wing": 64.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"cinclus-cinclus": {
+"mass": 61.5,
+"wing": 88.9,
+"habitat": "Riverine",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"cisticola-juncidis": {
+"mass": 6.8,
+"wing": 48.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"corcorax-melanorhamphos": {
+"mass": 364,
+"wing": 244.9,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"aphelocoma-californica": {
+"mass": 85.7,
+"wing": 123.7,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-albus": {
+"mass": 524,
+"wing": 353.3,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-brachyrhynchos": {
+"mass": 448.8,
+"wing": 293.5,
+"habitat": "Human Modified",
+"density": 2,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-corax": {
+"mass": 928,
+"wing": 419.7,
+"habitat": "Forest",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-cornix": {
+"mass": 426.5,
+"wing": 327.8,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-corone": {
+"mass": 570,
+"wing": 333.5,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-frugilegus": {
+"mass": 452.1,
+"wing": 312.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-ruficollis": {
+"mass": 573.5,
+"wing": 385.5,
+"habitat": "Desert",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"corvus-splendens": {
+"mass": 292.6,
+"wing": 258.2,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"cyanocitta-cristata": {
+"mass": 88,
+"wing": 130,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"cyanocitta-stelleri": {
+"mass": 128,
+"wing": 145.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"cyanocorax-yncas": {
+"mass": 78.5,
+"wing": 121.5,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"cyanopica-cooki": {
+"mass": 70.4,
+"wing": 132.1,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"dendrocitta-vagabunda": {
+"mass": 100,
+"wing": 155,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"garrulus-glandarius": {
+"mass": 159.5,
+"wing": 181.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"nucifraga-caryocatactes": {
+"mass": 182.5,
+"wing": 184.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"perisoreus-infaustus": {
+"mass": 84.4,
+"wing": 140.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"pica-hudsonia": {
+"mass": 177.1,
+"wing": 202.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"pica-pica": {
+"mass": 217.5,
+"wing": 193.3,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"pyrrhocorax-graculus": {
+"mass": 211,
+"wing": 267.4,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"pyrrhocorax-pyrrhocorax": {
+"mass": 276.7,
+"wing": 284.5,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"urocissa-erythroryncha": {
+"mass": 151.5,
+"wing": 181.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"rupicola-peruvianus": {
+"mass": 242.5,
+"wing": 183.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"dicrurus-macrocercus": {
+"mass": 48.3,
+"wing": 141,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"emberiza-buchanani": {
+"mass": 21.2,
+"wing": 86,
+"habitat": "Rock",
+"density": 3,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"emberiza-caesia": {
+"mass": 19.9,
+"wing": 83.4,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"emberiza-calandra": {
+"mass": 48.5,
+"wing": 97.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"emberiza-cia": {
+"mass": 23.4,
+"wing": 79.8,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"emberiza-cineracea": {
+"mass": 24.3,
+"wing": 91,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"emberiza-cirlus": {
+"mass": 25.6,
+"wing": 77.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"emberiza-citrinella": {
+"mass": 29.7,
+"wing": 88.2,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"emberiza-hortulana": {
+"mass": 19.9,
+"wing": 85.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"emberiza-leucocephalos": {
+"mass": 28.5,
+"wing": 91.6,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"estrilda-astrild": {
+"mass": 8.3,
+"wing": 46.6,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"acanthis-cabaret": {
+"mass": 12,
+"wing": 72,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"acanthis-flammea": {
+"mass": 13,
+"wing": 75.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"acanthis-hornemanni": {
+"mass": 13.9,
+"wing": 84,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"bucanetes-githagineus": {
+"mass": 19.6,
+"wing": 81.9,
+"habitat": "Desert",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"carduelis-carduelis": {
+"mass": 16,
+"wing": 77.4,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"carpodacus-erythrinus": {
+"mass": 24,
+"wing": 80.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"chloris-chloris": {
+"mass": 26,
+"wing": 85.3,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"coccothraustes-coccothraustes": {
+"mass": 56.6,
+"wing": 102,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"fringilla-coelebs": {
+"mass": 23.8,
+"wing": 85.9,
+"habitat": "Forest",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"fringilla-montifringilla": {
+"mass": 23.2,
+"wing": 89.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"haemorhous-mexicanus": {
+"mass": 21.4,
+"wing": 77.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"linaria-cannabina": {
+"mass": 19.5,
+"wing": 78.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"linaria-flavirostris": {
+"mass": 15.4,
+"wing": 75.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"loxia-curvirostra": {
+"mass": 38.3,
+"wing": 96,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"loxia-leucoptera": {
+"mass": 28.7,
+"wing": 88.7,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"loxia-pytyopsittacus": {
+"mass": 53,
+"wing": 103,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"pinicola-enucleator": {
+"mass": 56.4,
+"wing": 109.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"pyrrhula-pyrrhula": {
+"mass": 24.3,
+"wing": 88.6,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"serinus-serinus": {
+"mass": 11.2,
+"wing": 70.8,
+"habitat": "Forest",
+"density": 2,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"spinus-spinus": {
+"mass": 13.2,
+"wing": 71.6,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"spinus-tristis": {
+"mass": 12.8,
+"wing": 69.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"furnarius-rufus": {
+"mass": 46.4,
+"wing": 95.8,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"cecropis-daurica": {
+"mass": 22.2,
+"wing": 122.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"cecropis-semirufa": {
+"mass": 30.1,
+"wing": 126.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"delichon-urbicum": {
+"mass": 14.5,
+"wing": 108.1,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"hirundo-rustica": {
+"mass": 17.9,
+"wing": 115.8,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"ptyonoprogne-rupestris": {
+"mass": 20.4,
+"wing": 129.5,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"riparia-riparia": {
+"mass": 12.7,
+"wing": 101.8,
+"habitat": "Riverine",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"tachycineta-bicolor": {
+"mass": 21.2,
+"wing": 115.9,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"agelaius-phoeniceus": {
+"mass": 50.8,
+"wing": 118,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"icterus-galbula": {
+"mass": 32.8,
+"wing": 92.1,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"psarocolius-montezuma": {
+"mass": 309.9,
+"wing": 220,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"quiscalus-quiscula": {
+"mass": 105.2,
+"wing": 132.9,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"sturnella-magna": {
+"mass": 91.8,
+"wing": 108.1,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"lanius-collurio": {
+"mass": 28.4,
+"wing": 93.7,
+"habitat": "Woodland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-cristatus": {
+"mass": 32.2,
+"wing": 85,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-excubitor": {
+"mass": 63.4,
+"wing": 109.2,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-meridionalis": {
+"mass": 60.4,
+"wing": 104.1,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-minor": {
+"mass": 46.5,
+"wing": 118,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-nubicus": {
+"mass": 19.7,
+"wing": 89.5,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-phoenicuroides": {
+"mass": 28,
+"wing": 90.8,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-schach": {
+"mass": 51.5,
+"wing": 92.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lanius-senator": {
+"mass": 36,
+"wing": 97.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"garrulax-canorus": {
+"mass": 62.8,
+"wing": 92.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"leiothrix-lutea": {
+"mass": 21.4,
+"wing": 68.2,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"helopsaltes-fasciolatus": {
+"mass": 27.1,
+"wing": 75.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"locustella-fluviatilis": {
+"mass": 16.1,
+"wing": 74.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"locustella-lanceolata": {
+"mass": 10.6,
+"wing": 54.6,
+"habitat": "Grassland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"locustella-luscinioides": {
+"mass": 13.9,
+"wing": 70.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"locustella-naevia": {
+"mass": 13.3,
+"wing": 64.1,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"malurus-cyaneus": {
+"mass": 10.3,
+"wing": 50.7,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"manorina-melanocephala": {
+"mass": 60.2,
+"wing": 136.1,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"prosthemadera-novaeseelandiae": {
+"mass": 105.8,
+"wing": 147.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Nectarivore",
+"lifestyle": "Insessorial"
+},
+"menura-novaehollandiae": {
+"mass": 972.6,
+"wing": 280.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"dumetella-carolinensis": {
+"mass": 35.3,
+"wing": 90.7,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"mimus-polyglottos": {
+"mass": 48.5,
+"wing": 112.3,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"grallina-cyanoleuca": {
+"mass": 82.6,
+"wing": 172.1,
+"habitat": "Grassland",
+"density": 2,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"terpsiphone-paradisi": {
+"mass": 19.2,
+"wing": 95,
+"habitat": "Woodland",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"anthus-campestris": {
+"mass": 23,
+"wing": 91.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-cervinus": {
+"mass": 20.9,
+"wing": 83.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-godlewskii": {
+"mass": 25.3,
+"wing": 89.8,
+"habitat": "Rock",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-hodgsoni": {
+"mass": 21.3,
+"wing": 81,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-petrosus": {
+"mass": 22.4,
+"wing": 88.2,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-pratensis": {
+"mass": 18.4,
+"wing": 77.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-richardi": {
+"mass": 32.2,
+"wing": 92,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-spinoletta": {
+"mass": 23.9,
+"wing": 86.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"anthus-trivialis": {
+"mass": 23.3,
+"wing": 86.1,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"motacilla-alba": {
+"mass": 23.9,
+"wing": 87,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"motacilla-cinerea": {
+"mass": 17.2,
+"wing": 82.8,
+"habitat": "Riverine",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"motacilla-citreola": {
+"mass": 19.1,
+"wing": 85.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"motacilla-flava": {
+"mass": 17.7,
+"wing": 79.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"motacilla-tschutschensis": {
+"mass": 18.5,
+"wing": 78.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"calliope-calliope": {
+"mass": 18.5,
+"wing": 78.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"cercotrichas-galactotes": {
+"mass": 20.3,
+"wing": 85.7,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"copsychus-saularis": {
+"mass": 36,
+"wing": 97.5,
+"habitat": "Woodland",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"cyanoptila-cyanomelana": {
+"mass": 22.5,
+"wing": 90.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"erithacus-rubecula": {
+"mass": 17.7,
+"wing": 71.6,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"ficedula-albicilla": {
+"mass": 10.8,
+"wing": 68.4,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"ficedula-albicollis": {
+"mass": 12.7,
+"wing": 80.6,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"ficedula-hypoleuca": {
+"mass": 13.8,
+"wing": 79.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"ficedula-narcissina": {
+"mass": 13.1,
+"wing": 75.2,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"ficedula-parva": {
+"mass": 10.8,
+"wing": 67,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"larvivora-sibilans": {
+"mass": 16.7,
+"wing": 68.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"luscinia-luscinia": {
+"mass": 23.8,
+"wing": 89.2,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"luscinia-megarhynchos": {
+"mass": 19.6,
+"wing": 84,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"luscinia-svecica": {
+"mass": 17.2,
+"wing": 73.1,
+"habitat": "Grassland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"monticola-saxatilis": {
+"mass": 50.3,
+"wing": 120.8,
+"habitat": "Rock",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"monticola-solitarius": {
+"mass": 53.7,
+"wing": 121.1,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"muscicapa-dauurica": {
+"mass": 9.8,
+"wing": 70.5,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"muscicapa-striata": {
+"mass": 15.9,
+"wing": 86.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-deserti": {
+"mass": 19.8,
+"wing": 92.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-hispanica": {
+"mass": 15,
+"wing": 87.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-isabellina": {
+"mass": 29.4,
+"wing": 96.9,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-leucopyga": {
+"mass": 27.9,
+"wing": 100.8,
+"habitat": "Desert",
+"density": 3,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-leucura": {
+"mass": 41,
+"wing": 96.9,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-melanoleuca": {
+"mass": 15,
+"wing": 87.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-oenanthe": {
+"mass": 25.4,
+"wing": 95.1,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"oenanthe-pleschanka": {
+"mass": 19.4,
+"wing": 92.8,
+"habitat": "Rock",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phoenicurus-ochruros": {
+"mass": 16.5,
+"wing": 83.1,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phoenicurus-phoenicurus": {
+"mass": 14.6,
+"wing": 77.9,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"saxicola-maurus": {
+"mass": 12.6,
+"wing": 69.4,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"saxicola-rubetra": {
+"mass": 16.6,
+"wing": 76.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"saxicola-rubicola": {
+"mass": 15.3,
+"wing": 64.6,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"tarsiger-cyanurus": {
+"mass": 13.4,
+"wing": 78.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"aethopyga-siparaja": {
+"mass": 6.7,
+"wing": 50.4,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Nectarivore",
+"lifestyle": "Insessorial"
+},
+"nectarinia-famosa": {
+"mass": 14.4,
+"wing": 68.8,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"oriolus-oriolus": {
+"mass": 79,
+"wing": 151.6,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"panurus-biarmicus": {
+"mass": 13.8,
+"wing": 60,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"baeolophus-bicolor": {
+"mass": 21.6,
+"wing": 77.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"cyanistes-caeruleus": {
+"mass": 11.1,
+"wing": 65.6,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"lophophanes-cristatus": {
+"mass": 11,
+"wing": 64,
+"habitat": "Woodland",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"parus-major": {
+"mass": 16.3,
+"wing": 74.2,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"periparus-ater": {
+"mass": 9.2,
+"wing": 61.1,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"poecile-atricapillus": {
+"mass": 10.8,
+"wing": 64.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"poecile-cinctus": {
+"mass": 11.4,
+"wing": 67.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"poecile-montanus": {
+"mass": 11.1,
+"wing": 65.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"poecile-palustris": {
+"mass": 11.1,
+"wing": 64,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"setophaga-petechia": {
+"mass": 10.2,
+"wing": 60.2,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"setophaga-ruticilla": {
+"mass": 8.2,
+"wing": 62,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"setophaga-striata": {
+"mass": 11.8,
+"wing": 74.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"junco-hyemalis": {
+"mass": 19.5,
+"wing": 75.2,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"melospiza-melodia": {
+"mass": 21.9,
+"wing": 66.3,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"zonotrichia-albicollis": {
+"mass": 24.4,
+"wing": 72.8,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"zonotrichia-capensis": {
+"mass": 20.3,
+"wing": 63.9,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"zonotrichia-leucophrys": {
+"mass": 28,
+"wing": 78.7,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"montifringilla-nivalis": {
+"mass": 36.9,
+"wing": 119,
+"habitat": "Rock",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"passer-domesticus": {
+"mass": 26.5,
+"wing": 74.9,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"passer-hispaniolensis": {
+"mass": 24.2,
+"wing": 76.3,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"passer-italiae": {
+"mass": 28.3,
+"wing": 76.9,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"passer-montanus": {
+"mass": 21.4,
+"wing": 67.9,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"petronia-petronia": {
+"mass": 30.2,
+"wing": 93,
+"habitat": "Rock",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"phylloscopus-bonelli": {
+"mass": 8.7,
+"wing": 63.5,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-borealis": {
+"mass": 10.9,
+"wing": 66.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-collybita": {
+"mass": 8.3,
+"wing": 58.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-fuscatus": {
+"mass": 8.7,
+"wing": 62.3,
+"habitat": "Wetland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-griseolus": {
+"mass": 7.6,
+"wing": 63.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"phylloscopus-humei": {
+"mass": 6,
+"wing": 54.6,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-ibericus": {
+"mass": 8.3,
+"wing": 58.8,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-inornatus": {
+"mass": 6.6,
+"wing": 58.4,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-nitidus": {
+"mass": 7.8,
+"wing": 62.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-plumbeitarsus": {
+"mass": 8.6,
+"wing": 58.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-proregulus": {
+"mass": 6,
+"wing": 51.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-schwarzi": {
+"mass": 11.4,
+"wing": 63.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-sibilatrix": {
+"mass": 9.2,
+"wing": 75.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-trochiloides": {
+"mass": 8.1,
+"wing": 61.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"phylloscopus-trochilus": {
+"mass": 8.7,
+"wing": 65.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"chiroxiphia-caudata": {
+"mass": 25.6,
+"wing": 75.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"pitta-moluccensis": {
+"mass": 76,
+"wing": 122.1,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"euplectes-afer": {
+"mass": 14.3,
+"wing": 55,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"euplectes-orix": {
+"mass": 23,
+"wing": 71,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"ploceus-cucullatus": {
+"mass": 36.1,
+"wing": 82.6,
+"habitat": "Woodland",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"ploceus-melanocephalus": {
+"mass": 23,
+"wing": 72,
+"habitat": "Wetland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"quelea-quelea": {
+"mass": 18.6,
+"wing": 66.1,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"promerops-cafer": {
+"mass": 34.7,
+"wing": 93.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Nectarivore",
+"lifestyle": "Insessorial"
+},
+"prunella-atrogularis": {
+"mass": 18.5,
+"wing": 73.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"prunella-collaris": {
+"mass": 38.6,
+"wing": 100,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"prunella-modularis": {
+"mass": 20.2,
+"wing": 69.1,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"prunella-montanella": {
+"mass": 17,
+"wing": 72.1,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"ptilonorhynchus-violaceus": {
+"mass": 218.9,
+"wing": 164.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"pycnonotus-barbatus": {
+"mass": 32.1,
+"wing": 93.6,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"pycnonotus-jocosus": {
+"mass": 29.5,
+"wing": 86.8,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"regulus-ignicapilla": {
+"mass": 5.6,
+"wing": 52.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"regulus-regulus": {
+"mass": 5.5,
+"wing": 52.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"remiz-pendulinus": {
+"mass": 9.3,
+"wing": 56.1,
+"habitat": "Wetland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"rhipidura-leucophrys": {
+"mass": 27.4,
+"wing": 99,
+"habitat": "Woodland",
+"density": 3,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"cettia-cetti": {
+"mass": 13.2,
+"wing": 60.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"sitta-carolinensis": {
+"mass": 21,
+"wing": 88.6,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"sitta-europaea": {
+"mass": 20.4,
+"wing": 85.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"sitta-krueperi": {
+"mass": 12.4,
+"wing": 71.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"sitta-neumayer": {
+"mass": 26.5,
+"wing": 80.2,
+"habitat": "Rock",
+"density": 3,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"acridotheres-tristis": {
+"mass": 116.4,
+"wing": 139.8,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"lamprotornis-superbus": {
+"mass": 64.9,
+"wing": 117.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"pastor-roseus": {
+"mass": 73,
+"wing": 128.9,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"sturnus-unicolor": {
+"mass": 83.7,
+"wing": 128.2,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"sturnus-vulgaris": {
+"mass": 77.1,
+"wing": 128.3,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"curruca-cantillans": {
+"mass": 9.6,
+"wing": 62.7,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-communis": {
+"mass": 15.1,
+"wing": 72.6,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-conspicillata": {
+"mass": 9,
+"wing": 55.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-curruca": {
+"mass": 11.4,
+"wing": 65.1,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-iberiae": {
+"mass": 9.6,
+"wing": 57.2,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-melanocephala": {
+"mass": 11.7,
+"wing": 58.7,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-nana": {
+"mass": 8.7,
+"wing": 56.1,
+"habitat": "Desert",
+"density": 3,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-nisoria": {
+"mass": 22.5,
+"wing": 88.3,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-ruppeli": {
+"mass": 12.8,
+"wing": 69,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-sarda": {
+"mass": 9.8,
+"wing": 55.8,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-subalpina": {
+"mass": 9.6,
+"wing": 57.2,
+"habitat": "Shrubland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"curruca-undata": {
+"mass": 10.8,
+"wing": 53.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"sylvia-atricapilla": {
+"mass": 16.7,
+"wing": 75.9,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"sylvia-borin": {
+"mass": 18.2,
+"wing": 78.7,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"coereba-flaveola": {
+"mass": 10,
+"wing": 54.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Nectarivore",
+"lifestyle": "Insessorial"
+},
+"geospiza-fortis": {
+"mass": 24,
+"wing": 73.4,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"paroaria-coronata": {
+"mass": 37.8,
+"wing": 98.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"ramphocelus-carbo": {
+"mass": 25.9,
+"wing": 78.1,
+"habitat": "Human Modified",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"sicalis-flaveola": {
+"mass": 16.9,
+"wing": 69.5,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"tangara-seledon": {
+"mass": 18.7,
+"wing": 64.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"thraupis-episcopus": {
+"mass": 35,
+"wing": 87.3,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"tichodroma-muraria": {
+"mass": 17.6,
+"wing": 99.5,
+"habitat": "Rock",
+"density": 1,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"thryothorus-ludovicianus": {
+"mass": 19,
+"wing": 59.4,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"catharus-guttatus": {
+"mass": 30.1,
+"wing": 89,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"catharus-ustulatus": {
+"mass": 30.3,
+"wing": 96.6,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"sialia-sialis": {
+"mass": 27.5,
+"wing": 95.8,
+"habitat": "Woodland",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"turdus-atrogularis": {
+"mass": 106,
+"wing": 133.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"turdus-eunomus": {
+"mass": 73.2,
+"wing": 127.1,
+"habitat": "Forest",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"turdus-iliacus": {
+"mass": 61.2,
+"wing": 116.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"turdus-merula": {
+"mass": 102.7,
+"wing": 128.4,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Generalist"
+},
+"turdus-migratorius": {
+"mass": 78.5,
+"wing": 127,
+"habitat": "Forest",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"turdus-obscurus": {
+"mass": 62.6,
+"wing": 119.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"turdus-philomelos": {
+"mass": 67.7,
+"wing": 116,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"turdus-pilaris": {
+"mass": 106,
+"wing": 144.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"turdus-rufiventris": {
+"mass": 69.4,
+"wing": 115.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"turdus-torquatus": {
+"mass": 109,
+"wing": 141.6,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"turdus-viscivorus": {
+"mass": 117.4,
+"wing": 153.7,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"zoothera-aurea": {
+"mass": 134.1,
+"wing": 158.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"pitangus-sulphuratus": {
+"mass": 62.9,
+"wing": 111.9,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"pyrocephalus-rubinus": {
+"mass": 14.4,
+"wing": 74.3,
+"habitat": "Woodland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"vidua-macroura": {
+"mass": 15.7,
+"wing": 69,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"vireo-olivaceus": {
+"mass": 16.1,
+"wing": 77.5,
+"habitat": "Forest",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"ardea-alba": {
+"mass": 871.3,
+"wing": 378.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"ardea-cinerea": {
+"mass": 1443,
+"wing": 441,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"ardea-goliath": {
+"mass": 4468,
+"wing": 569.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"ardea-herodias": {
+"mass": 2523.4,
+"wing": 466.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"ardea-purpurea": {
+"mass": 1064.5,
+"wing": 349.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"ardeola-ralloides": {
+"mass": 287,
+"wing": 213.1,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"botaurus-lentiginosus": {
+"mass": 706,
+"wing": 270.8,
+"habitat": "Wetland",
+"density": 1,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"botaurus-stellaris": {
+"mass": 1319.5,
+"wing": 323.8,
+"habitat": "Wetland",
+"density": 1,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"cochlearius-cochlearius": {
+"mass": 643.2,
+"wing": 264.6,
+"habitat": "Wetland",
+"density": 2,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"egretta-garzetta": {
+"mass": 312,
+"wing": 252.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"egretta-thula": {
+"mass": 371,
+"wing": 252.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"nycticorax-nycticorax": {
+"mass": 810,
+"wing": 285.7,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"balaeniceps-rex": {
+"mass": 5941,
+"wing": 642.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"pelecanus-conspicillatus": {
+"mass": 5505,
+"wing": 601.5,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"pelecanus-crispus": {
+"mass": 9512.1,
+"wing": 687,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"pelecanus-erythrorhynchos": {
+"mass": 5608.5,
+"wing": 561,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"pelecanus-occidentalis": {
+"mass": 3427.8,
+"wing": 494.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"pelecanus-onocrotalus": {
+"mass": 9322.3,
+"wing": 646.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"scopus-umbretta": {
+"mass": 472,
+"wing": 293.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"bostrychia-hagedash": {
+"mass": 1238,
+"wing": 338.8,
+"habitat": "Grassland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"eudocimus-ruber": {
+"mass": 660.1,
+"wing": 260.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"geronticus-eremita": {
+"mass": 1202,
+"wing": 401.8,
+"habitat": "Rock",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"mesembrinibis-cayennensis": {
+"mass": 756,
+"wing": 296.1,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"nipponia-nippon": {
+"mass": 1900,
+"wing": 392.6,
+"habitat": "Wetland",
+"density": 2,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"platalea-ajaja": {
+"mass": 1490,
+"wing": 349,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"platalea-leucorodia": {
+"mass": 1868,
+"wing": 361.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"plegadis-falcinellus": {
+"mass": 626.6,
+"wing": 274.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"theristicus-caudatus": {
+"mass": 1726,
+"wing": 393,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"threskiornis-aethiopicus": {
+"mass": 1493.2,
+"wing": 364.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"phoeniconaias-minor": {
+"mass": 1500,
+"wing": 318.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Herbivore aquatic",
+"lifestyle": "Terrestrial"
+},
+"phoenicopterus-roseus": {
+"mass": 3031.6,
+"wing": 399,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"phoenicopterus-ruber": {
+"mass": 3031.6,
+"wing": 408.8,
+"habitat": "Coastal",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"psilopogon-haemacephalus": {
+"mass": 44.5,
+"wing": 80.6,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"megalaima-virens": {
+"mass": 202,
+"wing": 138.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"colaptes-auratus": {
+"mass": 131.5,
+"wing": 156.9,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 2,
+"trophic": "Invertivore",
+"lifestyle": "Generalist"
+},
+"dendrocopos-leucotos": {
+"mass": 116.8,
+"wing": 145.9,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"dendrocopos-major": {
+"mass": 74.9,
+"wing": 136.2,
+"habitat": "Woodland",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"dendrocoptes-medius": {
+"mass": 59,
+"wing": 123.6,
+"habitat": "Woodland",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"dryobates-minor": {
+"mass": 19.8,
+"wing": 90.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"dryobates-pubescens": {
+"mass": 25.6,
+"wing": 91.3,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"dryocopus-martius": {
+"mass": 321,
+"wing": 237.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"dryocopus-pileatus": {
+"mass": 286.6,
+"wing": 228.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"jynx-torquilla": {
+"mass": 35,
+"wing": 87.4,
+"habitat": "Woodland",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"melanerpes-formicivorus": {
+"mass": 79.6,
+"wing": 139.8,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Insessorial"
+},
+"picoides-tridactylus": {
+"mass": 65.5,
+"wing": 122.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"picus-viridis": {
+"mass": 176,
+"wing": 165.4,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"pteroglossus-castanotis": {
+"mass": 258.1,
+"wing": 154.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"ramphastos-sulfuratus": {
+"mass": 409.7,
+"wing": 200.4,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"ramphastos-toco": {
+"mass": 618,
+"wing": 242.2,
+"habitat": "Grassland",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"podiceps-auritus": {
+"mass": 453,
+"wing": 137.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"podiceps-cristatus": {
+"mass": 731,
+"wing": 183.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"podiceps-grisegena": {
+"mass": 1023,
+"wing": 167.1,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"podiceps-nigricollis": {
+"mass": 412.4,
+"wing": 127.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"tachybaptus-ruficollis": {
+"mass": 169.4,
+"wing": 100,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"diomedea-exulans": {
+"mass": 6961.3,
+"wing": 633.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"phoebastria-irrorata": {
+"mass": 3376.4,
+"wing": 534.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"thalassarche-melanophris": {
+"mass": 3202.9,
+"wing": 506.9,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"hydrobates-leucorhous": {
+"mass": 36.7,
+"wing": 150.4,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"hydrobates-pelagicus": {
+"mass": 25.2,
+"wing": 119,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"oceanites-oceanicus": {
+"mass": 30.4,
+"wing": 147.2,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"ardenna-gravis": {
+"mass": 849,
+"wing": 317.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"ardenna-grisea": {
+"mass": 787,
+"wing": 295.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"calonectris-diomedea": {
+"mass": 535,
+"wing": 345.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"fulmarus-glacialis": {
+"mass": 611.9,
+"wing": 321.1,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"puffinus-lherminieri": {
+"mass": 192.8,
+"wing": 198,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"puffinus-puffinus": {
+"mass": 453.3,
+"wing": 232.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"puffinus-yelkouan": {
+"mass": 497,
+"wing": 228.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"cacatua-galerita": {
+"mass": 720.4,
+"wing": 347.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"eolophus-roseicapilla": {
+"mass": 328,
+"wing": 256.2,
+"habitat": "Woodland",
+"density": 3,
+"migration": 1,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"nymphicus-hollandicus": {
+"mass": 94.6,
+"wing": 167.3,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"amazona-aestiva": {
+"mass": 451,
+"wing": 204.2,
+"habitat": "Shrubland",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"anodorhynchus-hyacinthinus": {
+"mass": 1331,
+"wing": 444,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"ara-ararauna": {
+"mass": 1125,
+"wing": 381.3,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"ara-macao": {
+"mass": 1015,
+"wing": 393.7,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"brotogeris-jugularis": {
+"mass": 63.2,
+"wing": 110.7,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"myiopsitta-monachus": {
+"mass": 120,
+"wing": 147.2,
+"habitat": "Human Modified",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"melopsittacus-undulatus": {
+"mass": 29,
+"wing": 95.4,
+"habitat": "Woodland",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Generalist"
+},
+"platycercus-elegans": {
+"mass": 123.9,
+"wing": 171,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"psittacula-krameri": {
+"mass": 116.1,
+"wing": 155.8,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"trichoglossus-moluccanus": {
+"mass": 113.3,
+"wing": 142.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"nestor-notabilis": {
+"mass": 863,
+"wing": 308.5,
+"habitat": "Grassland",
+"density": 2,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"pterocles-alchata": {
+"mass": 275.8,
+"wing": 194,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"pterocles-orientalis": {
+"mass": 404.9,
+"wing": 228.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"syrrhaptes-paradoxus": {
+"mass": 256.4,
+"wing": 235.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Granivore",
+"lifestyle": "Terrestrial"
+},
+"rhea-americana": {
+"mass": 23000,
+"wing": 604.5,
+"habitat": "Grassland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"aptenodytes-forsteri": {
+"mass": 33569.3,
+"wing": 179.4,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"aptenodytes-patagonicus": {
+"mass": 11731.1,
+"wing": 167.2,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"eudyptes-chrysocome": {
+"mass": 2327.9,
+"wing": 97.9,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"eudyptula-minor": {
+"mass": 1107.8,
+"wing": 67.2,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"pygoscelis-adeliae": {
+"mass": 4847.7,
+"wing": 94.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"pygoscelis-antarcticus": {
+"mass": 4146.1,
+"wing": 100.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"pygoscelis-papua": {
+"mass": 5933,
+"wing": 126.1,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"spheniscus-demersus": {
+"mass": 3130.1,
+"wing": 98.5,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"spheniscus-humboldti": {
+"mass": 4366.4,
+"wing": 105.2,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"spheniscus-magellanicus": {
+"mass": 4105.1,
+"wing": 109.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"spheniscus-mendiculus": {
+"mass": 1921.9,
+"wing": 82.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"aegolius-funereus": {
+"mass": 137.2,
+"wing": 169.1,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"asio-flammeus": {
+"mass": 322.6,
+"wing": 297.2,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"asio-otus": {
+"mass": 296.6,
+"wing": 280.7,
+"habitat": "Forest",
+"density": 2,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Aerial"
+},
+"athene-noctua": {
+"mass": 168.9,
+"wing": 157,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Insessorial"
+},
+"bubo-bubo": {
+"mass": 2668.5,
+"wing": 438.5,
+"habitat": "Rock",
+"density": 2,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"bubo-lacteus": {
+"mass": 2114.9,
+"wing": 435.4,
+"habitat": "Woodland",
+"density": 3,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"bubo-scandiacus": {
+"mass": 2028.8,
+"wing": 418.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"bubo-virginianus": {
+"mass": 1354.5,
+"wing": 351.7,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"glaucidium-passerinum": {
+"mass": 57.9,
+"wing": 101.2,
+"habitat": "Forest",
+"density": 1,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"megascops-asio": {
+"mass": 180,
+"wing": 168.5,
+"habitat": "Woodland",
+"density": 2,
+"migration": 1,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"otus-scops": {
+"mass": 92,
+"wing": 147.2,
+"habitat": "Woodland",
+"density": 2,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Insessorial"
+},
+"strix-aluco": {
+"mass": 472.5,
+"wing": 264.8,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"strix-nebulosa": {
+"mass": 1061.9,
+"wing": 436,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"strix-uralensis": {
+"mass": 780.6,
+"wing": 359.4,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"strix-varia": {
+"mass": 711.5,
+"wing": 341.2,
+"habitat": "Forest",
+"density": 2,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"surnia-ulula": {
+"mass": 319.9,
+"wing": 231.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 2,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"tyto-alba": {
+"mass": 403.3,
+"wing": 285.6,
+"habitat": "Human Modified",
+"density": 3,
+"migration": 1,
+"trophic": "Vertivore",
+"lifestyle": "Insessorial"
+},
+"struthio-camelus": {
+"mass": 111000,
+"wing": 579,
+"habitat": "Shrubland",
+"density": 3,
+"migration": 1,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"anhinga-anhinga": {
+"mass": 1235,
+"wing": 339.6,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"fregata-magnificens": {
+"mass": 1490.5,
+"wing": 642,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"gulosus-aristotelis": {
+"mass": 1764.3,
+"wing": 262.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"microcarbo-pygmaeus": {
+"mass": 676,
+"wing": 201,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"nannopterum-brasilianum": {
+"mass": 1239.3,
+"wing": 275.4,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+},
+"nannopterum-harrisi": {
+"mass": 3016.6,
+"wing": 188.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"phalacrocorax-carbo": {
+"mass": 2529,
+"wing": 340.2,
+"habitat": "Wetland",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aquatic"
+},
+"morus-bassanus": {
+"mass": 2998.7,
+"wing": 485.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sula-granti": {
+"mass": 1732.1,
+"wing": 416.8,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sula-leucogaster": {
+"mass": 1288.8,
+"wing": 388.6,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"sula-nebouxii": {
+"mass": 1520.1,
+"wing": 410.4,
+"habitat": "Marine",
+"density": 3,
+"migration": 2,
+"trophic": "Aquatic predator",
+"lifestyle": "Aerial"
+},
+"pharomachrus-mocinno": {
+"mass": 202.5,
+"wing": 202,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"trogon-massena": {
+"mass": 141,
+"wing": 174,
+"habitat": "Forest",
+"density": 1,
+"migration": 1,
+"trophic": "Frugivore",
+"lifestyle": "Insessorial"
+},
+"tachymarptis-melba": {
+"mass": 100.38,
+"wing": 219.3,
+"habitat": "Rock",
+"density": 1,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Aerial"
+},
+"charadrius-morinellus": {
+"mass": 108.16,
+"wing": 147.4,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Invertivore",
+"lifestyle": "Terrestrial"
+},
+"grus-virgo": {
+"mass": 2417,
+"wing": 484.8,
+"habitat": "Grassland",
+"density": 3,
+"migration": 3,
+"trophic": "Omnivore",
+"lifestyle": "Terrestrial"
+},
+"threskiornis-molucca": {
+"mass": 1794.89,
+"wing": 351.8,
+"habitat": "Wetland",
+"density": 3,
+"migration": 1,
+"trophic": "Aquatic predator",
+"lifestyle": "Terrestrial"
+},
+"calonectris-borealis": {
+"mass": 534.99,
+"wing": 347,
+"habitat": "Marine",
+"density": 3,
+"migration": 3,
+"trophic": "Aquatic predator",
+"lifestyle": "Generalist"
+}
+}
