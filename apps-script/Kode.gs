@@ -91,7 +91,7 @@ function feedback_(p) {
   if (sh.getLastRow() === 0) sh.appendRow(['tidspunkt', 'type', 'art', 'foto/lyd', 'besked', 'side']);
   sh.appendRow(row);
   MailApp.sendEmail({
-    to: Session.getEffectiveUser().getEmail(), name: NAME,
+    to: 'dagensfugl1@gmail.com', name: NAME,
     subject: 'Quiz-feedback: ' + row[1] + (row[2] ? ' – ' + row[2] : ''),
     body: 'Type: ' + row[1] + '\nArt: ' + row[2] + '\nFoto/lyd: ' + row[3] + '\nBesked: ' + (row[4] || '(ingen)') + '\nSide: ' + row[5]
   });
