@@ -7,9 +7,9 @@
   var form = $('fq-form'), setup = $('fq-setup'), play = $('fq-play'), end = $('fq-end');
   var writeBox = $('fq-write'), writeWrap = $('fq-write-wrap'), bestEl = $('fq-best');
   var SKEY = 'dagensfugl-fuglequiz';
-  var LVN = { 1: 'Lette', 2: 'Almindelige', 3: 'Svære', 4: 'Ekspert' };
+  var LVN = { 1: 'Lette', 2: 'Almindelige', 3: 'Svære', 4: 'Ekspert', fejl: 'Dem du tager fejl af' };
   var TYN = { foto: 'Foto', lyd: 'Lyd', navn: 'Navn', blandet: 'Blandet' };
-  var DATA = null, cfg = null, qs = [], qi = 0, score = 0, wrongs = [], answered = false;
+  var PAIRS = [], DATA = null, cfg = null, qs = [], qi = 0, score = 0, wrongs = [], answered = false;
 
   function load() { try { return JSON.parse(localStorage.getItem(SKEY) || '{}') || {}; } catch (e) { return {}; } }
   function save(o) { try { localStorage.setItem(SKEY, JSON.stringify(o)); } catch (e) {} }
@@ -20,12 +20,23 @@
 
   function readForm() {
     var f = new FormData(form);
-    var c = { lv: Number(f.get('lv')), type: f.get('type'), n: Number(f.get('n')), write: !!writeBox.checked };
+    var c = { lv: f.get('lv') === 'fejl' ? 'fejl' : Number(f.get('lv')), type: f.get('type'), n: Number(f.get('n')), write: !!writeBox.checked };
     if (c.lv === 4 && c.type !== 'navn') c.write = true;
     if (c.type === 'navn') c.write = false;
     return c;
   }
+  function fejlOption() {
+    var n = Object.keys(misses()).length;
+    var box = form.querySelector('.fq-choices.lv'); var ex = document.getElementById('fq-fejl');
+    if (n >= 3 && !ex) {
+      var l = el('label', 'fq-choice'); l.id = 'fq-fejl';
+      var r = el('input'); r.type = 'radio'; r.name = 'lv'; r.value = 'fejl';
+      var s = el('span'); s.appendChild(el('b', null, 'Dem du tager fejl af')); s.appendChild(el('small', null, n + ' arter, du har svaret forkert på'));
+      l.appendChild(r); l.appendChild(s); box.appendChild(l);
+    } else if (ex) ex.querySelector('small').textContent = n + ' arter, du har svaret forkert på';
+  }
   function syncForm() {
+    fejlOption();
     var c = readForm();
     writeWrap.hidden = c.type === 'navn';
     writeBox.disabled = c.lv === 4;
@@ -41,7 +52,23 @@
 
   // ---- Svarmuligheder ----
   function byKey(k) { for (var i = 0; i < DATA.length; i++) if (DATA[i].k === k) return DATA[i]; return null; }
-  function poolFor(lv) { return DATA.filter(function (x) { return x.l <= lv; }); }
+  function poolFor(lv) {
+    if (lv === 'fejl') { var m = misses(); return DATA.filter(function (x) { return m[x.k] > 0; }); }
+    return DATA.filter(function (x) { return x.l <= lv; });
+  }
+  // Arter man tager fejl af huskes i browseren og kommer oftere igen
+  function misses() { return load().fejl || {}; }
+  function noteMiss(k, wrong) {
+    var st = load(); var m = st.fejl || {};
+    if (wrong) m[k] = Math.min(5, (m[k] || 0) + 2); else if (m[k]) { m[k]--; if (m[k] <= 0) delete m[k]; }
+    st.fejl = m; save(st);
+  }
+  function weightedPick(list, n) {
+    var m = misses();
+    var w = list.map(function (x) { return { x: x, r: Math.pow(Math.random(), 1 / (1 + 2 * (m[x.k] || 0))) }; });
+    w.sort(function (a, b) { return b.r - a.r; });
+    return w.slice(0, n).map(function (o) { return o.x; });
+  }
   function distractors(ans, pool, k, lv, needSnd) {
     var others = pool.filter(function (x) { return x.k !== ans.k && (!needSnd || x.snd); });
     var out = [];
@@ -61,18 +88,20 @@
   }
 
   function build(c) {
+    var lvn = c.lv === 'fejl' ? 3 : c.lv;
     var pool = poolFor(c.lv);
+    var dpool = c.lv === 'fejl' ? poolFor(3) : pool;
     var withSnd = pool.filter(function (x) { return x.snd; });
     var src = c.type === 'lyd' ? withSnd : pool;
-    var chosen = shuffle(src).slice(0, c.n);
-    var k = c.lv >= 3 ? 5 : 3;
+    var chosen = c.lv === 'fejl' ? shuffle(src).slice(0, c.n) : weightedPick(src, c.n);
+    var k = lvn >= 3 ? 5 : 3;
     return chosen.map(function (sp) {
       var t = c.type;
       if (t === 'blandet') t = pick(sp.snd ? ['foto', 'lyd', 'navn'] : ['foto', 'navn']);
       var q = { sp: sp, t: t, write: c.write && t !== 'navn' };
-      if (t === 'foto') q.photo = photoOf(sp, c.lv);
-      if (!q.write) q.opts = shuffle([sp].concat(distractors(sp, pool, k, c.lv, false)));
-      if (t === 'navn') q.photos = q.opts.map(function (o) { return photoOf(o, c.lv); });
+      if (t === 'foto') q.photo = photoOf(sp, lvn);
+      if (!q.write) q.opts = shuffle([sp].concat(distractors(sp, dpool, k, lvn, false)));
+      if (t === 'navn') q.photos = q.opts.map(function (o) { return photoOf(o, lvn); });
       return q;
     });
   }
@@ -148,7 +177,7 @@
       var fail = function () {
         if (failed || answered || qs[qi] !== q) return; failed = true;
         sendFb({ kind: 'Lyden kunne ikke afspilles (automatisk)', art: q.sp.n + ' (' + q.sp.k + ')', medie: q.sp.snd.u });
-        q.t = 'foto'; q.photo = photoOf(q.sp, cfg.lv); q.lydFejl = true; show();
+        q.t = 'foto'; q.photo = photoOf(q.sp, cfg.lv === 'fejl' ? 3 : cfg.lv); q.lydFejl = true; show();
       };
       au.addEventListener('error', fail);
       setTimeout(function () { if (au.readyState < 1 && au.networkState !== 1) fail(); else if (au.readyState < 1) setTimeout(function () { if (au.readyState < 1) fail(); }, 7000); }, 8000);
@@ -231,10 +260,48 @@
     return wrap;
   }
 
-  function reveal(ok, text) {
+  // Efter svaret: artens kendetegn og – hvis der findes en sammenligning – hvordan den kendes fra den anden art
+  function pairOf(a, b) { for (var i = 0; i < PAIRS.length; i++) { var p = PAIRS[i]; if ((p.a === a && p.b === b) || (p.a === b && p.b === a)) return p; } return null; }
+  function learn(q, ok, picked) {
+    var sp = q.sp;
+    var box = el('div', 'fq-learn');
+    var lyd = q.t === 'lyd';
+    var main = lyd ? (sp.st || sp.kt) : (sp.kt || sp.st);
+    if (main) { var p1 = el('p'); p1.appendChild(el('b', null, (lyd && sp.st ? 'Stemme: ' : 'Kendetegn: '))); p1.appendChild(document.createTextNode(main)); box.appendChild(p1); }
+    var other = picked && picked.k !== sp.k ? picked : null;
+    var pair = other ? pairOf(sp.k, other.k) : null;
+    if (!pair && q.opts) for (var i = 0; i < q.opts.length && !pair; i++) if (q.opts[i].k !== sp.k && pairOf(sp.k, q.opts[i].k)) { other = q.opts[i]; pair = pairOf(sp.k, other.k); }
+    if (pair) {
+      var part = (lyd && pair.lyd) || pair.se || pair.lyd;
+      var flip = pair.a !== sp.k;
+      var h = el('p'); h.appendChild(el('b', null, 'Sådan kender du ' + sp.n.toLowerCase() + ' fra ' + other.n.toLowerCase() + ':'));
+      box.appendChild(h);
+      if (part.intro) box.appendChild(el('p', null, part.intro));
+      if (part.rows && part.rows.length) {
+        var tb = el('table', 'fq-cmp'); var hr = el('tr');
+        ['', sp.n, other.n].forEach(function (t) { hr.appendChild(el('th', null, t)); }); tb.appendChild(hr);
+        part.rows.forEach(function (r) { var tr = el('tr'); [r[0], flip ? r[2] : r[1], flip ? r[1] : r[2]].forEach(function (t, j) { tr.appendChild(el(j ? 'td' : 'th', null, t)); }); tb.appendChild(tr); });
+        box.appendChild(tb);
+      }
+      var a = el('a', null, 'Se og hør dem side om side'); a.href = pair.u; a.target = '_blank'; a.rel = 'noopener';
+      var pa = el('p'); pa.appendChild(a); box.appendChild(pa);
+    } else {
+      // Artens egen tekst om forveksling: den valgte art først, ellers en af de andre svarmuligheder
+      var fvOf = function (o) { return (sp.fv || []).filter(function (f) { return f.art === o.k; })[0]; };
+      var cand = (picked && picked.k !== sp.k ? [picked] : []).concat((q.opts || []).filter(function (o) { return o.k !== sp.k; }));
+      for (var j = 0; j < cand.length; j++) {
+        var f = fvOf(cand[j]);
+        if (f) { var pf = el('p'); pf.appendChild(el('b', null, 'Forskel fra ' + cand[j].n.toLowerCase() + ': ')); pf.appendChild(document.createTextNode(f.tekst)); box.appendChild(pf); break; }
+      }
+    }
+    return box.childNodes.length ? box : null;
+  }
+
+  function reveal(ok, text, picked) {
     var q = qs[qi];
     answered = true;
     if (ok) score++; else wrongs.push(q);
+    noteMiss(q.sp.k, !ok);
     var fb = $('fq-feedback');
     fb.className = 'fq-feedback ' + (ok ? 'ok' : 'bad');
     var p = el('p');
@@ -243,6 +310,8 @@
     p.appendChild(spLink(q.sp));
     p.appendChild(document.createTextNode('.'));
     fb.appendChild(p);
+    var info = learn(q, ok, picked);
+    if (info) fb.appendChild(info);
     fb.appendChild(fbBox(q));
     var media = $('fq-media');
     var cr = media.querySelector('.fq-credit');
@@ -265,14 +334,15 @@
       }
     });
     if (!ok) btn.classList.add('wrong');
-    reveal(ok);
+    reveal(ok, null, o);
   }
   function typed(v, f) {
     if (answered) return;
     var q = qs[qi]; var m = matches(v, q.sp);
     [].forEach.call(f.elements, function (x) { x.disabled = true; });
     f.classList.add(m ? 'right' : 'wrong');
-    reveal(!!m, m === 1 ? 'Rigtigt (lidt stavet anderledes)! ' : null);
+    var nv = norm(v); var other = nv ? DATA.filter(function (x) { return x.k !== q.sp.k && [x.n].concat(x.a || [], [x.sci]).map(norm).indexOf(nv) > -1; })[0] : null;
+    reveal(!!m, m === 1 ? 'Rigtigt (lidt stavet anderledes)! ' : null, other);
   }
   $('fq-next').addEventListener('click', function () { if (++qi < qs.length) show(); else finish(); });
 
@@ -300,7 +370,14 @@
     var bar = el('p', 'fq-endbtns');
     var again = el('button', 'btn primary', 'Prøv igen'); again.type = 'button'; again.addEventListener('click', function () { start(cfg); });
     var nw = el('button', 'btn', 'Vælg en anden quiz'); nw.type = 'button'; nw.addEventListener('click', function () { end.hidden = true; setup.hidden = false; syncForm(); root.scrollIntoView({ block: 'start' }); });
-    bar.appendChild(again); bar.appendChild(nw); end.appendChild(bar);
+    var share = el('button', 'btn', 'Del resultatet'); share.type = 'button';
+    share.addEventListener('click', function () {
+      var txt = 'Jeg fik ' + score + ' af ' + qs.length + ' rigtige i Fuglequizzen (' + LVN[cfg.lv] + ', ' + TYN[cfg.type].toLowerCase() + '). Kan du slå det?';
+      var u = location.origin + location.pathname + '?ref=del';
+      if (navigator.share) navigator.share({ title: 'Fuglequiz – Dagens Fugl', text: txt, url: u }).catch(function () {});
+      else if (navigator.clipboard) navigator.clipboard.writeText(txt + ' ' + u).then(function () { share.textContent = 'Kopieret – sæt ind hvor du vil'; });
+    });
+    bar.appendChild(again); bar.appendChild(share); bar.appendChild(nw); end.appendChild(bar);
     root.scrollIntoView({ block: 'start', behavior: 'smooth' });
   }
 
@@ -316,7 +393,7 @@
     var c = readForm();
     var btn = form.querySelector('.fq-start'); btn.disabled = true;
     (DATA ? Promise.resolve(DATA) : fetch(BASE + '/fuglequiz.json').then(function (r) { return r.json(); }))
-      .then(function (d) { DATA = d; btn.disabled = false; start(c); })
+      .then(function (d) { DATA = d.arter || d; PAIRS = d.par || []; btn.disabled = false; start(c); })
       .catch(function () { btn.disabled = false; bestEl.textContent = 'Quizzen kunne ikke hentes. Prøv igen om lidt.'; });
   });
 })();

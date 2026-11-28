@@ -1004,9 +1004,12 @@ ${CF_BEACON ? `<li><strong>Cloudflare Web Analytics</strong> (Cloudflare Inc., U
       const photos = quizPhotos(d)
         .map(({ ph, k }) => ({ u: ph.medium, c: `${whoShort(ph)} · ${licLabel(ph.license)} · iNaturalist · vist som udsnit`, s: ph.source, i: ph.id, ...(k === 'juvenile' ? { j: 1 } : {}) }));
       const s = d.sound?.src?.[0]?.u ? { u: d.sound.src[0].u, c: `${d.sound.artist || 'ukendt'} · ${d.sound.license} · ${d.sound.via || 'Wikimedia Commons'}`, s: d.sound.page } : null;
-      return { k: d.key, n: displayName(d), a: akaNames(d), sci: d.names.accepted, l: level(d), f: d.taxon?.family || d.names.accepted.split(' ')[0], g: d.names.accepted.split(' ')[0], u: url(speciesUrl(d)), p: photos, ...(s ? { snd: s } : {}) };
+      return { k: d.key, n: displayName(d), a: akaNames(d), sci: d.names.accepted, l: level(d), f: d.taxon?.family || d.names.accepted.split(' ')[0], g: d.names.accepted.split(' ')[0], u: url(speciesUrl(d)), p: photos, ...(s ? { snd: s } : {}), ...(d.tekst?.kendetegn ? { kt: d.tekst.kendetegn } : {}), ...(d.tekst?.stemme ? { st: d.tekst.stemme } : {}), ...(d.tekst?.forveksling ? { fv: d.tekst.forveksling } : {}) };
     }).filter((x) => x.p.length);
-    write('fuglequiz.json', JSON.stringify(qdata));
+    // Forvekslingspar (fra sammenligningssiderne) – vises efter svaret: »sådan kender du dem fra hinanden«
+    const inQuiz = new Set(qdata.map((x) => x.k));
+    const qpairs = PAIRS.filter((p) => inQuiz.has(p.a) && inQuiz.has(p.b)).map((p) => ({ a: p.a, b: p.b, ...(p.se ? { se: p.se } : {}), ...(p.lyd ? { lyd: p.lyd } : {}), u: url(`sammenlign/${p.A.slug}/`) }));
+    write('fuglequiz.json', JSON.stringify({ arter: qdata, par: qpairs }));
     const cnt = [1, 2, 3, 4].map((L) => qdata.filter((x) => x.l <= L).length);
     const LV = [
       ['1', 'Lette', `De ${cnt[0]} arter, man oftest møder i Danmark`],
