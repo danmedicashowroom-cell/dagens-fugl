@@ -5,11 +5,12 @@ import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 const UA = 'dagensfugl.dk dragter (dagensfugl1@gmail.com)';
 const API = 'https://commons.wikimedia.org/w/api.php';
+let DBG = 0;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function api(params) {
   const u = `${API}?format=json&formatversion=2&${new URLSearchParams(params)}`;
   for (let t = 0; t < 4; t++) {
-    try { const r = await fetch(u, { headers: { 'User-Agent': UA } }); if (r.ok) return r.json(); } catch { /* */ }
+    try { const r = await fetch(u, { headers: { 'User-Agent': UA, 'Api-User-Agent': UA } }); if (r.ok) return r.json(); if (DBG++ < 5) console.log('HTTP', r.status, u.slice(0, 160)); } catch (e) { if (DBG++ < 5) console.log('fejl', e.message); }
     await sleep(2000 * (t + 1));
   }
   return null;
@@ -38,6 +39,7 @@ for (const sp of species) {
     if (cats.length) break;
     await sleep(300);
   }
+  if (species.indexOf(sp) < 3) console.log(sp.k, 'kategorier:', cats.slice(0, 40).join(' | '));
   const res = {};
   for (const [season, re, not] of SEASON) {
     let sc = cats.filter((c) => re.test(c) && !(not && not.test(c)));
